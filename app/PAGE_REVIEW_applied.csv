@@ -1,0 +1,314 @@
+table,roll,name,new_page,confidence,reason
+A,15-16,of Health,442,high,"type Elixirs (Glitz & Klax's line) -> head 'elixir' 442; current 969 is the 'ring' head, wrong."
+A,21-22,of Life,442,high,type Elixirs -> head 'elixir' 442; current 905 not among candidates and wrong.
+A,59-60,Liquid Road,670,med,"both heads 'liquid' and 'road' point to 670 (consistent), vs a separate 'liquid' entry at current 772."
+A,72-73,Allspice II,763,med,"type Oils -> head 'oil' 763; current 899 is the 'powder' head, wrong section."
+A,87-88,of Armor II,764,high,"type Oils -> head 'oil' 764, not 'buckle' 230; current 69 wrong."
+A,172,of Enchantment II,768,high,"type Oils -> head 'oil' 768; current 1512 is 'weapon' head, wrong."
+A,374-375,of Far Seeing (Blue),780,high,type Ointments -> head 'ointment' 780.
+A,383-384,of Far Seeing (Gray),780,high,type Ointments -> head 'ointment' 780.
+A,387-388,of Far Seeing (White),780,high,type Ointments -> only candidate head 'ointment' 780; current 274 wrong.
+A,392-393,of Healing II,780,high,"type Ointments -> head 'ointment' 780; current 1324 is 'harp' head, wrong."
+A,424-425,Grades of Overwhelming Love,827,med,type Philters -> head 'philter' 827; fuzzy 'aleese's of overwhelming love' matches the '...of Overwhelming Love' name; current 828.
+A,429-430,of Drunkenness II,828,high,"type Philters -> head 'philter' 828, not 'potion' 865; current 865 wrong."
+A,448,of Blackmoor (Red),836,med,Type Pigments (Paints) -> head 'pigment' p836 fits far better than 'crown' p332. Current 807 is wrong.
+A,449-450,of Blackmoor (Blue),836,med,Type Pigments -> head 'pigment' p836; current 101 is clearly wrong.
+A,484-485,of Anti-Magic,855,med,Fuzzy 'of antimagic' = same item; head 'potion' p855 fits type Potions. Current 741 wrong.
+A,565-566,of Black Dragon Breath,864,high,"Type Potions; fuzzy 'of dragon breath' -> head 'potion' p864, not 'egg'. Current 1448 wrong."
+A,567-568,of Blue Dragon Breath,864,high,Potion dragon breath -> head 'potion' p864. Current 1448 wrong.
+A,569-570,of Brass Dragon Breath,864,high,Potion dragon breath -> head 'potion' p864. Current 1448 wrong.
+A,571-572,of Bronze Dragon Breath,864,high,Potion dragon breath -> head 'potion' p864. Current 1448 wrong.
+A,573-574,of Brown Dragon Breath,864,high,Potion dragon breath -> head 'potion' p864. Current 1448 wrong.
+A,575,of Cloud Dragon Breath,864,high,Potion dragon breath -> head 'potion' p864. Current 1448 wrong.
+A,576-577,of Copper Dragon Breath,864,high,Potion dragon breath -> head 'potion' p864. Current 1448 wrong.
+A,580-581,of Deep Dragon Breath,864,high,Potion dragon breath -> head 'potion' p864. Current 1448 wrong.
+A,584-585,of Gold Dragon Breath,864,high,Potion dragon breath -> head 'potion' p864. Current 1448 wrong.
+A,586,of Green Dragon Breath,864,high,Potion dragon breath -> head 'potion' p864. Current 1448 wrong.
+A,589-590,of Mist Dragon Breath,864,high,Potion dragon breath -> head 'potion' p864. Current 1448 wrong.
+A,591-592,of Red Dragon Breath,864,high,Potion dragon breath -> head 'potion' p864. Current 1448 wrong.
+A,595-596,of Shadow Dragon Breath,864,high,Potion dragon breath -> head 'potion' p864. Current 1448 wrong.
+A,597-598,of Silver Dragon Breath,864,high,Potion dragon breath -> head 'potion' p864. Current 1448 wrong.
+A,599,of Steel Dragon Breath,864,high,Potion dragon breath -> head 'potion' p864. Current 1448 wrong.
+A,600-601,of Topaz Dragon Breath,864,high,Potion dragon breath -> head 'potion' p864. Current 1448 wrong.
+A,602-603,of White Dragon Breath,864,high,Potion dragon breath -> head 'potion' p864. Current 1448 wrong.
+A,604-605,of Yellow Dragon Breath,864,high,Potion dragon breath -> head 'potion' p864. Current 1448 wrong.
+A,654-655,of Forgetfulness II,869,med,"Type Potions -> head 'potion' p869, not 'dust' p420 or 'weapon'. Current 420 wrong type."
+A,714-715,of Invisibility,873,med,Type Potions -> head 'potion'; potion pages 855/873. Invisibility potion at 873 (855 is generic). Current 771 (oil) wrong type.
+A,716-717,of Invulnerability,873,med,Type Potions -> head 'potion'; potion pages 873/898. Invulnerability potion at 873. Current 755 ('nest') wrong type.
+A,733-734,of Life Stealing,876,med,"Type Potions -> head 'potion' p876, not sword/mirror. Fuzzy variants include sword life stealing but item is a Potion. Current 1380 (sword) wrong type."
+A,755-756,of Magic Resistance II,878,high,type Potions -> head 'potion' 878; fuzzy 'of magic resistance potion' confirms same item
+A,854-855,of Regeneration II,887,high,type Potions -> head 'potion' 887 over 'ring' 993
+A,968-969,of Water Breathing II,897,high,type Potions -> head 'potion' 897 over 'necklace' 753
+A,970-971,of Water Breathing III,897,high,type Potions -> head 'potion' 897 over 'necklace' 753
+B,371-380,Priest of Mixed Spheres II,1076,high,single 'scroll' candidate 1076; fuzzy 'priest of mixed spheres scroll' confirms
+B,391-400,of Protection from Acid,1076,high,head 'scroll of protection from' 1076; fuzzy 'scroll of protection from acid' confirms
+B,401-410,of Protection from Baatezu,1077,high,head 'scroll of protection from' 1077; fuzzy 'scroll of protection from baatezu' confirms
+B,411-420,of Protection from Cold,1077,high,head 'scroll of protection from' 1077; fuzzy 'scroll of protection from cold' confirms
+B,421-430,of Protection from Divination,1077,high,head 'scroll of protection from' 1077; fuzzy confirms
+B,431-440,of Protection from Dragon Breath,1077,high,head 'scroll of protection from' 1077; fuzzy 'scroll of protection from dragon breath' confirms
+B,441-450,of Protection from Earth,1077,high,head 'scroll of protection from' 1077; fuzzy 'scroll of protection from earth' confirms
+B,451-460,of Protection from Electricity,1077,high,head 'scroll of protection from' 1077; fuzzy confirms
+B,461-470,of Protection from Elementals,1077,high,head 'scroll of protection from' 1077 over 'ring' 988; fuzzy 'scroll of protection from elementals' confirms
+B,471-480,of Protection from Felines,1078,high,head 'scroll of protection from' 1078; fuzzy 'scroll of protection from felines' confirms
+B,501-510,of Protection from Genies,1078,high,head 'scroll of protection from' 1078; fuzzy 'scroll of protection from genies' confirms
+B,521-530,of Protection from Illusions,1078,high,head 'scroll of protection from' 1078; fuzzy confirms
+B,531-540,of Protection from Lycanthropes,1078,high,head 'scroll of protection from' 1078; fuzzy 'scroll of protection from lycanthropes' confirms
+B,541-550,of Protection from Magic,1079,high,head 'scroll of protection from' 1079; fuzzy 'scroll of protection from magic' confirms
+B,571-580,of Protection from Paralyzation,1079,high,head 'scroll of protection from' 1079; fuzzy confirms
+B,581-590,of Protection from Petrification,1079,high,head 'scroll of protection from' 1079; fuzzy confirms
+B,591-600,of Protection from Plants,1079,high,head 'scroll of protection from' 1079; fuzzy 'scroll of protection from plants' confirms
+B,601-610,of Protection from Poison,1080,high,head 'scroll of protection from' 1080; fuzzy 'scroll of protection from poison' confirms
+B,611-620,of Protection from Possession,1080,high,head 'scroll of protection from' 1080; fuzzy confirms; current 79 is wrong
+B,621-630,of Protection from Shapechangers,1080,high,head 'scroll of protection from' 1080; fuzzy 'scroll of protection from shapechangers' confirms
+B,631-640,of Protection from Spirits,1080,high,head 'scroll of protection from' 1080; fuzzy 'scroll of protection from spirits' confirms
+B,641-650,of Protection from Tanar'ri,1080,high,head 'scroll of protection from' 1080; fuzzy 'scroll of protection from tanar ri' confirms
+B,651-660,of Protection from Traps,1080,high,head 'scroll of protection from' 1080; fuzzy 'scroll of protection from traps' confirms
+B,661-670,of Protection from Mechanical Traps,1080,high,"fuzzy 'scroll of protection vs mechanical traps' (head match) is same item, vs=from; p1080"
+B,701-710,of Protection from Water,1081,high,candidate 'scroll of protection from water' p1081 is exact match for a Scroll
+C,4-7,Admunford of Leadership,947,high,all candidates (ring/leadership/blank) p947; fuzzy 'admundfort of leadership' same Ring item
+C,358-361,of the Earth Hierophant,969,med,'ring' p969; fuzzy 'of the hierophant' - all element Hierophant rings sit on 969; current 1077 likely wrong
+C,650-653,of Ooze Paraelemental Command,985,high,'ring'/'command'/'' heads all 985; current 954 is wrong. Set 985.
+C,654-656,of Magma Paraelemental Command,985,high,Only 'ring' head at 985; current 954 wrong. Set 985.
+C,657-660,of Smoke Paraelemental Command,985,high,Only 'ring' head at 985; current 909 wrong. Set 985.
+C,705-708,"of Dust, Quasielemental Command",989,high,'ring' head 989 (and '' 989); current 954 wrong. Set 989.
+C,709-712,"of Lightning, Quasielemental Command",989,high,Only 'ring' head 989; current 954 wrong. Set 989.
+C,713-715,"of Mineral, Quasielemental Command",989,high,Only 'ring' head 989; current 954 wrong. Set 989.
+C,716-719,"of Radiance, Quasielemental Command",989,high,Only 'ring' head 989; current 954 wrong. Set 989.
+C,720-723,"of Salts, Quasielemental Command",989,high,Only 'ring' head 989; current 954 wrong. Set 989.
+C,724-726,"of Steam, Quasielemental Command",989,high,Only 'ring' head 989; current 954 wrong. Set 989.
+C,727-730,"of Vacuum, Quasielemental Command",989,high,Only 'ring' head 989; current 954 wrong. Set 989.
+C,927-929,of Truth,1004,med,Ring of Truth -> 'ring' heads 969/1004; current 893 (potion) wrong. Main rings section -> 1004.
+C,930-933,of Truth II,1004,med,Ring of Truth -> 'ring' head 1004; current 893 (potion) wrong. Set 1004.
+E,44-50,Wemick's of Striking,248,high,type Canes -> head 'cane' at 248 (fuzzy 'wemick s cane of striking'). Current 1297 is wrong; cane entry is at 248.
+E,353-361,of the Elements: Water,1280,med,type Staves -> head 'staff' 1279/1280; Water sub-entry later in the elements range at 1280. Current 1505 is wrong.
+F,504-512,Mace/Wand of Lightning,1485,high,Fuzzy 'wand of lightning' matches; head 'wand' p1485
+F,872-879,of Trap Detection,1495,med,Wand type; fuzzy 'of trap detection wands' -> head 'detection wands' p1495 matches the detection-wand cluster best (wand p1487 is a different metal-command entry)
+G,161-163,of Study (Constitution),668,high,Libram type; fuzzy 'libram of study constitution' -> p668
+G,343-345,Book of Bath,1143,med,Spellbooks type; head 'book' p1143 matches spellbook cluster (planes p189 is current but wrong section; gods p1439 different)
+G,405-407,Components of Phosphorus,1157,med,"Spellbooks type; fuzzy 'components reactions of phosphorus' -> blank head p1157 in spellbook range (current 775 is oil section, wrong)"
+G,525-527,Book of Hopeful Deeds,1442,med,fuzzy 'tome of hopeful deeds'/'of hopeful deeds' same item; both heads deeds/tome give 1442; current 189 wrong
+G,816-819,Talel el Hareidhin's,1245,med,fuzzy 'talel el harudhin s' same item (OCR); spellbook head 1245 matches type; current 1244 slightly off
+G,972-975,of Psionic Interruption,1444,med,fuzzy 'of psionic interaction' likely same item (OCR); tome head 1444 matches type Tomes; current 817 wrong
+H,4-5,Against ESP & Crystal Balls,27,med,fuzzy 'against crystal balls esp' same item; amulet head 27 matches type Amulets; current 784 wrong
+H,112-113,of Protection vs. Alignment Change,39,high,fuzzy 'of protection against alignment change' same item; amulet head 39 matches type Amulets; current 1009 wrong
+H,114-115,of Protection vs. Crystal Balls,39,high,fuzzy 'of protection against crystal balls esp' same item; amulet head 39 matches type Amulets; current 1009 wrong
+H,177-178,of Monster Control,123,med,fuzzy 'badge of monster control' same item; head 'control'/blank at 123 matches type Badges; potion 895 is wrong type; current 1453 wrong
+H,193-194,Ivy of Scaly Command,219,med,fuzzy 'of scaly command' same item; bracelet head 219 matches type Bracelets; current 1275 wrong
+H,240-241,of Protection from Disease,282,med,fuzzy 'charm of protection from disease'; head 'disease/282' is the charm-section page (amulet/ring/shell heads are wrong type)
+H,244-245,of Protection from Spirits,283,med,type Charms; head 'spirit/283' is charm section (spirit/1080 and scroll heads are wrong type)
+H,246,of Protection from Theft,283,med,fuzzy 'charm of protection from theft'; 'charm/283' groups the protection charms
+H,289-290,of Souls,337,med,type Crowns; head 'crown/337' (sword/1397 wrong type); picked first crown page
+H,291-292,of Souls II,337,med,"type Crowns; head 'crown/337' matches, same item as 'of souls' numbered II"
+H,357-358,of the Eagle,455,med,type Eyes; head 'eye/455' (lens/ring heads wrong type)
+H,369-370,Mellifleur's Left Gem,458,high,head 'eye/458' matches type Eyes; fuzzy 'mellifleur s left eye' same item
+H,371-372,Mellifleur's Right Gem,458,high,head 'eye/458' matches type Eyes; fuzzy 'mellifleur s right eye' same item
+H,381-382,of Vecna,460,med,"type Glass = Eye of Vecna; head 'eye/460' (hand/563-564 is Hand of Vecna, wrong type)"
+H,424-425,Deep Red of Detection,519,high,head 'detection/519' matches type Gems (gems of detection on 519)
+H,426-427,Pale Blue of Detection,519,high,head 'detection/519' matches type Gems
+H,428-429,Pale Green of Detection,519,high,head 'detection/519' matches type Gems
+H,430-431,Pale Lavender of Detection,519,high,head 'detection/519' matches type Gems
+H,432-433,Pearly White of Detection,519,high,head 'detection/519' matches type Gems
+H,434-435,Pink and Green of Detection,519,high,head 'detection/519' matches type Gems
+H,436-437,Pink of Detection,519,high,type Gems; heads 'gem/519' and 'prism/519' fit gems of detection
+H,438-439,Scarlet and Blue of Detection,519,high,head 'detection/519' matches type Gems
+H,457-458,Ionian Master,522,med,head 'master/522' fits gem section; fuzzy 'gem ionian master' same item
+H,514-515,Loupe of Cormac,537,med,loupe is a gem/glass; candidate '/537' fits (longtooth/337 is unrelated)
+H,516-517,of Preserved Words,536,med,head 'glass/536' matches type Gems; fuzzy 'glass of preserved words' same item
+H,518-519,of Underwater Sight,547,med,type Goggles; head 'sight/547' fits (helmet/circlet heads wrong type)
+H,538-539,of Stone,574,med,type Hearts; head 'heart/574' (ring/1001 wrong type); picked first heart page
+H,563-564,of Truth II,609,high,"Type Icons; 'of truth' fuzzy match under head 'icon' = 609, best fit for an Icon item. Current 893 is the potion head."
+H,583-584,of Kemis Tree,652,high,Fuzzy 'leaf of kemis tree' matches type Leaves; only candidate page 652. Current 1458 is wrong.
+H,587-588,of Pajon Tree,652,high,Fuzzy 'leaf of pajon tree' matches type Leaves; only candidate 652. Current 1458 wrong.
+H,604-605,Eye of the Eagle,654,med,Type Lenses; head 'eye' at 654 fits the Lens/Eye section (654 is the lens page range) better than 'eagle'/'eye' at 455. Current 451 not a candidate.
+H,624-625,of Speed Reading,655,high,Fuzzy 'lens of speed reading' under head 'reading' = 655 fits type Lenses. Current 210 wrong.
+H,692-693,of Air Breathing,753,med,Type Necklaces; head 'necklace' = 753 best fits (fuzzy variants of 'of water/sea breathing'). Current 697 not a candidate.
+H,730-731,of Protection +1,751,high,Type Necklaces; head 'necklace' = 751 is the clear fit among many heads. Current 1009 (aba head) wrong.
+H,732-733,of Protection +2,751,high,Type Necklaces; head 'necklace' = 751 best fit. Current 1009 (aba) wrong.
+H,765-766,of Power,805,med,Type Pearls; head 'pearl' = 805 (first pearl entry). Multiple pearl pages (805/806/1086/1108); 805 is the primary Pearl of Power. Current 907 not a candidate.
+H,767-768,of Power II,806,med,Type Pearls; head 'pearl'. Variant II likely the second pearl entry at 806. Current 907 not a candidate.
+H,786-787,Cursed of Wisdom,808,high,"Fuzzy 'cursed pearl of wisdom' under head 'cursed' = 808 fits type Pearls. Current [1071,1072] wrong."
+H,796-797,of Proof Against Poison,826,high,Type Periapts; head 'periapt' = 826 matches (fuzzy 'periapt of proof against poison'). Current 151 wrong.
+H,798-799,of Proof Against Poison,826,high,Type Periapts; head 'periapt' = 826. Current 151 wrong.
+H,826-827,Sim's of Light Splitting,913,high,Type Prisms; head 'prism' = 913 (fuzzy 'sim s prism of light splitting'). Current 374 wrong.
+H,832-833,of Death,1058,med,"Type Scarabs; head 'scarab' at 1055 and 1058. Scarab of Death; choosing 1058 (later scarab entry, 'of death' variant). Current 1478 (wand) wrong."
+H,845-846,Mark's of Protection,1058,med,Type Scarabs; fuzzy 'mark s scarab of protection' under head 'protection' = 1058 (scarab-section protection). Current 1009 (aba) wrong.
+H,847-848,Mazrikoth's of Death,1058,high,Type Scarabs; fuzzy 'mazrikoth s scarab of death' under head 'match'(scarab) = 1058. Current 1478 (wand) wrong.
+H,855-856,of Protection II,1058,high,Type Scarabs; head 'scarab' = 1058 is the clear fit. Current 1009 (aba) wrong.
+H,871-872,Jade of Defending,1062,med,Type Scepters; both candidates head 'scepter' (1062/1063). Choosing 1062 as start page. Current 626 not a candidate.
+H,884-885,of Celestial Analysis,1067,high,"Type Scopes; fuzzy 'scope of celestial analysis' matches, single candidate p1067 (scope section). Confident same item."
+H,886-887,Red Air Quality Lens,1067,high,"Type Scopes; heads 'lens'/'red'/'air' all point to p1067, matching fuzzy 'red air quality aq lens'. Lens head fits scope-lens item."
+H,890-891,Blue Sentient Life Lens,1067,high,Type Scopes; heads lens/life all p1067 matching fuzzy 'blue sentient life sl lens'. Lens head fits.
+H,898-899,Star of the Bright Desert,1303,high,"Heads 'star'/'desert' both p1303, matching fuzzy 'star of the bright desert holy'. Same item."
+H,916-917,of the Beast,1420,high,Type Talismans; head 'talisman' p1420 matches (talisman of the beast). Prefer talisman head over amulet p28.
+H,937-938,of the Bone Golem,1422,med,Type Talismans; head 'talisman' p1422 via fuzzy 'of the golem'. Talisman of the Bone Golem plausibly grouped with golem talismans at 1422.
+H,973-974,of the Iron Statue,1426,med,Type Talismans; head 'talisman' p1426 via fuzzy 'of the statue'. Talisman of statue items grouped at 1426.
+H,975-976,of the Rock Statue,1426,med,Type Talismans; head 'talisman' p1426 via fuzzy 'of the statue'. Same statue-talisman group.
+H,990-991,of the Gods II,1452,med,Type Torcs; head 'torc' p1452 best fits (Torc of the Gods). Current 1439 was 'book' head - wrong section.
+H,992-993,of the Gods III,1452,med,Type Torcs; head 'torc' p1452 fits over 'book' p1439. Torc of the Gods III.
+I,122-127,Bolder's of the Rogue,298,high,Type Cloaks; heads cloak/rogue p298 match fuzzy 'bolder s cloak of the rogue'.
+I,524-529,Wolf of Wegwiur,312,high,Type Cloaks; heads cloak/wolf/wegwiur all p312 match fuzzy 'wolf cloak of wegwiur'. Current 326 wrong.
+I,561-566,of Polishing II,313,high,Type Cloth; head 'cloth' p313 fits (Cloth of Polishing) over 'gauntlet' p507. Current 507 wrong section.
+I,695-700,of Blending III,1009,med,"Type Robes; head 'robe' appears at p1009/1010/1013. Base 'Robe of Blending' at 1009; pick robe head, earliest page 1009. Current 838 wrong."
+I,768-773,Marion's of Blending,1013,high,Type Robes; heads blending/marid p1013 match fuzzy 'marion s robe of blending'. Current 838 wrong; pick 1013.
+I,774-779,Melliflear's of Stars,1013,high,Type Robes -> head 'robe' (also medallion/stars same page 1013); fuzzy names confirm 'robe of stars'.
+I,841-846,Tvashtri's Golden,1017,high,"Type Robes; both candidates (golden, tvashtri's) = 1017; fuzzy confirms 'robe golden'."
+J,536-540,of Dexterity II,503,high,Type Gauntlets -> head 'gauntlet' 503 (vs oil/ring).
+J,589-593,Iron of Unrest,506,med,Type Gauntlets -> head 'gauntlet' 506; fuzzy 'iron of urnst' plausibly same Iron Gauntlets item.
+J,683-687,Cosmetology,542,high,Type Gloves -> head 'glove' 542 (vs ball 149).
+J,806-811,Thor's Magical of Power,545,high,Candidates 'power'/'' = 545; fuzzy 'thor s magical gloves of power' same item.
+K,12-17,Black Elk Clan Ceremonial,168,high,type Belts; head 'belt' = 168; all elk clan ceremonial belts share belt entry at 168
+K,18-23,Blue Elk Clan Ceremonial,168,high,type Belts; head 'belt' = 168
+K,24-29,Golden Elk Clan Ceremonial,168,high,type Belts; both 'belt' and 'golden' heads point to 168
+K,30-34,Green Elk Clan Ceremonial,168,high,type Belts; head 'belt'/'golden' = 168
+K,41-46,White Elk Clan Ceremonial,168,high,type Belts; head 'belt' = 168
+K,239-244,Golden,291,med,type Circlets; head 'circlet' = 291/292; pick entry start 291
+K,367-371,of Disguise II,570,med,type Hats; head 'hat' = 570 best fits Hat of Disguise
+K,372-377,of Disguise III,570,med,type Hats; head 'hat' = 570 best fits Hat of Disguise
+K,547-551,Joukahainen's Golden,591,high,type Helmets; head 'helmet'/'golden' = 591 matches Joukahainen's golden helmet
+K,616-621,of Telepathy,589,med,"type Helmets; head 'helmet' = 589/593, weapon(1525) wrong type; pick helmet, entry start 589"
+K,709-714,of Disguise,698,high,type Masks; head 'mask' = 698/699/702; pick entry start 698
+K,715-720,of Disguise II,698,high,type Masks; head 'mask' = 698 best fits Mask of Disguise
+K,930-935,Winged,707,med,type Masks; head 'mask' = 707/708; pick entry start 707 (hammer/boot wrong type)
+L,107-110,Pouch of Accessibility,136,high,"type Bags; head 'pouch' = 136/137; leading noun Pouch matches, entry start 136"
+L,134-137,Sleeping Bag of Armor Nullification,137,med,Type Bags; head 'sleeping' at 137 (a bag/sleeping-bag entry) vs 1119. 137 fits a bag item; current 138 not among candidates.
+L,531-534,of the Wind Spy,262,med,Type Casks; fuzzy 'cask of the wind spy' matches; head '' at 262 (cask section). Not spoon/staff. Current 466 wrong; 262 fits.
+L,578-581,Mordom's Air of Air,268,high,Type Cauldrons; fuzzy 'mordom s cauldron of air' matches head 'cauldron' at 268. All candidates 268. Current 697 wrong.
+L,798-801,Hold of Holding,571,med,Type Horns; only match is fuzzy 'hat of holding' head 'hat' at 571. Name 'Hold of Holding' is an OCR variant of Hat of Holding. Current 1514 wrong.
+L,814-817,Ngona of Underwater Breathing,599,high,Type Horns; fuzzy 'ngona horn of underwater breathing' matches head 'breathing' at 599. Current 897 wrong; 599 fits the ngona section.
+L,904-907,Castellan's Magical Genie,915,high,Fuzzy 'castellan s magical prison' matches head 'prison' 915; type Prisons fits.
+L,940-943,Sleeping Bag of Armor Nullification,137,med,"Leading noun 'Sleeping Bag' -> head 'sleeping'; two pages 137/1119, pick 137 (main entry, near current 138)."
+M,147-148,of Protection II,243,high,Type Candles -> head 'candle' 243 among candidates.
+M,250-251,Sneezing,423,high,Type Dust -> head 'dust' 423 (Dust of Sneezing and Choking); current 566 was handkerchief head.
+M,278-279,of Desire (Bone),430,high,Fuzzy 'egg of desire bone' -> head 'bone' 430; type Eggs.
+M,280-281,of Desire (Crystal),430,high,Fuzzy 'egg of desire crystal' -> head 'crystal' 430; type Eggs.
+M,282-283,of Desire (Golden),430,high,Fuzzy 'egg of desire golden' -> head 'golden' 430; type Eggs.
+M,296-297,of Young Dragon Breath,431,high,Type Eggs -> head 'egg' 431 (Egg of Dragon Breath) over potion head.
+M,303-304,of Adult Dragon Breath,431,high,Type Eggs -> head 'egg' 431 over potion head.
+M,307-309,of Old Dragon Breath,431,high,Type Eggs -> head 'egg' 431 over potion head.
+M,314-316,of Wyrm Dragon Breath,431,high,Type Eggs -> head 'egg' 431 over potion head.
+M,330-332,Gold of Ghastar,433,high,"Fuzzy 'golden egg of ghastar'; all heads ('','golden','obsidian') at 433."
+M,333-334,Obsidian of Ghastar,433,high,Fuzzy 'obsidian egg of ghastar' -> head 'obsidian' 433.
+M,335-336,Gold of Ghastar,433,high,Fuzzy 'golden egg of ghastar'; all Ghastar egg heads at 433.
+M,385-387,Shell of Protection vs. Humanoids,439,high,All Shell-of-Protection heads at 439; type Eggs (egg shell).
+M,388-389,Shell of Protection vs. Humans,439,high,All variant heads at 439.
+M,555-556,Plumastone,839,med,"Fuzzy 'pluma stone' at head 'stone' 839; same item (Pumastone/Plumastone), fills in null current page."
+M,653-654,Dypshez's of the Black Veil,902,high,Powders; fuzzy 'dypshez s powder of the black veil' at heads powder/veil 902; corrects wrong current 675.
+M,804-806,Will Power,911,high,Powders type; fuzzy 'will powder'/'of will power' at head 'powder' 911 (oil 779 is wrong type). Corrects current.
+M,841-842,of Ravenloft,1045,high,Roses type; fuzzy 'rose of ravenloft' at head 'ravenloft' 1045; corrects wrong current 189 (golem).
+M,850-851,Enchanted Cherry Pits (Brown),1089,high,Seeds; all fuzzy color-variants of 'enchanted cherry pits' at 1089; corrects wrong current 21.
+M,994-996,of the Witch,1527,high,Weeds type; head 'weed of the witch' 1527 matches type exactly; corrects wrong current 1497.
+N,58-59,of Bravery,154,med,Banners type; head 'banner' at 154/156; phylactery 830 (current) is wrong type. Pick banner entry 154.
+N,85-86,of Protection II,156,med,Banners type; head 'banner' 156 fits type among many protection heads; corrects wrong current 1009 (aba).
+N,298-299,of Travel,493,med,Type Forks; head 'fork...see utensil'=493 (first fork page); other fork ref 841.
+N,315-316,of Luckless Returning,550,med,Type Grappling Irons; head 'grappling'=550 (fuzzy 'iron of luckless returning').
+N,385-387,of Opening,629,med,Type Maps (Key section); head 'key'=629 fits best among candidates.
+N,402-403,of Silence,631,med,Type Maps/Key; head 'key'=631 fits Map/Key section among many candidates.
+N,419-420,Wizard's,633,med,Type Maps/Key; head 'key'=633 fits Map/Key section over robe/workbench.
+N,657-658,Cursed of Earth Parting,835,high,Type Picks; head 'pick'=835 (fuzzy 'cursed pick of earth parting').
+N,663-664,of Plentiful Water,837,high,"fuzzy 'pill of plentiful water' same item, head 'pill' fits Pills; both candidates page 837 (current 1505 wrong)"
+N,713-714,of Law,926,med,"type Quill Pens -> head 'quill'; quill candidates are 926/928, current 156 wrong; pick first quill page 926"
+N,751-752,Baltron's,932,med,type Razors -> head 'razor' page 932; fuzzy 'bailron s' plausibly same (Baltron's Razor); current 723 wrong
+N,805-806,Charged Eversmoking,1123,high,"type Smoking Pipes -> head 'pipe'; fuzzy 'charged smoking' same (Eversmoking Pipe); page 1123, current 199 wrong"
+N,807-808,Eliminster's Eversmoking,1123,high,"type Smoking Pipes -> head 'pipe'; fuzzy 'elminster s smoking' same item; page 1123, current 199 wrong"
+N,932-933,of Aging,1431,med,type Threads -> head 'thread' page 1431; fuzzy 'of ageing' same item; current 873 wrong
+O,90-94,Bell of Warning II,816,high,"type Percussion, leading noun Bell -> head 'bell' page 816; fuzzy 'bell of warning' same; 'warning'/149 is wrong head"
+O,114-118,Chime of Opening,816,med,"type Percussion, leading noun Chime -> head 'chime' 816/817; pick first chime page 816, current 818 wrong"
+O,194-198,Dughal's Percussion Instrument,820,med,"fuzzy 'percussion instrument' same item; candidates 811/820, current 811; group of Dughal instruments -> 820 fits percussion section"
+O,242-245,Gong of Travel,822,high,head 'travel' matches name; both candidates page 822; current 1315 wrong
+O,280-283,Biwa of Calling,1320,med,"type Stringed, leading noun Biwa -> head 'biwa' 1320/1321; fuzzy 'biwa of calming' same item; pick first biwa 1320, current 349 wrong"
+O,327-331,Harp of Charming,1323,med,"type Stringed, leading noun Harp -> head 'harp' 1323/1326; pick first harp page 1323, current 86 wrong"
+O,440-444,Throbbing Harp,1328,high,fuzzy 'of throbbing harp' matches; head 'harp' 1328 — same item.
+O,459-463,Building Liar,1330,med,'Liar' is OCR for 'Lyre'; head 'lyre' 1330 matches Stringed Instruments; current 1024 wrong.
+O,625-629,Animal Attraction Pipe,1554,high,fuzzy 'animal attraction pipes'; heads 'animal' and 'pipes' both 1554; current 85 wrong.
+O,630-633,Animal Calls Horn,1543,med,fuzzy 'animal calls horn of'; head 'animal' 1543 — same item; current 1545 likely off.
+O,658-662,Blasting Horn,1544,med,head 'blasting' 1544 matches name; current 1545 likely off.
+O,838-841,Luck Flute,1541,high,Head 'flute' matches leading noun/type; 'luck'(478) is unrelated. Flute at 1541.
+O,866-870,Plenty Horn,1546,high,Head 'plenty' (Horn of Plenty) at 1546; current 269 wrong.
+O,913-917,Signaling Horn,1547,high,Head 'signaling' at 1547 matches name; current 1545 wrong.
+O,942-946,Summoning Whistle,1558,high,Head 'summoning'/'whistle' both 1558; current 822 wrong.
+O,965-969,Valor Horn,1549,high,Head 'valor' at 1549 matches name; current 1545 wrong.
+O,984-988,War Horn,1549,high,Head 'war' (War Horn) at 1549; current 1545 wrong.
+P,35-36,Silver of Ergoth II,64,high,Heads 'arm'/'silver' at 64 match type Arms; fuzzy 'silver arm of ergoth' same item. Current 325 wrong.
+P,53-54,Elemental (Earth),149,med,Head 'earth' at 149 matches Ball type (elemental ball earth); 'trident'(844) unrelated. Current 844 wrong.
+P,55-56,Elemental (Air),149,high,Head 'air' at 149 matches Ball type (elemental ball air); current 551 wrong.
+P,57-59,Elemental (Fire),149,med,Head 'fire' at 149 matches Ball type (elemental ball fire); 'rod'(1026) unrelated. Current 1026 wrong.
+P,130-131,Joukahainen's II,180,high,Heads 'boat'/'joukahainen s' at 180 match type Boats; 'crossbow'(208) wrong. Current 208 wrong.
+P,166-167,of Control II,223,high,Head 'bridle' at 223 matches type Bridles; 'torch'(1453) wrong. Current 1453 wrong.
+P,327-329,of Force II,350,med,Type Cubes -> head 'cube' at 350 (Cube of Force). 'wand'(1482) unrelated. Current 1482 wrong.
+P,368-370,Sun,381,med,Type Decks of Cards; index head 'Deck | Sun' = 381 (deck-level entry). Card head gives 380/390; current 1406 was the Sun Blade sword.
+P,416-417,of Protection II,471,high,Type Figureheads; index 'Figurehead | of Protection' = 471. Current 1009 was Aba head.
+P,423-424,of Wondrous Power (Speed),472,high,Type Figureheads; candidate figurehead 472 matches 'Figurehead of Wondrous Power'. Current 210.
+P,643-644,Diamond and Silver,737,high,Type Mobiles; 'Diamond | and Silver Mobile' = 737. Current 676.
+P,647-649,Ruby Turquoise and Emerald,737,high,Type Mobiles; 'Ruby | Turquoise and Emerald Mobile' = 737 (1121 was Ruby Slippers). Current 1121.
+P,666-667,Blue of Greyhawk,782,high,Type Oracles; 'Oracle of Greyhawk' = 782 (single entry covers all colors). Current 101.
+P,672-674,Orange of Greyhawk,782,high,Type Oracles; 'Oracle of Greyhawk' = 782 (912 was Prism). Current 912.
+P,677-678,Violet of Greyhawk,782,high,Type Oracles; 'Oracle of Greyhawk' = 782 (912 was Prism). Current 912.
+P,684-685,of the Black Swamp,783,high,Type Orbs; 'Orb of the Black Swamp' = 783. Current 675.
+P,861-862,Standing Stone,1302,med,Heads 'standing'/'stones' at 1302 match name; current 356 wrong.
+P,877-878,Singing II,1305,high,Type Statues -> head 'statue' 1305 (over potion/skull/sword).
+Q,776-795,Robe of Blending II,1010,med,Name Robe of Blending -> heads robe/blending both at 1010; current 838 wrong.
+Q,796-816,Robe of Blending,1010,med,Heads robe/blending at 1010 match name; current 838 wrong.
+R3,73-78,Aquatic,70,med,R3 armor table -> head 'armor' 70 (Aquatic Armor); current 1508 weapon wrong.
+R3,104-109,of Blackflame,72,med,R3 armor table -> head 'armor' 72 over cloak/dagger/sword; current 357 dagger.
+R3,110-115,of Blending,72,high,Table R3 Armor. Candidate head 'armor' page 72 matches armor section; current 838 (potion) wrong.
+R3,134-139,of Charm,72,high,Table R3 Armor. Head 'armor' page 72 matches; current 281 wrong.
+R3,140-145,of Comfort,72,high,Table R3 Armor. Head 'armor' page 72 matches; current 173 (blanket) wrong.
+R3,146-151,of Command,73,high,Table R3 Armor. Head 'armor' page 73 matches; current 1275 (staff) wrong.
+R3,213-218,of Energy Drain,74,high,Table R3 Armor. Head 'armor' page 74 matches; current 1095 (shield) wrong for armor entry.
+R3,273-278,of Fear II,76,high,Type Armor; fuzzy 'of fear' same item; head 'armor' page 76 matches armor section; current 728 (mirror) wrong.
+R3,431-436,Red of the Hellfurnaces,81,high,Type Armor; candidate 'hellfurnaces red armor of the' page 81 and head 'armor' 81 match; current 303 (cloak) wrong.
+R3,534-539,White of the Griff Mountains,83,high,Type Armor; fuzzy 'white armor of the griff mountains' same item; head 'white' page 83 matches armor section; current 1105 (shield) wrong.
+R3,806-812,of the Holy,1098,med,"Type Shield; both candidates head 'shield' (1098, 1102). Choosing 1098 as first shield entry; current 1505 wrong."
+R3,903-909,of Proof against Cold,1101,high,Type Shield; fuzzy 'shield of proof against cold' same item; head 'shield' page 1101 matches; current 1476 wrong.
+R3,928-933,Raji's of the Holy,1102,high,Type Shield; fuzzy 'raji s shield of the holy' same item; head '' page 1102 (shield section); current 1505 wrong.
+S3,11,Black of Iuz,85,high,Type Arrows; fuzzy 'black of luz' same item (OCR Iuz/luz); sole head 'arrow' page 85 matches; current 675 wrong.
+S3,19,of Charming II,86,high,Type Arrows; fuzzy 'of charming' same item; head 'arrow' page 86 matches; current 1321 (biwa) wrong.
+S3,47,of Holding II,90,high,Type Arrows; fuzzy 'of holding' same item; head 'arrow' page 90 matches; current 1514 (weapon) wrong.
+S3,76,Quarrel of Biting (Poison),95,high,Type Arrows; fuzzy 'quarrel of biting' same item; head 'arrow' page 95 matches; current 151 wrong.
+S3,85,of Seeking,96,high,"Type Arrows; heads 'arrow' at 96 and 97, best fits arrow section; choosing first arrow entry 96; current 374 (dart) wrong."
+S3,92,of Slaying,97,med,"Arrows type -> head 'arrow' (pages 97,99). Current 375 is 'dart' head, wrong. Arrow of Slaying; picking 97."
+S3,93,of Slaying II,97,med,Arrows -> 'arrow' head; fuzzy 'of slaying' same item. Choose arrow page 97 over 'dart' 375.
+S3,94,of Slaying III,97,med,Arrows -> 'arrow' head; same item as of Slaying. Choose arrow page 97.
+S3,95,of Slaying IV,97,med,Arrows -> 'arrow' head; same item. Choose arrow page 97.
+S3,173,Crossbow of Speed II,204,high,"Bows type, name Crossbow -> head 'crossbow' at 204 (also 'speed' head lists 204). Choose 204."
+S3,256,Flying,362,med,"Daggers type -> head 'dagger' (362,363). Dagger of Flying; 'banner' 155 is unrelated. Picking dagger 362."
+S3,267,Hornblade (Dagger size),364,high,Daggers type -> head 'dagger'; fuzzy 'hornblade dagger' matches Hornblade at 364.
+S3,270,Iyarim's Flying,364,med,Daggers type -> head 'dagger' 364; fuzzy 'iyanm s flying' OCR variant of Iyarim's Flying dagger. Choose 364.
+S3,297,of Throwing II,369,high,Daggers type -> head 'dagger' 369 (Dagger of Throwing); fuzzy 'of throwing' same item. Current 120 wrong.
+S3,315,Death,372,med,"Darts type -> head 'dart' (372,373). Dart of Death; other heads (mask/nail/rock) unrelated. Picking dart 372."
+S3,416,Hastsezini's Lance of,648,high,Lances type; fuzzy 'hastezzini s lance of fire' -> heads 'fire'/'hastezzini s' both 648. Choose 648. Current 650 wrong.
+S3,464,of the Titans,556,med,Mattocks type but name 'of the Titans'; fuzzy 'maul of the titans' -> head 'titans' 556 (matches roll 373 Maul of the Titans). 'sword' 1372 and 'match' unrelated. Choose 556. Current 99 wrong.
+S3,467,of Entrapment,755,med,"Nets type -> head 'net' (755,756). Net of Entrapment; other heads (cage/rod/scepter) are different items. Picking net 755. Current 234 is 'cage' head, wrong."
+S3,470,Hiatea's of Weakness,756,high,Nets type -> head 'weakness' 756 (Net of Weakness); fuzzy 'hiata s net of weakness' same item. Choose 756. Current 1006 wrong.
+S3,472,Hiatea's of Petrification,756,high,Nets type -> head 'petrification' at net page 756 (not 'lens' 654). Fuzzy 'hiatea s net of petrification' same item. Choose 756.
+S3,498,Fork of Travel,842,high,Polearm/fork -> weapon section; 'travel' head at 842 fits vs 493 (other item).
+S3,503,Persana's Trident,842,high,Trident -> head 'trident' 842; blank 38 is unrelated.
+S3,508,Saw-Toothed Glaive,844,med,"Glaive is a polearm in weapon section ~844, not 181."
+S3,532,Elmarin Cannon Call (Dust),1112,high,Both candidates 1112; fuzzy 'elmarin cannon call' same item (shot variant).
+S3,552,of Seeking,1120,med,"Type Slings -> head 'sling'; weapon section entry at 1120 vs earlier 358, over arrow/dart heads."
+S3,671-672,of Dancing,1355,high,"Sword of Dancing; head 'sword' fits weapon table S3. Current 465 (fan) wrong; two sword pages 1355/1356, pick first."
+S3,699,Elven,1365,high,Elven sword; head 'sword' 1365. Current 74 (chainmail) wrong for a sword table item.
+S3,749,Genie Slayer,1371,high,"Fuzzy 'genie slave' under head 'sword' 1371 - OCR variant, same item. Current 847 wrong."
+S3,761,Githyanki Knight's Silver,1372,high,Fuzzy 'githyanki knight s silver sword' 1372 - same item. Current 285/286 wrong.
+S3,762,Githyanki Leader's Silver,1372,high,Fuzzy 'githyanki leader s silver sword' 1372 - same item. Current 325 wrong.
+S3,882,Ren's of Dancing,1388,high,Fuzzy 'ren s sword of dancing' under head 'dancing' 1388 - same item. Current 465 wrong.
+S3,887,Rutterkin Flatchet,1389,high,Fuzzy 'rutterkin flatchet sword' under head 'rutterkin' 1389 - same item. Current 843 wrong.
+S3,965,Warbringer,1412,high,Fuzzy 'war bringer'/'bringer' both 1412 - same item. Current 1482 wrong.
+S3,986,of Returning,1523,med,Throwing star = a weapon; candidate head 'weapon' at 1523 fits best over arrow/bag/gem/quiver. Current 527 (gem) wrong.
+T,112-117,Codex of the Infinite Planes II,659,med,Name leads with 'Codex'; head 'codex' at 659 (also 'planes' 659); libram variant at 660. Codex headword fits best.
+T,189-194,Crystal of the Ebon Flame II,342,high,Fuzzy 'crystal of the ebon flame' same item; heads crystal/earth/flame all at 342. Current 784 wrong.
+T,206-211,Death Rock,1019,high,Heads 'rock' (1019) and 'death' (1019/1020); rock headword and lead page = 1019. Current 1478 wrong.
+T,224-229,Egg of the Phoenix II,436,high,Fuzzy 'egg of the phoenix' same item; name leads with 'egg'; head 'egg' at 436/437; pick 436.
+T,230-235,Eye of Vecna II,460,high,Fuzzy 'eye of vecna' same item; heads eye/vecna both at 460. Current 451 wrong.
+T,265-270,Golden Circlet II,291,med,Fuzzy 'golden circlet' same item; heads circlet/golden at 291/292; pick lead 291.
+T,359-364,Iron Bow of Gesen II,207,high,Fuzzy 'iron bow of gesen' same item; blank and head 'iron' at 207. Current 205 wrong.
+T,406-411,Mace of St. Cuthbert IV,679,med,Fuzzy same item; blanks (artifact entry) at 679/680 and head 'mace' at 679 (other mace entry 670). Entry page 679.
+T,612-617,Peaceful Periapt of Pax,822,med,fuzzy 'peaceful peragil of pax' is OCR variant of same item; single candidate 822 (current 825 slightly off)
+T,641-646,Queen Ehlissa's Nightingale II,923,high,fuzzy same item; both candidate heads at 923
+T,747-752,Rod of Seven Parts,1038,high,"head 'rod' fits; pages 1038/1039, pick first 1038 (current 1021 wrong)"
+T,753-758,Rod of Seven Parts II,1038,high,"fuzzy same item; head 'rod' at 1038/1039, pick first 1038"
+T,883-887,Sword of Kas II,1378,high,fuzzy 'sword of kas' same item; blank and 'sword' heads both at 1378 (current 1387 wrong)
+T,918-923,Throne of the Gods II,1432,high,fuzzy 'throne of the gods' same item; 'gods' and 'throne' heads both at 1432 (current 1439 wrong)
+T,935-940,Tooth of Dalhvar-nar II,1446,high,fuzzy 'tooth of dahlver nar' same item; blank and 'tooth' heads both at 1446
+T,941-946,Tree of Life,1455,high,"head 'life' fits Tree of Life; pages 1455/1456, pick first 1455 (current 905 wrong)"
+T,947-952,Tree of Life II,1455,high,"fuzzy same item; head 'life' at 1455/1456, pick first 1455"
