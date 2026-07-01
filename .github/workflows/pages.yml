@@ -23,6 +23,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      - name: Cache-bust asset URLs with commit SHA
+        # Append ?v=<sha> to every local css/js/font/data URL in index.html so a new
+        # commit always yields fresh URLs — browsers/CDN can never serve stale engine.js.
+        run: |
+          v="${GITHUB_SHA:0:12}"
+          perl -i -pe 's/\b(src|href)="(fonts\.css|css\/[^"?]+|data\.js|js\/[^"?]+|ui\/[^"?]+)"/$1="$2?v='"$v"'"/g' web/index.html
+          echo "Stamped $(grep -c "?v=$v" web/index.html) asset URLs with v=$v"
       - name: Upload web/ as the Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
