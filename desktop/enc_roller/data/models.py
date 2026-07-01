@@ -49,6 +49,7 @@ class MechRow:
     name: str
     reroll: bool = False
     is_r3_catchall: bool = False
+    wpn_adj: str | None = None  # S2 only: the "Wpn Adj" column (non-sword); name = "Sword Adj"
 
 
 @dataclass

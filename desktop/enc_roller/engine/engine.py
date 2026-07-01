@@ -228,21 +228,26 @@ class RollEngine:
 
         t = self.roller.roll(1000)
         type_step = self._match_or_gap(self.ds.mech[t1], t, t1, 1000, nearest=True)
-        b = self.roller.roll(20)
-        bonus_step = self._match_or_gap(self.ds.mech[t2], b, t2, 20)
         matched_type = self.ds.find(self.ds.mech[t1], t)
-        item_step = self.roll_item_table(item_table, depth).root  # shares the outer budget
 
         if matched_type is not None and matched_type.is_r3_catchall:
-            # "Special (Roll on Table R3/S3)": the item roll IS the result; the
-            # type node is kept only as an informational child.
-            type_step.note = "catch-all → item table is the result (type informational)"
+            # Special -> roll the specific item table (cascades); no generic bonus.
+            type_step.note = f"Special → roll on {item_table}"
+            item_step = self.roll_item_table(item_table, depth).root   # shares the outer budget
             return RollStep(slot, 0, 0, f"{label} (Special)", None, "n/a",
-                            kind="assembly",
-                            children=[type_step, bonus_step, item_step],
-                            note=f"type catch-all; item is from {item_table}")
+                            kind="assembly", children=[type_step, item_step],
+                            note=f"{t1} Special → specific item from {item_table}")
+
+        # Generic magic armor/weapon: type + bonus (no R3/S3 roll).
+        b = self.roller.roll(20)
+        bonus_step = self._match_or_gap(self.ds.mech[t2], b, t2, 20)
+        if slot == "weapon" and matched_type is not None and matched_type.name != "Sword":
+            matched_bonus = self.ds.find(self.ds.mech[t2], b)          # S2 Wpn Adj for non-swords
+            if matched_bonus is not None and getattr(matched_bonus, "wpn_adj", None):
+                bonus_step.label = matched_bonus.wpn_adj
+                bonus_step.note = "Wpn Adj (non-sword)"
         return RollStep(slot, 0, 0, label, None, "n/a", kind="assembly",
-                        children=[type_step, bonus_step, item_step])
+                        children=[type_step, bonus_step])
 
     def _bonus_plus(self, mech_key: str, name: str) -> str:
         """Sign-preserving bonus token; per-table because R2/S2 name formats differ."""
@@ -276,11 +281,9 @@ class RollEngine:
         return root.label
 
     def _assembled_name(self, root: RollStep) -> str:
-        mech_key = "R2" if root.table == "armor" else "S2"
-        type_step, bonus_step, item_step = root.children[0], root.children[1], root.children[2]
-        plus = self._bonus_plus(mech_key, bonus_step.label)
-        catchall = bool(type_step.note and "catch-all" in type_step.note)
-        typ = "" if catchall else type_step.label
-        item = item_step.label
-        parts = [p for p in (plus, typ, item) if p]
-        return " ".join(parts).strip()
+        type_step, second = root.children[0], root.children[1]
+        if second.table in ("R2", "S2"):        # generic: "{bonus} {type}"
+            plus = self._bonus_plus(second.table, second.label)
+            return f"{plus} {type_step.label}".strip()
+        # Special: the R3/S3 item IS the result (bonus predetermined on its page)
+        return self._primary_name(second)

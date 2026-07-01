@@ -91,28 +91,35 @@
         EM.countKinds(r3, COMBINE) === 3 && EM.countKinds(r3, new Set(["reroll"])) === 1 &&
         EM.countKinds(r3, ENH) === 2 && EM.countKinds(r3, CAP) === 1);
       const rr3 = firstReroll(ds, "R3");
-      const deep = eng([1, 11, rr3.roll_low, rr3.roll_low]).assembleArmor(2);
+      const rSpecial = catchallRoll(ds, "R1");                 // R3 only rolls when R1 = Special
+      const deep = eng([rSpecial, rr3.roll_low, rr3.roll_low]).assembleArmor(2);
       ok("R3-in-armor depth2 shares budget = 1 combine + cap", EM.countKinds(deep, COMBINE) === 1 && EM.countKinds(deep, CAP) === 1);
-      const shallow = eng([1, 11].concat(Array(4).fill(rr3.roll_low))).assembleArmor(0);
+      const shallow = eng([rSpecial].concat(Array(4).fill(rr3.roll_low))).assembleArmor(0);
       ok("R3-in-armor depth0 = 3 combines + cap", EM.countKinds(shallow, COMBINE) === 3 && EM.countKinds(shallow, CAP) === 1);
 
-      // ---- R/S assembly ----
-      const sword = mechRoll(ds, "S1", "Sword"), plus2 = mechRoll(ds, "S2", "+2"), sItem = firstPlain(ds, "S3");
-      const w = eng([sword, plus2, sItem.roll_low]).rollWeapon();
-      ok("weapon 3-part + headline '+2 Sword …'", w.root.children.length === 3 && w.headline.indexOf("+2 Sword ") === 0, w.headline);
+      // ---- R/S procedure: generic (type+bonus) vs Special (roll R3/S3) ----
+      const sword = mechRoll(ds, "S1", "Sword"), axe = mechRoll(ds, "S1", "Axe"), plus2 = mechRoll(ds, "S2", "+2");
+      const gw = eng([sword, plus2]).rollWeapon();             // only 2 rolls — no S3
+      ok("generic weapon = type+bonus, no S3", gw.root.children.map((c) => c.table).join() === "S1,S2" && gw.headline === "+2 Sword", gw.headline);
+      ok("S2 Wpn Adj for non-swords (Axe +1 vs Sword +2)", eng([axe, plus2]).rollWeapon().headline === "+1 Axe");
       const minus1 = mechRoll(ds, "S2", "-1");
-      ok("S2 -1 cursed preserved", eng([sword, minus1, sItem.roll_low]).rollWeapon().headline.indexOf("-1 Sword ") === 0);
-      const armorType = mechRoll(ds, "R1", "Armor"), acM1 = mechRoll(ds, "R2", "AC Adj -1"), rItem = firstPlain(ds, "R3");
-      ok("R2 'AC Adj -1' extracts -1", eng([armorType, acM1, rItem.roll_low]).rollArmor().headline.indexOf("-1 ") === 0);
+      ok("cursed weapon -1 Sword", eng([sword, minus1]).rollWeapon().headline === "-1 Sword");
+      const armorType = mechRoll(ds, "R1", "Armor"), acP2 = mechRoll(ds, "R2", "AC Adj +2"), acM1 = mechRoll(ds, "R2", "AC Adj -1");
+      ok("generic armor +2 Armor", eng([armorType, acP2]).rollArmor().headline === "+2 Armor");
+      ok("cursed armor -1 Armor", eng([armorType, acM1]).rollArmor().headline === "-1 Armor");
+      const sItem = firstPlain(ds, "S3");
+      const sp = eng([catchallRoll(ds, "S1"), sItem.roll_low]).rollWeapon();
+      ok("Special weapon -> S3 item", sp.root.children.map((c) => c.table).join() === "S1,S3" && sp.headline === sItem.name && /\(Special\)$/.test(sp.root.label), sp.headline);
+      const rItem = firstPlain(ds, "R3");
+      const ap = eng([rSpecial, rItem.roll_low]).rollArmor();
+      ok("Special armor -> R3 item", ap.root.children.map((c) => c.table).join() === "R1,R3" && ap.headline === rItem.name);
       const e0 = eng([]);
       eq("bonusPlus S2 -1", e0.bonusPlus("S2", "-1"), "-1");
       eq("bonusPlus R2 AC Adj +2", e0.bonusPlus("R2", "AC Adj +2 / XP Value +1,000"), "+2");
       eq("bonusPlus R2 fallback", e0.bonusPlus("R2", "totally unexpected"), "totally unexpected");
-      const cr = eng([catchallRoll(ds, "R1"), plus2, rItem.roll_low]).rollArmor();
-      ok("R1 catch-all collapses to item", cr.headline === "+2 " + rItem.name && /\(Special\)$/.test(cr.root.label), cr.headline);
 
       // ---- master ----
-      const rm = eng([78, sword, plus2, sItem.roll_low]).rollRandomItem();
+      const rm = eng([78, sword, plus2]).rollRandomItem();
       ok("master 78 -> weapon assembly", rm.root.children[0].table === "weapon" && rm.root.label === "Weapons");
       ok("master low -> item table", eng([1, plainA.roll_low]).rollRandomItem().root.children[0].table === "A");
 

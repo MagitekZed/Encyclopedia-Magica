@@ -205,19 +205,26 @@
 
       const t = this.roller.roll(1000);
       const typeStep = this.matchOrGap(this.ds.mech[t1], t, t1, 1000, true);
-      const b = this.roller.roll(20);
-      const bonusStep = this.matchOrGap(this.ds.mech[t2], b, t2, 20);
       const matchedType = this.ds.find(this.ds.mech[t1], t);
-      const itemStep = this.rollItemTable(itemTable, depth).root;   // shares outer budget
 
       if (matchedType && matchedType.is_r3_catchall) {
-        typeStep.note = "catch-all → item table is the result (type informational)";
+        // Special -> roll the specific item table (cascades); no generic bonus.
+        typeStep.note = "Special → roll on " + itemTable;
+        const itemStep = this.rollItemTable(itemTable, depth).root;   // shares outer budget
         return step(slot, 0, 0, label + " (Special)", null, "n/a",
-          { kind: "assembly", children: [typeStep, bonusStep, itemStep],
-            note: "type catch-all; item is from " + itemTable });
+          { kind: "assembly", children: [typeStep, itemStep],
+            note: t1 + " Special → specific item from " + itemTable });
+      }
+
+      // Generic magic armor/weapon: type + bonus (no R3/S3 roll).
+      const b = this.roller.roll(20);
+      const bonusStep = this.matchOrGap(this.ds.mech[t2], b, t2, 20);
+      if (slot === "weapon" && matchedType && matchedType.name !== "Sword") {
+        const mb = this.ds.find(this.ds.mech[t2], b);                 // S2 Wpn Adj for non-swords
+        if (mb && mb.wpn_adj) { bonusStep.label = mb.wpn_adj; bonusStep.note = "Wpn Adj (non-sword)"; }
       }
       return step(slot, 0, 0, label, null, "n/a",
-        { kind: "assembly", children: [typeStep, bonusStep, itemStep] });
+        { kind: "assembly", children: [typeStep, bonusStep] });
     }
 
     bonusPlus(mechKey, name) {
@@ -247,12 +254,12 @@
     }
 
     assembledName(root) {
-      const mechKey = root.table === "armor" ? "R2" : "S2";
-      const typeStep = root.children[0], bonusStep = root.children[1], itemStep = root.children[2];
-      const plus = this.bonusPlus(mechKey, bonusStep.label);
-      const catchall = !!(typeStep.note && typeStep.note.indexOf("catch-all") !== -1);
-      const typ = catchall ? "" : typeStep.label;
-      return [plus, typ, itemStep.label].filter(Boolean).join(" ").trim();
+      const typeStep = root.children[0], second = root.children[1];
+      if (second.table === "R2" || second.table === "S2") {   // generic: "{bonus} {type}"
+        const plus = this.bonusPlus(second.table, second.label);
+        return (plus + " " + typeStep.label).trim();
+      }
+      return this.primaryName(second);                         // Special: the R3/S3 item is the result
     }
   };
 })();

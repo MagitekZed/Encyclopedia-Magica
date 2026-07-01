@@ -111,6 +111,7 @@ def load_mech(app_dir: Path, warnings: list[str]) -> dict[str, list[MechRow]]:
                 table=key, roll=r["roll"], roll_low=lo, roll_high=hi,
                 name=name, reroll=bool(r.get("reroll", False)),
                 is_r3_catchall=bool(CATCHALL_RE.search(name)),
+                wpn_adj=r.get("wpn_adj"),
             ))
         out.sort(key=lambda x: x.roll_low)
         _tile_check(out, die, key, warnings)

@@ -56,7 +56,7 @@
     "ABCDEFGHIJKLMNOPQ".split("").forEach((L) => { if (ds.itemsByTable[L]) items.push([L + " — " + (nm[L] || L), L, 1000]); });
     items.push(["T — Artifacts", "T", 1000]);
     groups.push(["Item Tables", items]);
-    groups.push(["Full Assemblies", [["Full Armor (R): type+bonus+item", "R", 1000], ["Full Weapon (S): type+bonus+item", "S", 1000]]]);
+    groups.push(["Full Assemblies", [["Full Armor (R): type + bonus (or Special)", "R", 1000], ["Full Weapon (S): type + bonus (or Special)", "S", 1000]]]);
     groups.push(["Armor / Weapon Parts", [
       ["R1 — Armor type", "R1", 1000], ["R2 — Armor bonus", "R2", 20], ["R3 — Armor items (list)", "R3", 1000],
       ["S1 — Weapon type", "S1", 1000], ["S2 — Weapon bonus", "S2", 20], ["S3 — Weapon items (list)", "S3", 1000]]]);

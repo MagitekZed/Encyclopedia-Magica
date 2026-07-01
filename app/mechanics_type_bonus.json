@@ -532,7 +532,8 @@
    "roll_high": 2,
    "name": "-1",
    "reroll": false,
-   "roll_display": "1-2"
+   "roll_display": "1-2",
+   "wpn_adj": "-1"
   },
   {
    "page_src": 24,
@@ -543,7 +544,8 @@
    "roll_high": 10,
    "name": "+1",
    "reroll": false,
-   "roll_display": "3-10"
+   "roll_display": "3-10",
+   "wpn_adj": "+1"
   },
   {
    "page_src": 24,
@@ -554,7 +556,8 @@
    "roll_high": 14,
    "name": "+2",
    "reroll": false,
-   "roll_display": "11-14"
+   "roll_display": "11-14",
+   "wpn_adj": "+1"
   },
   {
    "page_src": 24,
@@ -565,7 +568,8 @@
    "roll_high": 17,
    "name": "+3",
    "reroll": false,
-   "roll_display": "15-17"
+   "roll_display": "15-17",
+   "wpn_adj": "+2"
   },
   {
    "page_src": 24,
@@ -576,7 +580,8 @@
    "roll_high": 19,
    "name": "+4",
    "reroll": false,
-   "roll_display": "18-19"
+   "roll_display": "18-19",
+   "wpn_adj": "+2"
   },
   {
    "page_src": 24,
@@ -587,7 +592,8 @@
    "roll_high": 20,
    "name": "+5",
    "reroll": false,
-   "roll_display": "20"
+   "roll_display": "20",
+   "wpn_adj": "+3"
   }
  ]
 }

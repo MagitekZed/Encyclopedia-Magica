@@ -63,6 +63,7 @@
           return {
             table: key, roll: r.roll, roll_low: lo, roll_high: hi, name: name,
             reroll: !!r.reroll, is_r3_catchall: CATCHALL.test(name),
+            wpn_adj: r.wpn_adj || null,
           };
         }).sort((a, b) => a.roll_low - b.roll_low);
         tileCheck(this.mech[key], die, key, warnings);
