@@ -1,0 +1,8 @@
+table,roll,name,old_page,new_page,confidence,reason
+C,425-428,of Invisibility,771,"[952, 971]",high,"table C=ring; index 'Ring of Invisibility'=[952,971]; current 771 is not a ring page."
+H,873-874,Jade of Defending II,626,1062,high,"Scepter; base sibling 'Jade of Defending' (871-872)=1062; index 'Jade Scepter of Defending'=[1062,1063]; 626 wrong-type."
+O,332-335,Harp of Charming II,86,1323,high,"base 'Harp of Charming' (327-331)=1323; index 'Harp of Charming'=[1323,1326]; current 86 (arrow region) wrong."
+O,336-340,Harp of Charming III,86,1323,high,variant of 'Harp of Charming'=1323; current 86 wrong.
+P,806-808,of Pearl,807,"[1086, 1108]",high,"Ship; index 'Ship of Pearl'=[1086,1108]; sibling ships cluster 1105-1110 (1108 shared); current 807 is the lone outlier."
+B,811-820,of Seven Wizard Spells,1018,1083,high,"Scroll; index 'Seven Wizard Spells, Scroll of'=1083; sits between 'Six'=[1083,1084]; first pass wrongly kept 1018."
+H,932,Fiend II,32,1422,high,Talisman; base sibling 'Fiend' (930-931)=1422; current 32 is the Amulet-of-the-Fiend page (wrong item type).

@@ -8,3 +8,4 @@ table_P_misc_weird_stuff.csv,P,713-715,Weird Stuff,Orbs,(cell corrupt in scan),O
 table_S_weapons.csv,S3,148,Weapons,Ballistae,Heavy Ballista,,
 table_S_weapons.csv,S3,220,Weapons,Catapults,Heavy Catapult,,
 table_S_weapons.csv,S3,370-371,Weapons,Hammers,Hammer of Lull,,
+table_N_misc_household.csv,N,402-403,Misc: Household,Maps,Map of Silence,"'Map of Silence' not in index; kept 631 but 631 is the 'Key of Silence' page (wrong type). Needs content PDF. QA-flagged.",

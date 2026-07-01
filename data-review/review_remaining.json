@@ -2657,7 +2657,7 @@
 "roll": "811-820",
 "name": "of Seven Wizard Spells",
 "type": "Scrolls",
-"current_page": 1018,
+"current_page": 1083,
 "bucket": "fuzzy-name",
 "candidates": [
 [
@@ -3216,7 +3216,10 @@
 "roll": "425-428",
 "name": "of Invisibility",
 "type": null,
-"current_page": 771,
+"current_page": [
+952,
+971
+],
 "bucket": "multi-page",
 "candidates": [
 [
@@ -9087,7 +9090,7 @@
 "roll": "873-874",
 "name": "Jade of Defending II",
 "type": "Scepters",
-"current_page": 626,
+"current_page": 1062,
 "bucket": "fuzzy-name",
 "candidates": [
 [
@@ -9250,7 +9253,7 @@
 "roll": "932",
 "name": "Fiend II",
 "type": "Talismans",
-"current_page": 32,
+"current_page": 1422,
 "bucket": "fuzzy-name",
 "candidates": [
 [
@@ -15903,7 +15906,7 @@
 "roll": "332-335",
 "name": "Harp of Charming II",
 "type": "Stringed Instruments",
-"current_page": 86,
+"current_page": 1323,
 "bucket": "fuzzy-name",
 "candidates": [
 [
@@ -15929,7 +15932,7 @@
 "roll": "336-340",
 "name": "Harp of Charming III",
 "type": "Stringed Instruments",
-"current_page": 86,
+"current_page": 1323,
 "bucket": "fuzzy-name",
 "candidates": [
 [
@@ -18424,7 +18427,10 @@
 "roll": "806-808",
 "name": "of Pearl",
 "type": "Ships",
-"current_page": 807,
+"current_page": [
+1086,
+1108
+],
 "bucket": "multi-page",
 "candidates": [
 [

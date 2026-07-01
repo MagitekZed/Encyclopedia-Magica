@@ -41,7 +41,21 @@ reference/  (gitignored, present locally) source PDFs + reference/index_full.jso
   - `app/PAGE_CORRECTIONS_applied.csv` (229) — early distinctive-name fixes
   - `app/PAGE_REJOIN_applied.csv` (774) — type-based re-join fixes
   - `app/PAGE_REVIEW_applied.csv` (313) — first review-swarm fixes
+  - `app/PAGE_DOMAIN_applied.csv` (7) — 2nd (domain) pass, index+cluster-verified
 - **Un-indexed items:** down 10 → 8 (see `app/ITEMS_TO_FIND.csv`).
+- **QA of the ~1,316 applied corrections** (`data-review/qa_applied.py`) — re-checked every
+  applied page against index candidates + type-head semantics. **0 safety-guard violations**,
+  1,312 clean, 4 to eyeball → 3 correct, 1 unverifiable (Map of Silence, now flagged in
+  `ITEMS_TO_FIND.csv`). Conclusion: the applied corpus is sound.
+- **2nd (domain) pass over the punted-149** (`data-review/apply_domain_pass.py`) — 7 high-confidence
+  switches where the current page was the wrong *item type* but a correct-type index page existed and
+  matched the same-type sibling/base (Ring of Invisibility→[952,971]; Jade Scepter of Defending II→1062;
+  Harp of Charming II/III→1323; Ship of Pearl→[1086,1108]; Scroll of Seven Wizard Spells→1083;
+  Talisman "Fiend II"→1422). Punted list 149 → 142.
+- **Lesson learned:** the safety guard blocks *hallucinated* pages but NOT *semantically-wrong-but-present*
+  index candidates (e.g. "Ring of Earth Command"→989 is the *Quasielemental* page; color Dragon Cloaks
+  fuzzy-match a "dragon:1557" that is a different item — their true home is the 1448 cluster). Always
+  cross-check the candidate head's *meaning* + the same-type sibling cluster before switching.
 
 Current coverage (run `python3 data-review/rejoin.py` to reproduce):
 `ok 4184 · multi-page 132 · ambiguous 228 · fuzzy-name 742 · absent 420 · untyped 3` (of 5,709).
@@ -75,8 +89,16 @@ Often correct as-is (the item genuinely spans pages, or there are same-named var
 keep the list, or pick the primary page. Low priority.
 
 ### 2d. Optional
-- **QA** a random sample of the ~1,100 applied corrections against the index for confidence.
+- ~~**QA** the applied corrections against the index for confidence.~~ **DONE** — see §1 (0 violations).
 - **Table T artifacts** (~147, mostly untyped — named artifacts aren't type-grouped in the source).
+- **NEW — cluster-outlier sweep on the `absent` bucket (promising).** Many absent items sit in a tight
+  same-subcategory page cluster where a *few* siblings are lone outliers pointing elsewhere — almost
+  certainly stale mis-joins. Examples found: Talismans "Brown Bear Beast"=1561 / "Eagle Beast"=959 /
+  "Skunk Beast"=445 while every other "X Beast" talisman is [1420,1421]; "Bronze Golem"=101 /
+  "Obsidian Golem"=600 vs the Golem-talisman 1422 block; Cloaks "Bronze Dragon"=1354 / "Red Dragon"=81 /
+  "Silver Dragon"=799 vs the 1448 Dragon-cloak cluster. These names are *absent* from the index, so the
+  fix is **peer-inference** (assign the cluster's dominant page), NOT index lookup — a softer method than
+  the safety guard, so apply conservatively and audit. Could close a meaningful slice of the 420 absent.
 
 ---
 
