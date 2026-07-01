@@ -1,0 +1,166 @@
+table,category,subcategory,roll_display,roll_low,roll_high,name,reroll,page,page_status
+R3,Armor & Shields,,1-6,1,6,Enchanted Enhancements,True,21,filled
+R3,Armor & Shields,,7-12,7,12,Gauntlet of Valor,False,506,filled
+R3,Armor & Shields,,13-18,13,18,Vambrace of Valor,False,594,filled
+R3,Armor & Shields,,19-24,19,24,Couter of Valor,False,65,filled
+R3,Armor & Shields,,25-30,25,30,Rerebrace of Valor,False,64,filled
+R3,Armor & Shields,,31-36,31,36,Pauldron of Valor,False,65,filled
+R3,Armor & Shields,,37-42,37,42,Rerebrace of Valor,False,64,filled
+R3,Armor & Shields,,43-48,43,48,Vambrace of Valor,False,594,filled
+R3,Armor & Shields,,49-54,49,54,Abbathor's,False,69,filled
+R3,Armor & Shields,,55-60,55,60,of Absorption,True,1093,filled
+R3,Armor & Shields,,61-66,61,66,of Absorption,True,1093,filled
+R3,Armor & Shields,,67-72,67,72,of Acidic Secretion,True,70,filled
+R3,Armor & Shields,,73-78,73,78,Aquatic,True,1508,filled
+R3,Armor & Shields,,79-84,79,84,Aquatic With Free Action,True,70,filled
+R3,Armor & Shields,,85-90,85,90,Arcane,False,163,filled
+R3,Armor & Shields,,91-96,91,96,Arvoreen's Chain,False,71,filled
+R3,Armor & Shields,,97-103,97,103,Aslyferund's,False,71,filled
+R3,Armor & Shields,,104-109,104,109,of Blackflame,False,357,filled
+R3,Armor & Shields,,110-115,110,115,of Blending,True,838,filled
+R3,Armor & Shields,,116-121,116,121,Blue of the Crystalmist Mountains,False,72,filled
+R3,Armor & Shields,,122-127,122,127,Bradle's Leather,False,72,filled
+R3,Armor & Shields,,128-133,128,133,Callarduran Smoothhands's Chain,False,72,filled
+R3,Armor & Shields,,134-139,134,139,of Charm,True,281,filled
+R3,Armor & Shields,,140-145,140,145,of Comfort,True,173,filled
+R3,Armor & Shields,,146-151,146,151,of Command,True,1275,filled
+R3,Armor & Shields,,152-157,152,157,of Concealed Wizardry,True,73,filled
+R3,Armor & Shields,,158-163,158,163,of Continual Cleanliness,True,73,filled
+R3,Armor & Shields,,164-169,164,169,of Coolness,True,73,filled
+R3,Armor & Shields,,170-175,170,175,of Cure Wounds,True,73,filled
+R3,Armor & Shields,,176-181,176,181,of the Desert Evening,False,73; 81,filled
+R3,Armor & Shields,,182-187,182,187,Dragonarmor,False,73,filled
+R3,Armor & Shields,,188-193,188,193,Eastern Wooden,False,73,filled
+R3,Armor & Shields,,194-199,194,199,of Eelix,False,74,filled
+R3,Armor & Shields,,200-206,200,206,of Electricity,True,74,filled
+R3,Armor & Shields,,207-212,207,212,of Electricity,True,74,filled
+R3,Armor & Shields,,213-218,213,218,of Energy Drain,True,1095,filled
+R3,Armor & Shields,,219-224,219,224,of Ethereality,True,74,filled
+R3,Armor & Shields,,225-230,225,230,of Ethereality,True,74,filled
+R3,Armor & Shields,,231-236,231,236,of Ethereality II,True,74,filled
+R3,Armor & Shields,,237-242,237,242,White Dragon,False,1448,filled
+R3,Armor & Shields,,243-248,243,248,Black Dragon,False,1448,filled
+R3,Armor & Shields,,249-254,249,254,Green Dragon,False,1448,filled
+R3,Armor & Shields,,255-260,255,260,Blue Dragon,False,1448,filled
+R3,Armor & Shields,,261-266,261,266,Red Dragon,False,81,filled
+R3,Armor & Shields,,267-272,267,272,of Fear,True,728,filled
+R3,Armor & Shields,,273-278,273,278,of Fear II,True,728,filled
+R3,Armor & Shields,,279-284,279,284,of Flight,True,1563,filled
+R3,Armor & Shields,,285-290,285,290,of Gaseous Form,True,855; 870,filled
+R3,Armor & Shields,,291-296,291,296,Gnarldan's,False,77,filled
+R3,Armor & Shields,,297-303,297,303,of Haste,True,1097,filled
+R3,Armor & Shields,,304-309,304,309,of Healing,True,1324,filled
+R3,Armor & Shields,,310-315,310,315,Heimdall's,False,77,filled
+R3,Armor & Shields,,316-321,316,321,Heimdall's White,False,77,filled
+R3,Armor & Shields,,322-327,322,327,of Horus,False,1376,filled
+R3,Armor & Shields,,328-333,328,333,Ilneval's Red Chain,False,77,filled
+R3,Armor & Shields,,334-339,334,339,Indra's Golden,False,77,filled
+R3,Armor & Shields,,340-345,340,345,of Invisibility,True,771,filled
+R3,Armor & Shields,,346-351,346,351,Keolish Plate of the Seas,False,315,filled
+R3,Armor & Shields,,352-357,352,357,Kumakawa,False,77,filled
+R3,Armor & Shields,,358-363,358,363,Laeral's Storm,False,78,filled
+R3,Armor & Shields,,364-369,364,369,Lemmikainen's,False,78,filled
+R3,Armor & Shields,,370-375,370,375,of Missile Attraction,True,713,filled
+R3,Armor & Shields,,376-381,376,381,Mourner's,False,78,filled
+R3,Armor & Shields,,382-387,382,387,Oyori of the Unknown Warrior,False,78,filled
+R3,Armor & Shields,,388-393,388,393,Plate of Solamnus,False,79,filled
+R3,Armor & Shields,,394-399,394,399,of Possession,True,79,filled
+R3,Armor & Shields,,400-406,400,406,of Presence,False,79,filled
+R3,Armor & Shields,,407-412,407,412,Quirk,True,79,filled
+R3,Armor & Shields,,413-418,413,418,of Rage,True,885,filled
+R3,Armor & Shields,,419-424,419,424,Rainbow,False,81,filled
+R3,Armor & Shields,,425-430,425,430,Raji's of the Desert Evening,False,81,filled
+R3,Armor & Shields,,431-436,431,436,Red of the Hellfurnaces,False,303,filled
+R3,Armor & Shields,,437-442,437,442,Red Dragon Scale,False,81,filled
+R3,Armor & Shields,,443-448,443,448,of Reflection,True,886,filled
+R3,Armor & Shields,,449-454,449,454,Remove Curse,True,82,filled
+R3,Armor & Shields,,455-460,455,460,Scale of Horus,False,1376,filled
+R3,Armor & Shields,,461-466,461,466,Skoriaan's Drow Chain,False,82,filled
+R3,Armor & Shields,,467-472,467,472,of Solamnia,False,82,filled
+R3,Armor & Shields,,473-478,473,478,Surte's Iron,False,82,filled
+R3,Armor & Shields,,479-484,479,484,of Swimming,True,953; 1002,filled
+R3,Armor & Shields,,485-490,485,490,of Temperature Control,True,82,filled
+R3,Armor & Shields,,491-496,491,496,Tulen's Plate of Etherealness,False,82,filled
+R3,Armor & Shields,,497-502,497,502,of the Undead,False,83,filled
+R3,Armor & Shields,,503-509,503,509,of Underwater Action,True,83,filled
+R3,Armor & Shields,,510-515,510,515,Voice of Heroes,False,83,filled
+R3,Armor & Shields,,516-521,516,521,of Vulnerability,True,83,filled
+R3,Armor & Shields,,522-527,522,527,of Vulnerability II,True,83,filled
+R3,Armor & Shields,,528-533,528,533,of Warmth,True,499,filled
+R3,Armor & Shields,,534-539,534,539,White of the Griff Mountains,False,1105,filled
+R3,Armor & Shields,,540-545,540,545,of Deceptive Travel,False,158,filled
+R3,Armor & Shields,,546-551,546,551,of Easy Travel,False,158,filled
+R3,Armor & Shields,,552-557,552,557,of Flight,False,1563,filled
+R3,Armor & Shields,,558-563,558,563,Magical,False,1284,filled
+R3,Armor & Shields,,564-569,564,569,of Missile Protection,False,880,filled
+R3,Armor & Shields,,570-575,570,575,Morgan's Horse,False,159,filled
+R3,Armor & Shields,,576-581,576,581,Horn,False,1545,filled
+R3,Armor & Shields,,582-587,582,587,War,False,1412,filled
+R3,Armor & Shields,,588-593,588,593,Armored,False,252,filled
+R3,Armor & Shields,,594-599,594,599,of Comparison,False,252,filled
+R3,Armor & Shields,,600-606,600,606,of Enslavement,False,252,filled
+R3,Armor & Shields,,607-612,607,612,of Protection,False,1009,filled
+R3,Armor & Shields,,613-618,613,618,of Silence,False,704; 705,filled
+R3,Armor & Shields,,619-624,619,624,of Sustenance,False,1002,filled
+R3,Armor & Shields,,625-630,625,630,Abbathor's,False,69,filled
+R3,Armor & Shields,,631-636,631,636,of Absorption,False,1093,filled
+R3,Armor & Shields,,637-642,637,642,Aegis,False,1093,filled
+R3,Armor & Shields,,643-648,643,648,Aegis II,False,1093,filled
+R3,Armor & Shields,,649-654,649,654,Athena's,False,1129,filled
+R3,Armor & Shields,,655-660,655,660,of Blow Turning,False,1093,filled
+R3,Armor & Shields,,661-666,661,666,of Charm,False,281,filled
+R3,Armor & Shields,,667-672,667,672,of Concealed Wizardry,False,73,filled
+R3,Armor & Shields,,673-678,673,678,Copper,False,321,filled
+R3,Armor & Shields,,679-684,679,684,of Cure Wounds,False,73,filled
+R3,Armor & Shields,,685-690,685,690,Death Watch Beetle,False,1094,filled
+R3,Armor & Shields,,691-696,691,696,Discus,False,232,filled
+R3,Armor & Shields,,697-702,697,702,of Dragon Protection,False,1094,filled
+R3,Armor & Shields,,703-709,703,709,Dragonscale,False,1095,filled
+R3,Armor & Shields,,710-715,710,715,Dragonshield,False,1095,filled
+R3,Armor & Shields,,716-721,716,721,Dzance's Enchanted,False,21,filled
+R3,Armor & Shields,,722-727,722,727,of Electricity,False,74,filled
+R3,Armor & Shields,,728-733,728,733,of Energy Drain,False,1095,filled
+R3,Armor & Shields,,734-739,734,739,of Energy Drain II,False,1095,filled
+R3,Armor & Shields,,740-745,740,745,of Etherealness,False,74; 82,filled
+R3,Armor & Shields,,746-751,746,751,Fire's,False,1481,filled
+R3,Armor & Shields,,752-757,752,757,of Fly,False,1096,filled
+R3,Armor & Shields,,758-763,758,763,of Gaseous Form,False,855; 870,filled
+R3,Armor & Shields,,764-769,764,769,Goblin of the Pomarj,False,1096,filled
+R3,Armor & Shields,,770-775,770,775,of Greyhawk,False,912,filled
+R3,Armor & Shields,,776-781,776,781,Grimjaw,False,1097,filled
+R3,Armor & Shields,,782-787,782,787,of Haste,False,1097,filled
+R3,Armor & Shields,,788-793,788,793,Hastezini's,False,1097,filled
+R3,Armor & Shields,,794-799,794,799,Hawkstone's Bulwark,False,1097,filled
+R3,Armor & Shields,,800-805,800,805,Holy,False,1505,filled
+R3,Armor & Shields,,806-812,806,812,of the Holy,False,1505,filled
+R3,Armor & Shields,,813-818,813,818,of Huma,False,1098,filled
+R3,Armor & Shields,,819-824,819,824,of Invisibility,False,771,filled
+R3,Armor & Shields,,825-830,825,830,Kirith-Kanoi,False,1098,filled
+R3,Armor & Shields,,831-836,831,836,Laduguer's,False,1099,filled
+R3,Armor & Shields,,837-842,837,842,Laeral's Spell,False,1099,filled
+R3,Armor & Shields,,843-848,843,848,of Lorin,False,1099,filled
+R3,Armor & Shields,,849-854,849,854,Magical Defense,False,1099,filled
+R3,Armor & Shields,,855-860,855,860,Medicine,False,1099,filled
+R3,Armor & Shields,,861-866,861,866,of Medusae,False,1099,filled
+R3,Armor & Shields,,867-872,867,872,Missile Attractor,False,1100,filled
+R3,Armor & Shields,,873-878,873,878,Missile Deflector,False,1100,filled
+R3,Armor & Shields,,879-884,879,884,Noj's Missile Attractor,False,89,filled
+R3,Armor & Shields,,885-890,885,890,of Olynthos,False,1386,filled
+R3,Armor & Shields,,891-896,891,896,Petrified,True,22,filled
+R3,Armor & Shields,,897-902,897,902,of Proof Against. . . .,False,826,filled
+R3,Armor & Shields,,903-909,903,909,of Proof against Cold,False,1476,filled
+R3,Armor & Shields,,910-915,910,915,of Proof against Electricity,False,1101,filled
+R3,Armor & Shields,,916-921,916,921,of Proof against Fire,False,1101,filled
+R3,Armor & Shields,,922-927,922,927,Quirks,True,443,filled
+R3,Armor & Shields,,928-933,928,933,Raji's of the Holy,False,1505,filled
+R3,Armor & Shields,,934,934,934,of Reflection,False,886,filled
+R3,Armor & Shields,,935-945,935,945,of Remove Curse,False,82,filled
+R3,Armor & Shields,,946-951,946,951,Reptar's Wall,False,1103,filled
+R3,Armor & Shields,,952-957,952,957,Shoon's Buckler,False,1103,filled
+R3,Armor & Shields,,958-963,958,963,Sticky,False,1104,filled
+R3,Armor & Shields,,964-969,964,969,Thurbrand's Protector,False,1105,filled
+R3,Armor & Shields,,970-975,970,975,Tortoise,False,1105,filled
+R3,Armor & Shields,,976-981,976,981,Thillonrian of Berserking,False,1105,filled
+R3,Armor & Shields,,982-987,982,987,White,False,1105,filled
+R3,Armor & Shields,,988-993,988,993,Wood-Iron,True,1105,filled
+R3,Armor & Shields,,994-1000,994,1000,Yondalla's,False,1106,filled

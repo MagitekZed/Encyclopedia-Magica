@@ -1,0 +1,68 @@
+table,category,subcategory,roll_display,roll_low,roll_high,name,reroll,page,page_status
+D,Rods,,1-15,1,15,Enchanted Enhancements,True,21,filled
+D,Rods,,16-30,16,30,of Beguiling,False,742,filled
+D,Rods,,31-45,31,45,of Concealment,False,742,filled
+D,Rods,,46-60,46,60,of Strength,False,891,filled
+D,Rods,,61-75,61,75,of Thundering Compliance,False,742,filled
+D,Rods,,76-90,76,90,of Absorption,False,1093,filled
+D,Rods,,91-106,91,106,of the Aerdi Sea,False,1022,filled
+D,Rods,,107-121,107,121,of Alertness,False,1022,filled
+D,Rods,,122-136,122,136,Bample's of Distortion,False,1023; 1025,filled
+D,Rods,,137-151,137,151,of Beguiling,False,742,filled
+D,Rods,,152-166,152,166,Blackstick,False,1023,filled
+D,Rods,,167-181,167,181,of Blind Walking,False,1023,filled
+D,Rods,,182-188,182,188,of Building,False,1024,filled
+D,Rods,,189-197,189,197,of Cancellation,False,1024,filled
+D,Rods,,198-212,198,212,of Cancellation II,False,1024,filled
+D,Rods,,213-227,213,227,of Climbing,False,1043,filled
+D,Rods,,228-242,228,242,of Death,False,1024,filled
+D,Rods,,243-257,243,257,Diplomacy of Furyondy,False,1025,filled
+D,Rods,,258-272,258,272,of Distortion,False,1023; 1025,filled
+D,Rods,,273-287,273,287,Diviner of Life,False,1026; 1278,filled
+D,Rods,,288-303,288,303,of Divining,False,1026,filled
+D,Rods,,304-318,304,318,of Dominion,False,1026,filled
+D,Rods,,319-333,319,333,of Electrification,False,1026,filled
+D,Rods,,334-348,334,348,of Entrapment,False,1027,filled
+D,Rods,,349-363,349,363,of Entrapment II,False,1027,filled
+D,Rods,,364-378,364,378,of Equestrians,False,1027,filled
+D,Rods,,379-393,379,393,Excellent of Engineering,False,1027,filled
+D,Rods,,394-409,394,409,of Expeditious Transport,False,1027,filled
+D,Rods,,410-424,410,424,Extendable Hand of Enjoyment,False,1028,filled
+D,Rods,,425-439,425,439,of Flailing,False,1028,filled
+D,Rods,,440-454,440,454,of Generalship,False,1028,filled
+D,Rods,,455-469,455,469,of Glyph Creation,False,1028,filled
+D,Rods,,470-484,470,484,of Health,False,969,filled
+D,Rods,,485-499,485,499,of Indestructibility,False,1029,filled
+D,Rods,,500-515,500,515,of Inertia,False,1029,filled
+D,Rods,,516-530,516,530,Iron of Pain,False,1029,filled
+D,Rods,,531-545,531,545,of Justice,False,1030,filled
+D,Rods,,546-560,546,560,Leadership,False,1030,filled
+D,Rods,,561-575,561,575,Lightning,False,772,filled
+D,Rods,,576-590,576,590,of Lordly Might,False,1030,filled
+D,Rods,,591-606,591,606,Malice's of Reincarnation,False,1031,filled
+D,Rods,,607-621,607,621,of Many Things,False,1031,filled
+D,Rods,,622-636,622,636,of Melting,False,1031,filled
+D,Rods,,637-651,637,651,Monadic Deva,False,1033,filled
+D,Rods,,652-666,652,666,of the Monolith,False,1034,filled
+D,Rods,,667-681,667,681,of Omwal,False,1034,filled
+D,Rods,,682-696,682,696,of Orbs,False,783,filled
+D,Rods,,697-712,697,712,of Parrying,False,1034,filled
+D,Rods,,713-727,713,727,of Passage,False,1035,filled
+D,Rods,,728-742,728,742,Quirks*,True,1035,filled
+D,Rods,,743-757,743,757,Ranke,False,1035,filled
+D,Rods,,758-772,758,772,of Rastinon,False,1035,filled
+D,Rods,,773-787,773,787,of Resurrection,False,1037,filled
+D,Rods,,788-802,788,802,of Rulership,False,1037,filled
+D,Rods,,803-818,803,818,of Security,False,1037,filled
+D,Rods,,819-833,819,833,Segojan Earthcaller's,False,1037,filled
+D,Rods,,834-848,834,848,of Singing,False,1117,filled
+D,Rods,,849-863,849,863,of Smiting,False,1040,filled
+D,Rods,,864-878,864,878,of Smiting II,False,1040,filled
+D,Rods,,879-893,879,893,of Splendor,False,1040,filled
+D,Rods,,894-909,894,909,of Terror,False,1042,filled
+D,Rods,,910-924,910,924,of Victory,False,1042,filled
+D,Rods,,925-939,925,939,of Weaponry,False,1042,filled
+D,Rods,,940-954,940,954,of Welkwood,False,1042,filled
+D,Rods,,955-969,955,969,Whisper's Lesser of Transportation,False,1042,filled
+D,Rods,,970-984,970,984,Whisper's Greater of Transportation,False,1042,filled
+D,Rods,,985-1000,985,1000,of the Wyrm,False,1043,filled

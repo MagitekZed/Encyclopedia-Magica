@@ -1,0 +1,118 @@
+table,category,subcategory,roll_display,roll_low,roll_high,name,reroll,page,page_status
+F,Wands,,1-8,1,8,Enchanted Enhancements,True,21,review
+F,Wands,,9-17,9,17,Almen's of Illumination,False,1473,filled
+F,Wands,,18-25,18,25,of Animal Location,False,1473,filled
+F,Wands,,26-34,26,34,of Animation,False,764,review
+F,Wands,,35-42,35,42,Anything,False,1473,filled
+F,Wands,,43-51,43,51,of Arc Lightning,False,1473,filled
+F,Wands,,52-59,52,59,of Armory,False,1473,filled
+F,Wands,,60-68,60,68,of Armory II,False,1473,filled
+F,Wands,,69-76,69,76,of Banishment,False,1474,filled
+F,Wands,,77-85,77,85,of Beauty and Ugliness,False,1475,filled
+F,Wands,,86-93,86,93,Bisselite of Peace,False,1475,filled
+F,Wands,,94-102,94,102,Bonewand,False,1476,filled
+F,Wands,,103-111,103,111,Buckler,False,1476,filled
+F,Wands,,112-119,112,119,of Burdening,False,1476,filled
+F,Wands,,120-128,120,128,of Cluny,False,1476,filled
+F,Wands,,129-136,129,136,of Cold,False,1476,filled
+F,Wands,,137-145,137,145,of Color,False,1476,filled
+F,Wands,,146-153,146,153,of Conjuration,False,1476,filled
+F,Wands,,154-162,154,162,of Continual Light,False,1477,filled
+F,Wands,,163-170,163,170,of Corridors,False,1477,filled
+F,Wands,,171-179,171,179,Dalamar's of Lightning,False,1477,filled
+F,Wands,,180-187,180,187,Dark of the Sulhaut Mountains,False,1477,filled
+F,Wands,,188-196,188,196,of Darkness,False,1477,filled
+F,Wands,,197-204,197,204,of Death,False,1478,filled
+F,Wands,,205-213,205,213,of Defoliation,False,1478,filled
+F,Wands,,214-222,214,222,of Displacement,False,1009,review
+F,Wands,,223-230,223,230,of Earth and Stone,False,1479,filled
+F,Wands,,231-239,231,239,of Element Transmogrification,False,1479,filled
+F,Wands,,240-247,240,247,of Enemy Detection,False,1480,filled
+F,Wands,,248-256,248,256,of Eyes,False,755,review
+F,Wands,,257-264,257,264,of Fear,False,728,review
+F,Wands,,265-273,265,273,of Feathers,False,1480,filled
+F,Wands,,274-281,274,281,Fire of Suloise,False,1480,filled
+F,Wands,,282-290,282,290,of Fire,False,1481,filled
+F,Wands,,291-298,291,298,of Fireballs,False,242,review
+F,Wands,,299-307,299,307,of Fireballs II,False,242,review
+F,Wands,,308-315,308,315,of Flame Extinguishing,False,1481,filled
+F,Wands,,316-324,316,324,of Fog,False,1482,filled
+F,Wands,,325-333,325,333,of Fog Control,False,1482,filled
+F,Wands,,334-341,334,341,of Force,False,1482,filled
+F,Wands,,342-350,342,350,of Freshness,False,1482,filled
+F,Wands,,351-358,351,358,of Frost,False,1482,filled
+F,Wands,,359-367,359,367,Gremlin,False,1483,filled
+F,Wands,,368-375,368,375,of Hammerblows,False,1483,filled
+F,Wands,,376-384,376,384,of Highfolk,False,1483,filled
+F,Wands,,385-392,385,392,of Ice Storms,False,1483,filled
+F,Wands,,393-401,393,401,of Illumination,False,1483,filled
+F,Wands,,402-409,402,409,of Illusion,False,420,review
+F,Wands,,410-418,410,418,Iron,False,1484,filled
+F,Wands,,419-427,419,427,Karelia's of Illusion,False,1484,filled
+F,Wands,,428-435,428,435,of Knock,False,1484,filled
+F,Wands,,436-444,436,444,of Light,False,374,review
+F,Wands,,445-452,445,452,of Lightening,False,1485,filled
+F,Wands,,453-461,453,461,of Lightning,False,633,review
+F,Wands,,462-469,462,469,of Lightning Bolts,False,772,review
+F,Wands,,470-478,470,478,of Lightning Bolts II,False,772,review
+F,Wands,,479-486,479,486,Lightwand with Ring,False,1001,review
+F,Wands,,487-495,487,495,Lightwand without Ring,False,1001,review
+F,Wands,,496-503,496,503,of Lloth,False,1485,filled
+F,Wands,,504-512,504,512,Mace/Wand of Lightning,False,633,review
+F,Wands,,513-520,513,520,of Magic Detection,False,905,review
+F,Wands,,521-529,521,529,of Magical Mirrors,False,1486,filled
+F,Wands,,530-538,530,538,of Magic Missiles,False,1487,filled
+F,Wands,,539-546,539,546,Meriadar's of Size Alteration,False,1285,filled
+F,Wands,,547-555,547,555,of Metal Command,False,954,review
+F,Wands,,556-563,556,563,of Metal Detection,False,1487,filled
+F,Wands,,564-572,564,572,of Metal and Mineral Detection,False,1487,filled
+F,Wands,,573-580,573,580,Mirynda's of Polymorphing,False,1487,filled
+F,Wands,,581-589,581,589,of Misplaced Objects,False,1487,filled
+F,Wands,,590-597,590,597,Mistletoe,False,1488,filled
+F,Wands,,598-606,598,606,Mystic,False,1488,filled
+F,Wands,,607-614,607,614,Nabil's of Magic Missiles,False,1488,filled
+F,Wands,,615-623,615,623,of Negation,False,1488,filled
+F,Wands,,624-631,624,631,Nidus' of Endless Repetition,False,1488,filled
+F,Wands,,632-640,632,640,of Obliteration,False,1488,filled
+F,Wands,,641-649,641,649,of Ochalor's Eye,False,1490,filled
+F,Wands,,650-657,650,657,Odin's Rune,False,1490,filled
+F,Wands,,658-666,658,666,of Orcus,False,1425,filled
+F,Wands,,667-674,667,674,Orgel's of Earth Passage,False,1491,filled
+F,Wands,,675-683,675,683,of Paralyzation,False,1491,filled
+F,Wands,,684-691,684,691,Phandore's of Fire,False,1491,filled
+F,Wands,,692-700,692,700,of Polymorphing,False,1491,filled
+F,Wands,,701-708,701,708,of Portraiture,False,1491,filled
+F,Wands,,709-717,709,717,of Prime Material Pocket,False,1491,filled
+F,Wands,,718-725,718,725,of Revealing,False,422,review
+F,Wands,,726-734,726,734,Robin Goodfellow's,False,1492,filled
+F,Wands,,735-742,735,742,Runestick,False,1492,filled
+F,Wands,,743-751,743,751,Rust,False,422,review
+F,Wands,,752-760,752,760,of Salt,False,1045,review
+F,Wands,,761-768,761,768,Sathallarin's of Wonder,False,1493,filled
+F,Wands,,769-777,769,777,Scant of Storms,False,1493,filled
+F,Wands,,778-785,778,785,of Secret Door Detection,False,1493,filled
+F,Wands,,786-794,786,794,of Secret Door & Trap Detection,False,1493,filled
+F,Wands,,795-802,795,802,of Secret Door and Trap Location,False,1494,filled
+F,Wands,,803-811,803,811,of Size Alteration,False,1494,filled
+F,Wands,,812-819,812,819,of Sleep,False,547,review
+F,Wands,,820-828,820,828,of the Squid,False,1494,filled
+F,Wands,,829-836,829,836,of Steam and Vapor,False,1494,filled
+F,Wands,,837-845,837,845,of the Sun,False,1406,filled
+F,Wands,,846-854,846,854,of Teeth,False,1041,review
+F,Wands,,855-862,855,862,Thithion's of Fire,False,1495,filled
+F,Wands,,863-871,863,871,Titania's,False,1495,filled
+F,Wands,,872-879,872,879,of Trap Detection,False,275,review
+F,Wands,,880-888,880,888,of the Underdark,False,1495,filled
+F,Wands,,889-896,889,896,of Viscid Globs,False,1495,filled
+F,Wands,,897-905,897,905,of Warding,False,1319,filled
+F,Wands,,906-913,906,913,of Water-Finding,False,1496,filled
+F,Wands,,914-922,914,922,of Whips,False,1496,filled
+F,Wands,,923-930,923,930,Witch,False,1497,filled
+F,Wands,,931-939,931,939,of Wonder,False,1497; 1498; 1499; 1500,filled
+F,Wands,,940-947,940,947,of Wonder II,False,1497; 1498; 1499; 1500,filled
+F,Wands,,948-956,948,956,of Wonder III,False,1497; 1498; 1499; 1500,filled
+F,Wands,,957-965,957,965,of Wonder IV,False,1497; 1498; 1499; 1500,filled
+F,Wands,,966-973,966,973,of Wonder V (Alternate),False,490,review
+F,Wands,,974-982,974,982,of a Wonder,False,1497; 1498; 1499; 1500,filled
+F,Wands,,983-990,983,990,of Wondrousness,False,1503,filled
+F,Wands,,991-1000,991,1000,Yatil of Zooming,False,1504,filled

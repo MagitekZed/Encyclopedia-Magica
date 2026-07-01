@@ -1,0 +1,2311 @@
+{
+ "power_tables": [
+  {
+   "num": "1-00",
+   "category": "Abjuration",
+   "entries": [
+    {
+     "roll": "1",
+     "text": "Cast abjure (3/day)"
+    },
+    {
+     "roll": "2",
+     "text": "Cast avoidance between a creature and the user (1/day)"
+    },
+    {
+     "roll": "3",
+     "text": "Cast banishment by touch (1/week)"
+    },
+    {
+     "roll": "4",
+     "text": "Instantly dismiss an elemental (1/week)"
+    },
+    {
+     "roll": "5",
+     "text": "Cast dismissal upon any planar creature by touch (1/week)"
+    },
+    {
+     "roll": "6",
+     "text": "Cast dispel evil/dispel good (1/day)"
+    },
+    {
+     "roll": "7",
+     "text": "Cast dispel magic by touch (1/day)"
+    },
+    {
+     "roll": "8",
+     "text": "Cast holy word/unholy word (1/week)"
+    },
+    {
+     "roll": "9",
+     "text": "Cast Hornung's random dispatcher by touch (1/week)"
+    },
+    {
+     "roll": "10",
+     "text": "Cast imprisonment/freedom by touch. Imprisoned creatures are freed by naming them (1/month)."
+    },
+    {
+     "roll": "11",
+     "text": "Cast knock (3/day)"
+    },
+    {
+     "roll": "12",
+     "text": "Cast lower resistance (7/day)"
+    },
+    {
+     "roll": "13",
+     "text": "Have minor spell turning continually in effect while the artifact is in hand. Roll 1d4 to determine the maximum level of the spell turned."
+    },
+    {
+     "roll": "14",
+     "text": "Cast purify food & drink on all items within a 10' radius of the artifact (7/day)"
+    },
+    {
+     "roll": "15",
+     "text": "Cast remove curse by touch (3/day)"
+    },
+    {
+     "roll": "16",
+     "text": "Have repel insects in a 10' radius in constant effect while the artifact is held"
+    },
+    {
+     "roll": "17",
+     "text": "Cast repulsion upon one named creature (1/week)"
+    },
+    {
+     "roll": "18",
+     "text": "Cast spell turning for two turns duration (1/day)"
+    },
+    {
+     "roll": "19",
+     "text": "Dispel illusions within a 60' radius (3/day)"
+    },
+    {
+     "roll": "20",
+     "text": "Have turn wood continually in effect while the artifact is in hand"
+    }
+   ],
+   "die": 20
+  },
+  {
+   "num": "1-01",
+   "category": "Cataclysm",
+   "entries": [
+    {
+     "roll": "1",
+     "text": "Cast acid storm to rain down upon the area of effect for two full turns"
+    },
+    {
+     "roll": "2",
+     "text": "Create a permanent aura of desolation that settles over the area of effect. Individuals of good alignment are haunted by terrifying dreams and suffer -2 penalties to THAC0 and saving throws while evil creatures gain +2 penalties to the same. Plants twist and wither, crops fail, and herds grow sickly."
+    },
+    {
+     "roll": "3",
+     "text": "Blanket the area of effect with a blizzard, dropping temperatures to 0° F and inflicting 1d6 points of damage per hour to those unsheltered. Overland movement is impossible. The storm lasts 1d6+12 hours and snows remain 1d3 days (summer), 2d6 days (spring/fall), or 2d20 days (winter)."
+    },
+    {
+     "roll": "4",
+     "text": "Ravage the area of effect with call lightning for 72 hours (432 bolts), randomly striking any targets"
+    },
+    {
+     "roll": "5",
+     "text": "Create a cloudkill spell upon the area of effect for 1d6 hours"
+    },
+    {
+     "roll": "6",
+     "text": "Form a ring of creeping doom around the area of effect that constricts in a solid blanket inward, not diminishing until the center is reached (4 hours to reach center)."
+    },
+    {
+     "roll": "7",
+     "text": "Settle a death fog over the area of effect that remains in place for 2d20 rounds"
+    },
+    {
+     "roll": "8",
+     "text": "Strike the area of effect with a permanent drought. All water present or brought into the area of effect evaporates instantly."
+    },
+    {
+     "roll": "9",
+     "text": "Hit the area of effect with an earthquake spell."
+    },
+    {
+     "roll": "10",
+     "text": "Rain a firestorm down upon the area of effect for 2d6 rounds"
+    },
+    {
+     "roll": "11",
+     "text": "Flood the entire area of effect, destroying buildings and fields. All living creatures unable to fly risk drowning in the rushing waters. The waters recede to safe levels in 1d6 hours but remain for 2d20 days."
+    },
+    {
+     "roll": "12",
+     "text": "Sweep an incendiary cloud through the entire area of effect"
+    },
+    {
+     "roll": "13",
+     "text": "Settle an insect plague upon the area of effect for 1d6 hours that, besides other spell effects, destroys all plants."
+    },
+    {
+     "roll": "14",
+     "text": "Instantly create a permanent magic-dead area of effect. Nonartifact magical items do not function in the zone, spellcasting is impossible, and all existing spells are negated, including permanent enchantments on creatures. Summoned beings are driven back to their own plane."
+    },
+    {
+     "roll": "15",
+     "text": "Create a meteor swarm to rain down upon the area of effect for 1d12 hours (8 spheres/round, or 480/hour), randomly striking targets within the area of effect"
+    },
+    {
+     "roll": "16",
+     "text": "Create a permanent spiral of degenera- Create a permanent spiral of degeneration that settles upon the area of effect. Only artifacts remain unaffected."
+    },
+    {
+     "roll": "17",
+     "text": "Create a permanent wildzone in the area of effect"
+    },
+    {
+     "roll": "18",
+     "text": "Transfer the whole area of effect to a randomly chosen lower plane. The artifact is not transported."
+    },
+    {
+     "roll": "19",
+     "text": "Strike the entire area of effect with a storm of vengeance."
+    },
+    {
+     "roll": "20",
+     "text": "Create permanent wolf spirits to guard the area of effect; they are hostile to all nonanimal life forms."
+    }
+   ],
+   "die": 20
+  },
+  {
+   "num": "1-02",
+   "category": "Combat",
+   "entries": [
+    {
+     "roll": "1",
+     "text": "Cause paralyzation by touch (3/day)"
+    },
+    {
+     "roll": "2",
+     "text": "Provide initiative each combat round"
+    },
+    {
+     "roll": "3",
+     "text": "Have blur constantly in effect while the artifact is in hand"
+    },
+    {
+     "roll": "4",
+     "text": "Cast choose future (1/day)"
+    },
+    {
+     "roll": "5",
+     "text": "Provide double attacks per round"
+    },
+    {
+     "roll": "6",
+     "text": "Cast energy drain by touch (1/week)"
+    },
+    {
+     "roll": "7",
+     "text": "Cast fire shield (1/day)"
+    },
+    {
+     "roll": "8",
+     "text": "Cause an opponent to fumble (7/day)"
+    },
+    {
+     "roll": "9",
+     "text": "Cause an opponent to suffer greater malison (7/day)"
+    },
+    {
+     "roll": "10",
+     "text": "Imbue the user with the skills to use the weapon, despite class"
+    },
+    {
+     "roll": "11",
+     "text": "Cast harm upon an opponent struck by the weapon (1/week)"
+    },
+    {
+     "roll": "12",
+     "text": "Cast improved invisibility (1/day)"
+    },
+    {
+     "roll": "13",
+     "text": "Cast mirror image (7/day)"
+    },
+    {
+     "roll": "14",
+     "text": "Imbue the user with the combat skills to use two weapons at no penalty"
+    },
+    {
+     "roll": "15",
+     "text": "Weapon is aware of its surroundings. The user is never struck from behind and never suffers penalties for blind fighting."
+    },
+    {
+     "roll": "16",
+     "text": "Cast slay living upon an opponent struck by the weapon (1/week)"
+    },
+    {
+     "roll": "17",
+     "text": "Imbue the user with all benefits of weapon specialization"
+    },
+    {
+     "roll": "18",
+     "text": "Cast Tenser's transformation upon the user (1/day)"
+    },
+    {
+     "roll": "19",
+     "text": "Function as a vampiric regeneration ring"
+    },
+    {
+     "roll": "20",
+     "text": "Cast warband quest (1/month)"
+    }
+   ],
+   "die": 20
+  },
+  {
+   "num": "1-03",
+   "category": "Conjuration",
+   "entries": [
+    {
+     "roll": "1",
+     "text": "Cast aerial servant (1/week)"
+    },
+    {
+     "roll": "2",
+     "text": "Cast animal horde (1/month)"
+    },
+    {
+     "roll": "3",
+     "text": "Cast animal summoning I-III—the user chooses the creature summoned (1/day)"
+    },
+    {
+     "roll": "4",
+     "text": "Cast animate object (1/day)"
+    },
+    {
+     "roll": "5",
+     "text": "Cast call lightning (1/week)"
+    },
+    {
+     "roll": "6",
+     "text": "Cast a conjure elemental spell of the user's choice (1/week)"
+    },
+    {
+     "roll": "7",
+     "text": "Cast Leomund's secure shelter (1/day)"
+    },
+    {
+     "roll": "8",
+     "text": "Cast fabricate (1/day)"
+    },
+    {
+     "roll": "9",
+     "text": "Call upon Leomund's secret chest at any time, using the chest to store the artifact when not needed"
+    },
+    {
+     "roll": "10",
+     "text": "Cast maze (1/week)"
+    },
+    {
+     "roll": "11",
+     "text": "Cast monster summoning I-VII with user choosing the monster summoned (1/week)"
+    },
+    {
+     "roll": "12",
+     "text": "Cast prismatic sphere (1/week)"
+    },
+    {
+     "roll": "13",
+     "text": "Summon 1d4 berserkers as a horn of Valhalla (1/week)"
+    },
+    {
+     "roll": "14",
+     "text": "Summon a genie (1/week)"
+    },
+    {
+     "roll": "15",
+     "text": "Summon an invisible stalker (1/week)"
+    },
+    {
+     "roll": "16",
+     "text": "Cast summon shadow (1/week)"
+    },
+    {
+     "roll": "17",
+     "text": "Inscribe a symbol of the user's choice (1/week)"
+    },
+    {
+     "roll": "18",
+     "text": "Cast trap the soul upon a creature by touch (1/month)"
+    },
+    {
+     "roll": "19",
+     "text": "Cast unseen servant to be constantly at hand to serve the user"
+    },
+    {
+     "roll": "20",
+     "text": "Cast weather summoning (1/week)"
+    }
+   ],
+   "die": 20
+  },
+  {
+   "num": "1-04",
+   "category": "Cursed",
+   "entries": [
+    {
+     "roll": "1",
+     "text": "Instantly pollute all holy water within 30' of the user"
+    },
+    {
+     "roll": "2",
+     "text": "Reduce the user's Charisma by 1d4 points"
+    },
+    {
+     "roll": "3",
+     "text": "Inflict a -1 penalty on the user's saving throws vs. magic"
+    },
+    {
+     "roll": "4",
+     "text": "Inflict a -2 penalty on the user's saving throws vs. poison"
+    },
+    {
+     "roll": "5",
+     "text": "Cause the user's touch to rot away wooden items the size of a bow or less in 1d4 days"
+    },
+    {
+     "roll": "6",
+     "text": "Cause the user's touch to kill plants (inflicts 1d6 points of damage to plant-based creatures)"
+    },
+    {
+     "roll": "7",
+     "text": "Cause NPC reactions to the user to be neutral or worse"
+    },
+    {
+     "roll": "8",
+     "text": "Inflict insatiable hunger upon the user, who must eat a full meal once every waking hour"
+    },
+    {
+     "roll": "9",
+     "text": "Instantly change the gender of anyone handling an artifact for the first time"
+    },
+    {
+     "roll": "10",
+     "text": "Inflict deafness upon the user, who then can only hear when people shout. Spellcasters must shout their spells to be successful."
+    },
+    {
+     "roll": "11",
+     "text": "Inflict an incurable disease upon the user. At the beginning of each month a saving throw vs. death magic must be made to avoid losing 1 point of Constitution. When the user's Constitution reaches 0, death occurs."
+    },
+    {
+     "roll": "12",
+     "text": "Cause the user's touch to have a 50% chance of draining the magic from any item not an artifact"
+    },
+    {
+     "roll": "13",
+     "text": "Inflict 5d10 points of damage upon anyone handling the artifact for the first time"
+    },
+    {
+     "roll": "14",
+     "text": "Cause a 50% chance of the user being struck by a geas each time a power of the artifact is used. The geas must be completed before the artifact can be used again."
+    },
+    {
+     "roll": "15",
+     "text": "Age the user 1d10 years each time the artifact is used. Although the user suffers all the effects of aging, death by old age is not possible as long as the artifact remains in possession."
+    },
+    {
+     "roll": "16",
+     "text": "Afflict the user with lycanthropy"
+    },
+    {
+     "roll": "17",
+     "text": "Cause the user's touch to be poisonous (saving throw vs. poison or 2d12 points of damage are inflicted)"
+    },
+    {
+     "roll": "18",
+     "text": "Inflict photosensitivity upon the user, who suffers a -1 penalty to all die rolls while in daylight"
+    },
+    {
+     "roll": "19",
+     "text": "Cause the user's personal possessions to gradually disappear as if lost. Little things disappear first, then larger possessions, until the user is stripped of all worldly goods."
+    },
+    {
+     "roll": "20",
+     "text": "Cause the user to become forgetful, starting with small details and progressing until full amnesia occurs"
+    }
+   ],
+   "die": 20
+  },
+  {
+   "num": "1-05",
+   "category": "Detection",
+   "entries": [
+    {
+     "roll": "1",
+     "text": "Provide a +1 bonus to the user's surprise rolls while the artifact is in hand"
+    },
+    {
+     "roll": "2",
+     "text": "Imbue the user with all benefits of the appraisal proficiency"
+    },
+    {
+     "roll": "3",
+     "text": "Have comprehend languages constantly in effect while the artifact is in hand"
+    },
+    {
+     "roll": "4",
+     "text": "Have detect charm continually in effect while the artifact is in hand"
+    },
+    {
+     "roll": "5",
+     "text": "Cast detect evil/detect good (3/day)"
+    },
+    {
+     "roll": "6",
+     "text": "Detect illusions (3/day)"
+    },
+    {
+     "roll": "7",
+     "text": "Cast detect invisibility (3/day)"
+    },
+    {
+     "roll": "8",
+     "text": "Cast detect magic (3/day)"
+    },
+    {
+     "roll": "9",
+     "text": "Cast detect poison (3/day)"
+    },
+    {
+     "roll": "10",
+     "text": "Have detect snares & pits constantly in effect while the artifact is in hand"
+    },
+    {
+     "roll": "11",
+     "text": "Detect stonework traps"
+    },
+    {
+     "roll": "12",
+     "text": "Cast detect undead (3/day)"
+    },
+    {
+     "roll": "13",
+     "text": "Cast emotion read (3/day)"
+    },
+    {
+     "roll": "14",
+     "text": "Cast extradimensional detection (3/day)"
+    },
+    {
+     "roll": "15",
+     "text": "Cast find traps (1/day)"
+    },
+    {
+     "roll": "16",
+     "text": "Have infravision continually in effect while the artifact is in hand"
+    },
+    {
+     "roll": "17",
+     "text": "Cast locate object (3/day)"
+    },
+    {
+     "roll": "18",
+     "text": "Cast true seeing (1/day)"
+    },
+    {
+     "roll": "19",
+     "text": "Cast wizard eye (3/day)"
+    },
+    {
+     "roll": "20",
+     "text": "Cast wizard sight (3/day)"
+    }
+   ],
+   "die": 20
+  },
+  {
+   "num": "1-06",
+   "category": "Divination",
+   "entries": [
+    {
+     "roll": "1",
+     "text": "Cast analyze balance by touch (7/day)"
+    },
+    {
+     "roll": "2",
+     "text": "Cast augury (3/day)"
+    },
+    {
+     "roll": "3",
+     "text": "The user communes with the deity affiliated with the artifact. Questions about the artifact are not answered (1/week)."
+    },
+    {
+     "roll": "4",
+     "text": "Cast consequence (1/day)"
+    },
+    {
+     "roll": "5",
+     "text": "Permits the wielder to use contact other plane through the artifact, which selectively screens out all information relating to itself or its powers (1/week)"
+    },
+    {
+     "roll": "6",
+     "text": "Cast detect lie upon any creature within 10' (3/day)"
+    },
+    {
+     "roll": "7",
+     "text": "Cast detect scrying (1/day)"
+    },
+    {
+     "roll": "8",
+     "text": "Cast divination (1/day)"
+    },
+    {
+     "roll": "9",
+     "text": "Cast divine inspiration (1/day)"
+    },
+    {
+     "roll": "10",
+     "text": "Cast ESP by touch (3/day)"
+    },
+    {
+     "roll": "11",
+     "text": "Cast find the path (1/day)"
+    },
+    {
+     "roll": "12",
+     "text": "Cast foresight (1/week)"
+    },
+    {
+     "roll": "13",
+     "text": "Cast identify by touch (1/day)."
+    },
+    {
+     "roll": "14",
+     "text": "Cast know alignment by touch (3/day)"
+    },
+    {
+     "roll": "15",
+     "text": "Cast moment reading (3/day)"
+    },
+    {
+     "roll": "16",
+     "text": "Cast past life (3/day)"
+    },
+    {
+     "roll": "17",
+     "text": "Cast patternweave by touch (1/day)"
+    },
+    {
+     "roll": "18",
+     "text": "Cast personal reading upon a creature by touch (3/day)"
+    },
+    {
+     "roll": "19",
+     "text": "Cast read magic by touching the artifact to written material (3/day)"
+    },
+    {
+     "roll": "20",
+     "text": "Cast stone tell by touch (3/day)"
+    }
+   ],
+   "die": 20
+  },
+  {
+   "num": "1-07",
+   "category": "Elemental Air",
+   "entries": [
+    {
+     "roll": "1",
+     "text": "Cast aerial servant (1/week)"
+    },
+    {
+     "roll": "2",
+     "text": "Cast cloud of purification (2/day)"
+    },
+    {
+     "roll": "3",
+     "text": "Cast cloudkill (1/day)"
+    },
+    {
+     "roll": "4",
+     "text": "Cast conjure air elemental (1/week)"
+    },
+    {
+     "roll": "5",
+     "text": "Cast control winds (3/day)"
+    },
+    {
+     "roll": "6",
+     "text": "Create a windstorm equal to a djinni's whirlwind. The storm lasts for 1 full turn (1/day)"
+    },
+    {
+     "roll": "7",
+     "text": "Have feather fall constantly in effect while the artifact is in hand"
+    },
+    {
+     "roll": "8",
+     "text": "Cast fly (3/day)"
+    },
+    {
+     "roll": "9",
+     "text": "Change the user (and all possessions carried) into a gaseous form, vulnerable only to area-effect spells. The user can remain gaseous for 2d6 rounds and can move at full normal movement rate (1/day)"
+    },
+    {
+     "roll": "10",
+     "text": "Cast gust of wind (5/day)"
+    },
+    {
+     "roll": "11",
+     "text": "Cast solid fog (1/day)"
+    },
+    {
+     "roll": "12",
+     "text": "Cast stinking cloud (3/day)"
+    },
+    {
+     "roll": "13",
+     "text": "Cast wall of fog (3/day)"
+    },
+    {
+     "roll": "14",
+     "text": "Cast weather summoning (1/day)"
+    },
+    {
+     "roll": "15",
+     "text": "Cast wind walk (1/day)"
+    },
+    {
+     "roll": "16",
+     "text": "Cast wind wall (1/day)"
+    },
+    {
+     "roll": "17",
+     "text": "Have zone of sweet air (10' radius) continually surrounding the user while the artifact is in hand"
+    },
+    {
+     "roll": "18",
+     "text": "Open a portal to the Elemental Plane of Air. The passage can be traversed in both directions and the portal remains open for 1 hour. Any creature may use the portal."
+    },
+    {
+     "roll": "19",
+     "text": "Imbue the user with immunity to the hostile environment found on the Elemental Plane of Air and the ability to fly through it normally while the artifact is in hand"
+    },
+    {
+     "roll": "20",
+     "text": "Send messages in a fashion similar to a whispering wind. The user need only know the name of the recipient before whispering a message to the sky. The user's voice reaches its target within 24 hours, if that person is on the same plane (at will)."
+    }
+   ],
+   "die": 20
+  },
+  {
+   "num": "1-08",
+   "category": "Elemental Fire",
+   "entries": [
+    {
+     "roll": "1",
+     "text": "Cast chariot of Sustarre (1/week)"
+    },
+    {
+     "roll": "2",
+     "text": "Cast conjure fire elemental (1/week)"
+    },
+    {
+     "roll": "3",
+     "text": "Cast delayed blast fireball (1/day)"
+    },
+    {
+     "roll": "4",
+     "text": "Imbue the user with the ability to breathe a cone of fire 30' x 10', inflicting 1d6 points of damage per level (1/day)"
+    },
+    {
+     "roll": "5",
+     "text": "Cast fire burst (3/day)"
+    },
+    {
+     "roll": "6",
+     "text": "Imbue the user with the ability to assume the form of a small fire elemental, changing body and possessions into flame. All within 5' suffer 2d6 points of damage each round (successful saving throw vs. spell reduces damage by one-half) and the user's physical blows inflict 2d8 points of damage per hit. The user is immune to all types of fire. The form lasts 2d6 rounds."
+    },
+    {
+     "roll": "7",
+     "text": "Cast fire shield (1/day)"
+    },
+    {
+     "roll": "8",
+     "text": "Cast fireball (3/day)"
+    },
+    {
+     "roll": "9",
+     "text": "Cast fireflow (3/day)"
+    },
+    {
+     "roll": "10",
+     "text": "Cast flame strike (1/day)"
+    },
+    {
+     "roll": "11",
+     "text": "Cast flame walk (3/day)"
+    },
+    {
+     "roll": "12",
+     "text": "Cast Forest's fiery constrictor (1/day)"
+    },
+    {
+     "roll": "13",
+     "text": "Imbue the user with immunity to the hostile environment found on the Elemental Plane of Fire while the artifact is in hand"
+    },
+    {
+     "roll": "14",
+     "text": "Cast light (3/day)"
+    },
+    {
+     "roll": "15",
+     "text": "Cast Malec-Keth's flame fist (3/day)"
+    },
+    {
+     "roll": "16",
+     "text": "Have protection from fire constantly in effect while the artifact is in hand"
+    },
+    {
+     "roll": "17",
+     "text": "Imbue the user with the ability to sculpt normal fire by hand (no damage suffered). The fire can be fashioned into any shape the user is capable of making, but does not gain any special powers because of it. Sculpted fire holds its form for 1d6 turns before returning to normal."
+    },
+    {
+     "roll": "18",
+     "text": "Cast sunray (1/day)"
+    },
+    {
+     "roll": "19",
+     "text": "Cast wall of fire (1/day)"
+    },
+    {
+     "roll": "20",
+     "text": "Open a portal to the Elemental Plane of Fire. The passage can be traversed both ways and the portal remains open for 1 hour—any creature may use it."
+    }
+   ],
+   "die": 20
+  },
+  {
+   "num": "1-09",
+   "category": "Elemental Water",
+   "entries": [
+    {
+     "roll": "1",
+     "text": "Cast airy water (3/day)"
+    },
+    {
+     "roll": "2",
+     "text": "Cast cone of cold (1/day)"
+    },
+    {
+     "roll": "3",
+     "text": "Cast conjure water elemental (1/week)"
+    },
+    {
+     "roll": "4",
+     "text": "Transform small quantities of liquids into holy water (or unholy water, depending upon the item's nature) by touch. Up to 1 pint can be transformed (3/day)."
+    },
+    {
+     "roll": "5",
+     "text": "Cast create water (1/day)"
+    },
+    {
+     "roll": "6",
+     "text": "Cast ice storm (1/day)"
+    },
+    {
+     "roll": "7",
+     "text": "Shoot a watery blue beam at a single target. If struck, the target must roll a successful saving throw vs. death magic. If the saving throw fails, the target is slain as the victim melts into a puddle of ooze. If the save is successful, the target still suffers 2d8 points of damage. This power is not effective on water-based creatures or those that lack solid structure (puddings, oozes, jellies.) (1/day)."
+    },
+    {
+     "roll": "8",
+     "text": "Empower any basin of water to function as a magic font spell by touch (1/day)"
+    },
+    {
+     "roll": "9",
+     "text": "Cast metamorphose liquids by touch (at will)"
+    },
+    {
+     "roll": "10",
+     "text": "Cast Otiluke's freezing sphere (1/day)"
+    },
+    {
+     "roll": "11",
+     "text": "Cast part water (3/day)"
+    },
+    {
+     "roll": "12",
+     "text": "Imbue the user with immunity to the hostile environment found on the Elemental Plane of Water and with the ability to breathe normally there while the artifact is in hand"
+    },
+    {
+     "roll": "13",
+     "text": "Render any small body of water into a reflecting pool (1/day)"
+    },
+    {
+     "roll": "14",
+     "text": "Imbue the user with all sailing and navigation proficiencies for as long as the artifact is in the user's possession"
+    },
+    {
+     "roll": "15",
+     "text": "Transform any small body of water into a time pool (1/day)"
+    },
+    {
+     "roll": "16",
+     "text": "Cast wall of ice (1/day)"
+    },
+    {
+     "roll": "17",
+     "text": "Imbue the user with water breathing while the artifact is in hand"
+    },
+    {
+     "roll": "18",
+     "text": "Imbue the user with the abilities of water walk while the artifact is in hand"
+    },
+    {
+     "roll": "19",
+     "text": "Transform the user's body into liquid. The character can move through water at normal movement speeds and takes the form of a water weird. The user retains all normal abilities but cannot venture more than 30' away from a large body of water. The user is immune to water-based attacks and suffers only half damage from electrical attacks. Fire-based attacks cause double damage, while cold-based spells cause no damage but force the user to revert to true form. The power lasts for 1d6 hours or until canceled by the user (1/day)."
+    },
+    {
+     "roll": "20",
+     "text": "Open a portal to the Elemental Plane of Water. The passage can be traversed both ways and the portal remains open for 1 hour. Any creature may use the portal."
+    }
+   ],
+   "die": 20
+  },
+  {
+   "num": "1-10",
+   "category": "Elemental Earth",
+   "entries": [
+    {
+     "roll": "1",
+     "text": "Cast animate rock by touch (1/day)"
+    },
+    {
+     "roll": "2",
+     "text": "Imbue the user with the ability to appraise gems and jewelry as long as the artifact is in the user's possession"
+    },
+    {
+     "roll": "3",
+     "text": "Cast conjure earth elemental (1/week)"
+    },
+    {
+     "roll": "4",
+     "text": "Imbue the user with the ability to detect depth underground as a dwarf while the artifact is in hand"
+    },
+    {
+     "roll": "5",
+     "text": "Imbue the user with the ability to detect gems while the artifact is in hand"
+    },
+    {
+     "roll": "6",
+     "text": "Imbue the user with the ability to detect stonework traps as a dwarf while the artifact is in hand"
+    },
+    {
+     "roll": "7",
+     "text": "Cast earthquake (1/month)"
+    },
+    {
+     "roll": "8",
+     "text": "Cast fist of stone upon the user (3/day)"
+    },
+    {
+     "roll": "9",
+     "text": "Cast flesh to stone by touch (1/day)"
+    },
+    {
+     "roll": "10",
+     "text": "Imbue the user with the gem cutting proficiency"
+    },
+    {
+     "roll": "11",
+     "text": "Cast meld into stone (3/day)"
+    },
+    {
+     "roll": "12",
+     "text": "Cast move earth (1/week)"
+    },
+    {
+     "roll": "13",
+     "text": "Cast passwall (1/day)"
+    },
+    {
+     "roll": "14",
+     "text": "Cast sink (1/week)"
+    },
+    {
+     "roll": "15",
+     "text": "Cast stone shape (3/day)"
+    },
+    {
+     "roll": "16",
+     "text": "Cast stone tell (3/day)"
+    },
+    {
+     "roll": "17",
+     "text": "Cast stoneskin (1/day)"
+    },
+    {
+     "roll": "18",
+     "text": "Cast transmute rock to mud (1/day)"
+    },
+    {
+     "roll": "19",
+     "text": "Cast wall of stone (1/day)"
+    },
+    {
+     "roll": "20",
+     "text": "Open a portal to the Elemental Plane of Earth. The passage can be traversed both ways and the portal remains open for 1 hour. Any creature may use the portal."
+    }
+   ],
+   "die": 20
+  },
+  {
+   "num": "1-11",
+   "category": "Enchantment/Charm",
+   "entries": [
+    {
+     "roll": "1",
+     "text": "Increase the user's Charisma score by 3, but the enhancement only affects the opposite gender. The user need not present the artifact, but the power vanishes when the artifact is no longer in possession."
+    },
+    {
+     "roll": "2",
+     "text": "Imbue the user with the effects of animal friendship while the artifact is in hand"
+    },
+    {
+     "roll": "3",
+     "text": "Cast charm monster (1/day)"
+    },
+    {
+     "roll": "4",
+     "text": "Cast charm person (2/day)"
+    },
+    {
+     "roll": "5",
+     "text": "Cast charm plants (5/day)"
+    },
+    {
+     "roll": "6",
+     "text": "Cast cloak of bravery/cloak of fear (2/day)"
+    },
+    {
+     "roll": "7",
+     "text": "Cast command (7/day)"
+    },
+    {
+     "roll": "8",
+     "text": "Cast confusion (1/day)"
+    },
+    {
+     "roll": "9",
+     "text": "Cast demand (1/week)"
+    },
+    {
+     "roll": "10",
+     "text": "Cast domination (1/week)"
+    },
+    {
+     "roll": "11",
+     "text": "Cast emotion (1/day)"
+    },
+    {
+     "roll": "12",
+     "text": "Imbue the user's gaze with the effects of cause fear while the device is in hand"
+    },
+    {
+     "roll": "13",
+     "text": "Cast feeblemind by touch (1/week)"
+    },
+    {
+     "roll": "14",
+     "text": "Cast forget by touch (3/day)"
+    },
+    {
+     "roll": "15",
+     "text": "Cast geas by touch. The mission must relate to the goals of the artifact, if any (1/month)."
+    },
+    {
+     "roll": "16",
+     "text": "Cast hold person (1/day)"
+    },
+    {
+     "roll": "17",
+     "text": "Cast hypnotism (1/day)"
+    },
+    {
+     "roll": "18",
+     "text": "Cast Otto's irresistible dance by touch (1/day)"
+    },
+    {
+     "roll": "19",
+     "text": "Cast quest by touch. The mission must relate to the goals of the artifact, if any (1/month)"
+    },
+    {
+     "roll": "20",
+     "text": "Cast suggestion (3/day)"
+    }
+   ],
+   "die": 20
+  },
+  {
+   "num": "1-12",
+   "category": "Fate and Fortune",
+   "entries": [
+    {
+     "roll": "1",
+     "text": "Grant a +1 bonus to all saving throws"
+    },
+    {
+     "roll": "2",
+     "text": "Grant a +1 bonus to the user's THAC0"
+    },
+    {
+     "roll": "3",
+     "text": "Grant a +1 bonus (assuming a high roll is good) to all die rolls for the division of treasure, including magical items (but not other artifacts). This bonus is mandatory."
+    },
+    {
+     "roll": "4",
+     "text": "Permanently imbue the user with all knowledge of the gambling proficiency. If the user is already proficient in gambling, add +1 to the ability score."
+    },
+    {
+     "roll": "5",
+     "text": "Grant a +1 bonus to the user's encounter reaction rolls"
+    },
+    {
+     "roll": "6",
+     "text": "Imbue the user with natural luck in combat, granting a +1 bonus to all surprise rolls"
+    },
+    {
+     "roll": "7",
+     "text": "Grant a -1 bonus on all of the user's initiative rolls"
+    },
+    {
+     "roll": "8",
+     "text": "Grant the user a change of luck. Once per (game) day, the player can choose to have any die roll rerolled—an attack roll, damage roll, resurrection/survival roll, etc. The second roll is the actual result"
+    },
+    {
+     "roll": "9",
+     "text": "Grant the user incredible luck. Once per (game) week, the user's player can choose to alter any situation by declaring that an incredible event has occurred, (as long as it does not involve magical items or cause the death of a creature), and that incident follows. For example, evil wizards could be made to trip over their own robes in the middle of spellcasting, but could not be made to fall off a cliff."
+    },
+    {
+     "roll": "10",
+     "text": "Grant the user's adventuring group automatic surprise (1/week)"
+    },
+    {
+     "roll": "11",
+     "text": "Allow the user to always find suitable work, despite status or skills"
+    },
+    {
+     "roll": "12",
+     "text": "Prevent the user from ever being completely destitute. Should all of the user's funds be consumed, some lucky chance happens to provide just enough to get by, such as a reward, coins found in the street or a kind stranger. The amount is never great, but it sees to basic needs."
+    },
+    {
+     "roll": "13",
+     "text": "Always grant fair sailing winds to any ship or wind-powered vessel the user is aboard"
+    },
+    {
+     "roll": "14",
+     "text": "Prevent the user from ever being the target of pickpockets, thieves, house-breakers, or con artists—except for those who are specifically after the artifact. The power does not prevent general holdups by bandits and the like, only individual thefts."
+    },
+    {
+     "roll": "15",
+     "text": "Prevents merchants from overcharging the user, always offering the best deals"
+    },
+    {
+     "roll": "16",
+     "text": "Prevent the user from ever getting lost"
+    },
+    {
+     "roll": "17",
+     "text": "Allow the user to always sell goods at 50% greater than normal prices"
+    },
+    {
+     "roll": "18",
+     "text": "Prevent the user from ever going hungry. If the user is unable to buy or find food, some fortunate circumstance occurs to provide a meal. A deer may wander too close to camp, or an innkeeper may extend the hand of charity."
+    },
+    {
+     "roll": "19",
+     "text": "Cause the user to always appear innocent of crimes. The user is never suspected or accused of a crime unless there is no other possibility. Even then, plausible explanations cause a reaction roll to see if the story is accepted"
+    },
+    {
+     "roll": "20",
+     "text": "Cause all spells cast by the user to operate at maximum effect"
+    }
+   ],
+   "die": 20
+  },
+  {
+   "num": "1-13",
+   "category": "Healing",
+   "entries": [
+    {
+     "roll": "1",
+     "text": "Constantly provide the user with the benefits of accelerated healing"
+    },
+    {
+     "roll": "2",
+     "text": "Cast aid (5/day)"
+    },
+    {
+     "roll": "3",
+     "text": "Cast breath of life (1/week)"
+    },
+    {
+     "roll": "4",
+     "text": "Render one creature permanently immune to a specific disease or poison by touch (1/week)"
+    },
+    {
+     "roll": "5",
+     "text": "Cast cure blindness or deafness (3/day)"
+    },
+    {
+     "roll": "6",
+     "text": "Cast cure critical wounds (2/day)"
+    },
+    {
+     "roll": "7",
+     "text": "Cast cure disease (3/day)"
+    },
+    {
+     "roll": "8",
+     "text": "Cure insanity or restore the mind of one affected by feeblemind or similar spells (1/week)"
+    },
+    {
+     "roll": "9",
+     "text": "Cast cure light wounds (7/day)"
+    },
+    {
+     "roll": "10",
+     "text": "Cast cure serious wounds (3/day)"
+    },
+    {
+     "roll": "11",
+     "text": "Purge a body of the effects of any drug, including drunkenness, by touch (1/day)"
+    },
+    {
+     "roll": "12",
+     "text": "Cast heal (1/day)"
+    },
+    {
+     "roll": "13",
+     "text": "Grant the user the power to heal according to the paladin's ability to lay on hands"
+    },
+    {
+     "roll": "14",
+     "text": "Restore hit points to the user by draining 1d6 points from every other creature within 10'. Drained points are added to the user's but cannot exceed the original hp total."
+    },
+    {
+     "roll": "15",
+     "text": "Cast neutralize poison (3/day)"
+    },
+    {
+     "roll": "16",
+     "text": "Cast raise dead (1/week)"
+    },
+    {
+     "roll": "17",
+     "text": "Cast regenerate (1/week)"
+    },
+    {
+     "roll": "18",
+     "text": "Place a creature in stasis, halting all further decay and damage. The inert body is immune to gases, fire, cold, or lack of oxygen, but can still be harmed by physical attacks. Damage from these attacks is subtracted immediately, but death does not occur until the stasis is lifted. No further damage affects the body but all damage suffered and poisons still in the system continue their normal course when stasis ends. Only willing targets can be placed in stasis and the effects last 1 week or until the user of the artifact cancels it. Those in stasis are completely static, and not even mental and psionic powers can function (1/week)."
+    },
+    {
+     "roll": "19",
+     "text": "Cause all healing spells applied to the user to be doubly effective"
+    },
+    {
+     "roll": "20",
+     "text": "Erase scars and other disfigurements caused by battle (at will)"
+    }
+   ],
+   "die": 20
+  },
+  {
+   "num": "1-14",
+   "category": "Immunity",
+   "entries": [
+    {
+     "roll": "1",
+     "text": "Make the user immune to all normal diseases—colds, flu, black death, even food poisoning. This does not include diseases caused by spells or monsters (like mummy rot)."
+    },
+    {
+     "roll": "2",
+     "text": "Grant immunity to all magical diseases. While it offers no protection from things as mundane as the common cold or the flu, the immunity works against diseases like mummy rot and the results of cause disease spells."
+    },
+    {
+     "roll": "3",
+     "text": "Imbue the user with immunity to all forms of disease, both normal and magical"
+    },
+    {
+     "roll": "4",
+     "text": "Create immunity to magically caused fear"
+    },
+    {
+     "roll": "5",
+     "text": "Make the user immune to all forms of gas. The user must still breathe, however, and could suffocate or drown."
+    },
+    {
+     "roll": "6",
+     "text": "Confer immunity to charm- and hold-based spells and spell-like effects—except those caused by artifacts"
+    },
+    {
+     "roll": "7",
+     "text": "Make the user immune to missiles from magic missile spells"
+    },
+    {
+     "roll": "8",
+     "text": "Imbue the user with immunity to all forms of psionics"
+    },
+    {
+     "roll": "9",
+     "text": "Provide immunity to all magical mental attacks. The character is still vulnerable, though, to psionic attacks."
+    },
+    {
+     "roll": "10",
+     "text": "Grant immunity to all forms of paralysis, including all hold-based spells, and the results of web and entangle spells"
+    },
+    {
+     "roll": "11",
+     "text": "Create immunity to cold temperatures as low as -50°. Saving throws vs. magical cold gain a +2 bonus"
+    },
+    {
+     "roll": "12",
+     "text": "Bestows a 20% magic resistance or gives the user a 20% bonus to any existing magic resistance"
+    },
+    {
+     "roll": "13",
+     "text": "Impart immunity to all forms of poison"
+    },
+    {
+     "roll": "14",
+     "text": "Grant immunity to normal fire and provide a +2 bonus to saving throws vs. all forms of magical fire"
+    },
+    {
+     "roll": "15",
+     "text": "Make the user immune to all forms of electrical attack"
+    },
+    {
+     "roll": "16",
+     "text": "Make the user immune to energy drains"
+    },
+    {
+     "roll": "17",
+     "text": "Imbue the user with complete immunity to illusions, always revealing these as shadowy forms. This power does not reveal anything where the physical form has actually been changed, such as polymorphed objects or creatures."
+    },
+    {
+     "roll": "18",
+     "text": "Serves as a moral guide. Whenever the user intends something evil or unlawful, the artifact delivers a powerful, numbing shock. No damage is taken, but the user is paralyzed for 1d6 rounds. The shocks end when the character gives up the intention or the temptation is gone. Note that this power is only suitable for lawful good artifacts."
+    },
+    {
+     "roll": "19",
+     "text": "Confer immunity to polymorph and shapechanging spells and spell-like effects"
+    },
+    {
+     "roll": "20",
+     "text": "Make the user immune to petrification"
+    }
+   ],
+   "die": 20
+  },
+  {
+   "num": "1-15",
+   "category": "Major Powers",
+   "entries": [
+    {
+     "roll": "1-3",
+     "text": "Cast age object (1/day)"
+    },
+    {
+     "roll": "4-7",
+     "text": "Cast animate dead (1/day)"
+    },
+    {
+     "roll": "8-10",
+     "text": "Cast blade barrier (1/day)"
+    },
+    {
+     "roll": "11-13",
+     "text": "Cast cause critical wounds (1/day)"
+    },
+    {
+     "roll": "14-17",
+     "text": "Cast cause serious wounds (3/day)"
+    },
+    {
+     "roll": "18-20",
+     "text": "Cast control undead (3/day)"
+    },
+    {
+     "roll": "21-23",
+     "text": "Cast control weather (1/day)"
+    },
+    {
+     "roll": "24-26",
+     "text": "Cast destruction (1/week)"
+    },
+    {
+     "roll": "27-30",
+     "text": "Cast forcecage (1/day)"
+    },
+    {
+     "roll": "31-33",
+     "text": "Cast globe of invulnerability (1/day)"
+    },
+    {
+     "roll": "34-36",
+     "text": "Cast harm (1/day)"
+    },
+    {
+     "roll": "37-40",
+     "text": "Cast hold monster (2/day)"
+    },
+    {
+     "roll": "41-43",
+     "text": "Cast liveoak (3/day)"
+    },
+    {
+     "roll": "44-46",
+     "text": "Cast magic jar (1/day)"
+    },
+    {
+     "roll": "47-50",
+     "text": "Cast mindshatter (1/week)"
+    },
+    {
+     "roll": "51-53",
+     "text": "Cast Mordenkainen's disjunction (1/day)"
+    },
+    {
+     "roll": "54-57",
+     "text": "Cause ghoul-like paralysis by touch (3/day)"
+    },
+    {
+     "roll": "58-60",
+     "text": "Cast physical mirror (1/day)"
+    },
+    {
+     "roll": "61-63",
+     "text": "Cast prismatic spray (1/day)"
+    },
+    {
+     "roll": "64-67",
+     "text": "Cast resurrection (1/week)",
+     "_note": "source printed 63-67 (overlapped 61-63 at 63); corrected to 64-67 so d100 tiles"
+    },
+    {
+     "roll": "68-70",
+     "text": "Cast reverse gravity (1/day)"
+    },
+    {
+     "roll": "71-73",
+     "text": "Cast shades (1/day)"
+    },
+    {
+     "roll": "74-76",
+     "text": "Cast spacewarp (1/day)"
+    },
+    {
+     "roll": "77-80",
+     "text": "Cast telekinesis (3/day)"
+    },
+    {
+     "roll": "81-83",
+     "text": "Cast time stop (1/week)"
+    },
+    {
+     "roll": "84-86",
+     "text": "Cast veil (1/day)"
+    },
+    {
+     "roll": "87-90",
+     "text": "Cast wall of force (1/day)"
+    },
+    {
+     "roll": "91-95",
+     "text": "Cast wall of thorns (1/day)"
+    },
+    {
+     "roll": "96-00",
+     "text": "Cast wither (1/week)"
+    }
+   ],
+   "die": 100,
+   "note": "Source misprint: 'prismatic spray 61-63' and 'resurrection 63-67' both claimed roll 63; resurrection corrected to 64-67 so the d100 tiles."
+  },
+  {
+   "num": "1-16",
+   "category": "Minor Powers",
+   "entries": [
+    {
+     "roll": "1",
+     "text": "Cast accelerate healing (5/day)"
+    },
+    {
+     "roll": "2-3",
+     "text": "Cast audible glamer (7/day)"
+    },
+    {
+     "roll": "4-5",
+     "text": "Cast bless (7/day)"
+    },
+    {
+     "roll": "6-7",
+     "text": "Cast burning hands (5/day)"
+    },
+    {
+     "roll": "8",
+     "text": "Cast call upon faith (5/day)"
+    },
+    {
+     "roll": "9-10",
+     "text": "Cast call woodland beings (5/day)"
+    },
+    {
+     "roll": "11",
+     "text": "Cast calm chaos (5/day)"
+    },
+    {
+     "roll": "12-13",
+     "text": "Cast chill touch (5/day)"
+    },
+    {
+     "roll": "14-15",
+     "text": "Cast color spray (5/day)"
+    },
+    {
+     "roll": "16",
+     "text": "Cast contagion (3/day)"
+    },
+    {
+     "roll": "17-18",
+     "text": "Cast continual darkness (3/day)"
+    },
+    {
+     "roll": "19-20",
+     "text": "Cast continual light (3/day)"
+    },
+    {
+     "roll": "21-22",
+     "text": "Cast control temperature, 10' radius (5/day)"
+    },
+    {
+     "roll": "23-24",
+     "text": "Cast create food and water (5/day)"
+    },
+    {
+     "roll": "25-26",
+     "text": "Cast curse (5/day)"
+    },
+    {
+     "roll": "27-28",
+     "text": "Cast dancing lights (5/day)"
+    },
+    {
+     "roll": "29",
+     "text": "Cast darkness, 15' radius (3/day)"
+    },
+    {
+     "roll": "30",
+     "text": "Cast dispel magic (3/day)"
+    },
+    {
+     "roll": "31",
+     "text": "Cast dust devil (5/day)"
+    },
+    {
+     "roll": "32-33",
+     "text": "Cast enlarge (3/day)"
+    },
+    {
+     "roll": "34",
+     "text": "Cast enthrall (5/day)"
+    },
+    {
+     "roll": "35-36",
+     "text": "Cast Evard's black tentacles (3/day)"
+    },
+    {
+     "roll": "38-39",
+     "text": "Cast faerie fire (5/day)"
+    },
+    {
+     "roll": "40",
+     "text": "Cast fear (3/day)"
+    },
+    {
+     "roll": "41",
+     "text": "Cast fire purge (5/day)"
+    },
+    {
+     "roll": "42-43",
+     "text": "Cast flame arrow (5/day)"
+    },
+    {
+     "roll": "44-45",
+     "text": "Cast flaming sphere (5/day)"
+    },
+    {
+     "roll": "46",
+     "text": "Cast gaze reflection (3/day)"
+    },
+    {
+     "roll": "47-48",
+     "text": "Cast glyph of warding (3/day)"
+    },
+    {
+     "roll": "49-50",
+     "text": "Cast grease (7/day)"
+    },
+    {
+     "roll": "51-52",
+     "text": "Cast hold animal (5/day)"
+    },
+    {
+     "roll": "53-54",
+     "text": "Cast hold plant (5/day)"
+    },
+    {
+     "roll": "55",
+     "text": "Cast hypnotic pattern (3/day)"
+    },
+    {
+     "roll": "56-57",
+     "text": "Cast invisibility (3/day)"
+    },
+    {
+     "roll": "58",
+     "text": "Cast levitate (5/day)"
+    },
+    {
+     "roll": "59-60",
+     "text": "Cast magic missile (5/day)"
+    },
+    {
+     "roll": "61",
+     "text": "Cast music of the spheres (5/day)"
+    },
+    {
+     "roll": "62-63",
+     "text": "Cast phantasmal force (3/day)"
+    },
+    {
+     "roll": "64",
+     "text": "Cast phantasmal killer (3/day)"
+    },
+    {
+     "roll": "65-66",
+     "text": "Cast plant growth (5/day)"
+    },
+    {
+     "roll": "67-68",
+     "text": "Cast polymorph other (3/day)"
+    },
+    {
+     "roll": "69-70",
+     "text": "Cast protection from cantrips (7/day)"
+    },
+    {
+     "roll": "71-72",
+     "text": "Cast shadow monsters (3/day)"
+    },
+    {
+     "roll": "73-74",
+     "text": "Cast shocking grasp (5/day)"
+    },
+    {
+     "roll": "75",
+     "text": "Cast shout (3/day)"
+    },
+    {
+     "roll": "76-77",
+     "text": "Cast silence, 15' radius (3/day)"
+    },
+    {
+     "roll": "78-79",
+     "text": "Cast sleep (5/day)"
+    },
+    {
+     "roll": "80",
+     "text": "Cast slow (3/day)"
+    },
+    {
+     "roll": "81",
+     "text": "Cast slow poison (7/day)"
+    },
+    {
+     "roll": "82",
+     "text": "Cast spike growth (3/day)"
+    },
+    {
+     "roll": "83-84",
+     "text": "Cast stinking cloud (5/day)"
+    },
+    {
+     "roll": "85-86",
+     "text": "Cast stone shape (5/day)"
+    },
+    {
+     "roll": "87-88",
+     "text": "Cast summon lycanthrope (3/day)"
+    },
+    {
+     "roll": "89-90",
+     "text": "Cast tongues (5/day)"
+    },
+    {
+     "roll": "91-92",
+     "text": "Cast trip (5/day)"
+    },
+    {
+     "roll": "93-95",
+     "text": "Cast vampiric touch (3/day)"
+    },
+    {
+     "roll": "96-98",
+     "text": "Cast web (5/day)"
+    },
+    {
+     "roll": "99-00",
+     "text": "Cast wizard lock (5/day)"
+    }
+   ],
+   "die": 100,
+   "note": "Source genuinely omits roll 37 (jumps 35-36 -> 38-39). Left as a gap (faithful); the roller re-rolls a 37."
+  },
+  {
+   "num": "1-17",
+   "category": "Movement",
+   "entries": [
+    {
+     "roll": "1",
+     "text": "Cast air walk (2/day)"
+    },
+    {
+     "roll": "2",
+     "text": "Cast blink (3/day)"
+    },
+    {
+     "roll": "3",
+     "text": "Cast dimensional folding (1/day)"
+    },
+    {
+     "roll": "4",
+     "text": "Imbue the user with double the normal overland movement rate as long as the artifact is in hand"
+    },
+    {
+     "roll": "5",
+     "text": "Cast flame walk (3/day)"
+    },
+    {
+     "roll": "6",
+     "text": "Cast fly (2/day)"
+    },
+    {
+     "roll": "7",
+     "text": "Cast free action (1/day)"
+    },
+    {
+     "roll": "8",
+     "text": "Cast haste (1/day)"
+    },
+    {
+     "roll": "9",
+     "text": "Cast jump (5/day)"
+    },
+    {
+     "roll": "10",
+     "text": "Cast pass without trace (3/day)"
+    },
+    {
+     "roll": "11",
+     "text": "Cast passwall (1/day)"
+    },
+    {
+     "roll": "12",
+     "text": "Cast rainbow bridge (1/day)"
+    },
+    {
+     "roll": "13",
+     "text": "Cast shadow walk (1/day)"
+    },
+    {
+     "roll": "14",
+     "text": "Cast spider climb (3/day)"
+    },
+    {
+     "roll": "15",
+     "text": "Cast teleport without error (1/day)"
+    },
+    {
+     "roll": "16",
+     "text": "Cast transport via plants (3/day)"
+    },
+    {
+     "roll": "17",
+     "text": "Cast water walk (5/day)"
+    },
+    {
+     "roll": "18",
+     "text": "Cast wind walk (1/day)"
+    },
+    {
+     "roll": "19",
+     "text": "Cast word of recall (1/day)"
+    },
+    {
+     "roll": "20",
+     "text": "Cast wraithform (1/day)"
+    }
+   ],
+   "die": 20
+  },
+  {
+   "num": "1-18",
+   "category": "Offensive Powers",
+   "entries": [
+    {
+     "roll": "1",
+     "text": "Cast age creature (1/day)"
+    },
+    {
+     "roll": "2",
+     "text": "Cast Bigby's crushing hand (1/day)"
+    },
+    {
+     "roll": "3",
+     "text": "Fire a black beam of death that causes 2d8 points of damage to any creature successfully hit. The beam's range is 100 yards (5/day)."
+    },
+    {
+     "roll": "4",
+     "text": "Cast cause critical wounds (1/day)"
+    },
+    {
+     "roll": "5",
+     "text": "Cast chain lightning (1/day)"
+    },
+    {
+     "roll": "6",
+     "text": "Cast claws of the umber hulk (1/day)"
+    },
+    {
+     "roll": "7",
+     "text": "Inflict an equal amount of damage upon any creature that inflicts nonspell damage upon the user"
+    },
+    {
+     "roll": "8",
+     "text": "Cast disintegrate (1/week)"
+    },
+    {
+     "roll": "9",
+     "text": "Cast finger of death (1/week)"
+    },
+    {
+     "roll": "10",
+     "text": "Cast fireball (1/day)"
+    },
+    {
+     "roll": "11",
+     "text": "Cast flame strike (1/day)"
+    },
+    {
+     "roll": "12",
+     "text": "Cast lightning bolt (1/day)"
+    },
+    {
+     "roll": "13",
+     "text": "Cast mindshatter (1/day)"
+    },
+    {
+     "roll": "14",
+     "text": "Cast power word, blind (1/day)"
+    },
+    {
+     "roll": "15",
+     "text": "Cast power word, stun (1/day)"
+    },
+    {
+     "roll": "16",
+     "text": "Cast power word, kill (1/week)"
+    },
+    {
+     "roll": "17",
+     "text": "Cast shape change (1/week)"
+    },
+    {
+     "roll": "18",
+     "text": "Cast suffocate (1/week)"
+    },
+    {
+     "roll": "19",
+     "text": "Cast vanish (1/week)"
+    },
+    {
+     "roll": "20",
+     "text": "Cast weird (1/week)"
+    }
+   ],
+   "die": 20
+  },
+  {
+   "num": "1-19",
+   "category": "Nature",
+   "entries": [
+    {
+     "roll": "1",
+     "text": "Have animal friendship constantly in effect as long as the artifact is in hand"
+    },
+    {
+     "roll": "2",
+     "text": "Cast animal growth (3/day)"
+    },
+    {
+     "roll": "3",
+     "text": "Transfer one of a creature's powers to the user by touch. This can include AC, movement, senses, or any noncombat special ability. The transfer lasts 1 hour and then fades (3/day)."
+    },
+    {
+     "roll": "4",
+     "text": "Imbue the user with the ability to see through the eyes of any normal animal. The creature must be within sight and within 60' of the artifact at the time of activation. The power lasts 1d3 turns (3/day)."
+    },
+    {
+     "roll": "5",
+     "text": "Cast animal summoning III (2/day)"
+    },
+    {
+     "roll": "6",
+     "text": "Cast call lightning (1/day)"
+    },
+    {
+     "roll": "7",
+     "text": "Protect the user as a cloak of elvenkind"
+    },
+    {
+     "roll": "8",
+     "text": "Cast charm plants (3/day)"
+    },
+    {
+     "roll": "9",
+     "text": "Cast entangle (3/day)"
+    },
+    {
+     "roll": "10",
+     "text": "Heighten one of the user's senses--keen hearing, infravision, superior smell, and the like, granting a +1 bonus to all surprise rolls"
+    },
+    {
+     "roll": "11",
+     "text": "Cast hold animal (3/day)"
+    },
+    {
+     "roll": "12",
+     "text": "Have pass without trace continually in effect as long as the artifact is in hand"
+    },
+    {
+     "roll": "13",
+     "text": "Cast plant growth (3/day)"
+    },
+    {
+     "roll": "14",
+     "text": "Empower the user with the ability to speak with plants at will"
+    },
+    {
+     "roll": "15",
+     "text": "Grant the user the ability to speak with animals at will"
+    },
+    {
+     "roll": "16",
+     "text": "Cast transport via plants (1/day)"
+    },
+    {
+     "roll": "17",
+     "text": "Cast wall of thorns (1/day)"
+    },
+    {
+     "roll": "18",
+     "text": "Cast warp wood (3/day)"
+    },
+    {
+     "roll": "19",
+     "text": "Cast weather summoning (1/day)"
+    },
+    {
+     "roll": "20",
+     "text": "Cast anti-plant shell (1/day)"
+    }
+   ],
+   "die": 20
+  },
+  {
+   "num": "1-20",
+   "category": "Necromantic",
+   "entries": [
+    {
+     "roll": "1",
+     "text": "Cast Abi-Dalzim's horrid wilting (1/day)"
+    },
+    {
+     "roll": "2",
+     "text": "Cast animate dead (3/day)"
+    },
+    {
+     "roll": "3",
+     "text": "Cast Bloodstone's frightful joining (2/day)"
+    },
+    {
+     "roll": "4",
+     "text": "Cast Bloodstone's spectral steed (1/day)"
+    },
+    {
+     "roll": "5",
+     "text": "Cast breath of death (1/day)"
+    },
+    {
+     "roll": "6",
+     "text": "Cast cause blindness (1/day)"
+    },
+    {
+     "roll": "7",
+     "text": "Cast chill touch (3/day)"
+    },
+    {
+     "roll": "8",
+     "text": "Cast contagion (2/day)"
+    },
+    {
+     "roll": "9",
+     "text": "Cast control undead (2/day)"
+    },
+    {
+     "roll": "10",
+     "text": "Cast death spell (1/week)"
+    },
+    {
+     "roll": "11",
+     "text": "Cast energy drain (1/week)"
+    },
+    {
+     "roll": "12",
+     "text": "Cast feign death (3/day)"
+    },
+    {
+     "roll": "13",
+     "text": "Create a window to the border of the Negative Material Plane that remains open for 1 hour. Creatures can pass through freely from both sides."
+    },
+    {
+     "roll": "14",
+     "text": "Cast slay living (1/week)"
+    },
+    {
+     "roll": "15",
+     "text": "Imbue the user with the ability to use speak with dead at will, as long as the artifact is in hand"
+    },
+    {
+     "roll": "16",
+     "text": "Cast summon shadow (1/week)"
+    },
+    {
+     "roll": "17",
+     "text": "Transform the user into an undead creature. The user retains all original hit points and abilities and gains the immunities of an undead creature. In addition, the user is not affected by gasses or poisons that would harm a living being. The condition lasts 1d6 turns (1/day)."
+    },
+    {
+     "roll": "18",
+     "text": "Cast vampiric touch (3/day)"
+    },
+    {
+     "roll": "19",
+     "text": "Cast wail of the banshee (1/week)"
+    },
+    {
+     "roll": "20",
+     "text": "Cast wither (1/week)"
+    }
+   ],
+   "die": 20
+  },
+  {
+   "num": "1-21",
+   "category": "Personal Enhancements",
+   "entries": [
+    {
+     "roll": "1",
+     "text": "Cast alter self at will for as long as the artifact is owned"
+    },
+    {
+     "roll": "2",
+     "text": "Cast clairaudience at will for as long as the artifact is owned"
+    },
+    {
+     "roll": "3",
+     "text": "Cast clairvoyance at will for as long as the artifact is owned"
+    },
+    {
+     "roll": "4",
+     "text": "Have animal friendship constantly in effect for as long as the artifact is owned"
+    },
+    {
+     "roll": "5",
+     "text": "Provide the user with the effects of deep-pockets, regardless of what is worn for as long as the artifact is owned"
+    },
+    {
+     "roll": "6",
+     "text": "Imbue the user with invisibility to undead for as long as the artifact is owned"
+    },
+    {
+     "roll": "7",
+     "text": "Shield the user continually with protection from evil/protection from good (as appropriate to the artifact) for as long as the artifact is owned"
+    },
+    {
+     "roll": "8",
+     "text": "Regenerate two of the user's hit points per turn for as long as the artifact is owned"
+    },
+    {
+     "roll": "9",
+     "text": "Cast feign death at will for as long as the artifact is owned"
+    },
+    {
+     "roll": "10",
+     "text": "Cast friends at will for as long as the artifact is owned"
+    },
+    {
+     "roll": "11",
+     "text": "Cast lasting breath at will for as long as the artifact is owned"
+    },
+    {
+     "roll": "12",
+     "text": "Provide the user with a permanent +1 bonus to saving throws"
+    },
+    {
+     "roll": "13",
+     "text": "Permanently increase the user's prime requisite score (or scores) by 1"
+    },
+    {
+     "roll": "14",
+     "text": "Give the user the permanent ability to use comprehend languages at will"
+    },
+    {
+     "roll": "15",
+     "text": "Endow the user with the permanent ability to use negative plane protection at will"
+    },
+    {
+     "roll": "16",
+     "text": "Grant the user the permanent ability to speak with monsters at will"
+    },
+    {
+     "roll": "17",
+     "text": "Impart permanent ability to speak with animals at will"
+    },
+    {
+     "roll": "18",
+     "text": "Provide the user with the permanent ability to speak with plants at will"
+    },
+    {
+     "roll": "19",
+     "text": "Furnish the permanent ability of water breathing at will"
+    },
+    {
+     "roll": "20",
+     "text": "Bestow upon the user the ability to use ventriloquism at will permanently"
+    }
+   ],
+   "die": 20
+  },
+  {
+   "num": "1-22",
+   "category": "Planar",
+   "entries": [
+    {
+     "roll": "1",
+     "text": "Cast astral spell (1/week)"
+    },
+    {
+     "roll": "2",
+     "text": "Cast astral window (1/week)"
+    },
+    {
+     "roll": "3",
+     "text": "Cast binding (1/week)"
+    },
+    {
+     "roll": "4",
+     "text": "Cast contact higher plane about any topic other than the artifact or its powers (1/week)"
+    },
+    {
+     "roll": "5",
+     "text": "Cast dimension door (1/day)"
+    },
+    {
+     "roll": "6",
+     "text": "Energy drain one level/Hit Die from an opponent on a successful touch (1/day)"
+    },
+    {
+     "roll": "7",
+     "text": "Cast estate transference (1/month)"
+    },
+    {
+     "roll": "8",
+     "text": "Open a gate to a particular island of protomatter in the Ethereal Plane 100' x 100' across. This can be used by the character as a residence, storage place, or even prison (2/day),"
+    },
+    {
+     "roll": "9",
+     "text": "Create a 10' x 10' ethereal window, allowing viewing of whatever lies beyond. The window is one-way, so those viewed do not know it is there. Stepping through the window strands the person in the Ethereal Plane (1/day)."
+    },
+    {
+     "roll": "10",
+     "text": "Cast exaction (1/week)"
+    },
+    {
+     "roll": "11",
+     "text": "Cast extradimensional manipulation (1/week)"
+    },
+    {
+     "roll": "12",
+     "text": "Cast gate (1/week)"
+    },
+    {
+     "roll": "13",
+     "text": "Cast Mordenkainen's magnificent mansion (2/week)"
+    },
+    {
+     "roll": "14",
+     "text": "Imbue the user with the ability to phase like a phase spider (2/day)"
+    },
+    {
+     "roll": "15",
+     "text": "Grant the user immunity to the hostile environment of one plane, DM's choice. This lasts as long as the user owns the artifact."
+    },
+    {
+     "roll": "16",
+     "text": "Open a window to any outer plane. Nothing can pass through the window, but events can be seen and heard in both directions (1/week)."
+    },
+    {
+     "roll": "17",
+     "text": "Cast plane shift (1/week)"
+    },
+    {
+     "roll": "18",
+     "text": "Cast speak with astral traveler (1/day)"
+    },
+    {
+     "roll": "19",
+     "text": "Summon one nondeity from the outer planes. The name or type of creature must be known. Obedience is not guaranteed (1/month)."
+    },
+    {
+     "roll": "20",
+     "text": "Cast wish (1/month)"
+    }
+   ],
+   "die": 20
+  },
+  {
+   "num": "1-23",
+   "category": "Protection",
+   "entries": [
+    {
+     "roll": "1",
+     "text": "Grant an Armor Class bonus of +2 to the user when held"
+    },
+    {
+     "roll": "2",
+     "text": "Function as a ring of protection +2 when held"
+    },
+    {
+     "roll": "3",
+     "text": "Cast anti-magic shell (1/day)"
+    },
+    {
+     "roll": "4",
+     "text": "Cast anti-plant shell (2/day)"
+    },
+    {
+     "roll": "5",
+     "text": "Cast armor upon any creature the artifact touches (5/day)"
+    },
+    {
+     "roll": "6",
+     "text": "Protect the user constantly with the effects of a feather fall spell"
+    },
+    {
+     "roll": "7",
+     "text": "Cast fire shield (1/day)"
+    },
+    {
+     "roll": "8",
+     "text": "Generate a sphere of forbiddance, 15' in radius, centered on the artifact. The forbiddance is not permanent (as is the spell), but has a duration of 2d6 hours. It can be password locked, however (1/week)."
+    },
+    {
+     "roll": "9",
+     "text": "Hold mind blank in effect as long as the artifact is in hand"
+    },
+    {
+     "roll": "10",
+     "text": "Keep Negative Plane Protection continually in effect as long as the artifact is in hand, with no saving throw necessary"
+    },
+    {
+     "roll": "11",
+     "text": "Maintain nondetection constant effect as long as the artifact is in hand"
+    },
+    {
+     "roll": "12",
+     "text": "Hold protection from normal missiles continual effect as long as the artifact is in hand"
+    },
+    {
+     "roll": "13",
+     "text": "Keep protection from lightning constantly in effect as long as the artifact is in hand"
+    },
+    {
+     "roll": "14",
+     "text": "Maintain protection from fire continually in effect as long as the artifact is in hand"
+    },
+    {
+     "roll": "15",
+     "text": "Hold protection from paralysis in constant effect as long as the artifact is in hand"
+    },
+    {
+     "roll": "16",
+     "text": "Keep shield in effect when the artifact is boldly presented (5/day)"
+    },
+    {
+     "roll": "17",
+     "text": "Cast thief's lament on any nonliving item of chest size or smaller by touch. The effect is permanent (1/week)"
+    },
+    {
+     "roll": "18",
+     "text": "Cast unceasing vigilance of the holy sentinel (1/week)"
+    },
+    {
+     "roll": "19",
+     "text": "Cast undead ward upon a 100' by 100' cube. The undead are turned as if by an 18th level priest (1/week)"
+    },
+    {
+     "roll": "20",
+     "text": "Cast zone of truth (1/week)"
+    }
+   ],
+   "die": 20
+  },
+  {
+   "num": "1-24",
+   "category": "Divination Results (Oriental Adventures)",
+   "entries": [
+    {
+     "roll": "1-2",
+     "text": "Ill omen. The characters should not undertake any task this day. If this advice is ignored, all characters suffer a -1 on attack rolls and saving throws for the rest of the day. Their chance for encounters are doubled and a -10% reaction modifier is applied to all encounters."
+    },
+    {
+     "roll": "3-4",
+     "text": "Great danger exists. The chance for encounters doubles for the day and a -10 reaction modifier applies to all encounters. Adversaries have a +1 applied to their attack rolls for that day."
+    },
+    {
+     "roll": "5-7",
+     "text": "Neutral omen, no special modifiers apply."
+    },
+    {
+     "roll": "8-9",
+     "text": "Favorable omen. The characters will be able to travel half again their normal traveling rate that day. Opponents will have a -1 on their attack rolls for that day."
+    },
+    {
+     "roll": "10",
+     "text": "Auspicious omen. All the effects of a favorable omen apply. In addition, the characters gain a +1 on all saving throws made that day."
+    }
+   ],
+   "die": 10,
+   "note": "d10 ranged table (Oriental Adventures divination results)"
+  }
+ ]
+}

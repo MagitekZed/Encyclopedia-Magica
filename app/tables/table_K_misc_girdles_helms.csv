@@ -1,0 +1,174 @@
+table,category,subcategory,roll_display,roll_low,roll_high,name,reroll,page,page_status
+K,Misc: Girdles & Helms,,1-5,1,5,Enchanted Enhancements,True,21,filled
+K,Misc: Girdles & Helms,,6-11,6,11,Arcane,False,163,filled
+K,Misc: Girdles & Helms,,12-17,12,17,Black Elk Clan Ceremonial,False,675,filled
+K,Misc: Girdles & Helms,,18-23,18,23,Blue Elk Clan Ceremonial,False,101,filled
+K,Misc: Girdles & Helms,,24-29,24,29,Golden Elk Clan Ceremonial,False,1303,filled
+K,Misc: Girdles & Helms,,30-34,30,34,Green Elk Clan Ceremonial,False,359,filled
+K,Misc: Girdles & Helms,,35-40,35,40,Red Elk Clan Ceremonial,False,168,filled
+K,Misc: Girdles & Helms,,41-46,41,46,White Elk Clan Ceremonial,False,1105,filled
+K,Misc: Girdles & Helms,,47-52,47,52,of Goblinoid Protection,False,168,filled
+K,Misc: Girdles & Helms,,53-58,53,58,Golden Serpent,False,169,filled
+K,Misc: Girdles & Helms,,59-63,59,63,Lemmikainen's,False,78,filled
+K,Misc: Girdles & Helms,,64-69,64,69,Meginjarder,False,169,filled
+K,Misc: Girdles & Helms,,70-75,70,75,Serpé's of Swimming,False,169,filled
+K,Misc: Girdles & Helms,,76-81,76,81,Serpent,False,153,filled
+K,Misc: Girdles & Helms,,82-87,82,87,Snake,False,910,filled
+K,Misc: Girdles & Helms,,88-92,88,92,Udo's of Flying,False,170,filled
+K,Misc: Girdles & Helms,,93-98,93,98,Vainamoinen's,False,1411,filled
+K,Misc: Girdles & Helms,,99-104,99,104,Zoster of Zeal,False,170,filled
+K,Misc: Girdles & Helms,,105-110,105,110,Zoster of Zoophobia,False,171,filled
+K,Misc: Girdles & Helms,,111-116,111,116,of Armor,False,69,filled
+K,Misc: Girdles & Helms,,117-122,117,122,of Faulty Lockpicks,False,230,filled
+K,Misc: Girdles & Helms,,123-127,123,127,of Lockpicks,False,230,filled
+K,Misc: Girdles & Helms,,128-133,128,133,of Opening,False,231,filled
+K,Misc: Girdles & Helms,,134-139,134,139,of Protection,False,1009,filled
+K,Misc: Girdles & Helms,,140-145,140,145,of Weaponry,False,595,filled
+K,Misc: Girdles & Helms,,146-151,146,151,of the Beguiler,False,297,filled
+K,Misc: Girdles & Helms,,152-156,152,156,Cursed School,False,250,filled
+K,Misc: Girdles & Helms,,157-162,157,162,Dream of Veluna,False,250,filled
+K,Misc: Girdles & Helms,,163-168,163,168,of Evil,False,944,filled
+K,Misc: Girdles & Helms,,169-174,169,174,Healing of Veluna,False,250,filled
+K,Misc: Girdles & Helms,,175-180,175,180,Nightcap of Sleep,False,250,filled
+K,Misc: Girdles & Helms,,181-185,181,185,Nightcap of Vision,False,251,filled
+K,Misc: Girdles & Helms,,186-191,186,191,School,False,251,filled
+K,Misc: Girdles & Helms,,192-197,192,197,of Sleep,False,547,filled
+K,Misc: Girdles & Helms,,198-203,198,203,of Teleportation,False,412,filled
+K,Misc: Girdles & Helms,,204-209,204,209,of Vision,False,252,filled
+K,Misc: Girdles & Helms,,210-214,210,214,of the Adder,False,289,filled
+K,Misc: Girdles & Helms,,215-220,215,220,Coronet of Communication,False,290,filled
+K,Misc: Girdles & Helms,,221-226,221,226,Dalvan's,False,290,filled
+K,Misc: Girdles & Helms,,227-232,227,232,Diadem of Disenchantment,False,290,filled
+K,Misc: Girdles & Helms,,233-238,233,238,Diadem of Doom,False,290,filled
+K,Misc: Girdles & Helms,,239-244,239,244,Golden,False,1303,filled
+K,Misc: Girdles & Helms,,245-249,245,249,Golden of Greyhawk,False,1303,filled
+K,Misc: Girdles & Helms,,250-255,250,255,of Psionic Enhancement,False,292,filled
+K,Misc: Girdles & Helms,,256-261,256,261,of Underwater Speech,False,292,filled
+K,Misc: Girdles & Helms,,262-267,262,267,of the Wyrm,False,292,filled
+K,Misc: Girdles & Helms,,268-273,268,273,Cowl of Warding,False,331,filled
+K,Misc: Girdles & Helms,,274-278,274,278,of Back Defense,False,532,filled
+K,Misc: Girdles & Helms,,279-284,279,284,of Dwarvenkind,False,533,filled
+K,Misc: Girdles & Helms,,285-290,285,290,of Difference,False,570,filled
+K,Misc: Girdles & Helms,,291-296,291,296,of Femininity/Masculinity,False,533,filled
+K,Misc: Girdles & Helms,,297-302,297,302,of Freshness,False,1482,filled
+K,Misc: Girdles & Helms,,303-307,303,307,of Gender Alteration,False,534,filled
+K,Misc: Girdles & Helms,,308-313,308,313,of Giant Strength,False,871,filled
+K,Misc: Girdles & Helms,,314-319,314,319,Golden of Urnst,False,1303,filled
+K,Misc: Girdles & Helms,,320-325,320,325,Kerisis's of Femininity,False,535,filled
+K,Misc: Girdles & Helms,,326-331,326,331,of the Lions,False,478,filled
+K,Misc: Girdles & Helms,,332-336,332,336,of Many Pouches,False,535,filled
+K,Misc: Girdles & Helms,,337-342,337,342,Priestly Might,False,535,filled
+K,Misc: Girdles & Helms,,343,343,343,of Command,False,1275,filled
+K,Misc: Girdles & Helms,,344-348,344,348,Conical,False,569,filled
+K,Misc: Girdles & Helms,,349-354,349,354,Cyclocone,False,569,filled
+K,Misc: Girdles & Helms,,355-360,355,360,of Difference,False,570,filled
+K,Misc: Girdles & Helms,,361-366,361,366,of Disguise,False,253,filled
+K,Misc: Girdles & Helms,,367-371,367,371,of Disguise II,False,253,filled
+K,Misc: Girdles & Helms,,372-377,372,377,of Disguise III,False,253,filled
+K,Misc: Girdles & Helms,,378-383,378,383,Fez of Disguise,False,570,filled
+K,Misc: Girdles & Helms,,384-389,384,389,of Fools,False,570,filled
+K,Misc: Girdles & Helms,,390-395,390,395,Gnaash's of Stupidity,False,570,filled
+K,Misc: Girdles & Helms,,396-400,396,400,of Hairiness,False,571,filled
+K,Misc: Girdles & Helms,,401-406,401,406,of Hairlessness,False,571,filled
+K,Misc: Girdles & Helms,,407-412,407,412,of Headlessness,False,571,filled
+K,Misc: Girdles & Helms,,413-418,413,418,of Holding,False,1514,filled
+K,Misc: Girdles & Helms,,419-424,419,424,of Imprisonment,False,571,filled
+K,Misc: Girdles & Helms,,425-429,425,429,of Occupation,False,571,filled
+K,Misc: Girdles & Helms,,430-435,430,435,of Stupidity,False,572,filled
+K,Misc: Girdles & Helms,,436-441,436,441,of the Corusk Mountains,False,572,filled
+K,Misc: Girdles & Helms,,442-447,442,447,of the Jotens,False,572,filled
+K,Misc: Girdles & Helms,,448-453,448,453,Headdress of Peaceful Contact,False,572,filled
+K,Misc: Girdles & Helms,,454-458,454,458,of Alignment Change,False,584,filled
+K,Misc: Girdles & Helms,,459-464,459,464,Athena's,False,1129,filled
+K,Misc: Girdles & Helms,,465-470,465,470,of Blonding,False,585,filled
+K,Misc: Girdles & Helms,,471-476,471,476,of Brilliance,False,585,filled
+K,Misc: Girdles & Helms,,477-482,477,482,of Cirulon,False,585,filled
+K,Misc: Girdles & Helms,,483-488,483,488,of Comprehending Languages,False,1241,filled
+K,Misc: Girdles & Helms,,489-493,489,493,of Creation,False,1071,filled
+K,Misc: Girdles & Helms,,494-499,494,499,of Darkness,False,1477,filled
+K,Misc: Girdles & Helms,,500-505,500,505,of Disguises,False,587,filled
+K,Misc: Girdles & Helms,,506-511,506,511,of Dragons,False,1431,filled
+K,Misc: Girdles & Helms,,512-517,512,517,Dragonhelm,False,588,filled
+K,Misc: Girdles & Helms,,518-522,518,522,Enlil's,False,589,filled
+K,Misc: Girdles & Helms,,523-528,523,528,Golo's of Telepathy,False,589,filled
+K,Misc: Girdles & Helms,,529-534,529,534,Griffon Mane,False,589,filled
+K,Misc: Girdles & Helms,,535-540,535,540,Harrowheim,False,589,filled
+K,Misc: Girdles & Helms,,541-546,541,546,of the Insect,False,590,filled
+K,Misc: Girdles & Helms,,547-551,547,551,Joukahainen's Golden,False,1303,filled
+K,Misc: Girdles & Helms,,552-557,552,557,of Liaison,False,591,filled
+K,Misc: Girdles & Helms,,558-563,558,563,of Light Seeing,False,591,filled
+K,Misc: Girdles & Helms,,564-569,564,569,of Opposite Alignment,False,880,filled
+K,Misc: Girdles & Helms,,570-575,570,575,of Reading,False,592,filled
+K,Misc: Girdles & Helms,,576-581,576,581,of Seabreathing,False,592,filled
+K,Misc: Girdles & Helms,,582-586,582,586,of Underwater Action,False,83,filled
+K,Misc: Girdles & Helms,,587-592,587,592,of Selnor,False,592,filled
+K,Misc: Girdles & Helms,,593-598,593,598,of Sensory Protection,False,592,filled
+K,Misc: Girdles & Helms,,599-604,599,604,Shukenja,False,592,filled
+K,Misc: Girdles & Helms,,605-610,605,610,Skull of Death,False,593,filled
+K,Misc: Girdles & Helms,,611-615,611,615,Joukahainen's Sagacity,False,208,filled
+K,Misc: Girdles & Helms,,616-621,616,621,of Telepathy,False,1525,filled
+K,Misc: Girdles & Helms,,622-627,622,627,of Teleportation,False,412,filled
+K,Misc: Girdles & Helms,,628-633,628,633,of Underwater Action,False,83,filled
+K,Misc: Girdles & Helms,,634-639,634,639,of Underwater Vision,False,594,filled
+K,Misc: Girdles & Helms,,640-644,640,644,of Valor,False,64,filled
+K,Misc: Girdles & Helms,,645-650,645,650,of Waterdeep,False,594,filled
+K,Misc: Girdles & Helms,,651-656,651,656,of 40 Watt Brilliance,False,595,filled
+K,Misc: Girdles & Helms,,657-662,657,662,of Weaponry,False,595,filled
+K,Misc: Girdles & Helms,,663-668,663,668,Wyrmhelm,False,595,filled
+K,Misc: Girdles & Helms,,669-673,669,673,Hood of Servitude,False,997,filled
+K,Misc: Girdles & Helms,,674-679,674,679,Air,False,697,filled
+K,Misc: Girdles & Helms,,680-685,680,685,of Attractiveness,False,697,filled
+K,Misc: Girdles & Helms,,686-691,686,691,of Combat,False,698,filled
+K,Misc: Girdles & Helms,,692-697,692,697,of Comedy,False,698,filled
+K,Misc: Girdles & Helms,,698-703,698,703,Death,False,1478,filled
+K,Misc: Girdles & Helms,,704-708,704,708,Death of Ptah,False,698,filled
+K,Misc: Girdles & Helms,,709-714,709,714,of Disguise,False,253,filled
+K,Misc: Girdles & Helms,,715-720,715,720,of Disguise II,False,253,filled
+K,Misc: Girdles & Helms,,721-726,721,726,Faceless,False,699,filled
+K,Misc: Girdles & Helms,,727-732,727,732,Fanged,False,699,filled
+K,Misc: Girdles & Helms,,733-737,733,737,Greenmask with Eyes of Charming,False,755,filled
+K,Misc: Girdles & Helms,,738-743,738,743,Greenmask with Eyes of the Eagle,False,755,filled
+K,Misc: Girdles & Helms,,744-749,744,749,Greenmask with Gaze Reflection,False,886,filled
+K,Misc: Girdles & Helms,,750-755,750,755,Normal Greenmask,False,699,filled
+K,Misc: Girdles & Helms,,756-761,756,761,Horned,False,970,filled
+K,Misc: Girdles & Helms,,762-766,762,766,of Jealousy,False,701,filled
+K,Misc: Girdles & Helms,,767-772,767,772,Johydee's,False,701,filled
+K,Misc: Girdles & Helms,,773-778,773,778,of Knowledge,False,702,filled
+K,Misc: Girdles & Helms,,779-784,779,784,Kyrie's of Disguise,False,702,filled
+K,Misc: Girdles & Helms,,785-790,785,790,of Light,False,374,filled
+K,Misc: Girdles & Helms,,791-795,791,795,of Lycanthus,False,703,filled
+K,Misc: Girdles & Helms,,796-801,796,801,Magemask,False,703,filled
+K,Misc: Girdles & Helms,,802-807,802,807,of Magic,False,741,filled
+K,Misc: Girdles & Helms,,808-813,808,813,Magical,False,1284,filled
+K,Misc: Girdles & Helms,,814-819,814,819,of Memory,False,978,filled
+K,Misc: Girdles & Helms,,820-825,820,825,Mirror,False,734,filled
+K,Misc: Girdles & Helms,,826-830,826,830,Monster,False,704,filled
+K,Misc: Girdles & Helms,,831-836,831,836,of Night,False,704,filled
+K,Misc: Girdles & Helms,,837-842,837,842,of Protection,False,1009,filled
+K,Misc: Girdles & Helms,,843-848,843,848,of Scowling,False,704,filled
+K,Misc: Girdles & Helms,,849-854,849,854,of Silence,False,704; 705,filled
+K,Misc: Girdles & Helms,,855-859,855,859,of Silence II,False,704; 705,filled
+K,Misc: Girdles & Helms,,860-865,860,865,Skull,False,705,filled
+K,Misc: Girdles & Helms,,866-871,866,871,Skull II,False,705,filled
+K,Misc: Girdles & Helms,,872-877,872,877,of Smiling,False,706,filled
+K,Misc: Girdles & Helms,,878-883,878,883,Spirit,False,706,filled
+K,Misc: Girdles & Helms,,884-888,884,888,of Stealth,False,706,filled
+K,Misc: Girdles & Helms,,889-894,889,894,of Stealth II,False,706,filled
+K,Misc: Girdles & Helms,,895-900,895,900,of Tragedy,False,706,filled
+K,Misc: Girdles & Helms,,901-906,901,906,of Trickery,False,706,filled
+K,Misc: Girdles & Helms,,907-912,907,912,of Twilight,False,707,filled
+K,Misc: Girdles & Helms,,913-917,913,917,Veil,False,707,filled
+K,Misc: Girdles & Helms,,918-923,918,923,of Winds,False,707,filled
+K,Misc: Girdles & Helms,,924-929,924,929,of Winds II,False,707,filled
+K,Misc: Girdles & Helms,,930-935,930,935,Winged,False,559,filled
+K,Misc: Girdles & Helms,,936-941,936,941,Winged II,False,559,filled
+K,Misc: Girdles & Helms,,942-947,942,947,of the Wraith,False,708,filled
+K,Misc: Girdles & Helms,,948-952,948,952,of Fire Resistance,False,1053,filled
+K,Misc: Girdles & Helms,,953-958,953,958,of Heat Endurance,False,1053,filled
+K,Misc: Girdles & Helms,,959-964,959,964,of Immolation,False,1053,filled
+K,Misc: Girdles & Helms,,965-970,965,970,Shimmering,False,1053,filled
+K,Misc: Girdles & Helms,,971-976,971,976,Scarf of the Dry Steppes,False,1059,filled
+K,Misc: Girdles & Helms,,977-981,977,981,Feather,False,420,filled
+K,Misc: Girdles & Helms,,982-987,982,987,of Multiplication,False,1463,filled
+K,Misc: Girdles & Helms,,988-993,988,993,of Silence,False,704; 705,filled
+K,Misc: Girdles & Helms,,994-1000,994,1000,of Tusmit,False,1463,filled

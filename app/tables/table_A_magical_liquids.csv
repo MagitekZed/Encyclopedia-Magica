@@ -1,0 +1,545 @@
+table,category,subcategory,roll_display,roll_low,roll_high,name,reroll,page,page_status
+A,Magical Liquids,,01,1,1,Enchanted Enhancements,True,21,filled
+A,Magical Liquids,,2-3,2,3,Arcane Formulae for a Dracolich,False,163,filled
+A,Magical Liquids,,4-5,4,5,Arcane Formulae for a Lich,False,163,filled
+A,Magical Liquids,,6-7,6,7,Cordial of the Dryad Elixirs,False,330,filled
+A,Magical Liquids,,8-9,8,9,of Additional Weaponry,False,441,filled
+A,Magical Liquids,,10-11,10,11,of All-Purpose Healing,False,441,filled
+A,Magical Liquids,,12,12,12,Distillate of Wolfsbane,False,441,filled
+A,Magical Liquids,,13-14,13,14,Glitz & Klax's,False,871,filled
+A,Magical Liquids,,15-16,15,16,of Health,False,969,filled
+A,Magical Liquids,,17-18,17,18,of Heroic Action,False,442,filled
+A,Magical Liquids,,19-20,19,20,of Kindness,False,442,filled
+A,Magical Liquids,,21-22,21,22,of Life,False,905,filled
+A,Magical Liquids,,23,23,23,of Luck,False,351,filled
+A,Magical Liquids,,24-25,24,25,of Madness,False,443,filled
+A,Magical Liquids,,26-27,26,27,Nerve Tonic,False,443,filled
+A,Magical Liquids,,28-29,28,29,Nodozze,False,443,filled
+A,Magical Liquids,,30-31,30,31,of Obscurement,False,443,filled
+A,Magical Liquids,,32-33,32,33,of Photosynthesis,False,443,filled
+A,Magical Liquids,,34,34,34,Physical Enhancement,False,443,filled
+A,Magical Liquids,,35-36,35,36,Quirks,True,443,filled
+A,Magical Liquids,,37-38,37,38,Rainbow Bridge,False,445,filled
+A,Magical Liquids,,39-40,39,40,of Reduction,False,445,filled
+A,Magical Liquids,,41-42,41,42,of Revivication,False,445,filled
+A,Magical Liquids,,43-44,43,44,of Sanity,False,445,filled
+A,Magical Liquids,,45-46,45,46,Skunk Water,False,445,filled
+A,Magical Liquids,,47,47,47,of Sunlight Resistance,False,445,filled
+A,Magical Liquids,,48-49,48,49,of Weakness,False,1006,filled
+A,Magical Liquids,,50-51,50,51,of Youth,False,446,filled
+A,Magical Liquids,,52-53,52,53,of Zorbo Fingers,False,446,filled
+A,Magical Liquids,,54-55,54,55,Essence of Darkness,False,446; 824,filled
+A,Magical Liquids,,56-57,56,57,Ichor of Intoxication,False,607,filled
+A,Magical Liquids,,58,58,58,Liquid Iron,False,1484,filled
+A,Magical Liquids,,59-60,59,60,Liquid Road,False,772,filled
+A,Magical Liquids,,61-62,61,62,Mist of Rapture,False,736,filled
+A,Magical Liquids,,63-64,63,64,Absinthe,False,763,filled
+A,Magical Liquids,,65-66,65,66,of Acid Resistance,False,763,filled
+A,Magical Liquids,,67-68,67,68,African Ju Ju,False,899,filled
+A,Magical Liquids,,69,69,69,of Agelessness,False,763,filled
+A,Magical Liquids,,70-71,70,71,Allspice,False,899,filled
+A,Magical Liquids,,72-73,72,73,Allspice II,False,899,filled
+A,Magical Liquids,,74-75,74,75,Anger,False,763,filled
+A,Magical Liquids,,76-77,76,77,Animation,False,764,filled
+A,Magical Liquids,,78-79,78,79,Anise,False,899,filled
+A,Magical Liquids,,80,80,80,Aphrodisia,False,764,filled
+A,Magical Liquids,,81-82,81,82,Arabian Nights,False,764,filled
+A,Magical Liquids,,83-84,83,84,of Aries,False,764,filled
+A,Magical Liquids,,85-86,85,86,of Armor,False,69,filled
+A,Magical Liquids,,87-88,87,88,of Armor II,False,69,filled
+A,Magical Liquids,,89-90,89,90,Attraction,False,154,filled
+A,Magical Liquids,,91-92,91,92,Attractiveness,False,697,filled
+A,Magical Liquids,,93,93,93,Bard's Aphrodisiac Inspiration,False,764,filled
+A,Magical Liquids,,94-95,94,95,Bats' Blood,False,765,filled
+A,Magical Liquids,,96-97,96,97,of Beauty,False,828,filled
+A,Magical Liquids,,98-99,98,99,Bendover's,False,765,filled
+A,Magical Liquids,,100-101,100,101,Bergamot's,False,899,filled
+A,Magical Liquids,,102-103,102,103,of the Black Arts,False,765,filled
+A,Magical Liquids,,104,104,104,Bottom #20,False,900,filled
+A,Magical Liquids,,105-106,105,106,Bruno's Curse,False,765,filled
+A,Magical Liquids,,107-108,107,108,Buddha Type I,False,900,filled
+A,Magical Liquids,,109-110,109,110,Buddha Type II,False,900,filled
+A,Magical Liquids,,111-112,111,112,Buddha Type III,False,900,filled
+A,Magical Liquids,,113-114,113,114,of Bug Repellence,False,765,filled
+A,Magical Liquids,,115,115,115,Bull's,False,765,filled
+A,Magical Liquids,,116-117,116,117,of Buoyancy,False,765,filled
+A,Magical Liquids,,118-119,118,119,Caloric Shield,False,766,filled
+A,Magical Liquids,,120-121,120,121,Carnation,False,766,filled
+A,Magical Liquids,,122-123,122,123,Cassava,False,766,filled
+A,Magical Liquids,,124-125,124,125,Cintronella,False,900,filled
+A,Magical Liquids,,126,126,126,Civit,False,766,filled
+A,Magical Liquids,,127-128,127,128,Cleo May,False,900,filled
+A,Magical Liquids,,129-130,129,130,of Cloaking,False,575,filled
+A,Magical Liquids,,131-132,131,132,of Commanding,False,480,filled
+A,Magical Liquids,,133-134,133,134,of Concentration,False,766,filled
+A,Magical Liquids,,135-136,135,136,of Confusion,False,901,filled
+A,Magical Liquids,,137-138,137,138,of Conquering Glory,False,766,filled
+A,Magical Liquids,,139,139,139,Controlling,False,766,filled
+A,Magical Liquids,,140-141,140,141,Crab Apple,False,767,filled
+A,Magical Liquids,,142-143,142,143,of Crossing,False,767,filled
+A,Magical Liquids,,144-145,144,145,Cumin Seed,False,767; 902,filled
+A,Magical Liquids,,146-147,146,147,Cypress Seed,False,767; 902,filled
+A,Magical Liquids,,148-149,148,149,of Damnation,False,767,filled
+A,Magical Liquids,,150,150,150,Dendan,False,767,filled
+A,Magical Liquids,,151-152,151,152,Desire Eme's,False,902,filled
+A,Magical Liquids,,153-154,153,154,of Dexterity,False,767,filled
+A,Magical Liquids,,155-156,155,156,of Disenchantment,False,767,filled
+A,Magical Liquids,,157-158,157,158,Doas Isay's,False,902,filled
+A,Magical Liquids,,159-160,159,160,Double Cross,False,902,filled
+A,Magical Liquids,,161,161,161,of Dragon's Blood,False,902,filled
+A,Magical Liquids,,162-163,162,163,of Dream,False,902,filled
+A,Magical Liquids,,164-165,164,165,of the Dryad,False,768,filled
+A,Magical Liquids,,166-167,166,167,of Elasticity,False,865; 866,filled
+A,Magical Liquids,,168-169,168,169,of Elemental Invulnerability,False,768,filled
+A,Magical Liquids,,170-171,170,171,of Enchantment,False,1512,filled
+A,Magical Liquids,,172,172,172,of Enchantment II,False,1512,filled
+A,Magical Liquids,,173-174,173,174,of Eternal Fire,False,768,filled
+A,Magical Liquids,,175-176,175,176,of Etherealness,False,74; 82,filled
+A,Magical Liquids,,177-178,177,178,Eucalyptus,False,769; 903,filled
+A,Magical Liquids,,179-180,179,180,of Eve,False,903,filled
+A,Magical Liquids,,181-182,181,182,of the Evil Eye,False,360,filled
+A,Magical Liquids,,183-184,183,184,Excisement,False,769,filled
+A,Magical Liquids,,185,185,185,of Exodus,False,769,filled
+A,Magical Liquids,,186-187,186,187,of the Feasts,False,769,filled
+A,Magical Liquids,,188-189,188,189,of Feather Falling,False,195,filled
+A,Magical Liquids,,190-191,190,191,of Fiery Burning,False,769,filled
+A,Magical Liquids,,192-193,192,193,of Fire Stilling,False,769,filled
+A,Magical Liquids,,194-195,194,195,Five Finger Grass,False,903,filled
+A,Magical Liquids,,196,196,196,Frangi Pani,False,770; 903,filled
+A,Magical Liquids,,197-198,197,198,of Fumbling,False,770,filled
+A,Magical Liquids,,199-200,199,200,Galangale's,False,770,filled
+A,Magical Liquids,,201-202,201,202,Gardenia,False,770,filled
+A,Magical Liquids,,203-204,203,204,Getaway's,False,903,filled
+A,Magical Liquids,,205-206,205,206,Grape,False,903,filled
+A,Magical Liquids,,207,207,207,of Great Devotion,False,770,filled
+A,Magical Liquids,,208-209,208,209,of Hair Replacement,False,770,filled
+A,Magical Liquids,,210-211,210,211,of High Conquering,False,770,filled
+A,Magical Liquids,,212-213,212,213,of High John the Conqueror,False,904,filled
+A,Magical Liquids,,214-215,214,215,Hindu Grass,False,771; 904,filled
+A,Magical Liquids,,216-217,216,217,Honeysuckle,False,904,filled
+A,Magical Liquids,,218,218,218,of Horridness,False,771,filled
+A,Magical Liquids,,219-220,219,220,Hypnotic,False,904,filled
+A,Magical Liquids,,221-222,221,222,Hysspo,False,771,filled
+A,Magical Liquids,,223-224,223,224,of Immovability,False,771,filled
+A,Magical Liquids,,225-226,225,226,of Impact,False,771,filled
+A,Magical Liquids,,227-228,227,228,Invisibility,False,771,filled
+A,Magical Liquids,,229-230,229,230,of Invulnerability,False,755,filled
+A,Magical Liquids,,231,231,231,Jamaica,False,771,filled
+A,Magical Liquids,,232-233,232,233,Jannis's Aroma of Nightmares,False,772,filled
+A,Magical Liquids,,234-235,234,235,Jazper's of Permanent Etherealness,False,772,filled
+A,Magical Liquids,,236-237,236,237,Jezebel,False,772,filled
+A,Magical Liquids,,238-239,238,239,of Jinx Removing,False,905,filled
+A,Magical Liquids,,240-241,240,241,Jo's Liquid Road,False,772,filled
+A,Magical Liquids,,242,242,242,Kludde,False,772,filled
+A,Magical Liquids,,243-244,243,244,Lavender,False,772,filled
+A,Magical Liquids,,245-246,245,246,of Life,False,905,filled
+A,Magical Liquids,,247-248,247,248,of Lighting,False,374,filled
+A,Magical Liquids,,249-250,249,250,of Lightning Bolts,False,772,filled
+A,Magical Liquids,,251-252,251,252,Lily of the Valley,False,905,filled
+A,Magical Liquids,,253,253,253,of Lorn,False,773,filled
+A,Magical Liquids,,254-255,254,255,of Luminescence,False,773,filled
+A,Magical Liquids,,256-257,256,257,Magnolia,False,773,filled
+A,Magical Liquids,,258-259,258,259,of Manpower,False,773,filled
+A,Magical Liquids,,260-261,260,261,Maybel's Insect Charm,False,773,filled
+A,Magical Liquids,,262-263,262,263,of Mercury,False,905,filled
+A,Magical Liquids,,264,264,264,of Metal Fatigue,False,773,filled
+A,Magical Liquids,,265-266,265,266,Mojo,False,774,filled
+A,Magical Liquids,,267-268,267,268,of Monster Repulsion,False,774,filled
+A,Magical Liquids,,269-270,269,270,Moon,False,380; 390,filled
+A,Magical Liquids,,271-272,271,272,Musk,False,774,filled
+A,Magical Liquids,,273-274,273,274,Narcissus,False,774,filled
+A,Magical Liquids,,275-276,275,276,of Neutral Scent,False,774,filled
+A,Magical Liquids,,277,277,277,of New life,False,906,filled
+A,Magical Liquids,,278-279,278,279,Nine Mystery,False,774,filled
+A,Magical Liquids,,280-281,280,281,Obeah,False,906,filled
+A,Magical Liquids,,282-283,282,283,of Obedience,False,775,filled
+A,Magical Liquids,,284-285,284,285,of Obedience,False,775,filled
+A,Magical Liquids,,286-287,286,287,Olibanum,False,775,filled
+A,Magical Liquids,,288,288,288,of Permanent Disenchantment,False,775,filled
+A,Magical Liquids,,289-290,289,290,of Petrification,False,654,filled
+A,Magical Liquids,,291-292,291,292,of Phosphorescence,False,775,filled
+A,Magical Liquids,,293-294,293,294,of Phosphorus,False,775,filled
+A,Magical Liquids,,295-296,295,296,of the Pickpocket,False,775,filled
+A,Magical Liquids,,297-298,297,298,of Power,False,907,filled
+A,Magical Liquids,,299,299,299,of Preservation,False,216,filled
+A,Magical Liquids,,300-301,300,301,Primrose,False,776,filled
+A,Magical Liquids,,302-303,302,303,Reptila's Curdled Death,False,776,filled
+A,Magical Liquids,,304-305,304,305,of Reversibility,False,909,filled
+A,Magical Liquids,,306-307,306,307,of Romance,False,776,filled
+A,Magical Liquids,,308-309,308,309,Rosemary,False,909,filled
+A,Magical Liquids,,310,310,310,Rue,False,909,filled
+A,Magical Liquids,,311,311,311,of Rust Proofing,False,776,filled
+A,Magical Liquids,,312,312,312,Sandalwood,False,909,filled
+A,Magical Liquids,,313-314,313,314,of Scents,False,777,filled
+A,Magical Liquids,,315-316,315,316,of Scribes,False,777,filled
+A,Magical Liquids,,317-318,317,318,of Scrying,False,777,filled
+A,Magical Liquids,,319-320,319,320,of Sharpness,False,777,filled
+A,Magical Liquids,,321-322,321,322,of Slipperiness,False,777,filled
+A,Magical Liquids,,323,323,323,Snake,False,910,filled
+A,Magical Liquids,,324-325,324,325,Solomon's,False,910,filled
+A,Magical Liquids,,326-327,326,327,Spikenard,False,910,filled
+A,Magical Liquids,,328-329,328,329,Spirit,False,706,filled
+A,Magical Liquids,,330-331,330,331,of Stillness,False,778,filled
+A,Magical Liquids,,332-333,332,333,of Stone Passage,False,778,filled
+A,Magical Liquids,,334,334,334,of Sulfur,False,778,filled
+A,Magical Liquids,,335-336,335,336,of Time,False,1252,filled
+A,Magical Liquids,,337-338,337,338,of Timelessness,False,778,filled
+A,Magical Liquids,,339-340,339,340,Trinity,False,910,filled
+A,Magical Liquids,,341-342,341,342,of Unlocking,False,633,filled
+A,Magical Liquids,,343-344,343,344,Verbena,False,779,filled
+A,Magical Liquids,,345,345,345,of Vibration,False,779,filled
+A,Magical Liquids,,346-347,346,347,Virgin Olive,False,910,filled
+A,Magical Liquids,,348-349,348,349,of Vision,False,252,filled
+A,Magical Liquids,,350-351,350,351,of Voodoo,False,911,filled
+A,Magical Liquids,,352-353,352,353,of Will Power,False,779,filled
+A,Magical Liquids,,354-355,354,355,Wintergreen,False,911,filled
+A,Magical Liquids,,356,356,356,of Wishing,False,1527,filled
+A,Magical Liquids,,357-358,357,358,Witch's,False,1497,filled
+A,Magical Liquids,,359-360,359,360,Xyz,False,779,filled
+A,Magical Liquids,,361-362,361,362,Ylang Ylang,False,779,filled
+A,Magical Liquids,,363-364,363,364,Zodiac,False,779,filled
+A,Magical Liquids,,365-366,365,366,Zula Zula,False,780,filled
+A,Magical Liquids,,367-368,367,368,of Blessing,False,780,filled
+A,Magical Liquids,,369,369,369,Courtesan's Cream,False,780,filled
+A,Magical Liquids,,370-371,370,371,of Far Seeing (Ashen),False,528,filled
+A,Magical Liquids,,372-373,372,373,of Far Seeing (Black),False,675,filled
+A,Magical Liquids,,374-375,374,375,of Far Seeing (Blue),False,528,filled
+A,Magical Liquids,,376-377,376,377,of Far Seeing (Bluish),False,528,filled
+A,Magical Liquids,,378-379,378,379,of Far Seeing (Clear),False,528,filled
+A,Magical Liquids,,380,380,380,of Far Seeing (Copper),False,528,filled
+A,Magical Liquids,,381-382,381,382,of Far Seeing (Golden),False,1303,filled
+A,Magical Liquids,,383-384,383,384,of Far Seeing (Gray),False,528,filled
+A,Magical Liquids,,385-386,385,386,of Far Seeing (Silver),False,274,filled
+A,Magical Liquids,,387-388,387,388,of Far Seeing (White),False,274,filled
+A,Magical Liquids,,389-390,389,390,of Flying,False,1513,filled
+A,Magical Liquids,,391,391,391,of Healing,False,1324,filled
+A,Magical Liquids,,392-393,392,393,of Healing II,False,1324,filled
+A,Magical Liquids,,394-395,394,395,Keoghtom's,False,780,filled
+A,Magical Liquids,,396-397,396,397,of Mage Smelling,False,781,filled
+A,Magical Liquids,,398-399,398,399,Poison,False,151,filled
+A,Magical Liquids,,400-401,400,401,of Recovery,False,1082,filled
+A,Magical Liquids,,402,402,402,of Scar Removal,False,781,filled
+A,Magical Liquids,,403-404,403,404,of Scarring,False,781,filled
+A,Magical Liquids,,405-406,405,406,of Second Sight,False,781,filled
+A,Magical Liquids,,407-408,407,408,of Soothing,False,782,filled
+A,Magical Liquids,,409-410,409,410,Tanning,False,782,filled
+A,Magical Liquids,,411-412,411,412,Padriac's Portable Purveyor,False,802,filled
+A,Magical Liquids,,413-414,413,414,Aroma of Dreams,False,823,filled
+A,Magical Liquids,,415,415,415,Curdled Death,False,823,filled
+A,Magical Liquids,,416-417,416,417,Elyse,False,824,filled
+A,Magical Liquids,,418-419,418,419,Essence of Darkness,False,446; 824,filled
+A,Magical Liquids,,420-421,420,421,Murdock's Insect Ward,False,825,filled
+A,Magical Liquids,,422-423,422,423,Starella's Aphrodisiac,False,825,filled
+A,Magical Liquids,,424-425,424,425,Grades of Overwhelming Love,False,828,filled
+A,Magical Liquids,,426,426,426,of Beauty,False,828,filled
+A,Magical Liquids,,427-428,427,428,of Drunkenness,False,865,filled
+A,Magical Liquids,,429-430,429,430,of Drunkenness II,False,865,filled
+A,Magical Liquids,,431-432,431,432,Durimal's Merry Blend,False,828,filled
+A,Magical Liquids,,433-434,433,434,Durimal's Potent Draft,False,828,filled
+A,Magical Liquids,,435-436,435,436,Durimal's Sovereign Tonic,False,828,filled
+A,Magical Liquids,,437,437,437,of Glibness,False,828,filled
+A,Magical Liquids,,438-439,438,439,of Love,False,828,filled
+A,Magical Liquids,,440-441,440,441,of Persuasiveness,False,829,filled
+A,Magical Liquids,,442-443,442,443,Quirks*,True,443,filled
+A,Magical Liquids,,444-445,444,445,of Stammering and Stuttering,False,830,filled
+A,Magical Liquids,,446-447,446,447,Bell's Palette of Identity,False,836,filled
+A,Magical Liquids,,448,448,448,of Blackmoor (Red),False,807,filled
+A,Magical Liquids,,449-450,449,450,of Blackmoor (Blue),False,101,filled
+A,Magical Liquids,,451-452,451,452,of Blackmoor (Green),False,836,filled
+A,Magical Liquids,,453-454,453,454,of Blackmoor (Black),False,675,filled
+A,Magical Liquids,,455-456,455,456,of Blackmoor (White),False,1105,filled
+A,Magical Liquids,,457-458,457,458,of Blackmoor (Brown),False,332,filled
+A,Magical Liquids,,459-460,459,460,of Longevity,False,855; 877,filled
+A,Magical Liquids,,461,461,461,Nolzur's Marvelous,False,837,filled
+A,Magical Liquids,,462-463,462,463,Yellow Kohl,False,837,filled
+A,Magical Liquids,,464-465,464,465,of Absorption,False,1093,filled
+A,Magical Liquids,,466-467,466,467,of Advanced Meditation,False,854,filled
+A,Magical Liquids,,468-469,468,469,of Agility,False,854,filled
+A,Magical Liquids,,470-471,470,471,of Ageing,False,854,filled
+A,Magical Liquids,,472,472,472,of Alternate Profession,False,854,filled
+A,Magical Liquids,,473-474,473,474,of Ambrosia,False,854,filled
+A,Magical Liquids,,475-476,475,476,Amalgamous Type I,False,854,filled
+A,Magical Liquids,,477-478,477,478,Amalgamous Type II,False,854,filled
+A,Magical Liquids,,479-480,479,480,Amalgamous Type III,False,854,filled
+A,Magical Liquids,,481-482,481,482,of Animal Control,False,947,filled
+A,Magical Liquids,,483,483,483,Antidote,False,855,filled
+A,Magical Liquids,,484-485,484,485,of Anti-Magic,False,741,filled
+A,Magical Liquids,,486-487,486,487,Anti-Sleep,False,855,filled
+A,Magical Liquids,,488-489,488,489,of Arcane Comprehension,False,856,filled
+A,Magical Liquids,,490-491,490,491,of Archmagedom,False,856,filled
+A,Magical Liquids,,492-493,492,493,of Black Sight,False,856,filled
+A,Magical Liquids,,494,494,494,of Blending,False,838,filled
+A,Magical Liquids,,495-496,495,496,of Blindness,False,229,filled
+A,Magical Liquids,,497-498,497,498,of Bouncing,False,856,filled
+A,Magical Liquids,,499-500,499,500,of Bubbles,False,856,filled
+A,Magical Liquids,,501-502,501,502,of Chameleon Power,False,952,filled
+A,Magical Liquids,,503-504,503,504,of Childishness,False,857,filled
+A,Magical Liquids,,505-506,505,506,of Clairaudience,False,953,filled
+A,Magical Liquids,,507,507,507,of Clairvoyance,False,1510,filled
+A,Magical Liquids,,508-509,508,509,of Clarity,False,857,filled
+A,Magical Liquids,,510-511,510,511,Clay,False,857,filled
+A,Magical Liquids,,512-513,512,513,Clean and Dry,False,857,filled
+A,Magical Liquids,,514-515,514,515,Clearwater,False,857,filled
+A,Magical Liquids,,516-517,516,517,of Climbing,False,1043,filled
+A,Magical Liquids,,518,518,518,of Controlling Damage,False,858,filled
+A,Magical Liquids,,519-520,519,520,of Cold Resistance,False,858,filled
+A,Magical Liquids,,521-522,521,522,of Confusion,False,901,filled
+A,Magical Liquids,,523-524,523,524,of Contact Disruption,False,858,filled
+A,Magical Liquids,,525-526,525,526,of the Corrosive Touch,False,858,filled
+A,Magical Liquids,,527-528,527,528,of Craftsmanship,False,859,filled
+A,Magical Liquids,,529,529,529,of Delayed Power,False,907,filled
+A,Magical Liquids,,530-531,530,531,of Cure Disease,False,859,filled
+A,Magical Liquids,,532-533,532,533,of Curing Lycanthropy,False,859,filled
+A,Magical Liquids,,534-535,534,535,of Danger Detection,False,859,filled
+A,Magical Liquids,,536-537,536,537,Dark Draft of the Voodoo Masters,False,859,filled
+A,Magical Liquids,,538-539,538,539,of Deafness,False,1557,filled
+A,Magical Liquids,,540,540,540,of Defense,False,241,filled
+A,Magical Liquids,,541-542,541,542,of Deftness (Dex 17),False,860,filled
+A,Magical Liquids,,543-544,543,544,of Deftness (Dex 18),False,860,filled
+A,Magical Liquids,,545-546,545,546,of Deftness (Dex 19),False,860,filled
+A,Magical Liquids,,547-548,547,548,of Deftness (Dex 20),False,860,filled
+A,Magical Liquids,,549-550,549,550,of Deftness (Dex 21),False,860,filled
+A,Magical Liquids,,551-552,551,552,of Delusion,False,519,filled
+A,Magical Liquids,,553,553,553,of Digestion,False,860,filled
+A,Magical Liquids,,554-555,554,555,of Digging,False,860,filled
+A,Magical Liquids,,556-557,556,557,of Diminution,False,860,filled
+A,Magical Liquids,,558-559,558,559,of Direction,False,860,filled
+A,Magical Liquids,,560-561,560,561,of the Dracolich,False,861,filled
+A,Magical Liquids,,562-563,562,563,of Dragon Breath,False,431,filled
+A,Magical Liquids,,564,564,564,of Amethyst Dragon Breath,False,1448,filled
+A,Magical Liquids,,565-566,565,566,of Black Dragon Breath,False,1448,filled
+A,Magical Liquids,,567-568,567,568,of Blue Dragon Breath,False,1448,filled
+A,Magical Liquids,,569-570,569,570,of Brass Dragon Breath,False,1448,filled
+A,Magical Liquids,,571-572,571,572,of Bronze Dragon Breath,False,1448,filled
+A,Magical Liquids,,573-574,573,574,of Brown Dragon Breath,False,1448,filled
+A,Magical Liquids,,575,575,575,of Cloud Dragon Breath,False,1448,filled
+A,Magical Liquids,,576-577,576,577,of Copper Dragon Breath,False,1448,filled
+A,Magical Liquids,,578-579,578,579,of Crystal Dragon Breath,False,1448,filled
+A,Magical Liquids,,580-581,580,581,of Deep Dragon Breath,False,1448,filled
+A,Magical Liquids,,582-583,582,583,of Emerald Dragon Breath,False,1448,filled
+A,Magical Liquids,,584-585,584,585,of Gold Dragon Breath,False,1448,filled
+A,Magical Liquids,,586,586,586,of Green Dragon Breath,False,1448,filled
+A,Magical Liquids,,587-588,587,588,of Mercury Dragon Breath,False,1448,filled
+A,Magical Liquids,,589-590,589,590,of Mist Dragon Breath,False,1448,filled
+A,Magical Liquids,,591-592,591,592,of Red Dragon Breath,False,1448,filled
+A,Magical Liquids,,593-594,593,594,of Sapphire Dragon Breath,False,205,filled
+A,Magical Liquids,,595-596,595,596,of Shadow Dragon Breath,False,1448,filled
+A,Magical Liquids,,597-598,597,598,of Silver Dragon Breath,False,1448,filled
+A,Magical Liquids,,599,599,599,of Steel Dragon Breath,False,1448,filled
+A,Magical Liquids,,600-601,600,601,of Topaz Dragon Breath,False,1448,filled
+A,Magical Liquids,,602-603,602,603,of White Dragon Breath,False,1448,filled
+A,Magical Liquids,,604-605,604,605,of Yellow Dragon Breath,False,1448,filled
+A,Magical Liquids,,606-607,606,607,of Dragon Control,False,864,filled
+A,Magical Liquids,,608-609,608,609,of Dragon Control II,False,864,filled
+A,Magical Liquids,,610,610,610,of Dragon Control III,False,864,filled
+A,Magical Liquids,,611-612,611,612,of Dragon Sight,False,865,filled
+A,Magical Liquids,,613-614,613,614,Dragon's Blood,False,902,filled
+A,Magical Liquids,,615-616,615,616,of Dreaming,False,865,filled
+A,Magical Liquids,,617-618,617,618,of Dreamspeech,False,865,filled
+A,Magical Liquids,,619-620,619,620,of Drunkenness,False,865,filled
+A,Magical Liquids,,621,621,621,of Elasticity,False,865; 866,filled
+A,Magical Liquids,,622-623,622,623,of Elasticity II,False,865; 866,filled
+A,Magical Liquids,,624-625,624,625,of Elemental Control,False,866,filled
+A,Magical Liquids,,626-627,626,627,of Elemental Form,False,866,filled
+A,Magical Liquids,,628-629,628,629,of Enlightenment,False,727,filled
+A,Magical Liquids,,630-631,630,631,of ESP,False,1512,filled
+A,Magical Liquids,,632,632,632,of Ethereality,False,74,filled
+A,Magical Liquids,,633-636,633,636,of Explosions,False,89,filled
+A,Magical Liquids,,637-638,637,638,Vial of Explosions,False,867,filled
+A,Magical Liquids,,639-640,639,640,of Extra-Healing,False,868,filled
+A,Magical Liquids,,641-642,641,642,of Fire Breath,False,868,filled
+A,Magical Liquids,,643-644,643,644,of Fire Resistance,False,1053,filled
+A,Magical Liquids,,645,645,645,of Fire Vulnerability,False,868,filled
+A,Magical Liquids,,646-647,646,647,of Fluidness,False,868,filled
+A,Magical Liquids,,648-649,648,649,of Flying,False,1513,filled
+A,Magical Liquids,,650-651,650,651,of Forewarning,False,869,filled
+A,Magical Liquids,,652-653,652,653,of Forgetfulness,False,420,filled
+A,Magical Liquids,,654-655,654,655,of Forgetfulness II,False,420,filled
+A,Magical Liquids,,656,656,656,of Fortitude,False,869,filled
+A,Magical Liquids,,657-658,657,658,Foul Water,False,869,filled
+A,Magical Liquids,,659-660,659,660,of Freedom,False,815,filled
+A,Magical Liquids,,661-662,661,662,of Fresh Air,False,869,filled
+A,Magical Liquids,,663-664,663,664,of Fright,False,869,filled
+A,Magical Liquids,,665-666,665,666,of Frost Resistance,False,351,filled
+A,Magical Liquids,,667,667,667,of Fur Growth,False,870,filled
+A,Magical Liquids,,668-669,668,669,of Gaseous Form,False,855; 870,filled
+A,Magical Liquids,,670-672,670,672,of Genius,False,870,filled
+A,Magical Liquids,,673-674,673,674,of Ghostliness,False,870,filled
+A,Magical Liquids,,675-676,675,676,of Giant Control,False,870,filled
+A,Magical Liquids,,677,677,677,of Giant Control II,False,870,filled
+A,Magical Liquids,,678,678,678,of Giant Strength,False,871,filled
+A,Magical Liquids,,679-680,679,680,Glitz & Klax's,True,871,filled
+A,Magical Liquids,,681-682,681,682,of Gluttony,False,871,filled
+A,Magical Liquids,,683-684,683,684,of Golden Silence,False,871,filled
+A,Magical Liquids,,685-686,685,686,of Good Humor,False,871,filled
+A,Magical Liquids,,687-688,687,688,Gray Slumber,False,871,filled
+A,Magical Liquids,,689-690,689,690,of Greensprouting,False,871,filled
+A,Magical Liquids,,691,691,691,of Growth,False,872,filled
+A,Magical Liquids,,692-693,692,693,of Healing,False,1324,filled
+A,Magical Liquids,,694-695,694,695,of Heroism,False,893,filled
+A,Magical Liquids,,696-697,696,697,Horn of Plenty,False,872,filled
+A,Magical Liquids,,698-699,698,699,of Housecat Control,False,872,filled
+A,Magical Liquids,,700-701,700,701,of Human Control,False,970,filled
+A,Magical Liquids,,702,702,702,Hummingbird Nectar,False,873,filled
+A,Magical Liquids,,703-704,703,704,of Immunity,False,971,filled
+A,Magical Liquids,,705-706,705,706,of Immunization From Lycanthropes,False,873,filled
+A,Magical Liquids,,707-708,707,708,of Infravision,False,455,filled
+A,Magical Liquids,,709-710,709,710,of Inner Strength,False,873,filled
+A,Magical Liquids,,711-712,711,712,of Insulation,False,873,filled
+A,Magical Liquids,,713,713,713,of Intensity,False,873,filled
+A,Magical Liquids,,714-715,714,715,of Invisibility,False,771,filled
+A,Magical Liquids,,716-717,716,717,of Invulnerability,False,755,filled
+A,Magical Liquids,,718-719,718,719,of Iron Handedness,False,873,filled
+A,Magical Liquids,,720-721,720,721,Istar's Truth,False,874,filled
+A,Magical Liquids,,722-723,722,723,Kanzaz,False,874,filled
+A,Magical Liquids,,724,724,724,Kur's Drink,False,874,filled
+A,Magical Liquids,,725-726,725,726,of Language Learning,False,874,filled
+A,Magical Liquids,,727-728,727,728,of Lethargy,False,874,filled
+A,Magical Liquids,,729-730,729,730,of Levitation,False,483,filled
+A,Magical Liquids,,731-732,731,732,of Lichdom,False,874,filled
+A,Magical Liquids,,733-734,733,734,of Life Stealing,False,1380,filled
+A,Magical Liquids,,735-736,735,736,of Life Suspension,False,876,filled
+A,Magical Liquids,,737,737,737,of Lightning Form,False,877,filled
+A,Magical Liquids,,738-739,738,739,of Longevity,False,855; 877,filled
+A,Magical Liquids,,740-741,740,741,Love,False,828,filled
+A,Magical Liquids,,742-743,742,743,of Luck,False,351,filled
+A,Magical Liquids,,744-745,744,745,of Lycanthropy,False,1115,filled
+A,Magical Liquids,,746-747,746,747,Mage Wine,False,877,filled
+A,Magical Liquids,,748,748,748,of Magic Blocking,False,877,filled
+A,Magical Liquids,,749-750,749,750,of Magic Enhancement,False,877,filled
+A,Magical Liquids,,751-752,751,752,of Magic Peas,False,878,filled
+A,Magical Liquids,,753-754,753,754,of Magic Resistance,False,36,filled
+A,Magical Liquids,,755-756,755,756,of Magic Resistance II,False,36,filled
+A,Magical Liquids,,757-758,757,758,of Magic Shielding,False,878,filled
+A,Magical Liquids,,759,759,759,of Magnetism,False,1211,filled
+A,Magical Liquids,,760-761,760,761,of Magnification,False,878,filled
+A,Magical Liquids,,762-763,762,763,of Master Thievery,False,878,filled
+A,Magical Liquids,,764-765,764,765,of Merging,False,879,filled
+A,Magical Liquids,,766-767,766,767,of Metal Immunity,False,879,filled
+A,Magical Liquids,,768-769,768,769,of the Midas Touch,False,879,filled
+A,Magical Liquids,,770,770,770,of Mind Dampening,False,879,filled
+A,Magical Liquids,,771-772,771,772,of Mind Focusing,False,879,filled
+A,Magical Liquids,,773-774,773,774,of Mind Restoration,False,879,filled
+A,Magical Liquids,,775-776,775,776,Mirage,False,879,filled
+A,Magical Liquids,,777-778,777,778,of Mirrored Eyes,False,879,filled
+A,Magical Liquids,,779-780,779,780,of Missile Protection,False,880,filled
+A,Magical Liquids,,781-782,781,782,of Monster Creation,False,880,filled
+A,Magical Liquids,,783,783,783,of Neutralization,False,983,filled
+A,Magical Liquids,,784-785,784,785,of Noxious Resistance,False,880,filled
+A,Magical Liquids,,786-787,786,787,of Nutrition,False,880,filled
+A,Magical Liquids,,788-789,788,789,Odrovir,False,880,filled
+A,Magical Liquids,,790-791,790,791,of Open Mind,False,880,filled
+A,Magical Liquids,,792-793,792,793,of Opposite Alignment,False,880,filled
+A,Magical Liquids,,794,794,794,of Pain Suppression,False,881,filled
+A,Magical Liquids,,795-796,795,796,of Perception,False,881,filled
+A,Magical Liquids,,797-798,797,798,of Pestilence,False,881,filled
+A,Magical Liquids,,799-800,799,800,of Petrification,False,654,filled
+A,Magical Liquids,,801-802,801,802,Phase,False,881,filled
+A,Magical Liquids,,803-804,803,804,of Plant Control,False,985,filled
+A,Magical Liquids,,805,805,805,of Plant Growth,False,882,filled
+A,Magical Liquids,,806-807,806,807,of Poison,False,151,filled
+A,Magical Liquids,,808-809,808,809,of Poison Negation,False,882,filled
+A,Magical Liquids,,810-811,810,811,of Polymorph Self,False,854; 882,filled
+A,Magical Liquids,,812-813,812,813,of Wizard Power,False,882,filled
+A,Magical Liquids,,814-815,814,815,of Priest Power,False,907,filled
+A,Magical Liquids,,816,816,816,of Rogue Power,False,882,filled
+A,Magical Liquids,,817-818,817,818,of Warrior Power,False,882,filled
+A,Magical Liquids,,819-820,819,820,Pox,False,882,filled
+A,Magical Liquids,,821-822,821,822,of Protection from Immiscibility,False,883,filled
+A,Magical Liquids,,823-824,823,824,of the Pseudo Treant,False,883,filled
+A,Magical Liquids,,825-826,825,826,of Psionic Ability,False,883,filled
+A,Magical Liquids,,827-828,827,828,Psionics Boosting (Gray),False,434,filled
+A,Magical Liquids,,829,829,829,Psionics Boosting (Green),False,699,filled
+A,Magical Liquids,,830-831,830,831,Psionics Boosting (Red),False,807,filled
+A,Magical Liquids,,832-833,832,833,Psionics Boosting (Silver),False,325,filled
+A,Magical Liquids,,834-835,834,835,Psionics Boosting (Violet),False,883,filled
+A,Magical Liquids,,836-837,836,837,Psionics Boosting (White),False,1105,filled
+A,Magical Liquids,,838-839,838,839,Psionics Boosting (Yellow),False,246,filled
+A,Magical Liquids,,840,840,840,of the Psychotic Killer,False,883,filled
+A,Magical Liquids,,841-842,841,842,of Pursuit,False,94,filled
+A,Magical Liquids,,843-844,843,844,Quirks,True,443,filled
+A,Magical Liquids,,845-846,845,846,of Rage,False,885,filled
+A,Magical Liquids,,847-848,847,848,of Rainbow Hues,False,886,filled
+A,Magical Liquids,,849-850,849,850,of Recall,False,886,filled
+A,Magical Liquids,,851,851,851,of Reflection,False,886,filled
+A,Magical Liquids,,852-853,852,853,of Regeneration,False,993,filled
+A,Magical Liquids,,854-855,854,855,of Regeneration II,False,993,filled
+A,Magical Liquids,,856-857,856,857,of Rejuvenation,False,887,filled
+A,Magical Liquids,,858-859,858,859,of Rest,False,887,filled
+A,Magical Liquids,,860-861,860,861,of Restoration,False,887,filled
+A,Magical Liquids,,862,862,862,of Resuscitation,False,887,filled
+A,Magical Liquids,,863-864,863,864,of Reverse Ventriloquism,False,887,filled
+A,Magical Liquids,,865-866,865,866,of Rogue Wisdom,False,887,filled
+A,Magical Liquids,,867-868,867,868,of Safe Consumption,False,887,filled
+A,Magical Liquids,,869-870,869,870,of Scent Neutralization,False,888,filled
+A,Magical Liquids,,871-872,871,872,of Scrying,False,777,filled
+A,Magical Liquids,,873-874,873,874,of Seeing,False,528,filled
+A,Magical Liquids,,875,875,875,of Sensory Enhancement,False,888,filled
+A,Magical Liquids,,876-877,876,877,of Shadow,False,255,filled
+A,Magical Liquids,,878-879,878,879,of Sharp Eyes,False,888,filled
+A,Magical Liquids,,880-881,880,881,of Sight,False,979,filled
+A,Magical Liquids,,882-883,882,883,Singing,False,1117,filled
+A,Magical Liquids,,884-885,884,885,Skeletal,False,889,filled
+A,Magical Liquids,,886,886,886,of Sleep Bestowing,False,889,filled
+A,Magical Liquids,,887-888,887,888,of Sleep Breathing,False,889,filled
+A,Magical Liquids,,889-890,889,890,Sleeping,False,173,filled
+A,Magical Liquids,,891-892,891,892,of Sleepy Breath,False,889,filled
+A,Magical Liquids,,893-894,893,894,of Snake Crawling,False,889,filled
+A,Magical Liquids,,895-896,895,896,of Sobriety,False,889,filled
+A,Magical Liquids,,897,897,897,of Soul-Chilling,False,890,filled
+A,Magical Liquids,,898-899,898,899,of Speech,False,890,filled
+A,Magical Liquids,,900-901,900,901,of Speed,False,210,filled
+A,Magical Liquids,,902-903,902,903,of Spelljamming,False,890,filled
+A,Magical Liquids,,904-905,904,905,of Spirit Binding,False,890,filled
+A,Magical Liquids,,906-907,906,907,of Spirit Flight,False,890,filled
+A,Magical Liquids,,908,908,908,of Stone Form,False,891,filled
+A,Magical Liquids,,909-910,909,910,of Strength,False,891,filled
+A,Magical Liquids,,911-912,911,912,of Superhealing,False,891,filled
+A,Magical Liquids,,913-914,913,914,of Superheroism,False,891,filled
+A,Magical Liquids,,915-916,915,916,of Superheroism II,False,891,filled
+A,Magical Liquids,,917-918,917,918,of Superior Animal Control,False,891,filled
+A,Magical Liquids,,919-920,919,920,of Superior Healing,False,891,filled
+A,Magical Liquids,,921,921,921,of Sustenance,False,1002,filled
+A,Magical Liquids,,922-923,922,923,Sweet Water,False,892,filled
+A,Magical Liquids,,924-925,924,925,of Swimming,False,953; 1002,filled
+A,Magical Liquids,,926-927,926,927,Teleportation,False,412,filled
+A,Magical Liquids,,928-929,928,929,of Thievery,False,892,filled
+A,Magical Liquids,,930-931,930,931,of Thinness,False,892,filled
+A,Magical Liquids,,932,932,932,Toad Skin,False,892,filled
+A,Magical Liquids,,933-934,933,934,of Tongues,False,1004,filled
+A,Magical Liquids,,935-936,935,936,of Toughening,False,893,filled
+A,Magical Liquids,,937-938,937,938,of Tragic Heroism,False,893,filled
+A,Magical Liquids,,939-940,939,940,of Treasure Finding,False,893,filled
+A,Magical Liquids,,941-942,941,942,of Truth,False,893,filled
+A,Magical Liquids,,943,943,943,Truth Drug,False,895,filled
+A,Magical Liquids,,944-945,944,945,of Ugliness,False,895,filled
+A,Magical Liquids,,946-947,946,947,of the Undead,False,83,filled
+A,Magical Liquids,,948-949,948,949,of Undead Control,False,895,filled
+A,Magical Liquids,,950-951,950,951,of Underground Awareness,False,895,filled
+A,Magical Liquids,,952-953,952,953,of Useful Appendages,False,895,filled
+A,Magical Liquids,,954,954,954,of Vampirism,False,895,filled
+A,Magical Liquids,,955-956,955,956,of Venom,False,366; 371; 1375,filled
+A,Magical Liquids,,957-958,957,958,of Ventriloquism,False,896,filled
+A,Magical Liquids,,959-960,959,960,of Visions,False,896,filled
+A,Magical Liquids,,961-962,961,962,of Vitality,False,896,filled
+A,Magical Liquids,,963-964,963,964,Wallac's of Speedcasting,False,896,filled
+A,Magical Liquids,,965-966,965,966,of Water Adventuring,False,897,filled
+A,Magical Liquids,,967,967,967,of Water Breathing,False,753,filled
+A,Magical Liquids,,968-969,968,969,of Water Breathing II,False,753,filled
+A,Magical Liquids,,970-971,970,971,of Water Breathing III,False,753,filled
+A,Magical Liquids,,972-973,972,973,of Water Movement,False,897,filled
+A,Magical Liquids,,974-975,974,975,of Wizardry,False,952; 1007,filled
+A,Magical Liquids,,976-977,976,977,of Worm Calling,False,897,filled
+A,Magical Liquids,,978,978,978,Zak's of Invulnerability,False,898,filled
+A,Magical Liquids,,979-980,979,980,Zombie Blood,False,898,filled
+A,Magical Liquids,,981-982,981,982,Zombie Broth,False,898,filled
+A,Magical Liquids,,983-984,983,984,of Far Seeing,False,654,filled
+A,Magical Liquids,,985-986,985,986,of Healing,False,1324,filled
+A,Magical Liquids,,987-988,987,988,of Scar Removal,False,781,filled
+A,Magical Liquids,,989,989,989,Sea Dew,False,164,filled
+A,Magical Liquids,,990-991,990,991,Sovereign Glue,False,1128,filled
+A,Magical Liquids,,992-993,992,993,Universal Solvent,False,1465,filled
+A,Magical Liquids,,994-995,994,995,Blessed,False,841,filled
+A,Magical Liquids,,996-997,996,997,Golden,False,1303,filled
+A,Magical Liquids,,998-999,998,999,Holy,False,1505,filled
+A,Magical Liquids,,000,1000,1000,Wine of Eternity,False,1559,filled

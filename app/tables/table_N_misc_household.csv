@@ -1,0 +1,519 @@
+table,category,subcategory,roll_display,roll_low,roll_high,name,reroll,page,page_status
+N,Misc: Household,,01,1,1,Enchanted Enhancements,True,21,filled
+N,Misc: Household,,2-3,2,3,Abacus of Calculation,False,25,filled
+N,Misc: Household,,4-5,4,5,High of the Dwarves,False,1140,filled
+N,Misc: Household,,6-7,6,7,Iron of the Armies,False,1484,filled
+N,Misc: Household,,8-9,8,9,of the Lortmil Mountains,False,52,filled
+N,Misc: Household,,10-11,10,11,of Comfort,False,173,filled
+N,Misc: Household,,12-13,12,13,Flandal Steelskin's,False,58,filled
+N,Misc: Household,,14-15,14,15,Leather,False,58,filled
+N,Misc: Household,,16-17,16,17,Arabel's Huggable Bear,False,58,filled
+N,Misc: Household,,18-19,18,19,Armor Bath,False,69,filled
+N,Misc: Household,,20-21,20,21,Blue on Bronze,False,101,filled
+N,Misc: Household,,22-23,22,23,Dragonnel-by-the-Cliff,False,101,filled
+N,Misc: Household,,24-25,24,25,The Gladiators,False,102,filled
+N,Misc: Household,,26,26,26,Glorindel's Gates,False,103,filled
+N,Misc: Household,,27-28,27,28,Glorindel's Living Painting,False,104,filled
+N,Misc: Household,,29-30,29,30,Igraine's Portrait,False,105,filled
+N,Misc: Household,,31-32,31,32,Norval's Timely Portrait,False,106,filled
+N,Misc: Household,,33-34,33,34,Pigments of Longevity,False,106,filled
+N,Misc: Household,,35-36,35,36,Portraiture by Magic,False,106,filled
+N,Misc: Household,,37-38,37,38,The Watchers,False,106,filled
+N,Misc: Household,,39-40,39,40,Widow's Walk,False,108,filled
+N,Misc: Household,,41-42,41,42,Full,False,111,filled
+N,Misc: Household,,43-44,43,44,of Hole Punching,False,111,filled
+N,Misc: Household,,45-46,45,46,Inn,False,111,filled
+N,Misc: Household,,47-48,47,48,Mess,False,111,filled
+N,Misc: Household,,49,49,49,of Conversion,False,148,filled
+N,Misc: Household,,50-51,50,51,of Harmony,False,148,filled
+N,Misc: Household,,52-53,52,53,of Judgment,False,390,filled
+N,Misc: Household,,54-55,54,55,of Power,False,907,filled
+N,Misc: Household,,56-57,56,57,of Attraction,False,154,filled
+N,Misc: Household,,58-59,58,59,of Bravery,False,830,filled
+N,Misc: Household,,60-61,60,61,Cursed,False,1071; 1072,filled
+N,Misc: Household,,62-63,62,63,Dragon Flag,False,155,filled
+N,Misc: Household,,64-65,64,65,of Ferocity,False,155,filled
+N,Misc: Household,,66-67,66,67,Flag of Untrue Colors,False,155,filled
+N,Misc: Household,,68-69,68,69,Flying,False,1513,filled
+N,Misc: Household,,70-71,70,71,of Friendship,False,1370,filled
+N,Misc: Household,,72,72,72,Holy,False,1505,filled
+N,Misc: Household,,73-74,73,74,of Insults,False,156,filled
+N,Misc: Household,,75-76,75,76,Law's,False,156,filled
+N,Misc: Household,,77-78,77,78,Magic Shield,False,156,filled
+N,Misc: Household,,79-80,79,80,Pennant of Bravery,False,156,filled
+N,Misc: Household,,81-82,81,82,of Privacy,False,156,filled
+N,Misc: Household,,83-84,83,84,of Protection,False,1009,filled
+N,Misc: Household,,85-86,85,86,of Protection II,False,1009,filled
+N,Misc: Household,,87-88,87,88,of Renown,False,157,filled
+N,Misc: Household,,89-90,89,90,of Terror,False,413,filled
+N,Misc: Household,,91-92,91,92,Zen's,False,157,filled
+N,Misc: Household,,93-94,93,94,Fangpick,False,166,filled
+N,Misc: Household,,95-96,95,96,Absorbing,False,166,filled
+N,Misc: Household,,97,97,97,of Breath,False,167,filled
+N,Misc: Household,,98-99,98,99,of Breezes,False,167,filled
+N,Misc: Household,,100-101,100,101,of Roaring,False,167,filled
+N,Misc: Household,,102-103,102,103,of Encumbrance,False,171,filled
+N,Misc: Household,,104-105,104,105,of Levitation,False,483,filled
+N,Misc: Household,,106-107,106,107,of Ramming,False,673,filled
+N,Misc: Household,,108-109,108,109,Black Wall,False,675,filled
+N,Misc: Household,,110-111,110,111,of Comfort,False,173,filled
+N,Misc: Household,,112-113,112,113,of Devouring,False,173,filled
+N,Misc: Household,,114-115,114,115,of Protection,False,1009,filled
+N,Misc: Household,,116-117,116,117,Silk Coverlet of Warmth,False,173,filled
+N,Misc: Household,,118-119,118,119,of Sleeping,False,173,filled
+N,Misc: Household,,120,120,120,of Animated Attack,False,228,filled
+N,Misc: Household,,121-122,121,122,of Blindness,False,229,filled
+N,Misc: Household,,123-124,123,124,of Flying,False,1513,filled
+N,Misc: Household,,125-126,125,126,of Serving,False,229,filled
+N,Misc: Household,,127-128,127,128,of Sweeping,False,229,filled
+N,Misc: Household,,129-130,129,130,of Sweeping II,False,229,filled
+N,Misc: Household,,131-132,131,132,of Colors,False,650,filled
+N,Misc: Household,,133-134,133,134,of Detangling,False,230,filled
+N,Misc: Household,,135-136,135,136,of Grooming,False,230,filled
+N,Misc: Household,,137-138,137,138,Vladium's Fabulous Equine,False,230,filled
+N,Misc: Household,,139-140,139,140,of Blasting,False,231,filled
+N,Misc: Household,,141-142,141,142,of Confusion,False,901,filled
+N,Misc: Household,,143-144,143,144,Discus,False,232,filled
+N,Misc: Household,,145,145,145,of Fastening,False,232,filled
+N,Misc: Household,,146-147,146,147,of Rosy Vision,False,232,filled
+N,Misc: Household,,148-149,148,149,of Death,False,1478,filled
+N,Misc: Household,,150-151,150,151,of Dousing,False,246,filled
+N,Misc: Household,,152-153,152,153,of Exploding,False,242,filled
+N,Misc: Household,,154-155,154,155,Remote,False,247,filled
+N,Misc: Household,,156-157,156,157,of Serving,False,229,filled
+N,Misc: Household,,158-159,158,159,Accursed,False,256,filled
+N,Misc: Household,,160-161,160,161,of Diving,False,256,filled
+N,Misc: Household,,162-163,162,163,of Fighting,False,256,filled
+N,Misc: Household,,164-165,164,165,of Flying,False,1513,filled
+N,Misc: Household,,166-167,166,167,of Frying,False,257,filled
+N,Misc: Household,,168,168,168,Leonardo's of Flying,False,1513,filled
+N,Misc: Household,,169-170,169,170,Rug of Mothering,False,257,filled
+N,Misc: Household,,171-172,171,172,Rug of Smothering,False,257,filled
+N,Misc: Household,,173-174,173,174,Rug of Welcome,False,257,filled
+N,Misc: Household,,175-176,175,176,Self Cleaning,False,257,filled
+N,Misc: Household,,177-178,177,178,Solomon's Magic,False,259,filled
+N,Misc: Household,,179-180,179,180,Carving of Restful Sleep,False,261,filled
+N,Misc: Household,,181-182,181,182,of Amnesia,False,273,filled
+N,Misc: Household,,183-184,183,184,of the Ancestors,False,273,filled
+N,Misc: Household,,185-186,185,186,of Extra Seating,False,274,filled
+N,Misc: Household,,187-188,187,188,of Helplessness,False,274,filled
+N,Misc: Household,,189-190,189,190,of Relaxing,False,274,filled
+N,Misc: Household,,191-192,191,192,of Retrieval,False,274,filled
+N,Misc: Household,,193,193,193,of Seeing,False,528,filled
+N,Misc: Household,,194-195,194,195,of Travel,False,1315,filled
+N,Misc: Household,,196-197,196,197,of Ugliness,False,895,filled
+N,Misc: Household,,198-199,198,199,Couch of Comfortable Seating,False,274,filled
+N,Misc: Household,,200-201,200,201,Cloak Clasp of Holding,False,309,filled
+N,Misc: Household,,202-203,202,203,of Binding,False,329,filled
+N,Misc: Household,,204-205,204,205,of Ekbir,False,330,filled
+N,Misc: Household,,206-207,206,207,Faithful Knot,False,330; 465,filled
+N,Misc: Household,,208-209,208,209,Kybal's,False,330,filled
+N,Misc: Household,,210-211,210,211,of Entrapment,False,234,filled
+N,Misc: Household,,212-213,212,213,of Restlessness,False,331,filled
+N,Misc: Household,,214-215,214,215,of Suspension,False,331,filled
+N,Misc: Household,,216,216,216,of Death,False,1478,filled
+N,Misc: Household,,217-218,217,218,of Scenery,False,353,filled
+N,Misc: Household,,219-220,219,220,of Spying,False,353,filled
+N,Misc: Household,,221-222,221,222,Cushion of Regeneration,False,353,filled
+N,Misc: Household,,223-224,223,224,of Restudying,False,405,filled
+N,Misc: Household,,225-226,225,226,of Studying,False,405,filled
+N,Misc: Household,,227-228,227,228,Dicerion of Light and Darkness,False,406,filled
+N,Misc: Household,,229-230,229,230,Magical,False,1284,filled
+N,Misc: Household,,231-232,231,232,Aruthir's Living,False,411,filled
+N,Misc: Household,,233-234,233,234,Back,False,411,filled
+N,Misc: Household,,235-236,235,236,Black Crystal,False,411,filled
+N,Misc: Household,,237-238,237,238,of Disappearance,False,419; 423,filled
+N,Misc: Household,,239-240,239,240,of Displacement,False,1009,filled
+N,Misc: Household,,241,241,241,Front,False,412,filled
+N,Misc: Household,,242-243,242,243,of Guarding,False,303,filled
+N,Misc: Household,,244-245,244,245,Revolving,False,412,filled
+N,Misc: Household,,246-247,246,247,Lesser of Teleportation,False,412,filled
+N,Misc: Household,,248-249,248,249,Greater of Teleportation,False,412,filled
+N,Misc: Household,,250-251,250,251,of Terror,False,413,filled
+N,Misc: Household,,252-253,252,253,Trick,False,413,filled
+N,Misc: Household,,254-255,254,255,Drawer of Easy Retrieval,False,413,filled
+N,Misc: Household,,256-257,256,257,Ema of Wishes,False,446,filled
+N,Misc: Household,,258-259,258,259,Epox's Iron Rations,False,446,filled
+N,Misc: Household,,260-261,260,261,Everclean Towel,False,447,filled
+N,Misc: Household,,262-263,262,263,Everdamp Sponge,False,447,filled
+N,Misc: Household,,264,264,264,Faithful Knot,False,330; 465,filled
+N,Misc: Household,,265-266,265,266,of Charming,False,1321,filled
+N,Misc: Household,,267-268,267,268,Club,False,465,filled
+N,Misc: Household,,269-270,269,270,Cooling,False,465,filled
+N,Misc: Household,,271-272,271,272,of Dancing,False,465,filled
+N,Misc: Household,,273-274,273,274,Fanfare,False,465,filled
+N,Misc: Household,,275-276,275,276,Fanning,False,465,filled
+N,Misc: Household,,277-278,277,278,Five Fire,False,466,filled
+N,Misc: Household,,279-280,279,280,Wind,False,466,filled
+N,Misc: Household,,281-282,281,282,Fishing Lure,False,821,filled
+N,Misc: Household,,283-284,283,284,of Angling,False,203,filled
+N,Misc: Household,,285-286,285,286,of Exaggeration,False,482,filled
+N,Misc: Household,,287-288,287,288,of Levitation,False,483,filled
+N,Misc: Household,,289,289,289,of Monster Fishing,False,483,filled
+N,Misc: Household,,290-291,290,291,of Rescue,False,483,filled
+N,Misc: Household,,292-293,292,293,of Treasure Fishing,False,483,filled
+N,Misc: Household,,294-295,294,295,Forge of Metal Protection,False,491,filled
+N,Misc: Household,,296-297,296,297,Planar,False,491,filled
+N,Misc: Household,,298-299,298,299,of Travel,False,1315,filled
+N,Misc: Household,,300-301,300,301,Gauze of Appearance,False,512,filled
+N,Misc: Household,,302-303,302,303,of Auctions,False,512,filled
+N,Misc: Household,,304-305,304,305,of Authority,False,512,filled
+N,Misc: Household,,306-307,306,307,of Order,False,512,filled
+N,Misc: Household,,308-309,308,309,Gem Cutter's Tools of Sunndi,False,530; 1446,filled
+N,Misc: Household,,310-311,310,311,Enchanted,False,21,filled
+N,Misc: Household,,312,312,312,Gargoyle,False,302,filled
+N,Misc: Household,,313-314,313,314,Griffon's Claw,False,503,filled
+N,Misc: Household,,315-316,315,316,of Luckless Returning,False,527,filled
+N,Misc: Household,,317-318,317,318,of Entrapment,False,234,filled
+N,Misc: Household,,319-320,319,320,Layne's,False,560,filled
+N,Misc: Household,,321-322,321,322,of Protection,False,1009,filled
+N,Misc: Household,,323-324,323,324,of Length,False,566,filled
+N,Misc: Household,,325-326,325,326,of Sneezing,False,566,filled
+N,Misc: Household,,327-328,327,328,of Seker,False,567,filled
+N,Misc: Household,,329-330,329,330,Spider,False,632,filled
+N,Misc: Household,,331-332,331,332,of Locking,False,568,filled
+N,Misc: Household,,333-334,333,334,of Reloading,False,569,filled
+N,Misc: Household,,335-336,335,336,of Opening,False,231,filled
+N,Misc: Household,,337,337,337,of Shrieking,False,596,filled
+N,Misc: Household,,338-339,338,339,Hook of Adherence,False,599,filled
+N,Misc: Household,,340-341,340,341,Auquhol's Type I,False,601,filled
+N,Misc: Household,,342-343,342,343,Auquhol's Type II,False,601,filled
+N,Misc: Household,,344-345,344,345,Auquhol's Type III,False,601,filled
+N,Misc: Household,,346-347,346,347,Brindletople's Time Bomb,False,601,filled
+N,Misc: Household,,348-349,348,349,of Fire and Ice,False,868,filled
+N,Misc: Household,,350-351,350,351,Obedient,False,602,filled
+N,Misc: Household,,352-353,352,353,of Seeing,False,528,filled
+N,Misc: Household,,354-355,354,355,Timeglass of the Wizard,False,602,filled
+N,Misc: Household,,356-357,356,357,of Timekeeping,False,43,filled
+N,Misc: Household,,358-359,358,359,of Concealment,False,612,filled
+N,Misc: Household,,360,360,360,Evefull,False,612,filled
+N,Misc: Household,,361-362,361,362,of Scollmaking,False,612,filled
+N,Misc: Household,,363-364,363,364,of Imprisonment,False,571,filled
+N,Misc: Household,,365-366,365,366,of Opening,False,231,filled
+N,Misc: Household,,367-368,367,368,of Steam,False,620,filled
+N,Misc: Household,,369-370,369,370,Throwing,False,120,filled
+N,Misc: Household,,371-372,371,372,of Transference,False,620,filled
+N,Misc: Household,,373-374,373,374,Kaylan's Wooden Tray,False,101,filled
+N,Misc: Household,,375-376,375,376,Courier,False,628,filled
+N,Misc: Household,,377-378,377,378,Dowsing,False,628,filled
+N,Misc: Household,,379-380,379,380,of Entrance,False,628,filled
+N,Misc: Household,,381-382,381,382,Grave,False,628,filled
+N,Misc: Household,,383-384,383,384,of Inquiry,False,628,filled
+N,Misc: Household,,385-387,385,387,of Opening,False,231,filled
+N,Misc: Household,,388-389,388,389,of Quinarost,False,629,filled
+N,Misc: Household,,390-391,390,391,of Quinarost II,False,629,filled
+N,Misc: Household,,392-393,392,393,of Quinarost III,False,629,filled
+N,Misc: Household,,394-395,394,395,of Reunion,False,629,filled
+N,Misc: Household,,396-397,396,397,Rogue's,False,631,filled
+N,Misc: Household,,398-399,398,399,Saddle,False,631,filled
+N,Misc: Household,,400-401,400,401,Shapeshifter,False,631,filled
+N,Misc: Household,,402-403,402,403,of Silence,False,704; 705,filled
+N,Misc: Household,,404-405,404,405,Silver of Portals,False,631,filled
+N,Misc: Household,,406-407,406,407,of Sirdan,False,631,filled
+N,Misc: Household,,408,408,408,Skeleton I,False,632,filled
+N,Misc: Household,,409-410,409,410,Skeleton II,False,632,filled
+N,Misc: Household,,411-412,411,412,Spider,False,632,filled
+N,Misc: Household,,413-414,413,414,of Storage,False,633,filled
+N,Misc: Household,,415-416,415,416,of Translation,False,633,filled
+N,Misc: Household,,417-418,417,418,of Unlocking,False,633,filled
+N,Misc: Household,,419-420,419,420,Wizard's,False,1018,filled
+N,Misc: Household,,421-422,421,422,of Balance,False,381,filled
+N,Misc: Household,,423-424,423,424,Benhi's Express,False,635,filled
+N,Misc: Household,,425-426,425,426,of Climbing,False,1043,filled
+N,Misc: Household,,427-428,427,428,of Inestimable Length,False,635,filled
+N,Misc: Household,,429-430,429,430,of Candlemaking,False,635,filled
+N,Misc: Household,,431-432,431,432,of Curing,False,751,filled
+N,Misc: Household,,433,433,433,of Drinking,False,1121,filled
+N,Misc: Household,,434-435,434,435,of Duplication,False,726,filled
+N,Misc: Household,,436-437,436,437,Bashal's Tendrilight,False,636; 1143,filled
+N,Misc: Household,,438-439,438,439,Byubo's of Audacity,False,637,filled
+N,Misc: Household,,440-441,440,441,of Continual Light,False,1477,filled
+N,Misc: Household,,442-443,442,443,Shuttered of Continual Light,False,637,filled
+N,Misc: Household,,444-445,444,445,of Darkness,False,1477,filled
+N,Misc: Household,,446-447,446,447,Dragon,False,1448,filled
+N,Misc: Household,,448-449,448,449,Floor,False,640,filled
+N,Misc: Household,,450-451,450,451,of the Four Winds,False,640,filled
+N,Misc: Household,,452-453,452,453,of the Genies,False,1078,filled
+N,Misc: Household,,454-455,454,455,Goldmane's Dazzler,False,640,filled
+N,Misc: Household,,456,456,456,of Greyhawk,False,912,filled
+N,Misc: Household,,457-458,457,458,of Honesty,False,641,filled
+N,Misc: Household,,459-460,459,460,Hurricane,False,641,filled
+N,Misc: Household,,461-462,461,462,of Ignition,False,641,filled
+N,Misc: Household,,463-464,463,464,Illag's Abominable Beacon,False,641,filled
+N,Misc: Household,,465-466,465,466,of Infinite Burning,False,642,filled
+N,Misc: Household,,467-468,467,468,Krillus's Blazer,False,642,filled
+N,Misc: Household,,469-470,469,470,of Lighting,False,374,filled
+N,Misc: Household,,471-472,471,472,of Long Burning,False,643,filled
+N,Misc: Household,,473-474,473,474,of Long Burning II,False,643,filled
+N,Misc: Household,,475-476,475,476,Magic,False,741,filled
+N,Misc: Household,,477-478,477,478,Malthrox's Shadowcaster,False,643,filled
+N,Misc: Household,,479-480,479,480,Messakk's Eye,False,644,filled
+N,Misc: Household,,481,481,481,of Multichromaticism,False,645,filled
+N,Misc: Household,,482-483,482,483,of Plant Growth,False,882,filled
+N,Misc: Household,,484-485,484,485,Shadow,False,255,filled
+N,Misc: Household,,486-487,486,487,of Spying,False,353,filled
+N,Misc: Household,,488-489,488,489,of Summoning,False,822,filled
+N,Misc: Household,,490-491,490,491,Thessall's Wayguider,False,646,filled
+N,Misc: Household,,492-493,492,493,of Timed Lighting,False,646,filled
+N,Misc: Household,,494-495,494,495,Lizardskin Bed,False,140,filled
+N,Misc: Household,,496-497,496,497,Nolte's Locks and Bolts,False,86,filled
+N,Misc: Household,,498-499,498,499,Skie's Locks and Bolts,False,672,filled
+N,Misc: Household,,500-501,500,501,of Burning,False,1530,filled
+N,Misc: Household,,502-503,502,503,Combination,False,673,filled
+N,Misc: Household,,504,504,504,of Floating,False,673,filled
+N,Misc: Household,,505-506,505,506,of Ramming,False,673,filled
+N,Misc: Household,,507-508,507,508,of Repetitive Burning,False,673,filled
+N,Misc: Household,,509-510,509,510,of Rolling,False,160,filled
+N,Misc: Household,,511-512,511,512,of Snoring,False,1054,filled
+N,Misc: Household,,513-514,513,514,Magical,False,1284,filled
+N,Misc: Household,,515-516,515,516,of Many Lights,False,710,filled
+N,Misc: Household,,517-518,517,518,Baltron's Hand,False,723,filled
+N,Misc: Household,,519-520,519,520,Barlithian's Mystical,False,723,filled
+N,Misc: Household,,521-522,521,522,Black,False,675,filled
+N,Misc: Household,,523-524,523,524,Blue,False,101,filled
+N,Misc: Household,,525-526,525,526,Crystal,False,317,filled
+N,Misc: Household,,527-528,527,528,of Curing,False,751,filled
+N,Misc: Household,,529,529,529,of Duplication,False,726,filled
+N,Misc: Household,,530-531,530,531,Emperor's,False,333,filled
+N,Misc: Household,,532-533,532,533,of Enlightenment,False,727,filled
+N,Misc: Household,,534-535,534,535,Evem's of Enviable Image,False,727,filled
+N,Misc: Household,,536-537,536,537,of Fear,False,728,filled
+N,Misc: Household,,538-539,538,539,Flaming of Tenh,False,728,filled
+N,Misc: Household,,540-541,540,541,of Flattery,False,728,filled
+N,Misc: Household,,542-543,542,543,Hassthak's of Sight and Sound,False,728,filled
+N,Misc: Household,,544-545,544,545,of Images,False,904,filled
+N,Misc: Household,,546-547,546,547,of Improved Travel,False,728,filled
+N,Misc: Household,,548-549,548,549,of Lakes,False,729,filled
+N,Misc: Household,,550-551,550,551,of Life Saving,False,729,filled
+N,Misc: Household,,552,552,552,of Life Trapping,False,729; 731,filled
+N,Misc: Household,,553-554,553,554,Malto's of Retention,False,729,filled
+N,Misc: Household,,555-556,555,556,of Mental Prowess,False,730,filled
+N,Misc: Household,,557-558,557,558,Murky,False,730,filled
+N,Misc: Household,,559-560,559,560,Not-So-Funny Funhouse,False,730,filled
+N,Misc: Household,,561-562,561,562,Nura D'Agor's of Life Trapping,False,732,filled
+N,Misc: Household,,563-564,563,564,of Opposition,False,421,filled
+N,Misc: Household,,565-566,565,566,of the Past,False,732,filled
+N,Misc: Household,,567-568,567,568,of Portals,False,732,filled
+N,Misc: Household,,569-570,569,570,Reading,False,592,filled
+N,Misc: Household,,571-572,571,572,of Recall,False,886,filled
+N,Misc: Household,,573-574,573,574,Red,False,807,filled
+N,Misc: Household,,575-576,575,576,of Reflecting,False,733,filled
+N,Misc: Household,,577,577,577,of Retention,False,729; 733,filled
+N,Misc: Household,,578-579,578,579,of Reversal,False,733,filled
+N,Misc: Household,,580-581,580,581,of Seeing,False,528,filled
+N,Misc: Household,,582-583,582,583,of Sending,False,734,filled
+N,Misc: Household,,584-585,584,585,of Simple Order,False,734,filled
+N,Misc: Household,,586-587,586,587,of Sophistication,False,734,filled
+N,Misc: Household,,588-589,588,589,Spell,False,1382,filled
+N,Misc: Household,,590-591,590,591,of Spirit Seeing,False,735,filled
+N,Misc: Household,,592-593,592,593,of Travel,False,1315,filled
+N,Misc: Household,,594-595,594,595,of Truth,False,893,filled
+N,Misc: Household,,596-597,596,597,of Vanity,False,735,filled
+N,Misc: Household,,598-599,598,599,Yefar's Magic,False,736,filled
+N,Misc: Household,,600,600,600,Yin-Yang,False,736,filled
+N,Misc: Household,,601-602,601,602,Everproducing Rice,False,741,filled
+N,Misc: Household,,603-604,603,604,Lorloveim's Obsidian,False,600,filled
+N,Misc: Household,,605-606,605,606,Music Box,False,742,filled
+N,Misc: Household,,607-608,607,608,of Lycanthrope Control,False,743,filled
+N,Misc: Household,,609-610,609,610,of Mauling,False,743,filled
+N,Misc: Household,,611-612,611,612,of Training,False,1558,filled
+N,Misc: Household,,613-614,613,614,Blast Spike,False,745,filled
+N,Misc: Household,,615-616,615,616,of Building,False,1024,filled
+N,Misc: Household,,617-618,617,618,Death,False,1478,filled
+N,Misc: Household,,619-620,619,620,Finger,False,480,filled
+N,Misc: Household,,621-622,621,622,of Pointing,False,745,filled
+N,Misc: Household,,623-624,623,624,of Securing,False,746,filled
+N,Misc: Household,,625,625,625,of Silence,False,704; 705,filled
+N,Misc: Household,,626-627,626,627,Ten-Penny,False,746,filled
+N,Misc: Household,,628-629,628,629,of Death,False,1478,filled
+N,Misc: Household,,630-631,630,631,of Lively Tattoos,False,753,filled
+N,Misc: Household,,632-633,632,633,Magical Darning,False,754,filled
+N,Misc: Household,,634-635,634,635,of Repair,False,754,filled
+N,Misc: Household,,636-637,636,637,of Sewing,False,754,filled
+N,Misc: Household,,638-639,638,639,of Sewing II,False,754,filled
+N,Misc: Household,,640-641,640,641,Nefradina's Identifier,False,754,filled
+N,Misc: Household,,642-643,642,643,Nefradina's Improved Identifier,False,755,filled
+N,Misc: Household,,644-645,644,645,Oven of Heating,False,800,filled
+N,Misc: Household,,646-647,646,647,of Cooking,False,802,filled
+N,Misc: Household,,648,648,648,of Spicing,False,802,filled
+N,Misc: Household,,649-650,649,650,of Excellence,False,809,filled
+N,Misc: Household,,651-652,651,652,of Swift Writing,False,809,filled
+N,Misc: Household,,653-654,653,654,of Truth,False,893,filled
+N,Misc: Household,,655-656,655,656,of Earth Parting,False,835,filled
+N,Misc: Household,,657-658,657,658,Cursed of Earth Parting,False,248; 249,filled
+N,Misc: Household,,659-660,659,660,Desalination Tablet,False,837,filled
+N,Misc: Household,,661-662,661,662,of Hangover Relief,False,837,filled
+N,Misc: Household,,663-664,663,664,of Plentiful Water,False,1505,filled
+N,Misc: Household,,665-666,665,666,Pillow of Regeneration,False,838,filled
+N,Misc: Household,,667-668,667,668,Pipe of Heated Wind,False,650,filled
+N,Misc: Household,,669-670,669,670,Book,False,189,filled
+N,Misc: Household,,671-672,671,672,of Counterfeiting,False,839,filled
+N,Misc: Household,,673,673,673,Dinner,False,839,filled
+N,Misc: Household,,674-675,674,675,Leomund's,False,839,filled
+N,Misc: Household,,676-677,676,677,Platter of Purity,False,839,filled
+N,Misc: Household,,678-679,678,679,Platter of Purity II,False,839,filled
+N,Misc: Household,,680-681,680,681,Draw,False,840,filled
+N,Misc: Household,,682-683,682,683,of Fire Control,False,840,filled
+N,Misc: Household,,684-685,684,685,of Searing,False,840,filled
+N,Misc: Household,,686-687,686,687,of Summoning,False,822,filled
+N,Misc: Household,,688-689,688,689,Pot of Plant Protection,False,851,filled
+N,Misc: Household,,690-691,690,691,Block and Tackle,False,913,filled
+N,Misc: Household,,692-693,692,693,Fish Hooks,False,627,filled
+N,Misc: Household,,694-695,694,695,Flint,False,914,filled
+N,Misc: Household,,696,696,696,Grappling Hook,False,550,filled
+N,Misc: Household,,697-698,697,698,Musical Minstrel,False,1467,filled
+N,Misc: Household,,699-700,699,700,Piton,False,914,filled
+N,Misc: Household,,701-702,701,702,Weaponblack,False,915,filled
+N,Misc: Household,,703-704,703,704,Whetstone,False,915,filled
+N,Misc: Household,,705-706,705,706,of Copying,False,924,filled
+N,Misc: Household,,707-708,707,708,of Erasing,False,1073,filled
+N,Misc: Household,,709-710,709,710,of Forgery,False,924,filled
+N,Misc: Household,,711-712,711,712,Kuroth's,False,925,filled
+N,Misc: Household,,713-714,713,714,of Law,False,156,filled
+N,Misc: Household,,715-716,715,716,of Longwriting,False,927,filled
+N,Misc: Household,,717-718,717,718,of Necromancy,False,927,filled
+N,Misc: Household,,719-720,719,720,Porcupine,False,927,filled
+N,Misc: Household,,721,721,721,of Pyrophilius,False,927,filled
+N,Misc: Household,,722-723,722,723,of Scribbling,False,927,filled
+N,Misc: Household,,724-725,724,725,of Scroll Creation,False,927,filled
+N,Misc: Household,,726-727,726,727,of Swift Writing,False,809,filled
+N,Misc: Household,,728-729,728,729,of Transcription,False,928,filled
+N,Misc: Household,,730-731,730,731,of Truth,False,893,filled
+N,Misc: Household,,732-733,732,733,Windscribe,False,928,filled
+N,Misc: Household,,734-735,734,735,Wondrous Writing Set,False,928,filled
+N,Misc: Household,,736-737,736,737,Zello's of Law,False,156,filled
+N,Misc: Household,,738-739,738,739,Rag of Drying,False,931,filled
+N,Misc: Household,,740-741,740,741,of Climbing,False,1043,filled
+N,Misc: Household,,742-743,742,743,of Iron,False,1484,filled
+N,Misc: Household,,744,744,744,of Retrieval,False,274,filled
+N,Misc: Household,,745-746,745,746,Ship,False,1086; 1108,filled
+N,Misc: Household,,747-748,747,748,of Smoothing,False,932,filled
+N,Misc: Household,,749-750,749,750,of Tracking,False,932,filled
+N,Misc: Household,,751-752,751,752,Baltron's,False,723,filled
+N,Misc: Household,,753-754,753,754,of Close Shaving,False,933,filled
+N,Misc: Household,,755-756,755,756,of Truth,False,893,filled
+N,Misc: Household,,757-758,757,758,of Climbing,False,1043,filled
+N,Misc: Household,,759-760,759,760,of Constriction,False,1043,filled
+N,Misc: Household,,761-762,761,762,of Entanglement,False,1043; 1044,filled
+N,Misc: Household,,763-764,763,764,Hrulgin's of Entanglement,False,1043; 1044,filled
+N,Misc: Household,,765-766,765,766,Infinite,False,1044,filled
+N,Misc: Household,,767-768,767,768,Tallin's Tightrope,False,1043,filled
+N,Misc: Household,,769,769,769,Salver of Growth,False,1052,filled
+N,Misc: Household,,770-771,770,771,of Cutting,False,115,filled
+N,Misc: Household,,772-773,772,773,of Mighty Cutting,False,1054,filled
+N,Misc: Household,,774-775,774,775,of Snoring,False,1054,filled
+N,Misc: Household,,776-777,776,777,Scale of Weighing,False,1055,filled
+N,Misc: Household,,778-779,778,779,of Deception,False,1056,filled
+N,Misc: Household,,780-781,780,781,of Vigor,False,1088,filled
+N,Misc: Household,,782-783,782,783,Seat of Bane,False,1088,filled
+N,Misc: Household,,784-785,784,785,Eternal Salt,False,1045,filled
+N,Misc: Household,,786-787,786,787,Hugrin's Spice,False,1092,filled
+N,Misc: Household,,788-789,788,789,of Animation,False,764,filled
+N,Misc: Household,,790-791,790,791,of Digging,False,860,filled
+N,Misc: Household,,792,792,792,Cursed of Digging,False,1071; 1072,filled
+N,Misc: Household,,793-794,793,794,of Gravedigging,False,1114,filled
+N,Misc: Household,,795-796,795,796,of Internment,False,1114,filled
+N,Misc: Household,,797-798,797,798,Spade of Colossal Excavation,False,1114,filled
+N,Misc: Household,,799-800,799,800,Slate of Identification,False,1118,filled
+N,Misc: Household,,801-802,801,802,Aromatic,False,1122,filled
+N,Misc: Household,,803-804,803,804,Bubble,False,1122,filled
+N,Misc: Household,,805-806,805,806,Charged Eversmoking,False,199,filled
+N,Misc: Household,,807-808,807,808,Eliminster's Eversmoking,False,199,filled
+N,Misc: Household,,809-810,809,810,Permanent Eversmoking,False,1123,filled
+N,Misc: Household,,811-812,811,812,Halfling,False,872,filled
+N,Misc: Household,,813-814,813,814,Lasting,False,1123,filled
+N,Misc: Household,,815-816,815,816,of Puckering,False,1125,filled
+N,Misc: Household,,817,817,817,Self-Lighting,False,1126,filled
+N,Misc: Household,,818-819,818,819,of Smoke Rings,False,1126,filled
+N,Misc: Household,,820-821,820,821,of Smoking,False,1126,filled
+N,Misc: Household,,822-823,822,823,of Snake Summoning,False,1126,filled
+N,Misc: Household,,824-825,824,825,Cursed,False,1071; 1072,filled
+N,Misc: Household,,826-827,826,827,Spinning Wheel,False,1271,filled
+N,Misc: Household,,828-829,828,829,Birth,False,1466,filled
+N,Misc: Household,,830-831,830,831,of Eating,False,1466,filled
+N,Misc: Household,,832-833,832,833,of Medication,False,1466,filled
+N,Misc: Household,,834-835,834,835,of Mixing,False,1466,filled
+N,Misc: Household,,836-837,836,837,Murlynd's,False,1467,filled
+N,Misc: Household,,838-839,838,839,Musical,False,1467,filled
+N,Misc: Household,,840,840,840,of Sticking,False,1467,filled
+N,Misc: Household,,841-842,841,842,of Stirring,False,1467,filled
+N,Misc: Household,,843-844,843,844,of Stirring II,False,1467,filled
+N,Misc: Household,,845-846,845,846,of Sugar,False,1467,filled
+N,Misc: Household,,847-848,847,848,of Ascending,False,1301,filled
+N,Misc: Household,,849-850,849,850,of Breaking,False,1301,filled
+N,Misc: Household,,851-852,851,852,Cold,False,1476,filled
+N,Misc: Household,,853-854,853,854,of Descending,False,1301,filled
+N,Misc: Household,,855-856,855,856,Endless,False,1301,filled
+N,Misc: Household,,857-858,857,858,of Judgment,False,390,filled
+N,Misc: Household,,859-860,859,860,of Slipping,False,1302,filled
+N,Misc: Household,,861-862,861,862,of Attachment,False,1319,filled
+N,Misc: Household,,863-864,863,864,of Lashing,False,1319,filled
+N,Misc: Household,,865,865,865,of Pearls,False,1319,filled
+N,Misc: Household,,866-867,866,867,of Shackles,False,1319,filled
+N,Misc: Household,,868-869,868,869,Tangle of,False,1319,filled
+N,Misc: Household,,870-871,870,871,of Warding,False,1319,filled
+N,Misc: Household,,872-873,872,873,Stylus of Scribing,False,1335,filled
+N,Misc: Household,,874-875,874,875,of Direction,False,860,filled
+N,Misc: Household,,876-877,876,877,of Timekeeping,False,43,filled
+N,Misc: Household,,878-879,878,879,of Banquets,False,1417,filled
+N,Misc: Household,,880-881,880,881,of Contents,False,1417,filled
+N,Misc: Household,,882-883,882,883,of the Elements,False,1279,filled
+N,Misc: Household,,884-885,884,885,of Plenty,False,269,filled
+N,Misc: Household,,886-887,886,887,Writing,False,803,filled
+N,Misc: Household,,888,888,888,Augricrone's,False,1418,filled
+N,Misc: Household,,889-890,889,890,of Feasting,False,1418,filled
+N,Misc: Household,,891-892,891,892,Myrkul's of Fate,False,1564,filled
+N,Misc: Household,,893-894,893,894,of Spirit Summoning,False,1418,filled
+N,Misc: Household,,895-896,895,896,of Disease Warding,False,1427,filled
+N,Misc: Household,,897-898,897,898,of Ekbir,False,330,filled
+N,Misc: Household,,899-900,899,900,of Folded Existence,False,1427,filled
+N,Misc: Household,,901-902,901,902,of Rooms,False,1427,filled
+N,Misc: Household,,903-904,903,904,Magical Rakastan,False,1284,filled
+N,Misc: Household,,905-906,905,906,Zhakar,False,1428,filled
+N,Misc: Household,,907-908,907,908,Teaset of Skill and Grace,False,1428,filled
+N,Misc: Household,,909-910,909,910,of Fantastic Vision,False,252,filled
+N,Misc: Household,,911-912,911,912,of True Vision,False,48,filled
+N,Misc: Household,,913,913,913,of Captivity,False,1429,filled
+N,Misc: Household,,914-915,914,915,Dew,False,1086,filled
+N,Misc: Household,,916-917,916,917,of Luxury,False,1429,filled
+N,Misc: Household,,918-919,918,919,Mist,False,305,filled
+N,Misc: Household,,920-921,920,921,Polychromatic,False,1431,filled
+N,Misc: Household,,922-923,922,923,Poor,False,1431,filled
+N,Misc: Household,,924-925,924,925,of Shelter,False,1431,filled
+N,Misc: Household,,926-927,926,927,of Standing,False,1561,filled
+N,Misc: Household,,928-929,928,929,of Warning,False,1431,filled
+N,Misc: Household,,930-931,930,931,Tent X,False,,not_in_index
+N,Misc: Household,,932-933,932,933,of Aging,False,873,filled
+N,Misc: Household,,934-935,934,935,of Commands,False,1432,filled
+N,Misc: Household,,936,936,936,of Embroidery,False,1432,filled
+N,Misc: Household,,937-938,937,938,of Death,False,1478,filled
+N,Misc: Household,,939-940,939,940,Hlidskialf,False,1434,filled
+N,Misc: Household,,941-942,941,942,of Incineration,False,1434,filled
+N,Misc: Household,,943-944,943,944,of Power,False,907,filled
+N,Misc: Household,,945-946,945,946,of Summoning,False,822,filled
+N,Misc: Household,,947-948,947,948,of Transformation,False,1435,filled
+N,Misc: Household,,949-950,949,950,Gemcutter's of Sunndi,False,530; 1446,filled
+N,Misc: Household,,951-952,951,952,Thieves' of Stealth,False,1446,filled
+N,Misc: Household,,953-954,953,954,Woodworker's of Dyvers,False,1446,filled
+N,Misc: Household,,955-956,955,956,of Continual Fire,False,1453,filled
+N,Misc: Household,,957-958,957,958,Continual,False,1452,filled
+N,Misc: Household,,959-960,959,960,of Control,False,1453,filled
+N,Misc: Household,,961,961,961,Gruumsh's Everburning,False,1453,filled
+N,Misc: Household,,962-963,962,963,of Cleanliness,False,312,filled
+N,Misc: Household,,964-965,964,965,of the Cultured Palate,False,1466,filled
+N,Misc: Household,,966-967,966,967,of Etiquette,False,1466,filled
+N,Misc: Household,,968-969,968,969,"Vane, Greater of Location",False,1469,filled
+N,Misc: Household,,970-971,970,971,"Vane, Lesser of Location",False,1469,filled
+N,Misc: Household,,972-973,972,973,Display,False,1559,filled
+N,Misc: Household,,974-975,974,975,of Dressing,False,1559,filled
+N,Misc: Household,,976-977,976,977,of Opacity,False,1559,filled
+N,Misc: Household,,978-979,978,979,of Peeping,False,1559,filled
+N,Misc: Household,,980-981,980,981,of Spying,False,353,filled
+N,Misc: Household,,982-983,982,983,of Visiting,False,1559,filled
+N,Misc: Household,,984-985,984,985,Xylograph,False,1563,filled
+N,Misc: Household,,986-987,986,987,of Boar Harnessing,False,1563,filled
+N,Misc: Household,,988-990,988,990,of Flight,False,1563,filled
+N,Misc: Household,,991-993,991,993,of Irritation,False,1563,filled
+N,Misc: Household,,994-996,994,996,of Obedience,False,775,filled
+N,Misc: Household,,997-998,997,998,Practical,False,1564,filled
+N,Misc: Household,,999-1000,999,1000,of Underwater Action,False,83,filled

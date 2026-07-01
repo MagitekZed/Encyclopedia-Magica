@@ -1,0 +1,20 @@
+page_src,table,subcat,roll,roll_low,roll_high,name,reroll,target,roll_display
+1,1,,01-20,1,20,Magical Liquids,False,A,1-20
+1,1,,21-35,21,35,Scrolls,False,B,21-35
+1,1,,36-40,36,40,Rings,False,C,36-40
+1,1,,41,41,41,Rods,False,D,41
+1,1,,42,42,42,Staves,False,E,42
+1,1,,43-45,43,45,Wands,False,F,43-45
+1,1,,46,46,46,Miscellaneous: Books,False,G,46
+1,1,,47-48,47,48,Miscellaneous: Gems & Jewelry,False,H,47-48
+1,1,,49-50,49,50,Miscellaneous: Clothing,False,I,49-50
+1,1,,51-52,51,52,Miscellaneous: Boots & Gloves,False,J,51-52
+1,1,,53,53,53,Miscellaneous: Girdles & Helms,False,K,53
+1,1,,54-55,54,55,Miscellaneous: Bags & Bottles,False,L,54-55
+1,1,,56,56,56,Miscellaneous: Dust & Stones,False,M,56
+1,1,,57,57,57,Miscellaneous: Household Items,False,N,57
+1,1,,58,58,58,Miscellaneous: Music Instruments,False,O,58
+1,1,,59-60,59,60,Miscellaneous: Weird Stuff,False,P,59-60
+1,1,,61,61,61,Miscellaneous: Humorous Items,False,Q,61
+1,1,,62-77,62,77,Armor and Shields,False,R,62-77
+1,1,,78-00,78,100,Weapons,False,S,78-100

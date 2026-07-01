@@ -1,0 +1,593 @@
+{
+ "R1": [
+  {
+   "page_src": 23,
+   "table": "R1",
+   "subcat": "",
+   "roll": "001-491",
+   "roll_low": 1,
+   "roll_high": 491,
+   "name": "Armor",
+   "reroll": false,
+   "roll_display": "1-491"
+  },
+  {
+   "page_src": 23,
+   "table": "R1",
+   "subcat": "",
+   "roll": "492-527",
+   "roll_low": 492,
+   "roll_high": 527,
+   "name": "Barding",
+   "reroll": false,
+   "roll_display": "492-527"
+  },
+  {
+   "page_src": 23,
+   "table": "R1",
+   "subcat": "",
+   "roll": "528-539",
+   "roll_low": 528,
+   "roll_high": 539,
+   "name": "Bonnet",
+   "reroll": false,
+   "roll_display": "528-539"
+  },
+  {
+   "page_src": 23,
+   "table": "R1",
+   "subcat": "",
+   "roll": "540-576",
+   "roll_low": 540,
+   "roll_high": 576,
+   "name": "Caparison",
+   "reroll": false,
+   "roll_display": "540-576"
+  },
+  {
+   "page_src": 23,
+   "table": "R1",
+   "subcat": "",
+   "roll": "577-952",
+   "roll_low": 577,
+   "roll_high": 952,
+   "name": "Shield",
+   "reroll": false,
+   "roll_display": "577-952"
+  },
+  {
+   "page_src": 23,
+   "table": "R1",
+   "subcat": "",
+   "roll": "953-000",
+   "roll_low": 953,
+   "roll_high": 1000,
+   "name": "Special (Roll on Table R3)",
+   "reroll": false,
+   "roll_display": "953-1000"
+  }
+ ],
+ "R2": [
+  {
+   "page_src": 23,
+   "table": "R2",
+   "subcat": "",
+   "roll": "01-02",
+   "roll_low": 1,
+   "roll_high": 2,
+   "name": "AC Adj -1 / XP Value +0 / GP Value +0",
+   "reroll": false,
+   "roll_display": "1-2"
+  },
+  {
+   "page_src": 23,
+   "table": "R2",
+   "subcat": "",
+   "roll": "03-10",
+   "roll_low": 3,
+   "roll_high": 10,
+   "name": "AC Adj +1 / XP Value +500 / GP Value +5,000",
+   "reroll": false,
+   "roll_display": "3-10"
+  },
+  {
+   "page_src": 23,
+   "table": "R2",
+   "subcat": "",
+   "roll": "11-14",
+   "roll_low": 11,
+   "roll_high": 14,
+   "name": "AC Adj +2 / XP Value +1,000 / GP Value +10,000",
+   "reroll": false,
+   "roll_display": "11-14"
+  },
+  {
+   "page_src": 23,
+   "table": "R2",
+   "subcat": "",
+   "roll": "15-17",
+   "roll_low": 15,
+   "roll_high": 17,
+   "name": "AC Adj +3 / XP Value +1,500 / GP Value +15,000",
+   "reroll": false,
+   "roll_display": "15-17"
+  },
+  {
+   "page_src": 23,
+   "table": "R2",
+   "subcat": "",
+   "roll": "18-19",
+   "roll_low": 18,
+   "roll_high": 19,
+   "name": "AC Adj +4 / XP Value +2,000 / GP Value +20,000",
+   "reroll": false,
+   "roll_display": "18-19"
+  },
+  {
+   "page_src": 23,
+   "table": "R2",
+   "subcat": "",
+   "roll": "20",
+   "roll_low": 20,
+   "roll_high": 20,
+   "name": "AC Adj +5 / XP Value +3,000 / GP Value +30,000",
+   "reroll": false,
+   "roll_display": "20"
+  }
+ ],
+ "S1": [
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "01-97",
+   "roll_low": 1,
+   "roll_high": 97,
+   "name": "Arrow",
+   "reroll": false,
+   "roll_display": "1-97"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "98-100",
+   "roll_low": 98,
+   "roll_high": 100,
+   "name": "Quarrel (Bolt)",
+   "reroll": false,
+   "roll_display": "98-100"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "101-102",
+   "roll_low": 101,
+   "roll_high": 102,
+   "name": "Arrowhead",
+   "reroll": false,
+   "roll_display": "101-102"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "103-143",
+   "roll_low": 103,
+   "roll_high": 143,
+   "name": "Axe",
+   "reroll": false,
+   "roll_display": "103-143"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "144-146",
+   "roll_low": 144,
+   "roll_high": 146,
+   "name": "Ballistae",
+   "reroll": false,
+   "roll_display": "144-146"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "147-148",
+   "roll_low": 147,
+   "roll_high": 148,
+   "name": "Battering Ram",
+   "reroll": false,
+   "roll_display": "147-148"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "149-151",
+   "roll_low": 149,
+   "roll_high": 151,
+   "name": "Blowgun",
+   "reroll": false,
+   "roll_display": "149-151"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "152",
+   "roll_low": 152,
+   "roll_high": 152,
+   "name": "Bombard",
+   "reroll": false,
+   "roll_display": "152"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "153-206",
+   "roll_low": 153,
+   "roll_high": 206,
+   "name": "Bow",
+   "reroll": false,
+   "roll_display": "153-206"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "207-213",
+   "roll_low": 207,
+   "roll_high": 213,
+   "name": "Crossbow",
+   "reroll": false,
+   "roll_display": "207-213"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "214-216",
+   "roll_low": 214,
+   "roll_high": 216,
+   "name": "Catapult",
+   "reroll": false,
+   "roll_display": "214-216"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "217-223",
+   "roll_low": 217,
+   "roll_high": 223,
+   "name": "Club",
+   "reroll": false,
+   "roll_display": "217-223"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "224-302",
+   "roll_low": 224,
+   "roll_high": 302,
+   "name": "Dagger",
+   "reroll": false,
+   "roll_display": "224-302"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "303-332",
+   "roll_low": 303,
+   "roll_high": 332,
+   "name": "Dart",
+   "reroll": false,
+   "roll_display": "303-332"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "333-343",
+   "roll_low": 333,
+   "roll_high": 343,
+   "name": "Flail",
+   "reroll": false,
+   "roll_display": "333-343"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "344-372",
+   "roll_low": 344,
+   "roll_high": 372,
+   "name": "Hammer",
+   "reroll": false,
+   "roll_display": "344-372"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "373",
+   "roll_low": 373,
+   "roll_high": 373,
+   "name": "Harpoon",
+   "reroll": false,
+   "roll_display": "373"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "374-380",
+   "roll_low": 374,
+   "roll_high": 380,
+   "name": "Javelin",
+   "reroll": false,
+   "roll_display": "374-380"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "381-387",
+   "roll_low": 381,
+   "roll_high": 387,
+   "name": "Jettison",
+   "reroll": false,
+   "roll_display": "381-387"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "388-404",
+   "roll_low": 388,
+   "roll_high": 404,
+   "name": "Lance",
+   "reroll": false,
+   "roll_display": "388-404"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "405-440",
+   "roll_low": 405,
+   "roll_high": 440,
+   "name": "Mace",
+   "reroll": false,
+   "roll_display": "405-440"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "441-442",
+   "roll_low": 441,
+   "roll_high": 442,
+   "name": "Mattock",
+   "reroll": false,
+   "roll_display": "441-442"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "443-473",
+   "roll_low": 443,
+   "roll_high": 473,
+   "name": "Net",
+   "reroll": false,
+   "roll_display": "443-473"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "474-505",
+   "roll_low": 474,
+   "roll_high": 505,
+   "name": "Polearm",
+   "reroll": false,
+   "roll_display": "474-505"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "506-513",
+   "roll_low": 506,
+   "roll_high": 513,
+   "name": "Quiver",
+   "reroll": false,
+   "roll_display": "506-513"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "514-522",
+   "roll_low": 514,
+   "roll_high": 522,
+   "name": "Sickle",
+   "reroll": false,
+   "roll_display": "514-522"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "523-526",
+   "roll_low": 523,
+   "roll_high": 526,
+   "name": "Sling",
+   "reroll": false,
+   "roll_display": "523-526"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "527",
+   "roll_low": 527,
+   "roll_high": 527,
+   "name": "Sling Bullet",
+   "reroll": false,
+   "roll_display": "527"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "528",
+   "roll_low": 528,
+   "roll_high": 528,
+   "name": "Slingstone",
+   "reroll": false,
+   "roll_display": "528"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "529-555",
+   "roll_low": 529,
+   "roll_high": 555,
+   "name": "Spear",
+   "reroll": false,
+   "roll_display": "529-555"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "556-559",
+   "roll_low": 556,
+   "roll_high": 559,
+   "name": "Spelljamming Weapon",
+   "reroll": false,
+   "roll_display": "556-559"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "560-958",
+   "roll_low": 560,
+   "roll_high": 958,
+   "name": "Sword",
+   "reroll": false,
+   "roll_display": "560-958"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "959-960",
+   "roll_low": 959,
+   "roll_high": 960,
+   "name": "Throwing Stars",
+   "reroll": false,
+   "roll_display": "959-960"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "961-974",
+   "roll_low": 961,
+   "roll_high": 974,
+   "name": "Whip",
+   "reroll": false,
+   "roll_display": "961-974"
+  },
+  {
+   "page_src": 24,
+   "table": "S1",
+   "subcat": "",
+   "roll": "975-000",
+   "roll_low": 975,
+   "roll_high": 1000,
+   "name": "Special (Roll on the Table S3)",
+   "reroll": false,
+   "roll_display": "975-1000"
+  }
+ ],
+ "S2": [
+  {
+   "page_src": 24,
+   "table": "S2",
+   "subcat": "",
+   "roll": "01-02",
+   "roll_low": 1,
+   "roll_high": 2,
+   "name": "-1",
+   "reroll": false,
+   "roll_display": "1-2"
+  },
+  {
+   "page_src": 24,
+   "table": "S2",
+   "subcat": "",
+   "roll": "03-10",
+   "roll_low": 3,
+   "roll_high": 10,
+   "name": "+1",
+   "reroll": false,
+   "roll_display": "3-10"
+  },
+  {
+   "page_src": 24,
+   "table": "S2",
+   "subcat": "",
+   "roll": "11-14",
+   "roll_low": 11,
+   "roll_high": 14,
+   "name": "+2",
+   "reroll": false,
+   "roll_display": "11-14"
+  },
+  {
+   "page_src": 24,
+   "table": "S2",
+   "subcat": "",
+   "roll": "15-17",
+   "roll_low": 15,
+   "roll_high": 17,
+   "name": "+3",
+   "reroll": false,
+   "roll_display": "15-17"
+  },
+  {
+   "page_src": 24,
+   "table": "S2",
+   "subcat": "",
+   "roll": "18-19",
+   "roll_low": 18,
+   "roll_high": 19,
+   "name": "+4",
+   "reroll": false,
+   "roll_display": "18-19"
+  },
+  {
+   "page_src": 24,
+   "table": "S2",
+   "subcat": "",
+   "roll": "20",
+   "roll_low": 20,
+   "roll_high": 20,
+   "name": "+5",
+   "reroll": false,
+   "roll_display": "20"
+  }
+ ]
+}

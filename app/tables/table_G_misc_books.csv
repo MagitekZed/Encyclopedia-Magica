@@ -1,0 +1,274 @@
+table,category,subcategory,roll_display,roll_low,roll_high,name,reroll,page,page_status
+G,Misc: Books,,1-3,1,3,Enchanted Enhancements,True,21,filled
+G,Misc: Books,,4-7,4,7,of Binding Souls,False,185,filled
+G,Misc: Books,,8-10,8,10,Disks of Mishakal,False,185; 187,filled
+G,Misc: Books,,11-14,11,14,Disks of Mishakal II,False,185; 187,filled
+G,Misc: Books,,15-18,15,18,of the Enlightened Gods,False,187,filled
+G,Misc: Books,,19-21,19,21,of Exalted Deeds,False,188,filled
+G,Misc: Books,,22-25,22,25,of Golems,False,188,filled
+G,Misc: Books,,26-29,26,29,of Mystical Equations,False,189,filled
+G,Misc: Books,,30-32,30,32,of the Planes,False,38,filled
+G,Misc: Books,,33-36,33,36,Ravenloft Golem,False,189,filled
+G,Misc: Books,,37-40,37,40,of Vile Darkness,False,192,filled
+G,Misc: Books,,41-43,41,43,of Twelve Seals,False,669,filled
+G,Misc: Books,,44-47,44,47,of Vile Darkness,False,192,filled
+G,Misc: Books,,48-50,48,50,Contracts of Nepthas,False,329,filled
+G,Misc: Books,,51-54,51,54,Analect of Magic,False,657,filled
+G,Misc: Books,,55-58,55,58,of the Black Heart,False,657,filled
+G,Misc: Books,,59-61,59,61,Boccob's Blessed Book,False,659,filled
+G,Misc: Books,,62-65,62,65,Codex of the Infinite Planes,False,660,filled
+G,Misc: Books,,66-69,66,69,of Constructs,False,660,filled
+G,Misc: Books,,70-72,70,72,of Constructs,False,660,filled
+G,Misc: Books,,73-76,73,76,of Destruction,False,662,filled
+G,Misc: Books,,77-80,77,80,of Evaluation,False,662,filled
+G,Misc: Books,,81-83,81,83,of Gainful Conjuration,False,662,filled
+G,Misc: Books,,84-87,84,87,of Golems,False,188,filled
+G,Misc: Books,,88-91,88,91,Gollum Construckzion,False,663,filled
+G,Misc: Books,,92-94,92,94,Grimoire of Archaic Alchemy,False,663,filled
+G,Misc: Books,,95-98,95,98,of Identification,False,663,filled
+G,Misc: Books,,99-101,99,101,of Ineffable Damnation,False,663,filled
+G,Misc: Books,,102-105,102,105,of Keeping,False,663,filled
+G,Misc: Books,,106-109,106,109,of Lawful Good Legends,False,941,filled
+G,Misc: Books,,110-112,110,112,of Lawful Neutral Legends,False,664,filled
+G,Misc: Books,,113-116,113,116,of Lawful Evil Legends,False,944,filled
+G,Misc: Books,,117-120,117,120,of Neutral Good Legends,False,941,filled
+G,Misc: Books,,121-123,121,123,of Neutral Legends,False,664,filled
+G,Misc: Books,,124-127,124,127,of Neutral Evil Legends,False,944,filled
+G,Misc: Books,,128-131,128,131,of Chaotic Good Legends,False,937,filled
+G,Misc: Books,,132-134,132,134,of Chaotic Neutral Legends,False,664,filled
+G,Misc: Books,,135-138,135,138,of Chaotic Evil Legends,False,937,filled
+G,Misc: Books,,139-141,139,141,Libram of the Planes,False,664,filled
+G,Misc: Books,,142-145,142,145,Mhzentul's Runes,False,664,filled
+G,Misc: Books,,146-149,146,149,of Ravenloft Golems,False,665,filled
+G,Misc: Books,,150-152,150,152,of Recording,False,665,filled
+G,Misc: Books,,153-156,153,156,of Silver Magic,False,665,filled
+G,Misc: Books,,157-160,157,160,of Study (Charisma),False,325,filled
+G,Misc: Books,,161-163,161,163,of Study (Constitution),False,667,filled
+G,Misc: Books,,164-167,164,167,of Study (Dexterity),False,767,filled
+G,Misc: Books,,168-171,168,171,of Study (Intelligence),False,667,filled
+G,Misc: Books,,172-174,172,174,of Study (Strength),False,891,filled
+G,Misc: Books,,175-178,175,178,of Study (Wisdom),False,964,filled
+G,Misc: Books,,179-182,179,182,of Tedium,False,667,filled
+G,Misc: Books,,183-185,183,185,of Teleportation Arches,False,668,filled
+G,Misc: Books,,186-189,186,189,of Thoth,False,1298,filled
+G,Misc: Books,,190-192,190,192,of Translation,False,633,filled
+G,Misc: Books,,193-196,193,196,of Twelve Seals,False,669,filled
+G,Misc: Books,,197-200,197,200,Grim Grimoire,False,688,filled
+G,Misc: Books,,201-204,201,204,of Puissant Skill at Arms,False,688,filled
+G,Misc: Books,,205-207,205,207,of Stealthy Pilfering,False,688,filled
+G,Misc: Books,,208-211,208,211,of Stratagems,False,690,filled
+G,Misc: Books,,212-214,212,214,Dane's Version,False,690,filled
+G,Misc: Books,,215-218,215,218,of Distortion,False,1023; 1025,filled
+G,Misc: Books,,219-222,219,222,of Illusions,False,377; 378,filled
+G,Misc: Books,,223-225,223,225,of Illusions and Secret Doors,False,692,filled
+G,Misc: Books,,226-229,226,229,of Illusions and Traps,False,692,filled
+G,Misc: Books,,230-233,230,233,of Magic,False,741,filled
+G,Misc: Books,,234-237,234,237,of Magic and Illusions,False,692,filled
+G,Misc: Books,,238-240,238,240,of Magic and Secret Doors,False,692,filled
+G,Misc: Books,,241-243,241,243,of Magic and Traps,False,693,filled
+G,Misc: Books,,244-247,244,247,of Mapping,False,1075,filled
+G,Misc: Books,,248-251,248,251,of Mapping and Illusions,False,693,filled
+G,Misc: Books,,252-254,252,254,of Mapping and Magic,False,693,filled
+G,Misc: Books,,255-258,255,258,of Mapping and Secret Doors,False,693,filled
+G,Misc: Books,,259-262,259,262,of Mapping and Traps,False,694,filled
+G,Misc: Books,,263-265,263,265,of Misleading,False,694,filled
+G,Misc: Books,,266-269,266,269,of Navigation,False,695,filled
+G,Misc: Books,,270-273,270,273,of Secret Doors,False,695,filled
+G,Misc: Books,,274-276,274,276,of Secret Doors and Traps,False,695,filled
+G,Misc: Books,,277-280,277,280,of Traps,False,1080,filled
+G,Misc: Books,,281-283,281,283,The Alcaister,False,1133,filled
+G,Misc: Books,,284-287,284,287,Alokkair's,False,1137,filled
+G,Misc: Books,,288-291,288,291,Alterations of the Intrinsic Absolutes,False,1137,filled
+G,Misc: Books,,292-294,292,294,Alterations of Tangibles,False,1137,filled
+G,Misc: Books,,295-298,295,298,Ancient Cryptomancy,False,1137,filled
+G,Misc: Books,,299-302,299,302,Anishta's,False,1137,filled
+G,Misc: Books,,303-309,303,309,Arcane Manipulations for Entourage,False,1137,filled
+G,Misc: Books,,310-313,310,313,Arcane Puissance of Memory,False,1140,filled
+G,Misc: Books,,314-316,314,316,Arcane Resistance of Dwarves,False,1140,filled
+G,Misc: Books,,317-320,317,320,Architecture,False,1140,filled
+G,Misc: Books,,321-323,321,323,Art of Communications and Sigils,False,1140,filled
+G,Misc: Books,,324-327,324,327,Ashakar's,False,1140,filled
+G,Misc: Books,,328-331,328,331,Aubavreer's Workbook,False,1141,filled
+G,Misc: Books,,332-334,332,334,Avran Greenstrider's,False,1143,filled
+G,Misc: Books,,335-338,335,338,Barrik's,False,1143,filled
+G,Misc: Books,,339-342,339,342,Bashal's,False,1143,filled
+G,Misc: Books,,343-345,343,345,Book of Bath,False,189,filled
+G,Misc: Books,,346-349,346,349,Bigby's,False,1146,filled
+G,Misc: Books,,350-353,350,353,Book of Black Circles,False,675,filled
+G,Misc: Books,,354-356,354,356,Blessed Book of Cures,False,1149,filled
+G,Misc: Books,,357-360,357,360,Book of the Blind,False,189,filled
+G,Misc: Books,,361-364,361,364,Bosero the Drunkard's,False,1150,filled
+G,Misc: Books,,365-367,365,367,Bowgentle's Book,False,1150,filled
+G,Misc: Books,,368-371,368,371,Bricks of the Spiritual Fortification,False,1152,filled
+G,Misc: Books,,372-374,372,374,Briel's Book of Shadows,False,1152,filled
+G,Misc: Books,,375-378,375,378,Book of the Bright Ages,False,189,filled
+G,Misc: Books,,379-382,379,382,Brother Richard the Flying Monk's,False,1154,filled
+G,Misc: Books,,383-385,383,385,Spellbook of Cabalistic Protections,False,1197,filled
+G,Misc: Books,,386-389,386,389,Caddelyn's Workbook,False,1154,filled
+G,Misc: Books,,390-393,390,393,Chambeleon,False,1154,filled
+G,Misc: Books,,394-396,394,396,Chief Shaman's Spellbook,False,1157,filled
+G,Misc: Books,,397-400,397,400,Book of Clouds and Fog,False,189,filled
+G,Misc: Books,,401-404,401,404,Collapsing Spellbook,False,1157,filled
+G,Misc: Books,,405-407,405,407,Components of Phosphorus,False,775,filled
+G,Misc: Books,,408-411,408,411,Cosmogony of Magnetic Fluids,False,1157,filled
+G,Misc: Books,,412-414,412,414,Book of the Covenant,False,189,filled
+G,Misc: Books,,415-418,415,418,Creation and Modification of Matter,False,1160,filled
+G,Misc: Books,,419-422,419,422,Cudzu's,False,1160,filled
+G,Misc: Books,,423-425,423,425,Cursed Tome,False,1160,filled
+G,Misc: Books,,426-429,426,429,Daimos's,False,1160,filled
+G,Misc: Books,,430-433,430,433,Book of the Dark Ages,False,189,filled
+G,Misc: Books,,434-436,434,436,Dark Sides of the Memory,False,1162,filled
+G,Misc: Books,,437-440,437,440,Deep Fears of Humanity,False,1162,filled
+G,Misc: Books,,441-444,441,444,Detho's Libram,False,1162,filled
+G,Misc: Books,,445-447,445,447,Displacements and Modeling,False,1165,filled
+G,Misc: Books,,448-451,448,451,Dissimulation and Obscuration,False,1165,filled
+G,Misc: Books,,452-455,452,455,Doors and Passages Parallel Worlds,False,1165,filled
+G,Misc: Books,,456-458,456,458,Dylan Longbranch's Spellbook,False,1165,filled
+G,Misc: Books,,459-462,459,462,Echo & Resonance of Great Void,False,1165,filled
+G,Misc: Books,,463-465,463,465,Epic Saga of the Great Conjurers,False,1165,filled
+G,Misc: Books,,466-469,466,469,Evolution of Arcane Will,False,1165,filled
+G,Misc: Books,,470-473,470,473,Exalted Book of Ethnic Humor,False,1165,filled
+G,Misc: Books,,474-476,474,476,Extreme Powers of Observation,False,1166,filled
+G,Misc: Books,,477-480,477,480,Eyes Vision and Arcane Sight,False,1166,filled
+G,Misc: Books,,481-484,481,484,Fiendomicon of Iggwilv,False,1166,filled
+G,Misc: Books,,485-487,485,487,Forgotten Arts Oratory Magnetism,False,1171,filled
+G,Misc: Books,,488-491,488,491,Foundations of Secret Authority,False,1171,filled
+G,Misc: Books,,492-495,492,495,Galadaster's Orizon,False,1172,filled
+G,Misc: Books,,496-498,496,498,Gazette of the Norse Climates,False,1174,filled
+G,Misc: Books,,499-502,499,502,Glandar's Grimoire,False,1174,filled
+G,Misc: Books,,503-505,503,505,Glanvyl's Workbook,False,1176,filled
+G,Misc: Books,,506-509,506,509,Glyph Spellbooks,False,1178,filled
+G,Misc: Books,,510-513,510,513,Great Paravisual Emanations,False,1178,filled
+G,Misc: Books,,514-516,514,516,Hand of Helm,False,1179,filled
+G,Misc: Books,,517-520,517,520,History of Evil Mages Apprentices,False,1180,filled
+G,Misc: Books,,521-524,521,524,History of Good Mages Apprentices,False,1181,filled
+G,Misc: Books,,525-527,525,527,Book of Hopeful Deeds,False,189,filled
+G,Misc: Books,,528-531,528,531,Idioms & Rare Cryptographs,False,1181,filled
+G,Misc: Books,,532-535,532,535,Inexplicable Reflections,False,1181,filled
+G,Misc: Books,,536-538,536,538,Influence on Solid Corpus,False,1181,filled
+G,Misc: Books,,539-542,539,542,Influences and Suggestions,False,1181,filled
+G,Misc: Books,,543-546,543,546,Intelligence Intuitive Encoding,False,1181,filled
+G,Misc: Books,,547-549,547,549,Iril Newleaf's,False,1182,filled
+G,Misc: Books,,550-553,550,553,Jaluster's Orizon,False,1182,filled
+G,Misc: Books,,554-556,554,556,Korr's Book of Infinite Spells,False,1184,filled
+G,Misc: Books,,557-560,557,560,Laeral's Libram,False,1184,filled
+G,Misc: Books,,561-564,561,564,Laeyndr's Book of Metamorphoses,False,1190,filled
+G,Misc: Books,,565-567,565,567,Lareth's,False,1190,filled
+G,Misc: Books,,568-571,568,571,of Lathinتel,False,1190,filled
+G,Misc: Books,,572-575,572,575,Legendary of Great Arms,False,1191,filled
+G,Misc: Books,,576-578,576,578,Legendary of Phantoms and Ghosts,False,1191,filled
+G,Misc: Books,,579-582,579,582,Lexicon of Spirits,False,1191,filled
+G,Misc: Books,,583-586,583,586,Life of Nature Its Secrets,False,1192,filled
+G,Misc: Books,,587-589,587,589,Lord Yaras's,False,1192,filled
+G,Misc: Books,,590-593,590,593,Lore of Fiendkind,False,1192,filled
+G,Misc: Books,,594-596,594,596,Lore of Subtle Communication,False,1192,filled
+G,Misc: Books,,597-600,597,600,Luminescence and Coloration,False,1192,filled
+G,Misc: Books,,601-604,601,604,Mad Dog of the Desert's,False,1192,filled
+G,Misc: Books,,605-607,605,607,of a Magic-User,False,741,filled
+G,Misc: Books,,608-610,608,610,The Magister,False,1193,filled
+G,Misc: Books,,611-613,611,613,Magnetic and Electric Waves,False,1194,filled
+G,Misc: Books,,614-618,614,618,Manor's Manual of Sight,False,1194,filled
+G,Misc: Books,,619-622,619,622,Manual of Powers Beyond Life,False,1194,filled
+G,Misc: Books,,623-626,623,626,Mental Impressions of the Retina,False,1196,filled
+G,Misc: Books,,627-629,627,629,Minds of The Unknown,False,1196,filled
+G,Misc: Books,,630-633,630,633,Mordenkainen's Spellbook,False,1197,filled
+G,Misc: Books,,634-637,634,637,Multiple Application Perceptomancy,False,1197,filled
+G,Misc: Books,,638-640,638,640,Mylsibis's Codex of Contention,False,1197,filled
+G,Misc: Books,,641-644,641,644,Nathlum,False,1200,filled
+G,Misc: Books,,645-647,645,647,Nchaser's Elyromancia,False,1202,filled
+G,Misc: Books,,648-651,648,651,Nonsubstance Encyclopaedia,False,1205,filled
+G,Misc: Books,,652-655,652,655,Book of Num the Mad,False,189,filled
+G,Misc: Books,,656-658,656,658,Oerthmagik,False,1207,filled
+G,Misc: Books,,659-662,659,662,Occult Magnetism,False,1211,filled
+G,Misc: Books,,663-666,663,666,Occult Observations on Fluids,False,1211,filled
+G,Misc: Books,,667-669,667,669,Ordinary Necromancy,False,1211,filled
+G,Misc: Books,,670-673,670,673,Origins of Hour Glass Symbology,False,1211,filled
+G,Misc: Books,,674-677,674,677,Orjalun's Arbatel,False,1211,filled
+G,Misc: Books,,678-680,678,680,Peregrim's Treatise on Fixed Portals,False,1214,filled
+G,Misc: Books,,681-684,681,684,Planes of Antimatter,False,1215,filled
+G,Misc: Books,,685-687,685,687,Poison Pages,False,1215,filled
+G,Misc: Books,,688-691,688,691,Powers of the Spiritual Will,False,1215,filled
+G,Misc: Books,,692-695,692,695,Raistlin's,True,1215,filled
+G,Misc: Books,,696-698,696,698,Raistlin's II,False,1215,filled
+G,Misc: Books,,699-702,699,702,of Rathdaen,False,1215,filled
+G,Misc: Books,,703-706,703,706,Red Book of War,False,1218,filled
+G,Misc: Books,,707-709,707,709,Repertoire of Illustrious,False,1220,filled
+G,Misc: Books,,710-713,710,713,Repertoire of Subconscious,False,1220,filled
+G,Misc: Books,,714-717,714,717,Representations of Sentient Plane,False,1220,filled
+G,Misc: Books,,718-720,718,720,Riggby's,False,1221,filled
+G,Misc: Books,,721-724,721,724,Runes of Norzakh,True,1221,filled
+G,Misc: Books,,725-728,725,728,Runes of Possession,False,1222,filled
+G,Misc: Books,,729-731,729,731,Sabirine's Specular,False,1222,filled
+G,Misc: Books,,732-735,732,735,Scalamagdrion,False,1225,filled
+G,Misc: Books,,736-738,736,738,Science of Metaenchantment I,False,1226; 1127,filled
+G,Misc: Books,,739-742,739,742,Science of Metaenchantment II,False,1226; 1127,filled
+G,Misc: Books,,743-746,743,746,Selvar's Ineffable Conjurations,False,1227,filled
+G,Misc: Books,,747-749,747,749,Sakatha's,False,1230,filled
+G,Misc: Books,,750-753,750,753,Serpin Lexicon,False,1230,filled
+G,Misc: Books,,754-757,754,757,Senshock's,False,1231,filled
+G,Misc: Books,,758-760,758,760,Serinda's,False,1231,filled
+G,Misc: Books,,761-764,761,764,Seven Skies of The Universe,False,1231,filled
+G,Misc: Books,,765-768,765,768,Shadowtome,False,1231,filled
+G,Misc: Books,,769-771,769,771,Shandaril's Workbook,False,1233,filled
+G,Misc: Books,,772-775,772,775,Spellbook of Shangalar the Black,False,1197,filled
+G,Misc: Books,,776-778,776,778,Book of the Silver Talon,False,189,filled
+G,Misc: Books,,779-782,779,782,Book of the Silver Talon,False,189,filled
+G,Misc: Books,,783-786,783,786,Sir Celedon Kierney's,False,1243,filled
+G,Misc: Books,,787-789,787,789,Sir Olwyn Forestfriend's,False,1244,filled
+G,Misc: Books,,790-793,790,793,Slack's Seamless,False,1244,filled
+G,Misc: Books,,794-797,794,797,Spells Written in Code,False,1244,filled
+G,Misc: Books,,798-800,798,800,Spherogenesis of the Multiverses,False,1244,filled
+G,Misc: Books,,801-804,801,804,Studies on the Fourth Dimension,False,1244,filled
+G,Misc: Books,,805-808,805,808,Subconscious Repercussions,False,1244,filled
+G,Misc: Books,,809-811,809,811,Sublimated Oneiromancy,False,1244,filled
+G,Misc: Books,,812-815,812,815,Sulphur Influence and Actions,False,1244,filled
+G,Misc: Books,,816-819,816,819,Talel el Hareidhin's,False,1244,filled
+G,Misc: Books,,820-822,820,822,Tasso's Arcanabula,False,1245,filled
+G,Misc: Books,,823-826,823,826,Tharadodus's,False,1245,filled
+G,Misc: Books,,827-829,827,829,Thesis on Combined Ruptures,False,1247,filled
+G,Misc: Books,,830-833,830,833,Theories on Converging Transitions,False,1251,filled
+G,Misc: Books,,834-837,834,837,Theory of the Invisible Forces,False,1251,filled
+G,Misc: Books,,838-840,838,840,Theory of Occult Visual Shock,False,1251,filled
+G,Misc: Books,,841-844,841,844,Theories on Perception,False,1251,filled
+G,Misc: Books,,845-848,845,848,Book of Thorns,False,189,filled
+G,Misc: Books,,849-851,849,851,Book of Time,False,189,filled
+G,Misc: Books,,852-855,852,855,Tomorast's,False,563,filled
+G,Misc: Books,,856-859,856,859,Trance of the Intellect,False,1252,filled
+G,Misc: Books,,860-862,860,862,Transcendental Impenetrabilities,False,1253,filled
+G,Misc: Books,,863-866,863,866,Tymessul's Enchiridion of Travel,False,1253,filled
+G,Misc: Books,,867-869,867,869,Book of Unicorns,False,189,filled
+G,Misc: Books,,870-873,870,873,Unique Mageries,False,1255,filled
+G,Misc: Books,,874-877,874,877,Universal Astronomy,False,1259,filled
+G,Misc: Books,,878-880,878,880,Unknown Movements of Universe,False,1259,filled
+G,Misc: Books,,881-884,881,884,Vaerendroon's Ineffable Enchants,False,1259,filled
+G,Misc: Books,,885-888,885,888,Vampire Book,True,1260,filled
+G,Misc: Books,,889-891,889,891,Variations on the Visual Perception,False,1261,filled
+G,Misc: Books,,892-895,892,895,Weapons of the Ether,False,1079,filled
+G,Misc: Books,,896-899,896,899,White's Codicil,False,1261,filled
+G,Misc: Books,,900-902,900,902,Wizard's Workbook,False,1261,filled
+G,Misc: Books,,903-906,903,906,Wyvernwater Circle,False,1265,filled
+G,Misc: Books,,907-910,907,910,of Bodily Health,False,1439,filled
+G,Misc: Books,,911-913,911,913,Canon of Changes,False,1439,filled
+G,Misc: Books,,914-917,914,917,Canon of Changes II,False,1439,filled
+G,Misc: Books,,918-920,918,920,of Clear Thought,False,953,filled
+G,Misc: Books,,921-924,921,924,of Dogmatic Methods,False,1439; 1440,filled
+G,Misc: Books,,925-928,925,928,of Dogmatic Methods II,False,1439; 1440,filled
+G,Misc: Books,,929-931,929,931,E'soa Ho-chi,False,1440,filled
+G,Misc: Books,,932-935,932,935,of the Fool,False,1441,filled
+G,Misc: Books,,936-939,936,939,of Gainful Exercise,False,1441,filled
+G,Misc: Books,,940-942,940,942,of Garden Flowers,False,1441,filled
+G,Misc: Books,,943-946,943,946,of Glowing Pages,False,1441,filled
+G,Misc: Books,,947-950,947,950,of Hopeful Deeds,False,1442,filled
+G,Misc: Books,,951-953,951,953,of Hopeless Deeds,False,1442,filled
+G,Misc: Books,,954-957,954,957,of Humorous Perspective,False,1442,filled
+G,Misc: Books,,958-960,958,960,of Immoral Sanity,False,1442,filled
+G,Misc: Books,,961-964,961,964,of Infinite Spells,False,1442,filled
+G,Misc: Books,,965-968,965,968,Juia Lo'tanu,False,1442,filled
+G,Misc: Books,,969-971,969,971,of Leadership and Influence,False,1444,filled
+G,Misc: Books,,972-975,972,975,of Psionic Interruption,False,817,filled
+G,Misc: Books,,976-979,976,979,of Quickness of Action,False,1444,filled
+G,Misc: Books,,980-982,980,982,of Sanity,False,445,filled
+G,Misc: Books,,983-986,983,986,of Seven Fingers,False,1444,filled
+G,Misc: Books,,987-991,987,991,of Understanding,False,428,filled
+G,Misc: Books,,992-995,992,995,Vacuous Grimoire,False,1445,filled
+G,Misc: Books,,996-1000,996,1000,Trimia's Catalogue of Artifacts,False,1460,filled

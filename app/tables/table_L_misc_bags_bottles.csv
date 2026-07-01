@@ -1,0 +1,255 @@
+table,category,subcategory,roll_display,roll_low,roll_high,name,reroll,page,page_status
+L,Misc: Bags & Bottles,,1-3,1,3,Enchanted Enhancements,True,21,filled
+L,Misc: Bags & Bottles,,4-7,4,7,Backpack of Holding,False,123,filled
+L,Misc: Bags & Bottles,,8-11,8,11,of Beans,False,123; 124,filled
+L,Misc: Bags & Bottles,,12-15,12,15,of Beans II,False,123; 124,filled
+L,Misc: Bags & Bottles,,16-19,16,19,Beltpouch of Disappearance,False,132,filled
+L,Misc: Bags & Bottles,,20-23,20,23,of Bones,False,225,filled
+L,Misc: Bags & Bottles,,24-27,24,27,Bucknard's Everfull Purse,False,133,filled
+L,Misc: Bags & Bottles,,28-31,28,31,of Devouring,False,173,filled
+L,Misc: Bags & Bottles,,32-35,32,35,Devouring Pouch,False,133,filled
+L,Misc: Bags & Bottles,,36-39,36,39,of Duplication,False,726,filled
+L,Misc: Bags & Bottles,,40-43,40,43,Ever-Full of Seeds,False,134,filled
+L,Misc: Bags & Bottles,,44-47,44,47,of Eyes,False,755,filled
+L,Misc: Bags & Bottles,,48-51,48,51,Feedbag of Plenty,False,134,filled
+L,Misc: Bags & Bottles,,52-55,52,55,Food Pouch,False,134,filled
+L,Misc: Bags & Bottles,,56-58,56,58,Henry's Carpetbag of Holding,False,134,filled
+L,Misc: Bags & Bottles,,59-62,59,62,Heward's Handy Haversack,False,135,filled
+L,Misc: Bags & Bottles,,63-66,63,66,of Holding,False,1514,filled
+L,Misc: Bags & Bottles,,67-70,67,70,of Infinite Wealth,False,135,filled
+L,Misc: Bags & Bottles,,71-74,71,74,Jasper Thunderhand's Haversack,False,135,filled
+L,Misc: Bags & Bottles,,75-78,75,78,Kangaroo Pouch,False,136,filled
+L,Misc: Bags & Bottles,,79-82,79,82,Khalid's Pouch of Accessibility,False,136,filled
+L,Misc: Bags & Bottles,,83-86,83,86,of Many Bags,False,136,filled
+L,Misc: Bags & Bottles,,87-90,87,90,Nithian Saddlebags,False,136,filled
+L,Misc: Bags & Bottles,,91-94,91,94,Noj's of Misplacing,False,136,filled
+L,Misc: Bags & Bottles,,95-98,95,98,Pictish of Fiends,False,136,filled
+L,Misc: Bags & Bottles,,99-102,99,102,of Plenty,False,269,filled
+L,Misc: Bags & Bottles,,103-106,103,106,Protection Pouch,False,136,filled
+L,Misc: Bags & Bottles,,107-110,107,110,Pouch of Accessibility,False,837,filled
+L,Misc: Bags & Bottles,,111-113,111,113,Pouch of Holding,False,137,filled
+L,Misc: Bags & Bottles,,114-117,114,117,of Returning,False,527,filled
+L,Misc: Bags & Bottles,,118-121,118,121,Pouch of Security,False,837,filled
+L,Misc: Bags & Bottles,,122-125,122,125,Seed Satchel,False,137,filled
+L,Misc: Bags & Bottles,,126-129,126,129,Silent Purse,False,137,filled
+L,Misc: Bags & Bottles,,130-133,130,133,Skain's Satchel,False,137,filled
+L,Misc: Bags & Bottles,,134-137,134,137,Sleeping Bag of Armor Nullification,False,138,filled
+L,Misc: Bags & Bottles,,138-141,138,141,of Teleportation,False,412,filled
+L,Misc: Bags & Bottles,,142-145,142,145,of Transmitting,False,138,filled
+L,Misc: Bags & Bottles,,146-149,146,149,of Traveling,False,138,filled
+L,Misc: Bags & Bottles,,150-153,150,153,of Tricks,False,138,filled
+L,Misc: Bags & Bottles,,154-157,154,157,of Useful Items,False,1017,filled
+L,Misc: Bags & Bottles,,158-161,158,161,of Vanishing,False,139,filled
+L,Misc: Bags & Bottles,,162-165,162,165,of Wind,False,466,filled
+L,Misc: Bags & Bottles,,166-168,166,168,Wind Pouch,False,466,filled
+L,Misc: Bags & Bottles,,169-172,169,172,of the Woodlands,False,141,filled
+L,Misc: Bags & Bottles,,173-176,173,176,Zadron's Pouch of Wonders,False,141,filled
+L,Misc: Bags & Bottles,,177-180,177,180,Zagyg's Spell Component Pouch,False,147,filled
+L,Misc: Bags & Bottles,,181-184,181,184,of Hiding,False,1513,filled
+L,Misc: Bags & Bottles,,185-188,185,188,Itzpixc's Collapsible,False,159,filled
+L,Misc: Bags & Bottles,,189-192,189,192,Neverending of Grog,False,209,filled
+L,Misc: Bags & Bottles,,193-196,193,196,Neverending of Salt Pork,False,1045,filled
+L,Misc: Bags & Bottles,,197-200,197,200,of Poverty,False,160,filled
+L,Misc: Bags & Bottles,,201-204,201,204,of Rolling,False,160,filled
+L,Misc: Bags & Bottles,,205-208,205,208,of the CG Angel,False,161,filled
+L,Misc: Bags & Bottles,,209-212,209,212,of the LG Angel,False,161,filled
+L,Misc: Bags & Bottles,,213-216,213,216,of the NG Angel,False,161,filled
+L,Misc: Bags & Bottles,,217-220,217,220,of Hidden Dangers,False,161,filled
+L,Misc: Bags & Bottles,,221-224,221,224,Basket of Devouring,False,161,filled
+L,Misc: Bags & Bottles,,225-227,225,227,of Cures,False,1149,filled
+L,Misc: Bags & Bottles,,228-231,228,231,of Plentiful Potions,False,165,filled
+L,Misc: Bags & Bottles,,232-235,232,235,Bedroll of Dryness,False,166,filled
+L,Misc: Bags & Bottles,,236-239,236,239,Brazen,False,199,filled
+L,Misc: Bags & Bottles,,240-243,240,243,of Containment,False,151,filled
+L,Misc: Bags & Bottles,,244-247,244,247,Efreeti,False,199,filled
+L,Misc: Bags & Bottles,,248-251,248,251,of Evaporation,False,199,filled
+L,Misc: Bags & Bottles,,252-255,252,255,Eversmoking,False,199,filled
+L,Misc: Bags & Bottles,,256-259,256,259,of Fireflies,False,199,filled
+L,Misc: Bags & Bottles,,260-263,260,263,Graffiti,False,200,filled
+L,Misc: Bags & Bottles,,264-267,264,267,of Pleasant Odors,False,200,filled
+L,Misc: Bags & Bottles,,268-271,268,271,of Preservation,False,216,filled
+L,Misc: Bags & Bottles,,272-275,272,275,of Refreshment,False,200,filled
+L,Misc: Bags & Bottles,,276-279,276,279,Safety,False,995,filled
+L,Misc: Bags & Bottles,,280-282,280,282,Temperature,False,200,filled
+L,Misc: Bags & Bottles,,283-286,283,286,Thought,False,200,filled
+L,Misc: Bags & Bottles,,287-290,287,290,Thuba's Efreeti,False,201,filled
+L,Misc: Bags & Bottles,,291-294,291,294,of Trapping,False,201,filled
+L,Misc: Bags & Bottles,,295-298,295,298,Undead,False,83,filled
+L,Misc: Bags & Bottles,,299-302,299,302,of Blood,False,210,filled
+L,Misc: Bags & Bottles,,303-306,303,306,Calabash of Plenty,False,211,filled
+L,Misc: Bags & Bottles,,307-310,307,310,of Commanding Water Elementals,False,211,filled
+L,Misc: Bags & Bottles,,311-314,311,314,of Delicacies,False,211,filled
+L,Misc: Bags & Bottles,,315-318,315,318,of Ship Sinking,False,211,filled
+L,Misc: Bags & Bottles,,319-322,319,322,of Watery Death,False,211,filled
+L,Misc: Bags & Bottles,,323-326,323,326,Burglar Detection,False,212,filled
+L,Misc: Bags & Bottles,,327-330,327,330,Dead,False,212,filled
+L,Misc: Bags & Bottles,,331-334,331,334,of Delightful Transports,False,212,filled
+L,Misc: Bags & Bottles,,335-337,335,337,Dido's Flatbox,False,213,filled
+L,Misc: Bags & Bottles,,338-341,338,341,Face of Xenous,False,213,filled
+L,Misc: Bags & Bottles,,342-345,342,345,Flatbox,False,213,filled
+L,Misc: Bags & Bottles,,346-349,346,349,Goerl's Tackle and Flatbox Canoe,False,180,filled
+L,Misc: Bags & Bottles,,350-353,350,353,of Heating,False,214,filled
+L,Misc: Bags & Bottles,,354-357,354,357,Ice,False,351,filled
+L,Misc: Bags & Bottles,,358-361,358,361,of Many Holdings (1x1x1),False,214,filled
+L,Misc: Bags & Bottles,,362-365,362,365,of Many Holdings (2x2x2),False,214,filled
+L,Misc: Bags & Bottles,,366-369,366,369,of Many Holdings (3x3x3),False,214,filled
+L,Misc: Bags & Bottles,,370-373,370,373,of Many Holdings (4x4x4),False,214,filled
+L,Misc: Bags & Bottles,,374-377,374,377,of Many Holdings (5x5x5),False,214,filled
+L,Misc: Bags & Bottles,,378-381,378,381,of Message Sending,False,215,filled
+L,Misc: Bags & Bottles,,382-385,382,385,Money Changer,False,215,filled
+L,Misc: Bags & Bottles,,386-389,386,389,Mystical Brown Coating,False,215,filled
+L,Misc: Bags & Bottles,,390-393,390,393,Ohm's Black,False,215,filled
+L,Misc: Bags & Bottles,,394-396,394,396,of Preservation,False,216,filled
+L,Misc: Bags & Bottles,,397-400,397,400,of Preservation II,False,216,filled
+L,Misc: Bags & Bottles,,401-404,401,404,Rudra's of Cloning,False,216,filled
+L,Misc: Bags & Bottles,,405-408,405,408,Strongbox of Immobility,False,216,filled
+L,Misc: Bags & Bottles,,409-412,409,412,Tamate-Bako,False,216,filled
+L,Misc: Bags & Bottles,,413-416,413,416,of Commanding Fire Elementals,False,223,filled
+L,Misc: Bags & Bottles,,417-420,417,420,Hu'i Wing,False,1560,filled
+L,Misc: Bags & Bottles,,421-424,421,424,of Sleep Smoke,False,223,filled
+L,Misc: Bags & Bottles,,425-428,425,428,Bucket of Fire Snuffing,False,230,filled
+L,Misc: Bags & Bottles,,429-432,429,432,of Air Restoration,False,233,filled
+L,Misc: Bags & Bottles,,433-436,433,436,H'Veyk's Cavernous,False,233,filled
+L,Misc: Bags & Bottles,,437-440,437,440,of Ministering,False,233,filled
+L,Misc: Bags & Bottles,,441-444,441,444,of Security,False,136,filled
+L,Misc: Bags & Bottles,,445-448,445,448,of Carrying,False,234,filled
+L,Misc: Bags & Bottles,,449-451,449,451,of Entrapment,False,234,filled
+L,Misc: Bags & Bottles,,452-455,452,455,of Shelter,False,1431,filled
+L,Misc: Bags & Bottles,,456-459,456,459,String,False,235,filled
+L,Misc: Bags & Bottles,,460-463,460,463,of Cant,False,237,filled
+L,Misc: Bags & Bottles,,464-467,464,467,of Moonlight,False,237,filled
+L,Misc: Bags & Bottles,,468-471,468,471,of Preserving,False,622,filled
+L,Misc: Bags & Bottles,,472-475,472,475,of Spinach,False,237,filled
+L,Misc: Bags & Bottles,,476-479,476,479,of Worms,False,237,filled
+L,Misc: Bags & Bottles,,480-483,480,483,Zwann's Irrigation,False,237,filled
+L,Misc: Bags & Bottles,,484-487,484,487,Zwann's Watering,False,237,filled
+L,Misc: Bags & Bottles,,488-491,488,491,of Condiments,False,248,filled
+L,Misc: Bags & Bottles,,492-495,492,495,of Curses,False,488,filled
+L,Misc: Bags & Bottles,,496-499,496,499,of Coolness,False,73,filled
+L,Misc: Bags & Bottles,,500-503,500,503,Erdlu,False,249,filled
+L,Misc: Bags & Bottles,,504-506,504,506,of Purification,False,249,filled
+L,Misc: Bags & Bottles,,507-510,507,510,of Compression,False,261,filled
+L,Misc: Bags & Bottles,,511-514,511,514,Exalted Component,False,261,filled
+L,Misc: Bags & Bottles,,515-518,515,518,of Document Transmission,False,261,filled
+L,Misc: Bags & Bottles,,519-522,519,522,of Scroll Holding,False,261,filled
+L,Misc: Bags & Bottles,,523-526,523,526,Tenser's Portmanteau of Frugality,False,261,filled
+L,Misc: Bags & Bottles,,527-530,527,530,Everfull,False,612,filled
+L,Misc: Bags & Bottles,,531-534,531,534,of the Wind Spy,False,466,filled
+L,Misc: Bags & Bottles,,535-538,535,538,of Ambrosia,False,854,filled
+L,Misc: Bags & Bottles,,539-542,539,542,Archdruid,False,267,filled
+L,Misc: Bags & Bottles,,543-546,543,546,of Blindness,False,229,filled
+L,Misc: Bags & Bottles,,547-550,547,550,of Creatures,False,267,filled
+L,Misc: Bags & Bottles,,551-554,551,554,of Doom,False,212,filled
+L,Misc: Bags & Bottles,,555-558,555,558,of Entrancement,False,267,filled
+L,Misc: Bags & Bottles,,559-561,559,561,of Foretelling,False,268,filled
+L,Misc: Bags & Bottles,,562-565,562,565,of Fresh Water,False,268,filled
+L,Misc: Bags & Bottles,,566-569,566,569,of Healing,False,1324,filled
+L,Misc: Bags & Bottles,,570-573,570,573,of Healing,False,1324,filled
+L,Misc: Bags & Bottles,,574-577,574,577,Iubadan's,False,268,filled
+L,Misc: Bags & Bottles,,578-581,578,581,Mordom's Air of Air,False,697,filled
+L,Misc: Bags & Bottles,,582-585,582,585,of Plenty,False,269,filled
+L,Misc: Bags & Bottles,,586-589,586,589,Potion,False,269,filled
+L,Misc: Bags & Bottles,,590-593,590,593,of Restoring Freshness,False,269,filled
+L,Misc: Bags & Bottles,,594-597,594,597,Warming,False,269,filled
+L,Misc: Bags & Bottles,,598-601,598,601,Cegilune's Iron Pot,False,269,filled
+L,Misc: Bags & Bottles,,602-605,602,605,of Conduct,False,270,filled
+L,Misc: Bags & Bottles,,606-609,606,609,of Controlling Air Elementals,False,270,filled
+L,Misc: Bags & Bottles,,610-613,610,613,of Controlling Air Elementals II,False,270,filled
+L,Misc: Bags & Bottles,,614-617,614,617,of Summoning Hostile Elementals,False,270,filled
+L,Misc: Bags & Bottles,,618-620,618,620,of Thaumaturgy,False,270,filled
+L,Misc: Bags & Bottles,,621-624,621,624,of Colors,False,650,filled
+L,Misc: Bags & Bottles,,625-628,625,628,of Continual Water,False,275,filled
+L,Misc: Bags & Bottles,,629-632,629,632,of Detection,False,275,filled
+L,Misc: Bags & Bottles,,633-636,633,636,Eucharistic,False,275,filled
+L,Misc: Bags & Bottles,,637-640,637,640,Holy Grail,False,275,filled
+L,Misc: Bags & Bottles,,641-644,641,644,of Identification,False,663,filled
+L,Misc: Bags & Bottles,,645-648,645,648,of Irreversibility,False,276,filled
+L,Misc: Bags & Bottles,,649-652,649,652,of Liquid Food,False,276,filled
+L,Misc: Bags & Bottles,,653-656,653,656,of Planar Travel,False,276,filled
+L,Misc: Bags & Bottles,,657-660,657,660,of Poison,False,151,filled
+L,Misc: Bags & Bottles,,661-664,661,664,of the Shield Lands,False,277,filled
+L,Misc: Bags & Bottles,,665-668,665,668,Silver,False,325,filled
+L,Misc: Bags & Bottles,,669-672,669,672,of Drawers,False,287,filled
+L,Misc: Bags & Bottles,,673-675,673,675,Foot Stool,False,287,filled
+L,Misc: Bags & Bottles,,676-679,676,679,Oyster,False,287,filled
+L,Misc: Bags & Bottles,,680-683,680,683,Quartermaster's,False,288,filled
+L,Misc: Bags & Bottles,,684-687,684,687,of Sieges,False,288,filled
+L,Misc: Bags & Bottles,,688-691,688,691,Cursed of Sieges,False,1071; 1072,filled
+L,Misc: Bags & Bottles,,692-695,692,695,of Zorathus,False,288,filled
+L,Misc: Bags & Bottles,,696-699,696,699,Casket of Furiondy,False,317,filled
+L,Misc: Bags & Bottles,,700-703,700,703,of Creation,False,1071,filled
+L,Misc: Bags & Bottles,,704-707,704,707,Crystal,False,317,filled
+L,Misc: Bags & Bottles,,708-711,708,711,Fireproof,False,328,filled
+L,Misc: Bags & Bottles,,712-715,712,715,Watertight,False,329,filled
+L,Misc: Bags & Bottles,,716-719,716,719,Crucible of Melting,False,341,filled
+L,Misc: Bags & Bottles,,720-723,720,723,Cup of Wine,False,353,filled
+L,Misc: Bags & Bottles,,724-727,724,727,Carrague's of Endless Steam,False,620,filled
+L,Misc: Bags & Bottles,,728-730,728,730,of Endless Water,False,376; 377,filled
+L,Misc: Bags & Bottles,,731-734,731,734,of Endless Water II,False,376; 377,filled
+L,Misc: Bags & Bottles,,735-738,735,738,Disintegration Chamber,False,407,filled
+L,Misc: Bags & Bottles,,739-742,739,742,Extradimensional Safe,False,449,filled
+L,Misc: Bags & Bottles,,743-746,743,746,of Dragons,False,1431,filled
+L,Misc: Bags & Bottles,,747-750,747,750,of Dimunition,False,484,filled
+L,Misc: Bags & Bottles,,751-754,751,754,Zagyg's Flowing,False,484,filled
+L,Misc: Bags & Bottles,,755-758,755,758,Copper,False,321,filled
+L,Misc: Bags & Bottles,,759-762,759,762,of Curses,False,488,filled
+L,Misc: Bags & Bottles,,763-766,763,766,Iron,False,1484,filled
+L,Misc: Bags & Bottles,,767-770,767,770,Iron of Tuerny the Merciless,False,489,filled
+L,Misc: Bags & Bottles,,771-774,771,774,Vapor,False,1494,filled
+L,Misc: Bags & Bottles,,775-778,775,778,of Glory,False,546,filled
+L,Misc: Bags & Bottles,,779-782,779,782,of the Great Kingdom,False,672,filled
+L,Misc: Bags & Bottles,,783-786,783,786,Leomund's,False,839,filled
+L,Misc: Bags & Bottles,,787-789,787,789,Manas of Sleep,False,547,filled
+L,Misc: Bags & Bottles,,790-793,790,793,Manas of Death,False,1478,filled
+L,Misc: Bags & Bottles,,794-797,794,797,Manas of Fixation,False,547,filled
+L,Misc: Bags & Bottles,,798-801,798,801,Hold of Holding,False,1514,filled
+L,Misc: Bags & Bottles,,802-805,802,805,Cornucopia,False,599,filled
+L,Misc: Bags & Bottles,,806-809,806,809,Ngona of Fire Resistance,False,1481,filled
+L,Misc: Bags & Bottles,,810-813,810,813,Ngona of Silent Moving,False,599,filled
+L,Misc: Bags & Bottles,,814-817,814,817,Ngona of Underwater Breathing,False,897,filled
+L,Misc: Bags & Bottles,,818-821,818,821,Borieflin's of Steam,False,622,filled
+L,Misc: Bags & Bottles,,822-825,822,825,of Comprehension,False,622,filled
+L,Misc: Bags & Bottles,,826-829,826,829,of Preserving,False,622,filled
+L,Misc: Bags & Bottles,,830-833,830,833,Alchemy,False,626,filled
+L,Misc: Bags & Bottles,,834-837,834,837,Amorpha,False,626,filled
+L,Misc: Bags & Bottles,,838-841,838,841,Red of Dyeing,False,626,filled
+L,Misc: Bags & Bottles,,842-845,842,845,Blue of Dyeing,False,101,filled
+L,Misc: Bags & Bottles,,846-848,846,848,of Jade,False,626,filled
+L,Misc: Bags & Bottles,,849-852,849,852,of Jesting,False,626,filled
+L,Misc: Bags & Bottles,,853-856,853,856,Louie Dulama's Alchemy,False,626,filled
+L,Misc: Bags & Bottles,,857-860,857,860,of Breathing,False,627,filled
+L,Misc: Bags & Bottles,,861-864,861,864,of Drumming,False,627,filled
+L,Misc: Bags & Bottles,,865-868,865,868,Everbountiful Soup,False,627,filled
+L,Misc: Bags & Bottles,,869-872,869,872,of Fish,False,627,filled
+L,Misc: Bags & Bottles,,873-876,873,876,Mithryl's Everbountiful Soup,False,627,filled
+L,Misc: Bags & Bottles,,877-880,877,880,Leomund's Labile Locker,False,657,filled
+L,Misc: Bags & Bottles,,881-884,881,884,Leomund's,False,839,filled
+L,Misc: Bags & Bottles,,885-888,885,888,of Plenty,False,269,filled
+L,Misc: Bags & Bottles,,889-892,889,892,of Warming,False,269,filled
+L,Misc: Bags & Bottles,,893-896,893,896,of Blending,False,838,filled
+L,Misc: Bags & Bottles,,897-899,897,899,of Continuous Water,False,838,filled
+L,Misc: Bags & Bottles,,900-903,900,903,Portable Hole,False,851,filled
+L,Misc: Bags & Bottles,,904-907,904,907,Castellan's Magical Genie,False,1284,filled
+L,Misc: Bags & Bottles,,908-911,908,911,of Zagig,False,917,filled
+L,Misc: Bags & Bottles,,912-915,912,915,of Zagig,False,917,filled
+L,Misc: Bags & Bottles,,916-919,916,919,of Zagyg,False,918,filled
+L,Misc: Bags & Bottles,,920-923,920,923,of Holding,False,1514,filled
+L,Misc: Bags & Bottles,,924-927,924,927,of Poison,False,151,filled
+L,Misc: Bags & Bottles,,928-931,928,931,of Frogs,False,1092,filled
+L,Misc: Bags & Bottles,,932-935,932,935,of Smallness,False,1092,filled
+L,Misc: Bags & Bottles,,936-939,936,939,Zadore's Poison,False,1092,filled
+L,Misc: Bags & Bottles,,940-943,940,943,Sleeping Bag of Armor Nullification,False,138,filled
+L,Misc: Bags & Bottles,,944-947,944,947,of Fat,False,1462,filled
+L,Misc: Bags & Bottles,,948-951,948,951,of Lard,False,1462,filled
+L,Misc: Bags & Bottles,,952-954,952,954,Bathtub,False,1460,filled
+L,Misc: Bags & Bottles,,955-958,955,958,of Sailing,False,181; 1462,filled
+L,Misc: Bags & Bottles,,959-962,959,962,Taryn's,False,1462,filled
+L,Misc: Bags & Bottles,,963-966,963,966,of Washing,False,1462,filled
+L,Misc: Bags & Bottles,,967-970,967,970,of Ashes,False,1465,filled
+L,Misc: Bags & Bottles,,971-974,971,974,of Awakening,False,1465,filled
+L,Misc: Bags & Bottles,,975-978,975,978,of Curses,False,488,filled
+L,Misc: Bags & Bottles,,979-982,979,982,of Hindsight,False,1465,filled
+L,Misc: Bags & Bottles,,983-986,983,986,of Water Purification,False,1466,filled
+L,Misc: Bags & Bottles,,987-990,987,990,Vampire Sheath,False,1469,filled
+L,Misc: Bags & Bottles,,991-994,991,994,Vial of Durance,False,1471,filled
+L,Misc: Bags & Bottles,,995-1000,995,1000,Waterskin of Pouring,False,1505,filled

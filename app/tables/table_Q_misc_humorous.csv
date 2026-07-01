@@ -1,0 +1,49 @@
+table,category,subcategory,roll_display,roll_low,roll_high,name,reroll,page,page_status
+Q,Misc: Humorous,,1-40,1,40,Enchanted Enhancements,True,21,filled
+Q,Misc: Humorous,,41-44,41,44,Apparatus of Spikey Owns,False,57,filled
+Q,Misc: Humorous,,45-61,45,61,Arahken's Refresh. Simulacrum,False,62,filled
+Q,Misc: Humorous,,62-81,62,81,Armband of Music,False,65,filled
+Q,Misc: Humorous,,82-102,82,102,Arrow of Sleighing,False,90,filled
+Q,Misc: Humorous,,103-122,103,122,Awl of the Above,False,110,filled
+Q,Misc: Humorous,,123-142,123,142,Awl Out,False,111,filled
+Q,Misc: Humorous,,143-163,143,163,Barrel of Monkeys,False,160,filled
+Q,Misc: Humorous,,164-183,164,183,Blowgun of Wild Emotions,False,31,filled
+Q,Misc: Humorous,,184-204,184,204,Bottle of Boos,False,200,filled
+Q,Misc: Humorous,,205-244,205,244,Magical Diapers,False,1284,filled
+Q,Misc: Humorous,,245-265,245,265,Crib of Pushing,False,173,filled
+Q,Misc: Humorous,,266-285,266,285,Blashphor's Cradle,False,173,filled
+Q,Misc: Humorous,,286-306,286,306,Blashphor's Diapers,False,173,filled
+Q,Misc: Humorous,,307-326,307,326,Blashphor's Nursery,False,173,filled
+Q,Misc: Humorous,,327-346,327,346,Brassier of Defense,False,222,filled
+Q,Misc: Humorous,,347-367,347,367,Batting Cage,False,234,filled
+Q,Misc: Humorous,,368-387,368,387,Handkerchief of Flirting,False,566,filled
+Q,Misc: Humorous,,388-408,388,408,Holy Terror Hockey Stick,False,1306,filled
+Q,Misc: Humorous,,409-428,409,428,Hoop of the Roller Hoopers,False,1116,filled
+Q,Misc: Humorous,,429-448,429,448,Liar of Building,False,1024,filled
+Q,Misc: Humorous,,449-469,449,469,Magical Mudders,False,1284,filled
+Q,Misc: Humorous,,470-489,470,489,Magnificent Mattress,False,717,filled
+Q,Misc: Humorous,,490-510,490,510,Marvelous Marble,False,696,filled
+Q,Misc: Humorous,,511-530,511,530,Masculine Macho-Musk,False,717,filled
+Q,Misc: Humorous,,531-551,531,551,Masterful Muffler,False,717,filled
+Q,Misc: Humorous,,552-571,552,571,Miraculous Mismaker,False,717,filled
+Q,Misc: Humorous,,572-591,572,591,Mud Masque,False,1106,filled
+Q,Misc: Humorous,,592-612,592,612,Multiplanar Mushroom,False,718,filled
+Q,Misc: Humorous,,613-632,613,632,Munificent Match,False,718,filled
+Q,Misc: Humorous,,633-652,633,652,Musical Menagerie,False,1467,filled
+Q,Misc: Humorous,,653-673,653,673,Mysterious Mug,False,742,filled
+Q,Misc: Humorous,,674-693,674,693,Mystic Mustard,False,1488,filled
+Q,Misc: Humorous,,694-714,694,714,Mythic Mushmelon,False,719,filled
+Q,Misc: Humorous,,715-734,715,734,Omelet of the Planes,False,782,filled
+Q,Misc: Humorous,,735-754,735,754,Miniatures of Set,False,97,filled
+Q,Misc: Humorous,,755-775,755,775,"Ring of Spell ""Turning""",False,1001,filled
+Q,Misc: Humorous,,776-795,776,795,Robe of Blending II,False,838,filled
+Q,Misc: Humorous,,796-816,796,816,Robe of Blending,False,838,filled
+Q,Misc: Humorous,,817-836,817,836,Rod of Cancellation,False,1021,filled
+Q,Misc: Humorous,,837-857,837,857,Hill Seed,False,1090,filled
+Q,Misc: Humorous,,858-877,858,877,Mountain Seed,False,1090,filled
+Q,Misc: Humorous,,878-897,878,897,Skates of the Roller Hoopers,False,1116,filled
+Q,Misc: Humorous,,898-918,898,918,Staff of Striking II,False,1297,filled
+Q,Misc: Humorous,,919-938,919,938,Sweatsuit,False,1335,filled
+Q,Misc: Humorous,,939-959,939,959,Sword of Babette Maelstrom,False,1387,filled
+Q,Misc: Humorous,,960-979,960,979,Sword of Underwear Snatching,False,1387,filled
+Q,Misc: Humorous,,980-1000,980,1000,Yo-Yo of Fate,False,1564,filled

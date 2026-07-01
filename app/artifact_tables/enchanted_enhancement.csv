@@ -1,0 +1,11 @@
+roll,enhancement_type,reroll
+01-10,Anything Item,False
+11-20,Aquatic,True
+21-30,Cloaked Wizardry,True
+31-40,Lightweight Equipment,True
+41-50,Miniature Gear,True
+51-60,Polymorphed Gear,True
+61-70,Psionic Dampener,True
+71-80,Quirk,True
+81-90,Racial Enhancements,True
+91-00,Weightless Item,True

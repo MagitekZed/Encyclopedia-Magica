@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>Encyclopedia Magica — Astral Roller</title>
+<link rel="stylesheet" href="fonts.css">
+<link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<canvas id="sky"></canvas>
+<div class="aurora" aria-hidden="true"><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span></div>
+<div class="vignette" aria-hidden="true"></div>
+
+<div id="splash" class="splash" role="status" aria-label="Loading">
+  <div class="aperture"></div>
+  <div class="cap">Opening the aperture…</div>
+</div>
+
+<div class="app">
+  <header class="header" role="banner">
+    <div class="wordmark"><span class="dropcap">✦</span><span class="wm-text">Encyclopedia&nbsp;Magica</span></div>
+    <button class="btn btn-primary" id="hdrRandom"><span class="reticle">✦</span><span class="hdr-label"> Random Item</span></button>
+    <span class="spacer"></span>
+    <div class="seedbox">
+      <span class="seed-label">seed</span>
+      <input id="seed" type="text" inputmode="numeric" placeholder="—" aria-label="Seed" autocomplete="off">
+      <button id="lock" class="lock" title="Lock seed (reproducible)" aria-label="Lock seed">🔒</button>
+      <span id="count" class="count">#0</span>
+    </div>
+    <button class="btn-icon wide" id="cmdk" title="Command palette (Ctrl/⌘+K)">⌘K</button>
+    <button class="btn-icon" id="sound" title="Sound (off)" aria-label="Toggle sound">♪</button>
+    <button class="btn-icon" id="ritual" title="Ritual / Rapid (animation speed)" aria-label="Toggle animation speed">⚡</button>
+    <button class="btn-icon wide" id="reduce" title="Reduce effects" aria-label="Reduce effects">effects</button>
+    <button class="btn-icon" id="diag" title="Diagnostics / self-test" aria-label="Diagnostics">⚙</button>
+    <button class="btn-icon" id="more" title="More options" aria-label="More options">⋯</button>
+    <button class="btn-icon" id="grim" title="Grimoire (Ctrl+H)" aria-label="Toggle grimoire">☰</button>
+  </header>
+
+  <nav class="tabrail" role="tablist" aria-label="Roller sections">
+    <button class="tab active" role="tab" aria-selected="true" data-tab="random">Random</button>
+    <button class="tab" role="tab" aria-selected="false" data-tab="single">Single Table</button>
+    <button class="tab" role="tab" aria-selected="false" data-tab="artifacts">Artifacts</button>
+    <button class="tab" role="tab" aria-selected="false" data-tab="library">Library</button>
+    <span class="tab-arc" id="tabArc" aria-hidden="true"></span>
+  </nav>
+
+  <main class="body" id="main" tabindex="-1">
+    <section class="tabpanel active" role="tabpanel" data-panel="random" id="panelRandom"></section>
+    <section class="tabpanel" role="tabpanel" data-panel="single" id="panelSingle"></section>
+    <section class="tabpanel" role="tabpanel" data-panel="artifacts" id="panelArtifacts"></section>
+    <section class="tabpanel" role="tabpanel" data-panel="library" id="panelLibrary"></section>
+  </main>
+
+  <div class="grim-scrim" id="grimScrim" aria-hidden="true"></div>
+  <aside class="grimoire" id="grimoire" aria-label="Roll history"></aside>
+</div>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script src="data.js"></script>
+<script src="js/ranges.js"></script>
+<script src="js/rng.js"></script>
+<script src="js/format.js"></script>
+<script src="js/dataset.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/selftest.js"></script>
+<script src="ui/sky.js"></script>
+<script src="ui/audio.js"></script>
+<script src="ui/widgets.js"></script>
+<script src="ui/result.js"></script>
+<script src="ui/history.js"></script>
+<script src="ui/library.js"></script>
+<script src="ui/tabs.js"></script>
+<script src="ui/controller.js"></script>
+<script src="ui/app.js"></script>
+</body>
+</html>

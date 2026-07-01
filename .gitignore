@@ -1,0 +1,32 @@
+# ── OS ─────────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+
+# ── Python ─────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ── Editors / tooling ──────────────────────────────
+.claude/
+.vscode/
+.idea/
+
+# ── App runtime data ───────────────────────────────
+history.json
+
+# ── Source material & intermediates ────────────────
+# Large / not needed to run the apps. reference/ holds the copyrighted
+# book scans; legacy/ holds regenerable page-column image slices.
+reference/
+legacy/
+
+# ── Build artifacts (regenerable) ──────────────────
+# web single-file bundle  -> python3 web/build.py
+# desktop PyInstaller out  -> python3 desktop/build.py
+dist/
+build/
+desktop/build/
+*.spec

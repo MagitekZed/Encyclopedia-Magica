@@ -1,0 +1,165 @@
+table,category,subcategory,roll_display,roll_low,roll_high,name,reroll,page,page_status
+I,Misc: Clothing,,1-6,1,6,Enchanted Enhancements,True,21,filled
+I,Misc: Clothing,,7-12,7,12,of Disguise,False,253,filled
+I,Misc: Clothing,,13-18,13,18,of Good Hope,False,253,filled
+I,Misc: Clothing,,19-24,19,24,of the Hornet,False,253,filled
+I,Misc: Clothing,,25-30,25,30,of Horns,False,253,filled
+I,Misc: Clothing,,31-36,31,36,Iuz's,False,255,filled
+I,Misc: Clothing,,37-42,37,42,of Protection,False,1009,filled
+I,Misc: Clothing,,43-48,43,48,of Reeking,False,255,filled
+I,Misc: Clothing,,49-54,49,54,Shadow,False,255,filled
+I,Misc: Clothing,,55-60,55,60,Chaplet of Creature Recognition,False,277,filled
+I,Misc: Clothing,,61-66,61,66,of Appearance,False,948,filled
+I,Misc: Clothing,,67-73,67,73,of Arachnida,False,295; 311,filled
+I,Misc: Clothing,,74-79,74,79,Artemus's of Displacement,False,296,filled
+I,Misc: Clothing,,80-85,80,85,Atmospheric,False,296,filled
+I,Misc: Clothing,,86-91,86,91,Baravar Cloakshadow's,False,357,filled
+I,Misc: Clothing,,92-97,92,97,of the Bat,False,296,filled
+I,Misc: Clothing,,98-103,98,103,Battle,False,1273,filled
+I,Misc: Clothing,,104-109,104,109,Bear of the Sulhaut Mountains,False,297,filled
+I,Misc: Clothing,,110-115,110,115,of the Beguiler,False,297,filled
+I,Misc: Clothing,,116-121,116,121,of Blackflame,False,357,filled
+I,Misc: Clothing,,122-127,122,127,Bolder's of the Rogue,False,631,filled
+I,Misc: Clothing,,128-133,128,133,Chameleon,False,298,filled
+I,Misc: Clothing,,134-140,134,140,Changeling,False,298,filled
+I,Misc: Clothing,,141-146,141,146,Cheetah of Amedio,False,298,filled
+I,Misc: Clothing,,147-152,147,152,of the Clouds,False,299,filled
+I,Misc: Clothing,,153-158,153,158,of Comfort,False,173,filled
+I,Misc: Clothing,,159-164,159,164,of Delight,False,299,filled
+I,Misc: Clothing,,165-170,165,170,Displacer,False,408,filled
+I,Misc: Clothing,,171-176,171,176,of Displacement,False,1009,filled
+I,Misc: Clothing,,177-182,177,182,Black Dragon,False,1448,filled
+I,Misc: Clothing,,183-188,183,188,Blue Dragon,False,1448,filled
+I,Misc: Clothing,,189-194,189,194,Brass Dragon,False,1448,filled
+I,Misc: Clothing,,195-200,195,200,Bronze Dragon,False,1354,filled
+I,Misc: Clothing,,201-207,201,207,Copper Dragon,False,1448,filled
+I,Misc: Clothing,,208-213,208,213,Gold Dragon,False,1448,filled
+I,Misc: Clothing,,214-219,214,219,Green Dragon,False,1448,filled
+I,Misc: Clothing,,220-225,220,225,Red Dragon,False,81,filled
+I,Misc: Clothing,,226-231,226,231,Silver Dragon,False,799,filled
+I,Misc: Clothing,,232-237,232,237,White Dragon,False,1448,filled
+I,Misc: Clothing,,238-243,238,243,of Echoes,False,300,filled
+I,Misc: Clothing,,244-249,244,249,Elven,False,74,filled
+I,Misc: Clothing,,250-255,250,255,Elven II,False,74,filled
+I,Misc: Clothing,,256-261,256,261,of Elvenkind,False,300,filled
+I,Misc: Clothing,,262-267,262,267,of Etherealness,False,74; 82,filled
+I,Misc: Clothing,,268-274,268,274,Fangs,False,301,filled
+I,Misc: Clothing,,275-280,275,280,Firebane,False,301,filled
+I,Misc: Clothing,,281-286,281,286,of Flame,False,302,filled
+I,Misc: Clothing,,287-292,287,292,Gargoyle,False,302,filled
+I,Misc: Clothing,,293-298,293,298,Guarding,False,303,filled
+I,Misc: Clothing,,299-304,299,304,of Healing,False,1324,filled
+I,Misc: Clothing,,305-310,305,310,of the Hellfurnaces,False,303,filled
+I,Misc: Clothing,,311-316,311,316,Kaldair Swiftfoot's,False,303,filled
+I,Misc: Clothing,,317-322,317,322,KalnaKaa's Black,False,304,filled
+I,Misc: Clothing,,323-328,323,328,of Lathandar,False,304,filled
+I,Misc: Clothing,,329-334,329,334,of Lordliness,False,304,filled
+I,Misc: Clothing,,335-341,335,341,of the Manta Ray,False,304,filled
+I,Misc: Clothing,,342-347,342,347,of the Manta Ray II,False,304,filled
+I,Misc: Clothing,,348-353,348,353,Mantle of Celestian,False,304,filled
+I,Misc: Clothing,,354-359,354,359,Mantle of Mist,False,305,filled
+I,Misc: Clothing,,360-365,360,365,Mantle of the Mundane,False,305,filled
+I,Misc: Clothing,,366-371,366,371,of Many Colors,False,305,filled
+I,Misc: Clothing,,372-377,372,377,Midnight Slasher's,False,195,filled
+I,Misc: Clothing,,378-383,378,383,Mummy's Cloak,False,306,filled
+I,Misc: Clothing,,384-389,384,389,the One Plume,False,306,filled
+I,Misc: Clothing,,390-395,390,395,of Passage,False,306,filled
+I,Misc: Clothing,,396-401,396,401,of Plenty,False,269,filled
+I,Misc: Clothing,,402-408,402,408,of Poisonousness,False,307,filled
+I,Misc: Clothing,,409-414,409,414,of Protection,False,1009,filled
+I,Misc: Clothing,,415-420,415,420,of Reflection,False,886,filled
+I,Misc: Clothing,,421-426,421,426,Rhun's Horned,False,308,filled
+I,Misc: Clothing,,427-432,427,432,Shadowcloak,False,308,filled
+I,Misc: Clothing,,433-438,433,438,Shaman's Mantle,False,309,filled
+I,Misc: Clothing,,439-444,439,444,of the Shield,False,1093,filled
+I,Misc: Clothing,,445-450,445,450,of Stars Type I,False,1016,filled
+I,Misc: Clothing,,451-456,451,456,of Stars Type II,False,1016,filled
+I,Misc: Clothing,,457-462,457,462,of Stars Type III,False,1016,filled
+I,Misc: Clothing,,463-468,463,468,of Strength,False,891,filled
+I,Misc: Clothing,,469-475,469,475,Sumpko's Mantle,False,310,filled
+I,Misc: Clothing,,476-481,476,481,of Survival,False,1002,filled
+I,Misc: Clothing,,482-487,482,487,of Symbiotic Protection,False,311,filled
+I,Misc: Clothing,,488-493,488,493,Tiger of Chalyik,False,311,filled
+I,Misc: Clothing,,494-499,494,499,Theodolus's of Arachnida,False,295; 311,filled
+I,Misc: Clothing,,500-505,500,505,of Warmth,False,499,filled
+I,Misc: Clothing,,506-511,506,511,of Weather,False,311,filled
+I,Misc: Clothing,,512-517,512,517,Wings of the Rakers,False,311,filled
+I,Misc: Clothing,,518-523,518,523,White of Charming,False,312,filled
+I,Misc: Clothing,,524-529,524,529,Wolf of Wegwiur,False,326,filled
+I,Misc: Clothing,,530-535,530,535,Zinzerena's,False,312,filled
+I,Misc: Clothing,,536-542,536,542,of Cleanliness,False,312,filled
+I,Misc: Clothing,,543-548,543,548,Merchant's,False,312,filled
+I,Misc: Clothing,,549-554,549,554,of Perfect Fit,False,313,filled
+I,Misc: Clothing,,555-560,555,560,of Polishing,False,507,filled
+I,Misc: Clothing,,561-566,561,566,of Polishing II,False,507,filled
+I,Misc: Clothing,,567-572,567,572,Shekinester's,False,313,filled
+I,Misc: Clothing,,573-578,573,578,Steel,False,313,filled
+I,Misc: Clothing,,579-584,579,584,Fare's of Protection,False,314,filled
+I,Misc: Clothing,,585-590,585,590,Invulnerable of Arn,False,314; 315,filled
+I,Misc: Clothing,,591-596,591,596,Invulnerable of Arnd,False,314; 315,filled
+I,Misc: Clothing,,597-602,597,602,of the Seas,False,315,filled
+I,Misc: Clothing,,603-609,603,609,of Amazement,False,413,filled
+I,Misc: Clothing,,610-615,610,615,of Protection,False,1009,filled
+I,Misc: Clothing,,616-621,616,621,Anagakok,False,499,filled
+I,Misc: Clothing,,622-627,622,627,of Elsewhere,False,499,filled
+I,Misc: Clothing,,628-633,628,633,of Warmth,False,499,filled
+I,Misc: Clothing,,634-639,634,639,Zambi's of Warmth,False,499,filled
+I,Misc: Clothing,,640-645,640,645,Loriell's,False,548,filled
+I,Misc: Clothing,,646-651,646,651,Sehanine's,False,549,filled
+I,Misc: Clothing,,652-657,652,657,Nemean Lion Skin,False,755,filled
+I,Misc: Clothing,,658-663,658,663,Aba of the Desert,False,1009,filled
+I,Misc: Clothing,,664-669,664,669,Aba of Displacement,False,1009,filled
+I,Misc: Clothing,,670-675,670,675,Aba of Protection,False,1009,filled
+I,Misc: Clothing,,676-682,676,682,Evil of the Archmagi,False,1009,filled
+I,Misc: Clothing,,683-688,683,688,Good of the Archmagi,False,1009,filled
+I,Misc: Clothing,,689-694,689,694,Neutral of the Archmagi,False,1009,filled
+I,Misc: Clothing,,695-700,695,700,of Blending III,False,838,filled
+I,Misc: Clothing,,701-706,701,706,Caftan of Protection,False,1010,filled
+I,Misc: Clothing,,707-712,707,712,Diirinka's,False,1010,filled
+I,Misc: Clothing,,713-718,713,718,of Drying,False,1010,filled
+I,Misc: Clothing,,719-724,719,724,of Eyes,False,755,filled
+I,Misc: Clothing,,725-730,725,730,Ghastrobe,False,1011,filled
+I,Misc: Clothing,,731-736,731,736,of Holding,False,1514,filled
+I,Misc: Clothing,,737-742,737,742,H'Veyk's of Immediate Access,False,1011,filled
+I,Misc: Clothing,,743-749,743,749,Jellaba of Concealment,False,1011,filled
+I,Misc: Clothing,,750-755,750,755,Jellaba of Eyes,False,1011,filled
+I,Misc: Clothing,,756-761,756,761,Jellaba of Scintillating Colors,False,1011,filled
+I,Misc: Clothing,,762-767,762,767,Kaftan of Ogrishness,False,1013,filled
+I,Misc: Clothing,,768-773,768,773,Marion's of Blending,False,838,filled
+I,Misc: Clothing,,774-779,774,779,Melliflear's of Stars,False,1016,filled
+I,Misc: Clothing,,780-785,780,785,of Powerlessness,False,1014,filled
+I,Misc: Clothing,,786-791,786,791,of Protection,False,1009,filled
+I,Misc: Clothing,,792-797,792,797,of Repetition,False,1014,filled
+I,Misc: Clothing,,798-803,798,803,Rock,False,1019; 1020,filled
+I,Misc: Clothing,,804-809,804,809,of Scintillating Color,False,1015,filled
+I,Misc: Clothing,,810-816,810,816,of Scintillating Colors,False,1011,filled
+I,Misc: Clothing,,817-822,817,822,of Serration,False,1016,filled
+I,Misc: Clothing,,823-828,823,828,of Stars,False,1016,filled
+I,Misc: Clothing,,829-834,829,834,Stone,False,356,filled
+I,Misc: Clothing,,835-840,835,840,Sulmish of Magical Enhancement:,False,1015,filled
+I,Misc: Clothing,,841-846,841,846,Tvashtri's Golden,False,1303,filled
+I,Misc: Clothing,,847-852,847,852,of Useful Items,False,1017,filled
+I,Misc: Clothing,,853-858,853,858,of Useful Items II,False,1017,filled
+I,Misc: Clothing,,859-864,859,864,of Useless Items,False,1017,filled
+I,Misc: Clothing,,865-870,865,870,of Vanishing,False,139,filled
+I,Misc: Clothing,,871-876,871,876,of Veluna,False,1018,filled
+I,Misc: Clothing,,877-883,877,883,of Vermin,False,1018,filled
+I,Misc: Clothing,,884-889,884,889,of Warmth,False,499,filled
+I,Misc: Clothing,,890-895,890,895,Wizard's,False,1018,filled
+I,Misc: Clothing,,896-901,896,901,Yama's,False,371,filled
+I,Misc: Clothing,,902-907,902,907,War (AC 1),False,1412,filled
+I,Misc: Clothing,,908-913,908,913,War (AC 2),False,1412,filled
+I,Misc: Clothing,,914-919,914,919,War (AC 3),False,1412,filled
+I,Misc: Clothing,,920-925,920,925,War (AC 4),False,1412,filled
+I,Misc: Clothing,,926-931,926,931,War (AC 5),False,1412,filled
+I,Misc: Clothing,,932-937,932,937,War (AC 6),False,1412,filled
+I,Misc: Clothing,,938-943,938,943,of Elf Summoning,False,822,filled
+I,Misc: Clothing,,944-950,944,950,of Mystery,False,1306,filled
+I,Misc: Clothing,,951-956,951,956,Tabard of the Mystics,False,1417,filled
+I,Misc: Clothing,,957-962,957,962,of Glory,False,546,filled
+I,Misc: Clothing,,963-968,963,968,Wizard's,False,1018,filled
+I,Misc: Clothing,,969-974,969,974,Veil of X-ray Vision,False,1008,filled
+I,Misc: Clothing,,975-980,975,980,of Attraction,False,154,filled
+I,Misc: Clothing,,981-986,981,986,of Missile Protection,False,880,filled
+I,Misc: Clothing,,987-992,987,992,Greater of Power,False,907,filled
+I,Misc: Clothing,,993-1000,993,1000,Lesser of Power,False,907,filled

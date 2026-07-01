@@ -1,0 +1,11 @@
+csv_file,table,roll,category,sub_category,likely_name,note,page_number(fill_in)
+table_H_misc_gems_jewelry.csv,H,520-521,Gems & Jewelry,Goggles,Troppenribb's Goggles,only Goggles indexed is 'of Underwater Sight' p547,
+table_M_misc_dust_stones.csv,M,33-34,Dust & Stones,Beads,Bead of Hindrance,,
+table_M_misc_dust_stones.csv,M,449-451,Dust & Stones,Ioun Stones,Brass Lozenge (Ioun Stone),"Ioun stones indexed only by proper name, not shape/color",
+table_M_misc_dust_stones.csv,M,456-458,Dust & Stones,Ioun Stones,Brown Rectangle (Ioun Stone),same as above,
+table_M_misc_dust_stones.csv,M,555-556,Dust & Stones,Marbles,Plumastone,,
+table_N_misc_household.csv,N,930-931,Household,Tents,Tent X,,
+table_P_misc_weird_stuff.csv,P,713-715,Weird Stuff,Orbs,(cell corrupt in scan),Orb between 'of Golden Death (Garnet)' and 'of Holiness'; read from tables PDF p22,
+table_S_weapons.csv,S3,148,Weapons,Ballistae,Heavy Ballista,,
+table_S_weapons.csv,S3,220,Weapons,Catapults,Heavy Catapult,,
+table_S_weapons.csv,S3,370-371,Weapons,Hammers,Hammer of Lull,,

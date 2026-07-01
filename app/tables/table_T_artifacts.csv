@@ -1,0 +1,170 @@
+table,category,subcategory,roll_display,roll_low,roll_high,name,reroll,page,page_status
+T,Artifacts,,1-5,1,5,Acorn of Wo Mai,False,25,filled
+T,Artifacts,,6-11,6,11,Al-Azid's Ghostly Palace,False,26,filled
+T,Artifacts,,12-17,12,17,Alchemist's Apparatus,False,53,filled
+T,Artifacts,,18-23,18,23,All-Knowing Eye of Yasmin Sira,False,451,filled
+T,Artifacts,,24-29,24,29,Apparatus of Dreadful Construction,False,56,filled
+T,Artifacts,,30-35,30,35,Armet by Wayland,False,584,filled
+T,Artifacts,,36-41,36,41,Artifurnace,False,575,filled
+T,Artifacts,,42-47,42,47,Asmodeus's Ruby Rod,False,1022,filled
+T,Artifacts,,48-52,48,52,Axe of the Dwarf Lords,False,115,filled
+T,Artifacts,,53-58,53,58,Axe of the Emperors,False,116,filled
+T,Artifacts,,59-64,59,64,Baba Yaga's Hut II,False,604; 605,filled
+T,Artifacts,,65-70,65,70,Blackjammer's Cutlass,False,1345,filled
+T,Artifacts,,71-76,71,76,Book of Amon,False,189,filled
+T,Artifacts,,77-82,77,82,Book of Zargos,False,189,filled
+T,Artifacts,,83-88,83,88,Book With No End,False,1149,filled
+T,Artifacts,,89-94,89,94,Bringer of Doom,False,212,filled
+T,Artifacts,,95-99,95,99,Calvan's Bell,False,812,filled
+T,Artifacts,,100-105,100,105,Carven Oak,False,259,filled
+T,Artifacts,,106-111,106,111,Claw of Mighty Simurgh,False,503,filled
+T,Artifacts,,112-117,112,117,Codex of the Infinite Planes II,False,660,filled
+T,Artifacts,,118-123,118,123,Coin of Jisan the Bountiful,False,322,filled
+T,Artifacts,,124-129,124,129,Comb of the Korrigans,False,326,filled
+T,Artifacts,,130-135,130,135,of Chaotic Evil,False,937,filled
+T,Artifacts,,136-141,136,141,of Chaotic Good,False,937,filled
+T,Artifacts,,142-147,142,147,of Chaotic Neutral,False,937,filled
+T,Artifacts,,148-152,148,152,of Lawful Evil,False,934,filled
+T,Artifacts,,153-158,153,158,of Lawful Good,False,933,filled
+T,Artifacts,,159-164,159,164,of Lawful Neutral,False,934,filled
+T,Artifacts,,165-170,165,170,of Neutral,False,935; 937,filled
+T,Artifacts,,171-176,171,176,of Neutral Evil,False,935,filled
+T,Artifacts,,177-182,177,182,of Neutral Good,False,935,filled
+T,Artifacts,,183-188,183,188,Crystal of Light,False,374,filled
+T,Artifacts,,189-194,189,194,Crystal of the Ebon Flame II,False,784,filled
+T,Artifacts,,195-199,195,199,Cup of Al'Akbar,False,352,filled
+T,Artifacts,,200-205,200,205,Daoud's Wondrous Lanthron,False,637,filled
+T,Artifacts,,206-211,206,211,Death Rock,False,1478,filled
+T,Artifacts,,212-217,212,217,Diamond Orb of Tyche,False,941,filled
+T,Artifacts,,218-223,218,223,Ebonbane II,False,1359; 1360,filled
+T,Artifacts,,224-229,224,229,Egg of the Phoenix II,False,440,filled
+T,Artifacts,,230-235,230,235,Eye of Vecna II,False,451,filled
+T,Artifacts,,236-241,236,241,Fiery Brand of Masauwu,False,1453,filled
+T,Artifacts,,242-247,242,247,Fountain of Flame,False,302,filled
+T,Artifacts,,248-252,248,252,Fountain of Tomorrow,False,498,filled
+T,Artifacts,,253-258,253,258,Girdle of Armida,False,530,filled
+T,Artifacts,,259-264,259,264,Girdle of De 'Rah,False,531,filled
+T,Artifacts,,265-270,265,270,Golden Circlet II,False,292,filled
+T,Artifacts,,271-276,271,276,Hammer of Gesen,False,560,filled
+T,Artifacts,,277-282,277,282,Hammer of Kharas,False,560,filled
+T,Artifacts,,283-288,283,288,Hand of Vecna II,False,563; 564,filled
+T,Artifacts,,289-294,289,294,Helmet of Halav,False,607,filled
+T,Artifacts,,295-299,295,299,Helmet of Petra,False,608,filled
+T,Artifacts,,300-305,300,305,Herald of Mei Lung,False,1441,filled
+T,Artifacts,,306-311,306,311,Heward's Mystical Organ,False,1550; 1552,filled
+T,Artifacts,,312-317,312,317,Heward's Mystical Organ II,False,1550; 1552,filled
+T,Artifacts,,318-323,318,323,Holy Grail II,False,275,filled
+T,Artifacts,,324-329,324,329,Horn of Change,False,1545,filled
+T,Artifacts,,330-335,330,335,Humbaba's Glaring Eye,False,451,filled
+T,Artifacts,,336-341,336,341,Hymir's Steaming Cauldron,False,268,filled
+T,Artifacts,,342-346,342,346,Icon of Halav,False,607,filled
+T,Artifacts,,347-352,347,352,Icon of Petra,False,608,filled
+T,Artifacts,,353-358,353,358,Invulnerable Coat of Arnd II,False,315,filled
+T,Artifacts,,359-364,359,364,Iron Bow of Gesen II,False,205,filled
+T,Artifacts,,365-370,365,370,Iron Flask of Tuerny II,False,1484,filled
+T,Artifacts,,371-376,371,376,Ivory Chain of Pao,False,1350,filled
+T,Artifacts,,377-382,377,382,Ivory Plume of Maat,False,227,filled
+T,Artifacts,,383-388,383,388,Jacinth of Inestimable Beauty II,False,621,filled
+T,Artifacts,,389-393,389,393,Johydee's Mask II,False,701,filled
+T,Artifacts,,394-399,394,399,Kuroth's Quill II,False,925,filled
+T,Artifacts,,400-405,400,405,Libram of Zargos,False,664,filled
+T,Artifacts,,406-411,406,411,Mace of St. Cuthbert IV,False,675,filled
+T,Artifacts,,412-417,412,417,Machine of Lum the Mad II,False,682; 684,filled
+T,Artifacts,,418-423,418,423,Mask of Bacchuss,False,698,filled
+T,Artifacts,,424-429,424,429,Master Plan,False,694,filled
+T,Artifacts,,430-435,430,435,Mighty Servant of Leuk-O II,False,720,filled
+T,Artifacts,,436-441,436,441,Milenian Scepter,False,1063,filled
+T,Artifacts,,442-446,442,446,Mirror-Shield of Rheddrian,False,1093,filled
+T,Artifacts,,447-452,447,452,Mjolnir,False,557,filled
+T,Artifacts,,453-458,453,458,Monkey Fist of Ha'chao,False,542,filled
+T,Artifacts,,459-464,459,464,Monocle of Bagthalos,False,739,filled
+T,Artifacts,,465-470,465,470,Necklace of Uladu,False,750,filled
+T,Artifacts,,471-476,471,476,Obsidian Man of Urik,False,600,filled
+T,Artifacts,,477-482,477,482,of Chaotic Evil,False,937,filled
+T,Artifacts,,483-488,483,488,of Chaotic Good,False,937,filled
+T,Artifacts,,489-493,489,493,of Chaotic Neutral,False,937,filled
+T,Artifacts,,494-499,494,499,of Dragonkind II,False,785; 786; 795,filled
+T,Artifacts,,500-505,500,505,of the Dragon,False,1448,filled
+T,Artifacts,,506-511,506,511,of the Dragonette,False,785; 794,filled
+T,Artifacts,,512-517,512,517,of the Drake,False,794,filled
+T,Artifacts,,518-523,518,523,of the Elder Wyrm,False,794,filled
+T,Artifacts,,524-529,524,529,of the Eternal Dragon,False,1448,filled
+T,Artifacts,,530-535,530,535,of the Firedrake,False,794,filled
+T,Artifacts,,536-540,536,540,of the Gold-Hoarder,False,1324,filled
+T,Artifacts,,541-546,541,546,of the Great Serpent,False,675; 681,filled
+T,Artifacts,,547-552,547,552,of the Hatchling,False,785; 794,filled
+T,Artifacts,,553-558,553,558,of the Scaled,False,794,filled
+T,Artifacts,,559-564,559,564,of the Serpent,False,153,filled
+T,Artifacts,,565-570,565,570,of the Wyrmkin,False,794,filled
+T,Artifacts,,571-576,571,576,of Lawful Evil,False,934,filled
+T,Artifacts,,577-582,577,582,of Lawful Good,False,933,filled
+T,Artifacts,,583-588,583,588,of Lawful Neutral,False,934,filled
+T,Artifacts,,589-593,589,593,of Neutral,False,935; 937,filled
+T,Artifacts,,594-599,594,599,of Neutral Evil,False,935,filled
+T,Artifacts,,600-605,600,605,of Neutral Good,False,935,filled
+T,Artifacts,,606-611,606,611,Ortnit's Lance of Doom,False,648,filled
+T,Artifacts,,612-617,612,617,Peaceful Periapt of Pax,False,825,filled
+T,Artifacts,,618-623,618,623,Pileus,False,251,filled
+T,Artifacts,,624-629,624,629,Porpherio's Garden Pool,False,848,filled
+T,Artifacts,,630-635,630,635,Pyramid Energy,False,919,filled
+T,Artifacts,,636-640,636,640,Queen Ehlissa's Nightingale,False,458,filled
+T,Artifacts,,641-646,641,646,Queen Ehlissa's Nightingale II,False,458,filled
+T,Artifacts,,647-655,647,655,Queen's Eye,False,458,filled
+T,Artifacts,,656-662,656,662,Rainbow Scarf of Sinbad,False,931; 1059,filled
+T,Artifacts,,663-669,663,669,Red Chariot of Agni,False,385,filled
+T,Artifacts,,670-676,670,676,Regalia of Might,False,933; 938,filled
+T,Artifacts,,677-682,677,682,Crown of Evil,False,941,filled
+T,Artifacts,,683-687,683,687,Crown of Good,False,941,filled
+T,Artifacts,,688-693,688,693,Crown of Neutrality,False,337,filled
+T,Artifacts,,694-699,694,699,Orb of Evil,False,941,filled
+T,Artifacts,,700-705,700,705,Orb of Good,False,941,filled
+T,Artifacts,,706-711,706,711,Orb of Neutrality,False,934,filled
+T,Artifacts,,712-717,712,717,Scepter of Evil,False,944,filled
+T,Artifacts,,718-723,718,723,Scepter of Good,False,944,filled
+T,Artifacts,,724-729,724,729,Scepter of Neutrality,False,935,filled
+T,Artifacts,,730-735,730,735,Rift Spanner,False,945,filled
+T,Artifacts,,736-740,736,740,Ring of Gax,False,1001,filled
+T,Artifacts,,741-746,741,746,Ring of Gaxx,False,1001,filled
+T,Artifacts,,747-752,747,752,Rod of Seven Parts,False,1021,filled
+T,Artifacts,,753-758,753,758,Rod of Seven Parts II,False,1021,filled
+T,Artifacts,,759-764,759,764,Rod of Teeth,False,1021,filled
+T,Artifacts,,765-770,765,770,Sacred Grove Horn,False,1546,filled
+T,Artifacts,,771-776,771,776,of Chaotic Evil,False,937,filled
+T,Artifacts,,777-782,777,782,of Chaotic Good,False,937,filled
+T,Artifacts,,783-787,783,787,of Chaotic Neutral,False,937,filled
+T,Artifacts,,788-793,788,793,of Lawful Evil,False,934,filled
+T,Artifacts,,794-799,794,799,of Lawful Good,False,933,filled
+T,Artifacts,,800-805,800,805,of Lawful Neutral,False,934,filled
+T,Artifacts,,806-811,806,811,of Neutral,False,935; 937,filled
+T,Artifacts,,812-817,812,817,of Neutral Evil,False,935,filled
+T,Artifacts,,818-823,818,823,of Neutral Good,False,935,filled
+T,Artifacts,,824-829,824,829,of the Sorcerer-King,False,1064,filled
+T,Artifacts,,830-834,830,834,Seal of Jafar al-Samal,False,1087,filled
+T,Artifacts,,835-840,835,840,Shadow Belt,False,255,filled
+T,Artifacts,,841-846,841,846,Shadowstaff,False,1293,filled
+T,Artifacts,,847-852,847,852,Shard of Sakkrad,False,343,filled
+T,Artifacts,,853-858,853,858,Sibylline Book,False,1239,filled
+T,Artifacts,,859-864,859,864,Silencer of Bodash,False,1396,filled
+T,Artifacts,,865-870,865,870,Stone Scepter of Shih,False,944,filled
+T,Artifacts,,871-876,871,876,Surya's Chariot,False,280,filled
+T,Artifacts,,877-882,877,882,Sword of Kas,False,1387,filled
+T,Artifacts,,883-887,883,887,Sword of Kas II,False,1387,filled
+T,Artifacts,,888-893,888,893,Talisman of Al'Akbar,False,1420,filled
+T,Artifacts,,894-899,894,899,The Apparatus,False,53,filled
+T,Artifacts,,900-905,900,905,The Gauntlet,False,506,filled
+T,Artifacts,,906-911,906,911,The Sentinel,False,544,filled
+T,Artifacts,,912-917,912,917,Throne of the Gods,False,1439,filled
+T,Artifacts,,918-923,918,923,Throne of the Gods II,False,1439,filled
+T,Artifacts,,924-929,924,929,Timepiece of Klorr,False,1436,filled
+T,Artifacts,,930-934,930,934,Tome of Ssu-Ma,False,1441,filled
+T,Artifacts,,935-940,935,940,Tooth of Dalhvar-nar II,False,1451,filled
+T,Artifacts,,941-946,941,946,Tree of Life,False,905,filled
+T,Artifacts,,947-952,947,952,Tree of Life II,False,905,filled
+T,Artifacts,,953-958,953,958,Circlet of Betrayal,False,1458,filled
+T,Artifacts,,959-964,959,964,Coin of Betrayal,False,1458,filled
+T,Artifacts,,965-970,965,970,Dagger of Betrayal,False,359,filled
+T,Artifacts,,971-976,971,976,Verthandi's Invincible Hourglass,False,604,filled
+T,Artifacts,,977-981,977,981,Well of All Heals,False,1318,filled
+T,Artifacts,,982-987,982,987,Wife of Ilmarinen,False,1534,filled
+T,Artifacts,,988-993,988,993,World-Shield Ore,False,1561,filled
+T,Artifacts,,994-1000,994,1000,Ye'Cind's Recorder,False,1556,filled

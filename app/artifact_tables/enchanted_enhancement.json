@@ -1,0 +1,116 @@
+{
+ "entries": [
+  {
+   "roll": "01-10",
+   "type": "Anything Item",
+   "reroll": false
+  },
+  {
+   "roll": "11-20",
+   "type": "Aquatic",
+   "reroll": true
+  },
+  {
+   "roll": "21-30",
+   "type": "Cloaked Wizardry",
+   "reroll": true
+  },
+  {
+   "roll": "31-40",
+   "type": "Lightweight Equipment",
+   "reroll": true
+  },
+  {
+   "roll": "41-50",
+   "type": "Miniature Gear",
+   "reroll": true
+  },
+  {
+   "roll": "51-60",
+   "type": "Polymorphed Gear",
+   "reroll": true
+  },
+  {
+   "roll": "61-70",
+   "type": "Psionic Dampener",
+   "reroll": true
+  },
+  {
+   "roll": "71-80",
+   "type": "Quirk",
+   "reroll": true
+  },
+  {
+   "roll": "81-90",
+   "type": "Racial Enhancements",
+   "reroll": true
+  },
+  {
+   "roll": "91-00",
+   "type": "Weightless Item",
+   "reroll": true
+  }
+ ],
+ "desc": [
+  {
+   "kind": "desc",
+   "type": "Anything Item",
+   "xp": "4,000",
+   "gp": "40,000",
+   "text": "(Unearthed Arcana) A magical item of this sort appears to be any one of the small, rather weak miscellaneous magic items that are more frequently found—typically one with a limited number of usages, although this is not always true. If the possessor commands it to do so, the item suddenly alters itself to become any other miscellaneous magic item except an artifact or relic. This enables the owner to command the item to become some form of horn of Valhalla, for instance. Limitations: No form can ever be repeated. If the item commanded into being is normally destroyed in usage, the anything item is also destroyed. If the item duplicated has a short-term, single-use effect (such as a horn or drums), then the anything item returns to its original form after one use of that power. If the item has a long-term effect (such as a helm of underwater action), the dweomer of the anything item lasts for one day (24 hours). In any case, the item disappears after three uses."
+  },
+  {
+   "kind": "desc",
+   "type": "Aquatic",
+   "xp": "With free action: -25% / Without free action: -50%",
+   "gp": "With free action: -25% / Without free action: -50%",
+   "text": "(DRAGON Magazine 181) Ideal gear for the fledgling underwater adventurer, these are weapons and suits of armor that have their bonuses only underwater. After all, since the PCs are out of their element underwater, they may need advantages they would not need on dry land. Aquatic weapons and armor cost half as much as their normal counterparts. Note that free action is not included in their powers, so an aquatic long sword +1 is still difficult to swing undersea. Free Action: The DM may provide these weapons and armor with free action ability (only while underwater, of course), for an XP value equal to that of a normal, magical weapon or suit of armor. Note that with free action, an aquatic long sword +7 is not difficult to swing undersea."
+  },
+  {
+   "kind": "desc",
+   "type": "Cloaked Wizardry",
+   "xp": "+800",
+   "gp": "+4,000",
+   "text": "(DRAGON Magazine 179) The item is magical but does not radiate a dweomer upon the casting of a detect magic spell (though other divination spells do reveal its true nature). Some items, such as wings of flying or a flask ringed with magical writings, are obviously magical despite their \"cloaks.\""
+  },
+  {
+   "kind": "desc",
+   "type": "Drow Treasure",
+   "xp": "+650",
+   "gp": "+3,250",
+   "text": "(FIEND FOLIO Tome) Cloaks, armor, weapons, and other miscellaneous magical drow treasure have special properties, although they do not radiate magic. The items are made in the strange homeland of the drow, the vast underground cities of carved stone and minerals, places of weird, fantastic beauty inundated with unknown radiations that impart the special properties to drow goods. When these are exposed to direct sunlight, irreversible decay begins and the items become totally useless in 2d6 days. If protected from sunlight, they retain their special properties for 1d20+30 days before becoming normal nonmagical items. If exposed to the radiations of the drow homeland for a period of one week out of every four, the items can remain potent indefinitely. Drow poisons, on the other hand, decay instantly in sunlight and are rendered [text continues beyond slice]"
+  }
+ ],
+ "die": 100,
+ "descriptions": [
+  {
+   "type": "Anything Item",
+   "xp_value": "4,000",
+   "gp_value": "40,000",
+   "source": "Unearthed Arcana",
+   "text": "Appears to be any one of the small, weak magic items (usually with a limited number of usages); it is not always known what commands it will obey."
+  },
+  {
+   "type": "Aquatic",
+   "xp_value": "-25% with free action / -50% without",
+   "gp_value": "-25% / -50%",
+   "source": "DRAGON Magazine 181",
+   "text": "Weapons and armor whose bonuses apply only underwater; cost half of normal counterparts. Free action is not included in their powers."
+  },
+  {
+   "type": "Cloaked Wizardry",
+   "xp_value": "+800",
+   "gp_value": "+4,000",
+   "source": "DRAGON Magazine 179",
+   "text": "The item is magical but does not radiate a dweomer under detect magic (other divination spells reveal its true nature)."
+  },
+  {
+   "type": "Drow Treasure",
+   "xp_value": "+650",
+   "gp_value": "+3,250",
+   "source": "FIEND FOLIO Tome",
+   "text": "Sub-type of Cloaked Wizardry: drow-made magic; irreversible decay begins in sunlight (2d6 days)."
+  }
+ ],
+ "descriptions_note": "Only the first 4 enhancement-type descriptions appear in this PDF (pages 8-22); the other 6 (Lightweight Equipment, Miniature Gear, Polymorphed Gear, Psionic Dampener, Quirk, Racial Enhancements, Weightless Item) continue on the next book page, not included here."
+}

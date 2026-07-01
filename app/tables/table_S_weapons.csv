@@ -1,0 +1,945 @@
+table,category,subcategory,roll_display,roll_low,roll_high,name,reroll,page,page_status
+S3,Weapons,,01,1,1,Enchanted Enhancements,True,21,filled
+S3,Weapons,,02,2,2,Weapon Enhancements,True,1513,filled
+S3,Weapons,,03,3,3,Accelerator,False,25; 596,filled
+S3,Weapons,,04,4,4,Abaris's,False,84,filled
+S3,Weapons,,05,5,5,Acid,False,84,filled
+S3,Weapons,,06,6,6,of Aggravation,False,85,filled
+S3,Weapons,,07,7,7,Antimagic,False,855,filled
+S3,Weapons,,08,8,8,Apollo's,False,85,filled
+S3,Weapons,,09,9,9,of Attraction,False,154,filled
+S3,Weapons,,10,10,10,of Biting,False,85,filled
+S3,Weapons,,11,11,11,Black of Iuz,False,675,filled
+S3,Weapons,,12,12,12,of Blinding,False,86,filled
+S3,Weapons,,13,13,13,of Blinking,False,240,filled
+S3,Weapons,,14,14,14,Bolt of Lightning,False,86,filled
+S3,Weapons,,15,15,15,of Bow-Breaking,False,86,filled
+S3,Weapons,,16,16,16,of Burning,False,1530,filled
+S3,Weapons,,17-18,17,18,of Charming,False,1321,filled
+S3,Weapons,,19,19,19,of Charming II,False,1321,filled
+S3,Weapons,,20,20,20,of Clairaudience,False,953,filled
+S3,Weapons,,21,21,21,of Clairvoyance,False,1510,filled
+S3,Weapons,,22,22,22,of Climbing,False,1043,filled
+S3,Weapons,,23,23,23,of Connection,False,87,filled
+S3,Weapons,,24,24,24,of Curing,False,751,filled
+S3,Weapons,,25,25,25,of Darkness,False,1477,filled
+S3,Weapons,,26,26,26,of Detonation,False,88,filled
+S3,Weapons,,27,27,27,of Direction,False,860,filled
+S3,Weapons,,28,28,28,of Disarming,False,88,filled
+S3,Weapons,,29,29,29,of Disintegration,False,431,filled
+S3,Weapons,,30,30,30,of Dispelling,False,1277,filled
+S3,Weapons,,31,31,31,of Distance,False,176,filled
+S3,Weapons,,32,32,32,of Draconian Slaying,False,88,filled
+S3,Weapons,,33,33,33,Elven,False,74,filled
+S3,Weapons,,34,34,34,of Enchantment,False,1512,filled
+S3,Weapons,,35-36,35,36,of Explosions,False,89,filled
+S3,Weapons,,37,37,37,of Extended Range,False,89,filled
+S3,Weapons,,38,38,38,Faerie Fire,False,89,filled
+S3,Weapons,,39,39,39,of Fire,False,1481,filled
+S3,Weapons,,40,40,40,Fire Seed,False,89,filled
+S3,Weapons,,41,41,41,Fire Trap,False,90,filled
+S3,Weapons,,42,42,42,Flaming,False,90,filled
+S3,Weapons,,43,43,43,of Flying,False,1513,filled
+S3,Weapons,,44,44,44,of Force,False,1482,filled
+S3,Weapons,,45,45,45,of Harm,False,90,filled
+S3,Weapons,,46,46,46,of Holding,False,1514,filled
+S3,Weapons,,47,47,47,of Holding II,False,1514,filled
+S3,Weapons,,48,48,48,of Ice,False,351,filled
+S3,Weapons,,49,49,49,of Illumination,False,1483,filled
+S3,Weapons,,50,50,50,Illusory Missile,False,91,filled
+S3,Weapons,,51,51,51,of Justice,False,386,filled
+S3,Weapons,,52-53,52,53,of Law,False,156,filled
+S3,Weapons,,54,54,54,of Light,False,374,filled
+S3,Weapons,,55,55,55,of Lighting,False,374,filled
+S3,Weapons,,56,56,56,of Lightning,False,633,filled
+S3,Weapons,,57,57,57,Lycanthrope Slayer,False,92,filled
+S3,Weapons,,58,58,58,Maglubiyet's Wounding,False,92,filled
+S3,Weapons,,59,59,59,of Misdirection,False,92,filled
+S3,Weapons,,60,60,60,Missile Weapon of Accuracy,False,92,filled
+S3,Weapons,,61,61,61,Missile Weapon of Distance,True,92,filled
+S3,Weapons,,62,62,62,of Multiplicity,False,92,filled
+S3,Weapons,,63,63,63,Nilbog,False,92,filled
+S3,Weapons,,64,64,64,Oberon's of Subduing,False,92,filled
+S3,Weapons,,65,65,65,Oberon's of Slaying,False,93,filled
+S3,Weapons,,66,66,66,of Paralyzation,False,1491,filled
+S3,Weapons,,67,67,67,of Penetrating,False,374,filled
+S3,Weapons,,68,68,68,of Penetration,False,557,filled
+S3,Weapons,,69,69,69,of Perseverance,False,93,filled
+S3,Weapons,,70-71,70,71,of Piercing,False,93,filled
+S3,Weapons,,72,72,72,of Polymorphing,False,1491,filled
+S3,Weapons,,73,73,73,of Pursuit,False,94,filled
+S3,Weapons,,74,74,74,Quarrel of Biting (Acid),False,95,filled
+S3,Weapons,,75,75,75,Quarrel of Biting (Normal),False,95,filled
+S3,Weapons,,76,76,76,Quarrel of Biting (Poison),False,151,filled
+S3,Weapons,,77,77,77,Red,False,807,filled
+S3,Weapons,,78,78,78,of Refilling,False,374,filled
+S3,Weapons,,79,79,79,of Returning,False,527,filled
+S3,Weapons,,80,80,80,of Rock Piercing,False,95,filled
+S3,Weapons,,81,81,81,of Roping,False,96,filled
+S3,Weapons,,82,82,82,of Scent Detection,False,96,filled
+S3,Weapons,,83,83,83,of Screaming,False,96,filled
+S3,Weapons,,84,84,84,of Screaming II,False,96,filled
+S3,Weapons,,85,85,85,of Seeking,False,374,filled
+S3,Weapons,,86,86,86,of Seeking II,False,374,filled
+S3,Weapons,,87,87,87,of Set,False,97,filled
+S3,Weapons,,88-89,88,89,of Signaling,False,633,filled
+S3,Weapons,,90,90,90,of Silence,False,704; 705,filled
+S3,Weapons,,91,91,91,of Sinking,False,374,filled
+S3,Weapons,,92,92,92,of Slaying,False,375,filled
+S3,Weapons,,93,93,93,of Slaying II,False,375,filled
+S3,Weapons,,94,94,94,of Slaying III,False,375,filled
+S3,Weapons,,95,95,95,of Slaying IV,False,375,filled
+S3,Weapons,,96,96,96,Snake,False,910,filled
+S3,Weapons,,97,97,97,of Speaking,False,375,filled
+S3,Weapons,,98,98,98,Stun Bolt,False,100,filled
+S3,Weapons,,99,99,99,of Stunning,False,822,filled
+S3,Weapons,,100,100,100,Stirge's Bite,False,100,filled
+S3,Weapons,,101,101,101,of Teleporting,False,375,filled
+S3,Weapons,,102,102,102,of Transporting,False,101,filled
+S3,Weapons,,103,103,103,Wooden,False,101,filled
+S3,Weapons,,104,104,104,of Wounding,False,1331,filled
+S3,Weapons,,105-106,105,106,Arrowhead of Marking,False,101,filled
+S3,Weapons,,107,107,107,Agni's Red,False,111,filled
+S3,Weapons,,108,108,108,Ama-Tsu-Mara's Vorpal,False,112,filled
+S3,Weapons,,109,109,109,Arumdina,False,112,filled
+S3,Weapons,,110,110,110,Azuredge,False,112,filled
+S3,Weapons,,111,111,111,Brihaspati's,False,114,filled
+S3,Weapons,,112,112,112,of Brotherhood,False,114,filled
+S3,Weapons,,113,113,113,Callarduran Smoothhands's,False,72,filled
+S3,Weapons,,114,114,114,Cursed Battle,False,114,filled
+S3,Weapons,,115,115,115,of Cutting,False,115,filled
+S3,Weapons,,116,116,116,Deathstriker,False,115,filled
+S3,Weapons,,117,117,117,of the Dwarvish Lords,False,115,filled
+S3,Weapons,,118,118,118,of Enchantment,False,1512,filled
+S3,Weapons,,119,119,119,Frostreaver,False,117,filled
+S3,Weapons,,120,120,120,Garl Glittergold's Battle,False,118,filled
+S3,Weapons,,121,121,121,Gnarldan's Battle,False,118,filled
+S3,Weapons,,122,122,122,Hastseltsi's Hand,False,118,filled
+S3,Weapons,,123-124,123,124,Hastseltsi's Hand,False,118,filled
+S3,Weapons,,125,125,125,of Hurling,False,118,filled
+S3,Weapons,,126,126,126,Lortz's Battle,False,118,filled
+S3,Weapons,,127,127,127,Maglubiyet's,False,118,filled
+S3,Weapons,,128,128,128,Might of Heroes,False,118,filled
+S3,Weapons,,129,129,129,Molydeus's,False,118,filled
+S3,Weapons,,130,130,130,Motopua,False,119,filled
+S3,Weapons,,131,131,131,Nanna Sin's Black,False,119,filled
+S3,Weapons,,132,132,132,Nomog-Geaya's Hand,False,119,filled
+S3,Weapons,,133,133,133,Pickaxe of Piercing,False,119,filled
+S3,Weapons,,134,134,134,Rocksplitter,False,119,filled
+S3,Weapons,,135,135,135,Sampsa's Golden,False,119,filled
+S3,Weapons,,136,136,136,Shag's Battle,False,119,filled
+S3,Weapons,,137,137,137,Sulward's,False,119,filled
+S3,Weapons,,138,138,138,Thor's Kiss,False,120,filled
+S3,Weapons,,139,139,139,Throwing,False,120,filled
+S3,Weapons,,140,140,140,Thumb Height Man's,False,120,filled
+S3,Weapons,,141-142,141,142,Torshorak,False,120,filled
+S3,Weapons,,143,143,143,Tunnelrunner's,False,120,filled
+S3,Weapons,,144,144,144,Withering Pickaxe,False,122,filled
+S3,Weapons,,145,145,145,of the Woodman,False,122,filled
+S3,Weapons,,146,146,146,Zebulon's of Leaving,False,122,filled
+S3,Weapons,,147,147,147,Zzzzzz's of Snoring,False,122,filled
+S3,Weapons,,148,148,148,Heavy,False,,not_in_index
+S3,Weapons,,149,149,149,Light,False,374,filled
+S3,Weapons,,150,150,150,Medium,False,1099,filled
+S3,Weapons,,151,151,151,Bigby's Demanding,False,1146,filled
+S3,Weapons,,152,152,152,Magical,False,1284,filled
+S3,Weapons,,153,153,153,of Accuracy,False,176,filled
+S3,Weapons,,154,154,154,of Distance,False,176,filled
+S3,Weapons,,155,155,155,Hawk,False,176,filled
+S3,Weapons,,156,156,156,Bombard,False,182,filled
+S3,Weapons,,157,157,157,Aasimon,False,202,filled
+S3,Weapons,,158-159,158,159,of Accuracy,False,176,filled
+S3,Weapons,,160,160,160,Ajagava,False,202,filled
+S3,Weapons,,161,161,161,of Anshan,False,202,filled
+S3,Weapons,,162,162,162,Black,False,675,filled
+S3,Weapons,,163,163,163,Brihaspati's,False,114,filled
+S3,Weapons,,164,164,164,of the Centaurs,False,203,filled
+S3,Weapons,,165,165,165,Corellon's Long,False,203,filled
+S3,Weapons,,166,166,166,Crossbow of Accuracy,False,163,filled
+S3,Weapons,,167,167,167,Crossbow of Angling,False,208,filled
+S3,Weapons,,168,168,168,Crossbow of Distance,False,208,filled
+S3,Weapons,,169,169,169,Crossbow of Enchantment,False,1512,filled
+S3,Weapons,,170,170,170,Crossbow of Klee,False,210,filled
+S3,Weapons,,171,171,171,Crossbow of Multiplication,False,208,filled
+S3,Weapons,,172,172,172,Crossbow of Speed,False,210,filled
+S3,Weapons,,173,173,173,Crossbow of Speed II,False,210,filled
+S3,Weapons,,174,174,174,Cursed,False,1071; 1072,filled
+S3,Weapons,,175,175,175,of Distance,False,176,filled
+S3,Weapons,,176-177,176,177,of Doubling,False,204,filled
+S3,Weapons,,178,178,178,Eagle,False,959,filled
+S3,Weapons,,179,179,179,of Enchantment,False,1512,filled
+S3,Weapons,,180,180,180,Firebow,False,204,filled
+S3,Weapons,,181,181,181,Fire Teeth,False,205,filled
+S3,Weapons,,182,182,182,of the Forest,False,205,filled
+S3,Weapons,,183,183,183,Gem,False,529,filled
+S3,Weapons,,184,184,184,Goblins' Bane,False,205,filled
+S3,Weapons,,185,185,185,Hastsezini's,False,205,filled
+S3,Weapons,,186,186,186,Hawk,False,176,filled
+S3,Weapons,,187,187,187,Heartseeker,False,1130,filled
+S3,Weapons,,188,188,188,of Heartseeking,False,206,filled
+S3,Weapons,,189,189,189,of Vampire Slaying,False,210,filled
+S3,Weapons,,190,190,190,Heracles's,False,206,filled
+S3,Weapons,,191,191,191,Hiatea's Long,False,206,filled
+S3,Weapons,,192,192,192,Ice Fang,False,206,filled
+S3,Weapons,,193,193,193,Illusory,False,374,filled
+S3,Weapons,,194-195,194,195,Indra's,False,206,filled
+S3,Weapons,,196,196,196,Iron of Gesen,False,207,filled
+S3,Weapons,,197,197,197,Joukahainen's Crossbow,False,208,filled
+S3,Weapons,,198,198,198,Last Shot,False,208,filled
+S3,Weapons,,199,199,199,of Levitation,False,483,filled
+S3,Weapons,,200,200,200,of Lir,False,208,filled
+S3,Weapons,,201,201,201,of Marksmanship,False,209,filled
+S3,Weapons,,202,202,202,of Neverending Arrows,False,209,filled
+S3,Weapons,,203,203,203,Oberon's,False,1386,filled
+S3,Weapons,,204,204,204,Odin's,False,1386,filled
+S3,Weapons,,205,205,205,Phantom,False,1387,filled
+S3,Weapons,,206,206,206,Rudra's,False,209,filled
+S3,Weapons,,207,207,207,Sarnge,False,209,filled
+S3,Weapons,,208,208,208,Shichi's Daikyu,False,209,filled
+S3,Weapons,,209,209,209,Solonor Thelandira's,False,210,filled
+S3,Weapons,,210,210,210,of Speed,False,210,filled
+S3,Weapons,,211-212,211,212,Underwater Crossbow,False,208,filled
+S3,Weapons,,213,213,213,of the Unicorn,False,210,filled
+S3,Weapons,,214,214,214,Valis's,False,210,filled
+S3,Weapons,,215,215,215,of Vampire Slaying,False,210,filled
+S3,Weapons,,216,216,216,of Warning With Curse,False,210,filled
+S3,Weapons,,217,217,217,of Warning Without Curse,False,210,filled
+S3,Weapons,,218,218,218,Light,False,374,filled
+S3,Weapons,,219,219,219,Medium,False,1099,filled
+S3,Weapons,,220,220,220,Heavy,False,,not_in_index
+S3,Weapons,,221,221,221,Aegir's,False,314,filled
+S3,Weapons,,222,222,222,Bronzewood Cudgel,False,314,filled
+S3,Weapons,,223,223,223,Daghdha's,False,314,filled
+S3,Weapons,,224,224,224,Druid's Cudgel,False,314,filled
+S3,Weapons,,225,225,225,Fire's,False,1481,filled
+S3,Weapons,,226,226,226,Great Stone,False,314,filled
+S3,Weapons,,227,227,227,Grolantor's,False,314,filled
+S3,Weapons,,228,228,228,Crutch of Lightning,False,341,filled
+S3,Weapons,,229-230,229,230,Abbathor's,False,69,filled
+S3,Weapons,,231,231,231,Alignment Detection,False,425,filled
+S3,Weapons,,232,232,232,Aphrodite's,False,356,filled
+S3,Weapons,,233,233,233,Armor Piercing,False,356,filled
+S3,Weapons,,234,234,234,Baravar Cloakshadow's,False,357,filled
+S3,Weapons,,235,235,235,of Blackflame,False,357,filled
+S3,Weapons,,236,236,236,Blade of Banishing,False,367,filled
+S3,Weapons,,237,237,237,Bladestar,False,357,filled
+S3,Weapons,,238,238,238,Brandobaris's,False,358,filled
+S3,Weapons,,239,239,239,Buckle Knife,False,358,filled
+S3,Weapons,,240,240,240,Buckler Knife,False,358,filled
+S3,Weapons,,241,241,241,Ceremonial,False,359,filled
+S3,Weapons,,242,242,242,Chih-Nii's,False,359,filled
+S3,Weapons,,243,243,243,Chill Blade,False,359,filled
+S3,Weapons,,244,244,244,of Concealment,False,612,filled
+S3,Weapons,,245,245,245,of Defiance,False,359,filled
+S3,Weapons,,246,246,246,Dolphins' Bane,False,359,filled
+S3,Weapons,,247-248,247,248,of Doomwarding,False,359,filled
+S3,Weapons,,249,249,249,Dragon Fang,False,360,filled
+S3,Weapons,,250,250,250,Dragonfang,False,360,filled
+S3,Weapons,,251,251,251,Elven,False,74,filled
+S3,Weapons,,252,252,252,of the Evil Eye,False,360,filled
+S3,Weapons,,253,253,253,Eviscerator,False,360,filled
+S3,Weapons,,254,254,254,Fang,False,360,filled
+S3,Weapons,,255,255,255,Fang of the Nosferatu,False,361,filled
+S3,Weapons,,256,256,256,Flying,False,1513,filled
+S3,Weapons,,257,257,257,Flying II,False,1513,filled
+S3,Weapons,,258,258,258,Freya's Fiery,False,363,filled
+S3,Weapons,,259,259,259,Frigga's,False,363,filled
+S3,Weapons,,260,260,260,Golemblight,False,363,filled
+S3,Weapons,,261,261,261,Grimwald's,False,363,filled
+S3,Weapons,,262,262,262,Guardian Blade,False,1373,filled
+S3,Weapons,,263,263,263,Hastseltsi's Throwing,False,364,filled
+S3,Weapons,,264-265,264,265,Hecate's,False,364,filled
+S3,Weapons,,266,266,266,Hornblade (Knife size),False,1375,filled
+S3,Weapons,,267,267,267,Hornblade (Dagger size),False,359,filled
+S3,Weapons,,268,268,268,of Illusory Metal,False,364,filled
+S3,Weapons,,269,269,269,of Impaling,False,364,filled
+S3,Weapons,,270,270,270,Iyarim's Flying,False,1513,filled
+S3,Weapons,,271,271,271,Jump,False,365,filled
+S3,Weapons,,272,272,272,Kiaransalee's,False,365,filled
+S3,Weapons,,273,273,273,Knife of Continual Sharpness,True,365,filled
+S3,Weapons,,274,274,274,Knife of Sharpness,False,366,filled
+S3,Weapons,,275,275,275,Koalinth Slayer,False,366,filled
+S3,Weapons,,276,276,276,Loki's Envenomed,False,366,filled
+S3,Weapons,,277,277,277,Longtooth,False,366,filled
+S3,Weapons,,278,278,278,Mageslayer,False,366,filled
+S3,Weapons,,279,279,279,of the Magius,False,1284; 1285,filled
+S3,Weapons,,280,280,280,Mervic's,False,366,filled
+S3,Weapons,,281,281,281,Nut's Black,False,366,filled
+S3,Weapons,,282-283,282,283,of Quickness,False,366,filled
+S3,Weapons,,284,284,284,Rabbitslayer,False,367,filled
+S3,Weapons,,285,285,285,Random Target,False,367,filled
+S3,Weapons,,286,286,286,Resource,False,367,filled
+S3,Weapons,,287,287,287,Rust Blade,False,367,filled
+S3,Weapons,,288,288,288,Rutterkin Sling Blade,False,368,filled
+S3,Weapons,,289,289,289,Sahuagin Dolphin,False,368,filled
+S3,Weapons,,290,290,290,of Set,False,97,filled
+S3,Weapons,,291,291,291,Soma's,False,368,filled
+S3,Weapons,,292,292,292,of Sounding,False,368,filled
+S3,Weapons,,293,293,293,Speaking,False,375,filled
+S3,Weapons,,294,294,294,Spider Fang,False,369,filled
+S3,Weapons,,295,295,295,Sung Chiang's,False,369,filled
+S3,Weapons,,296,296,296,of Throwing,False,120,filled
+S3,Weapons,,297,297,297,of Throwing II,False,120,filled
+S3,Weapons,,298,298,298,Throwing of Returning,False,369,filled
+S3,Weapons,,299,299,299,Tooth of Torm,False,369,filled
+S3,Weapons,,300-301,300,301,of Truth,False,893,filled
+S3,Weapons,,302,302,302,Tufala's Jambiya,False,370,filled
+S3,Weapons,,303,303,303,Tvashtri's,False,370,filled
+S3,Weapons,,304,304,304,of Vengeance,False,370,filled
+S3,Weapons,,305,305,305,of Venom,False,366; 371; 1375,filled
+S3,Weapons,,306,306,306,Werebane,False,371,filled
+S3,Weapons,,307,307,307,Xochiquetzal's,False,371,filled
+S3,Weapons,,308,308,308,Yama's,False,371,filled
+S3,Weapons,,309,309,309,of Biting,False,85,filled
+S3,Weapons,,310,310,310,of Blinking,False,240,filled
+S3,Weapons,,311,311,311,of Branding,False,372,filled
+S3,Weapons,,312,312,312,of Charming,False,1321,filled
+S3,Weapons,,313,313,313,of Climbing,False,1043,filled
+S3,Weapons,,314,314,314,of Curing,False,751,filled
+S3,Weapons,,315,315,315,Death,False,1478,filled
+S3,Weapons,,316,316,316,Death II,False,1478,filled
+S3,Weapons,,317-318,317,318,of Disarming,False,88,filled
+S3,Weapons,,319,319,319,of Dispelling,False,1277,filled
+S3,Weapons,,320,320,320,of Flying,False,1513,filled
+S3,Weapons,,321,321,321,of Homing,False,373,filled
+S3,Weapons,,322,322,322,of the Hornets' Nest,False,373,filled
+S3,Weapons,,323,323,323,Illusory Missiles,False,91,filled
+S3,Weapons,,324,324,324,of Light,False,374,filled
+S3,Weapons,,325,325,325,of Lighting,False,374,filled
+S3,Weapons,,326,326,326,of Penetrating,False,374,filled
+S3,Weapons,,327,327,327,of Refilling,False,374,filled
+S3,Weapons,,328,328,328,of Screaming,False,96,filled
+S3,Weapons,,329,329,329,of Seeking,False,374,filled
+S3,Weapons,,330,330,330,of Sinking,False,374,filled
+S3,Weapons,,331,331,331,of Slaying,False,375,filled
+S3,Weapons,,332,332,332,of Speaking,False,375,filled
+S3,Weapons,,333,333,333,of Stunning,False,822,filled
+S3,Weapons,,334,334,334,Svirfnebli,False,375,filled
+S3,Weapons,,335-336,335,336,of Teleporting,False,375,filled
+S3,Weapons,,337,337,337,of Transporting,False,101,filled
+S3,Weapons,,338,338,338,of Wounding,False,1331,filled
+S3,Weapons,,339,339,339,Discus of Disenchantment,False,767,filled
+S3,Weapons,,340,340,340,Dimensional Mine,False,447,filled
+S3,Weapons,,341,341,341,Dimensional Mine II,False,447,filled
+S3,Weapons,,342,342,342,Ellister's Dimensional Mine,False,447,filled
+S3,Weapons,,343,343,343,Helm Bomb,False,574; 584,filled
+S3,Weapons,,344,344,344,Spelljamming Mine,False,448,filled
+S3,Weapons,,345,345,345,Wethilion's Time Bomb,False,449,filled
+S3,Weapons,,346,346,346,Bael's Morning Star,False,675,filled
+S3,Weapons,,347,347,347,Bargrivyek's,False,485,filled
+S3,Weapons,,348,348,348,Battle Star,False,485,filled
+S3,Weapons,,349,349,349,of the Desert Kings,False,485,filled
+S3,Weapons,,350,350,350,Dragonflail,False,487,filled
+S3,Weapons,,351,351,351,Fleeting,False,487,filled
+S3,Weapons,,352,352,352,Morning Star of Detection,False,488,filled
+S3,Weapons,,353-354,353,354,Multiple Rod of Dancing,False,488,filled
+S3,Weapons,,355,355,355,Osiris's Round,False,1288,filled
+S3,Weapons,,356,356,356,Pharaoh's,False,488,filled
+S3,Weapons,,357,357,357,Gnomish Sweeper,False,546,filled
+S3,Weapons,,358,358,358,Aegis-Fang,False,551,filled
+S3,Weapons,,359,359,359,Air,False,697,filled
+S3,Weapons,,360,360,360,Colgomere's of Thunderbolts,False,552,filled
+S3,Weapons,,361,361,361,Delzoun's Fist,False,552,filled
+S3,Weapons,,362,362,362,Dwarf Thrower,False,552,filled
+S3,Weapons,,363,363,363,Dwarf Thrower II,False,552,filled
+S3,Weapons,,364,364,364,Flandal Steelskin's,False,58,filled
+S3,Weapons,,365,365,365,Gaerdal Ironhand's,False,553,filled
+S3,Weapons,,366,366,366,Goibhniu's War,False,554,filled
+S3,Weapons,,367,367,367,Hephaestus's,False,554,filled
+S3,Weapons,,368,368,368,Kostchtchie's,False,556,filled
+S3,Weapons,,369,369,369,Kostchtchie's II,False,556,filled
+S3,Weapons,,370-371,370,371,of Lull,False,,not_in_index
+S3,Weapons,,372,372,372,Mallet of Luck,False,556,filled
+S3,Weapons,,373,373,373,Maul of the Titans,False,556,filled
+S3,Weapons,,374,374,374,Mjolnir II,False,557,filled
+S3,Weapons,,375,375,375,of Nailing,False,557,filled
+S3,Weapons,,376,376,376,Nai No Kami's,False,557,filled
+S3,Weapons,,377,377,377,of Penetration,False,557,filled
+S3,Weapons,,378,378,378,Runehammer,False,568,filled
+S3,Weapons,,379,379,379,of Silence,False,704; 705,filled
+S3,Weapons,,380,380,380,Storm,False,681,filled
+S3,Weapons,,381,381,381,Stronmaus's of Thunderbolts,False,551; 558,filled
+S3,Weapons,,382,382,382,of Thunderbolts,False,551; 558,filled
+S3,Weapons,,383,383,383,of Vengence,False,558,filled
+S3,Weapons,,384,384,384,of Vitroin,False,558,filled
+S3,Weapons,,385,385,385,Whelm,False,559,filled
+S3,Weapons,,386,386,386,Winged,False,559,filled
+S3,Weapons,,387,387,387,Magical,False,1284,filled
+S3,Weapons,,388-389,388,389,Accelerator,False,25; 596,filled
+S3,Weapons,,390,390,390,Ballista,False,150,filled
+S3,Weapons,,391,391,391,Bombard,False,182,filled
+S3,Weapons,,392,392,392,Catapult,False,266,filled
+S3,Weapons,,393,393,393,Great Bombard,False,675; 681,filled
+S3,Weapons,,394,394,394,Greek Fire,False,1481,filled
+S3,Weapons,,395,395,395,Jettison Medium,False,624,filled
+S3,Weapons,,396,396,396,Cursed,False,1071; 1072,filled
+S3,Weapons,,397,397,397,of Distance,False,176,filled
+S3,Weapons,,398,398,398,Hruggek's of Lightning,False,623,filled
+S3,Weapons,,399,399,399,Huitzilopochtli's,False,623,filled
+S3,Weapons,,400,400,400,of Lightning,False,633,filled
+S3,Weapons,,401,401,401,of Piercing,False,93,filled
+S3,Weapons,,402,402,402,Sunbolt,False,624,filled
+S3,Weapons,,403,403,403,Light Magical,False,374,filled
+S3,Weapons,,404,404,404,Medium Magical,False,1284,filled
+S3,Weapons,,405,405,405,Heavy Magical,False,1284,filled
+S3,Weapons,,406-407,406,407,Light Magical II,False,374,filled
+S3,Weapons,,408,408,408,Medium Magical II,False,1284,filled
+S3,Weapons,,409,409,409,Heavy Magical II,False,1284,filled
+S3,Weapons,,410,410,410,Anhur's,False,647,filled
+S3,Weapons,,411,411,411,Copper,False,321,filled
+S3,Weapons,,412,412,412,Death,False,1478,filled
+S3,Weapons,,413,413,413,Footman Dragonlance,False,648,filled
+S3,Weapons,,414,414,414,Mounted Dragonlance,False,649,filled
+S3,Weapons,,415,415,415,of Fire,False,1481,filled
+S3,Weapons,,416,416,416,Hastsezini's Lance of,False,650,filled
+S3,Weapons,,417,417,417,Izanagi's,False,648,filled
+S3,Weapons,,418,418,418,Lesser Footman's Dragonlance,False,649,filled
+S3,Weapons,,419,419,419,Lesser Mounted Dragonlance,False,649,filled
+S3,Weapons,,420,420,420,of Piercing,False,93,filled
+S3,Weapons,,421,421,421,Puchan's Golden,False,649,filled
+S3,Weapons,,422,422,422,Tribal,False,649,filled
+S3,Weapons,,423-424,423,424,True Dragonlance,False,649,filled
+S3,Weapons,,425,425,425,Venom,False,366; 371; 1375,filled
+S3,Weapons,,426,426,426,Wind's,False,466,filled
+S3,Weapons,,427,427,427,Astral Deva,False,675,filled
+S3,Weapons,,428,428,428,Bael's Morning Star,False,675,filled
+S3,Weapons,,429,429,429,Berronar Truesilver's,False,675,filled
+S3,Weapons,,430,430,430,Black,False,675,filled
+S3,Weapons,,431,431,431,of Crushing,False,675,filled
+S3,Weapons,,432,432,432,of Darkness,False,1477,filled
+S3,Weapons,,433,433,433,Diamond,False,205,filled
+S3,Weapons,,434,434,434,of Disruption,False,676,filled
+S3,Weapons,,435,435,435,Driver,False,676,filled
+S3,Weapons,,436,436,436,Expeller,False,676,filled
+S3,Weapons,,437,437,437,Great Golden of the North,False,675; 681,filled
+S3,Weapons,,438,438,438,Great Holy Icon,False,675; 681,filled
+S3,Weapons,,439,439,439,Hruggek's Morning Star,False,677,filled
+S3,Weapons,,440,440,440,Ironstar,False,677,filled
+S3,Weapons,,441-442,441,442,Mace-Wand,False,1480,filled
+S3,Weapons,,443,443,443,Memnor's Morning Star,False,677,filled
+S3,Weapons,,444,444,444,Muamman Duathal's,False,677,filled
+S3,Weapons,,445,445,445,Nebulun's,False,677,filled
+S3,Weapons,,446,446,446,Nightbringer,False,678,filled
+S3,Weapons,,447,447,447,of Pain,False,678,filled
+S3,Weapons,,448,448,448,Raiden's,False,678,filled
+S3,Weapons,,449,449,449,Shadowcaster,False,678,filled
+S3,Weapons,,450,450,450,Skull,False,705,filled
+S3,Weapons,,451,451,451,of Spellwarding,False,678,filled
+S3,Weapons,,452,452,452,of St. Cuthbert,False,679; 670,filled
+S3,Weapons,,453,453,453,of St. Cuthbert II,False,679; 670,filled
+S3,Weapons,,454,454,454,of St. Cuthbert III,False,679; 670,filled
+S3,Weapons,,455,455,455,Staff-Mace,False,1278; 1279; 1280,filled
+S3,Weapons,,456,456,456,Storm Star,False,681,filled
+S3,Weapons,,457,457,457,Tadrond's,False,681,filled
+S3,Weapons,,458,458,458,Undeadbane,False,681,filled
+S3,Weapons,,459-460,459,460,Undeadbane II,False,681,filled
+S3,Weapons,,461,461,461,Varuna's,False,682,filled
+S3,Weapons,,462,462,462,Warstar of the Manticore,False,682,filled
+S3,Weapons,,463,463,463,Dumathoin's,False,709,filled
+S3,Weapons,,464,464,464,of the Titans,False,99,filled
+S3,Weapons,,465,465,465,Ashley's of Entrapment,False,755,filled
+S3,Weapons,,466,466,466,Drag,False,756,filled
+S3,Weapons,,467,467,467,of Entrapment,False,234,filled
+S3,Weapons,,468,468,468,of Fishing,False,821,filled
+S3,Weapons,,469,469,469,Hare,False,756,filled
+S3,Weapons,,470,470,470,Hiatea's of Weakness,False,1006,filled
+S3,Weapons,,471,471,471,Hiatea's of Feeblemind,False,756,filled
+S3,Weapons,,472,472,472,Hiatea's of Petrification,False,1079,filled
+S3,Weapons,,473,473,473,of Landing,False,757,filled
+S3,Weapons,,474,474,474,Loyal of Restraint,False,757,filled
+S3,Weapons,,475,475,475,of Plenty,False,269,filled
+S3,Weapons,,476-477,476,477,of Profit,False,757,filled
+S3,Weapons,,478,478,478,Safety,False,995,filled
+S3,Weapons,,479,479,479,of Snaring,False,757,filled
+S3,Weapons,,480,480,480,of Snaring II,False,757,filled
+S3,Weapons,,481,481,481,of Sneering,False,758,filled
+S3,Weapons,,482,482,482,of Spirit Snaring,False,758,filled
+S3,Weapons,,483,483,483,Webnet,False,758,filled
+S3,Weapons,,484,484,484,Webnet II,False,758,filled
+S3,Weapons,,485,485,485,of Worth,False,758,filled
+S3,Weapons,,486,486,486,Noisesome Spirit Chaser,False,760,filled
+S3,Weapons,,487,487,487,Magical,False,1284,filled
+S3,Weapons,,488,488,488,of Wondrous Transformation,False,43,filled
+S3,Weapons,,489,489,489,Flash,False,809,filled
+S3,Weapons,,490,490,490,Flash II,False,809,filled
+S3,Weapons,,491,491,491,Baphomet's Bardiche,False,841,filled
+S3,Weapons,,492,492,492,Belial's Military Fork,False,841,filled
+S3,Weapons,,493,493,493,Blessed Trident,False,841,filled
+S3,Weapons,,494-495,494,495,of Commanding Water Creatures,False,1505,filled
+S3,Weapons,,496,496,496,Fisher's Trident of Fish Command,False,842,filled
+S3,Weapons,,497,497,497,Fork of Jabbing,False,493; 842,filled
+S3,Weapons,,498,498,498,Fork of Travel,False,491,filled
+S3,Weapons,,499,499,499,Lacedonbane,False,842,filled
+S3,Weapons,,500,500,500,Mephistopheles's Fork,False,842,filled
+S3,Weapons,,501,501,501,Niord's Great Trident,False,842,filled
+S3,Weapons,,502,502,502,O-Wata-Tsu-Mi's Jade Trident,False,842,filled
+S3,Weapons,,503,503,503,Persana's Trident,False,38,filled
+S3,Weapons,,504,504,504,Pitchfork of Penetration,False,843,filled
+S3,Weapons,,505,505,505,Poseidon's Trident,False,843,filled
+S3,Weapons,,506,506,506,Reptilebane,False,843,filled
+S3,Weapons,,507,507,507,Rutterkin Polearm,False,843,filled
+S3,Weapons,,508,508,508,Saw-Toothed Glaive,False,1334,filled
+S3,Weapons,,509,509,509,Trident of Elemental Death,False,1478,filled
+S3,Weapons,,510,510,510,Trident of Fish Control,False,1453,filled
+S3,Weapons,,511,511,511,Trident of Fish Control,False,1453,filled
+S3,Weapons,,512-513,512,513,Trident/Military Fork,False,844,filled
+S3,Weapons,,514,514,514,Trident of the Oljatt Sea,False,844,filled
+S3,Weapons,,515,515,515,Trident of the Phlogiston,False,846,filled
+S3,Weapons,,516,516,516,Trident of Submission,False,846,filled
+S3,Weapons,,517,517,517,Trident of Warning,False,210,filled
+S3,Weapons,,518,518,518,Trident of Yearning,False,846,filled
+S3,Weapons,,519,519,519,Uluth'algh's Gythka,False,846,filled
+S3,Weapons,,520,520,520,Water Elemental Slayer,False,847,filled
+S3,Weapons,,521,521,521,Wave,False,847,filled
+S3,Weapons,,522,522,522,Zezen Washio's Trident,False,847,filled
+S3,Weapons,,523,523,523,of Arrow Storing,False,929,filled
+S3,Weapons,,524,524,524,Black,False,675,filled
+S3,Weapons,,525,525,525,of Ehlonna,False,929,filled
+S3,Weapons,,526,526,526,Frief's Magical,False,929,filled
+S3,Weapons,,527,527,527,Never Empty,False,929,filled
+S3,Weapons,,528,528,528,of Returning,False,527,filled
+S3,Weapons,,529-530,529,530,of Wrong Removing,False,929,filled
+S3,Weapons,,531,531,531,Rutterkin Snap-Tong,False,1048,filled
+S3,Weapons,,532,532,532,Elmarin Cannon Call (Dust),False,414,filled
+S3,Weapons,,533,533,533,Elmarin Cannon Call (Snow),False,1112,filled
+S3,Weapons,,534,534,534,Elmarin Cannon Call (Snow),False,1112,filled
+S3,Weapons,,535,535,535,Elmarin Cannon Call II (Shatter),False,1112,filled
+S3,Weapons,,536,536,536,Elmarin Cannon Call II (Skunk),False,445,filled
+S3,Weapons,,537,537,537,Elmarin Cannon Call II (Termite),False,1112,filled
+S3,Weapons,,538,538,538,Elmarin Cannon Call III (Warp),False,696,filled
+S3,Weapons,,539,539,539,Elmarin Cannon Call III (Shrapnel),False,1112,filled
+S3,Weapons,,540,540,540,Ahto's,False,1114,filled
+S3,Weapons,,541,541,541,Black,False,675,filled
+S3,Weapons,,542,542,542,Cronus's,False,1115,filled
+S3,Weapons,,543,543,543,Gaea's Black,False,1115,filled
+S3,Weapons,,544,544,544,Golden,False,1303,filled
+S3,Weapons,,545,545,545,of the Harvest,False,1115,filled
+S3,Weapons,,546,546,546,of Lycanthropy,False,1115,filled
+S3,Weapons,,547-548,547,548,Scythe of Pain,False,1116,filled
+S3,Weapons,,549,549,549,Blacksling,False,1119,filled
+S3,Weapons,,550,550,550,Bolas of Sunlight,False,1119,filled
+S3,Weapons,,551,551,551,Finniginn's,False,1120,filled
+S3,Weapons,,552,552,552,of Seeking,False,374,filled
+S3,Weapons,,553,553,553,Sling Bullet of Impact,False,1120,filled
+S3,Weapons,,554,554,554,Slingstone of Pulverizing,False,1120,filled
+S3,Weapons,,555,555,555,of Accuracy,False,176,filled
+S3,Weapons,,556,556,556,Ares's,False,1129,filled
+S3,Weapons,,557,557,557,Athena's,False,1129,filled
+S3,Weapons,,558,558,558,Backbiter,False,1129,filled
+S3,Weapons,,559,559,559,Black Kumade,False,1129,filled
+S3,Weapons,,560,560,560,Demeter's,False,1129,filled
+S3,Weapons,,561,561,561,Gae Bolg,False,1129,filled
+S3,Weapons,,562,562,562,Goibhniu's,False,1129,filled
+S3,Weapons,,563,563,563,Gruumsh's,False,1129,filled
+S3,Weapons,,564,564,564,Gungnir,False,1129,filled
+S3,Weapons,,565-566,565,566,Gungnir II,False,1129,filled
+S3,Weapons,,567,567,567,Hadrion's,False,1130,filled
+S3,Weapons,,568,568,568,Heartseeker,False,1130,filled
+S3,Weapons,,569,569,569,Heartseeker II,False,1130,filled
+S3,Weapons,,570,570,570,Heartwood,False,1130,filled
+S3,Weapons,,571,571,571,Hiatea's,False,1131,filled
+S3,Weapons,,572,572,572,of Obliteration,False,1488,filled
+S3,Weapons,,573,573,573,of Panic,False,1555,filled
+S3,Weapons,,574,574,574,of Paralysis,False,1131,filled
+S3,Weapons,,575,575,575,Returning,False,527,filled
+S3,Weapons,,576,576,576,Sharksbane,False,1131,filled
+S3,Weapons,,577,577,577,Smokespear,False,1131,filled
+S3,Weapons,,578,578,578,Sparkling,False,1132,filled
+S3,Weapons,,579,579,579,of Vix,False,1132,filled
+S3,Weapons,,580,580,580,of Yang,False,1132,filled
+S3,Weapons,,581,581,581,Zeus's,False,1132,filled
+S3,Weapons,,582-583,582,583,Blunt,False,1268,filled
+S3,Weapons,,584,584,584,Grappling,False,549,filled
+S3,Weapons,,585,585,585,Piercing,False,93,filled
+S3,Weapons,,586,586,586,Aasimon,False,202,filled
+S3,Weapons,,587,587,587,of Abhorrence of Shape Changers,False,1336,filled
+S3,Weapons,,588,588,588,Adjatha the Drinker,False,1336,filled
+S3,Weapons,,589,589,589,Albruin,False,1337,filled
+S3,Weapons,,590,590,590,Amatsu-Mikaboshi's,False,1339,filled
+S3,Weapons,,591,591,591,Anduvar,False,1339,filled
+S3,Weapons,,592,592,592,Angurvadal,False,1339,filled
+S3,Weapons,,593,593,593,Annacon,False,1339,filled
+S3,Weapons,,594,594,594,Ansanther,False,1340,filled
+S3,Weapons,,595,595,595,The Answerer,False,1340; 1341,filled
+S3,Weapons,,596,596,596,The Answerer II (Rebutter),False,1340; 1341,filled
+S3,Weapons,,597,597,597,The Answerer III (Scather),False,1340; 1341,filled
+S3,Weapons,,598,598,598,The Answerer IV (Replier),False,1340; 1341,filled
+S3,Weapons,,599,599,599,The Answerer V (Retorter),False,1340; 1341,filled
+S3,Weapons,,600-601,600,601,The Answerer VI (Squelcher),False,1340; 1341,filled
+S3,Weapons,,602,602,602,The Answerer VII (Backtalker),False,1341; 1367; 1368,filled
+S3,Weapons,,603,603,603,Anton's Vorpal Blade,False,1341,filled
+S3,Weapons,,604,604,604,of Arak,False,1341,filled
+S3,Weapons,,605,605,605,Arbane's of Agility,False,1342,filled
+S3,Weapons,,606,606,606,Ar'ondight,False,1342,filled
+S3,Weapons,,607,607,607,Arvoreen's,False,1342,filled
+S3,Weapons,,608,608,608,of Arvoreen,False,1342,filled
+S3,Weapons,,609,609,609,of Assassination,False,1342,filled
+S3,Weapons,,610,610,610,Aziza's Scimitar of Dancing,False,1342,filled
+S3,Weapons,,611,611,611,of Azor'alq,False,1343,filled
+S3,Weapons,,612,612,612,of Backstabbing,False,1343,filled
+S3,Weapons,,613,613,613,Balisarda,False,1343,filled
+S3,Weapons,,614,614,614,Balmung,False,1343,filled
+S3,Weapons,,615,615,615,Balor,False,1533,filled
+S3,Weapons,,616,616,616,Bamboo Scimitar,False,1343,filled
+S3,Weapons,,617,617,617,Bane of Enchanted Beings,False,1343,filled
+S3,Weapons,,618-619,618,619,Bane of the North,False,1344,filled
+S3,Weapons,,620,620,620,Barnus's Gnomebane,False,1344,filled
+S3,Weapons,,621,621,621,of Bast,False,1344,filled
+S3,Weapons,,622,622,622,Belenus's,False,1451,filled
+S3,Weapons,,623,623,623,of the Believer,False,1344,filled
+S3,Weapons,,624,624,624,Benn Griff's,False,1344,filled
+S3,Weapons,,625,625,625,Berserk Dancing,False,1344,filled
+S3,Weapons,,626,626,626,Black,False,675,filled
+S3,Weapons,,627,627,627,Black Flame,False,1345,filled
+S3,Weapons,,628,628,628,Blackflame,False,357,filled
+S3,Weapons,,629,629,629,of Blackflame,False,357,filled
+S3,Weapons,,630,630,630,Blackjammer's Cutlass,False,1345,filled
+S3,Weapons,,631,631,631,Blackrazor,False,1346,filled
+S3,Weapons,,632,632,632,Blade of Black Ice,False,1347,filled
+S3,Weapons,,633,633,633,Blade of Corusk,False,1347,filled
+S3,Weapons,,634,634,634,Blade of Lathander,False,1347,filled
+S3,Weapons,,635-636,635,636,Bladeless,False,1347,filled
+S3,Weapons,,637,637,637,Blood Drinker,False,1347,filled
+S3,Weapons,,638,638,638,Bloodletter,False,1347,filled
+S3,Weapons,,639,639,639,Bloodsword,False,1347,filled
+S3,Weapons,,640,640,640,Blue Dragon Bane,False,1348,filled
+S3,Weapons,,641,641,641,Brightblade,False,1348,filled
+S3,Weapons,,642,642,642,Caeren-Uroth,False,1348,filled
+S3,Weapons,,643,643,643,Calathangas,False,1349,filled
+S3,Weapons,,644,644,644,Canopa's,False,1349,filled
+S3,Weapons,,645,645,645,Captain's,False,1349,filled
+S3,Weapons,,646,646,646,Casterbane,False,1349,filled
+S3,Weapons,,647,647,647,Celestial Fury,False,1349,filled
+S3,Weapons,,648,648,648,Chainsword,False,1350,filled
+S3,Weapons,,649,649,649,of Charm Person,False,1351,filled
+S3,Weapons,,650,650,650,Chopping,False,1351,filled
+S3,Weapons,,651,651,651,Clamorour,False,1351,filled
+S3,Weapons,,652,652,652,of Cleaving,False,1351,filled
+S3,Weapons,,653-654,653,654,Colada,False,1352,filled
+S3,Weapons,,655,655,655,of Cold,False,1476,filled
+S3,Weapons,,656,656,656,Companion,False,1352,filled
+S3,Weapons,,657,657,657,Corellon's,False,1352,filled
+S3,Weapons,,658,658,658,Corthalis,False,1352,filled
+S3,Weapons,,659,659,659,Courtain,False,1352,filled
+S3,Weapons,,660,660,660,of Cowardice,False,1352,filled
+S3,Weapons,,661,661,661,Crusader,False,1353,filled
+S3,Weapons,,662,662,662,Crysomer,False,1353,filled
+S3,Weapons,,663,663,663,Cuprumbane,False,1354,filled
+S3,Weapons,,664,664,664,Cursed,False,1071; 1072,filled
+S3,Weapons,,665,665,665,Cursed II,False,1071; 1072,filled
+S3,Weapons,,666,666,666,Cursed Berserker,False,1354,filled
+S3,Weapons,,667,667,667,Cutter,False,1368,filled
+S3,Weapons,,668,668,668,of Cymrych Hugh,False,1355,filled
+S3,Weapons,,669,669,669,Cyric's,False,1355,filled
+S3,Weapons,,670,670,670,Dale,False,1355,filled
+S3,Weapons,,671-672,671,672,of Dancing,False,465,filled
+S3,Weapons,,673,673,673,Dancing of Bronze,False,465,filled
+S3,Weapons,,674,674,674,Dancing of Lightning,False,1356,filled
+S3,Weapons,,675,675,675,Darius's,False,1356,filled
+S3,Weapons,,676,676,676,Death-to-Monsters,False,1356,filled
+S3,Weapons,,677,677,677,Deep Sashelas's,False,1356,filled
+S3,Weapons,,678,678,678,Defender,False,1356,filled
+S3,Weapons,,679,679,679,Desert Blade,False,1356,filled
+S3,Weapons,,680,680,680,Dragonbait's Holy Avenger,False,1356,filled
+S3,Weapons,,681,681,681,Dragon Claw,False,1356,filled
+S3,Weapons,,682,682,682,Dragon Crippler,False,1357,filled
+S3,Weapons,,683,683,683,Dragon Slayer,False,1357,filled
+S3,Weapons,,684,684,684,Dragonslayer II,False,1357,filled
+S3,Weapons,,685,685,685,of Dragon Slaying,False,1357,filled
+S3,Weapons,,686,686,686,Drain Life Energy,False,1357,filled
+S3,Weapons,,687,687,687,Draxalon Defender of Feminine Virtue,False,1357,filled
+S3,Weapons,,688-689,688,689,Dreamsinger,False,1357,filled
+S3,Weapons,,690,690,690,Dugmaren Brightmantle's Broad sword,False,1358,filled
+S3,Weapons,,691,691,691,Durandan,False,1358,filled
+S3,Weapons,,692,692,692,Dyerwaen,False,1358,filled
+S3,Weapons,,693,693,693,of the Ebon Flame,False,1359,filled
+S3,Weapons,,694,694,694,Ebonbane,False,1359; 1360,filled
+S3,Weapons,,695,695,695,The Edge,False,1363,filled
+S3,Weapons,,696,696,696,of Efreeti Slaying,False,1364,filled
+S3,Weapons,,697,697,697,Elkhorn's,False,1364,filled
+S3,Weapons,,698,698,698,Elqillar,False,1364,filled
+S3,Weapons,,699,699,699,Elven,False,74,filled
+S3,Weapons,,700,700,700,Elven II,False,74,filled
+S3,Weapons,,701,701,701,Emperor's,False,333,filled
+S3,Weapons,,702,702,702,Enchanted of Sylaire,False,1365,filled
+S3,Weapons,,703,703,703,Equalizer of Gran March,False,1365,filled
+S3,Weapons,,704,704,704,Everstriking,False,1365,filled
+S3,Weapons,,705,705,705,Evil Wyrmslayer,False,1366,filled
+S3,Weapons,,706-707,706,707,Evithyan's Blade,False,1366,filled
+S3,Weapons,,708,708,708,Excalibur,False,1366; 1367,filled
+S3,Weapons,,709,709,709,Excalibur II,False,1366; 1367,filled
+S3,Weapons,,710,710,710,Excalibur III,False,1366; 1367,filled
+S3,Weapons,,711,711,711,Farrinae,False,1367,filled
+S3,Weapons,,712,712,712,Fate's Promise,False,1367,filled
+S3,Weapons,,713,713,713,Fiendbane,False,1367,filled
+S3,Weapons,,714,714,714,Final Word (Answerer),False,1367,filled
+S3,Weapons,,715,715,715,Final Word (Back-talker),False,1367,filled
+S3,Weapons,,716,716,716,Final Word (Concluder),False,1367,filled
+S3,Weapons,,717,717,717,Final Word (Lastquip),False,1367,filled
+S3,Weapons,,718,718,718,Final Word (Rebutter),False,1367,filled
+S3,Weapons,,719,719,719,Final Word (Replier),False,1367,filled
+S3,Weapons,,720,720,720,Final Word (Retorter),False,1367,filled
+S3,Weapons,,721,721,721,Final Word (Scather),False,1367,filled
+S3,Weapons,,722,722,722,Final Word (Squelcher),False,1367,filled
+S3,Weapons,,723,723,723,Finder,False,1310,filled
+S3,Weapons,,724-725,724,725,Fionnghuala's,False,1368,filled
+S3,Weapons,,726,726,726,Fist of Odin,False,1368,filled
+S3,Weapons,,727,727,727,Flamberge,False,1368,filled
+S3,Weapons,,728,728,728,Flame Blade,False,242,filled
+S3,Weapons,,729,729,729,Flame of the North,False,1368,filled
+S3,Weapons,,730,730,730,Flame Tongue,False,1368,filled
+S3,Weapons,,731,731,731,Flames on Command,False,1369,filled
+S3,Weapons,,732,732,732,Flaming,False,90,filled
+S3,Weapons,,733,733,733,Flaming II,False,90,filled
+S3,Weapons,,734,734,734,Floating Blade of Shin Lu,False,1369,filled
+S3,Weapons,,735,735,735,Flying Scimitar of Tsumit,False,1369,filled
+S3,Weapons,,736,736,736,Foebane,False,1369,filled
+S3,Weapons,,737,737,737,Foefinder,False,1370,filled
+S3,Weapons,,738,738,738,Forseti's,False,1370,filled
+S3,Weapons,,739,739,739,Frey's,False,1106,filled
+S3,Weapons,,740,740,740,Frey's II,False,1106,filled
+S3,Weapons,,741-742,741,742,Frey's Two-Handed,False,1370,filled
+S3,Weapons,,743,743,743,Frey's Two-Handed II,False,1370,filled
+S3,Weapons,,744,744,744,Freya's Frost Brand,False,1370,filled
+S3,Weapons,,745,745,745,of Friendship,False,1370,filled
+S3,Weapons,,746,746,746,Frost Brand,False,1370,filled
+S3,Weapons,,747,747,747,Galanti,False,1371,filled
+S3,Weapons,,748,748,748,Gemsword,False,1371,filled
+S3,Weapons,,749,749,749,Genie Slayer,False,847,filled
+S3,Weapons,,750,750,750,Genies' Bane,False,681,filled
+S3,Weapons,,751,751,751,Genies' Bane (Dao) II,False,681,filled
+S3,Weapons,,752,752,752,Genies' Bane (Djinn) II,False,681,filled
+S3,Weapons,,753,753,753,Genies' Bane (Efreet) II,False,681,filled
+S3,Weapons,,754,754,754,Genies' Bane (Marid) II,False,681,filled
+S3,Weapons,,755,755,755,Genieblight,False,1372,filled
+S3,Weapons,,756,756,756,Geniescourge,False,1372,filled
+S3,Weapons,,757,757,757,Giant Slayer,False,1372,filled
+S3,Weapons,,758,758,758,of Giant Slaying,False,1372,filled
+S3,Weapons,,759-760,759,760,of the Giants,False,1372,filled
+S3,Weapons,,761,761,761,Githyanki Knight's Silver,False,285; 286,filled
+S3,Weapons,,762,762,762,Githyanki Leader's Silver,False,325,filled
+S3,Weapons,,763,763,763,Glorius,False,1372,filled
+S3,Weapons,,764,764,764,Goblinvolent,False,1372,filled
+S3,Weapons,,765,765,765,of the Golden Gulf,False,1372,filled
+S3,Weapons,,766,766,766,Golembane,False,1372,filled
+S3,Weapons,,767,767,767,Gram,False,1373,filled
+S3,Weapons,,768,768,768,Grankhul's,False,1373,filled
+S3,Weapons,,769,769,769,Graz'zt's,False,1373,filled
+S3,Weapons,,770,770,770,Greenswathe,False,1373,filled
+S3,Weapons,,771,771,771,Gregory's Holy Avenger,False,1373,filled
+S3,Weapons,,772,772,772,Grinthane,False,1373,filled
+S3,Weapons,,773,773,773,Guardian Blade,False,1373,filled
+S3,Weapons,,774,774,774,Hachiman's,False,1374,filled
+S3,Weapons,,775,775,775,Hades's,False,1374,filled
+S3,Weapons,,776,776,776,Harmonizer,False,1374,filled
+S3,Weapons,,777-778,777,778,Harpo's Orcslayer,False,1374,filled
+S3,Weapons,,779,779,779,Hawksblade,False,1374,filled
+S3,Weapons,,780,780,780,Heart of Stone,False,1374,filled
+S3,Weapons,,781,781,781,Heartseeker,False,1130,filled
+S3,Weapons,,782,782,782,Heimdall's,False,77,filled
+S3,Weapons,,783,783,783,Hel's,False,1375,filled
+S3,Weapons,,784,784,784,Ho Masubi's,False,1375,filled
+S3,Weapons,,785,785,785,Hofud,False,1375,filled
+S3,Weapons,,786,786,786,Holy,False,1505,filled
+S3,Weapons,,787,787,787,Holy Avenger,False,1375,filled
+S3,Weapons,,788,788,788,Holy Revenger,False,1375,filled
+S3,Weapons,,789,789,789,of Honor,False,1375,filled
+S3,Weapons,,790,790,790,Hornblade,False,1375,filled
+S3,Weapons,,791,791,791,of Horus,False,1376,filled
+S3,Weapons,,792,792,792,Ice Claw,False,1376,filled
+S3,Weapons,,793,793,793,Ilbratha (Mistress of Battle),False,1376,filled
+S3,Weapons,,794-795,794,795,Ilneval's Broad sword,False,1377,filled
+S3,Weapons,,796,796,796,Ilyana,False,1377,filled
+S3,Weapons,,797,797,797,Indra's Flaming,False,1377,filled
+S3,Weapons,,798,798,798,of Insanity,False,1377,filled
+S3,Weapons,,799,799,799,of Intercession,False,1377,filled
+S3,Weapons,,800,800,800,Ironfang,False,1377,filled
+S3,Weapons,,801,801,801,Jaysen's Magebane,False,1377,filled
+S3,Weapons,,802,802,802,Joyeuse,False,1377,filled
+S3,Weapons,,803,803,803,Justicer,False,1378,filled
+S3,Weapons,,804,804,804,Kabal,False,1378,filled
+S3,Weapons,,805,805,805,Kaldair Swiftfoot's,False,303,filled
+S3,Weapons,,806,806,806,Kali's,False,1378,filled
+S3,Weapons,,807,807,807,Karali's Silver,False,1378,filled
+S3,Weapons,,808,808,808,Kirren's Frostbrand,False,1379,filled
+S3,Weapons,,809,809,809,Kullervo's,False,1379,filled
+S3,Weapons,,810,810,810,Kura (The Darkness),False,1379,filled
+S3,Weapons,,811,811,811,Kusunogi no Tsurugi (Grass Quelling),False,1380,filled
+S3,Weapons,,812-813,812,813,Lafarallinn's,False,1380,filled
+S3,Weapons,,814,814,814,Lancelin's,False,1380,filled
+S3,Weapons,,815,815,815,Laprov,False,1380,filled
+S3,Weapons,,816,816,816,Lassiviren's,False,1380,filled
+S3,Weapons,,817,817,817,Lemmikainen's,False,78,filled
+S3,Weapons,,818,818,818,Life Saver,False,1380,filled
+S3,Weapons,,819,819,819,Life Stealing,False,1380,filled
+S3,Weapons,,820,820,820,Life Taker,False,1381,filled
+S3,Weapons,,821,821,821,of Light,False,374,filled
+S3,Weapons,,822,822,822,Lightning Blade,False,1381,filled
+S3,Weapons,,823,823,823,Locate Object,False,1381,filled
+S3,Weapons,,824,824,824,Elven of Luck,False,351,filled
+S3,Weapons,,825,825,825,Luck Blade,False,1381,filled
+S3,Weapons,,826,826,826,Lydia's Broad sword,False,1381,filled
+S3,Weapons,,827,827,827,of Lyons,False,1381,filled
+S3,Weapons,,828,828,828,Malign,False,1381,filled
+S3,Weapons,,829,829,829,Madoc's,False,1382,filled
+S3,Weapons,,830-831,830,831,Mamluk of Obedience,False,1382,filled
+S3,Weapons,,832,832,832,of Mammal Slaying,False,1382,filled
+S3,Weapons,,833,833,833,Mantooth,False,1382,filled
+S3,Weapons,,834,834,834,Mantooth II,False,1382,filled
+S3,Weapons,,835,835,835,Maroon,False,1382,filled
+S3,Weapons,,836,836,836,Mayonaka's Silver Katana,False,1382,filled
+S3,Weapons,,837,837,837,Melior,False,1383,filled
+S3,Weapons,,838,838,838,Meredin's Luck Blade,False,1383,filled
+S3,Weapons,,839,839,839,Mimung,False,1383,filled
+S3,Weapons,,840,840,840,Mitra's of Light,False,1383,filled
+S3,Weapons,,841,841,841,Monster Slayer,False,1383,filled
+S3,Weapons,,842,842,842,Moon Blade,False,1383,filled
+S3,Weapons,,843,843,843,Morglay,False,1383,filled
+S3,Weapons,,844,844,844,Movanic Deva,False,1383,filled
+S3,Weapons,,845,845,845,Naesowen (Ghost Blade),False,1384,filled
+S3,Weapons,,846,846,846,Nagelring,False,1384,filled
+S3,Weapons,,847-848,847,848,Namara Neversleep,False,1384,filled
+S3,Weapons,,849,849,849,Neekar,False,1384,filled
+S3,Weapons,,850,850,850,Nepanth,False,1385,filled
+S3,Weapons,,851,851,851,of Night,False,704,filled
+S3,Weapons,,852,852,852,Nightwatcher,False,1385,filled
+S3,Weapons,,853,853,853,Nightwind,False,1386,filled
+S3,Weapons,,854,854,854,Nine Lives Stealer,False,1386,filled
+S3,Weapons,,855,855,855,Nine Steps Draining,False,1386,filled
+S3,Weapons,,856,856,856,Nomog-Geaya's Broad sword,False,1386,filled
+S3,Weapons,,857,857,857,Oberon's,False,1386,filled
+S3,Weapons,,858,858,858,of Odin,False,1386,filled
+S3,Weapons,,859,859,859,Odin's,False,1386,filled
+S3,Weapons,,860,860,860,of Olynthos,False,1386,filled
+S3,Weapons,,861,861,861,Owen's,False,1387,filled
+S3,Weapons,,862,862,862,Paramel,False,1387,filled
+S3,Weapons,,863,863,863,Partisan,False,1387,filled
+S3,Weapons,,864,864,864,Peacemaker,False,1387,filled
+S3,Weapons,,865-866,865,866,Peregrine's,False,1387,filled
+S3,Weapons,,867,867,867,Phantom,False,1387,filled
+S3,Weapons,,868,868,868,Philippan,False,1387,filled
+S3,Weapons,,869,869,869,Piercer,False,1387,filled
+S3,Weapons,,870,870,870,Plak's,False,1387,filled
+S3,Weapons,,871,871,871,of the Planes,False,38,filled
+S3,Weapons,,872,872,872,Poisonsword,False,1388,filled
+S3,Weapons,,873,873,873,Porpherio's,False,1388,filled
+S3,Weapons,,874,874,874,Purta Blue's,False,1388,filled
+S3,Weapons,,875,875,875,of Quickness,False,366,filled
+S3,Weapons,,876,876,876,Ratri's,False,1388,filled
+S3,Weapons,,877,877,877,Red Death,False,1388,filled
+S3,Weapons,,878,878,878,Red Robin,False,1388,filled
+S3,Weapons,,879,879,879,Red Sabre,False,1388,filled
+S3,Weapons,,880,880,880,Redeemer,False,1388,filled
+S3,Weapons,,881,881,881,Rel Astran of Enmity,False,1388,filled
+S3,Weapons,,882,882,882,Ren's of Dancing,False,465,filled
+S3,Weapons,,883-884,883,884,Reptilian Legionnaire,False,1389,filled
+S3,Weapons,,885,885,885,Retaliator,False,1389,filled
+S3,Weapons,,886,886,886,Retaliator II,False,1389,filled
+S3,Weapons,,887,887,887,Rutterkin Flatchet,False,843,filled
+S3,Weapons,,888,888,888,of the Sands,False,1292,filled
+S3,Weapons,,889,889,889,Sauvagine,False,1389,filled
+S3,Weapons,,890,890,890,Savitri's,False,1389,filled
+S3,Weapons,,891,891,891,Scale Cleaver,False,1389,filled
+S3,Weapons,,892,892,892,Scales of Justice,False,1389,filled
+S3,Weapons,,893,893,893,Scalebane,False,1390,filled
+S3,Weapons,,894,894,894,Schakha,False,1390,filled
+S3,Weapons,,895,895,895,Scimitar of Speed,False,1390,filled
+S3,Weapons,,896,896,896,Scorbane,False,1390,filled
+S3,Weapons,,897,897,897,Scourge of Regenerators,False,1391,filled
+S3,Weapons,,898,898,898,Serpent Slicer,False,1391,filled
+S3,Weapons,,899,899,899,Sess'innek's Two-Handed,False,1391,filled
+S3,Weapons,,900-901,900,901,Sess'innek's One-Handed,False,306,filled
+S3,Weapons,,902,902,902,Seventh Blade,False,1391,filled
+S3,Weapons,,903,903,903,Shadowsword,False,1391,filled
+S3,Weapons,,904,904,904,Shalandain's Holy Avenger,False,1391,filled
+S3,Weapons,,905,905,905,of Shame,False,1391,filled
+S3,Weapons,,906,906,906,"Sun Blade, Sh'arien",False,367,filled
+S3,Weapons,,907,907,907,of Sharpness,False,777,filled
+S3,Weapons,,908,908,908,Shazzellim,False,1392,filled
+S3,Weapons,,909,909,909,Shichi's Katana,False,1393,filled
+S3,Weapons,,910,910,910,Shimmering Blade of Shin Ginsen,False,1394,filled
+S3,Weapons,,911,911,911,Shina-Tsu-Hiko's,False,1394,filled
+S3,Weapons,,912,912,912,Shock Blade,False,1394,filled
+S3,Weapons,,913,913,913,Shu's,False,1394,filled
+S3,Weapons,,914,914,914,Sif's,False,1394,filled
+S3,Weapons,,915,915,915,Singing,False,1117,filled
+S3,Weapons,,916,916,916,Siva's Scimitar,False,1396,filled
+S3,Weapons,,917,917,917,of Skewering,False,1396,filled
+S3,Weapons,,918-919,918,919,Slayer,False,847,filled
+S3,Weapons,,920,920,920,Snakebane,False,1396,filled
+S3,Weapons,,921,921,921,Snoop,False,1396,filled
+S3,Weapons,,922,922,922,Snow on the Mountain,False,1396,filled
+S3,Weapons,,923,923,923,Soulblade,False,1397,filled
+S3,Weapons,,924,924,924,of Souls,False,1397,filled
+S3,Weapons,,925,925,925,Soulseeker,False,1397,filled
+S3,Weapons,,926,926,926,Special,False,1398,filled
+S3,Weapons,,927,927,927,Spectral,False,1525,filled
+S3,Weapons,,928,928,928,Spellbinder,False,1404,filled
+S3,Weapons,,929,929,929,Spellblade,False,1404,filled
+S3,Weapons,,930,930,930,Stalker,False,1405,filled
+S3,Weapons,,931,931,931,Starfall,False,1405,filled
+S3,Weapons,,932,932,932,Stonefist,False,1405,filled
+S3,Weapons,,933,933,933,Stormbringer,False,1405,filled
+S3,Weapons,,934,934,934,Sun Blade,False,1406,filled
+S3,Weapons,,935,935,935,Sunsword,False,1391; 1406,filled
+S3,Weapons,,936-937,936,937,Surtr's Flaming,False,1408,filled
+S3,Weapons,,938,938,938,Surya's of Light,False,1408,filled
+S3,Weapons,,939,939,939,Susanoo's Blue,False,1408,filled
+S3,Weapons,,940,940,940,Susk,False,1407,filled
+S3,Weapons,,941,941,941,Sylabra,False,1407,filled
+S3,Weapons,,942,942,942,Syrar's Silver,False,1407,filled
+S3,Weapons,,943,943,943,Taragarth,False,1408,filled
+S3,Weapons,,944,944,944,Tarl Vanovitch's Sun Blade,False,1409,filled
+S3,Weapons,,945,945,945,Tefnut's,False,1409,filled
+S3,Weapons,,946,946,946,Tideripper,False,1409,filled
+S3,Weapons,,947,947,947,Timesweep,False,1409,filled
+S3,Weapons,,948,948,948,Token,False,1409,filled
+S3,Weapons,,949,949,949,Tri-Entity,False,1409,filled
+S3,Weapons,,950,950,950,Troll's Bane,False,1411,filled
+S3,Weapons,,951,951,951,Twinkle,False,1411,filled
+S3,Weapons,,952,952,952,Tyr's of Sharpness,False,1411,filled
+S3,Weapons,,953-954,953,954,Undead Slayer,False,1411,filled
+S3,Weapons,,955,955,955,Uranus's,False,1411,filled
+S3,Weapons,,956,956,956,Vainamoinen's,False,1411,filled
+S3,Weapons,,957,957,957,Vainamoinen's II,False,1411,filled
+S3,Weapons,,958,958,958,Vampiric Regeneration,False,1412,filled
+S3,Weapons,,959,959,959,Vanya's Wrath,False,1412,filled
+S3,Weapons,,960,960,960,Vasgo,False,1412,filled
+S3,Weapons,,961,961,961,Vergadain's Broad sword,False,1412,filled
+S3,Weapons,,962,962,962,Vhaeraun's,False,1412,filled
+S3,Weapons,,963,963,963,Vorpal,False,112; 1336; 1341; 1369; 1374; 1375; 1376; 1412; 1414,filled
+S3,Weapons,,964,964,964,Vorpal II,False,112; 1336; 1341; 1369; 1374; 1375; 1376; 1412; 1414,filled
+S3,Weapons,,965,965,965,Warbringer,False,1482,filled
+S3,Weapons,,966,966,966,Warlord Blade of the Shield Lands,False,1412,filled
+S3,Weapons,,967,967,967,Weasel,False,1413,filled
+S3,Weapons,,968,968,968,Whirlwind Blade,False,1413,filled
+S3,Weapons,,969,969,969,White,False,1105,filled
+S3,Weapons,,970,970,970,of the Wild Coast,False,1413,filled
+S3,Weapons,,971-972,971,972,Willow Wand,False,1413,filled
+S3,Weapons,,973,973,973,of Wishes,False,219,filled
+S3,Weapons,,974,974,974,Woodhold,False,1413,filled
+S3,Weapons,,975,975,975,of Wounding,False,1331,filled
+S3,Weapons,,976,976,976,Wyrmcleaver,False,1414,filled
+S3,Weapons,,977,977,977,Wyrmsbane,False,1388; 1414,filled
+S3,Weapons,,978,978,978,Wyrmsbane II,False,1388; 1414,filled
+S3,Weapons,,979,979,979,Wyrmslayer,False,1366; 1414,filled
+S3,Weapons,,980,980,980,Wyrmsvenin,False,1415,filled
+S3,Weapons,,981,981,981,Xiphoid Xebec,False,182; 1415,filled
+S3,Weapons,,982,982,982,Yondalla's,False,1106,filled
+S3,Weapons,,983,983,983,Zenchoo Katana,False,1415,filled
+S3,Weapons,,984,984,984,Zinzerena's,False,312,filled
+S3,Weapons,,985,985,985,of Ojy-do,False,1435,filled
+S3,Weapons,,986,986,986,of Returning,False,527,filled
+S3,Weapons,,987,987,987,of Amatar,False,1532,filled
+S3,Weapons,,988,988,988,Balor,False,1533,filled
+S3,Weapons,,989-990,989,990,of Feathers,False,1480,filled
+S3,Weapons,,991,991,991,of Frost Fire and Fear,False,1533,filled
+S3,Weapons,,992,992,992,Furies's (Alecto's),False,1533,filled
+S3,Weapons,,993,993,993,Furies's (Megaera's),False,1533,filled
+S3,Weapons,,994,994,994,Furies's (Tisiphone's),False,1533,filled
+S3,Weapons,,995,995,995,Khurgorbaeyag's,False,1533,filled
+S3,Weapons,,996,996,996,Moloch's,False,1533,filled
+S3,Weapons,,997,997,997,Purpose,False,1534,filled
+S3,Weapons,,998,998,998,of Summoning,False,822,filled
+S3,Weapons,,999,999,999,Tar's Chaotic Creature,False,1534,filled
+S3,Weapons,,000,1000,1000,of Zeif,False,1534,filled

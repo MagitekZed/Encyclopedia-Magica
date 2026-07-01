@@ -1,0 +1,138 @@
+table,category,subcategory,roll_display,roll_low,roll_high,name,reroll,page,page_status
+E,Staves,,1-7,1,7,Enchanted Enhancements,True,21,filled
+E,Staves,,8-14,8,14,of Age,False,1154,filled
+E,Staves,,15-21,15,21,of Armament,False,1431,filled
+E,Staves,,22-28,22,28,of Blindness,False,1149,filled
+E,Staves,,29-35,29,35,of Detection,False,1511,filled
+E,Staves,,36-43,36,43,of Stiffness,False,1431,filled
+E,Staves,,44-50,44,50,Wemick's of Striking,False,1297,filled
+E,Staves,,51-57,51,57,of Docking,False,1431,filled
+E,Staves,,58-64,58,64,of Gaffes,False,1431,filled
+E,Staves,,65-71,65,71,Gnomewrecker,False,1431,filled
+E,Staves,,72-79,72,79,Pharaoh's Crook,False,1289,filled
+E,Staves,,80-86,80,86,of Air and Water,False,1272; 1278,filled
+E,Staves,,87-93,87,93,Alar Ch'Aranol's,False,1272,filled
+E,Staves,,94-100,94,100,of Aquatic Wizardry,False,1272,filled
+E,Staves,,101-107,101,107,Arctor's of Swarming Insects,False,1272,filled
+E,Staves,,108-115,108,115,Aric's of Power,False,1272,filled
+E,Staves,,116-122,116,122,of Battle,False,1273,filled
+E,Staves,,123-129,123,129,of Battle II,False,1273,filled
+E,Staves,,130-136,130,136,Blackstaff,False,1273,filled
+E,Staves,,137-143,137,143,Caduceus,False,1274,filled
+E,Staves,,144-150,144,150,of Caracanomnos,False,1273,filled
+E,Staves,,151-158,151,158,Catstaff,False,1274,filled
+E,Staves,,159-165,159,165,Catstaff II,False,1274,filled
+E,Staves,,166-172,166,172,Centeotl's,False,1274,filled
+E,Staves,,173-179,173,179,of Cirulon,False,1274,filled
+E,Staves,,180-186,180,186,of Human Influence,False,1275,filled
+E,Staves,,187-194,187,194,of Mammal/Animal Control,False,1453,filled
+E,Staves,,195-201,195,201,of Plant Control,False,1275,filled
+E,Staves,,202-208,202,208,of Commanding,False,1275,filled
+E,Staves,,209-215,209,215,of Conjuration,False,1476,filled
+E,Staves,,216-222,216,222,of the Couatl,False,1275,filled
+E,Staves,,223-230,223,230,of Curing,False,1276,filled
+E,Staves,,231-237,231,237,of Curing II,False,1276,filled
+E,Staves,,238-244,238,244,Damh's,False,1323,filled
+E,Staves,,245-251,245,251,of Devotion,False,1276,filled
+E,Staves,,252-258,252,258,Dionysus's,False,1276,filled
+E,Staves,,259-266,259,266,of Disjoining,False,1276,filled
+E,Staves,,267-273,267,273,of Dispelling,False,1277,filled
+E,Staves,,274-280,274,280,of Displacement,False,1277,filled
+E,Staves,,281-287,281,287,of Divergence,False,1277,filled
+E,Staves,,288-294,288,294,Diviner of Life,False,1278,filled
+E,Staves,,295-301,295,301,Dolmar's of Withering,False,1278,filled
+E,Staves,,302-309,302,309,Druid,False,1278,filled
+E,Staves,,310-316,310,316,of the Druids,False,1278,filled
+E,Staves,,317-325,317,325,of an Element,False,1278,filled
+E,Staves,,326-334,326,334,of the Elements:Earth,False,1279,filled
+E,Staves,,335-343,335,343,of the Elements: Air,False,1280,filled
+E,Staves,,344-352,344,352,of the Elements: Fire,False,1280,filled
+E,Staves,,353-361,353,361,of the Elements: Water,False,1505,filled
+E,Staves,,362-373,362,373,of Ethereal Action,False,1280,filled
+E,Staves,,374-381,374,381,of the Fates,False,1280,filled
+E,Staves,,382-388,382,388,Fiend,False,1280,filled
+E,Staves,,389-395,389,395,of Flames,False,1280,filled
+E,Staves,,396-402,396,402,Fraz-Urb-luu's,False,1281,filled
+E,Staves,,403-409,403,409,of Fury,False,1281,filled
+E,Staves,,410-417,410,417,Geb's Quarterstaff,False,1281,filled
+E,Staves,,418-424,418,424,of Glyphs,False,1281,filled
+E,Staves,,425-431,425,431,of Gnatmarsh,False,1281,filled
+E,Staves,,432-438,432,438,of Harming,False,1282,filled
+E,Staves,,439-445,439,445,of Healing,False,1324,filled
+E,Staves,,446-452,446,452,of Hornwood,False,1282,filled
+E,Staves,,453-460,453,460,Idun's,False,1282,filled
+E,Staves,,461-467,461,467,Ixtlilton's,False,1282,filled
+E,Staves,,468-474,468,474,Jizo,False,1282,filled
+E,Staves,,475-481,475,481,of Kitsyrral,False,1282,filled
+E,Staves,,482-488,482,488,Kuan Yin's Quarterstaff,False,1283,filled
+E,Staves,,489-496,489,496,K'uei Hsing's,False,1283,filled
+E,Staves,,497-503,497,503,K'ung Fu-tzu's,False,1283,filled
+E,Staves,,504-510,504,510,Kura Okami's,False,1283,filled
+E,Staves,,511-517,511,517,Ky Trencha Ukang,False,1283,filled
+E,Staves,,518-524,518,524,Lao Tzu's,False,1283,filled
+E,Staves,,525-532,525,532,of the Magi,False,1283,filled
+E,Staves,,533-539,533,539,Magical Quarterstaff,False,1284,filled
+E,Staves,,540-546,540,546,of Magius,False,1284; 1285,filled
+E,Staves,,547-553,547,553,of Magius II,False,1284; 1285,filled
+E,Staves,,554-560,554,560,of the Magius,False,1284; 1285,filled
+E,Staves,,561-568,561,568,Meriadar's Quarterstaff,False,1285,filled
+E,Staves,,569-575,569,575,of Miracles,False,1285,filled
+E,Staves,,576-582,576,582,Mirandos's of Insect Command,False,1285,filled
+E,Staves,,583-589,583,589,of Mishakal,False,1286,filled
+E,Staves,,590-596,590,596,of Mishakal II,False,1286,filled
+E,Staves,,597-603,597,603,Monkey's,False,1286,filled
+E,Staves,,604-611,604,611,of the Moonglow,False,1286,filled
+E,Staves,,612-618,612,618,of the Necromancer,False,1287,filled
+E,Staves,,619-625,619,625,of Night,False,1287,filled
+E,Staves,,626-632,626,632,of the Ninja,False,1287,filled
+E,Staves,,633-639,633,639,Oberon's,False,1386,filled
+E,Staves,,640-647,640,647,of Oceans,False,1288,filled
+E,Staves,,648-654,648,654,O-Kuni-Nushi's,False,1288,filled
+E,Staves,,655-661,655,661,of Osiris,False,1288,filled
+E,Staves,,662-668,662,668,Osmal's of the Woodlands,False,1288,filled
+E,Staves,,669-675,669,675,Panzuriel's Quarterstaff,False,1288,filled
+E,Staves,,676-683,676,683,Pharaoh's Ruling,False,1289,filled
+E,Staves,,684-690,684,690,of Power,False,1273; 1289,filled
+E,Staves,,691-697,691,697,of the Priest Kings,False,1289,filled
+E,Staves,,698-704,698,704,Quirks,False,1291,filled
+E,Staves,,705-711,705,711,of Raket,False,1291,filled
+E,Staves,,712-719,712,719,Ranike,False,1036,filled
+E,Staves,,720-726,720,726,of Recording,False,1291,filled
+E,Staves,,727-733,727,733,Reptila's of the Serpent,False,1291,filled
+E,Staves,,734-740,734,740,Rhedrian's,False,1291,filled
+E,Staves,,741-747,741,747,Rilanaver's,False,1431,filled
+E,Staves,,748-754,748,754,Rohalan,False,1292,filled
+E,Staves,,755-762,755,762,of the Sands,False,1292,filled
+E,Staves,,763-769,763,769,of Savona,False,1292,filled
+E,Staves,,770-776,770,776,of Scrivening,False,1292,filled
+E,Staves,,777-783,777,783,of the Sea,False,1083,filled
+E,Staves,,784-790,784,790,of the Serpent,False,1291; 1293,filled
+E,Staves,,791-798,791,798,Shang-ti's,False,1236,filled
+E,Staves,,799-805,799,805,Lesser of Shock,False,1293,filled
+E,Staves,,806-812,806,812,Greater of Shock,False,1293,filled
+E,Staves,,813-819,813,819,Shou Hsing's Walking Stick,False,1294,filled
+E,Staves,,820-826,820,826,of Silence,False,1294,filled
+E,Staves,,827-834,827,834,of Skulls,False,1294; 1295,filled
+E,Staves,,835-841,835,841,Skull-Staff of Hepmonaland,False,1295,filled
+E,Staves,,842-848,842,848,of Slinging,False,1295,filled
+E,Staves,,849-855,849,855,Snake,False,1295,filled
+E,Staves,,856-862,856,862,Snake II,False,1295,filled
+E,Staves,,863-869,863,869,of Spell Focusing,False,1296,filled
+E,Staves,,870-877,870,877,of Spheres,False,1296,filled
+E,Staves,,878-884,878,884,Staff-Mace,False,1278; 1279; 1280,filled
+E,Staves,,885-891,885,891,Staff-Spear,False,1297,filled
+E,Staves,,892-898,892,898,of Striking,False,1297,filled
+E,Staves,,899-905,899,905,of Striking and Curing,False,1298,filled
+E,Staves,,906-913,906,913,of Stunning,False,1298,filled
+E,Staves,,914-920,914,920,of Surprises,False,1298,filled
+E,Staves,,921-927,921,927,of Swarming Insects,False,1272; 1298,filled
+E,Staves,,928-934,928,934,Thoth's,False,1298,filled
+E,Staves,,935-941,935,941,of Thunder & Lightning,False,1299,filled
+E,Staves,,942-949,942,949,Ushas's,False,1299,filled
+E,Staves,,950-956,950,956,of Vision,False,1299,filled
+E,Staves,,957-963,957,963,War of Nyrond,False,1299,filled
+E,Staves,,964-970,964,970,of the White Well,False,1300,filled
+E,Staves,,971-977,971,977,of the Winds,False,1300,filled
+E,Staves,,978-985,978,985,of Withering,False,1278; 1300,filled
+E,Staves,,986-992,986,992,of Wizardry,False,1300,filled
+E,Staves,,993-1000,993,1000,of the Woodlands,False,1288; 1301,filled

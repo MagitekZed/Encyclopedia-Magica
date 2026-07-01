@@ -1,0 +1,511 @@
+table,category,subcategory,roll_display,roll_low,roll_high,name,reroll,page,page_status
+H,Misc: Gems & Jewelry,,01,1,1,Enchanted Enhancements,True,21,filled
+H,Misc: Gems & Jewelry,,2-3,2,3,of the Abyss,False,27,filled
+H,Misc: Gems & Jewelry,,4-5,4,5,Against ESP & Crystal Balls,False,784,filled
+H,Misc: Gems & Jewelry,,6-7,6,7,Against Disease,False,27,filled
+H,Misc: Gems & Jewelry,,8-9,8,9,of Amiability,False,27,filled
+H,Misc: Gems & Jewelry,,10-11,10,11,of Arachnid Control,False,949,filled
+H,Misc: Gems & Jewelry,,12-13,12,13,Silver of the Beast,False,325,filled
+H,Misc: Gems & Jewelry,,14-15,14,15,Ivory of the Beast,False,1420; 1421,filled
+H,Misc: Gems & Jewelry,,16-17,16,17,of the Cairn Hills,False,28,filled
+H,Misc: Gems & Jewelry,,18-19,18,19,of Caterpillar Control,False,29,filled
+H,Misc: Gems & Jewelry,,20-21,20,21,of Charm Resistance,False,29,filled
+H,Misc: Gems & Jewelry,,22-23,22,23,of Charming,False,1321,filled
+H,Misc: Gems & Jewelry,,24-25,24,25,of Charming,False,1321,filled
+H,Misc: Gems & Jewelry,,26-27,26,27,of Cheetah Speed,False,29,filled
+H,Misc: Gems & Jewelry,,28-29,28,29,of Communication,False,29,filled
+H,Misc: Gems & Jewelry,,30-31,30,31,of Dragon Warding,False,29,filled
+H,Misc: Gems & Jewelry,,32-33,32,33,of Dragon Warding,False,29,filled
+H,Misc: Gems & Jewelry,,34-35,34,35,of Dramatic Death,False,29,filled
+H,Misc: Gems & Jewelry,,36-37,36,37,Draskilion's of Life,False,31,filled
+H,Misc: Gems & Jewelry,,38-39,38,39,of Elemental Command,False,960,filled
+H,Misc: Gems & Jewelry,,40-41,40,41,of Emotions,False,31,filled
+H,Misc: Gems & Jewelry,,42-43,42,43,of Extension,False,31,filled
+H,Misc: Gems & Jewelry,,44-45,44,45,of Far Reaching,False,31,filled
+H,Misc: Gems & Jewelry,,46-47,46,47,Fiend,False,32,filled
+H,Misc: Gems & Jewelry,,48-49,48,49,of Finding,False,32,filled
+H,Misc: Gems & Jewelry,,50,50,50,Furyondy's,False,32,filled
+H,Misc: Gems & Jewelry,,51-52,51,52,of the Golden Collar,False,32,filled
+H,Misc: Gems & Jewelry,,53-54,53,54,Greenstone,False,32,filled
+H,Misc: Gems & Jewelry,,55-56,55,56,Hands of the Healing Spirit,False,33,filled
+H,Misc: Gems & Jewelry,,57-58,57,58,Hardware,False,34,filled
+H,Misc: Gems & Jewelry,,59-60,59,60,Health,False,969,filled
+H,Misc: Gems & Jewelry,,61-62,61,62,Cursed Health,False,969,filled
+H,Misc: Gems & Jewelry,,63-64,63,64,of the Hero,False,34,filled
+H,Misc: Gems & Jewelry,,65-66,65,66,of Holy Turning,False,34,filled
+H,Misc: Gems & Jewelry,,67-68,67,68,of Hunting,False,35,filled
+H,Misc: Gems & Jewelry,,69-70,69,70,Cursed of Hunting,False,1071; 1072,filled
+H,Misc: Gems & Jewelry,,71-72,71,72,of Immunity to Charm,False,35,filled
+H,Misc: Gems & Jewelry,,73-74,73,74,of Inescapable Location,False,35,filled
+H,Misc: Gems & Jewelry,,75-76,75,76,of Insect Repellency,False,35,filled
+H,Misc: Gems & Jewelry,,77-78,77,78,Kaleen's Undead Stone,False,35,filled
+H,Misc: Gems & Jewelry,,79-80,79,80,of Lathander,False,35,filled
+H,Misc: Gems & Jewelry,,81-82,81,82,of Leadership,False,1030,filled
+H,Misc: Gems & Jewelry,,83-84,83,84,of Life Protection,False,36,filled
+H,Misc: Gems & Jewelry,,85-86,85,86,of Magic Resistance,False,36,filled
+H,Misc: Gems & Jewelry,,87-88,87,88,of Metaspell Influence,False,36,filled
+H,Misc: Gems & Jewelry,,89-90,89,90,of Neutrality,False,942,filled
+H,Misc: Gems & Jewelry,,91-92,91,92,Noseeum,False,37,filled
+H,Misc: Gems & Jewelry,,93-94,93,94,Orcish,False,37,filled
+H,Misc: Gems & Jewelry,,95-96,95,96,Cursed Orcish,False,1071; 1072,filled
+H,Misc: Gems & Jewelry,,97-98,97,98,Palm Sign,False,37,filled
+H,Misc: Gems & Jewelry,,99,99,99,of the Papyrus Scepter,False,38,filled
+H,Misc: Gems & Jewelry,,100-101,100,101,of Perpetual Youth and Inexperience,False,38,filled
+H,Misc: Gems & Jewelry,,102-103,102,103,Phelthong's,False,38,filled
+H,Misc: Gems & Jewelry,,104-105,104,105,of the Planes,False,38,filled
+H,Misc: Gems & Jewelry,,106-107,106,107,of Power,False,907,filled
+H,Misc: Gems & Jewelry,,108-109,108,109,of Proof vs. Detection and Location,False,39,filled
+H,Misc: Gems & Jewelry,,110-111,110,111,of Protection,False,1009,filled
+H,Misc: Gems & Jewelry,,112-113,112,113,of Protection vs. Alignment Change,False,1009,filled
+H,Misc: Gems & Jewelry,,114-115,114,115,of Protection vs. Crystal Balls,False,1009,filled
+H,Misc: Gems & Jewelry,,116-117,116,117,of Protection from Good,False,40,filled
+H,Misc: Gems & Jewelry,,118-119,118,119,of Protection from Sleep,False,40,filled
+H,Misc: Gems & Jewelry,,120-121,120,121,of Protection from Turning,False,41,filled
+H,Misc: Gems & Jewelry,,122-123,122,123,of Psionic Interference,False,42,filled
+H,Misc: Gems & Jewelry,,124-125,124,125,of Psionic Reflection,False,42,filled
+H,Misc: Gems & Jewelry,,126-127,126,127,of Psychic Protection,False,42,filled
+H,Misc: Gems & Jewelry,,128-129,128,129,of Recall,False,886,filled
+H,Misc: Gems & Jewelry,,130-131,130,131,Shakti,False,42,filled
+H,Misc: Gems & Jewelry,,132-133,132,133,Shell of Protection from Sharks,False,42,filled
+H,Misc: Gems & Jewelry,,134-135,134,135,Shield,False,1093,filled
+H,Misc: Gems & Jewelry,,136-137,136,137,of Sleeplessness,False,43,filled
+H,Misc: Gems & Jewelry,,138-139,138,139,of Spinescale,False,43,filled
+H,Misc: Gems & Jewelry,,140-141,140,141,of the Spirit,False,706,filled
+H,Misc: Gems & Jewelry,,142-143,142,143,Thet of Ptah,False,43,filled
+H,Misc: Gems & Jewelry,,144-145,144,145,of Timekeeping,False,43,filled
+H,Misc: Gems & Jewelry,,146-147,146,147,of Transformation,False,1435,filled
+H,Misc: Gems & Jewelry,,148,148,148,Two Fingers,False,44,filled
+H,Misc: Gems & Jewelry,,149-150,149,150,of Undersea Friendship,False,44,filled
+H,Misc: Gems & Jewelry,,151-152,151,152,of Vadarin,False,44,filled
+H,Misc: Gems & Jewelry,,153-154,153,154,Vulture,False,44,filled
+H,Misc: Gems & Jewelry,,155-156,155,156,of Weakening,False,44,filled
+H,Misc: Gems & Jewelry,,157-158,157,158,of Life,False,905,filled
+H,Misc: Gems & Jewelry,,159-160,159,160,Nithian (Ixion),False,47,filled
+H,Misc: Gems & Jewelry,,161-162,161,162,Nithian (Kagyar),False,47,filled
+H,Misc: Gems & Jewelry,,163-164,163,164,Nithian (Pflarr),False,47,filled
+H,Misc: Gems & Jewelry,,165-166,165,166,Nithian (Rathanos),False,47,filled
+H,Misc: Gems & Jewelry,,167-168,167,168,Nithian (Valerias),False,47,filled
+H,Misc: Gems & Jewelry,,169-170,169,170,of Power,False,907,filled
+H,Misc: Gems & Jewelry,,171-172,171,172,Ra's,False,48,filled
+H,Misc: Gems & Jewelry,,173-174,173,174,True,False,48,filled
+H,Misc: Gems & Jewelry,,175-176,175,176,of Freedom,False,815,filled
+H,Misc: Gems & Jewelry,,177-178,177,178,of Monster Control,False,1453,filled
+H,Misc: Gems & Jewelry,,179-180,179,180,of Charms,False,216,filled
+H,Misc: Gems & Jewelry,,181-182,181,182,Copper,False,321,filled
+H,Misc: Gems & Jewelry,,183-184,183,184,Dalamar's,False,217,filled
+H,Misc: Gems & Jewelry,,185-186,185,186,Equus,False,48,filled
+H,Misc: Gems & Jewelry,,187-188,187,188,of Hog-Tying,False,218,filled
+H,Misc: Gems & Jewelry,,189-190,189,190,Ivy,False,219,filled
+H,Misc: Gems & Jewelry,,191-192,191,192,Medegian of Lost Ships,False,219,filled
+H,Misc: Gems & Jewelry,,193-194,193,194,Ivy of Scaly Command,False,1275,filled
+H,Misc: Gems & Jewelry,,195-196,195,196,Ivy of Wishes,False,219,filled
+H,Misc: Gems & Jewelry,,197,197,197,Abbor Alz's of Warning,False,225,filled
+H,Misc: Gems & Jewelry,,198-199,198,199,of Begoing,False,225,filled
+H,Misc: Gems & Jewelry,,200-201,200,201,of Bones,False,225,filled
+H,Misc: Gems & Jewelry,,202-203,202,203,Equus,False,48,filled
+H,Misc: Gems & Jewelry,,204-205,204,205,of Falling,False,652,filled
+H,Misc: Gems & Jewelry,,206-207,206,207,of Imog,False,226,filled
+H,Misc: Gems & Jewelry,,208-209,208,209,of Imog II,False,226,filled
+H,Misc: Gems & Jewelry,,210-211,210,211,Lunar,False,227,filled
+H,Misc: Gems & Jewelry,,212-213,212,213,of Number Numbing,False,227,filled
+H,Misc: Gems & Jewelry,,214-215,214,215,of Obsidian Shattering,False,228,filled
+H,Misc: Gems & Jewelry,,216-217,216,217,Pin of Communication,False,228,filled
+H,Misc: Gems & Jewelry,,218-219,218,219,of Shielding,False,228,filled
+H,Misc: Gems & Jewelry,,220-221,220,221,of Appearance,False,948,filled
+H,Misc: Gems & Jewelry,,222-223,222,223,Equus,False,48,filled
+H,Misc: Gems & Jewelry,,224-225,224,225,of Incompetence,False,236,filled
+H,Misc: Gems & Jewelry,,226-227,226,227,of Boot Restoration,False,281,filled
+H,Misc: Gems & Jewelry,,228-229,228,229,of Distraction,False,281,filled
+H,Misc: Gems & Jewelry,,230-231,230,231,of Favor,False,281,filled
+H,Misc: Gems & Jewelry,,232-233,232,233,Hunting,False,35,filled
+H,Misc: Gems & Jewelry,,234-235,234,235,Luck,False,351,filled
+H,Misc: Gems & Jewelry,,236-237,236,237,of Open Doors,False,282,filled
+H,Misc: Gems & Jewelry,,238-239,238,239,of Pest Protection,False,1058,filled
+H,Misc: Gems & Jewelry,,240-241,240,241,of Protection from Disease,False,1009,filled
+H,Misc: Gems & Jewelry,,242-243,242,243,of Protection from Fire,False,807,filled
+H,Misc: Gems & Jewelry,,244-245,244,245,of Protection from Spirits,False,1009,filled
+H,Misc: Gems & Jewelry,,246,246,246,of Protection from Theft,False,1009,filled
+H,Misc: Gems & Jewelry,,247-248,247,248,Rabbit's Foot,False,283; 930,filled
+H,Misc: Gems & Jewelry,,249-250,249,250,of Resource,False,367,filled
+H,Misc: Gems & Jewelry,,251-252,251,252,of Sympathetic Heating,False,283,filled
+H,Misc: Gems & Jewelry,,253-254,253,254,Tree Climbing,False,283,filled
+H,Misc: Gems & Jewelry,,255-256,255,256,Wolfspaw,False,284,filled
+H,Misc: Gems & Jewelry,,257-258,257,258,Black of Aerdy,False,675,filled
+H,Misc: Gems & Jewelry,,259-260,259,260,of Blackmoor,False,836,filled
+H,Misc: Gems & Jewelry,,261-262,261,262,of Corruption,False,332,filled
+H,Misc: Gems & Jewelry,,263-264,263,264,Dark,False,481,filled
+H,Misc: Gems & Jewelry,,265-266,265,266,Emperor's,False,333,filled
+H,Misc: Gems & Jewelry,,267-268,267,268,Hooded,False,333,filled
+H,Misc: Gems & Jewelry,,269-270,269,270,of Imperium,False,334,filled
+H,Misc: Gems & Jewelry,,271-272,271,272,Iron of the Bandit Kingdom,False,334,filled
+H,Misc: Gems & Jewelry,,273-274,273,274,of Leadership,False,1030,filled
+H,Misc: Gems & Jewelry,,275-276,275,276,Normal Naga,False,334,filled
+H,Misc: Gems & Jewelry,,277-278,277,278,Altering Naga,False,334,filled
+H,Misc: Gems & Jewelry,,279-280,279,280,Teleporting Naga,False,334,filled
+H,Misc: Gems & Jewelry,,281-282,281,282,of Rulership,False,1037,filled
+H,Misc: Gems & Jewelry,,283-284,283,284,Scorpion,False,337,filled
+H,Misc: Gems & Jewelry,,285-286,285,286,Silver of Veluna,False,325,filled
+H,Misc: Gems & Jewelry,,287-288,287,288,Sorona,False,337,filled
+H,Misc: Gems & Jewelry,,289-290,289,290,of Souls,False,1397,filled
+H,Misc: Gems & Jewelry,,291-292,291,292,of Souls II,False,1397,filled
+H,Misc: Gems & Jewelry,,293-294,293,294,of Stars,False,1016,filled
+H,Misc: Gems & Jewelry,,295,295,295,of the Stars,False,1016,filled
+H,Misc: Gems & Jewelry,,296-297,296,297,of Summation,False,339,filled
+H,Misc: Gems & Jewelry,,298-299,298,299,of the Unicorns,False,1259,filled
+H,Misc: Gems & Jewelry,,300-301,300,301,Velvet,False,340,filled
+H,Misc: Gems & Jewelry,,302-303,302,303,of the Void,False,340,filled
+H,Misc: Gems & Jewelry,,304-305,304,305,of Yarus,False,340,filled
+H,Misc: Gems & Jewelry,,306-307,306,307,Abelaat,False,341,filled
+H,Misc: Gems & Jewelry,,308-309,308,309,of Awareness,False,341,filled
+H,Misc: Gems & Jewelry,,310-311,310,311,of Death Scrying,False,341,filled
+H,Misc: Gems & Jewelry,,312-313,312,313,of the Ebon Flame,False,1359,filled
+H,Misc: Gems & Jewelry,,314-315,314,315,Phasing,False,343,filled
+H,Misc: Gems & Jewelry,,316-317,316,317,Signaling,False,633,filled
+H,Misc: Gems & Jewelry,,318-319,318,319,of Alignment Detection,False,425,filled
+H,Misc: Gems & Jewelry,,320-321,320,321,of Burrowing,False,425,filled
+H,Misc: Gems & Jewelry,,322-323,322,323,of Defense,False,241,filled
+H,Misc: Gems & Jewelry,,324-325,324,325,Equus,False,48,filled
+H,Misc: Gems & Jewelry,,326-327,326,327,of Paralysis,False,1131,filled
+H,Misc: Gems & Jewelry,,328-329,328,329,of Protection,False,1009,filled
+H,Misc: Gems & Jewelry,,330-331,330,331,of the Sea,False,1083,filled
+H,Misc: Gems & Jewelry,,332-333,332,333,of Seamanship,False,428,filled
+H,Misc: Gems & Jewelry,,334-335,334,335,of Understanding,False,428,filled
+H,Misc: Gems & Jewelry,,336-337,336,337,Eidolon of Khalk'Ru,False,440,filled
+H,Misc: Gems & Jewelry,,338-339,338,339,of Accuracy,False,176,filled
+H,Misc: Gems & Jewelry,,340-341,340,341,of Arik,False,452,filled
+H,Misc: Gems & Jewelry,,342-343,342,343,Assassin's,False,452,filled
+H,Misc: Gems & Jewelry,,344,344,344,Beady,False,163; 453,filled
+H,Misc: Gems & Jewelry,,345-346,345,346,Black Opal,False,453,filled
+H,Misc: Gems & Jewelry,,347-348,347,348,Black Opal II,False,453,filled
+H,Misc: Gems & Jewelry,,349-350,349,350,of Cegilune's Hag,False,453,filled
+H,Misc: Gems & Jewelry,,351-352,351,352,of Charming,False,1321,filled
+H,Misc: Gems & Jewelry,,353-354,353,354,of Donoagi,False,453,filled
+H,Misc: Gems & Jewelry,,355-356,355,356,Dragon's,False,1448,filled
+H,Misc: Gems & Jewelry,,357-358,357,358,of the Eagle,False,959,filled
+H,Misc: Gems & Jewelry,,359-360,359,360,of the Immortals,False,455,filled
+H,Misc: Gems & Jewelry,,361-362,361,362,of Infravision,False,455,filled
+H,Misc: Gems & Jewelry,,363-364,363,364,of Leviathan,False,456,filled
+H,Misc: Gems & Jewelry,,365-366,365,366,of the Leviathan,False,456,filled
+H,Misc: Gems & Jewelry,,367-368,367,368,Magical,False,1284,filled
+H,Misc: Gems & Jewelry,,369-370,369,370,Mellifleur's Left Gem,False,529,filled
+H,Misc: Gems & Jewelry,,371-372,371,372,Mellifleur's Right Gem,False,529,filled
+H,Misc: Gems & Jewelry,,373-374,373,374,of Minute Seeing,False,458,filled
+H,Misc: Gems & Jewelry,,375-376,375,376,of Night,False,704,filled
+H,Misc: Gems & Jewelry,,377-378,377,378,of Petrification,False,654,filled
+H,Misc: Gems & Jewelry,,379-380,379,380,of Traldar,False,459,filled
+H,Misc: Gems & Jewelry,,381-382,381,382,of Vecna,False,563; 564,filled
+H,Misc: Gems & Jewelry,,383-384,383,384,Winking,False,461,filled
+H,Misc: Gems & Jewelry,,385-386,385,386,of Arcanist,False,462,filled
+H,Misc: Gems & Jewelry,,387-388,387,388,of Arcanist II,False,462,filled
+H,Misc: Gems & Jewelry,,389-390,389,390,of Arcanist III,False,462,filled
+H,Misc: Gems & Jewelry,,391-392,391,392,of Enhanced Vision,False,463,filled
+H,Misc: Gems & Jewelry,,393,393,393,of Sight,False,979,filled
+H,Misc: Gems & Jewelry,,394-395,394,395,of True Seeing,False,463,filled
+H,Misc: Gems & Jewelry,,396-397,396,397,Eyepatch of Tenh,False,463,filled
+H,Misc: Gems & Jewelry,,398-399,398,399,of Atonement,False,751,filled
+H,Misc: Gems & Jewelry,,400-401,400,401,Bimbomushi,False,1308,filled
+H,Misc: Gems & Jewelry,,402-403,402,403,of Brightness,False,517,filled
+H,Misc: Gems & Jewelry,,404-405,404,405,Bupu's Emerald,False,517,filled
+H,Misc: Gems & Jewelry,,406-407,406,407,Blue Cindergem,False,101,filled
+H,Misc: Gems & Jewelry,,408-409,408,409,Green Cindergem,False,518,filled
+H,Misc: Gems & Jewelry,,410-411,410,411,Indigo Cindergem,False,518,filled
+H,Misc: Gems & Jewelry,,412-413,412,413,Orange Cindergem,False,518,filled
+H,Misc: Gems & Jewelry,,414-415,414,415,Violet Cindergem,False,518,filled
+H,Misc: Gems & Jewelry,,416-417,416,417,Yellow Cindergem,False,518,filled
+H,Misc: Gems & Jewelry,,418-419,418,419,of Curing,False,751,filled
+H,Misc: Gems & Jewelry,,420-421,420,421,of Delusion,False,519,filled
+H,Misc: Gems & Jewelry,,422-423,422,423,Clear of Detection,False,275,filled
+H,Misc: Gems & Jewelry,,424-425,424,425,Deep Red of Detection,False,275,filled
+H,Misc: Gems & Jewelry,,426-427,426,427,Pale Blue of Detection,False,275,filled
+H,Misc: Gems & Jewelry,,428-429,428,429,Pale Green of Detection,False,275,filled
+H,Misc: Gems & Jewelry,,430-431,430,431,Pale Lavender of Detection,False,905,filled
+H,Misc: Gems & Jewelry,,432-433,432,433,Pearly White of Detection,False,275,filled
+H,Misc: Gems & Jewelry,,434-435,434,435,Pink and Green of Detection,False,275,filled
+H,Misc: Gems & Jewelry,,436-437,436,437,Pink of Detection,False,275,filled
+H,Misc: Gems & Jewelry,,438-439,438,439,Scarlet and Blue of Detection,False,275,filled
+H,Misc: Gems & Jewelry,,440-441,440,441,Vibrant Purple Prism of Detection,False,519,filled
+H,Misc: Gems & Jewelry,,442,442,442,of Drusion,False,520,filled
+H,Misc: Gems & Jewelry,,443-444,443,444,of Faith,False,712,filled
+H,Misc: Gems & Jewelry,,445-446,445,446,Fire,False,1481,filled
+H,Misc: Gems & Jewelry,,447-448,447,448,of Foresight,False,521,filled
+H,Misc: Gems & Jewelry,,449-450,449,450,Gamalon's of Infravision,False,455,filled
+H,Misc: Gems & Jewelry,,451-452,451,452,of Ideas,False,521,filled
+H,Misc: Gems & Jewelry,,453-454,453,454,of Income,False,521,filled
+H,Misc: Gems & Jewelry,,455-456,455,456,of Insight,False,522,filled
+H,Misc: Gems & Jewelry,,457-458,457,458,Ionian Master,False,1004,filled
+H,Misc: Gems & Jewelry,,459-460,459,460,Ionian Normal,False,522,filled
+H,Misc: Gems & Jewelry,,461-462,461,462,Jewel of Attacks,False,523,filled
+H,Misc: Gems & Jewelry,,463-464,463,464,Jewel of Attacks Upon the Owner,False,522,filled
+H,Misc: Gems & Jewelry,,465-466,465,466,Jewel of Flawlessness,False,522,filled
+H,Misc: Gems & Jewelry,,467-468,467,468,Jewel of Neverwinter,False,523,filled
+H,Misc: Gems & Jewelry,,469-470,469,470,Jewel of Obsession,False,906,filled
+H,Misc: Gems & Jewelry,,471-472,471,472,Karathoth's Jewel,False,524,filled
+H,Misc: Gems & Jewelry,,473-474,473,474,Karma,False,751,filled
+H,Misc: Gems & Jewelry,,475-476,475,476,of Life,False,905,filled
+H,Misc: Gems & Jewelry,,477-478,477,478,of Magic Missile Protection,False,525,filled
+H,Misc: Gems & Jewelry,,479-480,479,480,of Musing,False,525,filled
+H,Misc: Gems & Jewelry,,481-482,481,482,Nightjewel,False,525,filled
+H,Misc: Gems & Jewelry,,483-484,483,484,Opal of Olfactory Illusion,False,526,filled
+H,Misc: Gems & Jewelry,,485-486,485,486,of Protection,False,1009,filled
+H,Misc: Gems & Jewelry,,487-488,487,488,Purple of the Vesve Forest,False,527,filled
+H,Misc: Gems & Jewelry,,489-490,489,490,of Retaliation,False,527,filled
+H,Misc: Gems & Jewelry,,491,491,491,of Returning,False,527,filled
+H,Misc: Gems & Jewelry,,492-493,492,493,of Scroll Reading,False,527,filled
+H,Misc: Gems & Jewelry,,494-495,494,495,of Seeing,False,528,filled
+H,Misc: Gems & Jewelry,,496-497,496,497,of Shielding,False,228,filled
+H,Misc: Gems & Jewelry,,498-499,498,499,Soul,False,529,filled
+H,Misc: Gems & Jewelry,,500-501,500,501,Khan-Pelar Star,False,529,filled
+H,Misc: Gems & Jewelry,,502-503,502,503,Mo-Pelar Star,False,529,filled
+H,Misc: Gems & Jewelry,,504-505,504,505,Shah-Pelar Star,False,529,filled
+H,Misc: Gems & Jewelry,,506-507,506,507,of Wishes,False,219,filled
+H,Misc: Gems & Jewelry,,508-509,508,509,Enlarging,False,536,filled
+H,Misc: Gems & Jewelry,,510-511,510,511,of Distant Vision,False,536,filled
+H,Misc: Gems & Jewelry,,512-513,512,513,Joal's of Preserved Words,False,536,filled
+H,Misc: Gems & Jewelry,,514-515,514,515,Loupe of Cormac,False,337,filled
+H,Misc: Gems & Jewelry,,516-517,516,517,of Preserved Words,False,537,filled
+H,Misc: Gems & Jewelry,,518-519,518,519,of Underwater Sight,False,210,filled
+H,Misc: Gems & Jewelry,,520-521,520,521,Troppenribb's,False,,not_in_index
+H,Misc: Gems & Jewelry,,522-523,522,523,Beating,False,573,filled
+H,Misc: Gems & Jewelry,,524-525,524,525,Chicken,False,573,filled
+H,Misc: Gems & Jewelry,,526-527,526,527,of Hearing,False,573,filled
+H,Misc: Gems & Jewelry,,528-529,528,529,Iron,False,1484,filled
+H,Misc: Gems & Jewelry,,530-531,530,531,of Kazgaroth,False,573,filled
+H,Misc: Gems & Jewelry,,532-533,532,533,Lion,False,574,filled
+H,Misc: Gems & Jewelry,,534-535,534,535,Royal,False,574,filled
+H,Misc: Gems & Jewelry,,536-537,536,537,Shekinester's Crystalline,False,574,filled
+H,Misc: Gems & Jewelry,,538-539,538,539,of Stone,False,356,filled
+H,Misc: Gems & Jewelry,,540,540,540,of Greyhawk,False,912,filled
+H,Misc: Gems & Jewelry,,541-542,541,542,Larmacian,False,597,filled
+H,Misc: Gems & Jewelry,,543-544,543,544,Celestian's,False,304,filled
+H,Misc: Gems & Jewelry,,545-546,545,546,Fharlanghn's,False,1111,filled
+H,Misc: Gems & Jewelry,,547-548,547,548,Lathander's,False,35,filled
+H,Misc: Gems & Jewelry,,549-550,549,550,Paladine's,False,597,filled
+H,Misc: Gems & Jewelry,,551-552,551,552,of Ravenkind,False,598,filled
+H,Misc: Gems & Jewelry,,553-554,553,554,of Ravenkind II,False,598,filled
+H,Misc: Gems & Jewelry,,555-556,555,556,of Ravenkind II,False,598,filled
+H,Misc: Gems & Jewelry,,557-558,557,558,of Chemosh,False,607,filled
+H,Misc: Gems & Jewelry,,559-560,559,560,of the Raven,False,609,filled
+H,Misc: Gems & Jewelry,,561-562,561,562,of Truth,False,893,filled
+H,Misc: Gems & Jewelry,,563-564,563,564,of Truth II,False,893,filled
+H,Misc: Gems & Jewelry,,565-566,565,566,Iron Pin of the Icy Sea,False,1484,filled
+H,Misc: Gems & Jewelry,,567-568,567,568,Jacinth of Inestimable Beauty,False,621,filled
+H,Misc: Gems & Jewelry,,569-570,569,570,Kura the Darkness,False,1379,filled
+H,Misc: Gems & Jewelry,,571-572,571,572,Book,False,189,filled
+H,Misc: Gems & Jewelry,,573-574,573,574,of Colors,False,650,filled
+H,Misc: Gems & Jewelry,,575-576,575,576,of Crumbling,False,651,filled
+H,Misc: Gems & Jewelry,,577-578,577,578,Enchanted,False,21,filled
+H,Misc: Gems & Jewelry,,579-580,579,580,of Convik Tree,False,1458,filled
+H,Misc: Gems & Jewelry,,581-582,581,582,of His Tree,False,652,filled
+H,Misc: Gems & Jewelry,,583-584,583,584,of Kemis Tree,False,1458,filled
+H,Misc: Gems & Jewelry,,585-586,585,586,of Mis Tree,False,1458,filled
+H,Misc: Gems & Jewelry,,587-588,587,588,of Pajon Tree,False,1458,filled
+H,Misc: Gems & Jewelry,,589,589,589,of Falling,False,652,filled
+H,Misc: Gems & Jewelry,,590-591,590,591,New,False,653,filled
+H,Misc: Gems & Jewelry,,592-593,592,593,of Warmth,False,499,filled
+H,Misc: Gems & Jewelry,,594-595,594,595,of Activity Detection,False,653,filled
+H,Misc: Gems & Jewelry,,596-597,596,597,of Blinding,False,86,filled
+H,Misc: Gems & Jewelry,,598-599,598,599,of Charming,False,1321,filled
+H,Misc: Gems & Jewelry,,600-601,600,601,of Detection,False,275,filled
+H,Misc: Gems & Jewelry,,602-603,602,603,of the Eagle,False,959,filled
+H,Misc: Gems & Jewelry,,604-605,604,605,Eye of the Eagle,False,451,filled
+H,Misc: Gems & Jewelry,,606-607,606,607,Evelyn's of Speedreading,False,655,filled
+H,Misc: Gems & Jewelry,,608-609,608,609,of Far Seeing,False,654,filled
+H,Misc: Gems & Jewelry,,610-611,610,611,of Lighting,False,374,filled
+H,Misc: Gems & Jewelry,,612-613,612,613,of Minute Seeing,False,458,filled
+H,Misc: Gems & Jewelry,,614-615,614,615,of Petrification,False,654,filled
+H,Misc: Gems & Jewelry,,616-617,616,617,of Petrification II,False,654,filled
+H,Misc: Gems & Jewelry,,618-619,618,619,of Reflection,False,886,filled
+H,Misc: Gems & Jewelry,,620-621,620,621,of Remote Viewing,False,655,filled
+H,Misc: Gems & Jewelry,,622-623,622,623,of Seeing,False,528,filled
+H,Misc: Gems & Jewelry,,624-625,624,625,of Speed Reading,False,210,filled
+H,Misc: Gems & Jewelry,,626-627,626,627,of Subtitles,False,655,filled
+H,Misc: Gems & Jewelry,,628-629,628,629,of Transformation,False,1435,filled
+H,Misc: Gems & Jewelry,,630-631,630,631,of Ultravision,False,656,filled
+H,Misc: Gems & Jewelry,,632-633,632,633,of Valuation,False,657,filled
+H,Misc: Gems & Jewelry,,634-635,634,635,of the Great Kingdom,False,672,filled
+H,Misc: Gems & Jewelry,,636-637,636,637,of Love,False,828,filled
+H,Misc: Gems & Jewelry,,638,638,638,of Natasha,False,672,filled
+H,Misc: Gems & Jewelry,,639-640,639,640,of the Arctic,False,710,filled
+H,Misc: Gems & Jewelry,,641-642,641,642,of Defense,False,241,filled
+H,Misc: Gems & Jewelry,,643-644,643,644,of Empathy,False,710,filled
+H,Misc: Gems & Jewelry,,645-646,645,646,Equus,False,48,filled
+H,Misc: Gems & Jewelry,,647-648,647,648,of ESP,False,1512,filled
+H,Misc: Gems & Jewelry,,649-650,649,650,of EST,False,712,filled
+H,Misc: Gems & Jewelry,,651-652,651,652,of Faith,False,712,filled
+H,Misc: Gems & Jewelry,,653-654,653,654,Holy of Almor,False,713,filled
+H,Misc: Gems & Jewelry,,655-656,655,656,Locke's of Thought Projection,False,713,filled
+H,Misc: Gems & Jewelry,,657-658,657,658,of Malog,False,713,filled
+H,Misc: Gems & Jewelry,,659-660,659,660,of the Mirror,False,734,filled
+H,Misc: Gems & Jewelry,,661-662,661,662,of Missile Attraction,False,713,filled
+H,Misc: Gems & Jewelry,,663-664,663,664,Pax's of Spell Exchange,False,713,filled
+H,Misc: Gems & Jewelry,,665-666,665,666,of Projection,False,987,filled
+H,Misc: Gems & Jewelry,,667-668,667,668,Soulsearcher,False,714,filled
+H,Misc: Gems & Jewelry,,669-670,669,670,Soulsearcher II,False,714,filled
+H,Misc: Gems & Jewelry,,671-672,671,672,Species Enemy,False,714,filled
+H,Misc: Gems & Jewelry,,673-674,673,674,of Spell Exchange,False,713; 714,filled
+H,Misc: Gems & Jewelry,,675-676,675,676,Star of Celene,False,715,filled
+H,Misc: Gems & Jewelry,,677-678,677,678,of Steadiness,False,715,filled
+H,Misc: Gems & Jewelry,,679-680,679,680,of Thought Projection,False,713; 715,filled
+H,Misc: Gems & Jewelry,,681-682,681,682,of Time,False,1252,filled
+H,Misc: Gems & Jewelry,,683-684,683,684,Tunmit's Battle Crescent,False,715,filled
+H,Misc: Gems & Jewelry,,685-686,685,686,Medicine Bundle,False,716; 1423,filled
+H,Misc: Gems & Jewelry,,687,687,687,Fire-Eye,False,740,filled
+H,Misc: Gems & Jewelry,,688-689,688,689,of Magic,False,741,filled
+H,Misc: Gems & Jewelry,,690-691,690,691,of Adaptation,False,1507,filled
+H,Misc: Gems & Jewelry,,692-693,692,693,of Air Breathing,False,697,filled
+H,Misc: Gems & Jewelry,,694-695,694,695,of Almor,False,746,filled
+H,Misc: Gems & Jewelry,,696-697,696,697,of Alteration,False,746,filled
+H,Misc: Gems & Jewelry,,698-699,698,699,of Bad Taste,False,747,filled
+H,Misc: Gems & Jewelry,,700-701,700,701,Cosette's,False,748,filled
+H,Misc: Gems & Jewelry,,702-703,702,703,of Elegance,False,748,filled
+H,Misc: Gems & Jewelry,,704-705,704,705,Frigga's Black Opal,False,749,filled
+H,Misc: Gems & Jewelry,,706-707,706,707,Glittering,False,749,filled
+H,Misc: Gems & Jewelry,,708-709,708,709,of Greed,False,749,filled
+H,Misc: Gems & Jewelry,,710-711,710,711,of Harmonia,False,749,filled
+H,Misc: Gems & Jewelry,,712-713,712,713,of Lilith,False,749,filled
+H,Misc: Gems & Jewelry,,714-715,714,715,Marv's of Memory Displacement,False,750,filled
+H,Misc: Gems & Jewelry,,716-717,716,717,of Memory Enhancement,False,750,filled
+H,Misc: Gems & Jewelry,,718-719,718,719,of Missiles,False,1100,filled
+H,Misc: Gems & Jewelry,,720-721,720,721,of Mystic Eidolons,False,750,filled
+H,Misc: Gems & Jewelry,,722-723,722,723,of Night Seeing,False,591,filled
+H,Misc: Gems & Jewelry,,724-725,724,725,Noj's of Not-so-Smart Missiles,False,1100,filled
+H,Misc: Gems & Jewelry,,726-727,726,727,of Petrification,False,654,filled
+H,Misc: Gems & Jewelry,,728-729,728,729,of Prayer Beads,False,751,filled
+H,Misc: Gems & Jewelry,,730-731,730,731,of Protection +1,False,1009,filled
+H,Misc: Gems & Jewelry,,732-733,732,733,of Protection +2,False,1009,filled
+H,Misc: Gems & Jewelry,,734-735,734,735,of Protection Against Charm,False,752,filled
+H,Misc: Gems & Jewelry,,736,736,736,Snake,False,910,filled
+H,Misc: Gems & Jewelry,,737-738,737,738,of Strangling,False,326,filled
+H,Misc: Gems & Jewelry,,739-740,739,740,of Strangulation,False,752,filled
+H,Misc: Gems & Jewelry,,741-742,741,742,Syranita's Opal,False,752,filled
+H,Misc: Gems & Jewelry,,743-744,743,744,of Ugliness,False,895,filled
+H,Misc: Gems & Jewelry,,745-746,745,746,Vergadain's,False,1412,filled
+H,Misc: Gems & Jewelry,,747-748,747,748,of Water Breathing,False,753,filled
+H,Misc: Gems & Jewelry,,749-750,749,750,Black,False,675,filled
+H,Misc: Gems & Jewelry,,751-752,751,752,Dragon,False,1448,filled
+H,Misc: Gems & Jewelry,,753-754,753,754,of the Ebbing Tide,False,805,filled
+H,Misc: Gems & Jewelry,,755-756,755,756,of Entrancement,False,267,filled
+H,Misc: Gems & Jewelry,,757-758,757,758,of Flying,False,1513,filled
+H,Misc: Gems & Jewelry,,759-760,759,760,Giant Black,False,805,filled
+H,Misc: Gems & Jewelry,,761-762,761,762,Gold,False,1324,filled
+H,Misc: Gems & Jewelry,,763-764,763,764,Kathena's of Wisdom,False,805,filled
+H,Misc: Gems & Jewelry,,765-766,765,766,of Power,False,907,filled
+H,Misc: Gems & Jewelry,,767-768,767,768,of Power II,False,907,filled
+H,Misc: Gems & Jewelry,,769-770,769,770,of Protection from Fire,False,807,filled
+H,Misc: Gems & Jewelry,,771-772,771,772,Red,False,807,filled
+H,Misc: Gems & Jewelry,,773-774,773,774,of the Rising Tide,False,807,filled
+H,Misc: Gems & Jewelry,,775-776,775,776,Serpent Spirit,False,807,filled
+H,Misc: Gems & Jewelry,,777-778,777,778,of the Sirines,False,807,filled
+H,Misc: Gems & Jewelry,,779-780,779,780,Storm Rider's,False,807,filled
+H,Misc: Gems & Jewelry,,781-782,781,782,Traveler's,False,807,filled
+H,Misc: Gems & Jewelry,,783-784,783,784,of Ultimate Wisdom,False,808,filled
+H,Misc: Gems & Jewelry,,785,785,785,of Wisdom,False,805; 808,filled
+H,Misc: Gems & Jewelry,,786-787,786,787,Cursed of Wisdom,False,1071; 1072,filled
+H,Misc: Gems & Jewelry,,788-789,788,789,Equus,False,48,filled
+H,Misc: Gems & Jewelry,,790-791,790,791,Rahasia's,False,1425,filled
+H,Misc: Gems & Jewelry,,792-793,792,793,of Foul Rotting,False,825,filled
+H,Misc: Gems & Jewelry,,794-795,794,795,of Health,False,969,filled
+H,Misc: Gems & Jewelry,,796-797,796,797,of Proof Against Poison,False,151,filled
+H,Misc: Gems & Jewelry,,798-799,798,799,of Proof Against Poison,False,151,filled
+H,Misc: Gems & Jewelry,,800-801,800,801,of Prophecy,False,827,filled
+H,Misc: Gems & Jewelry,,802-803,802,803,of Protection vs. Vampiric Ixitxachitl,False,1009,filled
+H,Misc: Gems & Jewelry,,804-805,804,805,of Wound Closure,False,827,filled
+H,Misc: Gems & Jewelry,,806-807,806,807,of Bravery,False,830,filled
+H,Misc: Gems & Jewelry,,808-809,808,809,of Faithfulness,False,830,filled
+H,Misc: Gems & Jewelry,,810-811,810,811,Haroistem's of Faithfulness,False,830,filled
+H,Misc: Gems & Jewelry,,812,812,812,of Long Years,False,831,filled
+H,Misc: Gems & Jewelry,,813-815,813,815,of Monstrous Attention,False,831,filled
+H,Misc: Gems & Jewelry,,816-817,816,817,of Righteousness,False,831,filled
+H,Misc: Gems & Jewelry,,818-819,818,819,of Distraction,False,281,filled
+H,Misc: Gems & Jewelry,,820-821,820,821,of Greyhawk,False,912,filled
+H,Misc: Gems & Jewelry,,822-823,822,823,of Kushk,False,912,filled
+H,Misc: Gems & Jewelry,,824-825,824,825,of Light Splitting,False,913,filled
+H,Misc: Gems & Jewelry,,826-827,826,827,Sim's of Light Splitting,False,374,filled
+H,Misc: Gems & Jewelry,,828-829,828,829,Psychometron of Nerad,False,918,filled
+H,Misc: Gems & Jewelry,,830-831,830,831,Benson's of Uncertain Friendship,False,1370,filled
+H,Misc: Gems & Jewelry,,832-833,832,833,of Death,False,1478,filled
+H,Misc: Gems & Jewelry,,834,834,834,of Deception,False,1056,filled
+H,Misc: Gems & Jewelry,,835-836,835,836,of Enraging Enemies,False,1056,filled
+H,Misc: Gems & Jewelry,,837-838,837,838,Equus,False,48,filled
+H,Misc: Gems & Jewelry,,839-840,839,840,of Golem Protection,False,1057,filled
+H,Misc: Gems & Jewelry,,841-842,841,842,of Insanity,False,1377,filled
+H,Misc: Gems & Jewelry,,843-844,843,844,of Life,False,905,filled
+H,Misc: Gems & Jewelry,,845-846,845,846,Mark's of Protection,False,1009,filled
+H,Misc: Gems & Jewelry,,847-848,847,848,Mazrikoth's of Death,False,1478,filled
+H,Misc: Gems & Jewelry,,849-850,849,850,Mortos's Golem,False,1058,filled
+H,Misc: Gems & Jewelry,,851-852,851,852,of Pest Protection,False,1058,filled
+H,Misc: Gems & Jewelry,,853-854,853,854,of Protection,False,1009,filled
+H,Misc: Gems & Jewelry,,855-856,855,856,of Protection II,False,1009,filled
+H,Misc: Gems & Jewelry,,857-858,857,858,Cursed of Protection II,False,1009,filled
+H,Misc: Gems & Jewelry,,859-860,859,860,of Uncertainty,False,1058,filled
+H,Misc: Gems & Jewelry,,861-862,861,862,of Venom,False,366; 371; 1375,filled
+H,Misc: Gems & Jewelry,,863-864,863,864,Blast,False,1060,filled
+H,Misc: Gems & Jewelry,,865-866,865,866,of Defense,False,241,filled
+H,Misc: Gems & Jewelry,,867-868,867,868,of Entrapment,False,234,filled
+H,Misc: Gems & Jewelry,,869-870,869,870,of the Forgotten City,False,1062,filled
+H,Misc: Gems & Jewelry,,871-872,871,872,Jade of Defending,False,626,filled
+H,Misc: Gems & Jewelry,,873-874,873,874,Jade of Defending II,False,626,filled
+H,Misc: Gems & Jewelry,,875-876,875,876,of Life,False,905,filled
+H,Misc: Gems & Jewelry,,877-878,877,878,of Light,False,374,filled
+H,Misc: Gems & Jewelry,,879-880,879,880,Plague,False,1064,filled
+H,Misc: Gems & Jewelry,,881-882,881,882,of Power,False,907,filled
+H,Misc: Gems & Jewelry,,883,883,883,of Truth,False,893,filled
+H,Misc: Gems & Jewelry,,884-885,884,885,of Celestial Analysis,False,109,filled
+H,Misc: Gems & Jewelry,,886-887,886,887,Red Air Quality Lens,False,656,filled
+H,Misc: Gems & Jewelry,,888-889,888,889,Yellow Ambient Temperature Lens,False,1067,filled
+H,Misc: Gems & Jewelry,,890-891,890,891,Blue Sentient Life Lens,False,905,filled
+H,Misc: Gems & Jewelry,,892-893,892,893,of Seeing,False,528,filled
+H,Misc: Gems & Jewelry,,894-895,894,895,Shard of Shielding,False,528,filled
+H,Misc: Gems & Jewelry,,896-897,896,897,Spyglass,False,1271,filled
+H,Misc: Gems & Jewelry,,898-899,898,899,Star of the Bright Desert,False,1511,filled
+H,Misc: Gems & Jewelry,,900-901,900,901,Badger Beast,False,1420; 1421,filled
+H,Misc: Gems & Jewelry,,902-903,902,903,Brown Bear Beast,False,1561,filled
+H,Misc: Gems & Jewelry,,904-905,904,905,Deer Beast,False,1420; 1421,filled
+H,Misc: Gems & Jewelry,,906-907,906,907,Eagle Beast,False,959,filled
+H,Misc: Gems & Jewelry,,908-909,908,909,Lynx Beast,False,1420; 1421,filled
+H,Misc: Gems & Jewelry,,910-911,910,911,Porcupine Beast,False,1420; 1421,filled
+H,Misc: Gems & Jewelry,,912-913,912,913,Skunk Beast,False,445,filled
+H,Misc: Gems & Jewelry,,914-915,914,915,Wolf Beast,False,1420; 1421,filled
+H,Misc: Gems & Jewelry,,916-917,916,917,of the Beast,False,28,filled
+H,Misc: Gems & Jewelry,,918-919,918,919,of Chaos Supreme,False,1421,filled
+H,Misc: Gems & Jewelry,,920-921,920,921,of the Chimera,False,1421,filled
+H,Misc: Gems & Jewelry,,922-923,922,923,of the Cockatrice,False,1421,filled
+H,Misc: Gems & Jewelry,,924-925,924,925,of Dreams,False,1528,filled
+H,Misc: Gems & Jewelry,,926-927,926,927,of Elemental Travel,False,1421,filled
+H,Misc: Gems & Jewelry,,928-929,928,929,of the Faerie,False,962,filled
+H,Misc: Gems & Jewelry,,930-931,930,931,Fiend,False,32,filled
+H,Misc: Gems & Jewelry,,932,932,932,Fiend II,False,32,filled
+H,Misc: Gems & Jewelry,,933-934,933,934,Fire Pepper,False,1422,filled
+H,Misc: Gems & Jewelry,,935-936,935,936,of the Amber Golem,False,1422,filled
+H,Misc: Gems & Jewelry,,937-938,937,938,of the Bone Golem,False,1476,filled
+H,Misc: Gems & Jewelry,,939-940,939,940,of the Bronze Golem,False,101,filled
+H,Misc: Gems & Jewelry,,941-942,941,942,of the Obsidian Golem,False,600,filled
+H,Misc: Gems & Jewelry,,943-944,943,944,of the Wood Golem,False,1422,filled
+H,Misc: Gems & Jewelry,,945-946,945,946,of the Griffon,False,550,filled
+H,Misc: Gems & Jewelry,,947-948,947,948,Hwesta's of Memorization,False,1423,filled
+H,Misc: Gems & Jewelry,,949-950,949,950,of Lawfulness,False,1423,filled
+H,Misc: Gems & Jewelry,,951-952,951,952,Medicine Bundle,False,716; 1423,filled
+H,Misc: Gems & Jewelry,,953-954,953,954,of Memorization,False,1423,filled
+H,Misc: Gems & Jewelry,,955-956,955,956,Mire,False,1424,filled
+H,Misc: Gems & Jewelry,,957-958,957,958,Modified of Zagy,False,1424,filled
+H,Misc: Gems & Jewelry,,959-960,959,960,Monkey Head,False,1424,filled
+H,Misc: Gems & Jewelry,,961-962,961,962,of Orcus,False,1425,filled
+H,Misc: Gems & Jewelry,,963-964,963,964,of Pure Good,False,1425,filled
+H,Misc: Gems & Jewelry,,965-966,965,966,of Rahasia,False,1425,filled
+H,Misc: Gems & Jewelry,,967-968,967,968,Sacred Bundle,False,1425,filled
+H,Misc: Gems & Jewelry,,969-970,969,970,of the Sphere,False,1270,filled
+H,Misc: Gems & Jewelry,,971-972,971,972,of the Crystal Statue,False,1303,filled
+H,Misc: Gems & Jewelry,,973-974,973,974,of the Iron Statue,False,1484,filled
+H,Misc: Gems & Jewelry,,975-976,975,976,of the Rock Statue,False,1305,filled
+H,Misc: Gems & Jewelry,,977-978,977,978,of Tongues,False,1004,filled
+H,Misc: Gems & Jewelry,,979-980,979,980,of Ultimate Evil,False,1426,filled
+H,Misc: Gems & Jewelry,,981,981,981,of Zagy,False,1426,filled
+H,Misc: Gems & Jewelry,,982-983,982,983,Belenus's,False,1451,filled
+H,Misc: Gems & Jewelry,,984-985,984,985,of Craftsmanship,False,859,filled
+H,Misc: Gems & Jewelry,,986-987,986,987,of the Goddess,False,1451,filled
+H,Misc: Gems & Jewelry,,988-989,988,989,of the Gods,False,1439,filled
+H,Misc: Gems & Jewelry,,990-991,990,991,of the Gods II,False,1439,filled
+H,Misc: Gems & Jewelry,,992-993,992,993,of the Gods III,False,1439,filled
+H,Misc: Gems & Jewelry,,994-995,994,995,of the Gods or the Tor,False,1452,filled
+H,Misc: Gems & Jewelry,,996-997,996,997,of Stability,False,1452,filled
+H,Misc: Gems & Jewelry,,998-1000,998,1000,Vainamoinen's Tear,False,1411,filled

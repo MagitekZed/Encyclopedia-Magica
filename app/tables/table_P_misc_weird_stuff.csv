@@ -1,0 +1,440 @@
+table,category,subcategory,roll_display,roll_low,roll_high,name,reroll,page,page_status
+P,Misc: Weird Stuff,,1-2,1,2,Enchanted Enhancements,True,21,filled
+P,Misc: Weird Stuff,,3-4,3,4,Aerial,False,45,filled
+P,Misc: Weird Stuff,,5-6,5,6,Aerial II,False,45,filled
+P,Misc: Weird Stuff,,7-9,7,9,Fishing,False,821,filled
+P,Misc: Weird Stuff,,10-11,10,11,Hold Fast,False,45,filled
+P,Misc: Weird Stuff,,12-13,12,13,Man,False,45,filled
+P,Misc: Weird Stuff,,14-15,14,15,Seafaring,False,46,filled
+P,Misc: Weird Stuff,,16-18,16,18,Cursed of Staying,False,1071; 1072,filled
+P,Misc: Weird Stuff,,19-20,19,20,Greater of Staying,False,46,filled
+P,Misc: Weird Stuff,,21-22,21,22,Lesser of Staying,False,46,filled
+P,Misc: Weird Stuff,,23-24,23,24,of Weight,False,47,filled
+P,Misc: Weird Stuff,,25-27,25,27,Antennae of Triangulation,False,50,filled
+P,Misc: Weird Stuff,,28-29,28,29,Apparatus of Kwalish,False,414,filled
+P,Misc: Weird Stuff,,30-31,30,31,of Doom,False,212,filled
+P,Misc: Weird Stuff,,32-34,32,34,Silver of Ergoth,False,325,filled
+P,Misc: Weird Stuff,,35-36,35,36,Silver of Ergoth II,False,325,filled
+P,Misc: Weird Stuff,,37-38,37,38,Celestial,False,109,filled
+P,Misc: Weird Stuff,,39-40,39,40,of Henrik,False,109,filled
+P,Misc: Weird Stuff,,41-43,41,43,of Entrapment,False,234,filled
+P,Misc: Weird Stuff,,44-45,44,45,of Avian Attraction,False,148,filled
+P,Misc: Weird Stuff,,46-47,46,47,Base,False,149,filled
+P,Misc: Weird Stuff,,48-49,48,49,of Cosmetology,False,149,filled
+P,Misc: Weird Stuff,,50-52,50,52,Cue,False,149,filled
+P,Misc: Weird Stuff,,53-54,53,54,Elemental (Earth),False,844,filled
+P,Misc: Weird Stuff,,55-56,55,56,Elemental (Air),False,551,filled
+P,Misc: Weird Stuff,,57-59,57,59,Elemental (Fire),False,1026,filled
+P,Misc: Weird Stuff,,60-61,60,61,Elemental (Water),False,1505,filled
+P,Misc: Weird Stuff,,62-63,62,63,of Endless String,False,150,filled
+P,Misc: Weird Stuff,,64-65,64,65,Foot,False,150,filled
+P,Misc: Weird Stuff,,66-68,66,68,Onyx,False,150,filled
+P,Misc: Weird Stuff,,69-70,69,70,of Power,False,907,filled
+P,Misc: Weird Stuff,,71-72,71,72,Air,False,697,filled
+P,Misc: Weird Stuff,,73-74,73,74,Carnivorous,False,151,filled
+P,Misc: Weird Stuff,,75-77,75,77,of Containment,False,151,filled
+P,Misc: Weird Stuff,,78-80,78,80,Hot Air,False,151,filled
+P,Misc: Weird Stuff,,81,81,81,Poison,False,151,filled
+P,Misc: Weird Stuff,,82-83,82,83,Rust,False,422,filled
+P,Misc: Weird Stuff,,84-86,84,86,Soap,False,151,filled
+P,Misc: Weird Stuff,,87-88,87,88,of Traveling,False,138,filled
+P,Misc: Weird Stuff,,89-90,89,90,Word,False,152,filled
+P,Misc: Weird Stuff,,91-93,91,93,Arcane,False,163,filled
+P,Misc: Weird Stuff,,94-95,94,95,Thayvian,False,163,filled
+P,Misc: Weird Stuff,,96-97,96,97,Bison Skull Totem,False,172,filled
+P,Misc: Weird Stuff,,98-99,98,99,Kolkis's Evil,False,172,filled
+P,Misc: Weird Stuff,,100-102,100,102,Airboat,False,177,filled
+P,Misc: Weird Stuff,,103-104,103,104,Canoe of Portage,False,178,filled
+P,Misc: Weird Stuff,,105-106,105,106,Canoe of Travel,False,178,filled
+P,Misc: Weird Stuff,,107-108,107,108,Desert,False,1009,filled
+P,Misc: Weird Stuff,,109-111,109,111,Small Folding,False,178,filled
+P,Misc: Weird Stuff,,112-113,112,113,Large Folding,False,178,filled
+P,Misc: Weird Stuff,,114-115,114,115,Folding Coracle,False,178,filled
+P,Misc: Weird Stuff,,116-118,116,118,Frog,False,179,filled
+P,Misc: Weird Stuff,,119-120,119,120,Goerl's Portable Canoe/Tackle Box,False,179; 214,filled
+P,Misc: Weird Stuff,,121-122,121,122,Hasty Barge of Nyr Dyv,False,179,filled
+P,Misc: Weird Stuff,,123-124,123,124,House,False,179,filled
+P,Misc: Weird Stuff,,125-127,125,127,Ice,False,351,filled
+P,Misc: Weird Stuff,,128-129,128,129,Joukahainen's,False,208,filled
+P,Misc: Weird Stuff,,130-131,130,131,Joukahainen's II,False,208,filled
+P,Misc: Weird Stuff,,132-133,132,133,Mistboat,False,180,filled
+P,Misc: Weird Stuff,,134-136,134,136,Portable Canoe,False,180,filled
+P,Misc: Weird Stuff,,137-138,137,138,Quaal's Mystical Feather Token,False,180,filled
+P,Misc: Weird Stuff,,139-140,139,140,Semekhtet Barge,False,180,filled
+P,Misc: Weird Stuff,,141-143,141,143,Smuggler's,False,180,filled
+P,Misc: Weird Stuff,,144-145,144,145,Storm Rider of the Gearnat Sea,False,181,filled
+P,Misc: Weird Stuff,,146-147,146,147,Theon's Folding,False,181,filled
+P,Misc: Weird Stuff,,148-149,148,149,Tub of Sailing,False,181; 1462,filled
+P,Misc: Weird Stuff,,150-152,150,152,Underwater,False,210,filled
+P,Misc: Weird Stuff,,153-154,153,154,Underwater,False,210,filled
+P,Misc: Weird Stuff,,155-156,155,156,Vainamoinen's,False,1411,filled
+P,Misc: Weird Stuff,,157-158,157,158,Xiphoid Xebec,False,182; 1415,filled
+P,Misc: Weird Stuff,,159-161,159,161,Brass Horseman,False,222,filled
+P,Misc: Weird Stuff,,162-163,162,163,of Acquiesce,False,223,filled
+P,Misc: Weird Stuff,,164-165,164,165,of Control,False,1453,filled
+P,Misc: Weird Stuff,,166-167,166,167,of Control II,False,1453,filled
+P,Misc: Weird Stuff,,168-170,168,170,Golden,False,1303,filled
+P,Misc: Weird Stuff,,171-172,171,172,of Listening,False,224,filled
+P,Misc: Weird Stuff,,173-174,173,174,Plane Shifter,False,224,filled
+P,Misc: Weird Stuff,,175-177,175,177,of Soaring,False,224,filled
+P,Misc: Weird Stuff,,178-179,178,179,of Speaking,False,375,filled
+P,Misc: Weird Stuff,,180-181,180,181,of Taming,False,1050,filled
+P,Misc: Weird Stuff,,182-183,182,183,of Wings,False,224,filled
+P,Misc: Weird Stuff,,184-186,184,186,Carrague's Iron Golem,False,255,filled
+P,Misc: Weird Stuff,,187-188,187,188,of Convenience,False,259,filled
+P,Misc: Weird Stuff,,189-190,189,190,of Decks,False,259,filled
+P,Misc: Weird Stuff,,191-192,191,192,Mouse,False,259,filled
+P,Misc: Weird Stuff,,193-195,193,195,Cloud,False,263; 265,filled
+P,Misc: Weird Stuff,,196-197,196,197,Cloud II,False,263; 265,filled
+P,Misc: Weird Stuff,,198-199,198,199,Celestial Planisphere,False,270,filled
+P,Misc: Weird Stuff,,200-202,200,202,Daisy,False,271,filled
+P,Misc: Weird Stuff,,203-204,203,204,Danleor's Dungeon,False,271,filled
+P,Misc: Weird Stuff,,205-206,205,206,of Transport,False,273,filled
+P,Misc: Weird Stuff,,207-208,207,208,of Flames,False,1280,filled
+P,Misc: Weird Stuff,,209-211,209,211,Franklyn's Incredible,False,278,filled
+P,Misc: Weird Stuff,,212-213,212,213,Hover,False,278,filled
+P,Misc: Weird Stuff,,214-215,214,215,Myl's Mouse,False,280,filled
+P,Misc: Weird Stuff,,216-217,216,217,Chariot of Ra,False,280,filled
+P,Misc: Weird Stuff,,218-220,218,220,Underwater,False,210,filled
+P,Misc: Weird Stuff,,221-222,221,222,of Vix,False,1132,filled
+P,Misc: Weird Stuff,,223-224,223,224,Fextree,False,284,filled
+P,Misc: Weird Stuff,,225-227,225,227,Khas,False,286,filled
+P,Misc: Weird Stuff,,228-229,228,229,Magical,False,1284,filled
+P,Misc: Weird Stuff,,230-231,230,231,Marbol's,False,286,filled
+P,Misc: Weird Stuff,,232-233,232,233,Chilling Snare,False,288,filled
+P,Misc: Weird Stuff,,234-236,234,236,of Almor,False,746,filled
+P,Misc: Weird Stuff,,237-238,237,238,Bloodcoin,False,318,filled
+P,Misc: Weird Stuff,,239-240,239,240,Copper,False,321,filled
+P,Misc: Weird Stuff,,241-242,241,242,Cursed Copper Piece,False,321,filled
+P,Misc: Weird Stuff,,243-245,243,245,Eight Diagram,False,321,filled
+P,Misc: Weird Stuff,,246-247,246,247,Electrum,False,321,filled
+P,Misc: Weird Stuff,,248-249,248,249,Equus,False,48,filled
+P,Misc: Weird Stuff,,250-251,250,251,Gold,False,1324,filled
+P,Misc: Weird Stuff,,252-254,252,254,of Luck,False,351,filled
+P,Misc: Weird Stuff,,255-256,255,256,Penny of Luck,False,324,filled
+P,Misc: Weird Stuff,,257-258,257,258,Platinum,False,324,filled
+P,Misc: Weird Stuff,,259-261,259,261,Raistlin's Cursed Money,False,324,filled
+P,Misc: Weird Stuff,,262-263,262,263,Returning Penny,False,325,filled
+P,Misc: Weird Stuff,,264-265,264,265,Silver,False,325,filled
+P,Misc: Weird Stuff,,266-267,266,267,Cone of Communication,False,327,filled
+P,Misc: Weird Stuff,,268-270,268,270,Continual Light Reflector,False,374,filled
+P,Misc: Weird Stuff,,271-272,271,272,Control Doll,False,1453,filled
+P,Misc: Weird Stuff,,273-274,273,274,Crystal Ball I,False,344,filled
+P,Misc: Weird Stuff,,275-276,275,276,Crystal Ball II,False,346,filled
+P,Misc: Weird Stuff,,277-279,277,279,Crystal Ball III,False,346,filled
+P,Misc: Weird Stuff,,280-281,280,281,Crystal Ball IV,False,347,filled
+P,Misc: Weird Stuff,,282-283,282,283,avec Clairaudience,False,347,filled
+P,Misc: Weird Stuff,,284-286,284,286,Hypnosis,False,347,filled
+P,Misc: Weird Stuff,,287-288,287,288,Eye of the Gods,False,1452,filled
+P,Misc: Weird Stuff,,289-290,289,290,Moredlin's,False,348,filled
+P,Misc: Weird Stuff,,291-292,291,292,Crystal Parrot,False,317,filled
+P,Misc: Weird Stuff,,293-295,293,295,Diamond,False,205,filled
+P,Misc: Weird Stuff,,296-297,296,297,Glass,False,164,filled
+P,Misc: Weird Stuff,,298-299,298,299,Jade,False,626,filled
+P,Misc: Weird Stuff,,300-301,300,301,Porcelain,False,348; 1094,filled
+P,Misc: Weird Stuff,,302-304,302,304,Ruby,False,1121,filled
+P,Misc: Weird Stuff,,305-306,305,306,of Abilities,False,349,filled
+P,Misc: Weird Stuff,,307-308,307,308,Bullion,False,349,filled
+P,Misc: Weird Stuff,,309-310,309,310,of Calling,False,349,filled
+P,Misc: Weird Stuff,,311-313,311,313,Cubic Foot,False,349,filled
+P,Misc: Weird Stuff,,314-315,314,315,Cubic Gate,False,349,filled
+P,Misc: Weird Stuff,,316-317,316,317,Cubic Yard,False,349,filled
+P,Misc: Weird Stuff,,318-320,318,320,Daern's Instant Fortress,False,350,filled
+P,Misc: Weird Stuff,,321-322,321,322,of Disabilities,False,350,filled
+P,Misc: Weird Stuff,,323-324,323,324,of Farce,False,350,filled
+P,Misc: Weird Stuff,,325-326,325,326,of Force,False,1482,filled
+P,Misc: Weird Stuff,,327-329,327,329,of Force II,False,1482,filled
+P,Misc: Weird Stuff,,330-331,330,331,of Frost Resistance,False,351,filled
+P,Misc: Weird Stuff,,332-333,332,333,Glow,False,351,filled
+P,Misc: Weird Stuff,,334-335,334,335,Ice,False,351,filled
+P,Misc: Weird Stuff,,336-338,336,338,Khurgorbaeyag's Copper,False,351,filled
+P,Misc: Weird Stuff,,339-340,339,340,of Liquid Cooling,False,351,filled
+P,Misc: Weird Stuff,,341-342,341,342,of Luck,False,351,filled
+P,Misc: Weird Stuff,,343-345,343,345,of Sweetness,False,352,filled
+P,Misc: Weird Stuff,,346-347,346,347,of Chance,False,377,filled
+P,Misc: Weird Stuff,,348-349,348,349,Daffy,False,377,filled
+P,Misc: Weird Stuff,,350-351,350,351,of Decking,False,377,filled
+P,Misc: Weird Stuff,,352-354,352,354,Fortune Telling,False,377,filled
+P,Misc: Weird Stuff,,355-356,355,356,of Illusions,False,377; 378,filled
+P,Misc: Weird Stuff,,357-358,357,358,of Illusions II,False,377; 378,filled
+P,Misc: Weird Stuff,,359-360,359,360,Janean's of Many Things,False,378,filled
+P,Misc: Weird Stuff,,361-363,361,363,of Many Things,False,379,filled
+P,Misc: Weird Stuff,,364-365,364,365,of Many Things II,False,379,filled
+P,Misc: Weird Stuff,,366-367,366,367,Quarter,False,381,filled
+P,Misc: Weird Stuff,,368-370,368,370,Sun,False,1406,filled
+P,Misc: Weird Stuff,,371-372,371,372,Tarot Deck of Many Things,False,381,filled
+P,Misc: Weird Stuff,,373-374,373,374,Tracer,False,404,filled
+P,Misc: Weird Stuff,,375-376,375,376,of Wondrous Power,False,404,filled
+P,Misc: Weird Stuff,,377-379,377,379,Passage,False,306,filled
+P,Misc: Weird Stuff,,380-381,380,381,Time Journeying,False,405,filled
+P,Misc: Weird Stuff,,382-383,382,383,of Certain Wagering,False,406,filled
+P,Misc: Weird Stuff,,384-385,384,385,of Chancelessness,False,406,filled
+P,Misc: Weird Stuff,,386-388,386,388,of the Azure Sea,False,408,filled
+P,Misc: Weird Stuff,,389-390,389,390,Displacer,False,408,filled
+P,Misc: Weird Stuff,,391-392,391,392,of History,False,408,filled
+P,Misc: Weird Stuff,,393-394,393,394,Tenser's Tantalus,False,409,filled
+P,Misc: Weird Stuff,,395-397,395,397,Dome of Shapes,False,410,filled
+P,Misc: Weird Stuff,,398-399,398,399,Dragonisle's Harbor Chains,False,413,filled
+P,Misc: Weird Stuff,,400-401,400,401,Dunhill's Spelljamming Apparatus,False,890,filled
+P,Misc: Weird Stuff,,402-404,402,404,Dynamo of Flying,False,423,filled
+P,Misc: Weird Stuff,,405-406,405,406,Edu'sascar,False,428,filled
+P,Misc: Weird Stuff,,407-408,407,408,Elemental Compass,False,149,filled
+P,Misc: Weird Stuff,,409-410,409,410,of Blessing,False,780,filled
+P,Misc: Weird Stuff,,411-413,411,413,Cursed,False,1071; 1072,filled
+P,Misc: Weird Stuff,,414-415,414,415,of Protection,False,1009,filled
+P,Misc: Weird Stuff,,416-417,416,417,of Protection II,False,1009,filled
+P,Misc: Weird Stuff,,418-419,418,419,of Wondrous Power (Attacks),False,907,filled
+P,Misc: Weird Stuff,,420-422,420,422,of Wondrous Power (Disguise),False,907,filled
+P,Misc: Weird Stuff,,423-424,423,424,of Wondrous Power (Speed),False,210,filled
+P,Misc: Weird Stuff,,425-426,425,426,Alabaster Griffon,False,473,filled
+P,Misc: Weird Stuff,,427-429,427,429,Amber Monkeys,False,473,filled
+P,Misc: Weird Stuff,,430-431,430,431,Cat of Felkovic,False,474,filled
+P,Misc: Weird Stuff,,432-433,432,433,Coral Dragon,False,475,filled
+P,Misc: Weird Stuff,,434-435,434,435,Dori's Obsidian Steed,False,475,filled
+P,Misc: Weird Stuff,,436-438,436,438,Emerald Frog,False,475,filled
+P,Misc: Weird Stuff,,439-440,439,440,Jade Snake,False,476,filled
+P,Misc: Weird Stuff,,441-442,441,442,Moonstone Rabbit,False,476,filled
+P,Misc: Weird Stuff,,443-444,443,444,Onyx Cats,False,150,filled
+P,Misc: Weird Stuff,,445-447,445,447,Opal Cats,False,477,filled
+P,Misc: Weird Stuff,,448-449,448,449,Silver Carp,False,477,filled
+P,Misc: Weird Stuff,,450-451,450,451,Tourmaline Turtle,False,477,filled
+P,Misc: Weird Stuff,,452-454,452,454,of Wondrous Power,False,404,filled
+P,Misc: Weird Stuff,,455-456,455,456,Cold,False,1476,filled
+P,Misc: Weird Stuff,,457-458,457,458,Dark,False,481,filled
+P,Misc: Weird Stuff,,459-460,459,460,Gyregam,False,481,filled
+P,Misc: Weird Stuff,,461-463,461,463,Folding Moat,False,490,filled
+P,Misc: Weird Stuff,,464-465,464,465,Flying Rockinghorse,False,1513,filled
+P,Misc: Weird Stuff,,466-467,466,467,Lasko's Magical,False,493,filled
+P,Misc: Weird Stuff,,468-469,468,469,Blackjack,False,501,filled
+P,Misc: Weird Stuff,,470-472,470,472,Laser Pistol,False,501,filled
+P,Misc: Weird Stuff,,473-474,473,474,Lute,False,92,filled
+P,Misc: Weird Stuff,,475-476,475,476,Medal,False,501,filled
+P,Misc: Weird Stuff,,477-478,477,478,Pocket Tool,False,501,filled
+P,Misc: Weird Stuff,,479-481,479,481,Star,False,1511,filled
+P,Misc: Weird Stuff,,482-483,482,483,Violin Case,False,1333,filled
+P,Misc: Weird Stuff,,484-485,484,485,Gateway of Symmetry,False,1558,filled
+P,Misc: Weird Stuff,,486-488,486,488,Ginzani's Riding Tack of Flight,False,530,filled
+P,Misc: Weird Stuff,,489-490,489,490,Glitterlode's Blessed Skyhooks,False,537,filled
+P,Misc: Weird Stuff,,491-492,491,492,of Battleshroud Gas,False,537,filled
+P,Misc: Weird Stuff,,493-494,493,494,of Cirulon,False,585,filled
+P,Misc: Weird Stuff,,495-497,495,497,Glowing,False,538,filled
+P,Misc: Weird Stuff,,498-499,498,499,Glowing II,False,538,filled
+P,Misc: Weird Stuff,,500-501,500,501,Mervic's Gaseous,False,539,filled
+P,Misc: Weird Stuff,,502-503,502,503,of Purification,False,249,filled
+P,Misc: Weird Stuff,,504-506,504,506,Samzinna's of Putrification,False,539,filled
+P,Misc: Weird Stuff,,507-508,507,508,of Serenity,False,539,filled
+P,Misc: Weird Stuff,,509-510,509,510,Vision,False,252,filled
+P,Misc: Weird Stuff,,511-513,511,513,of Wisdom,False,805; 808,filled
+P,Misc: Weird Stuff,,514-515,514,515,Goldbug,False,547,filled
+P,Misc: Weird Stuff,,516-517,516,517,Golden Floor,False,1303,filled
+P,Misc: Weird Stuff,,518-519,518,519,Guardian Tail,False,550,filled
+P,Misc: Weird Stuff,,520-522,520,522,Gravitic Stabilizer,False,550,filled
+P,Misc: Weird Stuff,,523-524,523,524,Bardic,False,575,filled
+P,Misc: Weird Stuff,,525-526,525,526,Alarm Beacon,False,574,filled
+P,Misc: Weird Stuff,,527-528,527,528,Cloaking,False,575,filled
+P,Misc: Weird Stuff,,529-531,529,531,Death,False,1478,filled
+P,Misc: Weird Stuff,,532-533,532,533,Forge,False,576,filled
+P,Misc: Weird Stuff,,534-535,534,535,Furnace,False,577,filled
+P,Misc: Weird Stuff,,536-537,536,537,Gnomish,False,577,filled
+P,Misc: Weird Stuff,,538-540,538,540,Grand,False,577,filled
+P,Misc: Weird Stuff,,541-542,541,542,Ki-Helm,False,578,filled
+P,Misc: Weird Stuff,,543-544,543,544,Lifejammer,False,578,filled
+P,Misc: Weird Stuff,,545-547,545,547,Orbus,False,985,filled
+P,Misc: Weird Stuff,,548-549,548,549,Pump,False,579,filled
+P,Misc: Weird Stuff,,550-551,550,551,Pump,False,579,filled
+P,Misc: Weird Stuff,,552-553,552,553,Radiant,False,579,filled
+P,Misc: Weird Stuff,,554-556,554,556,Series,False,580,filled
+P,Misc: Weird Stuff,,557-558,557,558,Major,False,580,filled
+P,Misc: Weird Stuff,,559-560,559,560,Minor,False,391,filled
+P,Misc: Weird Stuff,,561-562,561,562,Ultimate,False,581,filled
+P,Misc: Weird Stuff,,563-565,563,565,of Fleetness,False,600,filled
+P,Misc: Weird Stuff,,566-567,566,567,of Flying,False,1513,filled
+P,Misc: Weird Stuff,,568-569,568,569,of the Gray Waste,False,600,filled
+P,Misc: Weird Stuff,,570-572,570,572,of Luck,False,351,filled
+P,Misc: Weird Stuff,,573-574,573,574,Obsidian,False,600,filled
+P,Misc: Weird Stuff,,575-576,575,576,of Petrification,False,654,filled
+P,Misc: Weird Stuff,,577-578,577,578,of Speed,False,210,filled
+P,Misc: Weird Stuff,,579-581,579,581,of a Zephyr,False,601,filled
+P,Misc: Weird Stuff,,582-583,582,583,Baba Yaga's,False,604,filled
+P,Misc: Weird Stuff,,584-585,584,585,Spirit,False,706,filled
+P,Misc: Weird Stuff,,586-587,586,587,Carnelian,False,610,filled
+P,Misc: Weird Stuff,,588-590,588,590,of Lolth,False,610,filled
+P,Misc: Weird Stuff,,591-592,591,592,Quentin's,False,611,filled
+P,Misc: Weird Stuff,,593-594,593,594,Internal Conjuration Engine,False,1476,filled
+P,Misc: Weird Stuff,,595-597,595,597,Ipsissimo's Black Goose,False,619,filled
+P,Misc: Weird Stuff,,598-599,598,599,of Lightning,False,633,filled
+P,Misc: Weird Stuff,,600-602,600,602,of Reconnaissance,False,633,filled
+P,Misc: Weird Stuff,,603,603,603,of Signaling,False,633,filled
+P,Misc: Weird Stuff,,604-606,604,606,Lapland Wool,False,650,filled
+P,Misc: Weird Stuff,,607-608,607,608,Larder of Holding,False,650,filled
+P,Misc: Weird Stuff,,609-610,609,610,Lighthouse,False,670,filled
+P,Misc: Weird Stuff,,611-612,611,612,Lithocentric Pendulum,False,670,filled
+P,Misc: Weird Stuff,,613-615,613,615,Portal,False,847,filled
+P,Misc: Weird Stuff,,616-617,616,617,Planetary,False,671,filled
+P,Misc: Weird Stuff,,618-619,618,619,Machine of Lum the Mad,False,682; 684,filled
+P,Misc: Weird Stuff,,620-621,620,621,Magestar,False,687,filled
+P,Misc: Weird Stuff,,622-624,622,624,Magic Missile Device,False,741,filled
+P,Misc: Weird Stuff,,625-626,625,626,Half,False,708,filled
+P,Misc: Weird Stuff,,627-628,627,628,Portable,False,851,filled
+P,Misc: Weird Stuff,,629-631,629,631,Masthead of Durability,False,709,filled
+P,Misc: Weird Stuff,,632-633,632,633,Amazing,False,719,filled
+P,Misc: Weird Stuff,,634-635,634,635,Magic,False,741,filled
+P,Misc: Weird Stuff,,636-637,636,637,Mighty Servant of Leuk-O,False,720,filled
+P,Misc: Weird Stuff,,638-640,638,640,Mill of Sampo,False,722,filled
+P,Misc: Weird Stuff,,641-642,641,642,Minyan,False,722,filled
+P,Misc: Weird Stuff,,643-644,643,644,Diamond and Silver,False,676,filled
+P,Misc: Weird Stuff,,645-646,645,646,Onyx and Steel,False,150,filled
+P,Misc: Weird Stuff,,647-649,647,649,Ruby Turquoise and Emerald,False,1121,filled
+P,Misc: Weird Stuff,,650-651,650,651,of Eyes,False,755,filled
+P,Misc: Weird Stuff,,652-653,652,653,of Invulnerability,False,755,filled
+P,Misc: Weird Stuff,,654-656,654,656,of Life,False,905,filled
+P,Misc: Weird Stuff,,657-658,657,658,Nithian Monolith,False,47,filled
+P,Misc: Weird Stuff,,659-660,659,660,Nithian Standard,False,760,filled
+P,Misc: Weird Stuff,,661-662,661,662,Ether,False,761,filled
+P,Misc: Weird Stuff,,663-665,663,665,of Rowing,False,761,filled
+P,Misc: Weird Stuff,,666-667,666,667,Blue of Greyhawk,False,101,filled
+P,Misc: Weird Stuff,,668-669,668,669,Brown of Greyhawk,False,782,filled
+P,Misc: Weird Stuff,,670-671,670,671,Green of Greyhawk,False,782,filled
+P,Misc: Weird Stuff,,672-674,672,674,Orange of Greyhawk,False,912,filled
+P,Misc: Weird Stuff,,675-676,675,676,Red of Greyhawk,False,782,filled
+P,Misc: Weird Stuff,,677-678,677,678,Violet of Greyhawk,False,912,filled
+P,Misc: Weird Stuff,,679-681,679,681,Yellow of Greyhawk,False,782,filled
+P,Misc: Weird Stuff,,682-683,682,683,of Alignment,False,783,filled
+P,Misc: Weird Stuff,,684-685,684,685,of the Black Swamp,False,675,filled
+P,Misc: Weird Stuff,,686-687,686,687,Crystal,False,317,filled
+P,Misc: Weird Stuff,,688-690,688,690,of Distant Viewing,False,784,filled
+P,Misc: Weird Stuff,,691-692,691,692,of Draconic Influence,False,784,filled
+P,Misc: Weird Stuff,,693-694,693,694,Dragon,False,1448,filled
+P,Misc: Weird Stuff,,695-696,695,696,of Dragonkind (Hatchling),False,785; 786; 795,filled
+P,Misc: Weird Stuff,,697-699,697,699,of Dragonkind (Dragonette),False,785; 786; 795,filled
+P,Misc: Weird Stuff,,700-701,700,701,of Dragonkind (Dragon),False,1448,filled
+P,Misc: Weird Stuff,,702-703,702,703,of Dragonkind (Great Firedrake),False,675; 681,filled
+P,Misc: Weird Stuff,,704-705,704,705,of Dragonkind (Eldest Worm),False,785; 786; 795,filled
+P,Misc: Weird Stuff,,706-708,706,708,Golden Death (Smoky),False,1478,filled
+P,Misc: Weird Stuff,,709-710,709,710,Golden Death (Carnelian),False,1478,filled
+P,Misc: Weird Stuff,,711-712,711,712,Golden Death (Garnet),False,1478,filled
+P,Misc: Weird Stuff,,713-715,713,715,corrupt (unreadable in scan),False,,not_in_index
+P,Misc: Weird Stuff,,716-717,716,717,of Holiness,False,969,filled
+P,Misc: Weird Stuff,,718-719,718,719,of Law,False,156,filled
+P,Misc: Weird Stuff,,720-721,720,721,of Radiance,False,797,filled
+P,Misc: Weird Stuff,,722-724,722,724,of Remote Action,False,798,filled
+P,Misc: Weird Stuff,,725-726,725,726,of the Silver Dragon,False,799,filled
+P,Misc: Weird Stuff,,727-728,727,728,Orrery of the Inner Planes,False,800,filled
+P,Misc: Weird Stuff,,729-730,729,730,Diamond of Blyphian,False,205,filled
+P,Misc: Weird Stuff,,731-733,731,733,Gold of Blyphian,False,1324,filled
+P,Misc: Weird Stuff,,734-735,734,735,Plank,False,838,filled
+P,Misc: Weird Stuff,,736-737,736,737,Plumalitter,False,466,filled
+P,Misc: Weird Stuff,,738-740,738,740,Dimensional,False,447,filled
+P,Misc: Weird Stuff,,741-742,741,742,Golden,False,1303,filled
+P,Misc: Weird Stuff,,743-744,743,744,Mellenea's Portal,False,847,filled
+P,Misc: Weird Stuff,,745-746,745,746,of Tears,False,847,filled
+P,Misc: Weird Stuff,,747-749,747,749,Portable Bridge,False,851,filled
+P,Misc: Weird Stuff,,750-751,750,751,Portable Shadow,False,851,filled
+P,Misc: Weird Stuff,,752-753,752,753,Portable Spring,False,851,filled
+P,Misc: Weird Stuff,,754-755,754,755,Prosthesis,False,918,filled
+P,Misc: Weird Stuff,,756-758,756,758,of Guidance,False,1046,filled
+P,Misc: Weird Stuff,,759-760,759,760,of Guidance II,False,1046,filled
+P,Misc: Weird Stuff,,761-762,761,762,of Maneuverability,False,1046,filled
+P,Misc: Weird Stuff,,763-764,763,764,of Maneuverability II,False,1046,filled
+P,Misc: Weird Stuff,,765-767,765,767,of Propulsion,False,1047,filled
+P,Misc: Weird Stuff,,768-769,768,769,of Propulsion II,False,1047,filled
+P,Misc: Weird Stuff,,770-771,770,771,of Speed,False,210,filled
+P,Misc: Weird Stuff,,772-774,772,774,of Flying,False,1513,filled
+P,Misc: Weird Stuff,,775-776,775,776,of Secure Riding,False,1049,filled
+P,Misc: Weird Stuff,,777-778,777,778,of the Spirit Horse,False,1049,filled
+P,Misc: Weird Stuff,,779-780,779,780,of Stability,False,1452,filled
+P,Misc: Weird Stuff,,781-783,781,783,of Taming,False,1050,filled
+P,Misc: Weird Stuff,,784-785,784,785,Torloch's of Comforts,False,1050,filled
+P,Misc: Weird Stuff,,786-787,786,787,Black of Schnai,False,675,filled
+P,Misc: Weird Stuff,,788-789,788,789,Invisible,False,1520,filled
+P,Misc: Weird Stuff,,790-792,790,792,of Maneuverability,False,1046,filled
+P,Misc: Weird Stuff,,793-794,793,794,Sargasso Detector,False,1052,filled
+P,Misc: Weird Stuff,,795-796,795,796,Shade of the Shadow,False,1091,filled
+P,Misc: Weird Stuff,,797-799,797,799,Earth and Sea,False,1106,filled
+P,Misc: Weird Stuff,,800-801,800,801,Frey's,False,1106,filled
+P,Misc: Weird Stuff,,802-803,802,803,Galley of the Gods,False,1105,filled
+P,Misc: Weird Stuff,,804-805,804,805,Halruan Skyship,False,1108,filled
+P,Misc: Weird Stuff,,806-808,806,808,of Pearl,False,807,filled
+P,Misc: Weird Stuff,,809-810,809,810,Phaseship,False,1108,filled
+P,Misc: Weird Stuff,,811-812,811,812,Ship-in-a-Bottle,False,200,filled
+P,Misc: Weird Stuff,,813-814,813,814,Ship's Wheel of Maneuverability,False,1110,filled
+P,Misc: Weird Stuff,,815-817,815,817,Ebon,False,1116,filled
+P,Misc: Weird Stuff,,818-819,818,819,Mezin's,False,1117,filled
+P,Misc: Weird Stuff,,820-821,820,821,Singing,False,1117,filled
+P,Misc: Weird Stuff,,822-824,822,824,Spirit,False,706,filled
+P,Misc: Weird Stuff,,825-826,825,826,Talking,False,1118,filled
+P,Misc: Weird Stuff,,827-828,827,828,Joukahainen's Golden,False,1303,filled
+P,Misc: Weird Stuff,,829-830,829,830,Vainamoinen's,False,1411,filled
+P,Misc: Weird Stuff,,831-833,831,833,Sounder,False,1128,filled
+P,Misc: Weird Stuff,,834-835,834,835,Spelljammer Detector,False,1268,filled
+P,Misc: Weird Stuff,,836-837,836,837,of Annihilation,False,1268; 1269,filled
+P,Misc: Weird Stuff,,838-839,838,839,of Darkness,False,1477,filled
+P,Misc: Weird Stuff,,840-842,840,842,of False Calling,False,1269,filled
+P,Misc: Weird Stuff,,843-844,843,844,Gax's of Annihilation,False,1268; 1269,filled
+P,Misc: Weird Stuff,,845-846,845,846,Glain's Crystal,False,1269,filled
+P,Misc: Weird Stuff,,847-848,847,848,Karnrohb's Airy,False,1270,filled
+P,Misc: Weird Stuff,,849-851,849,851,Mieerast's Starlit,False,1270,filled
+P,Misc: Weird Stuff,,852-853,852,853,Thaddigren's Glowglobes,False,1270,filled
+P,Misc: Weird Stuff,,854-855,854,855,of Warning,False,1431,filled
+P,Misc: Weird Stuff,,856-858,856,858,Spiderwalker,False,1271,filled
+P,Misc: Weird Stuff,,859-860,859,860,Springerie,False,1271,filled
+P,Misc: Weird Stuff,,861-862,861,862,Standing Stone,False,356,filled
+P,Misc: Weird Stuff,,863-864,863,864,Boli,False,1303,filled
+P,Misc: Weird Stuff,,865-867,865,867,Corellon's Crystal,False,1303,filled
+P,Misc: Weird Stuff,,868-869,868,869,Golden,False,1303,filled
+P,Misc: Weird Stuff,,870-871,870,871,Old Salt of Power,False,907,filled
+P,Misc: Weird Stuff,,872-873,872,873,Scorpion Ward,False,1304,filled
+P,Misc: Weird Stuff,,874-876,874,876,Singing,False,1117,filled
+P,Misc: Weird Stuff,,877-878,877,878,Singing II,False,1117,filled
+P,Misc: Weird Stuff,,879-880,879,880,Stone Horse (Courser),False,356,filled
+P,Misc: Weird Stuff,,881-883,881,883,Stone Horse (Destrier),False,356,filled
+P,Misc: Weird Stuff,,884-885,884,885,of Substitution,False,1305,filled
+P,Misc: Weird Stuff,,886-887,886,887,Xanthippe of Annoyance,False,1306,filled
+P,Misc: Weird Stuff,,888-889,888,889,Stick of Standing,False,1306,filled
+P,Misc: Weird Stuff,,890-892,890,892,Stirrups of Horsemanship,False,506,filled
+P,Misc: Weird Stuff,,893-894,893,894,Timberbane's Chopper,False,1435,filled
+P,Misc: Weird Stuff,,895-896,895,896,Chemcheaux Teleport Pad,False,1453,filled
+P,Misc: Weird Stuff,,897-898,897,898,Teleportation Chamber,False,412,filled
+P,Misc: Weird Stuff,,899-901,899,901,Transporter Pad,False,1454,filled
+P,Misc: Weird Stuff,,902-903,902,903,Trap-Springer,False,1454,filled
+P,Misc: Weird Stuff,,904-905,904,905,Great,False,675; 681,filled
+P,Misc: Weird Stuff,,906-908,906,908,of Malice,False,1458,filled
+P,Misc: Weird Stuff,,909-910,909,910,of the Ravenous,False,1458,filled
+P,Misc: Weird Stuff,,911-912,911,912,of Unending Lamentation,False,1458,filled
+P,Misc: Weird Stuff,,913-914,913,914,of Venom,False,366; 371; 1375,filled
+P,Misc: Weird Stuff,,915-917,915,917,Light,False,374,filled
+P,Misc: Weird Stuff,,918-919,918,919,Medium,False,1099,filled
+P,Misc: Weird Stuff,,920-921,920,921,Heavy,False,1463,filled
+P,Misc: Weird Stuff,,922-923,922,923,Tvashtri's Pinwheel,False,370,filled
+P,Misc: Weird Stuff,,924-926,924,926,Tzolo's Guardian,False,1464,filled
+P,Misc: Weird Stuff,,927-928,927,928,Unseen Ship Crew,False,1465,filled
+P,Misc: Weird Stuff,,929-930,929,930,of Dreams,False,1528,filled
+P,Misc: Weird Stuff,,931-932,931,932,of Many Worlds,False,1529,filled
+P,Misc: Weird Stuff,,933-935,933,935,Sumbar Oracle,False,1530,filled
+P,Misc: Weird Stuff,,936-937,936,937,of Burning,False,1530,filled
+P,Misc: Weird Stuff,,938-939,938,939,Fairy's,False,1530,filled
+P,Misc: Weird Stuff,,940-942,940,942,of Fire,False,1481,filled
+P,Misc: Weird Stuff,,943-944,943,944,of Floating,False,673,filled
+P,Misc: Weird Stuff,,945-946,945,946,of Fortune,False,1531,filled
+P,Misc: Weird Stuff,,947-948,947,948,Hasty,False,1532,filled
+P,Misc: Weird Stuff,,949-951,949,951,of Keening,False,1532,filled
+P,Misc: Weird Stuff,,952-953,952,953,of Lighting,False,374,filled
+P,Misc: Weird Stuff,,954-955,954,955,of Maneuverability,False,1046,filled
+P,Misc: Weird Stuff,,956-957,956,957,of Misfortune,False,1532,filled
+P,Misc: Weird Stuff,,958-960,958,960,Square,False,1532,filled
+P,Misc: Weird Stuff,,961-962,961,962,Wind Fire,False,1532,filled
+P,Misc: Weird Stuff,,963-964,963,964,Winch of Power,False,1535,filled
+P,Misc: Weird Stuff,,965-967,965,967,Wind Howdah,False,466,filled
+P,Misc: Weird Stuff,,968-969,968,969,Dragon,False,1448,filled
+P,Misc: Weird Stuff,,970-971,970,971,of Flying,False,1513,filled
+P,Misc: Weird Stuff,,972-973,972,973,Sigh Danovitche's of Flying,False,1560,filled
+P,Misc: Weird Stuff,,974-976,974,976,Standing Monkey,False,1560,filled
+P,Misc: Weird Stuff,,977-978,977,978,Squatting Toad,False,1561,filled
+P,Misc: Weird Stuff,,979-980,979,980,Sitting Monkey,False,1561,filled
+P,Misc: Weird Stuff,,981-982,981,982,Sitting Bull,False,1561,filled
+P,Misc: Weird Stuff,,983-985,983,985,Sitting Dog,False,1561,filled
+P,Misc: Weird Stuff,,986-988,986,988,Standing Bear,False,1561,filled
+P,Misc: Weird Stuff,,989-991,989,991,Leaping Fish,False,627,filled
+P,Misc: Weird Stuff,,992-994,992,994,Laughing Hare,False,1561,filled
+P,Misc: Weird Stuff,,995-997,995,997,Dancing Hart,False,465,filled
+P,Misc: Weird Stuff,,998-1000,998,1000,Coiled Dragon,False,1561,filled

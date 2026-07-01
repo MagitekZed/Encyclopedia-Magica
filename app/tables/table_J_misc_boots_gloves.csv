@@ -1,0 +1,171 @@
+table,category,subcategory,roll_display,roll_low,roll_high,name,reroll,page,page_status
+J,Misc: Boots & Gloves,,1-5,1,5,Enchanted Enhancements,True,21,filled
+J,Misc: Boots & Gloves,,6-11,6,11,Equus,False,48,filled
+J,Misc: Boots & Gloves,,12-17,12,17,of Growth,False,872,filled
+J,Misc: Boots & Gloves,,18-23,18,23,of Hobbling,False,49,filled
+J,Misc: Boots & Gloves,,24-29,24,29,of Levitation,False,483,filled
+J,Misc: Boots & Gloves,,30-35,30,35,of Sinking,False,374,filled
+J,Misc: Boots & Gloves,,36-41,36,41,of Sure Footing,False,50,filled
+J,Misc: Boots & Gloves,,42-47,42,47,of Walking,False,809,filled
+J,Misc: Boots & Gloves,,48-52,48,52,of Comfort of Sleep,False,65,filled
+J,Misc: Boots & Gloves,,53-58,53,58,of Death,False,1478,filled
+J,Misc: Boots & Gloves,,59-64,59,64,of Healing,False,1324,filled
+J,Misc: Boots & Gloves,,65-70,65,70,of Salutation,False,66,filled
+J,Misc: Boots & Gloves,,71-76,71,76,of Snake Changing,False,66,filled
+J,Misc: Boots & Gloves,,77-82,77,82,of Strength,False,891,filled
+J,Misc: Boots & Gloves,,83-88,83,88,Trueheart's Warding,False,66,filled
+J,Misc: Boots & Gloves,,89-94,89,94,of Variable Strength,False,67,filled
+J,Misc: Boots & Gloves,,95-99,95,99,of the Arachnid,False,152,filled
+J,Misc: Boots & Gloves,,100-105,100,105,of Bird Restraint,False,152,filled
+J,Misc: Boots & Gloves,,106-111,106,111,of Denial,False,152,filled
+J,Misc: Boots & Gloves,,112-117,112,117,Familiar Protection Enhancement,False,153,filled
+J,Misc: Boots & Gloves,,118-123,118,123,Iron of Bilarro,False,153,filled
+J,Misc: Boots & Gloves,,124-129,124,129,of Might,False,506,filled
+J,Misc: Boots & Gloves,,130-135,130,135,of the Serpent,False,153,filled
+J,Misc: Boots & Gloves,,136-141,136,141,of Attraction,False,154,filled
+J,Misc: Boots & Gloves,,142-147,142,147,of Balance,False,381,filled
+J,Misc: Boots & Gloves,,148-152,148,152,of Carrying,False,234,filled
+J,Misc: Boots & Gloves,,153-158,153,158,of Cleanliness,False,312,filled
+J,Misc: Boots & Gloves,,159-164,159,164,of Cloudwalking,False,193,filled
+J,Misc: Boots & Gloves,,165-170,165,170,of Comfort,False,173,filled
+J,Misc: Boots & Gloves,,171-176,171,176,of Concealing,False,193,filled
+J,Misc: Boots & Gloves,,177-182,177,182,Cyria's Winged,False,194,filled
+J,Misc: Boots & Gloves,,183-188,183,188,of Dancing,False,465,filled
+J,Misc: Boots & Gloves,,189-194,189,194,Deceptor's,False,194,filled
+J,Misc: Boots & Gloves,,195-199,195,199,Elven,False,74,filled
+J,Misc: Boots & Gloves,,200-205,200,205,Elven II,False,74,filled
+J,Misc: Boots & Gloves,,206-211,206,211,of Elvenkind,False,300,filled
+J,Misc: Boots & Gloves,,212-217,212,217,of Feather Falling,False,195,filled
+J,Misc: Boots & Gloves,,218-223,218,223,Featherweight,False,195,filled
+J,Misc: Boots & Gloves,,224-229,224,229,of Gentle Thievery,False,195,filled
+J,Misc: Boots & Gloves,,230-235,230,235,of Gentle Thievery II,False,195,filled
+J,Misc: Boots & Gloves,,236-241,236,241,of Jogging,False,195,filled
+J,Misc: Boots & Gloves,,242-246,242,246,of Levitation,False,483,filled
+J,Misc: Boots & Gloves,,247-252,247,252,Loki's,False,195,filled
+J,Misc: Boots & Gloves,,253-258,253,258,Midnight Slasher's,False,195,filled
+J,Misc: Boots & Gloves,,259-264,259,264,Moccasins of Free Movement,False,195,filled
+J,Misc: Boots & Gloves,,265-270,265,270,of the North,False,1344,filled
+J,Misc: Boots & Gloves,,271-276,271,276,of Pinching,False,196,filled
+J,Misc: Boots & Gloves,,277-282,277,282,Runjoye's Winged,False,196,filled
+J,Misc: Boots & Gloves,,283-288,283,288,Shalandain's of Starstriding,False,196,filled
+J,Misc: Boots & Gloves,,289-294,289,294,of Speed,False,210,filled
+J,Misc: Boots & Gloves,,295-299,295,299,Spider's of Stealth,False,196,filled
+J,Misc: Boots & Gloves,,300-305,300,305,of Star Striding,False,197,filled
+J,Misc: Boots & Gloves,,306-311,306,311,of Stomping,False,197,filled
+J,Misc: Boots & Gloves,,312-317,312,317,of Striding and Springing,False,197,filled
+J,Misc: Boots & Gloves,,318-323,318,323,of Tracks,False,198,filled
+J,Misc: Boots & Gloves,,324-329,324,329,of Traveling and Leaping,False,198,filled
+J,Misc: Boots & Gloves,,330-335,330,335,of Varied Tracks,False,198,filled
+J,Misc: Boots & Gloves,,336-341,336,341,Winged,False,559,filled
+J,Misc: Boots & Gloves,,342-346,342,346,of Archery,False,220,filled
+J,Misc: Boots & Gloves,,347-352,347,352,of Attraction,False,154,filled
+J,Misc: Boots & Gloves,,353-358,353,358,of Blasting,False,231,filled
+J,Misc: Boots & Gloves,,359-364,359,364,of the Blinding Strike,False,220,filled
+J,Misc: Boots & Gloves,,365-370,365,370,of Brachiation,False,220,filled
+J,Misc: Boots & Gloves,,371-376,371,376,of Brandishing,False,221; 222,filled
+J,Misc: Boots & Gloves,,377-382,377,382,of Cleanliness,False,312,filled
+J,Misc: Boots & Gloves,,383-388,383,388,of Defense,False,241,filled
+J,Misc: Boots & Gloves,,389-393,389,393,of Defenselessness,False,221,filled
+J,Misc: Boots & Gloves,,394-399,394,399,of Deflection,False,221,filled
+J,Misc: Boots & Gloves,,400-405,400,405,of Invulnerability,False,755,filled
+J,Misc: Boots & Gloves,,406-411,406,411,of the Mermen,False,222,filled
+J,Misc: Boots & Gloves,,412-417,412,417,Noj's of Brandishing,False,222,filled
+J,Misc: Boots & Gloves,,418-423,418,423,Phandoorl's,False,222,filled
+J,Misc: Boots & Gloves,,424-429,424,429,of Magic Stealing,False,293,filled
+J,Misc: Boots & Gloves,,430-435,430,435,of Nezram,False,294,filled
+J,Misc: Boots & Gloves,,436-441,436,441,Noj's of Magic Exchange,False,741,filled
+J,Misc: Boots & Gloves,,442-446,442,446,Talon of the Danse Macabre,False,294,filled
+J,Misc: Boots & Gloves,,447-452,447,452,Talon of Zaltec,False,294,filled
+J,Misc: Boots & Gloves,,453-458,453,458,Twisted,False,294,filled
+J,Misc: Boots & Gloves,,459-464,459,464,Cleats of Gripping,False,295,filled
+J,Misc: Boots & Gloves,,465-470,465,470,of Change,False,325,filled
+J,Misc: Boots & Gloves,,471-476,471,476,of Charisma,False,325,filled
+J,Misc: Boots & Gloves,,477-482,477,482,of Disguise,False,253,filled
+J,Misc: Boots & Gloves,,483-488,483,488,of Protection,False,1009,filled
+J,Misc: Boots & Gloves,,489-493,489,493,of Stiffness,False,326,filled
+J,Misc: Boots & Gloves,,494-499,494,499,of Strangling,False,326,filled
+J,Misc: Boots & Gloves,,500-505,500,505,of Tusmit,False,1463,filled
+J,Misc: Boots & Gloves,,506-511,506,511,Wolf,False,326,filled
+J,Misc: Boots & Gloves,,512-517,512,517,Claw of the Bear,False,503,filled
+J,Misc: Boots & Gloves,,518-523,518,523,Clawed,False,503,filled
+J,Misc: Boots & Gloves,,524-529,524,529,Climbing,False,1043,filled
+J,Misc: Boots & Gloves,,530-535,530,535,of Dexterity,False,767,filled
+J,Misc: Boots & Gloves,,536-540,536,540,of Dexterity II,False,767,filled
+J,Misc: Boots & Gloves,,541-546,541,546,of Entrapment,False,234,filled
+J,Misc: Boots & Gloves,,547-552,547,552,Fire Claws,False,504,filled
+J,Misc: Boots & Gloves,,553-558,553,558,Fjalar's,False,504,filled
+J,Misc: Boots & Gloves,,559-564,559,564,of Fumbling,False,770,filled
+J,Misc: Boots & Gloves,,565-570,565,570,Glim-Gauntlet,False,505,filled
+J,Misc: Boots & Gloves,,571-576,571,576,Hand of Remote Action,False,505,filled
+J,Misc: Boots & Gloves,,577-582,577,582,of Heat,False,506,filled
+J,Misc: Boots & Gloves,,583-588,583,588,of Holding,False,1514,filled
+J,Misc: Boots & Gloves,,589-593,589,593,Iron of Unrest,False,1484,filled
+J,Misc: Boots & Gloves,,594-599,594,599,of Might,False,506,filled
+J,Misc: Boots & Gloves,,600-605,600,605,of Moander,False,506,filled
+J,Misc: Boots & Gloves,,606-611,606,611,of Ogre Power,False,507,filled
+J,Misc: Boots & Gloves,,612-617,612,617,of Ogre Power II,False,507,filled
+J,Misc: Boots & Gloves,,618-623,618,623,of Polishing,False,507,filled
+J,Misc: Boots & Gloves,,624-629,624,629,of Proficiency,False,1332,filled
+J,Misc: Boots & Gloves,,630-635,630,635,Razor Claws of Chakyik,False,507,filled
+J,Misc: Boots & Gloves,,636-640,636,640,of Specialization,False,1522,filled
+J,Misc: Boots & Gloves,,641-646,641,646,of Sticking,False,1467,filled
+J,Misc: Boots & Gloves,,647-652,647,652,of Super Strength,False,507,filled
+J,Misc: Boots & Gloves,,653-658,653,658,of Swimming and Climbing,False,508,filled
+J,Misc: Boots & Gloves,,659-664,659,664,of Tamus,False,508,filled
+J,Misc: Boots & Gloves,,665-670,665,670,of the Valorous,False,510,filled
+J,Misc: Boots & Gloves,,671-676,671,676,Black Hand,False,541,filled
+J,Misc: Boots & Gloves,,677-682,677,682,Claws of Raking,False,542,filled
+J,Misc: Boots & Gloves,,683-687,683,687,Cosmetology,False,149,filled
+J,Misc: Boots & Gloves,,688-693,688,693,of Evasion,False,542,filled
+J,Misc: Boots & Gloves,,694-699,694,699,of the Feline (LG),False,542,filled
+J,Misc: Boots & Gloves,,700-705,700,705,of the Feline (LN),False,542,filled
+J,Misc: Boots & Gloves,,706-711,706,711,of the Feline (LE),False,542,filled
+J,Misc: Boots & Gloves,,712-717,712,717,of the Feline (NG),False,542,filled
+J,Misc: Boots & Gloves,,718-723,718,723,of the Feline (N),False,542,filled
+J,Misc: Boots & Gloves,,724-729,724,729,of the Feline (NE),False,542,filled
+J,Misc: Boots & Gloves,,730-735,730,735,of the Feline (CG),False,542,filled
+J,Misc: Boots & Gloves,,736-740,736,740,of the Feline (CN),False,542,filled
+J,Misc: Boots & Gloves,,741-746,741,746,of the Feline (CE),False,542,filled
+J,Misc: Boots & Gloves,,747-752,747,752,Fist,False,542,filled
+J,Misc: Boots & Gloves,,753-758,753,758,Golden,False,1303,filled
+J,Misc: Boots & Gloves,,759-764,759,764,Helping Hand,False,543,filled
+J,Misc: Boots & Gloves,,765-770,765,770,of Interception,False,543,filled
+J,Misc: Boots & Gloves,,771-776,771,776,of Lightning,False,633,filled
+J,Misc: Boots & Gloves,,777-782,777,782,of Missile Snaring,False,544,filled
+J,Misc: Boots & Gloves,,783-787,783,787,of the Octopus,False,544,filled
+J,Misc: Boots & Gloves,,788-793,788,793,Reglar's of Freedom,False,544,filled
+J,Misc: Boots & Gloves,,794-799,794,799,Reglar's of Freedom From Magic,False,544,filled
+J,Misc: Boots & Gloves,,800-805,800,805,of Thievery,False,892,filled
+J,Misc: Boots & Gloves,,806-811,806,811,Thor's Magical of Power,False,907,filled
+J,Misc: Boots & Gloves,,812-817,812,817,Balacer's,False,560,filled
+J,Misc: Boots & Gloves,,818-823,818,823,of Harrowing,False,561,filled
+J,Misc: Boots & Gloves,,824-829,824,829,Helping,False,543; 562,filled
+J,Misc: Boots & Gloves,,830-834,830,834,Holy of Bane,False,562,filled
+J,Misc: Boots & Gloves,,835-840,835,840,Tomorast's Left,False,563,filled
+J,Misc: Boots & Gloves,,841-846,841,846,Tomorast's Right,False,563,filled
+J,Misc: Boots & Gloves,,847-852,847,852,of Vecna,False,563; 564,filled
+J,Misc: Boots & Gloves,,853-858,853,858,Wonderful,False,505; 565,filled
+J,Misc: Boots & Gloves,,859-864,859,864,Heel of Reunion,False,574,filled
+J,Misc: Boots & Gloves,,865-870,865,870,of Immurk the Invincible,False,808,filled
+J,Misc: Boots & Gloves,,871-876,871,876,of Walking,False,809,filled
+J,Misc: Boots & Gloves,,877-882,877,882,of Fharlanghn,False,1111,filled
+J,Misc: Boots & Gloves,,883-887,883,887,Hefiz's Superb Shiny,False,1111,filled
+J,Misc: Boots & Gloves,,888-893,888,893,Iron of Vidar,False,1484,filled
+J,Misc: Boots & Gloves,,894-899,894,899,Sandals of Speed,False,1111,filled
+J,Misc: Boots & Gloves,,900-905,900,905,of White Bronze,False,1112,filled
+J,Misc: Boots & Gloves,,906-911,906,911,Woodland,False,1112,filled
+J,Misc: Boots & Gloves,,912-917,912,917,Bahija's of Spider Climbing,False,1121; 1122,filled
+J,Misc: Boots & Gloves,,918-923,918,923,of Dancing,False,465,filled
+J,Misc: Boots & Gloves,,924-929,924,929,Dragon,False,1448,filled
+J,Misc: Boots & Gloves,,930-934,930,934,of Drinking,False,1121,filled
+J,Misc: Boots & Gloves,,935-940,935,940,Ebomara's of Spider Climbing,False,1121; 1122,filled
+J,Misc: Boots & Gloves,,941-946,941,946,Glass,False,164,filled
+J,Misc: Boots & Gloves,,947-952,947,952,of Kicking,False,1121,filled
+J,Misc: Boots & Gloves,,953-958,953,958,Ruby,False,1121,filled
+J,Misc: Boots & Gloves,,959-964,959,964,Ruby II,False,1121,filled
+J,Misc: Boots & Gloves,,965-970,965,970,of Slowness,False,1121,filled
+J,Misc: Boots & Gloves,,971-976,971,976,of Soft Movement,False,1122,filled
+J,Misc: Boots & Gloves,,977-981,977,981,of Spider Climbing,False,1121; 1122,filled
+J,Misc: Boots & Gloves,,982-987,982,987,Snowshoes of Speed and Traveling,False,1126,filled
+J,Misc: Boots & Gloves,,988-993,988,993,of Dryness,False,419,filled
+J,Misc: Boots & Gloves,,994-1000,994,1000,of Sweating,False,1126,filled

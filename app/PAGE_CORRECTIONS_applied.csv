@@ -1,0 +1,230 @@
+table,roll_display,name,old_page,new_page
+A,2-3,Arcane Formulae for a Dracolich,163,59
+A,4-5,Arcane Formulae for a Lich,163,60
+A,989,Sea Dew,164,1086
+B,361-370,Priest of Mixed Spheres,823,1076
+C,48-51,Armor of Eelix,959,74
+C,731-734,Ring of Quick Action,1001,990
+D,591-606,Malice's of Reincarnation,1031,1037
+E,72-79,Pharaoh's Crook,1289,827
+G,350-353,Book of Black Circles,675,1146
+G,357-360,Book of the Blind,189,1149
+G,375-378,Book of the Bright Ages,189,1154
+G,397-400,Book of Clouds and Fog,189,1157
+G,412-414,Book of the Covenant,189,1157
+G,430-433,Book of the Dark Ages,189,1162
+G,652-655,Book of Num the Mad,189,1205
+G,772-775,Spellbook of Shangalar the Black,1197,1236
+G,776-778,Book of the Silver Talon,189,1239
+G,779-782,Book of the Silver Talon,189,1239
+G,845-848,Book of Thorns,189,1251
+G,867-869,Book of Unicorns,189,1255
+H,257-258,Black of Aerdy,675,332
+H,285-286,Silver of Veluna,325,337
+H,461-462,Jewel of Attacks,523,522
+H,469-470,Jewel of Obsession,906,523
+H,565-566,Iron Pin of the Icy Sea,1484,619
+H,830-831,Benson's of Uncertain Friendship,1370,1058
+H,894-895,Shard of Shielding,528,1092
+I,835-840,Sulmish of Magical Enhancement:,1015,1013
+J,436-441,Noj's of Magic Exchange,741,294
+J,888-893,Iron of Vidar,1484,1111
+K,245-249,Golden of Greyhawk,1303,292
+K,669-673,Hood of Servitude,997,598
+L,189-192,Neverending of Grog,209,159
+L,193-196,Neverending of Salt Pork,1045,160
+L,417-420,Hu'i Wing,1560,223
+L,724-727,Carrague's of Endless Steam,620,375
+L,790-793,Manas of Death,1478,547
+M,3-4,Air Spores,697,26
+M,321-322,Egg of Fascination,440,432
+M,374-375,Shell of Protection vs. Birds,1009,439
+M,376-377,Shell of Protection vs. Dragons,1009,439
+M,378-380,Shell of Protection vs. Evil,1009,439
+M,381-382,Shell of Protection vs. Fiends,1009,439
+M,383-384,Shell of Protection vs. Good,1009,439
+M,390-391,Shell of Protection vs. Lycanthropes,1009,439
+M,392-393,Shell of Protection vs. Planars,1009,439
+M,394-396,Shell of Protection vs. Scalekind,1009,439
+M,397-398,Shell of Protection vs. Undead,1009,439
+M,433-435,Gas of Dreadful Sleep,547,501
+M,532-533,Kulver-Tam's Fruit of Healing,1324,634
+M,546-547,Sweet Onion,892,782
+M,626-627,Conquering Glory,766,901
+M,665-666,Evil Eye,360,903
+M,690-691,High Conquering,770,904
+M,827-828,Death of the Darad S'tin,1478,1020
+M,846-847,Sand of Truth,893,1052
+M,852-854,Enchanted Cherry Pits (Gold),21,1089
+M,921-922,Myste's of Mixed Luck,351,1313
+N,4-5,High of the Dwarves,1140,51
+N,6-7,Iron of the Armies,1484,52
+N,18-19,Armor Bath,69,83
+N,108-109,Black Wall,675,172
+N,168,Leonardo's of Flying,1513,257
+N,200-201,Cloak Clasp of Holding,309,312
+N,281-282,Fishing Lure,821,482
+N,313-314,Griffon's Claw,503,550
+N,373-374,Kaylan's Wooden Tray,101,627
+N,496-497,Nolte's Locks and Bolts,86,672
+N,667-668,Pipe of Heated Wind,650,838
+N,891-892,Myrkul's of Fate,1564,1418
+O,15-18,Bell of Alarm,815,812
+O,19-23,Bell of the Ball,150,812
+O,24-28,Bell of Calling,349,812
+O,48-52,Bell of Doom,212,815
+O,57-61,Golden Bell of Blasting,1303,815
+O,71-75,Bell of Protection,439,816
+O,76-80,Bell of Ringing,815,816
+O,81-85,Bell of Treachery,815,816
+O,105-108,Chime of Hunger,818,817
+O,109-113,Chime of Interruption,818,817
+O,123-127,Chime of Time,1252,818
+O,133-137,Chime of Warning,210,818
+O,204-208,Chain Gong,1350,821
+O,246-250,Rattle of Death,1478,822
+O,251-255,Rattle of Exorcism,823,822
+O,270-274,Riqq of the Efreet,1132,823
+O,289-293,Biwa of Discord,815,1321
+O,384-387,Harp of Healing,780,1324
+O,431-435,Harp of Spirit Restoration,910,1327
+O,492-496,Building Lyre,1329,1330
+O,596-600,Zither of Speed,210,1334
+O,601-605,Zither of Zombie Control,1453,1334
+O,606-610,Zither of Zombie Protection,1009,1334
+O,653-657,Black Ivory Horn,1545,1544
+O,663-666,Bone Flute,1476,1539
+O,686-690,Copper Pipes,321,1554
+O,701-704,Damh's Flute,1323,1539
+O,705-709,Damh's Pipes,1323,1554
+O,738-742,Doom Pipes,212,1536
+O,743-747,Doom Trumpet,212,1557
+O,748-752,Dragon Whistle,1448,1557
+O,767-770,Faerie Flute,1539,1541
+O,771-775,Fear Bagpipes,1480,1537
+O,776-780,Feline Attraction Bagpipes,1537,1538
+O,790-794,Gas Pipes,1555,1554
+O,814-818,Haunting Pipes,1554,1555
+O,828-832,Horn of the Gray Waste,1545,1546
+O,918-922,Silver Flute,277,1542
+O,932-936,Speaking Pipes,375,1556
+O,989-993,Water Pipes,1555,1556
+O,994-1000,Wind Dancing Flute,1541,1542
+P,32-34,Silver of Ergoth,325,64
+P,268-270,Continual Light Reflector,374,329
+P,271-272,Control Doll,1453,329
+P,287-288,Eye of the Gods,1452,347
+P,291-292,Crystal Parrot,317,348
+P,407-408,Elemental Compass,149,440
+P,464-465,Flying Rockinghorse,1513,490
+P,484-485,Gateway of Symmetry,1558,502
+P,593-594,Internal Conjuration Engine,1476,612
+P,622-624,Magic Missile Device,741,687
+P,657-658,Nithian Monolith,47,759
+P,747-749,Portable Bridge,851,850
+P,786-787,Black of Schnai,675,1051
+P,870-871,Old Salt of Power,907,1304
+P,897-898,Teleportation Chamber,412,1454
+P,922-923,Tvashtri's Pinwheel,370,1464
+P,965-967,Wind Howdah,466,1535
+P,989-991,Leaping Fish,627,1561
+P,995-997,Dancing Hart,465,1561
+Q,62-81,Armband of Music,65,66
+Q,82-102,Arrow of Sleighing,90,100
+Q,164-183,Blowgun of Wild Emotions,31,176
+Q,184-204,Bottle of Boos,200,198
+Q,388-408,Holy Terror Hockey Stick,1306,598
+Q,409-428,Hoop of the Roller Hoopers,1116,599
+Q,817-836,Rod of Cancellation,1021,1024
+Q,939-959,Sword of Babette Maelstrom,1387,1343
+Q,960-979,Sword of Underwear Snatching,1387,1411
+R3,7-12,Gauntlet of Valor,506,64
+R3,13-18,Vambrace of Valor,594,65
+R3,43-48,Vambrace of Valor,594,65
+R3,79-84,Aquatic With Free Action,70,21
+R3,346-351,Keolish Plate of the Seas,315,77
+R3,455-460,Scale of Horus,1376,82
+R3,879-884,Noj's Missile Attractor,89,1100
+S3,02,Weapon Enhancements,1513,1506
+S3,166,Crossbow of Accuracy,163,203
+S3,167,Crossbow of Angling,208,203
+S3,168,Crossbow of Distance,208,203
+S3,169,Crossbow of Enchantment,1512,203
+S3,170,Crossbow of Klee,210,203
+S3,171,Crossbow of Multiplication,208,203
+S3,211-212,Underwater Crossbow,208,210
+S3,231,Alignment Detection,425,356
+S3,236,Blade of Banishing,367,357
+S3,339,Discus of Disenchantment,767,407
+S3,509,Trident of Elemental Death,1478,844
+S3,510,Trident of Fish Control,1453,844
+S3,511,Trident of Fish Control,1453,844
+S3,517,Trident of Warning,210,846
+S3,673,Dancing of Bronze,465,1356
+S3,906,"Sun Blade, Sh'arien",367,1391
+T,71-76,Book of Amon,189,184
+T,77-82,Book of Zargos,189,1267
+T,106-111,Claw of Mighty Simurgh,503,293
+T,183-188,Crystal of Light,374,343
+T,212-217,Diamond Orb of Tyche,941,784
+T,271-276,Hammer of Gesen,560,553
+T,277-282,Hammer of Kharas,560,554
+T,289-294,Helmet of Halav,607,589
+T,295-299,Helmet of Petra,608,591
+T,324-329,Horn of Change,1545,1544
+T,330-335,Humbaba's Glaring Eye,451,455
+T,371-376,Ivory Chain of Pao,1350,272
+T,400-405,Libram of Zargos,664,669
+T,442-446,Mirror-Shield of Rheddrian,1093,1100
+T,453-458,Monkey Fist of Ha'chao,542,737
+T,471-476,Obsidian Man of Urik,600,761
+T,636-640,Queen Ehlissa's Nightingale,458,923
+T,663-669,Red Chariot of Agni,385,280
+T,688-693,Crown of Neutrality,337,942
+T,706-711,Orb of Neutrality,934,943
+T,724-729,Scepter of Neutrality,935,942
+T,736-740,Ring of Gax,1001,965
+T,741-746,Ring of Gaxx,1001,966
+T,759-764,Rod of Teeth,1021,1041
+T,835-840,Shadow Belt,255,169
+T,865-870,Stone Scepter of Shih,944,1066
+T,877-882,Sword of Kas,1387,1378
+T,888-893,Talisman of Al'Akbar,1420,1419
+T,912-917,Throne of the Gods,1439,1432
+T,930-934,Tome of Ssu-Ma,1441,1445
+T,965-970,Dagger of Betrayal,359,1458
+T,977-981,Well of All Heals,1318,1528
+A,91-92,Attractiveness,697,764
+A,740-741,Love,828,877
+A,889-890,Sleeping,173,889
+A,926-927,Teleportation,412,892
+B,971-980,Wizard,1018,1086
+B,981-990,Wizard,1018,1086
+H,59-60,Health,969,34
+H,232-233,Hunting,35,282
+H,316-317,Signaling,633,344
+H,355-356,Dragon's,1448,454
+K,76-81,Serpent,153,169
+M,619-620,Commanding,480,901
+M,621-622,Concentration,766,901
+M,633-634,Crossing,767,901
+M,639-641,Damnation,767,902
+M,658-659,Enchantment,1512,903
+M,726-728,Manpower,773,905
+M,761-762,Purification,249,907
+M,788-790,Time,1252,910
+M,795-796,Vibration,779,910
+M,809-810,Wishing,1527,911
+N,569-570,Reading,592,733
+N,619-620,Finger,480,745
+N,886-887,Writing,803,1418
+N,918-919,Mist,305,1430
+P,107-108,Desert,1009,178
+P,377-379,Passage,306,405
+P,811-812,Ship-in-a-Bottle,200,1109
+S3,07,Antimagic,855,85
+S3,178,Eagle,959,204
+S3,293,Speaking,375,368
+S3,426,Wind's,466,650
+S3,628,Blackflame,357,1345
+S3,723,Finder,1310,1368

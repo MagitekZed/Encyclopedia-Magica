@@ -1,0 +1,271 @@
+table,category,subcategory,roll_display,roll_low,roll_high,name,reroll,page,page_status
+C,Rings,,1-3,1,3,Enchanted Enhancements,True,21,review
+C,Rings,,4-7,4,7,Admunford of Leadership,False,1030,filled
+C,Rings,,8-11,8,11,of Affliction,False,947,filled
+C,Rings,,12-14,12,14,of Amasis,False,947,filled
+C,Rings,,15-18,15,18,of Animal Control,False,947,filled
+C,Rings,,19-22,19,22,of Animal Friendship,False,947; 998,filled
+C,Rings,,23-25,23,25,Animal Magnetism,False,948,filled
+C,Rings,,26-29,26,29,Annulment,False,948,filled
+C,Rings,,30-33,30,33,Anything,False,1473,review
+C,Rings,,34-36,34,36,of Apathy,False,948,filled
+C,Rings,,37-40,37,40,of Appearance,False,948,filled
+C,Rings,,41-44,41,44,of Aquatic Depth Location,False,948,filled
+C,Rings,,45-47,45,47,of Arachnid Control,False,949,filled
+C,Rings,,48-51,48,51,Armor of Eelix,False,69,review
+C,Rings,,52-55,52,55,of Armoring,False,949,filled
+C,Rings,,56-59,56,59,of Avian Control,False,949,filled
+C,Rings,,60-62,60,62,Awareness,False,341,review
+C,Rings,,63-66,63,66,Bard's,False,949,filled
+C,Rings,,67-70,67,70,of Beauty,False,828,filled
+C,Rings,,71-73,71,73,Berronar Truesilver's Silver,False,949,filled
+C,Rings,,74-77,74,77,of Detect Lies,False,1511,review
+C,Rings,,78-81,78,81,of Thief Negation,False,1488,review
+C,Rings,,82-84,82,84,Bladeturning,False,949,filled
+C,Rings,,85-88,85,88,Blink,False,950,filled
+C,Rings,,89-92,89,92,Blinking,False,240,review
+C,Rings,,93-95,93,95,of Boccob,False,950,filled
+C,Rings,,96-99,96,99,Bone,False,1476,review
+C,Rings,,100-103,100,103,Browdow's of Weapon Harm,False,1513,review
+C,Rings,,104-107,104,107,Burbul,False,951,filled
+C,Rings,,108-110,108,110,of Bureaucratic Wizardry,False,952; 995,filled
+C,Rings,,111-114,111,114,of Cantrips,False,952,filled
+C,Rings,,115-118,115,118,Cat's Eye,False,952,filled
+C,Rings,,119-121,119,121,of Chameleon Power,False,952,filled
+C,Rings,,122-125,122,125,of Cirulon,False,585,review
+C,Rings,,126-129,126,129,Cilidarius's of Wizardry,False,952,filled
+C,Rings,,130-132,130,132,of Clairaudience,False,953,filled
+C,Rings,,133-136,133,136,of Clear Thought,False,953,filled
+C,Rings,,137-140,137,140,of Cloaked Wizardry and Invisibility,False,953,filled
+C,Rings,,141-143,141,143,of Clumsiness,False,953,filled
+C,Rings,,144-147,144,147,of the Comet,False,953,filled
+C,Rings,,148-151,148,151,Command,False,1275,review
+C,Rings,,152-154,152,154,of Continual Churning,False,1452,review
+C,Rings,,155-158,155,158,of Contrariness,False,955,filled
+C,Rings,,159-162,159,162,of Coolness,False,73,review
+C,Rings,,163-166,163,166,Corkitron's of Human Influence,False,955,filled
+C,Rings,,167-169,167,169,of Courtly Etiquette,False,955,filled
+C,Rings,,170-173,170,173,Crius,False,955,filled
+C,Rings,,174-177,174,177,Cursed of the Great Kingdom,False,956,filled
+C,Rings,,178-180,178,180,of Curses,False,488,review
+C,Rings,,181-184,181,184,Dalamar's of Healing,False,956,filled
+C,Rings,,185-188,185,188,Dart,False,372,review
+C,Rings,,189-191,189,191,of Delusion,False,519,review
+C,Rings,,192-195,192,195,of Depetrification,False,957,filled
+C,Rings,,196-199,196,199,of Disguise,False,253,review
+C,Rings,,200-202,200,202,of Distraction,False,281,review
+C,Rings,,203-206,203,206,of Dizziness,False,957,filled
+C,Rings,,207-210,207,210,of Djinni Summoning,False,958; 967; 984,filled
+C,Rings,,211-214,211,214,Draupnir,False,958,filled
+C,Rings,,215-217,215,217,Draupnir II,False,958,filled
+C,Rings,,218-221,218,221,of the Drow,False,958,filled
+C,Rings,,222-225,222,225,of the Eagle,False,959,filled
+C,Rings,,226-228,226,228,of the Ear,False,959,filled
+C,Rings,,229-232,229,232,of Eelix,False,74,review
+C,Rings,,233-236,233,236,of Eelix II,False,74,review
+C,Rings,,237-239,237,239,of Elemental Adaptation,False,959,filled
+C,Rings,,240-243,240,243,of Elemental Command,False,960,filled
+C,Rings,,244-247,244,247,of Earth Command,False,248; 249,review
+C,Rings,,248-250,248,250,of Air Command,False,954,filled
+C,Rings,,251-254,251,254,of Fire Command,False,1481,review
+C,Rings,,255-258,255,258,of Water Command,False,1505,review
+C,Rings,,259-261,259,261,of Elemental Metamorphosis,False,961,filled
+C,Rings,,262-265,262,265,of Energy,False,962,filled
+C,Rings,,266-269,266,269,of ESP,False,1512,review
+C,Rings,,270-273,270,273,of Faerie,False,962,filled
+C,Rings,,274-276,274,276,Famulus,False,962,filled
+C,Rings,,277-280,277,280,of Fashion,False,963,filled
+C,Rings,,281-284,281,284,of Fearlessness,False,963,filled
+C,Rings,,285-287,285,287,of Feather Falling,False,195,review
+C,Rings,,288-291,288,291,of Fire Resistance,False,1053,filled
+C,Rings,,292-295,292,295,of Fire Starting,False,964,filled
+C,Rings,,296-298,296,298,of Flying,False,1513,review
+C,Rings,,299-302,299,302,Flynn's of Fire,False,1481,review
+C,Rings,,303-306,303,306,of Folly,False,964,filled
+C,Rings,,307-309,307,309,of Fortitude,False,869,filled
+C,Rings,,310-313,310,313,of Free Action,False,953; 964,filled
+C,Rings,,314-317,314,317,of Freedom,False,815,filled
+C,Rings,,318-321,318,321,of Gargoyles,False,965,filled
+C,Rings,,322-324,322,324,of Genie Summoning,False,1463,review
+C,Rings,,325-328,325,328,of Glyphs,False,1281,review
+C,Rings,,329-332,329,332,Gold Seal of Al-Kalim,False,967,filled
+C,Rings,,333-335,333,335,Golden of Healing,False,967,filled
+C,Rings,,336-339,336,339,Gordon's Magic,False,967,filled
+C,Rings,,340-343,340,343,of the Grasshopper,False,967,filled
+C,Rings,,344-346,344,346,Halaster's Teleportation,False,968,filled
+C,Rings,,347-350,347,350,of Harmlessness,False,968,filled
+C,Rings,,351-354,351,354,of Health,False,969,filled
+C,Rings,,355-357,355,357,of Genie Summoning,False,1463,review
+C,Rings,,358-361,358,361,of the Earth Hierophant,False,1077,filled
+C,Rings,,362-365,362,365,of the Air Hierophant,False,697,review
+C,Rings,,366-369,366,369,of the Fire Hierophant,False,1481,review
+C,Rings,,370-372,370,372,of the Water Hierophant,False,1505,review
+C,Rings,,373-376,373,376,Hoinbee's of Truth,False,969,filled
+C,Rings,,377-380,377,380,of Holiness,False,969,filled
+C,Rings,,381-383,381,383,of the Holy Slayer,False,970,filled
+C,Rings,,384-387,384,387,Horned,False,970,filled
+C,Rings,,388-391,388,391,of Human Control,False,970,filled
+C,Rings,,392-394,392,394,of Human Influence,False,954; 970,filled
+C,Rings,,395-398,395,398,of Human Influence,False,954; 970,filled
+C,Rings,,399-402,399,402,of Ice,False,351,review
+C,Rings,,403-405,403,405,of Icebolts,False,971,filled
+C,Rings,,406-409,406,409,of Immunity,False,971,filled
+C,Rings,,410-413,410,413,of Impersonation,False,971,filled
+C,Rings,,414-416,414,416,of Infravision,False,455,review
+C,Rings,,417-420,417,420,of Invisibility Negation,False,972,filled
+C,Rings,,421-424,421,424,Intier's of Shooting Stars,False,971,filled
+C,Rings,,425-428,425,428,of Invisibility,False,771,filled
+C,Rings,,429-431,429,431,of Invisibility Negation,False,972,filled
+C,Rings,,432-435,432,435,of Invulnerability,False,755,filled
+C,Rings,,436-439,436,439,of Izmur,False,972,filled
+C,Rings,,440-442,440,442,of Jasmine Odor,False,972,filled
+C,Rings,,443-446,443,446,Jhessall's Silver,False,972,filled
+C,Rings,,447-450,447,450,of Jolting,False,972,filled
+C,Rings,,451-453,451,453,of Jumping,False,952; 972,filled
+C,Rings,,454-457,454,457,of Keys,False,973,filled
+C,Rings,,458-461,458,461,of Kings,False,973,filled
+C,Rings,,462-464,462,464,Laduger's,False,,unmatched
+C,Rings,,465-468,465,468,of Languages,False,1403,review
+C,Rings,,469-472,469,472,Lanolin's of Power,False,974,filled
+C,Rings,,473-476,473,476,Lantern,False,974,filled
+C,Rings,,477-479,477,479,of Life,False,905,filled
+C,Rings,,480-483,480,483,of Life Protection,False,36,review
+C,Rings,,484-487,484,487,of Light,False,374,review
+C,Rings,,488-490,488,490,of Lighting,False,374,review
+C,Rings,,491-494,491,494,of Lighting Resistance,False,974,filled
+C,Rings,,495-498,495,498,of Limited Telepathy,False,1525,review
+C,Rings,,499-501,499,501,of Liquid Identification,False,975,filled
+C,Rings,,502-505,502,505,of the Little People,False,975,filled
+C,Rings,,506-509,506,509,of Lolth,False,610,review
+C,Rings,,510-512,510,512,of Lore,False,976,filled
+C,Rings,,513-516,513,516,Lucky of the Wild Coast,False,976,filled
+C,Rings,,517-520,517,520,of Lycanthropy,False,1115,filled
+C,Rings,,521-523,521,523,of Magic Detection,False,905,filled
+C,Rings,,524-527,524,527,of Magic Resistance,False,36,review
+C,Rings,,528-531,528,531,of Mammal Control,False,977,filled
+C,Rings,,532-535,532,535,of Many Wishes,False,978,filled
+C,Rings,,536-538,536,538,of Marking,False,978,filled
+C,Rings,,539-542,539,542,of Materialization,False,978,filled
+C,Rings,,543-546,543,546,of Memory,False,978,filled
+C,Rings,,547-549,547,549,Message,False,1243,review
+C,Rings,,550-553,550,553,of Mind Shielding,False,979; 1003,filled
+C,Rings,,554-557,554,557,Moodarvian of Sight,False,979,filled
+C,Rings,,558-560,558,560,Moodarvian of Smell,False,979,filled
+C,Rings,,561-564,561,564,Moodarvian of Sound,False,979,filled
+C,Rings,,565-568,565,568,Moodarvian of Taste,False,979,filled
+C,Rings,,569-571,569,571,Moodarvian of Touch,False,978,filled
+C,Rings,,572-575,572,575,Mordmorgan's of Warmth,False,981,filled
+C,Rings,,576-579,576,579,of Movement,False,981,filled
+C,Rings,,580-583,580,583,Mud,False,1106,filled
+C,Rings,,584-586,584,586,of Multiple Wishes,False,981,filled
+C,Rings,,587-590,587,590,of Nature's Love,False,982,filled
+C,Rings,,591-594,591,594,of the Necromancer,False,982,filled
+C,Rings,,595-597,595,597,of Neutralization,False,983,filled
+C,Rings,,598-601,598,601,of the Nibelungen,False,983,filled
+C,Rings,,602-605,602,605,of Night,False,704,review
+C,Rings,,606-608,606,608,Noora's of Djinn Summoning,False,984,filled
+C,Rings,,609-612,609,612,Nuggin's Cursed of Armoring,False,984,filled
+C,Rings,,613-616,613,616,of Oak,False,983,filled
+C,Rings,,617-619,617,619,Onyx of Negative Plane Protection,False,984,filled
+C,Rings,,620-623,620,623,of Opposition,False,421,review
+C,Rings,,624-627,624,627,Orbus +1,False,985,filled
+C,Rings,,628-630,628,630,Orbus +2,False,985,filled
+C,Rings,,631-634,631,634,Orbus +3,False,985,filled
+C,Rings,,635-638,635,638,of Plant Control,False,985,filled
+C,Rings,,639-642,639,642,of Plant Control II,False,985,filled
+C,Rings,,643-645,643,645,of Plant Control III,False,985,filled
+C,Rings,,646-649,646,649,of Ice Paraelemental Command,False,985,filled
+C,Rings,,650-653,650,653,of Ooze Paraelemental Command,False,1275,review
+C,Rings,,654-656,654,656,of Magma Paraelemental Command,False,1275,review
+C,Rings,,657-660,657,660,of Smoke Paraelemental Command,False,909,filled
+C,Rings,,661-664,661,664,of Phantom Form,False,986,filled
+C,Rings,,665-667,665,667,of the Phoenix,False,436; 437,review
+C,Rings,,668-671,668,671,of the Pomarj,False,987,filled
+C,Rings,,672-675,672,675,of Projection,False,987,filled
+C,Rings,,676-678,676,678,of Projection II,False,987,filled
+C,Rings,,679-682,679,682,of Protection,False,1009,filled
+C,Rings,,683-686,683,686,of Protection from Charming,False,988,filled
+C,Rings,,687-690,687,690,of Protection from the Elements,False,988,filled
+C,Rings,,691-693,691,693,of Protection from Stone Guardians,False,988,filled
+C,Rings,,694-697,694,697,of Protection from Undead,False,988,filled
+C,Rings,,698-701,698,701,Pyros's of Spell Storing,False,988,filled
+C,Rings,,702-704,702,704,"of Ash, Quasielemental Command",False,989,filled
+C,Rings,,705-708,705,708,"of Dust, Quasielemental Command",False,414,review
+C,Rings,,709-712,709,712,"of Lightning, Quasielemental Command",False,633,review
+C,Rings,,713-715,713,715,"of Mineral, Quasielemental Command",False,1275,review
+C,Rings,,716-719,716,719,"of Radiance, Quasielemental Command",False,1275,review
+C,Rings,,720-723,720,723,"of Salts, Quasielemental Command",False,1275,review
+C,Rings,,724-726,724,726,"of Steam, Quasielemental Command",False,954,filled
+C,Rings,,727-730,727,730,"of Vacuum, Quasielemental Command",False,1275,review
+C,Rings,,731-734,731,734,Ring of Quick Action,False,1001,filled
+C,Rings,,735-738,735,738,of Quickness,False,366,review
+C,Rings,,739-741,739,741,Quirks*,True,443,review
+C,Rings,,742-745,742,745,of the Ram,False,1268,review
+C,Rings,,746-749,746,749,of Randomness,False,992,filled
+C,Rings,,750-752,750,752,of Range Extension,False,992,filled
+C,Rings,,753-756,753,756,of Rapid Regeneration,False,992,filled
+C,Rings,,757-760,757,760,of Readiness,False,992,filled
+C,Rings,,761-763,761,763,of Regeneration,False,993,filled
+C,Rings,,764-767,764,767,of Remedies,False,994,filled
+C,Rings,,768-771,768,771,of Resistance,False,994,filled
+C,Rings,,772-774,772,774,of Resistance to Breath Weapons,False,994,filled
+C,Rings,,775-778,775,778,of Reversion,False,994; 995,filled
+C,Rings,,779-782,779,782,of Reversion II,False,994; 995,filled
+C,Rings,,783-785,783,785,of Reversion III,False,994; 995,filled
+C,Rings,,786-789,786,789,of Rhyming,False,995,filled
+C,Rings,,790-793,790,793,"Rocckoe's, of Bureaucratic Wizardry",False,995,filled
+C,Rings,,794-797,794,797,of Safety,False,995,filled
+C,Rings,,798-800,798,800,Samander's,False,995,filled
+C,Rings,,801-804,801,804,Saurian,False,997,filled
+C,Rings,,805-808,805,808,of Seeing,False,528,review
+C,Rings,,809-811,809,811,Serten's Spell Immunity,False,997,filled
+C,Rings,,812-815,812,815,of Servitude,False,997,filled
+C,Rings,,816-818,816,818,of Shapechanging,False,997,filled
+C,Rings,,819-822,819,822,"Sherry's, of Animal Friendship",False,998,filled
+C,Rings,,823-826,823,826,Shield,False,1093,filled
+C,Rings,,827-830,827,830,of Shocking Grasp,False,998,filled
+C,Rings,,831-833,831,833,of Shooting Stars,False,971; 998,filled
+C,Rings,,834-837,834,837,of Silence,False,704; 705,review
+C,Rings,,838-841,838,841,of Silence II,False,704; 705,review
+C,Rings,,842-845,842,845,of Silence III,False,704; 705,review
+C,Rings,,846-848,846,848,of Spellbattle,False,999,filled
+C,Rings,,849-852,849,852,of Spell Holding,False,1000,filled
+C,Rings,,853-856,853,856,of Spell Holding,False,1000,filled
+C,Rings,,857-860,857,860,of Spell Storing,False,988; 1000,filled
+C,Rings,,861-864,861,864,of Spell Turning,False,1001,filled
+C,Rings,,865-870,865,870,of Stone,False,356,review
+C,Rings,,871-874,871,874,of Strength,False,891,filled
+C,Rings,,875-878,875,878,of Sustenance,False,1002,filled
+C,Rings,,879-882,879,882,of Sustenance II,False,1002,filled
+C,Rings,,883-885,883,885,of Swimming,False,953; 1002,filled
+C,Rings,,886-889,886,889,Tassleroff's Magic Mouse,False,1002,filled
+C,Rings,,890-893,890,893,of Telekinesis,False,1003,filled
+C,Rings,,894-896,894,896,of Teleportation,False,412,review
+C,Rings,,897-900,897,900,Thal's of Mind Shielding,False,1003,filled
+C,Rings,,901-904,901,904,of Three Wishes,False,1003,filled
+C,Rings,,905-907,905,907,of Three Witches,False,1003,filled
+C,Rings,,908-911,908,911,of Thunder,False,1003,filled
+C,Rings,,912-915,912,915,Tika's,False,1004,filled
+C,Rings,,916-918,916,918,of Tongues,False,1004,filled
+C,Rings,,919-922,919,922,of Trobriand,False,1004,filled
+C,Rings,,923-926,923,926,Throbrand's Master of the Scalatar,False,1004,filled
+C,Rings,,927-929,927,929,of Truth,False,893,filled
+C,Rings,,930-933,930,933,of Truth II,False,893,filled
+C,Rings,,934-937,934,937,of Truthfulness,False,1004,filled
+C,Rings,,938-940,938,940,of Truthlessness,False,1005,filled
+C,Rings,,941-944,941,944,of the Valiant,False,1005,filled
+C,Rings,,945-948,945,948,of Vapors,False,245,review
+C,Rings,,949-952,949,952,Varlo's of Feather Falling,False,1005,filled
+C,Rings,,953-955,953,955,of the Vizier,False,1005,filled
+C,Rings,,956-959,956,959,of Warding,False,1319,review
+C,Rings,,960-963,960,963,of Stoneskin,False,1006,filled
+C,Rings,,964-966,964,966,of Warmth,False,499,review
+C,Rings,,967-970,967,970,of Water Adaptation,False,1006,filled
+C,Rings,,971-974,971,974,of Water Walking,False,953; 1006,filled
+C,Rings,,975-977,975,977,of Water Walking II,False,953; 1006,filled
+C,Rings,,978-981,978,981,of Weakness,False,1006,filled
+C,Rings,,982-985,982,985,White Copper of Fire,False,1006,filled
+C,Rings,,986-988,986,988,of Windwarding,False,1006,filled
+C,Rings,,989-992,989,992,of Winter,False,1006,filled
+C,Rings,,993-996,993,996,Wizzo's of Compulsions,True,1007,filled
+C,Rings,,997-1000,997,1000,of X-Ray Vision,False,1008,filled

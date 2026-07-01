@@ -1,0 +1,533 @@
+table_num,category,die,roll,power
+1-00,Abjuration,d20,1,Cast abjure (3/day)
+1-00,Abjuration,d20,2,Cast avoidance between a creature and the user (1/day)
+1-00,Abjuration,d20,3,Cast banishment by touch (1/week)
+1-00,Abjuration,d20,4,Instantly dismiss an elemental (1/week)
+1-00,Abjuration,d20,5,Cast dismissal upon any planar creature by touch (1/week)
+1-00,Abjuration,d20,6,Cast dispel evil/dispel good (1/day)
+1-00,Abjuration,d20,7,Cast dispel magic by touch (1/day)
+1-00,Abjuration,d20,8,Cast holy word/unholy word (1/week)
+1-00,Abjuration,d20,9,Cast Hornung's random dispatcher by touch (1/week)
+1-00,Abjuration,d20,10,Cast imprisonment/freedom by touch. Imprisoned creatures are freed by naming them (1/month).
+1-00,Abjuration,d20,11,Cast knock (3/day)
+1-00,Abjuration,d20,12,Cast lower resistance (7/day)
+1-00,Abjuration,d20,13,Have minor spell turning continually in effect while the artifact is in hand. Roll 1d4 to determine the maximum level of the spell turned.
+1-00,Abjuration,d20,14,Cast purify food & drink on all items within a 10' radius of the artifact (7/day)
+1-00,Abjuration,d20,15,Cast remove curse by touch (3/day)
+1-00,Abjuration,d20,16,Have repel insects in a 10' radius in constant effect while the artifact is held
+1-00,Abjuration,d20,17,Cast repulsion upon one named creature (1/week)
+1-00,Abjuration,d20,18,Cast spell turning for two turns duration (1/day)
+1-00,Abjuration,d20,19,Dispel illusions within a 60' radius (3/day)
+1-00,Abjuration,d20,20,Have turn wood continually in effect while the artifact is in hand
+1-01,Cataclysm,d20,1,Cast acid storm to rain down upon the area of effect for two full turns
+1-01,Cataclysm,d20,2,"Create a permanent aura of desolation that settles over the area of effect. Individuals of good alignment are haunted by terrifying dreams and suffer -2 penalties to THAC0 and saving throws while evil creatures gain +2 penalties to the same. Plants twist and wither, crops fail, and herds grow sickly."
+1-01,Cataclysm,d20,3,"Blanket the area of effect with a blizzard, dropping temperatures to 0° F and inflicting 1d6 points of damage per hour to those unsheltered. Overland movement is impossible. The storm lasts 1d6+12 hours and snows remain 1d3 days (summer), 2d6 days (spring/fall), or 2d20 days (winter)."
+1-01,Cataclysm,d20,4,"Ravage the area of effect with call lightning for 72 hours (432 bolts), randomly striking any targets"
+1-01,Cataclysm,d20,5,Create a cloudkill spell upon the area of effect for 1d6 hours
+1-01,Cataclysm,d20,6,"Form a ring of creeping doom around the area of effect that constricts in a solid blanket inward, not diminishing until the center is reached (4 hours to reach center)."
+1-01,Cataclysm,d20,7,Settle a death fog over the area of effect that remains in place for 2d20 rounds
+1-01,Cataclysm,d20,8,Strike the area of effect with a permanent drought. All water present or brought into the area of effect evaporates instantly.
+1-01,Cataclysm,d20,9,Hit the area of effect with an earthquake spell.
+1-01,Cataclysm,d20,10,Rain a firestorm down upon the area of effect for 2d6 rounds
+1-01,Cataclysm,d20,11,"Flood the entire area of effect, destroying buildings and fields. All living creatures unable to fly risk drowning in the rushing waters. The waters recede to safe levels in 1d6 hours but remain for 2d20 days."
+1-01,Cataclysm,d20,12,Sweep an incendiary cloud through the entire area of effect
+1-01,Cataclysm,d20,13,"Settle an insect plague upon the area of effect for 1d6 hours that, besides other spell effects, destroys all plants."
+1-01,Cataclysm,d20,14,"Instantly create a permanent magic-dead area of effect. Nonartifact magical items do not function in the zone, spellcasting is impossible, and all existing spells are negated, including permanent enchantments on creatures. Summoned beings are driven back to their own plane."
+1-01,Cataclysm,d20,15,"Create a meteor swarm to rain down upon the area of effect for 1d12 hours (8 spheres/round, or 480/hour), randomly striking targets within the area of effect"
+1-01,Cataclysm,d20,16,Create a permanent spiral of degenera- Create a permanent spiral of degeneration that settles upon the area of effect. Only artifacts remain unaffected.
+1-01,Cataclysm,d20,17,Create a permanent wildzone in the area of effect
+1-01,Cataclysm,d20,18,Transfer the whole area of effect to a randomly chosen lower plane. The artifact is not transported.
+1-01,Cataclysm,d20,19,Strike the entire area of effect with a storm of vengeance.
+1-01,Cataclysm,d20,20,Create permanent wolf spirits to guard the area of effect; they are hostile to all nonanimal life forms.
+1-02,Combat,d20,1,Cause paralyzation by touch (3/day)
+1-02,Combat,d20,2,Provide initiative each combat round
+1-02,Combat,d20,3,Have blur constantly in effect while the artifact is in hand
+1-02,Combat,d20,4,Cast choose future (1/day)
+1-02,Combat,d20,5,Provide double attacks per round
+1-02,Combat,d20,6,Cast energy drain by touch (1/week)
+1-02,Combat,d20,7,Cast fire shield (1/day)
+1-02,Combat,d20,8,Cause an opponent to fumble (7/day)
+1-02,Combat,d20,9,Cause an opponent to suffer greater malison (7/day)
+1-02,Combat,d20,10,"Imbue the user with the skills to use the weapon, despite class"
+1-02,Combat,d20,11,Cast harm upon an opponent struck by the weapon (1/week)
+1-02,Combat,d20,12,Cast improved invisibility (1/day)
+1-02,Combat,d20,13,Cast mirror image (7/day)
+1-02,Combat,d20,14,Imbue the user with the combat skills to use two weapons at no penalty
+1-02,Combat,d20,15,Weapon is aware of its surroundings. The user is never struck from behind and never suffers penalties for blind fighting.
+1-02,Combat,d20,16,Cast slay living upon an opponent struck by the weapon (1/week)
+1-02,Combat,d20,17,Imbue the user with all benefits of weapon specialization
+1-02,Combat,d20,18,Cast Tenser's transformation upon the user (1/day)
+1-02,Combat,d20,19,Function as a vampiric regeneration ring
+1-02,Combat,d20,20,Cast warband quest (1/month)
+1-03,Conjuration,d20,1,Cast aerial servant (1/week)
+1-03,Conjuration,d20,2,Cast animal horde (1/month)
+1-03,Conjuration,d20,3,Cast animal summoning I-III—the user chooses the creature summoned (1/day)
+1-03,Conjuration,d20,4,Cast animate object (1/day)
+1-03,Conjuration,d20,5,Cast call lightning (1/week)
+1-03,Conjuration,d20,6,Cast a conjure elemental spell of the user's choice (1/week)
+1-03,Conjuration,d20,7,Cast Leomund's secure shelter (1/day)
+1-03,Conjuration,d20,8,Cast fabricate (1/day)
+1-03,Conjuration,d20,9,"Call upon Leomund's secret chest at any time, using the chest to store the artifact when not needed"
+1-03,Conjuration,d20,10,Cast maze (1/week)
+1-03,Conjuration,d20,11,Cast monster summoning I-VII with user choosing the monster summoned (1/week)
+1-03,Conjuration,d20,12,Cast prismatic sphere (1/week)
+1-03,Conjuration,d20,13,Summon 1d4 berserkers as a horn of Valhalla (1/week)
+1-03,Conjuration,d20,14,Summon a genie (1/week)
+1-03,Conjuration,d20,15,Summon an invisible stalker (1/week)
+1-03,Conjuration,d20,16,Cast summon shadow (1/week)
+1-03,Conjuration,d20,17,Inscribe a symbol of the user's choice (1/week)
+1-03,Conjuration,d20,18,Cast trap the soul upon a creature by touch (1/month)
+1-03,Conjuration,d20,19,Cast unseen servant to be constantly at hand to serve the user
+1-03,Conjuration,d20,20,Cast weather summoning (1/week)
+1-04,Cursed,d20,1,Instantly pollute all holy water within 30' of the user
+1-04,Cursed,d20,2,Reduce the user's Charisma by 1d4 points
+1-04,Cursed,d20,3,Inflict a -1 penalty on the user's saving throws vs. magic
+1-04,Cursed,d20,4,Inflict a -2 penalty on the user's saving throws vs. poison
+1-04,Cursed,d20,5,Cause the user's touch to rot away wooden items the size of a bow or less in 1d4 days
+1-04,Cursed,d20,6,Cause the user's touch to kill plants (inflicts 1d6 points of damage to plant-based creatures)
+1-04,Cursed,d20,7,Cause NPC reactions to the user to be neutral or worse
+1-04,Cursed,d20,8,"Inflict insatiable hunger upon the user, who must eat a full meal once every waking hour"
+1-04,Cursed,d20,9,Instantly change the gender of anyone handling an artifact for the first time
+1-04,Cursed,d20,10,"Inflict deafness upon the user, who then can only hear when people shout. Spellcasters must shout their spells to be successful."
+1-04,Cursed,d20,11,"Inflict an incurable disease upon the user. At the beginning of each month a saving throw vs. death magic must be made to avoid losing 1 point of Constitution. When the user's Constitution reaches 0, death occurs."
+1-04,Cursed,d20,12,Cause the user's touch to have a 50% chance of draining the magic from any item not an artifact
+1-04,Cursed,d20,13,Inflict 5d10 points of damage upon anyone handling the artifact for the first time
+1-04,Cursed,d20,14,Cause a 50% chance of the user being struck by a geas each time a power of the artifact is used. The geas must be completed before the artifact can be used again.
+1-04,Cursed,d20,15,"Age the user 1d10 years each time the artifact is used. Although the user suffers all the effects of aging, death by old age is not possible as long as the artifact remains in possession."
+1-04,Cursed,d20,16,Afflict the user with lycanthropy
+1-04,Cursed,d20,17,Cause the user's touch to be poisonous (saving throw vs. poison or 2d12 points of damage are inflicted)
+1-04,Cursed,d20,18,"Inflict photosensitivity upon the user, who suffers a -1 penalty to all die rolls while in daylight"
+1-04,Cursed,d20,19,"Cause the user's personal possessions to gradually disappear as if lost. Little things disappear first, then larger possessions, until the user is stripped of all worldly goods."
+1-04,Cursed,d20,20,"Cause the user to become forgetful, starting with small details and progressing until full amnesia occurs"
+1-05,Detection,d20,1,Provide a +1 bonus to the user's surprise rolls while the artifact is in hand
+1-05,Detection,d20,2,Imbue the user with all benefits of the appraisal proficiency
+1-05,Detection,d20,3,Have comprehend languages constantly in effect while the artifact is in hand
+1-05,Detection,d20,4,Have detect charm continually in effect while the artifact is in hand
+1-05,Detection,d20,5,Cast detect evil/detect good (3/day)
+1-05,Detection,d20,6,Detect illusions (3/day)
+1-05,Detection,d20,7,Cast detect invisibility (3/day)
+1-05,Detection,d20,8,Cast detect magic (3/day)
+1-05,Detection,d20,9,Cast detect poison (3/day)
+1-05,Detection,d20,10,Have detect snares & pits constantly in effect while the artifact is in hand
+1-05,Detection,d20,11,Detect stonework traps
+1-05,Detection,d20,12,Cast detect undead (3/day)
+1-05,Detection,d20,13,Cast emotion read (3/day)
+1-05,Detection,d20,14,Cast extradimensional detection (3/day)
+1-05,Detection,d20,15,Cast find traps (1/day)
+1-05,Detection,d20,16,Have infravision continually in effect while the artifact is in hand
+1-05,Detection,d20,17,Cast locate object (3/day)
+1-05,Detection,d20,18,Cast true seeing (1/day)
+1-05,Detection,d20,19,Cast wizard eye (3/day)
+1-05,Detection,d20,20,Cast wizard sight (3/day)
+1-06,Divination,d20,1,Cast analyze balance by touch (7/day)
+1-06,Divination,d20,2,Cast augury (3/day)
+1-06,Divination,d20,3,The user communes with the deity affiliated with the artifact. Questions about the artifact are not answered (1/week).
+1-06,Divination,d20,4,Cast consequence (1/day)
+1-06,Divination,d20,5,"Permits the wielder to use contact other plane through the artifact, which selectively screens out all information relating to itself or its powers (1/week)"
+1-06,Divination,d20,6,Cast detect lie upon any creature within 10' (3/day)
+1-06,Divination,d20,7,Cast detect scrying (1/day)
+1-06,Divination,d20,8,Cast divination (1/day)
+1-06,Divination,d20,9,Cast divine inspiration (1/day)
+1-06,Divination,d20,10,Cast ESP by touch (3/day)
+1-06,Divination,d20,11,Cast find the path (1/day)
+1-06,Divination,d20,12,Cast foresight (1/week)
+1-06,Divination,d20,13,Cast identify by touch (1/day).
+1-06,Divination,d20,14,Cast know alignment by touch (3/day)
+1-06,Divination,d20,15,Cast moment reading (3/day)
+1-06,Divination,d20,16,Cast past life (3/day)
+1-06,Divination,d20,17,Cast patternweave by touch (1/day)
+1-06,Divination,d20,18,Cast personal reading upon a creature by touch (3/day)
+1-06,Divination,d20,19,Cast read magic by touching the artifact to written material (3/day)
+1-06,Divination,d20,20,Cast stone tell by touch (3/day)
+1-07,Elemental Air,d20,1,Cast aerial servant (1/week)
+1-07,Elemental Air,d20,2,Cast cloud of purification (2/day)
+1-07,Elemental Air,d20,3,Cast cloudkill (1/day)
+1-07,Elemental Air,d20,4,Cast conjure air elemental (1/week)
+1-07,Elemental Air,d20,5,Cast control winds (3/day)
+1-07,Elemental Air,d20,6,Create a windstorm equal to a djinni's whirlwind. The storm lasts for 1 full turn (1/day)
+1-07,Elemental Air,d20,7,Have feather fall constantly in effect while the artifact is in hand
+1-07,Elemental Air,d20,8,Cast fly (3/day)
+1-07,Elemental Air,d20,9,"Change the user (and all possessions carried) into a gaseous form, vulnerable only to area-effect spells. The user can remain gaseous for 2d6 rounds and can move at full normal movement rate (1/day)"
+1-07,Elemental Air,d20,10,Cast gust of wind (5/day)
+1-07,Elemental Air,d20,11,Cast solid fog (1/day)
+1-07,Elemental Air,d20,12,Cast stinking cloud (3/day)
+1-07,Elemental Air,d20,13,Cast wall of fog (3/day)
+1-07,Elemental Air,d20,14,Cast weather summoning (1/day)
+1-07,Elemental Air,d20,15,Cast wind walk (1/day)
+1-07,Elemental Air,d20,16,Cast wind wall (1/day)
+1-07,Elemental Air,d20,17,Have zone of sweet air (10' radius) continually surrounding the user while the artifact is in hand
+1-07,Elemental Air,d20,18,Open a portal to the Elemental Plane of Air. The passage can be traversed in both directions and the portal remains open for 1 hour. Any creature may use the portal.
+1-07,Elemental Air,d20,19,Imbue the user with immunity to the hostile environment found on the Elemental Plane of Air and the ability to fly through it normally while the artifact is in hand
+1-07,Elemental Air,d20,20,"Send messages in a fashion similar to a whispering wind. The user need only know the name of the recipient before whispering a message to the sky. The user's voice reaches its target within 24 hours, if that person is on the same plane (at will)."
+1-08,Elemental Fire,d20,1,Cast chariot of Sustarre (1/week)
+1-08,Elemental Fire,d20,2,Cast conjure fire elemental (1/week)
+1-08,Elemental Fire,d20,3,Cast delayed blast fireball (1/day)
+1-08,Elemental Fire,d20,4,"Imbue the user with the ability to breathe a cone of fire 30' x 10', inflicting 1d6 points of damage per level (1/day)"
+1-08,Elemental Fire,d20,5,Cast fire burst (3/day)
+1-08,Elemental Fire,d20,6,"Imbue the user with the ability to assume the form of a small fire elemental, changing body and possessions into flame. All within 5' suffer 2d6 points of damage each round (successful saving throw vs. spell reduces damage by one-half) and the user's physical blows inflict 2d8 points of damage per hit. The user is immune to all types of fire. The form lasts 2d6 rounds."
+1-08,Elemental Fire,d20,7,Cast fire shield (1/day)
+1-08,Elemental Fire,d20,8,Cast fireball (3/day)
+1-08,Elemental Fire,d20,9,Cast fireflow (3/day)
+1-08,Elemental Fire,d20,10,Cast flame strike (1/day)
+1-08,Elemental Fire,d20,11,Cast flame walk (3/day)
+1-08,Elemental Fire,d20,12,Cast Forest's fiery constrictor (1/day)
+1-08,Elemental Fire,d20,13,Imbue the user with immunity to the hostile environment found on the Elemental Plane of Fire while the artifact is in hand
+1-08,Elemental Fire,d20,14,Cast light (3/day)
+1-08,Elemental Fire,d20,15,Cast Malec-Keth's flame fist (3/day)
+1-08,Elemental Fire,d20,16,Have protection from fire constantly in effect while the artifact is in hand
+1-08,Elemental Fire,d20,17,"Imbue the user with the ability to sculpt normal fire by hand (no damage suffered). The fire can be fashioned into any shape the user is capable of making, but does not gain any special powers because of it. Sculpted fire holds its form for 1d6 turns before returning to normal."
+1-08,Elemental Fire,d20,18,Cast sunray (1/day)
+1-08,Elemental Fire,d20,19,Cast wall of fire (1/day)
+1-08,Elemental Fire,d20,20,Open a portal to the Elemental Plane of Fire. The passage can be traversed both ways and the portal remains open for 1 hour—any creature may use it.
+1-09,Elemental Water,d20,1,Cast airy water (3/day)
+1-09,Elemental Water,d20,2,Cast cone of cold (1/day)
+1-09,Elemental Water,d20,3,Cast conjure water elemental (1/week)
+1-09,Elemental Water,d20,4,"Transform small quantities of liquids into holy water (or unholy water, depending upon the item's nature) by touch. Up to 1 pint can be transformed (3/day)."
+1-09,Elemental Water,d20,5,Cast create water (1/day)
+1-09,Elemental Water,d20,6,Cast ice storm (1/day)
+1-09,Elemental Water,d20,7,"Shoot a watery blue beam at a single target. If struck, the target must roll a successful saving throw vs. death magic. If the saving throw fails, the target is slain as the victim melts into a puddle of ooze. If the save is successful, the target still suffers 2d8 points of damage. This power is not effective on water-based creatures or those that lack solid structure (puddings, oozes, jellies.) (1/day)."
+1-09,Elemental Water,d20,8,Empower any basin of water to function as a magic font spell by touch (1/day)
+1-09,Elemental Water,d20,9,Cast metamorphose liquids by touch (at will)
+1-09,Elemental Water,d20,10,Cast Otiluke's freezing sphere (1/day)
+1-09,Elemental Water,d20,11,Cast part water (3/day)
+1-09,Elemental Water,d20,12,Imbue the user with immunity to the hostile environment found on the Elemental Plane of Water and with the ability to breathe normally there while the artifact is in hand
+1-09,Elemental Water,d20,13,Render any small body of water into a reflecting pool (1/day)
+1-09,Elemental Water,d20,14,Imbue the user with all sailing and navigation proficiencies for as long as the artifact is in the user's possession
+1-09,Elemental Water,d20,15,Transform any small body of water into a time pool (1/day)
+1-09,Elemental Water,d20,16,Cast wall of ice (1/day)
+1-09,Elemental Water,d20,17,Imbue the user with water breathing while the artifact is in hand
+1-09,Elemental Water,d20,18,Imbue the user with the abilities of water walk while the artifact is in hand
+1-09,Elemental Water,d20,19,"Transform the user's body into liquid. The character can move through water at normal movement speeds and takes the form of a water weird. The user retains all normal abilities but cannot venture more than 30' away from a large body of water. The user is immune to water-based attacks and suffers only half damage from electrical attacks. Fire-based attacks cause double damage, while cold-based spells cause no damage but force the user to revert to true form. The power lasts for 1d6 hours or until canceled by the user (1/day)."
+1-09,Elemental Water,d20,20,Open a portal to the Elemental Plane of Water. The passage can be traversed both ways and the portal remains open for 1 hour. Any creature may use the portal.
+1-10,Elemental Earth,d20,1,Cast animate rock by touch (1/day)
+1-10,Elemental Earth,d20,2,Imbue the user with the ability to appraise gems and jewelry as long as the artifact is in the user's possession
+1-10,Elemental Earth,d20,3,Cast conjure earth elemental (1/week)
+1-10,Elemental Earth,d20,4,Imbue the user with the ability to detect depth underground as a dwarf while the artifact is in hand
+1-10,Elemental Earth,d20,5,Imbue the user with the ability to detect gems while the artifact is in hand
+1-10,Elemental Earth,d20,6,Imbue the user with the ability to detect stonework traps as a dwarf while the artifact is in hand
+1-10,Elemental Earth,d20,7,Cast earthquake (1/month)
+1-10,Elemental Earth,d20,8,Cast fist of stone upon the user (3/day)
+1-10,Elemental Earth,d20,9,Cast flesh to stone by touch (1/day)
+1-10,Elemental Earth,d20,10,Imbue the user with the gem cutting proficiency
+1-10,Elemental Earth,d20,11,Cast meld into stone (3/day)
+1-10,Elemental Earth,d20,12,Cast move earth (1/week)
+1-10,Elemental Earth,d20,13,Cast passwall (1/day)
+1-10,Elemental Earth,d20,14,Cast sink (1/week)
+1-10,Elemental Earth,d20,15,Cast stone shape (3/day)
+1-10,Elemental Earth,d20,16,Cast stone tell (3/day)
+1-10,Elemental Earth,d20,17,Cast stoneskin (1/day)
+1-10,Elemental Earth,d20,18,Cast transmute rock to mud (1/day)
+1-10,Elemental Earth,d20,19,Cast wall of stone (1/day)
+1-10,Elemental Earth,d20,20,Open a portal to the Elemental Plane of Earth. The passage can be traversed both ways and the portal remains open for 1 hour. Any creature may use the portal.
+1-11,Enchantment/Charm,d20,1,"Increase the user's Charisma score by 3, but the enhancement only affects the opposite gender. The user need not present the artifact, but the power vanishes when the artifact is no longer in possession."
+1-11,Enchantment/Charm,d20,2,Imbue the user with the effects of animal friendship while the artifact is in hand
+1-11,Enchantment/Charm,d20,3,Cast charm monster (1/day)
+1-11,Enchantment/Charm,d20,4,Cast charm person (2/day)
+1-11,Enchantment/Charm,d20,5,Cast charm plants (5/day)
+1-11,Enchantment/Charm,d20,6,Cast cloak of bravery/cloak of fear (2/day)
+1-11,Enchantment/Charm,d20,7,Cast command (7/day)
+1-11,Enchantment/Charm,d20,8,Cast confusion (1/day)
+1-11,Enchantment/Charm,d20,9,Cast demand (1/week)
+1-11,Enchantment/Charm,d20,10,Cast domination (1/week)
+1-11,Enchantment/Charm,d20,11,Cast emotion (1/day)
+1-11,Enchantment/Charm,d20,12,Imbue the user's gaze with the effects of cause fear while the device is in hand
+1-11,Enchantment/Charm,d20,13,Cast feeblemind by touch (1/week)
+1-11,Enchantment/Charm,d20,14,Cast forget by touch (3/day)
+1-11,Enchantment/Charm,d20,15,"Cast geas by touch. The mission must relate to the goals of the artifact, if any (1/month)."
+1-11,Enchantment/Charm,d20,16,Cast hold person (1/day)
+1-11,Enchantment/Charm,d20,17,Cast hypnotism (1/day)
+1-11,Enchantment/Charm,d20,18,Cast Otto's irresistible dance by touch (1/day)
+1-11,Enchantment/Charm,d20,19,"Cast quest by touch. The mission must relate to the goals of the artifact, if any (1/month)"
+1-11,Enchantment/Charm,d20,20,Cast suggestion (3/day)
+1-12,Fate and Fortune,d20,1,Grant a +1 bonus to all saving throws
+1-12,Fate and Fortune,d20,2,Grant a +1 bonus to the user's THAC0
+1-12,Fate and Fortune,d20,3,"Grant a +1 bonus (assuming a high roll is good) to all die rolls for the division of treasure, including magical items (but not other artifacts). This bonus is mandatory."
+1-12,Fate and Fortune,d20,4,"Permanently imbue the user with all knowledge of the gambling proficiency. If the user is already proficient in gambling, add +1 to the ability score."
+1-12,Fate and Fortune,d20,5,Grant a +1 bonus to the user's encounter reaction rolls
+1-12,Fate and Fortune,d20,6,"Imbue the user with natural luck in combat, granting a +1 bonus to all surprise rolls"
+1-12,Fate and Fortune,d20,7,Grant a -1 bonus on all of the user's initiative rolls
+1-12,Fate and Fortune,d20,8,"Grant the user a change of luck. Once per (game) day, the player can choose to have any die roll rerolled—an attack roll, damage roll, resurrection/survival roll, etc. The second roll is the actual result"
+1-12,Fate and Fortune,d20,9,"Grant the user incredible luck. Once per (game) week, the user's player can choose to alter any situation by declaring that an incredible event has occurred, (as long as it does not involve magical items or cause the death of a creature), and that incident follows. For example, evil wizards could be made to trip over their own robes in the middle of spellcasting, but could not be made to fall off a cliff."
+1-12,Fate and Fortune,d20,10,Grant the user's adventuring group automatic surprise (1/week)
+1-12,Fate and Fortune,d20,11,"Allow the user to always find suitable work, despite status or skills"
+1-12,Fate and Fortune,d20,12,"Prevent the user from ever being completely destitute. Should all of the user's funds be consumed, some lucky chance happens to provide just enough to get by, such as a reward, coins found in the street or a kind stranger. The amount is never great, but it sees to basic needs."
+1-12,Fate and Fortune,d20,13,Always grant fair sailing winds to any ship or wind-powered vessel the user is aboard
+1-12,Fate and Fortune,d20,14,"Prevent the user from ever being the target of pickpockets, thieves, house-breakers, or con artists—except for those who are specifically after the artifact. The power does not prevent general holdups by bandits and the like, only individual thefts."
+1-12,Fate and Fortune,d20,15,"Prevents merchants from overcharging the user, always offering the best deals"
+1-12,Fate and Fortune,d20,16,Prevent the user from ever getting lost
+1-12,Fate and Fortune,d20,17,Allow the user to always sell goods at 50% greater than normal prices
+1-12,Fate and Fortune,d20,18,"Prevent the user from ever going hungry. If the user is unable to buy or find food, some fortunate circumstance occurs to provide a meal. A deer may wander too close to camp, or an innkeeper may extend the hand of charity."
+1-12,Fate and Fortune,d20,19,"Cause the user to always appear innocent of crimes. The user is never suspected or accused of a crime unless there is no other possibility. Even then, plausible explanations cause a reaction roll to see if the story is accepted"
+1-12,Fate and Fortune,d20,20,Cause all spells cast by the user to operate at maximum effect
+1-13,Healing,d20,1,Constantly provide the user with the benefits of accelerated healing
+1-13,Healing,d20,2,Cast aid (5/day)
+1-13,Healing,d20,3,Cast breath of life (1/week)
+1-13,Healing,d20,4,Render one creature permanently immune to a specific disease or poison by touch (1/week)
+1-13,Healing,d20,5,Cast cure blindness or deafness (3/day)
+1-13,Healing,d20,6,Cast cure critical wounds (2/day)
+1-13,Healing,d20,7,Cast cure disease (3/day)
+1-13,Healing,d20,8,Cure insanity or restore the mind of one affected by feeblemind or similar spells (1/week)
+1-13,Healing,d20,9,Cast cure light wounds (7/day)
+1-13,Healing,d20,10,Cast cure serious wounds (3/day)
+1-13,Healing,d20,11,"Purge a body of the effects of any drug, including drunkenness, by touch (1/day)"
+1-13,Healing,d20,12,Cast heal (1/day)
+1-13,Healing,d20,13,Grant the user the power to heal according to the paladin's ability to lay on hands
+1-13,Healing,d20,14,Restore hit points to the user by draining 1d6 points from every other creature within 10'. Drained points are added to the user's but cannot exceed the original hp total.
+1-13,Healing,d20,15,Cast neutralize poison (3/day)
+1-13,Healing,d20,16,Cast raise dead (1/week)
+1-13,Healing,d20,17,Cast regenerate (1/week)
+1-13,Healing,d20,18,"Place a creature in stasis, halting all further decay and damage. The inert body is immune to gases, fire, cold, or lack of oxygen, but can still be harmed by physical attacks. Damage from these attacks is subtracted immediately, but death does not occur until the stasis is lifted. No further damage affects the body but all damage suffered and poisons still in the system continue their normal course when stasis ends. Only willing targets can be placed in stasis and the effects last 1 week or until the user of the artifact cancels it. Those in stasis are completely static, and not even mental and psionic powers can function (1/week)."
+1-13,Healing,d20,19,Cause all healing spells applied to the user to be doubly effective
+1-13,Healing,d20,20,Erase scars and other disfigurements caused by battle (at will)
+1-14,Immunity,d20,1,"Make the user immune to all normal diseases—colds, flu, black death, even food poisoning. This does not include diseases caused by spells or monsters (like mummy rot)."
+1-14,Immunity,d20,2,"Grant immunity to all magical diseases. While it offers no protection from things as mundane as the common cold or the flu, the immunity works against diseases like mummy rot and the results of cause disease spells."
+1-14,Immunity,d20,3,"Imbue the user with immunity to all forms of disease, both normal and magical"
+1-14,Immunity,d20,4,Create immunity to magically caused fear
+1-14,Immunity,d20,5,"Make the user immune to all forms of gas. The user must still breathe, however, and could suffocate or drown."
+1-14,Immunity,d20,6,Confer immunity to charm- and hold-based spells and spell-like effects—except those caused by artifacts
+1-14,Immunity,d20,7,Make the user immune to missiles from magic missile spells
+1-14,Immunity,d20,8,Imbue the user with immunity to all forms of psionics
+1-14,Immunity,d20,9,"Provide immunity to all magical mental attacks. The character is still vulnerable, though, to psionic attacks."
+1-14,Immunity,d20,10,"Grant immunity to all forms of paralysis, including all hold-based spells, and the results of web and entangle spells"
+1-14,Immunity,d20,11,Create immunity to cold temperatures as low as -50°. Saving throws vs. magical cold gain a +2 bonus
+1-14,Immunity,d20,12,Bestows a 20% magic resistance or gives the user a 20% bonus to any existing magic resistance
+1-14,Immunity,d20,13,Impart immunity to all forms of poison
+1-14,Immunity,d20,14,Grant immunity to normal fire and provide a +2 bonus to saving throws vs. all forms of magical fire
+1-14,Immunity,d20,15,Make the user immune to all forms of electrical attack
+1-14,Immunity,d20,16,Make the user immune to energy drains
+1-14,Immunity,d20,17,"Imbue the user with complete immunity to illusions, always revealing these as shadowy forms. This power does not reveal anything where the physical form has actually been changed, such as polymorphed objects or creatures."
+1-14,Immunity,d20,18,"Serves as a moral guide. Whenever the user intends something evil or unlawful, the artifact delivers a powerful, numbing shock. No damage is taken, but the user is paralyzed for 1d6 rounds. The shocks end when the character gives up the intention or the temptation is gone. Note that this power is only suitable for lawful good artifacts."
+1-14,Immunity,d20,19,Confer immunity to polymorph and shapechanging spells and spell-like effects
+1-14,Immunity,d20,20,Make the user immune to petrification
+1-15,Major Powers,d100,1-3,Cast age object (1/day)
+1-15,Major Powers,d100,4-7,Cast animate dead (1/day)
+1-15,Major Powers,d100,8-10,Cast blade barrier (1/day)
+1-15,Major Powers,d100,11-13,Cast cause critical wounds (1/day)
+1-15,Major Powers,d100,14-17,Cast cause serious wounds (3/day)
+1-15,Major Powers,d100,18-20,Cast control undead (3/day)
+1-15,Major Powers,d100,21-23,Cast control weather (1/day)
+1-15,Major Powers,d100,24-26,Cast destruction (1/week)
+1-15,Major Powers,d100,27-30,Cast forcecage (1/day)
+1-15,Major Powers,d100,31-33,Cast globe of invulnerability (1/day)
+1-15,Major Powers,d100,34-36,Cast harm (1/day)
+1-15,Major Powers,d100,37-40,Cast hold monster (2/day)
+1-15,Major Powers,d100,41-43,Cast liveoak (3/day)
+1-15,Major Powers,d100,44-46,Cast magic jar (1/day)
+1-15,Major Powers,d100,47-50,Cast mindshatter (1/week)
+1-15,Major Powers,d100,51-53,Cast Mordenkainen's disjunction (1/day)
+1-15,Major Powers,d100,54-57,Cause ghoul-like paralysis by touch (3/day)
+1-15,Major Powers,d100,58-60,Cast physical mirror (1/day)
+1-15,Major Powers,d100,61-63,Cast prismatic spray (1/day)
+1-15,Major Powers,d100,64-67,Cast resurrection (1/week)
+1-15,Major Powers,d100,68-70,Cast reverse gravity (1/day)
+1-15,Major Powers,d100,71-73,Cast shades (1/day)
+1-15,Major Powers,d100,74-76,Cast spacewarp (1/day)
+1-15,Major Powers,d100,77-80,Cast telekinesis (3/day)
+1-15,Major Powers,d100,81-83,Cast time stop (1/week)
+1-15,Major Powers,d100,84-86,Cast veil (1/day)
+1-15,Major Powers,d100,87-90,Cast wall of force (1/day)
+1-15,Major Powers,d100,91-95,Cast wall of thorns (1/day)
+1-15,Major Powers,d100,96-00,Cast wither (1/week)
+1-16,Minor Powers,d100,1,Cast accelerate healing (5/day)
+1-16,Minor Powers,d100,2-3,Cast audible glamer (7/day)
+1-16,Minor Powers,d100,4-5,Cast bless (7/day)
+1-16,Minor Powers,d100,6-7,Cast burning hands (5/day)
+1-16,Minor Powers,d100,8,Cast call upon faith (5/day)
+1-16,Minor Powers,d100,9-10,Cast call woodland beings (5/day)
+1-16,Minor Powers,d100,11,Cast calm chaos (5/day)
+1-16,Minor Powers,d100,12-13,Cast chill touch (5/day)
+1-16,Minor Powers,d100,14-15,Cast color spray (5/day)
+1-16,Minor Powers,d100,16,Cast contagion (3/day)
+1-16,Minor Powers,d100,17-18,Cast continual darkness (3/day)
+1-16,Minor Powers,d100,19-20,Cast continual light (3/day)
+1-16,Minor Powers,d100,21-22,"Cast control temperature, 10' radius (5/day)"
+1-16,Minor Powers,d100,23-24,Cast create food and water (5/day)
+1-16,Minor Powers,d100,25-26,Cast curse (5/day)
+1-16,Minor Powers,d100,27-28,Cast dancing lights (5/day)
+1-16,Minor Powers,d100,29,"Cast darkness, 15' radius (3/day)"
+1-16,Minor Powers,d100,30,Cast dispel magic (3/day)
+1-16,Minor Powers,d100,31,Cast dust devil (5/day)
+1-16,Minor Powers,d100,32-33,Cast enlarge (3/day)
+1-16,Minor Powers,d100,34,Cast enthrall (5/day)
+1-16,Minor Powers,d100,35-36,Cast Evard's black tentacles (3/day)
+1-16,Minor Powers,d100,38-39,Cast faerie fire (5/day)
+1-16,Minor Powers,d100,40,Cast fear (3/day)
+1-16,Minor Powers,d100,41,Cast fire purge (5/day)
+1-16,Minor Powers,d100,42-43,Cast flame arrow (5/day)
+1-16,Minor Powers,d100,44-45,Cast flaming sphere (5/day)
+1-16,Minor Powers,d100,46,Cast gaze reflection (3/day)
+1-16,Minor Powers,d100,47-48,Cast glyph of warding (3/day)
+1-16,Minor Powers,d100,49-50,Cast grease (7/day)
+1-16,Minor Powers,d100,51-52,Cast hold animal (5/day)
+1-16,Minor Powers,d100,53-54,Cast hold plant (5/day)
+1-16,Minor Powers,d100,55,Cast hypnotic pattern (3/day)
+1-16,Minor Powers,d100,56-57,Cast invisibility (3/day)
+1-16,Minor Powers,d100,58,Cast levitate (5/day)
+1-16,Minor Powers,d100,59-60,Cast magic missile (5/day)
+1-16,Minor Powers,d100,61,Cast music of the spheres (5/day)
+1-16,Minor Powers,d100,62-63,Cast phantasmal force (3/day)
+1-16,Minor Powers,d100,64,Cast phantasmal killer (3/day)
+1-16,Minor Powers,d100,65-66,Cast plant growth (5/day)
+1-16,Minor Powers,d100,67-68,Cast polymorph other (3/day)
+1-16,Minor Powers,d100,69-70,Cast protection from cantrips (7/day)
+1-16,Minor Powers,d100,71-72,Cast shadow monsters (3/day)
+1-16,Minor Powers,d100,73-74,Cast shocking grasp (5/day)
+1-16,Minor Powers,d100,75,Cast shout (3/day)
+1-16,Minor Powers,d100,76-77,"Cast silence, 15' radius (3/day)"
+1-16,Minor Powers,d100,78-79,Cast sleep (5/day)
+1-16,Minor Powers,d100,80,Cast slow (3/day)
+1-16,Minor Powers,d100,81,Cast slow poison (7/day)
+1-16,Minor Powers,d100,82,Cast spike growth (3/day)
+1-16,Minor Powers,d100,83-84,Cast stinking cloud (5/day)
+1-16,Minor Powers,d100,85-86,Cast stone shape (5/day)
+1-16,Minor Powers,d100,87-88,Cast summon lycanthrope (3/day)
+1-16,Minor Powers,d100,89-90,Cast tongues (5/day)
+1-16,Minor Powers,d100,91-92,Cast trip (5/day)
+1-16,Minor Powers,d100,93-95,Cast vampiric touch (3/day)
+1-16,Minor Powers,d100,96-98,Cast web (5/day)
+1-16,Minor Powers,d100,99-00,Cast wizard lock (5/day)
+1-17,Movement,d20,1,Cast air walk (2/day)
+1-17,Movement,d20,2,Cast blink (3/day)
+1-17,Movement,d20,3,Cast dimensional folding (1/day)
+1-17,Movement,d20,4,Imbue the user with double the normal overland movement rate as long as the artifact is in hand
+1-17,Movement,d20,5,Cast flame walk (3/day)
+1-17,Movement,d20,6,Cast fly (2/day)
+1-17,Movement,d20,7,Cast free action (1/day)
+1-17,Movement,d20,8,Cast haste (1/day)
+1-17,Movement,d20,9,Cast jump (5/day)
+1-17,Movement,d20,10,Cast pass without trace (3/day)
+1-17,Movement,d20,11,Cast passwall (1/day)
+1-17,Movement,d20,12,Cast rainbow bridge (1/day)
+1-17,Movement,d20,13,Cast shadow walk (1/day)
+1-17,Movement,d20,14,Cast spider climb (3/day)
+1-17,Movement,d20,15,Cast teleport without error (1/day)
+1-17,Movement,d20,16,Cast transport via plants (3/day)
+1-17,Movement,d20,17,Cast water walk (5/day)
+1-17,Movement,d20,18,Cast wind walk (1/day)
+1-17,Movement,d20,19,Cast word of recall (1/day)
+1-17,Movement,d20,20,Cast wraithform (1/day)
+1-18,Offensive Powers,d20,1,Cast age creature (1/day)
+1-18,Offensive Powers,d20,2,Cast Bigby's crushing hand (1/day)
+1-18,Offensive Powers,d20,3,Fire a black beam of death that causes 2d8 points of damage to any creature successfully hit. The beam's range is 100 yards (5/day).
+1-18,Offensive Powers,d20,4,Cast cause critical wounds (1/day)
+1-18,Offensive Powers,d20,5,Cast chain lightning (1/day)
+1-18,Offensive Powers,d20,6,Cast claws of the umber hulk (1/day)
+1-18,Offensive Powers,d20,7,Inflict an equal amount of damage upon any creature that inflicts nonspell damage upon the user
+1-18,Offensive Powers,d20,8,Cast disintegrate (1/week)
+1-18,Offensive Powers,d20,9,Cast finger of death (1/week)
+1-18,Offensive Powers,d20,10,Cast fireball (1/day)
+1-18,Offensive Powers,d20,11,Cast flame strike (1/day)
+1-18,Offensive Powers,d20,12,Cast lightning bolt (1/day)
+1-18,Offensive Powers,d20,13,Cast mindshatter (1/day)
+1-18,Offensive Powers,d20,14,"Cast power word, blind (1/day)"
+1-18,Offensive Powers,d20,15,"Cast power word, stun (1/day)"
+1-18,Offensive Powers,d20,16,"Cast power word, kill (1/week)"
+1-18,Offensive Powers,d20,17,Cast shape change (1/week)
+1-18,Offensive Powers,d20,18,Cast suffocate (1/week)
+1-18,Offensive Powers,d20,19,Cast vanish (1/week)
+1-18,Offensive Powers,d20,20,Cast weird (1/week)
+1-19,Nature,d20,1,Have animal friendship constantly in effect as long as the artifact is in hand
+1-19,Nature,d20,2,Cast animal growth (3/day)
+1-19,Nature,d20,3,"Transfer one of a creature's powers to the user by touch. This can include AC, movement, senses, or any noncombat special ability. The transfer lasts 1 hour and then fades (3/day)."
+1-19,Nature,d20,4,Imbue the user with the ability to see through the eyes of any normal animal. The creature must be within sight and within 60' of the artifact at the time of activation. The power lasts 1d3 turns (3/day).
+1-19,Nature,d20,5,Cast animal summoning III (2/day)
+1-19,Nature,d20,6,Cast call lightning (1/day)
+1-19,Nature,d20,7,Protect the user as a cloak of elvenkind
+1-19,Nature,d20,8,Cast charm plants (3/day)
+1-19,Nature,d20,9,Cast entangle (3/day)
+1-19,Nature,d20,10,"Heighten one of the user's senses--keen hearing, infravision, superior smell, and the like, granting a +1 bonus to all surprise rolls"
+1-19,Nature,d20,11,Cast hold animal (3/day)
+1-19,Nature,d20,12,Have pass without trace continually in effect as long as the artifact is in hand
+1-19,Nature,d20,13,Cast plant growth (3/day)
+1-19,Nature,d20,14,Empower the user with the ability to speak with plants at will
+1-19,Nature,d20,15,Grant the user the ability to speak with animals at will
+1-19,Nature,d20,16,Cast transport via plants (1/day)
+1-19,Nature,d20,17,Cast wall of thorns (1/day)
+1-19,Nature,d20,18,Cast warp wood (3/day)
+1-19,Nature,d20,19,Cast weather summoning (1/day)
+1-19,Nature,d20,20,Cast anti-plant shell (1/day)
+1-20,Necromantic,d20,1,Cast Abi-Dalzim's horrid wilting (1/day)
+1-20,Necromantic,d20,2,Cast animate dead (3/day)
+1-20,Necromantic,d20,3,Cast Bloodstone's frightful joining (2/day)
+1-20,Necromantic,d20,4,Cast Bloodstone's spectral steed (1/day)
+1-20,Necromantic,d20,5,Cast breath of death (1/day)
+1-20,Necromantic,d20,6,Cast cause blindness (1/day)
+1-20,Necromantic,d20,7,Cast chill touch (3/day)
+1-20,Necromantic,d20,8,Cast contagion (2/day)
+1-20,Necromantic,d20,9,Cast control undead (2/day)
+1-20,Necromantic,d20,10,Cast death spell (1/week)
+1-20,Necromantic,d20,11,Cast energy drain (1/week)
+1-20,Necromantic,d20,12,Cast feign death (3/day)
+1-20,Necromantic,d20,13,Create a window to the border of the Negative Material Plane that remains open for 1 hour. Creatures can pass through freely from both sides.
+1-20,Necromantic,d20,14,Cast slay living (1/week)
+1-20,Necromantic,d20,15,"Imbue the user with the ability to use speak with dead at will, as long as the artifact is in hand"
+1-20,Necromantic,d20,16,Cast summon shadow (1/week)
+1-20,Necromantic,d20,17,"Transform the user into an undead creature. The user retains all original hit points and abilities and gains the immunities of an undead creature. In addition, the user is not affected by gasses or poisons that would harm a living being. The condition lasts 1d6 turns (1/day)."
+1-20,Necromantic,d20,18,Cast vampiric touch (3/day)
+1-20,Necromantic,d20,19,Cast wail of the banshee (1/week)
+1-20,Necromantic,d20,20,Cast wither (1/week)
+1-21,Personal Enhancements,d20,1,Cast alter self at will for as long as the artifact is owned
+1-21,Personal Enhancements,d20,2,Cast clairaudience at will for as long as the artifact is owned
+1-21,Personal Enhancements,d20,3,Cast clairvoyance at will for as long as the artifact is owned
+1-21,Personal Enhancements,d20,4,Have animal friendship constantly in effect for as long as the artifact is owned
+1-21,Personal Enhancements,d20,5,"Provide the user with the effects of deep-pockets, regardless of what is worn for as long as the artifact is owned"
+1-21,Personal Enhancements,d20,6,Imbue the user with invisibility to undead for as long as the artifact is owned
+1-21,Personal Enhancements,d20,7,Shield the user continually with protection from evil/protection from good (as appropriate to the artifact) for as long as the artifact is owned
+1-21,Personal Enhancements,d20,8,Regenerate two of the user's hit points per turn for as long as the artifact is owned
+1-21,Personal Enhancements,d20,9,Cast feign death at will for as long as the artifact is owned
+1-21,Personal Enhancements,d20,10,Cast friends at will for as long as the artifact is owned
+1-21,Personal Enhancements,d20,11,Cast lasting breath at will for as long as the artifact is owned
+1-21,Personal Enhancements,d20,12,Provide the user with a permanent +1 bonus to saving throws
+1-21,Personal Enhancements,d20,13,Permanently increase the user's prime requisite score (or scores) by 1
+1-21,Personal Enhancements,d20,14,Give the user the permanent ability to use comprehend languages at will
+1-21,Personal Enhancements,d20,15,Endow the user with the permanent ability to use negative plane protection at will
+1-21,Personal Enhancements,d20,16,Grant the user the permanent ability to speak with monsters at will
+1-21,Personal Enhancements,d20,17,Impart permanent ability to speak with animals at will
+1-21,Personal Enhancements,d20,18,Provide the user with the permanent ability to speak with plants at will
+1-21,Personal Enhancements,d20,19,Furnish the permanent ability of water breathing at will
+1-21,Personal Enhancements,d20,20,Bestow upon the user the ability to use ventriloquism at will permanently
+1-22,Planar,d20,1,Cast astral spell (1/week)
+1-22,Planar,d20,2,Cast astral window (1/week)
+1-22,Planar,d20,3,Cast binding (1/week)
+1-22,Planar,d20,4,Cast contact higher plane about any topic other than the artifact or its powers (1/week)
+1-22,Planar,d20,5,Cast dimension door (1/day)
+1-22,Planar,d20,6,Energy drain one level/Hit Die from an opponent on a successful touch (1/day)
+1-22,Planar,d20,7,Cast estate transference (1/month)
+1-22,Planar,d20,8,"Open a gate to a particular island of protomatter in the Ethereal Plane 100' x 100' across. This can be used by the character as a residence, storage place, or even prison (2/day),"
+1-22,Planar,d20,9,"Create a 10' x 10' ethereal window, allowing viewing of whatever lies beyond. The window is one-way, so those viewed do not know it is there. Stepping through the window strands the person in the Ethereal Plane (1/day)."
+1-22,Planar,d20,10,Cast exaction (1/week)
+1-22,Planar,d20,11,Cast extradimensional manipulation (1/week)
+1-22,Planar,d20,12,Cast gate (1/week)
+1-22,Planar,d20,13,Cast Mordenkainen's magnificent mansion (2/week)
+1-22,Planar,d20,14,Imbue the user with the ability to phase like a phase spider (2/day)
+1-22,Planar,d20,15,"Grant the user immunity to the hostile environment of one plane, DM's choice. This lasts as long as the user owns the artifact."
+1-22,Planar,d20,16,"Open a window to any outer plane. Nothing can pass through the window, but events can be seen and heard in both directions (1/week)."
+1-22,Planar,d20,17,Cast plane shift (1/week)
+1-22,Planar,d20,18,Cast speak with astral traveler (1/day)
+1-22,Planar,d20,19,Summon one nondeity from the outer planes. The name or type of creature must be known. Obedience is not guaranteed (1/month).
+1-22,Planar,d20,20,Cast wish (1/month)
+1-23,Protection,d20,1,Grant an Armor Class bonus of +2 to the user when held
+1-23,Protection,d20,2,Function as a ring of protection +2 when held
+1-23,Protection,d20,3,Cast anti-magic shell (1/day)
+1-23,Protection,d20,4,Cast anti-plant shell (2/day)
+1-23,Protection,d20,5,Cast armor upon any creature the artifact touches (5/day)
+1-23,Protection,d20,6,Protect the user constantly with the effects of a feather fall spell
+1-23,Protection,d20,7,Cast fire shield (1/day)
+1-23,Protection,d20,8,"Generate a sphere of forbiddance, 15' in radius, centered on the artifact. The forbiddance is not permanent (as is the spell), but has a duration of 2d6 hours. It can be password locked, however (1/week)."
+1-23,Protection,d20,9,Hold mind blank in effect as long as the artifact is in hand
+1-23,Protection,d20,10,"Keep Negative Plane Protection continually in effect as long as the artifact is in hand, with no saving throw necessary"
+1-23,Protection,d20,11,Maintain nondetection constant effect as long as the artifact is in hand
+1-23,Protection,d20,12,Hold protection from normal missiles continual effect as long as the artifact is in hand
+1-23,Protection,d20,13,Keep protection from lightning constantly in effect as long as the artifact is in hand
+1-23,Protection,d20,14,Maintain protection from fire continually in effect as long as the artifact is in hand
+1-23,Protection,d20,15,Hold protection from paralysis in constant effect as long as the artifact is in hand
+1-23,Protection,d20,16,Keep shield in effect when the artifact is boldly presented (5/day)
+1-23,Protection,d20,17,Cast thief's lament on any nonliving item of chest size or smaller by touch. The effect is permanent (1/week)
+1-23,Protection,d20,18,Cast unceasing vigilance of the holy sentinel (1/week)
+1-23,Protection,d20,19,Cast undead ward upon a 100' by 100' cube. The undead are turned as if by an 18th level priest (1/week)
+1-23,Protection,d20,20,Cast zone of truth (1/week)
+1-24,Divination Results (Oriental Adventures),d10,1-2,"Ill omen. The characters should not undertake any task this day. If this advice is ignored, all characters suffer a -1 on attack rolls and saving throws for the rest of the day. Their chance for encounters are doubled and a -10% reaction modifier is applied to all encounters."
+1-24,Divination Results (Oriental Adventures),d10,3-4,Great danger exists. The chance for encounters doubles for the day and a -10 reaction modifier applies to all encounters. Adversaries have a +1 applied to their attack rolls for that day.
+1-24,Divination Results (Oriental Adventures),d10,5-7,"Neutral omen, no special modifiers apply."
+1-24,Divination Results (Oriental Adventures),d10,8-9,Favorable omen. The characters will be able to travel half again their normal traveling rate that day. Opponents will have a -1 on their attack rolls for that day.
+1-24,Divination Results (Oriental Adventures),d10,10,"Auspicious omen. All the effects of a favorable omen apply. In addition, the characters gain a +1 on all saving throws made that day."

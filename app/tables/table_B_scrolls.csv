@@ -1,0 +1,101 @@
+table,category,subcategory,roll_display,roll_low,roll_high,name,reroll,page,page_status
+B,Scrolls,,1-10,1,10,Enchanted Enhancements,True,21,filled
+B,Scrolls,,11-20,11,20,of Forms,False,803,filled
+B,Scrolls,,21-30,21,30,of Writing,False,803,filled
+B,Scrolls,,31-40,31,40,of Looping,False,803,filled
+B,Scrolls,,41-50,41,50,of Monster Holding,False,803,filled
+B,Scrolls,,51-60,51,60,of Selective Reading,False,804,filled
+B,Scrolls,,61-70,61,70,Self-Protecting,False,804,filled
+B,Scrolls,,71-80,71,80,of Spell Stealing,False,804,filled
+B,Scrolls,,81-90,81,90,of Animal Growth,False,1070,filled
+B,Scrolls,,91-100,91,100,Ballant's,False,1070,filled
+B,Scrolls,,101-110,101,110,of Communication,False,29,filled
+B,Scrolls,,111-120,111,120,of Creation,False,1071,filled
+B,Scrolls,,121-130,121,130,Curate's,False,1071,filled
+B,Scrolls,,131-140,131,140,Cursed,False,1071; 1072,filled
+B,Scrolls,,141-150,141,150,Cursed II,False,1071; 1072,filled
+B,Scrolls,,151-160,151,160,Cursed of Amber,False,1071; 1072,filled
+B,Scrolls,,161-170,161,170,of the Death Servant,False,1072,filled
+B,Scrolls,,171-180,171,180,of Delay,False,1073,filled
+B,Scrolls,,181-190,181,190,Domination,False,1073,filled
+B,Scrolls,,191-200,191,200,of the Efreeti,False,199,filled
+B,Scrolls,,201-210,201,210,of Equipment,False,1073,filled
+B,Scrolls,,211-220,211,220,of Erasing,False,1073,filled
+B,Scrolls,,221-230,221,230,of Five Priest Spells,False,1073; 1074,filled
+B,Scrolls,,231-240,231,240,of Five Priest Spells II,False,1073; 1074,filled
+B,Scrolls,,241-250,241,250,of Five Wizard Spells,False,1074,filled
+B,Scrolls,,251-260,251,260,of Flame Magic,False,1074,filled
+B,Scrolls,,261-270,261,270,of Four Illusionist Spells,False,1074,filled
+B,Scrolls,,271-280,271,280,Glyph,False,1178,filled
+B,Scrolls,,281-290,281,290,of Ha Rahni,False,1074,filled
+B,Scrolls,,291-300,291,300,of Illumination,False,1483,filled
+B,Scrolls,,301-310,301,310,of Mapping,False,1075,filled
+B,Scrolls,,311-320,311,320,of Mapping II,False,1075,filled
+B,Scrolls,,321-330,321,330,of Mixed Priest Spheres Spells,False,1075,filled
+B,Scrolls,,331-340,331,340,Mondasso's Automated Spell,False,1075,filled
+B,Scrolls,,341-350,341,350,Nether,False,1075,filled
+B,Scrolls,,351-360,351,360,of Portals,False,732,filled
+B,Scrolls,,361-370,361,370,Priest of Mixed Spheres,False,823,filled
+B,Scrolls,,371-380,371,380,Priest of Mixed Spheres II,False,823,filled
+B,Scrolls,,381-390,381,390,of Priest Spells,False,1076,filled
+B,Scrolls,,391-400,391,400,of Protection from Acid,False,1009,filled
+B,Scrolls,,401-410,401,410,of Protection from Baatezu,False,1009,filled
+B,Scrolls,,411-420,411,420,of Protection from Cold,False,1009,filled
+B,Scrolls,,421-430,421,430,of Protection from Divination,False,1009,filled
+B,Scrolls,,431-440,431,440,of Protection from Dragon Breath,False,1009,filled
+B,Scrolls,,441-450,441,450,of Protection from Earth,False,1009,filled
+B,Scrolls,,451-460,451,460,of Protection from Electricity,False,1009,filled
+B,Scrolls,,461-470,461,470,of Protection from Elementals,False,988,filled
+B,Scrolls,,471-480,471,480,of Protection from Felines,False,1009,filled
+B,Scrolls,,481-490,481,490,of Protection from Fire,False,807,filled
+B,Scrolls,,491-500,491,500,of Protection from Gas,False,1009,filled
+B,Scrolls,,501-510,501,510,of Protection from Genies,False,1009,filled
+B,Scrolls,,511-520,511,520,of Protection from Heat,False,1009,filled
+B,Scrolls,,521-530,521,530,of Protection from Illusions,False,1009,filled
+B,Scrolls,,531-540,531,540,of Protection from Lycanthropes,False,1009,filled
+B,Scrolls,,541-550,541,550,of Protection from Magic,False,1009,filled
+B,Scrolls,,551-560,551,560,of Magical Weapons Protection,False,1009,filled
+B,Scrolls,,561-570,561,570,of Nonmagical Weapons Protection,False,1009,filled
+B,Scrolls,,571-580,571,580,of Protection from Paralyzation,False,1009,filled
+B,Scrolls,,581-590,581,590,of Protection from Petrification,False,1009,filled
+B,Scrolls,,591-600,591,600,of Protection from Plants,False,1009,filled
+B,Scrolls,,601-610,601,610,of Protection from Poison,False,1009,filled
+B,Scrolls,,611-620,611,620,of Protection from Possession,False,79,filled
+B,Scrolls,,621-630,621,630,of Protection from Shapechangers,False,1009,filled
+B,Scrolls,,631-640,631,640,of Protection from Spirits,False,1009,filled
+B,Scrolls,,641-650,641,650,of Protection from Tanar'ri,False,1009,filled
+B,Scrolls,,651-660,651,660,of Protection from Traps,False,1009,filled
+B,Scrolls,,661-670,661,670,of Protection from Mechanical Traps,False,1009,filled
+B,Scrolls,,671-680,671,680,of Protection from Magical Traps,False,1009,filled
+B,Scrolls,,681-690,681,690,of Protection from All Traps,False,1009,filled
+B,Scrolls,,691-700,691,700,of Protection from Undead,False,988,filled
+B,Scrolls,,701-710,701,710,of Protection from Water,False,1009,filled
+B,Scrolls,,711-720,711,720,of Questioning,False,1081,filled
+B,Scrolls,,721-730,721,730,Quirks,True,443,filled
+B,Scrolls,,731-740,731,740,of Recovery,False,1082,filled
+B,Scrolls,,741-750,741,750,of Repetition,False,1014,filled
+B,Scrolls,,751-760,751,760,of Return,False,1083,filled
+B,Scrolls,,761-770,761,770,Rhialle's,False,1082,filled
+B,Scrolls,,771-780,771,780,Sand,False,1083; 1086,filled
+B,Scrolls,,781-790,781,790,Sea,False,1083,filled
+B,Scrolls,,791-800,791,800,of Seeing,False,528,filled
+B,Scrolls,,801-810,801,810,of Seven Druid Spells,False,1083,filled
+B,Scrolls,,811-820,811,820,of Seven Wizard Spells,False,1018,filled
+B,Scrolls,,821-830,821,830,of Shelter,False,1431,filled
+B,Scrolls,,831-840,831,840,of Six Priest Spells,False,1083,filled
+B,Scrolls,,841-850,841,850,of Six Illusionist Spells,False,1083,filled
+B,Scrolls,,851-860,851,860,of Six Wizard Spells,False,1083; 1084,filled
+B,Scrolls,,861-870,861,870,of Six Wizard Spells II,False,1083; 1084,filled
+B,Scrolls,,871-880,871,880,Sorcerer's,False,1084,filled
+B,Scrolls,,881-890,881,890,of Spell Catching,False,1084,filled
+B,Scrolls,,891-900,891,900,of the Stellar Path,False,1084,filled
+B,Scrolls,,901-910,901,910,of the Stellar Path II,False,1084,filled
+B,Scrolls,,911-920,911,920,Suggestion,False,1085,filled
+B,Scrolls,,921-930,921,930,Tattoo,False,1085,filled
+B,Scrolls,,931-940,931,940,of Transmutation,False,1085,filled
+B,Scrolls,,941-950,941,950,of Trapping,False,201,filled
+B,Scrolls,,951-960,951,960,of Truth,False,893,filled
+B,Scrolls,,961-970,961,970,of Wind Magic,False,1086,filled
+B,Scrolls,,971-980,971,980,Wizard,False,1018,filled
+B,Scrolls,,981-990,981,990,Wizard,False,1018,filled
+B,Scrolls,,991-1000,991,1000,of Wizards,False,1086,filled

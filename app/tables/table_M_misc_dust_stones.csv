@@ -1,0 +1,437 @@
+table,category,subcategory,roll_display,roll_low,roll_high,name,reroll,page,page_status
+M,Misc: Dust & Stones,,1-2,1,2,Enchanted Enhancements,True,21,filled
+M,Misc: Dust & Stones,,3-4,3,4,Air Spores,False,697,filled
+M,Misc: Dust & Stones,,5-6,5,6,Chandrasakar's,False,26,filled
+M,Misc: Dust & Stones,,7-9,7,9,of Bragi,False,1322,filled
+M,Misc: Dust & Stones,,10-11,10,11,of Chaos,False,58,filled
+M,Misc: Dust & Stones,,12-13,12,13,of Accuracy,False,176,filled
+M,Misc: Dust & Stones,,14-16,14,16,Eye,False,451,filled
+M,Misc: Dust & Stones,,17-18,17,18,of Dew,False,1086,filled
+M,Misc: Dust & Stones,,19-20,19,20,of Force,False,1482,filled
+M,Misc: Dust & Stones,,21-22,21,22,Glass,False,164,filled
+M,Misc: Dust & Stones,,23-25,23,25,of Oblivion,False,164,filled
+M,Misc: Dust & Stones,,26-27,26,27,Pearl,False,807,filled
+M,Misc: Dust & Stones,,28-29,28,29,of Atonement,False,751,filled
+M,Misc: Dust & Stones,,30-32,30,32,of Damnation,False,767,filled
+M,Misc: Dust & Stones,,33-34,33,34,of Hindrance,False,,not_in_index
+M,Misc: Dust & Stones,,35-36,35,36,of Karma,False,751,filled
+M,Misc: Dust & Stones,,37-38,37,38,of Response,False,165,filled
+M,Misc: Dust & Stones,,39-41,39,41,of Succor,False,165,filled
+M,Misc: Dust & Stones,,42-43,42,43,of Prayer II,False,165,filled
+M,Misc: Dust & Stones,,44-45,44,45,Bean of Ooze Slime and Jelly,False,165,filled
+M,Misc: Dust & Stones,,46-48,46,48,Fireberries,False,171,filled
+M,Misc: Dust & Stones,,49-50,49,50,Magical,False,1284,filled
+M,Misc: Dust & Stones,,51-52,51,52,of Animation,False,764,filled
+M,Misc: Dust & Stones,,53-54,53,54,of Bruising,False,182,filled
+M,Misc: Dust & Stones,,55-57,55,57,Clapper,False,183,filled
+M,Misc: Dust & Stones,,58-59,58,59,Hatchling Dragon,False,1448,filled
+M,Misc: Dust & Stones,,60-61,60,61,Very Young Dragon,False,1448,filled
+M,Misc: Dust & Stones,,62-64,62,64,Young Dragon,False,1448,filled
+M,Misc: Dust & Stones,,65-66,65,66,Juvenile Dragon,False,1448,filled
+M,Misc: Dust & Stones,,67-68,67,68,Young Adult Dragon,False,1448,filled
+M,Misc: Dust & Stones,,69-70,69,70,Adult Dragon,False,1448,filled
+M,Misc: Dust & Stones,,71-73,71,73,Mature Adult Dragon,False,1448,filled
+M,Misc: Dust & Stones,,74-75,74,75,Old Dragon,False,1448,filled
+M,Misc: Dust & Stones,,76-77,76,77,Very Old Dragon,False,1448,filled
+M,Misc: Dust & Stones,,78-80,78,80,Venerable Dragon,False,1448,filled
+M,Misc: Dust & Stones,,81-82,81,82,Wyrm Dragon,False,1448,filled
+M,Misc: Dust & Stones,,83-84,83,84,Great Wyrm Dragon,False,1448,filled
+M,Misc: Dust & Stones,,85-87,85,87,of Slaying,False,375,filled
+M,Misc: Dust & Stones,,88-89,88,89,of Turning,False,184,filled
+M,Misc: Dust & Stones,,90-91,90,91,Buttercup's Bouquet,False,231,filled
+M,Misc: Dust & Stones,,92-93,92,93,Black,False,675,filled
+M,Misc: Dust & Stones,,94-96,94,96,Blinking,False,240,filled
+M,Misc: Dust & Stones,,97-98,97,98,Blue,False,101,filled
+M,Misc: Dust & Stones,,99-100,99,100,of Brilliance,False,585,filled
+M,Misc: Dust & Stones,,101-103,101,103,of Charming,False,1321,filled
+M,Misc: Dust & Stones,,104-105,104,105,Convocation,False,241,filled
+M,Misc: Dust & Stones,,106-107,106,107,Darkness,False,1477,filled
+M,Misc: Dust & Stones,,108-109,108,109,Defense,False,241,filled
+M,Misc: Dust & Stones,,110-112,110,112,Disruption,False,676,filled
+M,Misc: Dust & Stones,,113-114,113,114,Divination,False,1077,filled
+M,Misc: Dust & Stones,,115-116,115,116,of Everburning,False,241,filled
+M,Misc: Dust & Stones,,117-119,117,119,of Evocation,False,242,filled
+M,Misc: Dust & Stones,,120-121,120,121,Exploding,False,242,filled
+M,Misc: Dust & Stones,,122-123,122,123,Fireball,False,242,filled
+M,Misc: Dust & Stones,,124-125,124,125,Flame,False,302,filled
+M,Misc: Dust & Stones,,126-128,126,128,Flame Arrow,False,242,filled
+M,Misc: Dust & Stones,,129-130,129,130,Flame Blade,False,242,filled
+M,Misc: Dust & Stones,,131-132,131,132,Gold,False,1324,filled
+M,Misc: Dust & Stones,,133-135,133,135,of Invocation,False,243,filled
+M,Misc: Dust & Stones,,136-137,136,137,Methven,False,243,filled
+M,Misc: Dust & Stones,,138-139,138,139,Noora's of Propitiousness,False,243,filled
+M,Misc: Dust & Stones,,140-141,140,141,of Powerlessness,False,1014,filled
+M,Misc: Dust & Stones,,142-144,142,144,of Propitiousness,False,243,filled
+M,Misc: Dust & Stones,,145-146,145,146,of Protection,False,1009,filled
+M,Misc: Dust & Stones,,147-148,147,148,of Protection II,False,1009,filled
+M,Misc: Dust & Stones,,149-151,149,151,Purple,False,244,filled
+M,Misc: Dust & Stones,,152-153,152,153,Pyrotechnic,False,244,filled
+M,Misc: Dust & Stones,,154-155,154,155,Red,False,807,filled
+M,Misc: Dust & Stones,,156-158,156,158,Reflection,False,886,filled
+M,Misc: Dust & Stones,,159-160,159,160,Sanctuary,False,244,filled
+M,Misc: Dust & Stones,,161-162,161,162,Shielding,False,228,filled
+M,Misc: Dust & Stones,,163-164,163,164,Smoke Detection,False,245,filled
+M,Misc: Dust & Stones,,165-167,165,167,of Spells,False,245,filled
+M,Misc: Dust & Stones,,168-169,168,169,Survival,False,1002,filled
+M,Misc: Dust & Stones,,170-171,170,171,of Transference,False,620,filled
+M,Misc: Dust & Stones,,172-174,172,174,Unfailing Light,False,245,filled
+M,Misc: Dust & Stones,,175-176,175,176,of Vapors,False,245,filled
+M,Misc: Dust & Stones,,177-178,177,178,Visibility,False,246,filled
+M,Misc: Dust & Stones,,179-180,179,180,Yellow,False,246,filled
+M,Misc: Dust & Stones,,181-183,181,183,of Odors,False,200,filled
+M,Misc: Dust & Stones,,184-185,184,185,of Vile Odors,False,284,filled
+M,Misc: Dust & Stones,,186-187,186,187,Coal of Warmth,False,314,filled
+M,Misc: Dust & Stones,,188-190,188,190,of Absorption,False,1093,filled
+M,Misc: Dust & Stones,,191-192,191,192,of Adhering,False,414,filled
+M,Misc: Dust & Stones,,193-194,193,194,Allergy,False,414,filled
+M,Misc: Dust & Stones,,195-196,195,196,of Appearance,False,948,filled
+M,Misc: Dust & Stones,,197-199,197,199,of Blandness,False,415,filled
+M,Misc: Dust & Stones,,200-201,200,201,of Piquantness,False,415,filled
+M,Misc: Dust & Stones,,202-203,202,203,of Blending,False,838,filled
+M,Misc: Dust & Stones,,204-206,204,206,Decoy,False,414,filled
+M,Misc: Dust & Stones,,207-208,207,208,of Disappearance,False,419; 423,filled
+M,Misc: Dust & Stones,,209-210,209,210,of Dryness,False,419,filled
+M,Misc: Dust & Stones,,211-212,211,212,of Dullness,False,419,filled
+M,Misc: Dust & Stones,,213-215,213,215,Feather,False,420,filled
+M,Misc: Dust & Stones,,216-217,216,217,Fertilization,False,420,filled
+M,Misc: Dust & Stones,,218-219,218,219,of Forgetfulness,False,420,filled
+M,Misc: Dust & Stones,,220-222,220,222,of Forgetfulness,False,420,filled
+M,Misc: Dust & Stones,,223-224,223,224,Green Sleeping,False,420,filled
+M,Misc: Dust & Stones,,225-226,225,226,of Illusion,False,420,filled
+M,Misc: Dust & Stones,,227-229,227,229,Leech,False,420,filled
+M,Misc: Dust & Stones,,230-231,230,231,Malto's of Mind Dulling,False,421,filled
+M,Misc: Dust & Stones,,232-233,232,233,of Mind Dulling,False,421,filled
+M,Misc: Dust & Stones,,234-235,234,235,of Opposition,False,421,filled
+M,Misc: Dust & Stones,,236-238,236,238,Paralyzation,False,1491,filled
+M,Misc: Dust & Stones,,239-240,239,240,Revealing,False,422,filled
+M,Misc: Dust & Stones,,241-242,241,242,Rust,False,422,filled
+M,Misc: Dust & Stones,,243-245,243,245,of Sleeping,False,173,filled
+M,Misc: Dust & Stones,,246-247,246,247,Sleep,False,547,filled
+M,Misc: Dust & Stones,,248-249,248,249,Small Bird Repulsion Dust,False,422,filled
+M,Misc: Dust & Stones,,250-251,250,251,Sneezing,False,566,filled
+M,Misc: Dust & Stones,,252-254,252,254,Sneezing II,False,566,filled
+M,Misc: Dust & Stones,,255-256,255,256,of Sneezing and Choking,False,423,filled
+M,Misc: Dust & Stones,,257-258,257,258,Sparkling,False,1132,filled
+M,Misc: Dust & Stones,,259-261,259,261,of Tracelessness,False,423,filled
+M,Misc: Dust & Stones,,262-263,262,263,of Trail Dispersion,False,423,filled
+M,Misc: Dust & Stones,,264-265,264,265,Violet Dindower's of Disappearance,False,423,filled
+M,Misc: Dust & Stones,,266-267,266,267,Antimagic,False,855,filled
+M,Misc: Dust & Stones,,268-270,268,270,Apprentice's,False,430,filled
+M,Misc: Dust & Stones,,271-272,271,272,Black,False,675,filled
+M,Misc: Dust & Stones,,273-274,273,274,Cloudkill,False,430,filled
+M,Misc: Dust & Stones,,275-277,275,277,of Desire (Black),False,675,filled
+M,Misc: Dust & Stones,,278-279,278,279,of Desire (Bone),False,1476,filled
+M,Misc: Dust & Stones,,280-281,280,281,of Desire (Crystal),False,317,filled
+M,Misc: Dust & Stones,,282-283,282,283,of Desire (Golden),False,1303,filled
+M,Misc: Dust & Stones,,284-286,284,286,of Desire (Scarlet),False,431,filled
+M,Misc: Dust & Stones,,287-288,287,288,Disintegration,False,431,filled
+M,Misc: Dust & Stones,,289-290,289,290,of Distraction,False,281,filled
+M,Misc: Dust & Stones,,291-293,291,293,of Hatchling Dragon Breath,False,1448,filled
+M,Misc: Dust & Stones,,294-295,294,295,of Very young Dragon Breath,False,1448,filled
+M,Misc: Dust & Stones,,296-297,296,297,of Young Dragon Breath,False,1448,filled
+M,Misc: Dust & Stones,,298-299,298,299,of Juvenile Dragon Breath,False,1448,filled
+M,Misc: Dust & Stones,,300-302,300,302,of Young adult Dragon Breath,False,1448,filled
+M,Misc: Dust & Stones,,303-304,303,304,of Adult Dragon Breath,False,1448,filled
+M,Misc: Dust & Stones,,305-306,305,306,of Mature adult Dragon Breath,False,1448,filled
+M,Misc: Dust & Stones,,307-309,307,309,of Old Dragon Breath,False,1448,filled
+M,Misc: Dust & Stones,,310-311,310,311,of Very Old Dragon Breath,False,1448,filled
+M,Misc: Dust & Stones,,312-313,312,313,of Venerable Dragon Breath,False,1448,filled
+M,Misc: Dust & Stones,,314-316,314,316,of Wyrm Dragon Breath,False,1448,filled
+M,Misc: Dust & Stones,,317-318,317,318,of Great Wyrm Dragon Breath,False,1448,filled
+M,Misc: Dust & Stones,,319-320,319,320,Dreamhold,False,432,filled
+M,Misc: Dust & Stones,,321-322,321,322,Egg of Fascination,False,440,filled
+M,Misc: Dust & Stones,,323-325,323,325,Flame,False,302,filled
+M,Misc: Dust & Stones,,326-327,326,327,Fog Cloud,False,433,filled
+M,Misc: Dust & Stones,,328-329,328,329,Golden,False,1303,filled
+M,Misc: Dust & Stones,,330-332,330,332,Gold of Ghastar,False,1324,filled
+M,Misc: Dust & Stones,,333-334,333,334,Obsidian of Ghastar,False,600,filled
+M,Misc: Dust & Stones,,335-336,335,336,Gold of Ghastar,False,1324,filled
+M,Misc: Dust & Stones,,337-338,337,338,Silver of Ghastar,False,325,filled
+M,Misc: Dust & Stones,,339-341,339,341,Gray,False,434,filled
+M,Misc: Dust & Stones,,342-343,342,343,Guardian,False,434,filled
+M,Misc: Dust & Stones,,344-345,344,345,Hard-Boiled,False,434,filled
+M,Misc: Dust & Stones,,346-348,346,348,Imprisonment,False,571,filled
+M,Misc: Dust & Stones,,349-350,349,350,Incubalum,False,435,filled
+M,Misc: Dust & Stones,,351-352,351,352,Khenel's Philosopher's,False,436,filled
+M,Misc: Dust & Stones,,353-354,353,354,Mishakal's Token,False,436,filled
+M,Misc: Dust & Stones,,355-357,355,357,Multicolor,False,436,filled
+M,Misc: Dust & Stones,,358-359,358,359,Philosopher's,False,1314,filled
+M,Misc: Dust & Stones,,360-361,360,361,of the Phoenix I,False,436; 437,filled
+M,Misc: Dust & Stones,,362-364,362,364,Pink,False,438,filled
+M,Misc: Dust & Stones,,365-366,365,366,of Reason,False,438,filled
+M,Misc: Dust & Stones,,367-368,367,368,Rotten,False,438,filled
+M,Misc: Dust & Stones,,369-370,369,370,of Shattering,False,1538,filled
+M,Misc: Dust & Stones,,371-373,371,373,Shell of Protection,False,439,filled
+M,Misc: Dust & Stones,,374-375,374,375,Shell of Protection vs. Birds,False,1009,filled
+M,Misc: Dust & Stones,,376-377,376,377,Shell of Protection vs. Dragons,False,1009,filled
+M,Misc: Dust & Stones,,378-380,378,380,Shell of Protection vs. Evil,False,1009,filled
+M,Misc: Dust & Stones,,381-382,381,382,Shell of Protection vs. Fiends,False,1009,filled
+M,Misc: Dust & Stones,,383-384,383,384,Shell of Protection vs. Good,False,1009,filled
+M,Misc: Dust & Stones,,385-387,385,387,Shell of Protection vs. Humanoids,False,1009,filled
+M,Misc: Dust & Stones,,388-389,388,389,Shell of Protection vs. Humans,False,1009,filled
+M,Misc: Dust & Stones,,390-391,390,391,Shell of Protection vs. Lycanthropes,False,1009,filled
+M,Misc: Dust & Stones,,392-393,392,393,Shell of Protection vs. Planars,False,1009,filled
+M,Misc: Dust & Stones,,394-396,394,396,Shell of Protection vs. Scalekind,False,1009,filled
+M,Misc: Dust & Stones,,397-398,397,398,Shell of Protection vs. Undead,False,1009,filled
+M,Misc: Dust & Stones,,399-400,399,400,Soft Boiled,False,439,filled
+M,Misc: Dust & Stones,,401-403,401,403,Stinging Cloud,False,439,filled
+M,Misc: Dust & Stones,,404-405,404,405,Turquoise,False,439,filled
+M,Misc: Dust & Stones,,406-407,406,407,of Wonder,False,1497; 1498; 1499; 1500,filled
+M,Misc: Dust & Stones,,408-409,408,409,Eternal Peanut,False,447,filled
+M,Misc: Dust & Stones,,410-412,410,412,Feathertoken,False,466,filled
+M,Misc: Dust & Stones,,413-414,413,414,Lapland,False,466,filled
+M,Misc: Dust & Stones,,415-416,415,416,Plumaliltter,False,466,filled
+M,Misc: Dust & Stones,,417-419,417,419,Quaal's Tokens,False,180; 466; 467; 468; 469,filled
+M,Misc: Dust & Stones,,420-421,420,421,Quaal's Mystical Token,False,180; 466; 467; 468; 469,filled
+M,Misc: Dust & Stones,,422-423,422,423,of Commanding,False,480,filled
+M,Misc: Dust & Stones,,424-425,424,425,of the Master Thief,False,480,filled
+M,Misc: Dust & Stones,,426-428,426,428,Thumb of the Master Thief,False,480,filled
+M,Misc: Dust & Stones,,429-430,429,430,Fingernail of Rending,False,481,filled
+M,Misc: Dust & Stones,,431-432,431,432,Four-Leaf Clover,False,499,filled
+M,Misc: Dust & Stones,,433-435,433,435,Gas of Dreadful Sleep,False,547,filled
+M,Misc: Dust & Stones,,436-437,436,437,Grains of Discomfort,False,549,filled
+M,Misc: Dust & Stones,,438-439,438,439,of Meditation,False,611,filled
+M,Misc: Dust & Stones,,440-441,440,441,of Obsession,False,522,filled
+M,Misc: Dust & Stones,,442-444,442,444,Shaphesh's of Obsession,False,522,filled
+M,Misc: Dust & Stones,,445-446,445,446,Balian's Yellow,False,613,filled
+M,Misc: Dust & Stones,,447-448,447,448,Blue-Green Spindle,False,101,filled
+M,Misc: Dust & Stones,,449-451,449,451,Brass Lozenge,False,,not_in_index
+M,Misc: Dust & Stones,,452-453,452,453,Bright Silver Cylinder,False,325,filled
+M,Misc: Dust & Stones,,454-455,454,455,Bright White Rectangle,False,1105,filled
+M,Misc: Dust & Stones,,456-458,456,458,Brown Rectangle,False,,not_in_index
+M,Misc: Dust & Stones,,459-460,459,460,Cerulean Blue Rhomboid,False,101,filled
+M,Misc: Dust & Stones,,461-462,461,462,Clear Pink Sphere,False,1270,filled
+M,Misc: Dust & Stones,,463-464,463,464,Clear Prism,False,912,filled
+M,Misc: Dust & Stones,,465-467,465,467,Clear Sphere,False,1270,filled
+M,Misc: Dust & Stones,,468-469,468,469,Copper Rectangle,False,321,filled
+M,Misc: Dust & Stones,,470-471,470,471,Deep Black Sphere,False,675,filled
+M,Misc: Dust & Stones,,472-474,472,474,Deep Purple Prism,False,244,filled
+M,Misc: Dust & Stones,,475-476,475,476,Deep Red Sphere,False,519,filled
+M,Misc: Dust & Stones,,477-478,477,478,Flickering White Snowflake,False,1105,filled
+M,Misc: Dust & Stones,,479-480,479,480,Gold Ellipsoid,False,1324,filled
+M,Misc: Dust & Stones,,481-483,481,483,Green Sphere,False,1270,filled
+M,Misc: Dust & Stones,,484-485,484,485,Incandescent Blue Sphere,False,1270,filled
+M,Misc: Dust & Stones,,486-487,486,487,Light Blue Prism,False,374,filled
+M,Misc: Dust & Stones,,488-490,488,490,Maroon Star,False,1511,filled
+M,Misc: Dust & Stones,,491-492,491,492,Orange Cube,False,349,filled
+M,Misc: Dust & Stones,,493-494,493,494,Pale Green Ellipsoid,False,699,filled
+M,Misc: Dust & Stones,,495-496,495,496,Pale Lavender Spindle,False,905,filled
+M,Misc: Dust & Stones,,497-499,497,499,Pale Yellow Lozenge,False,246,filled
+M,Misc: Dust & Stones,,500-501,500,501,Pearly White Prism,False,1105,filled
+M,Misc: Dust & Stones,,502-503,502,503,Pink Ellipsoid,False,438,filled
+M,Misc: Dust & Stones,,504-506,504,506,Pink & Green Ellipsoid,False,438,filled
+M,Misc: Dust & Stones,,507-508,507,508,Puce Cube,False,349,filled
+M,Misc: Dust & Stones,,509-510,509,510,Pulsing Red Star,False,485,filled
+M,Misc: Dust & Stones,,511-512,511,512,Pure White Octahedron,False,1105,filled
+M,Misc: Dust & Stones,,513-515,513,515,Rainbow Ellipsoid,False,81,filled
+M,Misc: Dust & Stones,,516-517,516,517,Rainbow Spindle,False,81,filled
+M,Misc: Dust & Stones,,518-519,518,519,Scarlet & Blue Sphere,False,519,filled
+M,Misc: Dust & Stones,,520-522,520,522,Silver Rod,False,1021,filled
+M,Misc: Dust & Stones,,523-524,523,524,Silver Sphere,False,277,filled
+M,Misc: Dust & Stones,,525-526,525,526,Silvery Mirror Cube,False,351,filled
+M,Misc: Dust & Stones,,527-528,527,528,Soft Black Rectangle,False,675,filled
+M,Misc: Dust & Stones,,529-531,529,531,Yellow Sphere,False,1270,filled
+M,Misc: Dust & Stones,,532-533,532,533,Kulver-Tam's Fruit of Healing,False,1324,filled
+M,Misc: Dust & Stones,,534-535,534,535,Cat's Eye,False,952,filled
+M,Misc: Dust & Stones,,536-538,536,538,of Cleanliness,False,312,filled
+M,Misc: Dust & Stones,,539-540,539,540,Granite,False,696,filled
+M,Misc: Dust & Stones,,541-542,541,542,of Quarry,False,696,filled
+M,Misc: Dust & Stones,,543-545,543,545,Warp,False,696,filled
+M,Misc: Dust & Stones,,546-547,546,547,Sweet Onion,False,892,filled
+M,Misc: Dust & Stones,,548-549,548,549,of Four-and-Twenty Blackbirds,False,835,filled
+M,Misc: Dust & Stones,,550-551,550,551,of Raspberries,False,835,filled
+M,Misc: Dust & Stones,,552-554,552,554,Rhubarb,False,835,filled
+M,Misc: Dust & Stones,,555-556,555,556,Plumastone,False,,not_in_index
+M,Misc: Dust & Stones,,557-558,557,558,Absinthe,False,763,filled
+M,Misc: Dust & Stones,,559-561,559,561,African Ju Ju,False,899,filled
+M,Misc: Dust & Stones,,562-563,562,563,Allspice,False,899,filled
+M,Misc: Dust & Stones,,564-565,564,565,Allspice II,False,899,filled
+M,Misc: Dust & Stones,,566-567,566,567,Anger,False,763,filled
+M,Misc: Dust & Stones,,568-570,568,570,Anise,False,899,filled
+M,Misc: Dust & Stones,,571-572,571,572,Aphrodisia,False,764,filled
+M,Misc: Dust & Stones,,573-574,573,574,Arabian Nights,False,764,filled
+M,Misc: Dust & Stones,,575-577,575,577,Attraction,False,154,filled
+M,Misc: Dust & Stones,,578-579,578,579,Bats' Blood,False,765,filled
+M,Misc: Dust & Stones,,580-581,580,581,Bendover's,False,765,filled
+M,Misc: Dust & Stones,,582-583,582,583,Bergamot's,False,899,filled
+M,Misc: Dust & Stones,,584-586,584,586,Black Arts,False,765,filled
+M,Misc: Dust & Stones,,587-588,587,588,of the Black Veil,False,900; 902,filled
+M,Misc: Dust & Stones,,589-590,589,590,Bottom #20,False,900,filled
+M,Misc: Dust & Stones,,591-593,591,593,Bruno's Curse,False,765,filled
+M,Misc: Dust & Stones,,594-595,594,595,Buddha Type I,False,900,filled
+M,Misc: Dust & Stones,,596-597,596,597,Buddha Type II,False,900,filled
+M,Misc: Dust & Stones,,598-599,598,599,Buddha Type III,False,900,filled
+M,Misc: Dust & Stones,,600-602,600,602,Bull's,False,765,filled
+M,Misc: Dust & Stones,,603-604,603,604,Carnation,False,766,filled
+M,Misc: Dust & Stones,,605-606,605,606,Chocolate,False,900,filled
+M,Misc: Dust & Stones,,607-609,607,609,Citronella,False,900,filled
+M,Misc: Dust & Stones,,610-611,610,611,Civet,False,900,filled
+M,Misc: Dust & Stones,,612-613,612,613,Cleo May,False,900,filled
+M,Misc: Dust & Stones,,614-616,614,616,of Coagulation,False,900,filled
+M,Misc: Dust & Stones,,617-618,617,618,of Comeliness,False,901,filled
+M,Misc: Dust & Stones,,619-620,619,620,Commanding,False,480,filled
+M,Misc: Dust & Stones,,621-622,621,622,Concentration,False,766,filled
+M,Misc: Dust & Stones,,623-625,623,625,Confusion,False,901,filled
+M,Misc: Dust & Stones,,626-627,626,627,Conquering Glory,False,766,filled
+M,Misc: Dust & Stones,,628-629,628,629,Controlling,False,766,filled
+M,Misc: Dust & Stones,,630-632,630,632,Crab Apple,False,767,filled
+M,Misc: Dust & Stones,,633-634,633,634,Crossing,False,767,filled
+M,Misc: Dust & Stones,,635-636,635,636,Cumin Seed,False,767; 902,filled
+M,Misc: Dust & Stones,,637-638,637,638,Cypress Seed,False,767; 902,filled
+M,Misc: Dust & Stones,,639-641,639,641,Damnation,False,767,filled
+M,Misc: Dust & Stones,,642-643,642,643,Desiré Eme's,False,767,filled
+M,Misc: Dust & Stones,,644-645,644,645,Doas Isay's,False,902,filled
+M,Misc: Dust & Stones,,646-648,646,648,Double Cross,False,902,filled
+M,Misc: Dust & Stones,,649-650,649,650,Dragon's Blood,False,902,filled
+M,Misc: Dust & Stones,,651-652,651,652,Dream,False,902,filled
+M,Misc: Dust & Stones,,653-654,653,654,Dypshez's of the Black Veil,False,675,filled
+M,Misc: Dust & Stones,,655-657,655,657,Elixir,False,442,filled
+M,Misc: Dust & Stones,,658-659,658,659,Enchantment,False,1512,filled
+M,Misc: Dust & Stones,,660-661,660,661,Eucalyptus,False,769; 903,filled
+M,Misc: Dust & Stones,,662-664,662,664,Eve,False,903,filled
+M,Misc: Dust & Stones,,665-666,665,666,Evil Eye,False,360,filled
+M,Misc: Dust & Stones,,667-668,667,668,Excisement,False,769,filled
+M,Misc: Dust & Stones,,669-670,669,670,Exodus,False,769,filled
+M,Misc: Dust & Stones,,671-673,671,673,Five Finger Grass,False,903,filled
+M,Misc: Dust & Stones,,674-675,674,675,Frangi Pani,False,770; 903,filled
+M,Misc: Dust & Stones,,676-677,676,677,Galangale's,False,770,filled
+M,Misc: Dust & Stones,,678-680,678,680,Gardenia,False,770,filled
+M,Misc: Dust & Stones,,681-682,681,682,Getaway's,False,903,filled
+M,Misc: Dust & Stones,,683-684,683,684,Good Taste,False,903,filled
+M,Misc: Dust & Stones,,685-687,685,687,Grape,False,903,filled
+M,Misc: Dust & Stones,,688-689,688,689,Powder of the Hero's Heart,False,907,filled
+M,Misc: Dust & Stones,,690-691,690,691,High Conquering,False,770,filled
+M,Misc: Dust & Stones,,692-693,692,693,High John the Conqueror's,False,904,filled
+M,Misc: Dust & Stones,,694-696,694,696,Hindu Grass,False,771; 904,filled
+M,Misc: Dust & Stones,,697-698,697,698,Honeysuckle,False,904,filled
+M,Misc: Dust & Stones,,699-700,699,700,Hypnotic,False,904,filled
+M,Misc: Dust & Stones,,701-703,701,703,Hysspo,False,771,filled
+M,Misc: Dust & Stones,,704-705,704,705,Powder of Images,False,904,filled
+M,Misc: Dust & Stones,,706-707,706,707,Jamaica,False,771,filled
+M,Misc: Dust & Stones,,708-709,708,709,Jezebel,False,772,filled
+M,Misc: Dust & Stones,,710-712,710,712,Jinx Removing,False,905,filled
+M,Misc: Dust & Stones,,713-714,713,714,Kludde,False,772,filled
+M,Misc: Dust & Stones,,715-716,715,716,Lavender,False,772,filled
+M,Misc: Dust & Stones,,717-719,717,719,Life,False,905,filled
+M,Misc: Dust & Stones,,720-721,720,721,Lily of the Valley,False,905,filled
+M,Misc: Dust & Stones,,722-723,722,723,of Magic Detection,False,905,filled
+M,Misc: Dust & Stones,,724-725,724,725,Magnolia,False,773,filled
+M,Misc: Dust & Stones,,726-728,726,728,Manpower,False,773,filled
+M,Misc: Dust & Stones,,729-730,729,730,Mercury,False,905,filled
+M,Misc: Dust & Stones,,731-732,731,732,Mojo,False,774,filled
+M,Misc: Dust & Stones,,733-735,733,735,Moon,False,380; 390,filled
+M,Misc: Dust & Stones,,736-737,736,737,Musk,False,774,filled
+M,Misc: Dust & Stones,,738-740,738,740,Narcissus,False,774,filled
+M,Misc: Dust & Stones,,741-743,741,743,New life,False,906,filled
+M,Misc: Dust & Stones,,744-746,744,746,Nine Mystery,False,774,filled
+M,Misc: Dust & Stones,,747-748,747,748,Obeah,False,906,filled
+M,Misc: Dust & Stones,,749-751,749,751,Oak-in-Acorn,False,906,filled
+M,Misc: Dust & Stones,,752-753,752,753,Olibanum,False,775,filled
+M,Misc: Dust & Stones,,754-755,754,755,of Obsession,False,522,filled
+M,Misc: Dust & Stones,,756-757,756,757,Power,False,907,filled
+M,Misc: Dust & Stones,,758-760,758,760,Primrose,False,776,filled
+M,Misc: Dust & Stones,,761-762,761,762,Purification,False,249,filled
+M,Misc: Dust & Stones,,763-764,763,764,Puchezma's of Edible Objects,False,907,filled
+M,Misc: Dust & Stones,,765-767,765,767,Purwuvok's of the Hero's Heart,False,907,filled
+M,Misc: Dust & Stones,,768-769,768,769,Quirk*,True,79,filled
+M,Misc: Dust & Stones,,770-771,770,771,Reversibility,False,909,filled
+M,Misc: Dust & Stones,,772-774,772,774,Rosemary,False,909,filled
+M,Misc: Dust & Stones,,775-776,775,776,Rue,False,909,filled
+M,Misc: Dust & Stones,,777-778,777,778,Sandalwood,False,909,filled
+M,Misc: Dust & Stones,,779-780,779,780,Smoke,False,909,filled
+M,Misc: Dust & Stones,,781-782,781,782,Snake,False,910,filled
+M,Misc: Dust & Stones,,783-785,783,785,Solomon's,False,910,filled
+M,Misc: Dust & Stones,,786,786,786,Spikenard,False,910,filled
+M,Misc: Dust & Stones,,787,787,787,Spirit,False,706,filled
+M,Misc: Dust & Stones,,788-790,788,790,Time,False,1252,filled
+M,Misc: Dust & Stones,,791-792,791,792,Trinity,False,910,filled
+M,Misc: Dust & Stones,,793-794,793,794,Verbena,False,779,filled
+M,Misc: Dust & Stones,,795-796,795,796,Vibration,False,779,filled
+M,Misc: Dust & Stones,,797-799,797,799,Virgin Olive,False,910,filled
+M,Misc: Dust & Stones,,800-801,800,801,Vision,False,252,filled
+M,Misc: Dust & Stones,,802-803,802,803,Voodoo,False,911,filled
+M,Misc: Dust & Stones,,804-806,804,806,Will Power,False,779,filled
+M,Misc: Dust & Stones,,807-808,807,808,Wintergreen,False,911,filled
+M,Misc: Dust & Stones,,809-810,809,810,Wishing,False,1527,filled
+M,Misc: Dust & Stones,,811-812,811,812,Witch's,False,1497,filled
+M,Misc: Dust & Stones,,813-815,813,815,Xyz,False,779,filled
+M,Misc: Dust & Stones,,816-817,816,817,Ylang Ylang,False,779,filled
+M,Misc: Dust & Stones,,818-819,818,819,Zodiac,False,779,filled
+M,Misc: Dust & Stones,,820-822,820,822,Zula Zula,False,780,filled
+M,Misc: Dust & Stones,,823-824,823,824,Puppy Putty,False,919,filled
+M,Misc: Dust & Stones,,825-826,825,826,Rakasta Tea,False,931,filled
+M,Misc: Dust & Stones,,827-828,827,828,Death of the Darad S'tin,False,1478,filled
+M,Misc: Dust & Stones,,829-831,829,831,Kereenyaga,False,1020,filled
+M,Misc: Dust & Stones,,832-833,832,833,Pet,False,1021,filled
+M,Misc: Dust & Stones,,834-835,834,835,of Eternal Slumber,False,1045,filled
+M,Misc: Dust & Stones,,836-838,836,838,Wreath of Roses of Eternal Slumber,False,1045,filled
+M,Misc: Dust & Stones,,839-840,839,840,Bush of Roses of Eternal Slumber,False,1045,filled
+M,Misc: Dust & Stones,,841-842,841,842,of Ravenloft,False,189,filled
+M,Misc: Dust & Stones,,843-845,843,845,of Forgetfulness,False,420,filled
+M,Misc: Dust & Stones,,846-847,846,847,Sand of Truth,False,893,filled
+M,Misc: Dust & Stones,,848-849,848,849,Dragon Lily,False,1089,filled
+M,Misc: Dust & Stones,,850-851,850,851,Enchanted Cherry Pits (Brown),False,21,filled
+M,Misc: Dust & Stones,,852-854,852,854,Enchanted Cherry Pits (Gold),False,21,filled
+M,Misc: Dust & Stones,,855-856,855,856,Enchanted Cherry Pits (Red),False,1089,filled
+M,Misc: Dust & Stones,,857-858,857,858,Fireseed,False,1089,filled
+M,Misc: Dust & Stones,,859-861,859,861,of Growth,False,872,filled
+M,Misc: Dust & Stones,,862-863,862,863,Damage Curing,False,1090,filled
+M,Misc: Dust & Stones,,864-865,864,865,Disease Curing,False,1090,filled
+M,Misc: Dust & Stones,,866-867,866,867,Normal,False,206,filled
+M,Misc: Dust & Stones,,868-870,868,870,Sun,False,1406,filled
+M,Misc: Dust & Stones,,871-872,871,872,Trollflower,False,1091,filled
+M,Misc: Dust & Stones,,873-874,873,874,of Wealth,False,1091,filled
+M,Misc: Dust & Stones,,875-877,875,877,of Fire Quenching,False,1122,filled
+M,Misc: Dust & Stones,,878-879,878,879,Sleep,False,547,filled
+M,Misc: Dust & Stones,,880-881,880,881,of Abrasion,False,1126,filled
+M,Misc: Dust & Stones,,882-883,882,883,of Washing,False,1462,filled
+M,Misc: Dust & Stones,,884-886,884,886,Beauregard's Beautiful Bauble,False,1307,filled
+M,Misc: Dust & Stones,,887-888,887,888,Bimbomushi,False,517; 1308,filled
+M,Misc: Dust & Stones,,889-890,889,890,Bloodstone of Fistandantilus,False,1308,filled
+M,Misc: Dust & Stones,,891-893,891,893,Chardalyn,False,1308,filled
+M,Misc: Dust & Stones,,894-895,894,895,of Cold Immunity,False,1309,filled
+M,Misc: Dust & Stones,,896-897,896,897,of Continual Light,False,1477,filled
+M,Misc: Dust & Stones,,898-899,898,899,of Controlling Earth Elementals,False,1309,filled
+M,Misc: Dust & Stones,,900-902,900,902,Coruskian,False,1309,filled
+M,Misc: Dust & Stones,,903-904,903,904,Cursed Well,False,1309,filled
+M,Misc: Dust & Stones,,905-906,905,906,Coruskian,False,1309,filled
+M,Misc: Dust & Stones,,907-909,907,909,of Everburning,False,241,filled
+M,Misc: Dust & Stones,,910-911,910,911,Finder's,False,1310,filled
+M,Misc: Dust & Stones,,912-913,912,913,Glowstone,False,1310,filled
+M,Misc: Dust & Stones,,914-916,914,916,of Good Luck,False,1311,filled
+M,Misc: Dust & Stones,,917-918,917,918,of Gul and Thiondar,False,1311,filled
+M,Misc: Dust & Stones,,919-920,919,920,Honing,False,1313,filled
+M,Misc: Dust & Stones,,921-922,921,922,Myste's of Mixed Luck,False,351,filled
+M,Misc: Dust & Stones,,923-925,923,925,of Mysterious Sounds,False,1313,filled
+M,Misc: Dust & Stones,,926-927,926,927,Nanorion,False,1314,filled
+M,Misc: Dust & Stones,,928-929,928,929,Oval of Tzolo's Guardian,False,1314,filled
+M,Misc: Dust & Stones,,930-932,930,932,Philosopher's,False,1314,filled
+M,Misc: Dust & Stones,,933-934,933,934,Philosopher's II,False,1314,filled
+M,Misc: Dust & Stones,,935-936,935,936,of Sampling,False,1314,filled
+M,Misc: Dust & Stones,,937-938,937,938,of Shielding,False,228,filled
+M,Misc: Dust & Stones,,939-941,939,941,of Silence,False,704; 705,filled
+M,Misc: Dust & Stones,,942-943,942,943,Spongestone,False,1315,filled
+M,Misc: Dust & Stones,,944-945,944,945,Travel,False,1315,filled
+M,Misc: Dust & Stones,,946-948,946,948,Wardstone,False,1318,filled
+M,Misc: Dust & Stones,,949-950,949,950,Warfu,False,1318,filled
+M,Misc: Dust & Stones,,951-952,951,952,of Warmth,False,499,filled
+M,Misc: Dust & Stones,,953-954,953,954,of Weight,False,47,filled
+M,Misc: Dust & Stones,,955-957,955,957,of the Well,False,1528,filled
+M,Misc: Dust & Stones,,958-959,958,959,Tanglefoot,False,319,filled
+M,Misc: Dust & Stones,,960-961,960,961,Tanglevine Root,False,1427,filled
+M,Misc: Dust & Stones,,962-964,962,964,of Accusation,False,1428,filled
+M,Misc: Dust & Stones,,965-966,965,966,of Enticement,False,1428,filled
+M,Misc: Dust & Stones,,967-968,967,968,of a Summer's Day,False,1428,filled
+M,Misc: Dust & Stones,,969-970,969,970,Thorn of Sleep,False,1431,filled
+M,Misc: Dust & Stones,,971-973,971,973,of Dahlver-nar,False,1446,filled
+M,Misc: Dust & Stones,,974-975,974,975,Dragon,False,1448,filled
+M,Misc: Dust & Stones,,976-977,976,977,Sweet,False,892,filled
+M,Misc: Dust & Stones,,978-980,978,980,of Careful Hearing,False,1505,filled
+M,Misc: Dust & Stones,,981-982,981,982,Ceiling,False,1505,filled
+M,Misc: Dust & Stones,,983-984,983,984,of Fabrication,False,1505,filled
+M,Misc: Dust & Stones,,985-986,985,986,of Hearing,False,573,filled
+M,Misc: Dust & Stones,,987-989,987,989,Sealing,False,1506,filled
+M,Misc: Dust & Stones,,990-991,990,991,of Waning,False,1505,filled
+M,Misc: Dust & Stones,,992-993,992,993,Rapture,False,736,filled
+M,Misc: Dust & Stones,,994-996,994,996,of the Witch,False,1497,filled
+M,Misc: Dust & Stones,,997-1000,997,1000,Zwieback of Zymurgy,False,1564,filled

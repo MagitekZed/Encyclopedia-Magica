@@ -1,0 +1,212 @@
+table,category,subcategory,roll_display,roll_low,roll_high,name,reroll,page,page_status
+O,Misc: Music Instruments,,1-4,1,4,Enchanted Enhancements,True,21,filled
+O,Misc: Music Instruments,,5-9,5,9,Eartrumpet,False,428,filled
+O,Misc: Music Instruments,,10-14,10,14,Larynx of Deafening,False,650,filled
+O,Misc: Music Instruments,,15-18,15,18,Bell of Alarm,False,815,filled
+O,Misc: Music Instruments,,19-23,19,23,Bell of the Ball,False,150,filled
+O,Misc: Music Instruments,,24-28,24,28,Bell of Calling,False,349,filled
+O,Misc: Music Instruments,,29-33,29,33,Choir Bell,False,814,filled
+O,Misc: Music Instruments,,34-37,34,37,Church Bell,False,815,filled
+O,Misc: Music Instruments,,38-42,38,42,Cow Bell,False,815,filled
+O,Misc: Music Instruments,,43-47,43,47,Bell of Discord,False,815,filled
+O,Misc: Music Instruments,,48-52,48,52,Bell of Doom,False,212,filled
+O,Misc: Music Instruments,,53-56,53,56,Bell of Freedom,False,815,filled
+O,Misc: Music Instruments,,57-61,57,61,Golden Bell of Blasting,False,1303,filled
+O,Misc: Music Instruments,,62-66,62,66,Bell of Lament,False,815,filled
+O,Misc: Music Instruments,,67-70,67,70,Pavlov's Bell,False,815,filled
+O,Misc: Music Instruments,,71-75,71,75,Bell of Protection,False,439,filled
+O,Misc: Music Instruments,,76-80,76,80,Bell of Ringing,False,815,filled
+O,Misc: Music Instruments,,81-85,81,85,Bell of Treachery,False,815,filled
+O,Misc: Music Instruments,,86-89,86,89,Bell of Warning,False,815,filled
+O,Misc: Music Instruments,,90-94,90,94,Bell of Warning II,False,815,filled
+O,Misc: Music Instruments,,95-99,95,99,Alexander's Chime of Opening,False,816,filled
+O,Misc: Music Instruments,,100-104,100,104,Featherchime,False,816,filled
+O,Misc: Music Instruments,,105-108,105,108,Chime of Hunger,False,818,filled
+O,Misc: Music Instruments,,109-113,109,113,Chime of Interruption,False,818,filled
+O,Misc: Music Instruments,,114-118,114,118,Chime of Opening,False,818,filled
+O,Misc: Music Instruments,,119-122,119,122,Sebastian's Chime of Opening,False,817,filled
+O,Misc: Music Instruments,,123-127,123,127,Chime of Time,False,1252,filled
+O,Misc: Music Instruments,,128-132,128,132,Chime of Visitors,False,818,filled
+O,Misc: Music Instruments,,133-137,133,137,Chime of Warning,False,210,filled
+O,Misc: Music Instruments,,138-141,138,141,Cymbal of Crashing,False,818,filled
+O,Misc: Music Instruments,,142-146,142,146,Cymbal of Symbols,False,818,filled
+O,Misc: Music Instruments,,147-151,147,151,Bass Drum,False,818,filled
+O,Misc: Music Instruments,,152-156,152,156,Drum of Deafening,False,819,filled
+O,Misc: Music Instruments,,157-160,157,160,Lei Kung's Drum,False,819,filled
+O,Misc: Music Instruments,,161-165,161,165,Drum of Menace,False,819,filled
+O,Misc: Music Instruments,,166-170,166,170,Native Drum,False,819,filled
+O,Misc: Music Instruments,,171-175,171,175,Drum of Panic,False,819,filled
+O,Misc: Music Instruments,,176-179,176,179,Drum of Silence,False,704; 705,filled
+O,Misc: Music Instruments,,180-184,180,184,Snare Drum,False,820,filled
+O,Misc: Music Instruments,,185-189,185,189,Tabele,False,820,filled
+O,Misc: Music Instruments,,190-193,190,193,Drum of Thunder,False,820,filled
+O,Misc: Music Instruments,,194-198,194,198,Dughal's Percussion Instrument,False,811,filled
+O,Misc: Music Instruments,,199-203,199,203,Butler Summoning Gong,False,821,filled
+O,Misc: Music Instruments,,204-208,204,208,Chain Gong,False,1350,filled
+O,Misc: Music Instruments,,209-212,209,212,Gong of Disabling,False,821,filled
+O,Misc: Music Instruments,,213-217,213,217,Gong of Earthquakes,False,821,filled
+O,Misc: Music Instruments,,218-222,218,222,Gong of Fishing,False,821,filled
+O,Misc: Music Instruments,,223-227,223,227,Ricking Gong,False,822,filled
+O,Misc: Music Instruments,,228-231,228,231,Gong of Stunning,False,822,filled
+O,Misc: Music Instruments,,232-236,232,236,Gong of Summoning,False,822,filled
+O,Misc: Music Instruments,,237-241,237,241,Gong of the Whirlwind,False,822,filled
+O,Misc: Music Instruments,,242-245,242,245,Gong of Travel,False,1315,filled
+O,Misc: Music Instruments,,246-250,246,250,Rattle of Death,False,1478,filled
+O,Misc: Music Instruments,,251-255,251,255,Rattle of Exorcism,False,823,filled
+O,Misc: Music Instruments,,256-260,256,260,Rattle of Shaking and Rolling,False,823,filled
+O,Misc: Music Instruments,,261-264,261,264,Rattle of Summoning,False,823,filled
+O,Misc: Music Instruments,,265-269,265,269,Rattle of Youth,False,823,filled
+O,Misc: Music Instruments,,270-274,270,274,Riqq of the Efreet,False,1132,filled
+O,Misc: Music Instruments,,275-279,275,279,Fochlucan Bandore,False,1320,filled
+O,Misc: Music Instruments,,280-283,280,283,Biwa of Calling,False,349,filled
+O,Misc: Music Instruments,,284-288,284,288,Biwa of Charming,False,1321,filled
+O,Misc: Music Instruments,,289-293,289,293,Biwa of Discord,False,815,filled
+O,Misc: Music Instruments,,294-297,294,297,MacFuirmidh Cittern,False,1321,filled
+O,Misc: Music Instruments,,298-302,298,302,Dughal's Musical Instrument,False,820; 1320; 1538,filled
+O,Misc: Music Instruments,,303-307,303,307,Anzuhem Harp,False,1323; 1326,filled
+O,Misc: Music Instruments,,308-312,308,312,Azler's Harp,False,1322,filled
+O,Misc: Music Instruments,,313-316,313,316,Bragi's Harp,False,1322,filled
+O,Misc: Music Instruments,,317-321,317,321,Bragi's Harp of Calm,False,1322,filled
+O,Misc: Music Instruments,,322-326,322,326,Broken Harp,False,1322,filled
+O,Misc: Music Instruments,,327-331,327,331,Harp of Charming,False,86,filled
+O,Misc: Music Instruments,,332-335,332,335,Harp of Charming II,False,86,filled
+O,Misc: Music Instruments,,336-340,336,340,Harp of Charming III,False,86,filled
+O,Misc: Music Instruments,,341-345,341,345,Damh's Harp,False,1323; 1326,filled
+O,Misc: Music Instruments,,346-350,346,350,Defender's Harp,False,1323,filled
+O,Misc: Music Instruments,,351-354,351,354,Harp of Discord,False,1323; 1326,filled
+O,Misc: Music Instruments,,355-359,355,359,Dove's Harp,False,1323,filled
+O,Misc: Music Instruments,,360-364,360,364,Esheen's Harp,False,1323,filled
+O,Misc: Music Instruments,,365-368,365,368,Harp of Fingerbreaking,False,1323; 1326,filled
+O,Misc: Music Instruments,,369-373,369,373,Fochlucan Harp,False,1324,filled
+O,Misc: Music Instruments,,374-378,374,378,Harp of Gold,False,1323; 1326,filled
+O,Misc: Music Instruments,,379-383,379,383,Handharp,False,1324,filled
+O,Misc: Music Instruments,,384-387,384,387,Harp of Healing,False,780,filled
+O,Misc: Music Instruments,,388-392,388,392,Jhantra's Harp,False,1326,filled
+O,Misc: Music Instruments,,393-397,393,397,MacFuirmidh Harp,False,1326,filled
+O,Misc: Music Instruments,,398-402,398,402,Marks Harp,False,1326,filled
+O,Misc: Music Instruments,,403-406,403,406,Methild's Harp,False,1326; 1328,filled
+O,Misc: Music Instruments,,407-411,407,411,Murlyn's Harp of Charming,False,1326,filled
+O,Misc: Music Instruments,,412-416,412,416,Nithanalor's Harp,False,1326,filled
+O,Misc: Music Instruments,,417-420,417,420,Ollamh Harp,False,592,filled
+O,Misc: Music Instruments,,421-425,421,425,Questing Harp,False,1327,filled
+O,Misc: Music Instruments,,426-430,426,430,Rhingalade's Harp,False,1327,filled
+O,Misc: Music Instruments,,431-435,431,435,Harp of Spirit Restoration,False,910,filled
+O,Misc: Music Instruments,,436-439,436,439,Storm's Harp of Methild,False,1328,filled
+O,Misc: Music Instruments,,440-444,440,444,Throbbing Harp,False,1323; 1326,filled
+O,Misc: Music Instruments,,445-449,445,449,Valarde's Harp,False,1328,filled
+O,Misc: Music Instruments,,450-454,450,454,Zunzalor's Harp,False,1328,filled
+O,Misc: Music Instruments,,455-458,455,458,Lyron's Harpsichord of Commanding,False,1328,filled
+O,Misc: Music Instruments,,459-463,459,463,Building Liar,False,1024,filled
+O,Misc: Music Instruments,,464-468,464,468,Cool Hand Lute,False,1328,filled
+O,Misc: Music Instruments,,469-473,469,473,Doss Lute,False,1329,filled
+O,Misc: Music Instruments,,474-477,474,477,Lute of Loot,False,1329,filled
+O,Misc: Music Instruments,,478-482,478,482,Singalong Lute,False,1329,filled
+O,Misc: Music Instruments,,483-487,483,487,Skywalker Lute,False,1329,filled
+O,Misc: Music Instruments,,488-491,488,491,Woodwalking Lute,False,1329,filled
+O,Misc: Music Instruments,,492-496,492,496,Building Lyre,False,1329,filled
+O,Misc: Music Instruments,,497-501,497,501,Canaith Lyre,False,1330,filled
+O,Misc: Music Instruments,,502-506,502,506,Cli Lyre,False,1330,filled
+O,Misc: Music Instruments,,507-510,507,510,Dorus's Lyre,False,1330,filled
+O,Misc: Music Instruments,,511-515,511,515,Doss Lyre,False,1330,filled
+O,Misc: Music Instruments,,516-520,516,520,Fu Hsing's Lyre,False,1331,filled
+O,Misc: Music Instruments,,521-525,521,525,Loquacious Lyre,False,1331,filled
+O,Misc: Music Instruments,,526-529,526,529,Lyre of the Spheres,False,1331,filled
+O,Misc: Music Instruments,,530-534,530,534,Lyre of Wounding,False,1331,filled
+O,Misc: Music Instruments,,535-539,535,539,Canaith Mandolin,False,1331,filled
+O,Misc: Music Instruments,,540-543,540,543,Cli Mandolin,False,1332,filled
+O,Misc: Music Instruments,,544-548,544,548,Pick of Propitiousness,False,1332,filled
+O,Misc: Music Instruments,,549-553,549,553,Pick of Strumming,False,1332,filled
+O,Misc: Music Instruments,,554-558,554,558,Qanum of Quiet,False,1332,filled
+O,Misc: Music Instruments,,559-562,559,562,Qanum of the Spirits,False,1332,filled
+O,Misc: Music Instruments,,563-567,563,567,Rababah of the Dao,False,1333,filled
+O,Misc: Music Instruments,,568-572,568,572,'Ud of the Marids,False,1333,filled
+O,Misc: Music Instruments,,573-577,573,577,Extreme Violin,False,1333,filled
+O,Misc: Music Instruments,,578-581,578,581,Game Violin,False,1333,filled
+O,Misc: Music Instruments,,582-586,582,586,Saxon Violin,False,1334,filled
+O,Misc: Music Instruments,,587-591,587,591,Unnecessary Violin,False,1334,filled
+O,Misc: Music Instruments,,592-595,592,595,Violin Rack,False,1334,filled
+O,Misc: Music Instruments,,596-600,596,600,Zither of Speed,False,210,filled
+O,Misc: Music Instruments,,601-605,601,605,Zither of Zombie Control,False,1453,filled
+O,Misc: Music Instruments,,606-610,606,610,Zither of Zombie Protection,False,1009,filled
+O,Misc: Music Instruments,,611-614,611,614,Takht of the Jann,False,1418,filled
+O,Misc: Music Instruments,,615-619,615,619,Airolis's Shining Horn,False,1545,filled
+O,Misc: Music Instruments,,620-624,620,624,Amplification Horn,False,1543,filled
+O,Misc: Music Instruments,,625-629,625,629,Animal Attraction Pipe,False,85,filled
+O,Misc: Music Instruments,,630-633,630,633,Animal Calls Horn,False,1545,filled
+O,Misc: Music Instruments,,634-638,634,638,Axewood Whistle,False,1557,filled
+O,Misc: Music Instruments,,639-643,639,643,Azure Sea Horn,False,1543,filled
+O,Misc: Music Instruments,,644-648,644,648,Barrier Peaks Horn,False,1543,filled
+O,Misc: Music Instruments,,649-652,649,652,Baubles Horn,False,1544,filled
+O,Misc: Music Instruments,,653-657,653,657,Black Ivory Horn,False,1545,filled
+O,Misc: Music Instruments,,658-662,658,662,Blasting Horn,False,1545,filled
+O,Misc: Music Instruments,,663-666,663,666,Bone Flute,False,1476,filled
+O,Misc: Music Instruments,,667-671,667,671,Bubbles Horn,False,1544,filled
+O,Misc: Music Instruments,,672-676,672,676,Collapsing Horn,False,1545,filled
+O,Misc: Music Instruments,,677-681,677,681,Command Horn,False,1545,filled
+O,Misc: Music Instruments,,682-685,682,685,Confusion Bagpipes,False,1536,filled
+O,Misc: Music Instruments,,686-690,686,690,Copper Pipes,False,321,filled
+O,Misc: Music Instruments,,691-695,691,695,Courage Flute,False,1539,filled
+O,Misc: Music Instruments,,696-700,696,700,Cymboli's Pipes of Sounding,False,1536,filled
+O,Misc: Music Instruments,,701-704,701,704,Damh's Flute,False,1323,filled
+O,Misc: Music Instruments,,705-709,705,709,Damh's Pipes,False,1323,filled
+O,Misc: Music Instruments,,710-714,710,714,Danger Flute,False,1541,filled
+O,Misc: Music Instruments,,715-718,715,718,Deafness Whistle,False,1557,filled
+O,Misc: Music Instruments,,719-723,719,723,Death's Head Horn,False,1545,filled
+O,Misc: Music Instruments,,724-728,724,728,Dismissing Flute,False,,unmatched
+O,Misc: Music Instruments,,729-733,729,733,Djinn Nay,False,1539,filled
+O,Misc: Music Instruments,,734-737,734,737,Dolphins Horn,False,1545,filled
+O,Misc: Music Instruments,,738-742,738,742,Doom Pipes,False,212,filled
+O,Misc: Music Instruments,,743-747,743,747,Doom Trumpet,False,212,filled
+O,Misc: Music Instruments,,748-752,748,752,Dragon Whistle,False,1448,filled
+O,Misc: Music Instruments,,753-756,753,756,Droning Bagpipes,False,1537,filled
+O,Misc: Music Instruments,,757-761,757,761,Dughal's Bagpipes of Fear,False,1537,filled
+O,Misc: Music Instruments,,762-766,762,766,Dugal's Musical Instrument,False,820; 1320; 1538,filled
+O,Misc: Music Instruments,,767-770,767,770,Faerie Flute,False,1539,filled
+O,Misc: Music Instruments,,771-775,771,775,Fear Bagpipes,False,1480,filled
+O,Misc: Music Instruments,,776-780,776,780,Feline Attraction Bagpipes,False,1537,filled
+O,Misc: Music Instruments,,781-785,781,785,Fog Horn,False,1545,filled
+O,Misc: Music Instruments,,786-789,786,789,Fog Horn II,False,1545,filled
+O,Misc: Music Instruments,,790-794,790,794,Gas Pipes,False,1555,filled
+O,Misc: Music Instruments,,795-799,795,799,Gateway Whistle,False,1558,filled
+O,Misc: Music Instruments,,800-804,800,804,Gjaller,False,1546,filled
+O,Misc: Music Instruments,,805-808,805,808,Goodness/Evil Horn,False,1546,filled
+O,Misc: Music Instruments,,809-813,809,813,Hard Hearts Horn,False,1546,filled
+O,Misc: Music Instruments,,814-818,814,818,Haunting Pipes,False,1554,filled
+O,Misc: Music Instruments,,819-823,819,823,Headaches Bagpipes,False,1538,filled
+O,Misc: Music Instruments,,824-827,824,827,Herding Whistle,False,1558,filled
+O,Misc: Music Instruments,,828-832,828,832,Horn of the Gray Waste,False,1545,filled
+O,Misc: Music Instruments,,833-837,833,837,Kantele,False,1552,filled
+O,Misc: Music Instruments,,838-841,838,841,Luck Flute,False,351,filled
+O,Misc: Music Instruments,,842-846,842,846,Pain Pipes,False,1555,filled
+O,Misc: Music Instruments,,847-851,847,851,Pan Pipes,False,1555,filled
+O,Misc: Music Instruments,,852-856,852,856,Panic Pipes,False,1555,filled
+O,Misc: Music Instruments,,857-860,857,860,Peace Shakuhaci,False,,unmatched
+O,Misc: Music Instruments,,861-865,861,865,Playing Flute,False,1542,filled
+O,Misc: Music Instruments,,866-870,866,870,Plenty Horn,False,269,filled
+O,Misc: Music Instruments,,871-875,871,875,Rat Whistle,False,1558,filled
+O,Misc: Music Instruments,,876-879,876,879,Recording Recorder,False,1556,filled
+O,Misc: Music Instruments,,880-884,880,884,Reviving Bugle,False,1538,filled
+O,Misc: Music Instruments,,885-889,885,889,Sacred Grove Horn,False,1546,filled
+O,Misc: Music Instruments,,890-893,890,893,September Horn,False,1547,filled
+O,Misc: Music Instruments,,894-898,894,898,Sewer Pipes,False,1555,filled
+O,Misc: Music Instruments,,899-903,899,903,Sewer Pipes II,False,1555,filled
+O,Misc: Music Instruments,,904-908,904,908,Shattering Bagpipes,False,1538,filled
+O,Misc: Music Instruments,,909-912,909,912,Shoo Horn,False,1547,filled
+O,Misc: Music Instruments,,913-917,913,917,Signaling Horn,False,1545,filled
+O,Misc: Music Instruments,,918-922,918,922,Silver Flute,False,277,filled
+O,Misc: Music Instruments,,923-927,923,927,Sleeping Bugle,False,1538,filled
+O,Misc: Music Instruments,,928-931,928,931,Sounding Pipes,False,1555,filled
+O,Misc: Music Instruments,,932-936,932,936,Speaking Pipes,False,375,filled
+O,Misc: Music Instruments,,937-941,937,941,Stopping Whistle,False,1558,filled
+O,Misc: Music Instruments,,942-946,942,946,Summoning Whistle,False,822,filled
+O,Misc: Music Instruments,,947-950,947,950,Training Whistle,False,1558,filled
+O,Misc: Music Instruments,,951-955,951,955,Tritons' Horn,False,1547,filled
+O,Misc: Music Instruments,,956-960,956,960,Uncontrollable Striding Horn,False,1545,filled
+O,Misc: Music Instruments,,961-964,961,964,Valhalla Horn,False,1548,filled
+O,Misc: Music Instruments,,965-969,965,969,Valor Horn,False,1545,filled
+O,Misc: Music Instruments,,970-974,970,974,Vast Swamp Horn,False,1549,filled
+O,Misc: Music Instruments,,975-979,975,979,Voices Horn,False,1549,filled
+O,Misc: Music Instruments,,980-983,980,983,Waking Bugle,False,1538,filled
+O,Misc: Music Instruments,,984-988,984,988,War Horn,False,1545,filled
+O,Misc: Music Instruments,,989-993,989,993,Water Pipes,False,1555,filled
+O,Misc: Music Instruments,,994-1000,994,1000,Wind Dancing Flute,False,1541,filled
