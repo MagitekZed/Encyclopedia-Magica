@@ -1,0 +1,751 @@
+table,roll,name,type,old_page,new_page
+A,100-101,Bergamot's,Oils,899,765
+A,127-128,Cleo May,Oils,900,766
+A,129-130,of Cloaking,Oils,575,766
+A,131-132,of Commanding,Oils,480,766
+A,157-158,Doas Isay's,Oils,902,767
+A,159-160,Double Cross,Oils,902,768
+A,161,of Dragon's Blood,Oils,902,768
+A,162-163,of Dream,Oils,902,768
+A,166-167,of Elasticity,Oils,"[865, 866]",768
+A,170-171,of Enchantment,Oils,1512,768
+A,175-176,of Etherealness,Oils,"[74, 82]",768
+A,179-180,of Eve,Oils,903,769
+A,181-182,of the Evil Eye,Oils,360,769
+A,188-189,of Feather Falling,Oils,195,769
+A,194-195,Five Finger Grass,Oils,903,770
+A,203-204,Getaway's,Oils,903,770
+A,205-206,Grape,Oils,903,770
+A,212-213,of High John the Conqueror,Oils,904,771
+A,216-217,Honeysuckle,Oils,904,771
+A,219-220,Hypnotic,Oils,904,771
+A,229-230,of Invulnerability,Oils,755,771
+A,238-239,of Jinx Removing,Oils,905,772
+A,245-246,of Life,Oils,905,772
+A,247-248,of Lighting,Oils,374,772
+A,251-252,Lily of the Valley,Oils,905,773
+A,262-263,of Mercury,Oils,905,773
+A,269-270,Moon,Oils,"[380, 390]",774
+A,277,of New life,Oils,906,774
+A,280-281,Obeah,Oils,906,774
+A,289-290,of Petrification,Oils,654,775
+A,297-298,of Power,Oils,907,776
+A,299,of Preservation,Oils,216,776
+A,304-305,of Reversibility,Oils,909,776
+A,308-309,Rosemary,Oils,909,776
+A,310,Rue,Oils,909,776
+A,312,Sandalwood,Oils,909,776
+A,323,Snake,Oils,910,777
+A,324-325,Solomon's,Oils,910,777
+A,326-327,Spikenard,Oils,910,777
+A,328-329,Spirit,Oils,706,778
+A,335-336,of Time,Oils,1252,778
+A,339-340,Trinity,Oils,910,778
+A,341-342,of Unlocking,Oils,633,779
+A,346-347,Virgin Olive,Oils,910,779
+A,348-349,of Vision,Oils,252,779
+A,350-351,of Voodoo,Oils,911,779
+A,354-355,Wintergreen,Oils,911,779
+A,356,of Wishing,Oils,1527,779
+A,357-358,Witch's,Oils,1497,779
+A,389-390,of Flying,Ointments,1513,780
+A,391,of Healing,Ointments,1324,780
+A,398-399,Poison,Ointments,151,781
+A,400-401,of Recovery,Ointments,1082,781
+A,427-428,of Drunkenness,Philters,865,828
+A,442-443,Quirks*,Philters,443,829
+A,464-465,of Absorption,Potions,1093,853
+A,481-482,of Animal Control,Potions,947,855
+A,494,of Blending,Potions,838,856
+A,495-496,of Blindness,Potions,229,856
+A,501-502,of Chameleon Power,Potions,952,857
+A,505-506,of Clairaudience,Potions,953,857
+A,507,of Clairvoyance,Potions,1510,857
+A,516-517,of Climbing,Potions,1043,857
+A,521-522,of Confusion,Potions,901,858
+A,538-539,of Deafness,Potions,1557,860
+A,540,of Defense,Potions,241,860
+A,551-552,of Delusion,Potions,519,860
+A,562-563,of Dragon Breath,Potions,431,864
+A,628-629,of Enlightenment,Potions,727,866
+A,630-631,of ESP,Potions,1512,867
+A,632,of Ethereality,Potions,74,867
+A,633-636,of Explosions,Potions,89,867
+A,643-644,of Fire Resistance,Potions,1053,868
+A,648-649,of Flying,Potions,1513,868
+A,652-653,of Forgetfulness,Potions,420,869
+A,659-660,of Freedom,Potions,815,869
+A,665-666,of Frost Resistance,Potions,351,869
+A,67-68,African Ju Ju,Oils,899,763
+A,692-693,of Healing,Potions,1324,872
+A,70-71,Allspice,Oils,899,763
+A,700-701,of Human Control,Potions,970,872
+A,707-708,of Infravision,Potions,455,873
+A,729-730,of Levitation,Potions,483,874
+A,742-743,of Luck,Potions,351,877
+A,744-745,of Lycanthropy,Potions,1115,877
+A,753-754,of Magic Resistance,Potions,36,878
+A,759,of Magnetism,Potions,1211,878
+A,78-79,Anise,Oils,899,764
+A,783,of Neutralization,Potions,983,880
+A,799-800,of Petrification,Potions,654,881
+A,803-804,of Plant Control,Potions,985,882
+A,843-844,Quirks,Potions,443,885
+A,85-86,of Armor,Oils,69,764
+A,852-853,of Regeneration,Potions,993,887
+A,871-872,of Scrying,Potions,777,888
+A,873-874,of Seeing,Potions,528,888
+A,876-877,of Shadow,Potions,255,888
+A,880-881,of Sight,Potions,979,888
+A,882-883,Singing,Potions,1117,889
+A,89-90,Attraction,Oils,154,764
+A,900-901,of Speed,Potions,210,890
+A,921,of Sustenance,Potions,1002,892
+A,924-925,of Swimming,Potions,"[953, 1002]",892
+A,933-934,of Tongues,Potions,1004,893
+A,946-947,of the Undead,Potions,83,895
+A,955-956,of Venom,Potions,"[366, 371, 1375]",896
+A,96-97,of Beauty,Oils,828,765
+A,967,of Water Breathing,Potions,753,897
+A,974-975,of Wizardry,Potions,"[952, 1007]",897
+A,983-984,of Far Seeing,Salves,654,1052
+A,985-986,of Healing,Salves,1324,1052
+A,987-988,of Scar Removal,Salves,781,1052
+A,994-995,Blessed,Water,841,1505
+A,996-997,Golden,Water,1303,1505
+B,101-110,of Communication,Scrolls,29,1071
+B,191-200,of the Efreeti,Scrolls,199,1073
+B,271-280,Glyph,Scrolls,1178,1074
+B,291-300,of Illumination,Scrolls,1483,1075
+B,351-360,of Portals,Scrolls,732,1076
+B,721-730,Quirks,Scrolls,443,1081
+B,741-750,of Repetition,Scrolls,1014,1082
+B,791-800,of Seeing,Scrolls,528,1083
+B,821-830,of Shelter,Scrolls,1431,1083
+B,941-950,of Trapping,Scrolls,201,1085
+B,951-960,of Truth,Scrolls,893,1086
+D,137-151,of Beguiling,Rods,742,1023
+D,213-227,of Climbing,Rods,1043,1024
+D,470-484,of Health,Rods,969,1028
+D,76-90,of Absorption,Rods,1093,1021
+E,15-21,of Armament,Canes,1431,247
+E,22-28,of Blindness,Canes,1149,247
+E,29-35,of Detection,Canes,1511,247
+E,36-43,of Stiffness,Canes,1431,248
+E,633-639,Oberon's,Staves,1386,1288
+E,777-783,of the Sea,Staves,1083,1292
+E,8-14,of Age,Canes,1154,247
+G,186-189,of Thoth,Librams,1298,668
+G,190-192,of Translation,Librams,633,668
+G,215-218,of Distortion,Maps,"[1023, 1025]",690
+G,219-222,of Illusions,Maps,"[377, 378]",692
+G,230-233,of Magic,Maps,741,692
+G,244-247,of Mapping,Maps,1075,693
+G,277-280,of Traps,Maps,1080,695
+G,30-32,of the Planes,Books,38,189
+G,41-43,of Twelve Seals,Books,669,192
+G,62-65,Codex of the Infinite Planes,Librams,660,659
+G,84-87,of Golems,Librams,188,662
+G,849-851,Book of Time,Spellbooks,189,1252
+G,860-862,Transcendental Impenetrabilities,Spellbooks,1253,1252
+G,870-873,Unique Mageries,Spellbooks,1255,1259
+G,918-920,of Clear Thought,Tomes,953,1439
+G,987-991,of Understanding,Tomes,428,1444
+H,10-11,of Arachnid Control,Amulets,949,28
+H,157-158,of Life,Ankhs,905,47
+H,169-170,of Power,Ankhs,907,48
+H,181-182,Copper,Bracelets,321,217
+H,185-186,Equus,Bracelets,48,217
+H,202-203,Equus,Brooches,48,225
+H,204-205,of Falling,Brooches,652,226
+H,22-23,of Charming,Amulets,1321,29
+H,220-221,of Appearance,Cameos,948,235
+H,222-223,Equus,Cameos,48,235
+H,234-235,Luck,Charms,351,282
+H,238-239,of Pest Protection,Charms,1058,282
+H,24-25,of Charming,Amulets,1321,29
+H,249-250,of Resource,Charms,367,283
+H,259-260,of Blackmoor,Crowns,836,332
+H,263-264,Dark,Crowns,481,333
+H,273-274,of Leadership,Crowns,1030,334
+H,281-282,of Rulership,Crowns,1037,336
+H,293-294,of Stars,Crowns,1016,338
+H,295,of the Stars,Crowns,1016,339
+H,298-299,of the Unicorns,Crowns,1259,339
+H,322-323,of Defense,Earrings,241,425
+H,324-325,Equus,Earrings,48,425
+H,326-327,of Paralysis,Earrings,1131,426
+H,328-329,of Protection,Earrings,1009,426
+H,330-331,of the Sea,Earrings,1083,426
+H,338-339,of Accuracy,Eyes,176,451
+H,351-352,of Charming,Eyes,1321,453
+H,363-364,of Leviathan,Eyes,456,455
+H,367-368,Magical,Eyes,1284,457
+H,375-376,of Night,Eyes,704,458
+H,38-39,of Elemental Command,Amulets,960,31
+H,398-399,of Atonement,Gems,751,517
+H,400-401,Bimbomushi,Gems,1308,517
+H,418-419,of Curing,Gems,751,519
+H,445-446,Fire,Gems,1481,521
+H,473-474,Karma,Gems,751,524
+H,475-476,of Life,Gems,905,524
+H,485-486,of Protection,Gems,1009,527
+H,496-497,of Shielding,Gems,228,528
+H,506-507,of Wishes,Gems,219,530
+H,571-572,Book,Leaves,189,650
+H,577-578,Enchanted,Leaves,21,652
+H,592-593,of Warmth,Leaves,499,653
+H,596-597,of Blinding,Lenses,86,653
+H,598-599,of Charming,Lenses,1321,653
+H,600-601,of Detection,Lenses,275,654
+H,602-603,of the Eagle,Lenses,959,654
+H,610-611,of Lighting,Lenses,374,654
+H,612-613,of Minute Seeing,Lenses,458,654
+H,622-623,of Seeing,Lenses,528,655
+H,628-629,of Transformation,Lenses,1435,656
+H,641-642,of Defense,Medallions,241,710
+H,645-646,Equus,Medallions,48,710
+H,647-648,of ESP,Medallions,1512,711
+H,659-660,of the Mirror,Medallions,734,713
+H,665-666,of Projection,Medallions,987,713
+H,681-682,of Time,Medallions,1252,715
+H,690-691,of Adaptation,Necklaces,1507,746
+H,718-719,of Missiles,Necklaces,1100,750
+H,736,Snake,Necklaces,910,752
+H,737-738,of Strangling,Necklaces,326,752
+H,743-744,of Ugliness,Necklaces,895,752
+H,745-746,Vergadain's,Necklaces,1412,753
+H,749-750,Black,Pearls,675,804
+H,751-752,Dragon,Pearls,1448,804
+H,755-756,of Entrancement,Pearls,267,805
+H,757-758,of Flying,Pearls,1513,805
+H,761-762,Gold,Pearls,1324,805
+H,837-838,Equus,Scarabs,48,1056
+H,841-842,of Insanity,Scarabs,1377,1057
+H,843-844,of Life,Scarabs,905,1057
+H,853-854,of Protection,Scarabs,1009,1058
+H,861-862,of Venom,Scarabs,"[366, 371, 1375]",1059
+H,865-866,of Defense,Scepters,241,1060
+H,867-868,of Entrapment,Scepters,234,1062
+H,875-876,of Life,Scepters,905,1063
+H,877-878,of Light,Scepters,374,1063
+H,881-882,of Power,Scepters,907,1064
+H,883,of Truth,Scepters,893,1066
+H,924-925,of Dreams,Talismans,1528,1421
+H,928-929,of the Faerie,Talismans,962,1422
+H,930-931,Fiend,Talismans,32,1422
+H,945-946,of the Griffon,Talismans,550,1423
+H,969-970,of the Sphere,Talismans,1270,1425
+H,977-978,of Tongues,Talismans,1004,1426
+H,984-985,of Craftsmanship,Torcs,859,1451
+H,988-989,of the Gods,Torcs,1439,1452
+I,116-121,of Blackflame,Cloaks,357,297
+I,153-158,of Comfort,Cloaks,173,299
+I,165-170,Displacer,Cloaks,408,299
+I,171-176,of Displacement,Cloaks,1009,299
+I,244-249,Elven,Cloaks,74,300
+I,262-267,of Etherealness,Cloaks,"[74, 82]",301
+I,299-304,of Healing,Cloaks,1324,303
+I,372-377,Midnight Slasher's,Cloaks,195,306
+I,396-401,of Plenty,Cloaks,269,307
+I,409-414,of Protection,Cloaks,1009,307
+I,415-420,of Reflection,Cloaks,886,307
+I,439-444,of the Shield,Cloaks,1093,309
+I,463-468,of Strength,Cloaks,891,310
+I,476-481,of Survival,Cloaks,1002,310
+I,500-505,of Warmth,Cloaks,499,311
+I,61-66,of Appearance,Cloaks,948,295
+I,719-724,of Eyes,Robes,755,1010
+I,731-736,of Holding,Robes,1514,1011
+I,786-791,of Protection,Robes,1009,1014
+I,798-803,Rock,Robes,"[1019, 1020]",1015
+I,829-834,Stone,Robes,356,1016
+I,86-91,Baravar Cloakshadow's,Cloaks,357,296
+I,865-870,of Vanishing,Robes,139,1018
+I,884-889,of Warmth,Robes,499,1018
+I,896-901,Yama's,Robes,371,1018
+I,98-103,Battle,Cloaks,1273,297
+J,136-141,of Attraction,Boots,154,193
+J,142-147,of Balance,Boots,381,193
+J,148-152,of Carrying,Boots,234,193
+J,153-158,of Cleanliness,Boots,312,193
+J,165-170,of Comfort,Boots,173,193
+J,183-188,of Dancing,Boots,465,194
+J,195-199,Elven,Boots,74,194
+J,206-211,of Elvenkind,Boots,300,194
+J,242-246,of Levitation,Boots,483,195
+J,265-270,of the North,Boots,1344,196
+J,289-294,of Speed,Boots,210,196
+J,336-341,Winged,Boots,559,198
+J,347-352,of Attraction,Bracers,154,220
+J,353-358,of Blasting,Bracers,231,220
+J,377-382,of Cleanliness,Bracers,312,221
+J,383-388,of Defense,Bracers,241,221
+J,400-405,of Invulnerability,Bracers,755,221
+J,477-482,of Disguise,Collars,253,325
+J,483-488,of Protection,Collars,1009,326
+J,53-58,of Death,Armbands,1478,65
+J,530-535,of Dexterity,Gauntlets,767,503
+J,541-546,of Entrapment,Gauntlets,234,504
+J,559-564,of Fumbling,Gauntlets,770,504
+J,583-588,of Holding,Gauntlets,1514,506
+J,59-64,of Healing,Armbands,1324,65
+J,624-629,of Proficiency,Gauntlets,1332,507
+J,636-640,of Specialization,Gauntlets,1522,507
+J,641-646,of Sticking,Gauntlets,1467,507
+J,753-758,Golden,Gloves,1303,543
+J,77-82,of Strength,Armbands,891,66
+J,771-776,of Lightning,Gloves,633,543
+J,800-805,of Thievery,Gloves,892,545
+J,918-923,of Dancing,Slippers,465,1121
+J,924-929,Dragon,Slippers,1448,1121
+J,941-946,Glass,Slippers,164,1121
+K,111-116,of Armor,Buckles,69,230
+K,134-139,of Protection,Buckles,1009,231
+K,140-145,of Weaponry,Buckles,595,231
+K,146-151,of the Beguiler,Caps,297,250
+K,163-168,of Evil,Caps,944,250
+K,192-197,of Sleep,Caps,547,251
+K,198-203,of Teleportation,Caps,412,252
+K,297-302,of Freshness,Girdles,1482,533
+K,308-313,of Giant Strength,Girdles,871,534
+K,326-331,of the Lions,Girdles,478,535
+K,343,of Command,Hats,1275,569
+K,361-366,of Disguise,Hats,253,570
+K,413-418,of Holding,Hats,1514,571
+K,459-464,Athena's,Helmets,1129,585
+K,489-493,of Creation,Helmets,1071,586
+K,494-499,of Darkness,Helmets,1477,586
+K,506-511,of Dragons,Helmets,1431,587
+K,564-569,of Opposite Alignment,Helmets,880,591
+K,582-586,of Underwater Action,Helmets,83,594
+K,59-63,Lemmikainen's,Belts,78,169
+K,6-11,Arcane,Belts,163,167
+K,622-627,of Teleportation,Helmets,412,594
+K,628-633,of Underwater Action,Helmets,83,594
+K,640-644,of Valor,Helmets,64,594
+K,698-703,Death,Masks,1478,698
+K,756-761,Horned,Masks,970,701
+K,785-790,of Light,Masks,374,702
+K,802-807,of Magic,Masks,741,703
+K,808-813,Magical,Masks,1284,703
+K,814-819,of Memory,Masks,978,703
+K,82-87,Snake,Belts,910,170
+K,820-825,Mirror,Masks,734,704
+K,837-842,of Protection,Masks,1009,704
+K,93-98,Vainamoinen's,Belts,1411,170
+K,977-981,Feather,Turbans,420,1463
+K,988-993,of Silence,Turbans,"[704, 705]",1463
+L,111-113,Pouch of Holding,Bags,137,136
+L,114-117,of Returning,Bags,527,137
+L,118-121,Pouch of Security,Bags,837,136
+L,138-141,of Teleportation,Bags,412,138
+L,154-157,of Useful Items,Bags,1017,139
+L,162-165,of Wind,Bags,466,139
+L,166-168,Wind Pouch,Bags,466,140
+L,20-23,of Bones,Bags,225,132
+L,240-243,of Containment,Bottles,151,199
+L,268-271,of Preservation,Bottles,216,200
+L,276-279,Safety,Bottles,995,200
+L,28-31,of Devouring,Bags,173,133
+L,295-298,Undead,Bottles,83,202
+L,36-39,of Duplication,Bags,726,134
+L,44-47,of Eyes,Bags,755,134
+L,535-538,of Ambrosia,Cauldrons,854,267
+L,551-554,of Doom,Cauldrons,212,267
+L,621-624,of Colors,Chalices,650,275
+L,63-66,of Holding,Bags,1514,135
+L,641-644,of Identification,Chalices,663,276
+L,657-660,of Poison,Chalices,151,276
+L,665-668,Silver,Chalices,325,277
+L,755-758,Copper,Flasks,321,488
+L,763-766,Iron,Flasks,1484,489
+L,779-782,of the Great Kingdom,Goblets,672,547
+L,783-786,Leomund's,Goblets,839,547
+L,881-884,Leomund's,Mugs,839,742
+L,885-888,of Plenty,Mugs,269,742
+L,889-892,of Warming,Mugs,269,743
+L,99-102,of Plenty,Bags,269,136
+M,101-103,of Charming,Candles,1321,240
+M,106-107,Darkness,Candles,1477,241
+M,110-112,Disruption,Candles,676,241
+M,113-114,Divination,Candles,1077,241
+M,12-13,of Accuracy,Beads,176,163
+M,124-125,Flame,Candles,302,242
+M,131-132,Gold,Candles,1324,242
+M,140-141,of Powerlessness,Candles,1014,243
+M,145-146,of Protection,Candles,1009,243
+M,154-155,Red,Candles,807,244
+M,156-158,Reflection,Candles,886,244
+M,161-162,Shielding,Candles,228,245
+M,168-169,Survival,Candles,1002,245
+M,17-18,of Dew,Beads,1086,164
+M,170-171,of Transference,Candles,620,245
+M,188-190,of Absorption,Dust,1093,414
+M,19-20,of Force,Beads,1482,164
+M,195-196,of Appearance,Dust,948,415
+M,202-203,of Blending,Dust,838,415
+M,236-238,Paralyzation,Dust,1491,421
+M,243-245,of Sleeping,Dust,173,422
+M,246-247,Sleep,Dust,547,422
+M,257-258,Sparkling,Dust,1132,423
+M,26-27,Pearl,Beads,807,164
+M,271-272,Black,Eggs,675,430
+M,289-290,of Distraction,Eggs,281,431
+M,323-325,Flame,Eggs,302,433
+M,328-329,Golden,Eggs,1303,433
+M,346-348,Imprisonment,Eggs,571,435
+M,358-359,Philosopher's,Eggs,1314,436
+M,369-370,of Shattering,Eggs,1538,439
+M,406-407,of Wonder,Eggs,"[1497, 1498, 1499, 1500]",440
+M,51-52,of Animation,Bones,764,182
+M,534-535,Cat's Eye,Marbles,952,696
+M,536-538,of Cleanliness,Marbles,312,696
+M,557-558,Absinthe,Powders,763,899
+M,566-567,Anger,Powders,763,899
+M,571-572,Aphrodisia,Powders,764,899
+M,573-574,Arabian Nights,Powders,764,899
+M,575-577,Attraction,Powders,154,899
+M,578-579,Bats' Blood,Powders,765,899
+M,580-581,Bendover's,Powders,765,899
+M,584-586,Black Arts,Powders,765,899
+M,591-593,Bruno's Curse,Powders,765,900
+M,600-602,Bull's,Powders,765,900
+M,603-604,Carnation,Powders,766,900
+M,628-629,Controlling,Powders,766,901
+M,630-632,Crab Apple,Powders,767,901
+M,655-657,Elixir,Powders,442,902
+M,667-668,Excisement,Powders,769,903
+M,676-677,Galangale's,Powders,770,903
+M,706-707,Jamaica,Powders,771,904
+M,708-709,Jezebel,Powders,772,904
+M,715-716,Lavender,Powders,772,905
+M,724-725,Magnolia,Powders,773,905
+M,733-735,Moon,Powders,"[380, 390]",906
+M,736-737,Musk,Powders,774,906
+M,738-740,Narcissus,Powders,774,906
+M,744-746,Nine Mystery,Powders,774,906
+M,752-753,Olibanum,Powders,775,907
+M,754-755,of Obsession,Powders,522,906
+M,758-760,Primrose,Powders,776,907
+M,768-769,Quirk*,Powders,79,907
+M,787,Spirit,Powders,706,910
+M,793-794,Verbena,Powders,779,910
+M,800-801,Vision,Powders,252,911
+M,811-812,Witch's,Powders,1497,911
+M,813-815,Xyz,Powders,779,911
+M,816-817,Ylang Ylang,Powders,779,911
+M,818-819,Zodiac,Powders,779,911
+M,820-822,Zula Zula,Powders,780,911
+M,85-87,of Slaying,Bones,375,183
+M,859-861,of Growth,Seeds,872,1090
+M,868-870,Sun,Seeds,1406,1090
+M,896-897,of Continual Light,Stones,1477,1309
+M,907-909,of Everburning,Stones,241,1310
+M,92-93,Black,Candles,675,240
+M,937-938,of Shielding,Stones,228,1315
+M,939-941,of Silence,Stones,"[704, 705]",1315
+M,951-952,of Warmth,Stones,499,1318
+M,953-954,of Weight,Stones,47,1318
+M,955-957,of the Well,Stones,1528,1318
+M,97-98,Blue,Candles,101,240
+M,99-100,of Brilliance,Candles,585,240
+N,104-105,of Levitation,Benches,483,171
+N,106-107,of Ramming,Benches,673,171
+N,148-149,of Death,Candle Snuffers,1478,246
+N,152-153,of Exploding,Candle Snuffers,242,247
+N,156-157,of Serving,Candle Snuffers,229,247
+N,193,of Seeing,Chairs,528,274
+N,194-195,of Travel,Chairs,1315,274
+N,196-197,of Ugliness,Chairs,895,274
+N,237-238,of Disappearance,Doors,"[419, 423]",411
+N,239-240,of Displacement,Doors,1009,411
+N,242-243,of Guarding,Doors,303,412
+N,317-318,of Entrapment,Hammocks,234,560
+N,321-322,of Protection,Hammocks,1009,560
+N,363-364,of Imprisonment,Irons,571,619
+N,365-366,of Opening,Irons,231,619
+N,369-370,Throwing,Irons,120,620
+N,421-422,of Balance,Ladders,381,635
+N,425-426,of Climbing,Ladders,1043,635
+N,431-432,of Curing,Ladles,751,635
+N,433,of Drinking,Ladles,1121,635
+N,434-435,of Duplication,Ladles,726,635
+N,440-441,of Continual Light,Lamps,1477,637
+N,444-445,of Darkness,Lamps,1477,640
+N,446-447,Dragon,Lamps,1448,640
+N,452-453,of the Genies,Lamps,1078,640
+N,456,of Greyhawk,Lamps,912,641
+N,469-470,of Lighting,Lamps,374,643
+N,475-476,Magic,Lamps,741,643
+N,482-483,of Plant Growth,Lamps,882,645
+N,484-485,Shadow,Lamps,255,645
+N,486-487,of Spying,Lamps,353,645
+N,488-489,of Summoning,Lamps,822,646
+N,500-501,of Burning,Logs,1530,673
+N,509-510,of Rolling,Logs,160,673
+N,52-53,of Judgment,Balance Scales,390,148
+N,521-522,Black,Mirrors,675,726
+N,523-524,Blue,Mirrors,101,726
+N,525-526,Crystal,Mirrors,317,726
+N,527-528,of Curing,Mirrors,751,726
+N,530-531,Emperor's,Mirrors,333,727
+N,54-55,of Power,Balance Scales,907,148
+N,544-545,of Images,Mirrors,904,728
+N,563-564,of Opposition,Mirrors,421,732
+N,571-572,of Recall,Mirrors,886,733
+N,573-574,Red,Mirrors,807,733
+N,580-581,of Seeing,Mirrors,528,734
+N,588-589,Spell,Mirrors,1382,734
+N,592-593,of Travel,Mirrors,1315,735
+N,594-595,of Truth,Mirrors,893,735
+N,60-61,Cursed,Banners,"[1071, 1072]",154
+N,615-616,of Building,Nails,1024,745
+N,617-618,Death,Nails,1478,745
+N,625,of Silence,Nails,"[704, 705]",746
+N,68-69,Flying,Banners,1513,155
+N,70-71,of Friendship,Banners,1370,155
+N,707-708,of Erasing,Quill Pens,1073,924
+N,72,Holy,Banners,1505,155
+N,726-727,of Swift Writing,Quill Pens,809,928
+N,730-731,of Truth,Quill Pens,893,928
+N,740-741,of Climbing,Rakes,1043,932
+N,742-743,of Iron,Rakes,1484,932
+N,744,of Retrieval,Rakes,274,932
+N,745-746,Ship,Rakes,"[1086, 1108]",932
+N,788-789,of Animation,Shovels,764,1113
+N,790-791,of Digging,Shovels,860,1113
+N,792,Cursed of Digging,Shovels,"[1071, 1072]",1113
+N,83-84,of Protection,Banners,1009,156
+N,851-852,Cold,Stairs,1476,1301
+N,857-858,of Judgment,Stairs,390,1302
+N,882-883,of the Elements,Tables,1279,1417
+N,884-885,of Plenty,Tables,269,1417
+N,89-90,of Terror,Banners,413,157
+N,926-927,of Standing,Tents,1561,1431
+N,930-931,Tent X,Tents,,1431
+N,937-938,of Death,Thrones,1478,1432
+N,943-944,of Power,Thrones,907,1434
+N,945-946,of Summoning,Thrones,822,1435
+N,994-996,of Obedience,Yokes,775,1563
+N,999-1000,of Underwater Action,Yokes,83,1564
+O,176-179,Drum of Silence,Percussion Instruments,"[704, 705]",820
+O,223-227,Ricking Gong,Percussion Instruments,822,821
+O,365-368,Harp of Fingerbreaking,Stringed Instruments,"[1323, 1326]",1324
+O,374-378,Harp of Gold,Stringed Instruments,"[1323, 1326]",1324
+O,417-420,Ollamh Harp,Stringed Instruments,592,1327
+O,86-89,Bell of Warning,Percussion Instruments,815,816
+P,125-127,Ice,Boats,351,179
+P,128-129,Joukahainen's,Boats,208,180
+P,150-152,Underwater,Boats,210,181
+P,153-154,Underwater,Boats,210,181
+P,155-156,Vainamoinen's,Boats,1411,182
+P,164-165,of Control,Bridles,1453,223
+P,168-170,Golden,Bridles,1303,224
+P,178-179,of Speaking,Bridles,375,224
+P,180-181,of Taming,Bridles,1050,224
+P,218-220,Underwater,Chariots,210,280
+P,221-222,of Vix,Chariots,1132,281
+P,234-236,of Almor,Coins,746,318
+P,248-249,Equus,Coins,48,321
+P,250-251,Gold,Coins,1324,322
+P,262-263,Returning Penny,Coins,325,324
+P,409-410,of Blessing,Figureheads,780,469
+P,411-413,Cursed,Figureheads,"[1071, 1072]",471
+P,414-415,of Protection,Figureheads,1009,471
+P,493-494,of Cirulon,Globes,585,538
+P,502-503,of Purification,Globes,249,539
+P,509-510,Vision,Globes,252,540
+P,511-513,of Wisdom,Globes,"[805, 808]",541
+P,516-517,Golden Floor,Globes,1303,548
+P,529-531,Death,Spelljamming Helms,1478,576
+P,545-547,Orbus,Spelljamming Helms,985,579
+P,566-567,of Flying,Horseshoes,1513,600
+P,570-572,of Luck,Horseshoes,351,600
+P,71-72,Air,Balloons,697,151
+P,716-717,of Holiness,Orbs,969,796
+P,718-719,of Law,Orbs,156,797
+P,738-740,Dimensional,Pools,447,847
+P,741-742,Golden,Pools,1303,847
+P,772-774,of Flying,Saddles,1513,1049
+P,779-780,of Stability,Saddles,1452,1050
+P,788-789,Invisible,Sails,1520,1051
+P,790-792,of Maneuverability,Sails,1046,1051
+P,82-83,Rust,Balloons,422,151
+P,838-839,of Darkness,Spheres,1477,1269
+P,854-855,of Warning,Spheres,1431,1270
+P,87-88,of Traveling,Balloons,138,151
+P,904-905,Great,Trees,"[675, 681]",1455
+P,913-914,of Venom,Trees,"[366, 371, 1375]",1458
+P,940-942,of Fire,Wheels,1481,1531
+P,943-944,of Floating,Wheels,673,1531
+P,952-953,of Lighting,Wheels,374,1532
+P,968-969,Dragon,Wings,1448,1560
+P,970-971,of Flying,Wings,1513,1560
+R3,267-272,of Fear,Armor,728,76
+R3,279-284,of Flight,Armor,1563,76
+R3,285-290,of Gaseous Form,Armor,"[855, 870]",77
+R3,297-303,of Haste,Armor,1097,77
+R3,304-309,of Healing,Armor,1324,77
+R3,322-327,of Horus,Armor,1376,77
+R3,340-345,of Invisibility,Armor,771,77
+R3,370-375,of Missile Attraction,Armor,713,78
+R3,413-418,of Rage,Armor,885,81
+R3,443-448,of Reflection,Armor,886,81
+R3,479-484,of Swimming,Armor,"[953, 1002]",82
+R3,528-533,of Warmth,Armor,499,83
+R3,55-60,of Absorption,,1093,853
+R3,552-557,of Flight,Barding,1563,158
+R3,558-563,Magical,Barding,1284,159
+R3,564-569,of Missile Protection,Barding,880,159
+R3,607-612,of Protection,Caparisons,1009,253
+R3,61-66,of Absorption,,1093,853
+R3,613-618,of Silence,Caparisons,"[704, 705]",253
+R3,619-624,of Sustenance,Caparisons,1002,253
+R3,649-654,Athena's,Shield,1129,1093
+R3,661-666,of Charm,Shield,281,1093
+R3,673-678,Copper,Shield,321,1094
+R3,679-684,of Cure Wounds,Shield,73,1094
+R3,691-696,Discus,Shield,232,1094
+R3,722-727,of Electricity,Shield,74,1095
+R3,746-751,Fire's,Shield,1481,1096
+R3,758-763,of Gaseous Form,Shield,"[855, 870]",1096
+R3,770-775,of Greyhawk,Shield,912,1096
+R3,800-805,Holy,Shield,1505,1098
+R3,819-824,of Invisibility,Shield,771,1098
+R3,885-890,of Olynthos,Shield,1386,1100
+R3,891-896,Petrified,Shield,22,1101
+R3,897-902,of Proof Against. . . .,Shield,826,1101
+R3,922-927,Quirks,Shield,443,1101
+R3,934,of Reflection,Shield,886,1102
+R3,935-945,of Remove Curse,Shield,82,1103
+S3,09,of Attraction,Arrows,154,85
+S3,101,of Teleporting,Arrows,375,100
+S3,104,of Wounding,Arrows,1331,101
+S3,113,Callarduran Smoothhands's,Axes,72,114
+S3,118,of Enchantment,Axes,1512,117
+S3,13,of Blinking,Arrows,240,86
+S3,158-159,of Accuracy,Bows,176,202
+S3,16,of Burning,Arrows,1530,86
+S3,162,Black,Bows,675,202
+S3,163,Brihaspati's,Bows,114,203
+S3,17-18,of Charming,Arrows,1321,86
+S3,172,Crossbow of Speed,Bows,210,204
+S3,174,Cursed,Bows,"[1071, 1072]",204
+S3,175,of Distance,Bows,176,204
+S3,179,of Enchantment,Bows,1512,204
+S3,183,Gem,Bows,529,205
+S3,186,Hawk,Bows,176,205
+S3,187,Heartseeker,Bows,1130,205
+S3,193,Illusory,Bows,374,206
+S3,199,of Levitation,Bows,483,208
+S3,20,of Clairaudience,Arrows,953,87
+S3,203,Oberon's,Bows,1386,209
+S3,204,Odin's,Bows,1386,209
+S3,205,Phantom,Bows,1387,209
+S3,21,of Clairvoyance,Arrows,1510,87
+S3,22,of Climbing,Arrows,1043,87
+S3,229-230,Abbathor's,Daggers,69,356
+S3,24,of Curing,Arrows,751,87
+S3,244,of Concealment,Daggers,612,359
+S3,25,of Darkness,Arrows,1477,87
+S3,251,Elven,Daggers,74,360
+S3,262,Guardian Blade,Daggers,1373,363
+S3,27,of Direction,Arrows,860,88
+S3,273,Knife of Continual Sharpness,Daggers,365,366
+S3,279,of the Magius,Daggers,"[1284, 1285]",366
+S3,29,of Disintegration,Arrows,431,88
+S3,290,of Set,Daggers,97,368
+S3,296,of Throwing,Daggers,120,369
+S3,30,of Dispelling,Arrows,1277,88
+S3,300-301,of Truth,Daggers,893,370
+S3,309,of Biting,Darts,85,371
+S3,31,of Distance,Arrows,176,88
+S3,310,of Blinking,Darts,240,372
+S3,312,of Charming,Darts,1321,372
+S3,313,of Climbing,Darts,1043,372
+S3,314,of Curing,Darts,751,372
+S3,317-318,of Disarming,Darts,88,373
+S3,319,of Dispelling,Darts,1277,373
+S3,320,of Flying,Darts,1513,373
+S3,323,Illusory Missiles,Darts,91,374
+S3,328,of Screaming,Darts,96,374
+S3,33,Elven,Arrows,74,88
+S3,333,of Stunning,Darts,822,375
+S3,337,of Transporting,Darts,101,375
+S3,338,of Wounding,Darts,1331,375
+S3,34,of Enchantment,Arrows,1512,89
+S3,359,Air,Hammers,697,551
+S3,364,Flandal Steelskin's,Hammers,58,553
+S3,379,of Silence,Hammers,"[704, 705]",558
+S3,380,Storm,Hammers,681,558
+S3,39,of Fire,Arrows,1481,89
+S3,396,Cursed,Javelins,"[1071, 1072]",623
+S3,397,of Distance,Javelins,176,623
+S3,400,of Lightning,Javelins,633,623
+S3,401,of Piercing,Javelins,93,624
+S3,411,Copper,Lances,321,647
+S3,412,Death,Lances,1478,647
+S3,415,of Fire,Lances,1481,647
+S3,420,of Piercing,Lances,93,649
+S3,425,Venom,Lances,"[366, 371, 1375]",650
+S3,43,of Flying,Arrows,1513,90
+S3,432,of Darkness,Maces,1477,675
+S3,433,Diamond,Maces,205,676
+S3,437,Great Golden of the North,Maces,"[675, 681]",677
+S3,438,Great Holy Icon,Maces,"[675, 681]",677
+S3,44,of Force,Arrows,1482,90
+S3,441-442,Mace-Wand,Maces,1480,677
+S3,450,Skull,Maces,705,678
+S3,455,Staff-Mace,Maces,"[1278, 1279, 1280]",681
+S3,46,of Holding,Arrows,1514,90
+S3,48,of Ice,Arrows,351,91
+S3,49,of Illumination,Arrows,1483,91
+S3,51,of Justice,Arrows,386,91
+S3,52-53,of Law,Arrows,156,91
+S3,524,Black,Quivers,675,929
+S3,528,of Returning,Quivers,527,929
+S3,54,of Light,Arrows,374,91
+S3,541,Black,Sickles,675,1114
+S3,544,Golden,Sickles,1303,1115
+S3,55,of Lighting,Arrows,374,92
+S3,555,of Accuracy,Spears,176,1129
+S3,56,of Lightning,Arrows,633,92
+S3,572,of Obliteration,Spears,1488,1131
+S3,573,of Panic,Spears,1555,1131
+S3,575,Returning,Spears,527,1131
+S3,67,of Penetrating,Arrows,374,93
+S3,68,of Penetration,Arrows,557,93
+S3,72,of Polymorphing,Arrows,1491,93
+S3,739,Frey's,Swords,1106,1370
+S3,77,Red,Arrows,807,95
+S3,78,of Refilling,Arrows,374,95
+S3,781,Heartseeker,Swords,1130,1374
+S3,782,Heimdall's,Swords,77,1374
+S3,786,Holy,Swords,1505,1375
+S3,79,of Returning,Arrows,527,95
+S3,817,Lemmikainen's,Swords,78,1380
+S3,821,of Light,Swords,374,1381
+S3,851,of Night,Swords,704,1385
+S3,871,of the Planes,Swords,38,1387
+S3,875,of Quickness,Swords,366,1388
+S3,88-89,of Signaling,Arrows,633,97
+S3,90,of Silence,Arrows,"[704, 705]",97
+S3,907,of Sharpness,Swords,777,1392
+S3,91,of Sinking,Arrows,374,97
+S3,915,Singing,Swords,1117,1396
+S3,918-919,Slayer,Swords,847,1396
+S3,927,Spectral,Swords,1525,1403
+S3,96,Snake,Arrows,910,100
+S3,969,White,Swords,1105,1413
+S3,97,of Speaking,Arrows,375,100
+S3,973,of Wishes,Swords,219,1413
+S3,975,of Wounding,Swords,1331,1414
+S3,982,Yondalla's,Swords,1106,1415
+S3,984,Zinzerena's,Swords,312,1415
+S3,989-990,of Feathers,Whips,1480,1533
+S3,99,of Stunning,Arrows,822,100
+S3,998,of Summoning,Whips,822,1534
+T,677-682,Crown of Evil,Regalia of Might II,941,943
+T,694-699,Orb of Evil,Regalia of Might II,941,944
+T,718-723,Scepter of Good,Regalia of Might II,944,941

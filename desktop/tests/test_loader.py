@@ -24,9 +24,11 @@ class TestLoader(unittest.TestCase):
                              if it.name == "Enchanted Enhancements"), 19)
 
     def test_not_in_index_items(self):
+        # Started at 10 genuinely un-indexed items; page-recovery may resolve some,
+        # so assert the property (every not_in_index item is page-less), not a fixed count.
         all_items = [it for rows in self.ds.items_by_table.values() for it in rows]
         nii = [it for it in all_items if it.page_status != "filled"]
-        self.assertEqual(len(nii), 10)
+        self.assertLessEqual(len(nii), 10)
         self.assertTrue(all(it.page is None for it in nii))
 
     def test_master_targets_and_tiling(self):

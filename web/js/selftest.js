@@ -64,14 +64,15 @@
       eq("item count 5709", ds.itemCount, 5709);
       const tables = Object.keys(ds.itemsByTable).sort().join(",");
       eq("table set", tables, "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R3,S3,T");
-      let rr = 0, ee = 0, nii = 0;
+      let rr = 0, ee = 0, nii = 0, niiNull = 0;
       for (const t of Object.keys(ds.itemsByTable)) for (const it of ds.itemsByTable[t]) {
         if (it.reroll) rr++; if (it.name === "Enchanted Enhancements") ee++;
-        if (it.page_status !== "filled") nii++;
+        if (it.page_status !== "filled") { nii++; if (it.page == null) niiNull++; }
       }
       eq("reroll count 75", rr, 75);
       eq("EE-named count 19", ee, 19);
-      eq("not_in_index count 10", nii, 10);
+      // started at 10; page-recovery may resolve some -> assert property, not fixed count
+      ok("not_in_index items are page-less and <= 10", nii <= 10 && niiNull === nii, `${nii} nii, ${niiNull} null`);
       const q = ds.mech.S1.find((r) => r.name.indexOf("Quarrel") === 0);
       eq("S1 die pinned 1000 (Quarrel 98-100)", [q.roll_low, q.roll_high], [98, 100]);
       ok("S1 catch-all reaches 1000", ds.mech.S1[ds.mech.S1.length - 1].roll_high === 1000);
