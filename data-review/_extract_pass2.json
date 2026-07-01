@@ -1,0 +1,657 @@
+{
+  "summary": "Second, thorough pass over the under-extracted pages (Tables A-pre-Oils, C, D/E, F, G, and blank p14) to recover missed type sub-headers.",
+  "agentCount": 6,
+  "logs": [
+    "2nd pass: 36 headers across 6/6 pages"
+  ],
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "headers": [
+          {
+            "type": "Enchanted Enhancements*",
+            "first_roll": "01",
+            "first_item": "Enchanted Enhancements*",
+            "table_banner": "Table A: Magical Liquids"
+          },
+          {
+            "type": "Arcane Formulae for a Dracolich",
+            "first_roll": "02-03",
+            "first_item": "Arcane Formulae for a Dracolich",
+            "table_banner": "Table A: Magical Liquids"
+          },
+          {
+            "type": "Arcane Formulae for a Lich",
+            "first_roll": "04-05",
+            "first_item": "Arcane Formulae for a Lich",
+            "table_banner": "Table A: Magical Liquids"
+          },
+          {
+            "type": "Cordial of the Dryad Elixirs",
+            "first_roll": "06-07",
+            "first_item": "Cordial of the Dryad Elixirs",
+            "table_banner": "Table A: Magical Liquids"
+          },
+          {
+            "type": "Glitz & Klax's",
+            "first_roll": "13-14",
+            "first_item": "Glitz & Klax's",
+            "table_banner": "Table A: Magical Liquids"
+          },
+          {
+            "type": "Nerve Tonic",
+            "first_roll": "26-27",
+            "first_item": "Nerve Tonic",
+            "table_banner": "Table A: Magical Liquids"
+          },
+          {
+            "type": "Nodozze",
+            "first_roll": "28-29",
+            "first_item": "Nodozze",
+            "table_banner": "Table A: Magical Liquids"
+          },
+          {
+            "type": "Physical Enhancement",
+            "first_roll": "34",
+            "first_item": "Physical Enhancement",
+            "table_banner": "Table A: Magical Liquids"
+          },
+          {
+            "type": "Quirks*",
+            "first_roll": "35-36",
+            "first_item": "Quirks*",
+            "table_banner": "Table A: Magical Liquids"
+          },
+          {
+            "type": "Rainbow Bridge",
+            "first_roll": "37-38",
+            "first_item": "Rainbow Bridge",
+            "table_banner": "Table A: Magical Liquids"
+          },
+          {
+            "type": "Skunk Water",
+            "first_roll": "45-46",
+            "first_item": "Skunk Water",
+            "table_banner": "Table A: Magical Liquids"
+          },
+          {
+            "type": "Essence of Darkness",
+            "first_roll": "54-55",
+            "first_item": "Essence of Darkness",
+            "table_banner": "Table A: Magical Liquids"
+          },
+          {
+            "type": "Ichor of Intoxication",
+            "first_roll": "56-57",
+            "first_item": "Ichor of Intoxication",
+            "table_banner": "Table A: Magical Liquids"
+          },
+          {
+            "type": "Liquid Iron",
+            "first_roll": "58",
+            "first_item": "Liquid Iron",
+            "table_banner": "Table A: Magical Liquids"
+          },
+          {
+            "type": "Liquid Road",
+            "first_roll": "59-60",
+            "first_item": "Liquid Road",
+            "table_banner": "Table A: Magical Liquids"
+          },
+          {
+            "type": "Mist of Rapture",
+            "first_roll": "61-62",
+            "first_item": "Mist of Rapture",
+            "table_banner": "Table A: Magical Liquids"
+          },
+          {
+            "type": "Oils",
+            "first_roll": "63-64",
+            "first_item": "Absinthe",
+            "table_banner": "Table A: Magical Liquids"
+          }
+        ],
+        "confidence": "Found 17 bold TYPE sub-headers on page 1, all within the single \"Table A: Magical Liquids\" banner. This is the FIRST page of the Appendix (title \"Magical Item Random Determination Tables\" + intro text + the \"Table 1: Magical Items\" category list fill the left column), so there is NO continuation-from-prior-page section at the top. The bold headers are: Enchanted Enhancements* (01), Arcane Formulae for a Dracolich (02-03), Arcane Formulae for a Lich (04-05), Cordial of the Dryad Elixirs (06-07), Glitz & Klax's (13-14), Nerve Tonic (26-27), Nodozze (28-29), Physical Enhancement (34), Quirks* (35-36), Rainbow Bridge (37-38), Skunk Water (45-46), Essence of Darkness (54-55), Ichor of Intoxication (56-57), Liquid Iron (58), Liquid Road (59-60), Mist of Rapture (61-62), and Oils (63-64, category header whose first item is Absinthe). All were verified via high-resolution image crops; the OCR text layer was unreliable (scanned image). None were faint or ambiguous — bold vs. non-bold was clearly distinguishable at high zoom (the many \"of X\" potion entries are regular weight and were correctly excluded). Confidence high. Note: the Oils alphabetical list (\"of Cloaking\" … \"Jazper's of Permanent Etherealness\") runs down the entire right column and continues onto page 2, but no additional bold sub-header appears within it on this page."
+      },
+      {
+        "page": 4,
+        "headers": [
+          {
+            "type": "Scrolls",
+            "first_roll": "331-340",
+            "first_item": "Mondasso's Automated Spell",
+            "table_banner": "Table B: Scrolls"
+          },
+          {
+            "type": "Enchanted Enhancements*",
+            "first_roll": "01-03",
+            "first_item": "Enchanted Enhancements*",
+            "table_banner": "Table C: Rings"
+          }
+        ],
+        "confidence": "I found 2 bold TYPE sub-headers on page 4. The first, \"Scrolls\" (top of column 1, first item 331-340 Mondasso's Automated Spell), is a continuation of the Scrolls table from the previous page but IS itself printed in bold at the top of this page. The second is \"Enchanted Enhancements*\" (01-03), which sits under the \"Roll / Item Discovered\" column-label row beneath the bold \"Table C: Rings\" banner in the lower-left. Columns 2 and 3 contain only the alphabetical \"of X\" Scroll entries (04-07 of Affliction through 565-568 Moodarvian of Taste) with NO additional bold TYPE sub-headers interrupting them. Note: \"Roll / Item Discovered\" is a column-label row, not a TYPE header, so I excluded it. The asterisk on \"Enchanted Enhancements*\" is present in the source. Nothing was faint or ambiguous; the two bold headers are clear."
+      },
+      {
+        "page": 5,
+        "headers": [
+          {
+            "type": "Rings",
+            "first_roll": "569-571",
+            "first_item": "Moodarvian of Touch",
+            "table_banner": ""
+          },
+          {
+            "type": "Enchanted Enhancements*",
+            "first_roll": "01-15",
+            "first_item": "Enchanted Enhancements*",
+            "table_banner": "Table D: Rods"
+          },
+          {
+            "type": "Moto Moto Rods",
+            "first_roll": "16-30",
+            "first_item": "of Beguiling",
+            "table_banner": "Table D: Rods"
+          },
+          {
+            "type": "Rods",
+            "first_roll": "76-90",
+            "first_item": "of Absorption",
+            "table_banner": "Table D: Rods"
+          },
+          {
+            "type": "Enchanted Enhancements*",
+            "first_roll": "01-07",
+            "first_item": "Enchanted Enhancements*",
+            "table_banner": "Table E: Staves"
+          },
+          {
+            "type": "Canes",
+            "first_roll": "08-14",
+            "first_item": "of Age",
+            "table_banner": "Table E: Staves"
+          },
+          {
+            "type": "Gaffs",
+            "first_roll": "51-57",
+            "first_item": "of Docking",
+            "table_banner": "Table E: Staves"
+          },
+          {
+            "type": "Staves",
+            "first_roll": "80-86",
+            "first_item": "of Air and Water",
+            "table_banner": "Table E: Staves"
+          }
+        ],
+        "confidence": "Found 8 bold TYPE sub-headers on page 5. The page has 3 columns covering the tail of the Rings table (col 1 and top of col 2/3), then \"Table D: Rods\" (col 2) and \"Table E: Staves\" (col 3). The Rings section at top is a continuation from the prior page; I captured it under \"Rings\" with its first roll 569-571 (Moodarvian of Touch). Under Table D: Rods I found three headers: Enchanted Enhancements* (01-15), Moto Moto Rods (16-30), and Rods (76-90). Under Table E: Staves I found four headers: Enchanted Enhancements* (01-07), Canes (08-14), Gaffs (51-57), and Staves (80-86). All headers were legible and unambiguous; none were faint. Note the \"Enchanted Enhancements*\" and \"Moto Moto Rods\" / \"Gnomewrecker\" spellings carry the asterisk/odd wording exactly as printed. Confidence is high."
+      },
+      {
+        "page": 6,
+        "headers": [
+          {
+            "type": "Staves",
+            "first_roll": "123-129",
+            "first_item": "of Battle II",
+            "table_banner": "Table E: Staves"
+          },
+          {
+            "type": "Enchanted Enhancements*",
+            "first_roll": "01-08",
+            "first_item": "Almes's Illumination",
+            "table_banner": "Table F: Wands"
+          }
+        ],
+        "confidence": "Found 2 bold TYPE sub-headers on page 6 (physical p1572): \"Staves\" (a continuation from the prior page — the Staves list of Table E continues at the top of column 1, running 123-129 through 993-000) and \"Enchanted Enhancements*\" under the \"Table F: Wands\" banner (the wand list, 01-08 through 906-913, is one long list under this single sub-header). Both headers are clear and legible; none were faint or ambiguous. Note that \"Table F: Wands\" and its \"Roll / Item Discovered\" column labels are banner/column headings rather than TYPE sub-headers, and the Wands table has no further per-type bold sub-headers on this page beyond \"Enchanted Enhancements*\"."
+      },
+      {
+        "page": 7,
+        "headers": [
+          {
+            "type": "Wands",
+            "first_roll": "914-922",
+            "first_item": "of Whips",
+            "table_banner": ""
+          },
+          {
+            "type": "Manuals",
+            "first_roll": "197-200",
+            "first_item": "Grim Grimoire",
+            "table_banner": ""
+          },
+          {
+            "type": "Maps",
+            "first_roll": "212-214",
+            "first_item": "Dane's Version",
+            "table_banner": ""
+          },
+          {
+            "type": "Enchanted Enhancements*",
+            "first_roll": "01-03",
+            "first_item": "Enchanted Enhancements*",
+            "table_banner": "Table G: Books"
+          },
+          {
+            "type": "Books",
+            "first_roll": "04-07",
+            "first_item": "of Binding Souls",
+            "table_banner": "Table G: Books"
+          },
+          {
+            "type": "Librams",
+            "first_roll": "51-54",
+            "first_item": "Analect of Magic",
+            "table_banner": "Table G: Books"
+          },
+          {
+            "type": "Spellbooks",
+            "first_roll": "281-283",
+            "first_item": "The Alcaister",
+            "table_banner": "Table G: Books"
+          }
+        ],
+        "confidence": "Found 7 bold sub-headers on page 7 (book page 1573): Wands (top-left, a continuation from the previous page — its header repeats at the column top, first visible item 914-922 of Whips), Manuals (top-middle, 197-200 Grim Grimoire), Maps (middle column, 212-214 Dane's Version), then under the \"Table G: Books\" banner: Enchanted Enhancements* (01-03, the starred lead-in row printed just under the Roll/Item Discovered column header), Books (04-07 of Binding Souls), Librams (51-54 Analect of Magic), and Spellbooks (281-283 The Alcaister). The previous under-extraction most likely missed Manuals, Maps, and/or the small \"Enchanted Enhancements*\" and \"Librams\" sub-headers. All headers were legible; the only mild ambiguity is whether \"Enchanted Enhancements*\" should count as its own sub-header versus a footnoted lead row of the Books table — I included it to be exhaustive."
+      },
+      {
+        "page": 14,
+        "headers": [],
+        "confidence": "Page 14 (book page 1580) is a full-page color illustration of a battle scene (a mounted warrior with a raised sword, fallen and standing figures, a burning structure, and birds in a stormy sky). It contains NO roll tables, NO bold TYPE sub-headers, and NO \"Table X: Category\" banners. The only text on the page is the page number \"1580\". Therefore I found 0 headers. Nothing was faint or ambiguous — the page is simply artwork, not a table, so there was nothing to under-extract in a prior pass."
+      }
+    ],
+    "headers": [
+      {
+        "page": 1,
+        "type": "Enchanted Enhancements*",
+        "first_roll": "01",
+        "first_item": "Enchanted Enhancements*",
+        "table_banner": "Table A: Magical Liquids"
+      },
+      {
+        "page": 1,
+        "type": "Arcane Formulae for a Dracolich",
+        "first_roll": "02-03",
+        "first_item": "Arcane Formulae for a Dracolich",
+        "table_banner": "Table A: Magical Liquids"
+      },
+      {
+        "page": 1,
+        "type": "Arcane Formulae for a Lich",
+        "first_roll": "04-05",
+        "first_item": "Arcane Formulae for a Lich",
+        "table_banner": "Table A: Magical Liquids"
+      },
+      {
+        "page": 1,
+        "type": "Cordial of the Dryad Elixirs",
+        "first_roll": "06-07",
+        "first_item": "Cordial of the Dryad Elixirs",
+        "table_banner": "Table A: Magical Liquids"
+      },
+      {
+        "page": 1,
+        "type": "Glitz & Klax's",
+        "first_roll": "13-14",
+        "first_item": "Glitz & Klax's",
+        "table_banner": "Table A: Magical Liquids"
+      },
+      {
+        "page": 1,
+        "type": "Nerve Tonic",
+        "first_roll": "26-27",
+        "first_item": "Nerve Tonic",
+        "table_banner": "Table A: Magical Liquids"
+      },
+      {
+        "page": 1,
+        "type": "Nodozze",
+        "first_roll": "28-29",
+        "first_item": "Nodozze",
+        "table_banner": "Table A: Magical Liquids"
+      },
+      {
+        "page": 1,
+        "type": "Physical Enhancement",
+        "first_roll": "34",
+        "first_item": "Physical Enhancement",
+        "table_banner": "Table A: Magical Liquids"
+      },
+      {
+        "page": 1,
+        "type": "Quirks*",
+        "first_roll": "35-36",
+        "first_item": "Quirks*",
+        "table_banner": "Table A: Magical Liquids"
+      },
+      {
+        "page": 1,
+        "type": "Rainbow Bridge",
+        "first_roll": "37-38",
+        "first_item": "Rainbow Bridge",
+        "table_banner": "Table A: Magical Liquids"
+      },
+      {
+        "page": 1,
+        "type": "Skunk Water",
+        "first_roll": "45-46",
+        "first_item": "Skunk Water",
+        "table_banner": "Table A: Magical Liquids"
+      },
+      {
+        "page": 1,
+        "type": "Essence of Darkness",
+        "first_roll": "54-55",
+        "first_item": "Essence of Darkness",
+        "table_banner": "Table A: Magical Liquids"
+      },
+      {
+        "page": 1,
+        "type": "Ichor of Intoxication",
+        "first_roll": "56-57",
+        "first_item": "Ichor of Intoxication",
+        "table_banner": "Table A: Magical Liquids"
+      },
+      {
+        "page": 1,
+        "type": "Liquid Iron",
+        "first_roll": "58",
+        "first_item": "Liquid Iron",
+        "table_banner": "Table A: Magical Liquids"
+      },
+      {
+        "page": 1,
+        "type": "Liquid Road",
+        "first_roll": "59-60",
+        "first_item": "Liquid Road",
+        "table_banner": "Table A: Magical Liquids"
+      },
+      {
+        "page": 1,
+        "type": "Mist of Rapture",
+        "first_roll": "61-62",
+        "first_item": "Mist of Rapture",
+        "table_banner": "Table A: Magical Liquids"
+      },
+      {
+        "page": 1,
+        "type": "Oils",
+        "first_roll": "63-64",
+        "first_item": "Absinthe",
+        "table_banner": "Table A: Magical Liquids"
+      },
+      {
+        "page": 4,
+        "type": "Scrolls",
+        "first_roll": "331-340",
+        "first_item": "Mondasso's Automated Spell",
+        "table_banner": "Table B: Scrolls"
+      },
+      {
+        "page": 4,
+        "type": "Enchanted Enhancements*",
+        "first_roll": "01-03",
+        "first_item": "Enchanted Enhancements*",
+        "table_banner": "Table C: Rings"
+      },
+      {
+        "page": 5,
+        "type": "Rings",
+        "first_roll": "569-571",
+        "first_item": "Moodarvian of Touch",
+        "table_banner": ""
+      },
+      {
+        "page": 5,
+        "type": "Enchanted Enhancements*",
+        "first_roll": "01-15",
+        "first_item": "Enchanted Enhancements*",
+        "table_banner": "Table D: Rods"
+      },
+      {
+        "page": 5,
+        "type": "Moto Moto Rods",
+        "first_roll": "16-30",
+        "first_item": "of Beguiling",
+        "table_banner": "Table D: Rods"
+      },
+      {
+        "page": 5,
+        "type": "Rods",
+        "first_roll": "76-90",
+        "first_item": "of Absorption",
+        "table_banner": "Table D: Rods"
+      },
+      {
+        "page": 5,
+        "type": "Enchanted Enhancements*",
+        "first_roll": "01-07",
+        "first_item": "Enchanted Enhancements*",
+        "table_banner": "Table E: Staves"
+      },
+      {
+        "page": 5,
+        "type": "Canes",
+        "first_roll": "08-14",
+        "first_item": "of Age",
+        "table_banner": "Table E: Staves"
+      },
+      {
+        "page": 5,
+        "type": "Gaffs",
+        "first_roll": "51-57",
+        "first_item": "of Docking",
+        "table_banner": "Table E: Staves"
+      },
+      {
+        "page": 5,
+        "type": "Staves",
+        "first_roll": "80-86",
+        "first_item": "of Air and Water",
+        "table_banner": "Table E: Staves"
+      },
+      {
+        "page": 6,
+        "type": "Staves",
+        "first_roll": "123-129",
+        "first_item": "of Battle II",
+        "table_banner": "Table E: Staves"
+      },
+      {
+        "page": 6,
+        "type": "Enchanted Enhancements*",
+        "first_roll": "01-08",
+        "first_item": "Almes's Illumination",
+        "table_banner": "Table F: Wands"
+      },
+      {
+        "page": 7,
+        "type": "Wands",
+        "first_roll": "914-922",
+        "first_item": "of Whips",
+        "table_banner": ""
+      },
+      {
+        "page": 7,
+        "type": "Manuals",
+        "first_roll": "197-200",
+        "first_item": "Grim Grimoire",
+        "table_banner": ""
+      },
+      {
+        "page": 7,
+        "type": "Maps",
+        "first_roll": "212-214",
+        "first_item": "Dane's Version",
+        "table_banner": ""
+      },
+      {
+        "page": 7,
+        "type": "Enchanted Enhancements*",
+        "first_roll": "01-03",
+        "first_item": "Enchanted Enhancements*",
+        "table_banner": "Table G: Books"
+      },
+      {
+        "page": 7,
+        "type": "Books",
+        "first_roll": "04-07",
+        "first_item": "of Binding Souls",
+        "table_banner": "Table G: Books"
+      },
+      {
+        "page": 7,
+        "type": "Librams",
+        "first_roll": "51-54",
+        "first_item": "Analect of Magic",
+        "table_banner": "Table G: Books"
+      },
+      {
+        "page": 7,
+        "type": "Spellbooks",
+        "first_roll": "281-283",
+        "first_item": "The Alcaister",
+        "table_banner": "Table G: Books"
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Re-extract"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "re:page 1",
+      "phaseIndex": 1,
+      "phaseTitle": "Re-extract",
+      "agentId": "a2c7d5976980112d2",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782943678709,
+      "queuedAt": 1782943678700,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Found 17 bold TYPE sub-headers on page 1, all within the si…",
+      "promptPreview": "A previous pass UNDER-extracted this page — it likely has MORE bold TYPE sub-headers than were captured. Read **page 1** (pass pages:\"1\") of this PDF and capture EVERY one, exhaustively:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nLayout: up to 3 columns of `<roll-range>  <item name>` rows, grouped under **bold TYPE …",
+      "lastProgressAt": 1782943901307,
+      "tokens": 36418,
+      "toolCalls": 31,
+      "durationMs": 222598,
+      "resultPreview": "{\"page\":1,\"headers\":[{\"type\":\"Enchanted Enhancements*\",\"first_roll\":\"01\",\"first_item\":\"Enchanted Enhancements*\",\"table_banner\":\"Table A: Magical Liquids\"},{\"type\":\"Arcane Formulae for a Dracolich\",\"first_roll\":\"02-03\",\"first_item\":\"Arcane Formulae for a Dracolich\",\"table_banner\":\"Table A: Magical Liquids\"},{\"type\":\"Arcane Formulae for a Lich\",\"first_roll\":\"04-05\",\"first_item\":\"Arcane Formulae for …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "re:page 4",
+      "phaseIndex": 1,
+      "phaseTitle": "Re-extract",
+      "agentId": "a74d49b0370dd3025",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782943678710,
+      "queuedAt": 1782943678700,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "I found 2 bold TYPE sub-headers on page 4. The first, \"Scro…",
+      "promptPreview": "A previous pass UNDER-extracted this page — it likely has MORE bold TYPE sub-headers than were captured. Read **page 4** (pass pages:\"4\") of this PDF and capture EVERY one, exhaustively:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nLayout: up to 3 columns of `<roll-range>  <item name>` rows, grouped under **bold TYPE …",
+      "lastProgressAt": 1782943708092,
+      "tokens": 24983,
+      "toolCalls": 3,
+      "durationMs": 29382,
+      "resultPreview": "{\"page\":4,\"headers\":[{\"type\":\"Scrolls\",\"first_roll\":\"331-340\",\"first_item\":\"Mondasso's Automated Spell\",\"table_banner\":\"Table B: Scrolls\"},{\"type\":\"Enchanted Enhancements*\",\"first_roll\":\"01-03\",\"first_item\":\"Enchanted Enhancements*\",\"table_banner\":\"Table C: Rings\"}],\"confidence\":\"I found 2 bold TYPE sub-headers on page 4. The first, \\\"Scrolls\\\" (top of column 1, first item 331-340 Mondasso's Autom…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "re:page 5",
+      "phaseIndex": 1,
+      "phaseTitle": "Re-extract",
+      "agentId": "a29f9aa3361607f8e",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782943678710,
+      "queuedAt": 1782943678700,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Found 8 bold TYPE sub-headers on page 5. The page has 3 col…",
+      "promptPreview": "A previous pass UNDER-extracted this page — it likely has MORE bold TYPE sub-headers than were captured. Read **page 5** (pass pages:\"5\") of this PDF and capture EVERY one, exhaustively:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nLayout: up to 3 columns of `<roll-range>  <item name>` rows, grouped under **bold TYPE …",
+      "lastProgressAt": 1782943698352,
+      "tokens": 23564,
+      "toolCalls": 2,
+      "durationMs": 19642,
+      "resultPreview": "{\"page\":5,\"headers\":[{\"type\":\"Rings\",\"first_roll\":\"569-571\",\"first_item\":\"Moodarvian of Touch\",\"table_banner\":\"\"},{\"type\":\"Enchanted Enhancements*\",\"first_roll\":\"01-15\",\"first_item\":\"Enchanted Enhancements*\",\"table_banner\":\"Table D: Rods\"},{\"type\":\"Moto Moto Rods\",\"first_roll\":\"16-30\",\"first_item\":\"of Beguiling\",\"table_banner\":\"Table D: Rods\"},{\"type\":\"Rods\",\"first_roll\":\"76-90\",\"first_item\":\"of A…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "re:page 6",
+      "phaseIndex": 1,
+      "phaseTitle": "Re-extract",
+      "agentId": "aebadc8683743e191",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782943678710,
+      "queuedAt": 1782943678700,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Found 2 bold TYPE sub-headers on page 6 (physical p1572): \"…",
+      "promptPreview": "A previous pass UNDER-extracted this page — it likely has MORE bold TYPE sub-headers than were captured. Read **page 6** (pass pages:\"6\") of this PDF and capture EVERY one, exhaustively:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nLayout: up to 3 columns of `<roll-range>  <item name>` rows, grouped under **bold TYPE …",
+      "lastProgressAt": 1782943697343,
+      "tokens": 23562,
+      "toolCalls": 2,
+      "durationMs": 18633,
+      "resultPreview": "{\"page\":6,\"headers\":[{\"type\":\"Staves\",\"first_roll\":\"123-129\",\"first_item\":\"of Battle II\",\"table_banner\":\"Table E: Staves\"},{\"type\":\"Enchanted Enhancements*\",\"first_roll\":\"01-08\",\"first_item\":\"Almes's Illumination\",\"table_banner\":\"Table F: Wands\"}],\"confidence\":\"Found 2 bold TYPE sub-headers on page 6 (physical p1572): \\\"Staves\\\" (a continuation from the prior page — the Staves list of Table E cont…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "re:page 7",
+      "phaseIndex": 1,
+      "phaseTitle": "Re-extract",
+      "agentId": "a3b34ca7bb7852504",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782943678711,
+      "queuedAt": 1782943678700,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Found 7 bold sub-headers on page 7 (book page 1573): Wands …",
+      "promptPreview": "A previous pass UNDER-extracted this page — it likely has MORE bold TYPE sub-headers than were captured. Read **page 7** (pass pages:\"7\") of this PDF and capture EVERY one, exhaustively:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nLayout: up to 3 columns of `<roll-range>  <item name>` rows, grouped under **bold TYPE …",
+      "lastProgressAt": 1782943699603,
+      "tokens": 23562,
+      "toolCalls": 2,
+      "durationMs": 20892,
+      "resultPreview": "{\"page\":7,\"headers\":[{\"type\":\"Wands\",\"first_roll\":\"914-922\",\"first_item\":\"of Whips\",\"table_banner\":\"\"},{\"type\":\"Manuals\",\"first_roll\":\"197-200\",\"first_item\":\"Grim Grimoire\",\"table_banner\":\"\"},{\"type\":\"Maps\",\"first_roll\":\"212-214\",\"first_item\":\"Dane's Version\",\"table_banner\":\"\"},{\"type\":\"Enchanted Enhancements*\",\"first_roll\":\"01-03\",\"first_item\":\"Enchanted Enhancements*\",\"table_banner\":\"Table G: Bo…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "re:page 14",
+      "phaseIndex": 1,
+      "phaseTitle": "Re-extract",
+      "agentId": "a9e9ba11795796282",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782943678711,
+      "queuedAt": 1782943678700,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Page 14 (book page 1580) is a full-page color illustration …",
+      "promptPreview": "A previous pass UNDER-extracted this page — it likely has MORE bold TYPE sub-headers than were captured. Read **page 14** (pass pages:\"14\") of this PDF and capture EVERY one, exhaustively:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nLayout: up to 3 columns of `<roll-range>  <item name>` rows, grouped under **bold TYP…",
+      "lastProgressAt": 1782943700690,
+      "tokens": 24091,
+      "toolCalls": 4,
+      "durationMs": 21979,
+      "resultPreview": "{\"page\":14,\"headers\":[],\"confidence\":\"Page 14 (book page 1580) is a full-page color illustration of a battle scene (a mounted warrior with a raised sword, fallen and standing figures, a burning structure, and birds in a stormy sky). It contains NO roll tables, NO bold TYPE sub-headers, and NO \\\"Table X: Category\\\" banners. The only text on the page is the page number \\\"1580\\\". Therefore I found 0 …"
+    }
+  ],
+  "totalTokens": 156180,
+  "totalToolCalls": 44
+}

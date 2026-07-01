@@ -1,0 +1,5840 @@
+{
+  "summary": "Extract item TYPE sub-headers from all 29 pages of the Encyclopedia Magica random-determination tables PDF, so every item can be assigned its type (Oil/Salve/Lens/…) for a correct index page re-join.",
+  "agentCount": 29,
+  "logs": [
+    "extracted 385 type sub-headers across 29/29 pages"
+  ],
+  "result": {
+    "pageCount": 29,
+    "headerCount": 385,
+    "pages": [
+      {
+        "page": 1,
+        "headers": [
+          {
+            "type": "Oils",
+            "first_roll": "63-64",
+            "first_item": "Absinthe",
+            "table_banner": "Table A: Magical Liquids"
+          }
+        ],
+        "confidence": "High confidence: this page is the appendix intro plus the Table 1 master d100 category table and the start of Table A: Magical Liquids; the only bold item-TYPE sub-header is \"Oils\" (first item 63-64 Absinthe). Table 1's rows are category names, not item types, and Table A's opening block has no type header until Oils."
+      },
+      {
+        "page": 2,
+        "headers": [
+          {
+            "type": "Oils",
+            "first_roll": "236-237",
+            "first_item": "Jezebel",
+            "table_banner": "Table A: Magical Liquids"
+          },
+          {
+            "type": "Ointments",
+            "first_roll": "367-368",
+            "first_item": "of Blessing",
+            "table_banner": "Table A: Magical Liquids"
+          },
+          {
+            "type": "Perfumes",
+            "first_roll": "413-414",
+            "first_item": "Aroma of Dreams",
+            "table_banner": "Table A: Magical Liquids"
+          },
+          {
+            "type": "Philters",
+            "first_roll": "424-425",
+            "first_item": "Aleose's of Overwhelming Love",
+            "table_banner": "Table A: Magical Liquids"
+          },
+          {
+            "type": "Pigments (Paints)",
+            "first_roll": "446-447",
+            "first_item": "Bell's Palette of Identity",
+            "table_banner": "Table A: Magical Liquids"
+          },
+          {
+            "type": "Potions",
+            "first_roll": "464-465",
+            "first_item": "of Absorption",
+            "table_banner": "Table A: Magical Liquids"
+          }
+        ],
+        "confidence": "Fairly confident: six clear bold TYPE sub-headers (Oils, Ointments, Perfumes, Philters, Pigments (Paints), Potions) with first rolls read directly beneath each; \"Magical Liquids\" is treated as the Table A category banner rather than a type, and no explicit \"Table A:\" banner text is printed on this page so the banner is inferred."
+      },
+      {
+        "page": 3,
+        "headers": [
+          {
+            "type": "Potions",
+            "first_roll": "654-655",
+            "first_item": "of Forgetfulness II",
+            "table_banner": ""
+          },
+          {
+            "type": "Salves",
+            "first_roll": "983-984",
+            "first_item": "of Far Seeing",
+            "table_banner": ""
+          },
+          {
+            "type": "Sea Dew",
+            "first_roll": "989",
+            "first_item": "Sea Dew",
+            "table_banner": ""
+          },
+          {
+            "type": "Water",
+            "first_roll": "994-995",
+            "first_item": "Blessed",
+            "table_banner": ""
+          },
+          {
+            "type": "Papers",
+            "first_roll": "11-20",
+            "first_item": "of Forms",
+            "table_banner": "Table B: Scrolls"
+          },
+          {
+            "type": "Parchments",
+            "first_roll": "31-40",
+            "first_item": "of Looping",
+            "table_banner": "Table B: Scrolls"
+          },
+          {
+            "type": "Scrolls",
+            "first_roll": "81-90",
+            "first_item": "of Animal Growth",
+            "table_banner": "Table B: Scrolls"
+          }
+        ],
+        "confidence": "High confidence — all seven sub-headers read cleanly; \"Sea Dew\" is a single-item type header, and Potions/Salves/Sea Dew/Water fall under Table A (no banner on this page), while Papers/Parchments/Scrolls sit under the visible \"Table B: Scrolls\" banner."
+      },
+      {
+        "page": 4,
+        "headers": [
+          {
+            "type": "Scrolls",
+            "first_roll": "331-340",
+            "first_item": "Mondasso's Automated Spell",
+            "table_banner": ""
+          },
+          {
+            "type": "Enchanted Enhancements*",
+            "first_roll": "04-07",
+            "first_item": "of Leadership",
+            "table_banner": "Table C: Rings"
+          }
+        ],
+        "confidence": "Fairly confident: two bold sub-headers found — \"Scrolls\" (continuing from a prior page, no banner visible) and \"Enchanted Enhancements*\" which sits at roll 01-03 as the first grouping under the \"Table C: Rings\" banner, with its first following item being 04-07 \"of Leadership\"."
+      },
+      {
+        "page": 5,
+        "headers": [
+          {
+            "type": "Enchanted Enhancements*",
+            "first_roll": "01-15",
+            "first_item": "Enchanted Enhancements*",
+            "table_banner": "Table D: Rods"
+          },
+          {
+            "type": "Moto Moto Rods",
+            "first_roll": "16-30",
+            "first_item": "of Beguiling",
+            "table_banner": "Table D: Rods"
+          },
+          {
+            "type": "Rods",
+            "first_roll": "76-90",
+            "first_item": "of Absorption",
+            "table_banner": "Table D: Rods"
+          },
+          {
+            "type": "Enchanted Enhancements*",
+            "first_roll": "01-07",
+            "first_item": "Enchanted Enhancements*",
+            "table_banner": "Table E: Staves"
+          },
+          {
+            "type": "Canes",
+            "first_roll": "08-14",
+            "first_item": "of Age",
+            "table_banner": "Table E: Staves"
+          },
+          {
+            "type": "Gaffs",
+            "first_roll": "51-57",
+            "first_item": "of Docking",
+            "table_banner": "Table E: Staves"
+          },
+          {
+            "type": "Staves",
+            "first_roll": "80-86",
+            "first_item": "of Air and Water",
+            "table_banner": "Table E: Staves"
+          }
+        ],
+        "confidence": "Fairly confident: the two \"Table X\" banners (D: Rods, E: Staves) and their bold sub-headers (Enchanted Enhancements*, Moto Moto Rods, Rods; and Enchanted Enhancements*, Canes, Gaffs, Staves) are clearly legible, though \"Moto Moto Rods\" is an unusual header and I read the first rolls carefully against the small print."
+      },
+      {
+        "page": 6,
+        "headers": [
+          {
+            "type": "Staves",
+            "first_roll": "123-129",
+            "first_item": "of Battle II",
+            "table_banner": ""
+          },
+          {
+            "type": "Wands",
+            "first_roll": "01-08",
+            "first_item": "Enchanted Enhancements*",
+            "table_banner": "Table F: Wands"
+          }
+        ],
+        "confidence": "High confidence: two bold sub-headers are visible — \"Staves\" (continuing from a prior page, first item 123-129 of Battle II) and the \"Wands\" section under the \"Table F: Wands\" banner (first row 01-08 Enchanted Enhancements*); rolls read carefully from the scan."
+      },
+      {
+        "page": 7,
+        "headers": [
+          {
+            "type": "Wands",
+            "first_roll": "914-922",
+            "first_item": "of Whips",
+            "table_banner": ""
+          },
+          {
+            "type": "Books",
+            "first_roll": "04-07",
+            "first_item": "of Binding Souls",
+            "table_banner": "Table G: Books"
+          },
+          {
+            "type": "Librams",
+            "first_roll": "51-54",
+            "first_item": "Analect of Magic",
+            "table_banner": "Table G: Books"
+          },
+          {
+            "type": "Manuals",
+            "first_roll": "197-200",
+            "first_item": "Grim Grimoire",
+            "table_banner": "Table G: Books"
+          },
+          {
+            "type": "Maps",
+            "first_roll": "212-214",
+            "first_item": "Dane's Version",
+            "table_banner": "Table G: Books"
+          },
+          {
+            "type": "Spellbooks",
+            "first_roll": "281-283",
+            "first_item": "The Alcaister",
+            "table_banner": "Table G: Books"
+          }
+        ],
+        "confidence": "High confidence: six sub-headers found (Wands continuation, Books, Librams, Manuals, Maps, Spellbooks); Table G: Books banner is clearly visible; rolls read carefully from the three-column layout."
+      },
+      {
+        "page": 8,
+        "headers": [
+          {
+            "type": "Spellbooks",
+            "first_roll": "681-684",
+            "first_item": "Planes of Antimatter",
+            "table_banner": ""
+          },
+          {
+            "type": "Tomes",
+            "first_roll": "907-910",
+            "first_item": "of Bodily Health",
+            "table_banner": ""
+          },
+          {
+            "type": "Amulets",
+            "first_roll": "01",
+            "first_item": "of the Abyss",
+            "table_banner": "Table H: Gems and Jewelry"
+          },
+          {
+            "type": "Ankhs",
+            "first_roll": "157-158",
+            "first_item": "of Life",
+            "table_banner": "Table H: Gems and Jewelry"
+          },
+          {
+            "type": "Badges",
+            "first_roll": "175-176",
+            "first_item": "of Freedom",
+            "table_banner": "Table H: Gems and Jewelry"
+          },
+          {
+            "type": "Bracelets",
+            "first_roll": "79-180",
+            "first_item": "Copper",
+            "table_banner": "Table H: Gems and Jewelry"
+          },
+          {
+            "type": "Brooches",
+            "first_roll": "197",
+            "first_item": "Abbor Alz's of Warning",
+            "table_banner": "Table H: Gems and Jewelry"
+          },
+          {
+            "type": "Cameos",
+            "first_roll": "220-221",
+            "first_item": "of Appearance",
+            "table_banner": "Table H: Gems and Jewelry"
+          },
+          {
+            "type": "Charms",
+            "first_roll": "225-227",
+            "first_item": "of Boot Restoration",
+            "table_banner": "Table H: Gems and Jewelry"
+          }
+        ],
+        "confidence": "High confidence on all nine sub-headers and their first rows; Bracelets' first roll prints as \"79-180\" (likely a scan-clipped \"179-180\") and Spellbooks/Tomes are continuation headers from the prior Table G page."
+      },
+      {
+        "page": 9,
+        "headers": [
+          {
+            "type": "Charms",
+            "first_roll": "234-235",
+            "first_item": "Luck",
+            "table_banner": ""
+          },
+          {
+            "type": "Crowns",
+            "first_roll": "257-258",
+            "first_item": "Black of Aerdy",
+            "table_banner": ""
+          },
+          {
+            "type": "Crystals",
+            "first_roll": "306-307",
+            "first_item": "Abelaat",
+            "table_banner": ""
+          },
+          {
+            "type": "Earrings",
+            "first_roll": "318-319",
+            "first_item": "of Alignment Detection",
+            "table_banner": ""
+          },
+          {
+            "type": "Eyes",
+            "first_roll": "338-339",
+            "first_item": "of Accuracy",
+            "table_banner": ""
+          },
+          {
+            "type": "Glass",
+            "first_roll": "377-378",
+            "first_item": "of Petrification",
+            "table_banner": ""
+          },
+          {
+            "type": "Eyeglasses",
+            "first_roll": "385-386",
+            "first_item": "of Arcanist",
+            "table_banner": ""
+          },
+          {
+            "type": "Gems",
+            "first_roll": "398-399",
+            "first_item": "of Atonement",
+            "table_banner": ""
+          },
+          {
+            "type": "Goggles",
+            "first_roll": "518-519",
+            "first_item": "of Underwater Sight",
+            "table_banner": ""
+          },
+          {
+            "type": "Hearts",
+            "first_roll": "522-523",
+            "first_item": "Beating",
+            "table_banner": ""
+          },
+          {
+            "type": "Holy Symbols",
+            "first_roll": "540",
+            "first_item": "of Greyhawk",
+            "table_banner": ""
+          },
+          {
+            "type": "Icons",
+            "first_roll": "557-558",
+            "first_item": "of Chemosh",
+            "table_banner": ""
+          },
+          {
+            "type": "Leaves",
+            "first_roll": "571-572",
+            "first_item": "Book",
+            "table_banner": ""
+          },
+          {
+            "type": "Lenses",
+            "first_roll": "594-595",
+            "first_item": "of Activity Detection",
+            "table_banner": ""
+          },
+          {
+            "type": "Lockets",
+            "first_roll": "634-635",
+            "first_item": "of the Great Kingdom",
+            "table_banner": ""
+          },
+          {
+            "type": "Medallions",
+            "first_roll": "639-640",
+            "first_item": "of the Arctic",
+            "table_banner": ""
+          }
+        ],
+        "confidence": "High confidence on the 16 sub-headers and their first rolls/items; the only slightly ambiguous case is \"Eyepatch of Tenh\" (roll 393) which sits between the Eyeglasses list and Gems header as a standalone single-item entry rather than a type sub-header, so I treated it as an item and not a header."
+      },
+      {
+        "page": 10,
+        "headers": [
+          {
+            "type": "Medallions",
+            "first_roll": "653-654",
+            "first_item": "Holy of Almor",
+            "table_banner": ""
+          },
+          {
+            "type": "Monocles",
+            "first_roll": "687",
+            "first_item": "Fire-Eye",
+            "table_banner": ""
+          },
+          {
+            "type": "Necklaces",
+            "first_roll": "688-689",
+            "first_item": "of Adaptation",
+            "table_banner": ""
+          },
+          {
+            "type": "Pearls",
+            "first_roll": "749-750",
+            "first_item": "Black",
+            "table_banner": ""
+          },
+          {
+            "type": "Pendants",
+            "first_roll": "786-787",
+            "first_item": "Equus",
+            "table_banner": ""
+          },
+          {
+            "type": "Periapts",
+            "first_roll": "792-793",
+            "first_item": "of Foul Rotting",
+            "table_banner": ""
+          },
+          {
+            "type": "Phylacteries",
+            "first_roll": "806-807",
+            "first_item": "of Bravery",
+            "table_banner": ""
+          },
+          {
+            "type": "Prisms",
+            "first_roll": "818-819",
+            "first_item": "of Distraction",
+            "table_banner": ""
+          },
+          {
+            "type": "Scarabs",
+            "first_roll": "830-831",
+            "first_item": "Benson's of Uncertain Friendship",
+            "table_banner": ""
+          },
+          {
+            "type": "Scepters",
+            "first_roll": "863-864",
+            "first_item": "Blast",
+            "table_banner": ""
+          },
+          {
+            "type": "Scopes",
+            "first_roll": "884-885",
+            "first_item": "of Celestial Analysis",
+            "table_banner": ""
+          },
+          {
+            "type": "Talismans",
+            "first_roll": "900-901",
+            "first_item": "Badger Beast",
+            "table_banner": ""
+          },
+          {
+            "type": "Torcs",
+            "first_roll": "982-983",
+            "first_item": "Belenus's",
+            "table_banner": ""
+          },
+          {
+            "type": "Capes",
+            "first_roll": "07-12",
+            "first_item": "of Disguise",
+            "table_banner": "Table I: Clothing"
+          },
+          {
+            "type": "Cloaks",
+            "first_roll": "61-66",
+            "first_item": "of Appearance",
+            "table_banner": "Table I: Clothing"
+          }
+        ],
+        "confidence": "High confidence: all 15 bold TYPE sub-headers across the three columns were captured in reading order; the \"Table I: Clothing\" banner appears in column 3, so only Capes and Cloaks fall under it while the earlier sections have no banner visible on this page."
+      },
+      {
+        "page": 11,
+        "headers": [
+          {
+            "type": "Cloaks",
+            "first_roll": "195-200",
+            "first_item": "Bronze Dragon",
+            "table_banner": ""
+          },
+          {
+            "type": "Cloth",
+            "first_roll": "536-542",
+            "first_item": "of Cleanliness",
+            "table_banner": ""
+          },
+          {
+            "type": "Coats",
+            "first_roll": "579-584",
+            "first_item": "Fare's of Protection",
+            "table_banner": ""
+          },
+          {
+            "type": "Dresses",
+            "first_roll": "603-609",
+            "first_item": "of Amazement",
+            "table_banner": ""
+          },
+          {
+            "type": "Furs",
+            "first_roll": "616-621",
+            "first_item": "Anagakok",
+            "table_banner": ""
+          },
+          {
+            "type": "Gowns",
+            "first_roll": "640-645",
+            "first_item": "Loriell's",
+            "table_banner": ""
+          },
+          {
+            "type": "Robes",
+            "first_roll": "658-663",
+            "first_item": "Aba of the Desert",
+            "table_banner": ""
+          },
+          {
+            "type": "Shirts",
+            "first_roll": "902-907",
+            "first_item": "War (AC 1)",
+            "table_banner": ""
+          },
+          {
+            "type": "Stockings",
+            "first_roll": "938-943",
+            "first_item": "of Elf Summoning",
+            "table_banner": ""
+          },
+          {
+            "type": "Tunics",
+            "first_roll": "957-962",
+            "first_item": "of Glory",
+            "table_banner": ""
+          },
+          {
+            "type": "Vests",
+            "first_roll": "975-980",
+            "first_item": "of Attraction",
+            "table_banner": ""
+          },
+          {
+            "type": "Vestments",
+            "first_roll": "987-992",
+            "first_item": "Greater of Power",
+            "table_banner": ""
+          },
+          {
+            "type": "Anklets",
+            "first_roll": "01-05",
+            "first_item": "Enchanted Enhancements*",
+            "table_banner": "Table J: Boots, Gloves, and Accessories"
+          },
+          {
+            "type": "Armbands",
+            "first_roll": "48-52",
+            "first_item": "of Comfort of Sleep",
+            "table_banner": "Table J: Boots, Gloves, and Accessories"
+          },
+          {
+            "type": "Bands",
+            "first_roll": "95-99",
+            "first_item": "of the Arachnid",
+            "table_banner": "Table J: Boots, Gloves, and Accessories"
+          },
+          {
+            "type": "Boots",
+            "first_roll": "136-141",
+            "first_item": "of Attraction",
+            "table_banner": "Table J: Boots, Gloves, and Accessories"
+          },
+          {
+            "type": "Bracers",
+            "first_roll": "342-346",
+            "first_item": "of Archery",
+            "table_banner": "Table J: Boots, Gloves, and Accessories"
+          },
+          {
+            "type": "Claws",
+            "first_roll": "424-429",
+            "first_item": "of Magic Stealing",
+            "table_banner": "Table J: Boots, Gloves, and Accessories"
+          }
+        ],
+        "confidence": "High confidence; all 18 bold TYPE sub-headers were identified in reading order, and the \"Table J: Boots, Gloves, and Accessories\" banner appears mid-page (below Vestments in column 2), so Anklets onward fall under it while the earlier clothing headers have no banner visible on this page."
+      },
+      {
+        "page": 12,
+        "headers": [
+          {
+            "type": "Claws",
+            "first_roll": "453-458",
+            "first_item": "Twisted",
+            "table_banner": ""
+          },
+          {
+            "type": "Collars",
+            "first_roll": "465-470",
+            "first_item": "of Change",
+            "table_banner": ""
+          },
+          {
+            "type": "Gauntlets",
+            "first_roll": "512-517",
+            "first_item": "Claw of the Bear",
+            "table_banner": ""
+          },
+          {
+            "type": "Gloves",
+            "first_roll": "671-676",
+            "first_item": "Black Hand",
+            "table_banner": ""
+          },
+          {
+            "type": "Hands",
+            "first_roll": "812-817",
+            "first_item": "Balacer's",
+            "table_banner": ""
+          },
+          {
+            "type": "Peglegs",
+            "first_roll": "865-870",
+            "first_item": "of Immurk the Invincible",
+            "table_banner": ""
+          },
+          {
+            "type": "Shoes",
+            "first_roll": "877-882",
+            "first_item": "of Fharlanghn",
+            "table_banner": ""
+          },
+          {
+            "type": "Slippers",
+            "first_roll": "912-917",
+            "first_item": "Bahija's of Spider Climbing",
+            "table_banner": ""
+          },
+          {
+            "type": "Socks",
+            "first_roll": "988-993",
+            "first_item": "of Dryness",
+            "table_banner": ""
+          },
+          {
+            "type": "Belts",
+            "first_roll": "06-11",
+            "first_item": "Arcane",
+            "table_banner": "Table K: Girdles and Helmets"
+          },
+          {
+            "type": "Buckles",
+            "first_roll": "111-116",
+            "first_item": "of Armor",
+            "table_banner": "Table K: Girdles and Helmets"
+          },
+          {
+            "type": "Caps",
+            "first_roll": "146-151",
+            "first_item": "of the Beguiler",
+            "table_banner": "Table K: Girdles and Helmets"
+          },
+          {
+            "type": "Circlets",
+            "first_roll": "210-214",
+            "first_item": "of the Adder",
+            "table_banner": "Table K: Girdles and Helmets"
+          },
+          {
+            "type": "Girdles",
+            "first_roll": "274-278",
+            "first_item": "of Back Defense",
+            "table_banner": "Table K: Girdles and Helmets"
+          },
+          {
+            "type": "Hats",
+            "first_roll": "337-342",
+            "first_item": "of Command",
+            "table_banner": "Table K: Girdles and Helmets"
+          },
+          {
+            "type": "Headbands",
+            "first_roll": "436-441",
+            "first_item": "of the Corusk Mountains",
+            "table_banner": "Table K: Girdles and Helmets"
+          },
+          {
+            "type": "Helmets",
+            "first_roll": "454-458",
+            "first_item": "of Alignment Change",
+            "table_banner": "Table K: Girdles and Helmets"
+          }
+        ],
+        "confidence": "High confidence — I read all three columns top-to-bottom and captured all 17 bold TYPE sub-headers; the \"Circlets\" header first row reads 210-214 \"of the Adder\" and the Table K banner precedes Belts, though a couple of long fragment item names could have minor transcription nuances."
+      },
+      {
+        "page": 13,
+        "headers": [
+          {
+            "type": "Masks",
+            "first_roll": "674-679",
+            "first_item": "Air",
+            "table_banner": ""
+          },
+          {
+            "type": "Sashes",
+            "first_roll": "948-952",
+            "first_item": "of Fire Resistance",
+            "table_banner": ""
+          },
+          {
+            "type": "Turbans",
+            "first_roll": "977-981",
+            "first_item": "Feather",
+            "table_banner": ""
+          },
+          {
+            "type": "Bags",
+            "first_roll": "04-07",
+            "first_item": "Backpack of Holding",
+            "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+          },
+          {
+            "type": "Bowls",
+            "first_roll": "299-302",
+            "first_item": "of Blood",
+            "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+          },
+          {
+            "type": "Barrels",
+            "first_roll": "181-184",
+            "first_item": "of Hiding",
+            "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+          },
+          {
+            "type": "Basins",
+            "first_roll": "205-208",
+            "first_item": "of the CG Angel",
+            "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+          },
+          {
+            "type": "Beakers",
+            "first_roll": "225-227",
+            "first_item": "of Cures",
+            "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+          },
+          {
+            "type": "Bedroll of Dryness",
+            "first_roll": "232-235",
+            "first_item": "Bedroll of Dryness",
+            "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+          },
+          {
+            "type": "Bottles",
+            "first_roll": "236-239",
+            "first_item": "Brazen",
+            "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+          },
+          {
+            "type": "Boxes",
+            "first_roll": "323-326",
+            "first_item": "Burglar Detection",
+            "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+          },
+          {
+            "type": "Braziers",
+            "first_roll": "413-416",
+            "first_item": "of Commanding Fire Elementals",
+            "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+          },
+          {
+            "type": "Cabinets",
+            "first_roll": "429-432",
+            "first_item": "of Air Restoration",
+            "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+          },
+          {
+            "type": "Cages",
+            "first_roll": "445-448",
+            "first_item": "of Carrying",
+            "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+          },
+          {
+            "type": "Cans",
+            "first_roll": "460-463",
+            "first_item": "of Cant",
+            "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+          },
+          {
+            "type": "Canisters",
+            "first_roll": "489-491",
+            "first_item": "of Condiments",
+            "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+          },
+          {
+            "type": "Canteens",
+            "first_roll": "496-499",
+            "first_item": "of Coolness",
+            "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+          },
+          {
+            "type": "Cases",
+            "first_roll": "507-510",
+            "first_item": "of Compression",
+            "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+          },
+          {
+            "type": "Casks",
+            "first_roll": "527-530",
+            "first_item": "Everfull",
+            "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+          },
+          {
+            "type": "Cauldrons",
+            "first_roll": "535-538",
+            "first_item": "of Ambrosia",
+            "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+          }
+        ],
+        "confidence": "High confidence on the sub-headers and rolls; the one judgment call is \"Bedroll of Dryness\" which is bold but a single-item row (232-235), so I recorded it as its own header."
+      },
+      {
+        "page": 14,
+        "headers": [],
+        "confidence": "Very confident: page 14 is a full-page color illustration (battle scene, page number 1580) with no table content or TYPE sub-headers."
+      },
+      {
+        "page": 15,
+        "headers": [
+          {
+            "type": "Cauldrons",
+            "first_roll": "566-569",
+            "first_item": "of Healing",
+            "table_banner": ""
+          },
+          {
+            "type": "Censers",
+            "first_roll": "602-605",
+            "first_item": "of Conduct",
+            "table_banner": ""
+          },
+          {
+            "type": "Chalices",
+            "first_roll": "621-624",
+            "first_item": "of Colors",
+            "table_banner": ""
+          },
+          {
+            "type": "Chests",
+            "first_roll": "669-672",
+            "first_item": "of Drawers",
+            "table_banner": ""
+          },
+          {
+            "type": "Coffins",
+            "first_roll": "696-699",
+            "first_item": "Casket of Furyondy",
+            "table_banner": ""
+          },
+          {
+            "type": "Containers",
+            "first_roll": "708-711",
+            "first_item": "Fireproof",
+            "table_banner": ""
+          },
+          {
+            "type": "Decanters",
+            "first_roll": "724-727",
+            "first_item": "Carrague's of Endless Steam",
+            "table_banner": ""
+          },
+          {
+            "type": "Flagons",
+            "first_roll": "743-746",
+            "first_item": "of Dragons",
+            "table_banner": ""
+          },
+          {
+            "type": "Flasks",
+            "first_roll": "755-758",
+            "first_item": "Copper",
+            "table_banner": ""
+          },
+          {
+            "type": "Goblets",
+            "first_roll": "775-778",
+            "first_item": "of Glory",
+            "table_banner": ""
+          },
+          {
+            "type": "Horns",
+            "first_roll": "799-801",
+            "first_item": "Hold of Holding",
+            "table_banner": ""
+          },
+          {
+            "type": "Jars",
+            "first_roll": "818-821",
+            "first_item": "Borieflin's of Steam",
+            "table_banner": ""
+          },
+          {
+            "type": "Jugs",
+            "first_roll": "830-833",
+            "first_item": "Amorpha",
+            "table_banner": ""
+          },
+          {
+            "type": "Kettles",
+            "first_roll": "857-860",
+            "first_item": "of Breathing",
+            "table_banner": ""
+          },
+          {
+            "type": "Mugs",
+            "first_roll": "881-884",
+            "first_item": "Leomund's",
+            "table_banner": ""
+          },
+          {
+            "type": "Pitchers",
+            "first_roll": "893-896",
+            "first_item": "of Blending",
+            "table_banner": ""
+          },
+          {
+            "type": "Prisons",
+            "first_roll": "904-907",
+            "first_item": "Castellan's Magical",
+            "table_banner": ""
+          },
+          {
+            "type": "Scabbards",
+            "first_roll": "920-923",
+            "first_item": "of Holding",
+            "table_banner": ""
+          },
+          {
+            "type": "Sheaths",
+            "first_roll": "928-931",
+            "first_item": "of Frogs",
+            "table_banner": ""
+          },
+          {
+            "type": "Tubs",
+            "first_roll": "944-947",
+            "first_item": "of Fat",
+            "table_banner": ""
+          },
+          {
+            "type": "Urns",
+            "first_roll": "967-970",
+            "first_item": "of Ashes",
+            "table_banner": ""
+          },
+          {
+            "type": "Air Spores",
+            "first_roll": "03-04",
+            "first_item": "Air Spores",
+            "table_banner": "Table M: Dust and Stones"
+          },
+          {
+            "type": "Apples",
+            "first_roll": "07-09",
+            "first_item": "of Bragi",
+            "table_banner": "Table M: Dust and Stones"
+          },
+          {
+            "type": "Beads",
+            "first_roll": "12-13",
+            "first_item": "of Accuracy",
+            "table_banner": "Table M: Dust and Stones"
+          },
+          {
+            "type": "Berries",
+            "first_roll": "46-48",
+            "first_item": "Fireberries",
+            "table_banner": "Table M: Dust and Stones"
+          },
+          {
+            "type": "Bones",
+            "first_roll": "51-52",
+            "first_item": "of Animation",
+            "table_banner": "Table M: Dust and Stones"
+          },
+          {
+            "type": "Candles",
+            "first_roll": "92-93",
+            "first_item": "Black",
+            "table_banner": "Table M: Dust and Stones"
+          },
+          {
+            "type": "Cheeses",
+            "first_roll": "181-183",
+            "first_item": "of Odors",
+            "table_banner": "Table M: Dust and Stones"
+          },
+          {
+            "type": "Dust",
+            "first_roll": "188-190",
+            "first_item": "of Absorption",
+            "table_banner": "Table M: Dust and Stones"
+          }
+        ],
+        "confidence": "High confidence on the sub-headers and roll ranges; two isolated bold items (Coal \"of Warmth\" and the Cheeses \"Coal of Warmth\" line) and single-item entries like \"Buttercup's Bouquet\"/\"Bean of Ooze Slime and Jelly\" were treated as items not type headers, which is the main judgment call."
+      },
+      {
+        "page": 16,
+        "headers": [
+          {
+            "type": "Dust",
+            "first_roll": "202-203",
+            "first_item": "of Blending",
+            "table_banner": ""
+          },
+          {
+            "type": "Eggs",
+            "first_roll": "266-267",
+            "first_item": "Antimagic",
+            "table_banner": ""
+          },
+          {
+            "type": "Feathers",
+            "first_roll": "410-412",
+            "first_item": "Feathertoken",
+            "table_banner": ""
+          },
+          {
+            "type": "Fingers",
+            "first_roll": "422-423",
+            "first_item": "of Commanding",
+            "table_banner": ""
+          },
+          {
+            "type": "Incense",
+            "first_roll": "438-439",
+            "first_item": "of Meditation",
+            "table_banner": ""
+          },
+          {
+            "type": "Ioun Stones",
+            "first_roll": "445-446",
+            "first_item": "Balian's Feather",
+            "table_banner": ""
+          },
+          {
+            "type": "Marbles",
+            "first_roll": "534-535",
+            "first_item": "Cat's Eye",
+            "table_banner": ""
+          },
+          {
+            "type": "Pies",
+            "first_roll": "548-549",
+            "first_item": "of Four-and-Twenty Blackbirds",
+            "table_banner": ""
+          },
+          {
+            "type": "Powders",
+            "first_roll": "557-558",
+            "first_item": "Absinthe",
+            "table_banner": ""
+          }
+        ],
+        "confidence": "Fairly confident on the ten category headers and their roll ranges; note Plumastone (555-556) and single-item bold entries like Eternal Peanut, Fingernail of Rending, Gas of Dreadful Sleep, Grains of Discomfort, Four-Leaf Clover appear to be individual items rather than list headers, so I excluded them, though Plumastone is ambiguous."
+      },
+      {
+        "page": 17,
+        "headers": [
+          {
+            "type": "Powders",
+            "first_roll": "706-707",
+            "first_item": "Jamaica",
+            "table_banner": ""
+          },
+          {
+            "type": "Rocks",
+            "first_roll": "825-826",
+            "first_item": "Rakasta Tea",
+            "table_banner": ""
+          },
+          {
+            "type": "Roses",
+            "first_roll": "834-835",
+            "first_item": "of Eternal Slumber",
+            "table_banner": ""
+          },
+          {
+            "type": "Seeds",
+            "first_roll": "848-849",
+            "first_item": "Dragon Lily",
+            "table_banner": ""
+          },
+          {
+            "type": "Smoke",
+            "first_roll": "875-877",
+            "first_item": "of Fire Quenching",
+            "table_banner": ""
+          },
+          {
+            "type": "Soaps",
+            "first_roll": "880-881",
+            "first_item": "of Abrasion",
+            "table_banner": ""
+          },
+          {
+            "type": "Stones",
+            "first_roll": "884-886",
+            "first_item": "Beauregard's Beautiful Bauble",
+            "table_banner": ""
+          },
+          {
+            "type": "Tarts",
+            "first_roll": "962-964",
+            "first_item": "of Accusation",
+            "table_banner": ""
+          },
+          {
+            "type": "Tooth",
+            "first_roll": "971-973",
+            "first_item": "of Dahlver-nar",
+            "table_banner": ""
+          },
+          {
+            "type": "Waxes",
+            "first_roll": "978-980",
+            "first_item": "of Careful Hearing",
+            "table_banner": ""
+          },
+          {
+            "type": "Weeds",
+            "first_roll": "992-993",
+            "first_item": "Rapture",
+            "table_banner": ""
+          },
+          {
+            "type": "Anvils",
+            "first_roll": "04-05",
+            "first_item": "High of the Dwarves",
+            "table_banner": "Table N: Household Items"
+          },
+          {
+            "type": "Aprons",
+            "first_roll": "10-11",
+            "first_item": "of Comfort",
+            "table_banner": "Table N: Household Items"
+          },
+          {
+            "type": "Armor Bath",
+            "first_roll": "18-19",
+            "first_item": "",
+            "table_banner": "Table N: Household Items"
+          },
+          {
+            "type": "Art",
+            "first_roll": "20-21",
+            "first_item": "Blue on Bronze",
+            "table_banner": "Table N: Household Items"
+          },
+          {
+            "type": "Awls",
+            "first_roll": "41-42",
+            "first_item": "Full",
+            "table_banner": "Table N: Household Items"
+          },
+          {
+            "type": "Balance Scales",
+            "first_roll": "49",
+            "first_item": "of Conversion",
+            "table_banner": "Table N: Household Items"
+          },
+          {
+            "type": "Banners",
+            "first_roll": "56-57",
+            "first_item": "of Attraction",
+            "table_banner": "Table N: Household Items"
+          },
+          {
+            "type": "Beholder Mouthpicks",
+            "first_roll": "93-94",
+            "first_item": "Fangpick",
+            "table_banner": "Table N: Household Items"
+          },
+          {
+            "type": "Bellows",
+            "first_roll": "97",
+            "first_item": "of Breath",
+            "table_banner": "Table N: Household Items"
+          },
+          {
+            "type": "Benches",
+            "first_roll": "102-103",
+            "first_item": "of Encumbrance",
+            "table_banner": "Table N: Household Items"
+          },
+          {
+            "type": "Black Wall",
+            "first_roll": "108-109",
+            "first_item": "Black Wall",
+            "table_banner": "Table N: Household Items"
+          },
+          {
+            "type": "Blankets",
+            "first_roll": "110-111",
+            "first_item": "of Comfort",
+            "table_banner": "Table N: Household Items"
+          },
+          {
+            "type": "Brooms",
+            "first_roll": "120",
+            "first_item": "of Animated Attack",
+            "table_banner": "Table N: Household Items"
+          },
+          {
+            "type": "Brushes",
+            "first_roll": "131-132",
+            "first_item": "of Colors",
+            "table_banner": "Table N: Household Items"
+          },
+          {
+            "type": "Buttons",
+            "first_roll": "139-140",
+            "first_item": "of Blasting",
+            "table_banner": "Table N: Household Items"
+          }
+        ],
+        "confidence": "High confidence on all sub-headers and roll ranges; the only uncertainty is \"Armor Bath\" (roll 18-19) which appears as a header with no visible first item row directly beneath it, and \"Black Wall\" whose roll 108-109 doubles as its own single entry."
+      },
+      {
+        "page": 18,
+        "headers": [
+          {
+            "type": "Buttons",
+            "first_roll": "146-147",
+            "first_item": "of Rosy Vision",
+            "table_banner": ""
+          },
+          {
+            "type": "Candle Snuffers",
+            "first_roll": "148-149",
+            "first_item": "of Death",
+            "table_banner": ""
+          },
+          {
+            "type": "Carpets",
+            "first_roll": "158-159",
+            "first_item": "Accursed",
+            "table_banner": ""
+          },
+          {
+            "type": "Chairs",
+            "first_roll": "181-182",
+            "first_item": "of Amnesia",
+            "table_banner": ""
+          },
+          {
+            "type": "Cords",
+            "first_roll": "202-203",
+            "first_item": "of Binding",
+            "table_banner": ""
+          },
+          {
+            "type": "Cots",
+            "first_roll": "210-211",
+            "first_item": "of Entrapment",
+            "table_banner": ""
+          },
+          {
+            "type": "Curtains",
+            "first_roll": "216",
+            "first_item": "of Death",
+            "table_banner": ""
+          },
+          {
+            "type": "Desks",
+            "first_roll": "223-224",
+            "first_item": "of Restudying",
+            "table_banner": ""
+          },
+          {
+            "type": "Doors",
+            "first_roll": "229-230",
+            "first_item": "Magical",
+            "table_banner": ""
+          },
+          {
+            "type": "Fans",
+            "first_roll": "265-266",
+            "first_item": "of Charming",
+            "table_banner": ""
+          },
+          {
+            "type": "Fishing Poles",
+            "first_roll": "283-284",
+            "first_item": "of Angling",
+            "table_banner": ""
+          },
+          {
+            "type": "Forks",
+            "first_roll": "296-297",
+            "first_item": "Planar",
+            "table_banner": ""
+          },
+          {
+            "type": "Gavels",
+            "first_roll": "302-303",
+            "first_item": "of Auctions",
+            "table_banner": ""
+          },
+          {
+            "type": "Grappling Irons",
+            "first_roll": "310-311",
+            "first_item": "Enchanted",
+            "table_banner": ""
+          },
+          {
+            "type": "Hammocks",
+            "first_roll": "317-318",
+            "first_item": "of Entrapment",
+            "table_banner": ""
+          },
+          {
+            "type": "Handkerchiefs",
+            "first_roll": "322-323",
+            "first_item": "of Length",
+            "table_banner": ""
+          },
+          {
+            "type": "Harnesses",
+            "first_roll": "327-328",
+            "first_item": "of Seker",
+            "table_banner": ""
+          },
+          {
+            "type": "Hasps",
+            "first_roll": "331-332",
+            "first_item": "of Locking",
+            "table_banner": ""
+          },
+          {
+            "type": "Hinges",
+            "first_roll": "335-336",
+            "first_item": "of Opening",
+            "table_banner": ""
+          },
+          {
+            "type": "Hourglasses",
+            "first_roll": "340-341",
+            "first_item": "Auqhol's Type I",
+            "table_banner": ""
+          },
+          {
+            "type": "Inkwells",
+            "first_roll": "358-359",
+            "first_item": "of Concealment",
+            "table_banner": ""
+          },
+          {
+            "type": "Irons",
+            "first_roll": "363-364",
+            "first_item": "of Imprisonment",
+            "table_banner": ""
+          },
+          {
+            "type": "Keys",
+            "first_roll": "375-376",
+            "first_item": "Courier",
+            "table_banner": ""
+          },
+          {
+            "type": "Maps",
+            "first_roll": "385-387",
+            "first_item": "of Opening",
+            "table_banner": ""
+          },
+          {
+            "type": "Ladders",
+            "first_roll": "421-422",
+            "first_item": "of Balance",
+            "table_banner": ""
+          },
+          {
+            "type": "Ladles",
+            "first_roll": "429-430",
+            "first_item": "of Candlemaking",
+            "table_banner": ""
+          },
+          {
+            "type": "Lamps",
+            "first_roll": "436-437",
+            "first_item": "Bashal's Tendrilight",
+            "table_banner": ""
+          },
+          {
+            "type": "Locks",
+            "first_roll": "496-497",
+            "first_item": "Nolte's Locks and Bolts",
+            "table_banner": ""
+          },
+          {
+            "type": "Logs",
+            "first_roll": "500-501",
+            "first_item": "of Burning",
+            "table_banner": ""
+          },
+          {
+            "type": "Matches",
+            "first_roll": "513-514",
+            "first_item": "Magical",
+            "table_banner": ""
+          },
+          {
+            "type": "Mirrors",
+            "first_roll": "517-518",
+            "first_item": "Baltron's Hand",
+            "table_banner": ""
+          }
+        ],
+        "confidence": "High confidence: all three columns read top-to-bottom, left-to-right; distinguished bold category sub-headers (no roll range, heading multiple item rows) from bold single-item entries like \"Fishing Lure\", \"Forge of Metal Protection\", \"Gauze of Appearance\", \"Gem Cutter's Tools of Sunndi\", \"Hook of Adherence\", and \"Lizardskin Bed\" which were excluded; no \"Table X\" banner appears on this page."
+      },
+      {
+        "page": 19,
+        "headers": [
+          {
+            "type": "Mirrors",
+            "first_roll": "536-537",
+            "first_item": "of Fear",
+            "table_banner": ""
+          },
+          {
+            "type": "Mortars and Pestles",
+            "first_roll": "601-602",
+            "first_item": "Everproducing Rice",
+            "table_banner": ""
+          },
+          {
+            "type": "Music Box",
+            "first_roll": "605-606",
+            "first_item": "",
+            "table_banner": ""
+          },
+          {
+            "type": "Muzzles",
+            "first_roll": "607-608",
+            "first_item": "of Lycanthrope Control",
+            "table_banner": ""
+          },
+          {
+            "type": "Nails",
+            "first_roll": "613-614",
+            "first_item": "Blast Spike",
+            "table_banner": ""
+          },
+          {
+            "type": "Needles",
+            "first_roll": "628-629",
+            "first_item": "of Death",
+            "table_banner": ""
+          },
+          {
+            "type": "Oven of Heating",
+            "first_roll": "644-645",
+            "first_item": "",
+            "table_banner": ""
+          },
+          {
+            "type": "Pans",
+            "first_roll": "646-647",
+            "first_item": "of Cooking",
+            "table_banner": ""
+          },
+          {
+            "type": "Pens",
+            "first_roll": "649-650",
+            "first_item": "of Excellence",
+            "table_banner": ""
+          },
+          {
+            "type": "Picks",
+            "first_roll": "655-656",
+            "first_item": "of Earth Parting",
+            "table_banner": ""
+          },
+          {
+            "type": "Pills",
+            "first_roll": "659-660",
+            "first_item": "Desalination Tablet",
+            "table_banner": ""
+          },
+          {
+            "type": "Pillow of Regeneration",
+            "first_roll": "665-666",
+            "first_item": "",
+            "table_banner": ""
+          },
+          {
+            "type": "Plates",
+            "first_roll": "669-670",
+            "first_item": "Book",
+            "table_banner": ""
+          },
+          {
+            "type": "Pot of Plant Protection",
+            "first_roll": "688-689",
+            "first_item": "",
+            "table_banner": ""
+          },
+          {
+            "type": "Prismal's Useful Enchanted Gear",
+            "first_roll": "690-691",
+            "first_item": "Block and Tackle",
+            "table_banner": ""
+          },
+          {
+            "type": "Quill Pens",
+            "first_roll": "705-706",
+            "first_item": "of Copying",
+            "table_banner": ""
+          },
+          {
+            "type": "Rakes",
+            "first_roll": "740-741",
+            "first_item": "of Climbing",
+            "table_banner": ""
+          },
+          {
+            "type": "Rag of Drying",
+            "first_roll": "738-739",
+            "first_item": "",
+            "table_banner": ""
+          },
+          {
+            "type": "Razors",
+            "first_roll": "751-752",
+            "first_item": "Baltron's",
+            "table_banner": ""
+          },
+          {
+            "type": "Ropes",
+            "first_roll": "757-758",
+            "first_item": "of Climbing",
+            "table_banner": ""
+          },
+          {
+            "type": "Saws",
+            "first_roll": "770-771",
+            "first_item": "of Cutting",
+            "table_banner": ""
+          },
+          {
+            "type": "Scale of Weighing",
+            "first_roll": "776-777",
+            "first_item": "",
+            "table_banner": ""
+          },
+          {
+            "type": "Seals",
+            "first_roll": "778-779",
+            "first_item": "of Deception",
+            "table_banner": ""
+          },
+          {
+            "type": "Seat of Bane",
+            "first_roll": "782-783",
+            "first_item": "",
+            "table_banner": ""
+          },
+          {
+            "type": "Shakers",
+            "first_roll": "784-785",
+            "first_item": "Eternal Salt",
+            "table_banner": ""
+          },
+          {
+            "type": "Shovels",
+            "first_roll": "788-789",
+            "first_item": "of Animation",
+            "table_banner": ""
+          },
+          {
+            "type": "Smoking Pipes",
+            "first_roll": "801-802",
+            "first_item": "Aromatic",
+            "table_banner": ""
+          },
+          {
+            "type": "Spinning Wheels",
+            "first_roll": "824-825",
+            "first_item": "Cursed",
+            "table_banner": ""
+          },
+          {
+            "type": "Spoons",
+            "first_roll": "828-829",
+            "first_item": "Birth",
+            "table_banner": ""
+          },
+          {
+            "type": "Stairs",
+            "first_roll": "847-848",
+            "first_item": "of Ascending",
+            "table_banner": ""
+          },
+          {
+            "type": "Strings",
+            "first_roll": "861-862",
+            "first_item": "of Attachment",
+            "table_banner": ""
+          },
+          {
+            "type": "Sundials",
+            "first_roll": "874-875",
+            "first_item": "of Direction",
+            "table_banner": ""
+          },
+          {
+            "type": "Stylus of Scribing",
+            "first_roll": "872-873",
+            "first_item": "",
+            "table_banner": ""
+          },
+          {
+            "type": "Tables",
+            "first_roll": "878-879",
+            "first_item": "of Banquets",
+            "table_banner": ""
+          },
+          {
+            "type": "Tablecloths",
+            "first_roll": "888",
+            "first_item": "Augricrone's",
+            "table_banner": ""
+          },
+          {
+            "type": "Tablets",
+            "first_roll": "891-892",
+            "first_item": "Myrkul's of Fate",
+            "table_banner": ""
+          },
+          {
+            "type": "Tapestries",
+            "first_roll": "895-896",
+            "first_item": "of Disease Warding",
+            "table_banner": ""
+          },
+          {
+            "type": "Teas",
+            "first_roll": "903-904",
+            "first_item": "Magical Rakastan",
+            "table_banner": ""
+          },
+          {
+            "type": "Telescopes",
+            "first_roll": "909-910",
+            "first_item": "of Fantastic Vision",
+            "table_banner": ""
+          },
+          {
+            "type": "Tents",
+            "first_roll": "913",
+            "first_item": "",
+            "table_banner": ""
+          }
+        ],
+        "confidence": "High confidence: all sub-headers read in column order; a couple of out-of-order entries (Rag of Drying, Stylus of Scribing) reflect their actual printed position slightly above the following section header, and single-line device headers (Music Box, Oven of Heating, etc.) have their roll as first_roll with empty first_item."
+      },
+      {
+        "page": 20,
+        "headers": [
+          {
+            "type": "Tents",
+            "first_roll": "920-921",
+            "first_item": "Polychromatic",
+            "table_banner": ""
+          },
+          {
+            "type": "Threads",
+            "first_roll": "932-933",
+            "first_item": "of Aging",
+            "table_banner": ""
+          },
+          {
+            "type": "Thrones",
+            "first_roll": "937-938",
+            "first_item": "of Death",
+            "table_banner": ""
+          },
+          {
+            "type": "Torches",
+            "first_roll": "955-956",
+            "first_item": "of Continual Fire",
+            "table_banner": ""
+          },
+          {
+            "type": "Tool Sets",
+            "first_roll": "949-950",
+            "first_item": "Gemcutter's of Sundd",
+            "table_banner": ""
+          },
+          {
+            "type": "Utensils",
+            "first_roll": "962-963",
+            "first_item": "of Cleanliness",
+            "table_banner": ""
+          },
+          {
+            "type": "Vanes",
+            "first_roll": "968-969",
+            "first_item": "Greater of Location",
+            "table_banner": ""
+          },
+          {
+            "type": "Windows",
+            "first_roll": "972-973",
+            "first_item": "Display",
+            "table_banner": ""
+          },
+          {
+            "type": "Yokes",
+            "first_roll": "986-987",
+            "first_item": "of Boar Harnessing",
+            "table_banner": ""
+          },
+          {
+            "type": "Percussion Instruments",
+            "first_roll": "15-18",
+            "first_item": "Bell of Alarm",
+            "table_banner": "Table O: Musical Instruments"
+          },
+          {
+            "type": "Stringed Instruments",
+            "first_roll": "275-279",
+            "first_item": "Fochlucan Bandore",
+            "table_banner": "Table O: Musical Instruments"
+          },
+          {
+            "type": "Wind Instruments",
+            "first_roll": "613-619",
+            "first_item": "Airolla's Shining Horn",
+            "table_banner": "Table O: Musical Instruments"
+          }
+        ],
+        "confidence": "High confidence — 12 sub-headers captured across all three columns; rolls read directly from the scan, with the Tool Sets header appearing after Torches in the left column and the Table O banner introducing the three instrument-category headers."
+      },
+      {
+        "page": 21,
+        "headers": [
+          {
+            "type": "Wind Instruments",
+            "first_roll": "833-837",
+            "first_item": "Kantele",
+            "table_banner": ""
+          },
+          {
+            "type": "Beacons",
+            "first_roll": "91-93",
+            "first_item": "Arcane",
+            "table_banner": ""
+          },
+          {
+            "type": "Bison Skull Totems",
+            "first_roll": "96-97",
+            "first_item": "Bison Skull Totem",
+            "table_banner": ""
+          },
+          {
+            "type": "Boats",
+            "first_roll": "100-102",
+            "first_item": "Airboat",
+            "table_banner": ""
+          },
+          {
+            "type": "Anchors",
+            "first_roll": "03-04",
+            "first_item": "Aerial",
+            "table_banner": "Table P: Weird Stuff"
+          },
+          {
+            "type": "Arms",
+            "first_roll": "30-31",
+            "first_item": "of Doom",
+            "table_banner": "Table P: Weird Stuff"
+          },
+          {
+            "type": "Astrolabes",
+            "first_roll": "37-38",
+            "first_item": "Celestial",
+            "table_banner": "Table P: Weird Stuff"
+          },
+          {
+            "type": "Balls",
+            "first_roll": "44-45",
+            "first_item": "of Avian Attraction",
+            "table_banner": "Table P: Weird Stuff"
+          },
+          {
+            "type": "Balloons",
+            "first_roll": "71-72",
+            "first_item": "Air",
+            "table_banner": "Table P: Weird Stuff"
+          },
+          {
+            "type": "Bridles",
+            "first_roll": "162-163",
+            "first_item": "of Acquiesce",
+            "table_banner": "Table P: Weird Stuff"
+          },
+          {
+            "type": "Brass Horseman",
+            "first_roll": "159-161",
+            "first_item": "Brass Horseman",
+            "table_banner": "Table P: Weird Stuff"
+          },
+          {
+            "type": "Carts",
+            "first_roll": "185-186",
+            "first_item": "Cart",
+            "table_banner": "Table P: Weird Stuff"
+          },
+          {
+            "type": "Castles",
+            "first_roll": "193-195",
+            "first_item": "Cloud",
+            "table_banner": "Table P: Weird Stuff"
+          },
+          {
+            "type": "Chains",
+            "first_roll": "200-202",
+            "first_item": "Daisy",
+            "table_banner": "Table P: Weird Stuff"
+          },
+          {
+            "type": "Chariots",
+            "first_roll": "207-208",
+            "first_item": "of Flames",
+            "table_banner": "Table P: Weird Stuff"
+          },
+          {
+            "type": "Chess Game",
+            "first_roll": "223-224",
+            "first_item": "Fextree",
+            "table_banner": "Table P: Weird Stuff"
+          },
+          {
+            "type": "Coins",
+            "first_roll": "234-236",
+            "first_item": "of Almor",
+            "table_banner": "Table P: Weird Stuff"
+          },
+          {
+            "type": "Crystal Balls",
+            "first_roll": "273-274",
+            "first_item": "I",
+            "table_banner": "Table P: Weird Stuff"
+          },
+          {
+            "type": "Crystal Warriors",
+            "first_roll": "293-295",
+            "first_item": "Diamond",
+            "table_banner": "Table P: Weird Stuff"
+          },
+          {
+            "type": "Cubes",
+            "first_roll": "305-306",
+            "first_item": "of Abilities",
+            "table_banner": "Table P: Weird Stuff"
+          },
+          {
+            "type": "Decks of Cards",
+            "first_roll": "346-347",
+            "first_item": "of Chance",
+            "table_banner": "Table P: Weird Stuff"
+          },
+          {
+            "type": "Devices",
+            "first_roll": "377-379",
+            "first_item": "Passage",
+            "table_banner": "Table P: Weird Stuff"
+          },
+          {
+            "type": "Dice",
+            "first_roll": "382-383",
+            "first_item": "of Certain Wagering",
+            "table_banner": "Table P: Weird Stuff"
+          }
+        ],
+        "confidence": "High confidence on the 23 sub-headers and their first rolls; slight uncertainty on the exact first roll-range for the single-entry types Brass Horseman (159-161) and Carts (185-186) since their header/row alignment is tight in the middle column."
+      },
+      {
+        "page": 22,
+        "headers": [
+          {
+            "type": "Disks",
+            "first_roll": "386-388",
+            "first_item": "of the Azure Sea",
+            "table_banner": ""
+          },
+          {
+            "type": "Figureheads",
+            "first_roll": "409-410",
+            "first_item": "of Blessing",
+            "table_banner": ""
+          },
+          {
+            "type": "Figurines",
+            "first_roll": "425-426",
+            "first_item": "Alabaster Griffon",
+            "table_banner": ""
+          },
+          {
+            "type": "Fire",
+            "first_roll": "453-454",
+            "first_item": "Cold",
+            "table_banner": ""
+          },
+          {
+            "type": "Fountains",
+            "first_roll": "466-467",
+            "first_item": "Lasko's Magical",
+            "table_banner": ""
+          },
+          {
+            "type": "Alternate World Gates",
+            "first_roll": "468-469",
+            "first_item": "Blackjack",
+            "table_banner": ""
+          },
+          {
+            "type": "Globes",
+            "first_roll": "491-492",
+            "first_item": "of Battleshroud Gas",
+            "table_banner": ""
+          },
+          {
+            "type": "Spelljamming Helms",
+            "first_roll": "523-524",
+            "first_item": "Bardic",
+            "table_banner": ""
+          },
+          {
+            "type": "Horseshoes",
+            "first_roll": "563-565",
+            "first_item": "of Fleetness",
+            "table_banner": ""
+          },
+          {
+            "type": "Huts",
+            "first_roll": "582-583",
+            "first_item": "Baba Yaga's",
+            "table_banner": ""
+          },
+          {
+            "type": "Idols",
+            "first_roll": "586-587",
+            "first_item": "Carnelian",
+            "table_banner": ""
+          },
+          {
+            "type": "Kites",
+            "first_roll": "598-599",
+            "first_item": "of Lightning",
+            "table_banner": ""
+          },
+          {
+            "type": "Locators",
+            "first_roll": "610-611",
+            "first_item": "Lithocentric Pendulum",
+            "table_banner": ""
+          },
+          {
+            "type": "Masts",
+            "first_roll": "625-626",
+            "first_item": "Half",
+            "table_banner": ""
+          },
+          {
+            "type": "Mice",
+            "first_roll": "632-633",
+            "first_item": "Amazing",
+            "table_banner": ""
+          },
+          {
+            "type": "Mobiles",
+            "first_roll": "643-644",
+            "first_item": "Diamond and Silver",
+            "table_banner": ""
+          },
+          {
+            "type": "Nests",
+            "first_roll": "650-651",
+            "first_item": "of Eyes",
+            "table_banner": ""
+          },
+          {
+            "type": "Oars",
+            "first_roll": "661-662",
+            "first_item": "Ether",
+            "table_banner": ""
+          },
+          {
+            "type": "Oracles",
+            "first_roll": "666-667",
+            "first_item": "Blue of Greyhawk",
+            "table_banner": ""
+          },
+          {
+            "type": "Orbs",
+            "first_roll": "682-683",
+            "first_item": "of Alignment",
+            "table_banner": ""
+          },
+          {
+            "type": "Pedestals",
+            "first_roll": "729-730",
+            "first_item": "Diamond of Blyphian",
+            "table_banner": ""
+          },
+          {
+            "type": "Plank",
+            "first_roll": "734-735",
+            "first_item": "Plumalitter",
+            "table_banner": ""
+          },
+          {
+            "type": "Pools",
+            "first_roll": "738-740",
+            "first_item": "Dimensional",
+            "table_banner": ""
+          },
+          {
+            "type": "Rudders",
+            "first_roll": "756-758",
+            "first_item": "of Guidance",
+            "table_banner": ""
+          },
+          {
+            "type": "Saddles",
+            "first_roll": "772-774",
+            "first_item": "of Flying",
+            "table_banner": ""
+          },
+          {
+            "type": "Sails",
+            "first_roll": "786-787",
+            "first_item": "Black of Schnai",
+            "table_banner": ""
+          },
+          {
+            "type": "Ships",
+            "first_roll": "797-799",
+            "first_item": "Earth and Sea",
+            "table_banner": ""
+          },
+          {
+            "type": "Skulls",
+            "first_roll": "815-817",
+            "first_item": "Ebon",
+            "table_banner": ""
+          },
+          {
+            "type": "Sledges",
+            "first_roll": "827-828",
+            "first_item": "Joukahainen's Golden",
+            "table_banner": ""
+          },
+          {
+            "type": "Sounder",
+            "first_roll": "834-835",
+            "first_item": "Spelljammer Detector",
+            "table_banner": ""
+          },
+          {
+            "type": "Spheres",
+            "first_roll": "836-837",
+            "first_item": "of Annihilation",
+            "table_banner": ""
+          }
+        ],
+        "confidence": "High — all three columns were legible; I captured every bold TYPE sub-header (Disks through Spheres) and read the first roll-range and item under each; no \"Table X\" banner appears on this page."
+      },
+      {
+        "page": 23,
+        "headers": [
+          {
+            "type": "Spheres",
+            "first_roll": "843-844",
+            "first_item": "Gax's of Annihilation",
+            "table_banner": ""
+          },
+          {
+            "type": "Statues",
+            "first_roll": "863-864",
+            "first_item": "Boli",
+            "table_banner": ""
+          },
+          {
+            "type": "Transportation",
+            "first_roll": "895-896",
+            "first_item": "Chemcheaux Teleport Pad",
+            "table_banner": ""
+          },
+          {
+            "type": "Trees",
+            "first_roll": "903-904",
+            "first_item": "Great",
+            "table_banner": ""
+          },
+          {
+            "type": "Turrets",
+            "first_roll": "915-917",
+            "first_item": "Light",
+            "table_banner": ""
+          },
+          {
+            "type": "Wells",
+            "first_roll": "929-930",
+            "first_item": "of Dreams",
+            "table_banner": ""
+          },
+          {
+            "type": "Wheels",
+            "first_roll": "936-937",
+            "first_item": "of Burning",
+            "table_banner": ""
+          },
+          {
+            "type": "Wings",
+            "first_roll": "968-969",
+            "first_item": "Dragon",
+            "table_banner": ""
+          },
+          {
+            "type": "Wo-ha Ui-jung",
+            "first_roll": "974-976",
+            "first_item": "Standing Monkey",
+            "table_banner": ""
+          },
+          {
+            "type": "Blashphor's Baby Care Products",
+            "first_roll": "225-244",
+            "first_item": "Magical Diapers",
+            "table_banner": "Table Q: Humorous Items"
+          }
+        ],
+        "confidence": "High confidence on the item TYPE sub-headers and their first rolls; the R1/R2/R3 mechanics tables and the R3 \"Armor\"/\"of Valor\" internal groupings were intentionally excluded as they are bonus/adjustment charts, not item-type sections."
+      },
+      {
+        "page": 24,
+        "headers": [
+          {
+            "type": "Armor",
+            "first_roll": "261-266",
+            "first_item": "Red Dragon",
+            "table_banner": ""
+          },
+          {
+            "type": "Barding",
+            "first_roll": "535-540",
+            "first_item": "of Deceptive Travel",
+            "table_banner": ""
+          },
+          {
+            "type": "Bonnets",
+            "first_roll": "576-581",
+            "first_item": "Horn",
+            "table_banner": ""
+          },
+          {
+            "type": "Caparisons",
+            "first_roll": "588-593",
+            "first_item": "Armored",
+            "table_banner": ""
+          },
+          {
+            "type": "Shield",
+            "first_roll": "625-630",
+            "first_item": "Abbathor's",
+            "table_banner": ""
+          },
+          {
+            "type": "Arrows",
+            "first_roll": "04",
+            "first_item": "Abaris's",
+            "table_banner": "Table S: Weapons"
+          }
+        ],
+        "confidence": "Moderately high; the five armor-group sub-headers (Armor, Barding, Bonnets, Caparisons, Shield) and the Arrows sub-header under Table S3 are clear, though some roll digits in the dense first column were read carefully from a scan."
+      },
+      {
+        "page": 25,
+        "headers": [
+          {
+            "type": "Arrows",
+            "first_roll": "30",
+            "first_item": "of Dispelling",
+            "table_banner": ""
+          },
+          {
+            "type": "Axes",
+            "first_roll": "107",
+            "first_item": "Agni's Red",
+            "table_banner": ""
+          },
+          {
+            "type": "Ballistae",
+            "first_roll": "148",
+            "first_item": "Heavy",
+            "table_banner": ""
+          },
+          {
+            "type": "Battering Rams",
+            "first_roll": "151",
+            "first_item": "Bigby's Demanding",
+            "table_banner": ""
+          },
+          {
+            "type": "Blowguns",
+            "first_roll": "153",
+            "first_item": "of Accuracy",
+            "table_banner": ""
+          },
+          {
+            "type": "Bows",
+            "first_roll": "157",
+            "first_item": "Aasimon",
+            "table_banner": ""
+          },
+          {
+            "type": "Catapults",
+            "first_roll": "218",
+            "first_item": "Light",
+            "table_banner": ""
+          },
+          {
+            "type": "Clubs",
+            "first_roll": "221",
+            "first_item": "Aogir's",
+            "table_banner": ""
+          },
+          {
+            "type": "Daggers",
+            "first_roll": "229-230",
+            "first_item": "Abbathor's",
+            "table_banner": ""
+          }
+        ],
+        "confidence": "Fairly confident on the nine weapon-category headers and their first items; I excluded \"Bombard\" (row 156) since it reads as a single Blowguns item, not a header with items beneath it. No \"Table X\" banner is visible on this page (it's the master alphabetical index)."
+      },
+      {
+        "page": 26,
+        "headers": [
+          {
+            "type": "Daggers",
+            "first_roll": "269",
+            "first_item": "of Impaling",
+            "table_banner": ""
+          },
+          {
+            "type": "Darts",
+            "first_roll": "309",
+            "first_item": "of Biting",
+            "table_banner": ""
+          },
+          {
+            "type": "Explosive Devices",
+            "first_roll": "340",
+            "first_item": "Dimensional Mine",
+            "table_banner": ""
+          },
+          {
+            "type": "Flail Weapons",
+            "first_roll": "346",
+            "first_item": "Bael's Morning Star",
+            "table_banner": ""
+          },
+          {
+            "type": "Hammers",
+            "first_roll": "358",
+            "first_item": "Aegis-Fang",
+            "table_banner": ""
+          },
+          {
+            "type": "Harpoon",
+            "first_roll": "387",
+            "first_item": "Magical",
+            "table_banner": ""
+          },
+          {
+            "type": "Helmseekers",
+            "first_roll": "388-389",
+            "first_item": "Accelerator",
+            "table_banner": ""
+          },
+          {
+            "type": "Javelins",
+            "first_roll": "396",
+            "first_item": "Cursed",
+            "table_banner": ""
+          },
+          {
+            "type": "Jettisons",
+            "first_roll": "403",
+            "first_item": "Light Magical",
+            "table_banner": ""
+          },
+          {
+            "type": "Lances",
+            "first_roll": "410",
+            "first_item": "Anhur's",
+            "table_banner": ""
+          },
+          {
+            "type": "Maces",
+            "first_roll": "426",
+            "first_item": "Astral Deva",
+            "table_banner": ""
+          },
+          {
+            "type": "Mattocks",
+            "first_roll": "463",
+            "first_item": "Dumathoin's",
+            "table_banner": ""
+          },
+          {
+            "type": "Nets",
+            "first_roll": "465",
+            "first_item": "Ashley's of Entrapment",
+            "table_banner": ""
+          },
+          {
+            "type": "Paddleboard",
+            "first_roll": "487",
+            "first_item": "Magical",
+            "table_banner": ""
+          },
+          {
+            "type": "Pellets",
+            "first_roll": "489",
+            "first_item": "Flash",
+            "table_banner": ""
+          },
+          {
+            "type": "Polearms",
+            "first_roll": "491",
+            "first_item": "Baphomet's Bardiche",
+            "table_banner": ""
+          }
+        ],
+        "confidence": "High confidence — all 16 bold TYPE sub-headers across the three columns were read in reading order; rolls verified digit-by-digit, and I excluded bold item names (Discus of Disenchantment, Gnomish Sweeper, Noisome Spirit Chaser) that are not type headers. No \"Table X:\" banner appears on this page."
+      },
+      {
+        "page": 27,
+        "headers": [
+          {
+            "type": "Polearms",
+            "first_roll": "498",
+            "first_item": "Fork of Travel",
+            "table_banner": ""
+          },
+          {
+            "type": "Quivers",
+            "first_roll": "523",
+            "first_item": "of Arrow Storing",
+            "table_banner": ""
+          },
+          {
+            "type": "Shot",
+            "first_roll": "532",
+            "first_item": "Elmarin Cannon Call (Dust)",
+            "table_banner": ""
+          },
+          {
+            "type": "Sickles",
+            "first_roll": "540",
+            "first_item": "Ahto's",
+            "table_banner": ""
+          },
+          {
+            "type": "Slings",
+            "first_roll": "549",
+            "first_item": "Blacksling",
+            "table_banner": ""
+          },
+          {
+            "type": "Spears",
+            "first_roll": "555",
+            "first_item": "of Accuracy",
+            "table_banner": ""
+          },
+          {
+            "type": "Spelljamming Rams",
+            "first_roll": "582-583",
+            "first_item": "Blunt",
+            "table_banner": ""
+          },
+          {
+            "type": "Swords",
+            "first_roll": "586",
+            "first_item": "Aastnom",
+            "table_banner": ""
+          }
+        ],
+        "confidence": "High confidence: eight bold TYPE sub-headers are clearly visible (Polearms, Quivers, Shot, Sickles, Slings, Spears, Spelljamming Rams, Swords); no \"Table X\" banner appears on this page, and the roll digits under each header read cleanly."
+      },
+      {
+        "page": 28,
+        "headers": [
+          {
+            "type": "Swords",
+            "first_roll": "732",
+            "first_item": "Flaming",
+            "table_banner": ""
+          }
+        ],
+        "confidence": "High confidence — only one bold TYPE sub-header (\"Swords\") is present on the page, at the top of the left column, with its first item being roll 732 \"Flaming\"; no Table banner is visible."
+      },
+      {
+        "page": 29,
+        "headers": [
+          {
+            "type": "Swords",
+            "first_roll": "976",
+            "first_item": "Wyrmcleaver",
+            "table_banner": ""
+          },
+          {
+            "type": "Throwing Stars",
+            "first_roll": "985",
+            "first_item": "of Ojy-do",
+            "table_banner": ""
+          },
+          {
+            "type": "Whips",
+            "first_roll": "987",
+            "first_item": "of Amatar",
+            "table_banner": ""
+          },
+          {
+            "type": "Crowns",
+            "first_roll": "130-135",
+            "first_item": "of Chaotic Evil",
+            "table_banner": "Table T: Artifacts"
+          },
+          {
+            "type": "Orbs",
+            "first_roll": "477-482",
+            "first_item": "of Chaotic Evil",
+            "table_banner": "Table T: Artifacts"
+          },
+          {
+            "type": "Regalia of Might II",
+            "first_roll": "670-676",
+            "first_item": "Regalia of Might",
+            "table_banner": "Table T: Artifacts"
+          },
+          {
+            "type": "Sceptors",
+            "first_roll": "771-776",
+            "first_item": "of Chaotic Evil",
+            "table_banner": "Table T: Artifacts"
+          },
+          {
+            "type": "Triad of Betrayal",
+            "first_roll": "953-958",
+            "first_item": "Circlet of Betrayal",
+            "table_banner": "Table T: Artifacts"
+          }
+        ],
+        "confidence": "Fairly confident on the three weapon sub-headers (Swords, Throwing Stars, Whips) and the artifact-category sub-headers (Crowns, Orbs, Sceptors); slightly less certain whether \"Regalia of Might II\" and \"Triad of Betrayal\" are true bold category sub-headers versus individual artifact-set entries, but they appear formatted as group headers with sub-items beneath them."
+      }
+    ],
+    "headers": [
+      {
+        "page": 1,
+        "type": "Oils",
+        "first_roll": "63-64",
+        "first_item": "Absinthe",
+        "table_banner": "Table A: Magical Liquids"
+      },
+      {
+        "page": 2,
+        "type": "Oils",
+        "first_roll": "236-237",
+        "first_item": "Jezebel",
+        "table_banner": "Table A: Magical Liquids"
+      },
+      {
+        "page": 2,
+        "type": "Ointments",
+        "first_roll": "367-368",
+        "first_item": "of Blessing",
+        "table_banner": "Table A: Magical Liquids"
+      },
+      {
+        "page": 2,
+        "type": "Perfumes",
+        "first_roll": "413-414",
+        "first_item": "Aroma of Dreams",
+        "table_banner": "Table A: Magical Liquids"
+      },
+      {
+        "page": 2,
+        "type": "Philters",
+        "first_roll": "424-425",
+        "first_item": "Aleose's of Overwhelming Love",
+        "table_banner": "Table A: Magical Liquids"
+      },
+      {
+        "page": 2,
+        "type": "Pigments (Paints)",
+        "first_roll": "446-447",
+        "first_item": "Bell's Palette of Identity",
+        "table_banner": "Table A: Magical Liquids"
+      },
+      {
+        "page": 2,
+        "type": "Potions",
+        "first_roll": "464-465",
+        "first_item": "of Absorption",
+        "table_banner": "Table A: Magical Liquids"
+      },
+      {
+        "page": 3,
+        "type": "Potions",
+        "first_roll": "654-655",
+        "first_item": "of Forgetfulness II",
+        "table_banner": ""
+      },
+      {
+        "page": 3,
+        "type": "Salves",
+        "first_roll": "983-984",
+        "first_item": "of Far Seeing",
+        "table_banner": ""
+      },
+      {
+        "page": 3,
+        "type": "Sea Dew",
+        "first_roll": "989",
+        "first_item": "Sea Dew",
+        "table_banner": ""
+      },
+      {
+        "page": 3,
+        "type": "Water",
+        "first_roll": "994-995",
+        "first_item": "Blessed",
+        "table_banner": ""
+      },
+      {
+        "page": 3,
+        "type": "Papers",
+        "first_roll": "11-20",
+        "first_item": "of Forms",
+        "table_banner": "Table B: Scrolls"
+      },
+      {
+        "page": 3,
+        "type": "Parchments",
+        "first_roll": "31-40",
+        "first_item": "of Looping",
+        "table_banner": "Table B: Scrolls"
+      },
+      {
+        "page": 3,
+        "type": "Scrolls",
+        "first_roll": "81-90",
+        "first_item": "of Animal Growth",
+        "table_banner": "Table B: Scrolls"
+      },
+      {
+        "page": 4,
+        "type": "Scrolls",
+        "first_roll": "331-340",
+        "first_item": "Mondasso's Automated Spell",
+        "table_banner": ""
+      },
+      {
+        "page": 4,
+        "type": "Enchanted Enhancements*",
+        "first_roll": "04-07",
+        "first_item": "of Leadership",
+        "table_banner": "Table C: Rings"
+      },
+      {
+        "page": 5,
+        "type": "Enchanted Enhancements*",
+        "first_roll": "01-15",
+        "first_item": "Enchanted Enhancements*",
+        "table_banner": "Table D: Rods"
+      },
+      {
+        "page": 5,
+        "type": "Moto Moto Rods",
+        "first_roll": "16-30",
+        "first_item": "of Beguiling",
+        "table_banner": "Table D: Rods"
+      },
+      {
+        "page": 5,
+        "type": "Rods",
+        "first_roll": "76-90",
+        "first_item": "of Absorption",
+        "table_banner": "Table D: Rods"
+      },
+      {
+        "page": 5,
+        "type": "Enchanted Enhancements*",
+        "first_roll": "01-07",
+        "first_item": "Enchanted Enhancements*",
+        "table_banner": "Table E: Staves"
+      },
+      {
+        "page": 5,
+        "type": "Canes",
+        "first_roll": "08-14",
+        "first_item": "of Age",
+        "table_banner": "Table E: Staves"
+      },
+      {
+        "page": 5,
+        "type": "Gaffs",
+        "first_roll": "51-57",
+        "first_item": "of Docking",
+        "table_banner": "Table E: Staves"
+      },
+      {
+        "page": 5,
+        "type": "Staves",
+        "first_roll": "80-86",
+        "first_item": "of Air and Water",
+        "table_banner": "Table E: Staves"
+      },
+      {
+        "page": 6,
+        "type": "Staves",
+        "first_roll": "123-129",
+        "first_item": "of Battle II",
+        "table_banner": ""
+      },
+      {
+        "page": 6,
+        "type": "Wands",
+        "first_roll": "01-08",
+        "first_item": "Enchanted Enhancements*",
+        "table_banner": "Table F: Wands"
+      },
+      {
+        "page": 7,
+        "type": "Wands",
+        "first_roll": "914-922",
+        "first_item": "of Whips",
+        "table_banner": ""
+      },
+      {
+        "page": 7,
+        "type": "Books",
+        "first_roll": "04-07",
+        "first_item": "of Binding Souls",
+        "table_banner": "Table G: Books"
+      },
+      {
+        "page": 7,
+        "type": "Librams",
+        "first_roll": "51-54",
+        "first_item": "Analect of Magic",
+        "table_banner": "Table G: Books"
+      },
+      {
+        "page": 7,
+        "type": "Manuals",
+        "first_roll": "197-200",
+        "first_item": "Grim Grimoire",
+        "table_banner": "Table G: Books"
+      },
+      {
+        "page": 7,
+        "type": "Maps",
+        "first_roll": "212-214",
+        "first_item": "Dane's Version",
+        "table_banner": "Table G: Books"
+      },
+      {
+        "page": 7,
+        "type": "Spellbooks",
+        "first_roll": "281-283",
+        "first_item": "The Alcaister",
+        "table_banner": "Table G: Books"
+      },
+      {
+        "page": 8,
+        "type": "Spellbooks",
+        "first_roll": "681-684",
+        "first_item": "Planes of Antimatter",
+        "table_banner": ""
+      },
+      {
+        "page": 8,
+        "type": "Tomes",
+        "first_roll": "907-910",
+        "first_item": "of Bodily Health",
+        "table_banner": ""
+      },
+      {
+        "page": 8,
+        "type": "Amulets",
+        "first_roll": "01",
+        "first_item": "of the Abyss",
+        "table_banner": "Table H: Gems and Jewelry"
+      },
+      {
+        "page": 8,
+        "type": "Ankhs",
+        "first_roll": "157-158",
+        "first_item": "of Life",
+        "table_banner": "Table H: Gems and Jewelry"
+      },
+      {
+        "page": 8,
+        "type": "Badges",
+        "first_roll": "175-176",
+        "first_item": "of Freedom",
+        "table_banner": "Table H: Gems and Jewelry"
+      },
+      {
+        "page": 8,
+        "type": "Bracelets",
+        "first_roll": "79-180",
+        "first_item": "Copper",
+        "table_banner": "Table H: Gems and Jewelry"
+      },
+      {
+        "page": 8,
+        "type": "Brooches",
+        "first_roll": "197",
+        "first_item": "Abbor Alz's of Warning",
+        "table_banner": "Table H: Gems and Jewelry"
+      },
+      {
+        "page": 8,
+        "type": "Cameos",
+        "first_roll": "220-221",
+        "first_item": "of Appearance",
+        "table_banner": "Table H: Gems and Jewelry"
+      },
+      {
+        "page": 8,
+        "type": "Charms",
+        "first_roll": "225-227",
+        "first_item": "of Boot Restoration",
+        "table_banner": "Table H: Gems and Jewelry"
+      },
+      {
+        "page": 9,
+        "type": "Charms",
+        "first_roll": "234-235",
+        "first_item": "Luck",
+        "table_banner": ""
+      },
+      {
+        "page": 9,
+        "type": "Crowns",
+        "first_roll": "257-258",
+        "first_item": "Black of Aerdy",
+        "table_banner": ""
+      },
+      {
+        "page": 9,
+        "type": "Crystals",
+        "first_roll": "306-307",
+        "first_item": "Abelaat",
+        "table_banner": ""
+      },
+      {
+        "page": 9,
+        "type": "Earrings",
+        "first_roll": "318-319",
+        "first_item": "of Alignment Detection",
+        "table_banner": ""
+      },
+      {
+        "page": 9,
+        "type": "Eyes",
+        "first_roll": "338-339",
+        "first_item": "of Accuracy",
+        "table_banner": ""
+      },
+      {
+        "page": 9,
+        "type": "Glass",
+        "first_roll": "377-378",
+        "first_item": "of Petrification",
+        "table_banner": ""
+      },
+      {
+        "page": 9,
+        "type": "Eyeglasses",
+        "first_roll": "385-386",
+        "first_item": "of Arcanist",
+        "table_banner": ""
+      },
+      {
+        "page": 9,
+        "type": "Gems",
+        "first_roll": "398-399",
+        "first_item": "of Atonement",
+        "table_banner": ""
+      },
+      {
+        "page": 9,
+        "type": "Goggles",
+        "first_roll": "518-519",
+        "first_item": "of Underwater Sight",
+        "table_banner": ""
+      },
+      {
+        "page": 9,
+        "type": "Hearts",
+        "first_roll": "522-523",
+        "first_item": "Beating",
+        "table_banner": ""
+      },
+      {
+        "page": 9,
+        "type": "Holy Symbols",
+        "first_roll": "540",
+        "first_item": "of Greyhawk",
+        "table_banner": ""
+      },
+      {
+        "page": 9,
+        "type": "Icons",
+        "first_roll": "557-558",
+        "first_item": "of Chemosh",
+        "table_banner": ""
+      },
+      {
+        "page": 9,
+        "type": "Leaves",
+        "first_roll": "571-572",
+        "first_item": "Book",
+        "table_banner": ""
+      },
+      {
+        "page": 9,
+        "type": "Lenses",
+        "first_roll": "594-595",
+        "first_item": "of Activity Detection",
+        "table_banner": ""
+      },
+      {
+        "page": 9,
+        "type": "Lockets",
+        "first_roll": "634-635",
+        "first_item": "of the Great Kingdom",
+        "table_banner": ""
+      },
+      {
+        "page": 9,
+        "type": "Medallions",
+        "first_roll": "639-640",
+        "first_item": "of the Arctic",
+        "table_banner": ""
+      },
+      {
+        "page": 10,
+        "type": "Medallions",
+        "first_roll": "653-654",
+        "first_item": "Holy of Almor",
+        "table_banner": ""
+      },
+      {
+        "page": 10,
+        "type": "Monocles",
+        "first_roll": "687",
+        "first_item": "Fire-Eye",
+        "table_banner": ""
+      },
+      {
+        "page": 10,
+        "type": "Necklaces",
+        "first_roll": "688-689",
+        "first_item": "of Adaptation",
+        "table_banner": ""
+      },
+      {
+        "page": 10,
+        "type": "Pearls",
+        "first_roll": "749-750",
+        "first_item": "Black",
+        "table_banner": ""
+      },
+      {
+        "page": 10,
+        "type": "Pendants",
+        "first_roll": "786-787",
+        "first_item": "Equus",
+        "table_banner": ""
+      },
+      {
+        "page": 10,
+        "type": "Periapts",
+        "first_roll": "792-793",
+        "first_item": "of Foul Rotting",
+        "table_banner": ""
+      },
+      {
+        "page": 10,
+        "type": "Phylacteries",
+        "first_roll": "806-807",
+        "first_item": "of Bravery",
+        "table_banner": ""
+      },
+      {
+        "page": 10,
+        "type": "Prisms",
+        "first_roll": "818-819",
+        "first_item": "of Distraction",
+        "table_banner": ""
+      },
+      {
+        "page": 10,
+        "type": "Scarabs",
+        "first_roll": "830-831",
+        "first_item": "Benson's of Uncertain Friendship",
+        "table_banner": ""
+      },
+      {
+        "page": 10,
+        "type": "Scepters",
+        "first_roll": "863-864",
+        "first_item": "Blast",
+        "table_banner": ""
+      },
+      {
+        "page": 10,
+        "type": "Scopes",
+        "first_roll": "884-885",
+        "first_item": "of Celestial Analysis",
+        "table_banner": ""
+      },
+      {
+        "page": 10,
+        "type": "Talismans",
+        "first_roll": "900-901",
+        "first_item": "Badger Beast",
+        "table_banner": ""
+      },
+      {
+        "page": 10,
+        "type": "Torcs",
+        "first_roll": "982-983",
+        "first_item": "Belenus's",
+        "table_banner": ""
+      },
+      {
+        "page": 10,
+        "type": "Capes",
+        "first_roll": "07-12",
+        "first_item": "of Disguise",
+        "table_banner": "Table I: Clothing"
+      },
+      {
+        "page": 10,
+        "type": "Cloaks",
+        "first_roll": "61-66",
+        "first_item": "of Appearance",
+        "table_banner": "Table I: Clothing"
+      },
+      {
+        "page": 11,
+        "type": "Cloaks",
+        "first_roll": "195-200",
+        "first_item": "Bronze Dragon",
+        "table_banner": ""
+      },
+      {
+        "page": 11,
+        "type": "Cloth",
+        "first_roll": "536-542",
+        "first_item": "of Cleanliness",
+        "table_banner": ""
+      },
+      {
+        "page": 11,
+        "type": "Coats",
+        "first_roll": "579-584",
+        "first_item": "Fare's of Protection",
+        "table_banner": ""
+      },
+      {
+        "page": 11,
+        "type": "Dresses",
+        "first_roll": "603-609",
+        "first_item": "of Amazement",
+        "table_banner": ""
+      },
+      {
+        "page": 11,
+        "type": "Furs",
+        "first_roll": "616-621",
+        "first_item": "Anagakok",
+        "table_banner": ""
+      },
+      {
+        "page": 11,
+        "type": "Gowns",
+        "first_roll": "640-645",
+        "first_item": "Loriell's",
+        "table_banner": ""
+      },
+      {
+        "page": 11,
+        "type": "Robes",
+        "first_roll": "658-663",
+        "first_item": "Aba of the Desert",
+        "table_banner": ""
+      },
+      {
+        "page": 11,
+        "type": "Shirts",
+        "first_roll": "902-907",
+        "first_item": "War (AC 1)",
+        "table_banner": ""
+      },
+      {
+        "page": 11,
+        "type": "Stockings",
+        "first_roll": "938-943",
+        "first_item": "of Elf Summoning",
+        "table_banner": ""
+      },
+      {
+        "page": 11,
+        "type": "Tunics",
+        "first_roll": "957-962",
+        "first_item": "of Glory",
+        "table_banner": ""
+      },
+      {
+        "page": 11,
+        "type": "Vests",
+        "first_roll": "975-980",
+        "first_item": "of Attraction",
+        "table_banner": ""
+      },
+      {
+        "page": 11,
+        "type": "Vestments",
+        "first_roll": "987-992",
+        "first_item": "Greater of Power",
+        "table_banner": ""
+      },
+      {
+        "page": 11,
+        "type": "Anklets",
+        "first_roll": "01-05",
+        "first_item": "Enchanted Enhancements*",
+        "table_banner": "Table J: Boots, Gloves, and Accessories"
+      },
+      {
+        "page": 11,
+        "type": "Armbands",
+        "first_roll": "48-52",
+        "first_item": "of Comfort of Sleep",
+        "table_banner": "Table J: Boots, Gloves, and Accessories"
+      },
+      {
+        "page": 11,
+        "type": "Bands",
+        "first_roll": "95-99",
+        "first_item": "of the Arachnid",
+        "table_banner": "Table J: Boots, Gloves, and Accessories"
+      },
+      {
+        "page": 11,
+        "type": "Boots",
+        "first_roll": "136-141",
+        "first_item": "of Attraction",
+        "table_banner": "Table J: Boots, Gloves, and Accessories"
+      },
+      {
+        "page": 11,
+        "type": "Bracers",
+        "first_roll": "342-346",
+        "first_item": "of Archery",
+        "table_banner": "Table J: Boots, Gloves, and Accessories"
+      },
+      {
+        "page": 11,
+        "type": "Claws",
+        "first_roll": "424-429",
+        "first_item": "of Magic Stealing",
+        "table_banner": "Table J: Boots, Gloves, and Accessories"
+      },
+      {
+        "page": 12,
+        "type": "Claws",
+        "first_roll": "453-458",
+        "first_item": "Twisted",
+        "table_banner": ""
+      },
+      {
+        "page": 12,
+        "type": "Collars",
+        "first_roll": "465-470",
+        "first_item": "of Change",
+        "table_banner": ""
+      },
+      {
+        "page": 12,
+        "type": "Gauntlets",
+        "first_roll": "512-517",
+        "first_item": "Claw of the Bear",
+        "table_banner": ""
+      },
+      {
+        "page": 12,
+        "type": "Gloves",
+        "first_roll": "671-676",
+        "first_item": "Black Hand",
+        "table_banner": ""
+      },
+      {
+        "page": 12,
+        "type": "Hands",
+        "first_roll": "812-817",
+        "first_item": "Balacer's",
+        "table_banner": ""
+      },
+      {
+        "page": 12,
+        "type": "Peglegs",
+        "first_roll": "865-870",
+        "first_item": "of Immurk the Invincible",
+        "table_banner": ""
+      },
+      {
+        "page": 12,
+        "type": "Shoes",
+        "first_roll": "877-882",
+        "first_item": "of Fharlanghn",
+        "table_banner": ""
+      },
+      {
+        "page": 12,
+        "type": "Slippers",
+        "first_roll": "912-917",
+        "first_item": "Bahija's of Spider Climbing",
+        "table_banner": ""
+      },
+      {
+        "page": 12,
+        "type": "Socks",
+        "first_roll": "988-993",
+        "first_item": "of Dryness",
+        "table_banner": ""
+      },
+      {
+        "page": 12,
+        "type": "Belts",
+        "first_roll": "06-11",
+        "first_item": "Arcane",
+        "table_banner": "Table K: Girdles and Helmets"
+      },
+      {
+        "page": 12,
+        "type": "Buckles",
+        "first_roll": "111-116",
+        "first_item": "of Armor",
+        "table_banner": "Table K: Girdles and Helmets"
+      },
+      {
+        "page": 12,
+        "type": "Caps",
+        "first_roll": "146-151",
+        "first_item": "of the Beguiler",
+        "table_banner": "Table K: Girdles and Helmets"
+      },
+      {
+        "page": 12,
+        "type": "Circlets",
+        "first_roll": "210-214",
+        "first_item": "of the Adder",
+        "table_banner": "Table K: Girdles and Helmets"
+      },
+      {
+        "page": 12,
+        "type": "Girdles",
+        "first_roll": "274-278",
+        "first_item": "of Back Defense",
+        "table_banner": "Table K: Girdles and Helmets"
+      },
+      {
+        "page": 12,
+        "type": "Hats",
+        "first_roll": "337-342",
+        "first_item": "of Command",
+        "table_banner": "Table K: Girdles and Helmets"
+      },
+      {
+        "page": 12,
+        "type": "Headbands",
+        "first_roll": "436-441",
+        "first_item": "of the Corusk Mountains",
+        "table_banner": "Table K: Girdles and Helmets"
+      },
+      {
+        "page": 12,
+        "type": "Helmets",
+        "first_roll": "454-458",
+        "first_item": "of Alignment Change",
+        "table_banner": "Table K: Girdles and Helmets"
+      },
+      {
+        "page": 13,
+        "type": "Masks",
+        "first_roll": "674-679",
+        "first_item": "Air",
+        "table_banner": ""
+      },
+      {
+        "page": 13,
+        "type": "Sashes",
+        "first_roll": "948-952",
+        "first_item": "of Fire Resistance",
+        "table_banner": ""
+      },
+      {
+        "page": 13,
+        "type": "Turbans",
+        "first_roll": "977-981",
+        "first_item": "Feather",
+        "table_banner": ""
+      },
+      {
+        "page": 13,
+        "type": "Bags",
+        "first_roll": "04-07",
+        "first_item": "Backpack of Holding",
+        "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+      },
+      {
+        "page": 13,
+        "type": "Bowls",
+        "first_roll": "299-302",
+        "first_item": "of Blood",
+        "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+      },
+      {
+        "page": 13,
+        "type": "Barrels",
+        "first_roll": "181-184",
+        "first_item": "of Hiding",
+        "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+      },
+      {
+        "page": 13,
+        "type": "Basins",
+        "first_roll": "205-208",
+        "first_item": "of the CG Angel",
+        "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+      },
+      {
+        "page": 13,
+        "type": "Beakers",
+        "first_roll": "225-227",
+        "first_item": "of Cures",
+        "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+      },
+      {
+        "page": 13,
+        "type": "Bedroll of Dryness",
+        "first_roll": "232-235",
+        "first_item": "Bedroll of Dryness",
+        "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+      },
+      {
+        "page": 13,
+        "type": "Bottles",
+        "first_roll": "236-239",
+        "first_item": "Brazen",
+        "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+      },
+      {
+        "page": 13,
+        "type": "Boxes",
+        "first_roll": "323-326",
+        "first_item": "Burglar Detection",
+        "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+      },
+      {
+        "page": 13,
+        "type": "Braziers",
+        "first_roll": "413-416",
+        "first_item": "of Commanding Fire Elementals",
+        "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+      },
+      {
+        "page": 13,
+        "type": "Cabinets",
+        "first_roll": "429-432",
+        "first_item": "of Air Restoration",
+        "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+      },
+      {
+        "page": 13,
+        "type": "Cages",
+        "first_roll": "445-448",
+        "first_item": "of Carrying",
+        "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+      },
+      {
+        "page": 13,
+        "type": "Cans",
+        "first_roll": "460-463",
+        "first_item": "of Cant",
+        "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+      },
+      {
+        "page": 13,
+        "type": "Canisters",
+        "first_roll": "489-491",
+        "first_item": "of Condiments",
+        "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+      },
+      {
+        "page": 13,
+        "type": "Canteens",
+        "first_roll": "496-499",
+        "first_item": "of Coolness",
+        "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+      },
+      {
+        "page": 13,
+        "type": "Cases",
+        "first_roll": "507-510",
+        "first_item": "of Compression",
+        "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+      },
+      {
+        "page": 13,
+        "type": "Casks",
+        "first_roll": "527-530",
+        "first_item": "Everfull",
+        "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+      },
+      {
+        "page": 13,
+        "type": "Cauldrons",
+        "first_roll": "535-538",
+        "first_item": "of Ambrosia",
+        "table_banner": "Table L: Bags, Barrels, Bottles, and Basins"
+      },
+      {
+        "page": 15,
+        "type": "Cauldrons",
+        "first_roll": "566-569",
+        "first_item": "of Healing",
+        "table_banner": ""
+      },
+      {
+        "page": 15,
+        "type": "Censers",
+        "first_roll": "602-605",
+        "first_item": "of Conduct",
+        "table_banner": ""
+      },
+      {
+        "page": 15,
+        "type": "Chalices",
+        "first_roll": "621-624",
+        "first_item": "of Colors",
+        "table_banner": ""
+      },
+      {
+        "page": 15,
+        "type": "Chests",
+        "first_roll": "669-672",
+        "first_item": "of Drawers",
+        "table_banner": ""
+      },
+      {
+        "page": 15,
+        "type": "Coffins",
+        "first_roll": "696-699",
+        "first_item": "Casket of Furyondy",
+        "table_banner": ""
+      },
+      {
+        "page": 15,
+        "type": "Containers",
+        "first_roll": "708-711",
+        "first_item": "Fireproof",
+        "table_banner": ""
+      },
+      {
+        "page": 15,
+        "type": "Decanters",
+        "first_roll": "724-727",
+        "first_item": "Carrague's of Endless Steam",
+        "table_banner": ""
+      },
+      {
+        "page": 15,
+        "type": "Flagons",
+        "first_roll": "743-746",
+        "first_item": "of Dragons",
+        "table_banner": ""
+      },
+      {
+        "page": 15,
+        "type": "Flasks",
+        "first_roll": "755-758",
+        "first_item": "Copper",
+        "table_banner": ""
+      },
+      {
+        "page": 15,
+        "type": "Goblets",
+        "first_roll": "775-778",
+        "first_item": "of Glory",
+        "table_banner": ""
+      },
+      {
+        "page": 15,
+        "type": "Horns",
+        "first_roll": "799-801",
+        "first_item": "Hold of Holding",
+        "table_banner": ""
+      },
+      {
+        "page": 15,
+        "type": "Jars",
+        "first_roll": "818-821",
+        "first_item": "Borieflin's of Steam",
+        "table_banner": ""
+      },
+      {
+        "page": 15,
+        "type": "Jugs",
+        "first_roll": "830-833",
+        "first_item": "Amorpha",
+        "table_banner": ""
+      },
+      {
+        "page": 15,
+        "type": "Kettles",
+        "first_roll": "857-860",
+        "first_item": "of Breathing",
+        "table_banner": ""
+      },
+      {
+        "page": 15,
+        "type": "Mugs",
+        "first_roll": "881-884",
+        "first_item": "Leomund's",
+        "table_banner": ""
+      },
+      {
+        "page": 15,
+        "type": "Pitchers",
+        "first_roll": "893-896",
+        "first_item": "of Blending",
+        "table_banner": ""
+      },
+      {
+        "page": 15,
+        "type": "Prisons",
+        "first_roll": "904-907",
+        "first_item": "Castellan's Magical",
+        "table_banner": ""
+      },
+      {
+        "page": 15,
+        "type": "Scabbards",
+        "first_roll": "920-923",
+        "first_item": "of Holding",
+        "table_banner": ""
+      },
+      {
+        "page": 15,
+        "type": "Sheaths",
+        "first_roll": "928-931",
+        "first_item": "of Frogs",
+        "table_banner": ""
+      },
+      {
+        "page": 15,
+        "type": "Tubs",
+        "first_roll": "944-947",
+        "first_item": "of Fat",
+        "table_banner": ""
+      },
+      {
+        "page": 15,
+        "type": "Urns",
+        "first_roll": "967-970",
+        "first_item": "of Ashes",
+        "table_banner": ""
+      },
+      {
+        "page": 15,
+        "type": "Air Spores",
+        "first_roll": "03-04",
+        "first_item": "Air Spores",
+        "table_banner": "Table M: Dust and Stones"
+      },
+      {
+        "page": 15,
+        "type": "Apples",
+        "first_roll": "07-09",
+        "first_item": "of Bragi",
+        "table_banner": "Table M: Dust and Stones"
+      },
+      {
+        "page": 15,
+        "type": "Beads",
+        "first_roll": "12-13",
+        "first_item": "of Accuracy",
+        "table_banner": "Table M: Dust and Stones"
+      },
+      {
+        "page": 15,
+        "type": "Berries",
+        "first_roll": "46-48",
+        "first_item": "Fireberries",
+        "table_banner": "Table M: Dust and Stones"
+      },
+      {
+        "page": 15,
+        "type": "Bones",
+        "first_roll": "51-52",
+        "first_item": "of Animation",
+        "table_banner": "Table M: Dust and Stones"
+      },
+      {
+        "page": 15,
+        "type": "Candles",
+        "first_roll": "92-93",
+        "first_item": "Black",
+        "table_banner": "Table M: Dust and Stones"
+      },
+      {
+        "page": 15,
+        "type": "Cheeses",
+        "first_roll": "181-183",
+        "first_item": "of Odors",
+        "table_banner": "Table M: Dust and Stones"
+      },
+      {
+        "page": 15,
+        "type": "Dust",
+        "first_roll": "188-190",
+        "first_item": "of Absorption",
+        "table_banner": "Table M: Dust and Stones"
+      },
+      {
+        "page": 16,
+        "type": "Dust",
+        "first_roll": "202-203",
+        "first_item": "of Blending",
+        "table_banner": ""
+      },
+      {
+        "page": 16,
+        "type": "Eggs",
+        "first_roll": "266-267",
+        "first_item": "Antimagic",
+        "table_banner": ""
+      },
+      {
+        "page": 16,
+        "type": "Feathers",
+        "first_roll": "410-412",
+        "first_item": "Feathertoken",
+        "table_banner": ""
+      },
+      {
+        "page": 16,
+        "type": "Fingers",
+        "first_roll": "422-423",
+        "first_item": "of Commanding",
+        "table_banner": ""
+      },
+      {
+        "page": 16,
+        "type": "Incense",
+        "first_roll": "438-439",
+        "first_item": "of Meditation",
+        "table_banner": ""
+      },
+      {
+        "page": 16,
+        "type": "Ioun Stones",
+        "first_roll": "445-446",
+        "first_item": "Balian's Feather",
+        "table_banner": ""
+      },
+      {
+        "page": 16,
+        "type": "Marbles",
+        "first_roll": "534-535",
+        "first_item": "Cat's Eye",
+        "table_banner": ""
+      },
+      {
+        "page": 16,
+        "type": "Pies",
+        "first_roll": "548-549",
+        "first_item": "of Four-and-Twenty Blackbirds",
+        "table_banner": ""
+      },
+      {
+        "page": 16,
+        "type": "Powders",
+        "first_roll": "557-558",
+        "first_item": "Absinthe",
+        "table_banner": ""
+      },
+      {
+        "page": 17,
+        "type": "Powders",
+        "first_roll": "706-707",
+        "first_item": "Jamaica",
+        "table_banner": ""
+      },
+      {
+        "page": 17,
+        "type": "Rocks",
+        "first_roll": "825-826",
+        "first_item": "Rakasta Tea",
+        "table_banner": ""
+      },
+      {
+        "page": 17,
+        "type": "Roses",
+        "first_roll": "834-835",
+        "first_item": "of Eternal Slumber",
+        "table_banner": ""
+      },
+      {
+        "page": 17,
+        "type": "Seeds",
+        "first_roll": "848-849",
+        "first_item": "Dragon Lily",
+        "table_banner": ""
+      },
+      {
+        "page": 17,
+        "type": "Smoke",
+        "first_roll": "875-877",
+        "first_item": "of Fire Quenching",
+        "table_banner": ""
+      },
+      {
+        "page": 17,
+        "type": "Soaps",
+        "first_roll": "880-881",
+        "first_item": "of Abrasion",
+        "table_banner": ""
+      },
+      {
+        "page": 17,
+        "type": "Stones",
+        "first_roll": "884-886",
+        "first_item": "Beauregard's Beautiful Bauble",
+        "table_banner": ""
+      },
+      {
+        "page": 17,
+        "type": "Tarts",
+        "first_roll": "962-964",
+        "first_item": "of Accusation",
+        "table_banner": ""
+      },
+      {
+        "page": 17,
+        "type": "Tooth",
+        "first_roll": "971-973",
+        "first_item": "of Dahlver-nar",
+        "table_banner": ""
+      },
+      {
+        "page": 17,
+        "type": "Waxes",
+        "first_roll": "978-980",
+        "first_item": "of Careful Hearing",
+        "table_banner": ""
+      },
+      {
+        "page": 17,
+        "type": "Weeds",
+        "first_roll": "992-993",
+        "first_item": "Rapture",
+        "table_banner": ""
+      },
+      {
+        "page": 17,
+        "type": "Anvils",
+        "first_roll": "04-05",
+        "first_item": "High of the Dwarves",
+        "table_banner": "Table N: Household Items"
+      },
+      {
+        "page": 17,
+        "type": "Aprons",
+        "first_roll": "10-11",
+        "first_item": "of Comfort",
+        "table_banner": "Table N: Household Items"
+      },
+      {
+        "page": 17,
+        "type": "Armor Bath",
+        "first_roll": "18-19",
+        "first_item": "",
+        "table_banner": "Table N: Household Items"
+      },
+      {
+        "page": 17,
+        "type": "Art",
+        "first_roll": "20-21",
+        "first_item": "Blue on Bronze",
+        "table_banner": "Table N: Household Items"
+      },
+      {
+        "page": 17,
+        "type": "Awls",
+        "first_roll": "41-42",
+        "first_item": "Full",
+        "table_banner": "Table N: Household Items"
+      },
+      {
+        "page": 17,
+        "type": "Balance Scales",
+        "first_roll": "49",
+        "first_item": "of Conversion",
+        "table_banner": "Table N: Household Items"
+      },
+      {
+        "page": 17,
+        "type": "Banners",
+        "first_roll": "56-57",
+        "first_item": "of Attraction",
+        "table_banner": "Table N: Household Items"
+      },
+      {
+        "page": 17,
+        "type": "Beholder Mouthpicks",
+        "first_roll": "93-94",
+        "first_item": "Fangpick",
+        "table_banner": "Table N: Household Items"
+      },
+      {
+        "page": 17,
+        "type": "Bellows",
+        "first_roll": "97",
+        "first_item": "of Breath",
+        "table_banner": "Table N: Household Items"
+      },
+      {
+        "page": 17,
+        "type": "Benches",
+        "first_roll": "102-103",
+        "first_item": "of Encumbrance",
+        "table_banner": "Table N: Household Items"
+      },
+      {
+        "page": 17,
+        "type": "Black Wall",
+        "first_roll": "108-109",
+        "first_item": "Black Wall",
+        "table_banner": "Table N: Household Items"
+      },
+      {
+        "page": 17,
+        "type": "Blankets",
+        "first_roll": "110-111",
+        "first_item": "of Comfort",
+        "table_banner": "Table N: Household Items"
+      },
+      {
+        "page": 17,
+        "type": "Brooms",
+        "first_roll": "120",
+        "first_item": "of Animated Attack",
+        "table_banner": "Table N: Household Items"
+      },
+      {
+        "page": 17,
+        "type": "Brushes",
+        "first_roll": "131-132",
+        "first_item": "of Colors",
+        "table_banner": "Table N: Household Items"
+      },
+      {
+        "page": 17,
+        "type": "Buttons",
+        "first_roll": "139-140",
+        "first_item": "of Blasting",
+        "table_banner": "Table N: Household Items"
+      },
+      {
+        "page": 18,
+        "type": "Buttons",
+        "first_roll": "146-147",
+        "first_item": "of Rosy Vision",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Candle Snuffers",
+        "first_roll": "148-149",
+        "first_item": "of Death",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Carpets",
+        "first_roll": "158-159",
+        "first_item": "Accursed",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Chairs",
+        "first_roll": "181-182",
+        "first_item": "of Amnesia",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Cords",
+        "first_roll": "202-203",
+        "first_item": "of Binding",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Cots",
+        "first_roll": "210-211",
+        "first_item": "of Entrapment",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Curtains",
+        "first_roll": "216",
+        "first_item": "of Death",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Desks",
+        "first_roll": "223-224",
+        "first_item": "of Restudying",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Doors",
+        "first_roll": "229-230",
+        "first_item": "Magical",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Fans",
+        "first_roll": "265-266",
+        "first_item": "of Charming",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Fishing Poles",
+        "first_roll": "283-284",
+        "first_item": "of Angling",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Forks",
+        "first_roll": "296-297",
+        "first_item": "Planar",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Gavels",
+        "first_roll": "302-303",
+        "first_item": "of Auctions",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Grappling Irons",
+        "first_roll": "310-311",
+        "first_item": "Enchanted",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Hammocks",
+        "first_roll": "317-318",
+        "first_item": "of Entrapment",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Handkerchiefs",
+        "first_roll": "322-323",
+        "first_item": "of Length",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Harnesses",
+        "first_roll": "327-328",
+        "first_item": "of Seker",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Hasps",
+        "first_roll": "331-332",
+        "first_item": "of Locking",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Hinges",
+        "first_roll": "335-336",
+        "first_item": "of Opening",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Hourglasses",
+        "first_roll": "340-341",
+        "first_item": "Auqhol's Type I",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Inkwells",
+        "first_roll": "358-359",
+        "first_item": "of Concealment",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Irons",
+        "first_roll": "363-364",
+        "first_item": "of Imprisonment",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Keys",
+        "first_roll": "375-376",
+        "first_item": "Courier",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Maps",
+        "first_roll": "385-387",
+        "first_item": "of Opening",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Ladders",
+        "first_roll": "421-422",
+        "first_item": "of Balance",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Ladles",
+        "first_roll": "429-430",
+        "first_item": "of Candlemaking",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Lamps",
+        "first_roll": "436-437",
+        "first_item": "Bashal's Tendrilight",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Locks",
+        "first_roll": "496-497",
+        "first_item": "Nolte's Locks and Bolts",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Logs",
+        "first_roll": "500-501",
+        "first_item": "of Burning",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Matches",
+        "first_roll": "513-514",
+        "first_item": "Magical",
+        "table_banner": ""
+      },
+      {
+        "page": 18,
+        "type": "Mirrors",
+        "first_roll": "517-518",
+        "first_item": "Baltron's Hand",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Mirrors",
+        "first_roll": "536-537",
+        "first_item": "of Fear",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Mortars and Pestles",
+        "first_roll": "601-602",
+        "first_item": "Everproducing Rice",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Music Box",
+        "first_roll": "605-606",
+        "first_item": "",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Muzzles",
+        "first_roll": "607-608",
+        "first_item": "of Lycanthrope Control",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Nails",
+        "first_roll": "613-614",
+        "first_item": "Blast Spike",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Needles",
+        "first_roll": "628-629",
+        "first_item": "of Death",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Oven of Heating",
+        "first_roll": "644-645",
+        "first_item": "",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Pans",
+        "first_roll": "646-647",
+        "first_item": "of Cooking",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Pens",
+        "first_roll": "649-650",
+        "first_item": "of Excellence",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Picks",
+        "first_roll": "655-656",
+        "first_item": "of Earth Parting",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Pills",
+        "first_roll": "659-660",
+        "first_item": "Desalination Tablet",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Pillow of Regeneration",
+        "first_roll": "665-666",
+        "first_item": "",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Plates",
+        "first_roll": "669-670",
+        "first_item": "Book",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Pot of Plant Protection",
+        "first_roll": "688-689",
+        "first_item": "",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Prismal's Useful Enchanted Gear",
+        "first_roll": "690-691",
+        "first_item": "Block and Tackle",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Quill Pens",
+        "first_roll": "705-706",
+        "first_item": "of Copying",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Rakes",
+        "first_roll": "740-741",
+        "first_item": "of Climbing",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Rag of Drying",
+        "first_roll": "738-739",
+        "first_item": "",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Razors",
+        "first_roll": "751-752",
+        "first_item": "Baltron's",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Ropes",
+        "first_roll": "757-758",
+        "first_item": "of Climbing",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Saws",
+        "first_roll": "770-771",
+        "first_item": "of Cutting",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Scale of Weighing",
+        "first_roll": "776-777",
+        "first_item": "",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Seals",
+        "first_roll": "778-779",
+        "first_item": "of Deception",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Seat of Bane",
+        "first_roll": "782-783",
+        "first_item": "",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Shakers",
+        "first_roll": "784-785",
+        "first_item": "Eternal Salt",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Shovels",
+        "first_roll": "788-789",
+        "first_item": "of Animation",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Smoking Pipes",
+        "first_roll": "801-802",
+        "first_item": "Aromatic",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Spinning Wheels",
+        "first_roll": "824-825",
+        "first_item": "Cursed",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Spoons",
+        "first_roll": "828-829",
+        "first_item": "Birth",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Stairs",
+        "first_roll": "847-848",
+        "first_item": "of Ascending",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Strings",
+        "first_roll": "861-862",
+        "first_item": "of Attachment",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Sundials",
+        "first_roll": "874-875",
+        "first_item": "of Direction",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Stylus of Scribing",
+        "first_roll": "872-873",
+        "first_item": "",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Tables",
+        "first_roll": "878-879",
+        "first_item": "of Banquets",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Tablecloths",
+        "first_roll": "888",
+        "first_item": "Augricrone's",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Tablets",
+        "first_roll": "891-892",
+        "first_item": "Myrkul's of Fate",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Tapestries",
+        "first_roll": "895-896",
+        "first_item": "of Disease Warding",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Teas",
+        "first_roll": "903-904",
+        "first_item": "Magical Rakastan",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Telescopes",
+        "first_roll": "909-910",
+        "first_item": "of Fantastic Vision",
+        "table_banner": ""
+      },
+      {
+        "page": 19,
+        "type": "Tents",
+        "first_roll": "913",
+        "first_item": "",
+        "table_banner": ""
+      },
+      {
+        "page": 20,
+        "type": "Tents",
+        "first_roll": "920-921",
+        "first_item": "Polychromatic",
+        "table_banner": ""
+      },
+      {
+        "page": 20,
+        "type": "Threads",
+        "first_roll": "932-933",
+        "first_item": "of Aging",
+        "table_banner": ""
+      },
+      {
+        "page": 20,
+        "type": "Thrones",
+        "first_roll": "937-938",
+        "first_item": "of Death",
+        "table_banner": ""
+      },
+      {
+        "page": 20,
+        "type": "Torches",
+        "first_roll": "955-956",
+        "first_item": "of Continual Fire",
+        "table_banner": ""
+      },
+      {
+        "page": 20,
+        "type": "Tool Sets",
+        "first_roll": "949-950",
+        "first_item": "Gemcutter's of Sundd",
+        "table_banner": ""
+      },
+      {
+        "page": 20,
+        "type": "Utensils",
+        "first_roll": "962-963",
+        "first_item": "of Cleanliness",
+        "table_banner": ""
+      },
+      {
+        "page": 20,
+        "type": "Vanes",
+        "first_roll": "968-969",
+        "first_item": "Greater of Location",
+        "table_banner": ""
+      },
+      {
+        "page": 20,
+        "type": "Windows",
+        "first_roll": "972-973",
+        "first_item": "Display",
+        "table_banner": ""
+      },
+      {
+        "page": 20,
+        "type": "Yokes",
+        "first_roll": "986-987",
+        "first_item": "of Boar Harnessing",
+        "table_banner": ""
+      },
+      {
+        "page": 20,
+        "type": "Percussion Instruments",
+        "first_roll": "15-18",
+        "first_item": "Bell of Alarm",
+        "table_banner": "Table O: Musical Instruments"
+      },
+      {
+        "page": 20,
+        "type": "Stringed Instruments",
+        "first_roll": "275-279",
+        "first_item": "Fochlucan Bandore",
+        "table_banner": "Table O: Musical Instruments"
+      },
+      {
+        "page": 20,
+        "type": "Wind Instruments",
+        "first_roll": "613-619",
+        "first_item": "Airolla's Shining Horn",
+        "table_banner": "Table O: Musical Instruments"
+      },
+      {
+        "page": 21,
+        "type": "Wind Instruments",
+        "first_roll": "833-837",
+        "first_item": "Kantele",
+        "table_banner": ""
+      },
+      {
+        "page": 21,
+        "type": "Beacons",
+        "first_roll": "91-93",
+        "first_item": "Arcane",
+        "table_banner": ""
+      },
+      {
+        "page": 21,
+        "type": "Bison Skull Totems",
+        "first_roll": "96-97",
+        "first_item": "Bison Skull Totem",
+        "table_banner": ""
+      },
+      {
+        "page": 21,
+        "type": "Boats",
+        "first_roll": "100-102",
+        "first_item": "Airboat",
+        "table_banner": ""
+      },
+      {
+        "page": 21,
+        "type": "Anchors",
+        "first_roll": "03-04",
+        "first_item": "Aerial",
+        "table_banner": "Table P: Weird Stuff"
+      },
+      {
+        "page": 21,
+        "type": "Arms",
+        "first_roll": "30-31",
+        "first_item": "of Doom",
+        "table_banner": "Table P: Weird Stuff"
+      },
+      {
+        "page": 21,
+        "type": "Astrolabes",
+        "first_roll": "37-38",
+        "first_item": "Celestial",
+        "table_banner": "Table P: Weird Stuff"
+      },
+      {
+        "page": 21,
+        "type": "Balls",
+        "first_roll": "44-45",
+        "first_item": "of Avian Attraction",
+        "table_banner": "Table P: Weird Stuff"
+      },
+      {
+        "page": 21,
+        "type": "Balloons",
+        "first_roll": "71-72",
+        "first_item": "Air",
+        "table_banner": "Table P: Weird Stuff"
+      },
+      {
+        "page": 21,
+        "type": "Bridles",
+        "first_roll": "162-163",
+        "first_item": "of Acquiesce",
+        "table_banner": "Table P: Weird Stuff"
+      },
+      {
+        "page": 21,
+        "type": "Brass Horseman",
+        "first_roll": "159-161",
+        "first_item": "Brass Horseman",
+        "table_banner": "Table P: Weird Stuff"
+      },
+      {
+        "page": 21,
+        "type": "Carts",
+        "first_roll": "185-186",
+        "first_item": "Cart",
+        "table_banner": "Table P: Weird Stuff"
+      },
+      {
+        "page": 21,
+        "type": "Castles",
+        "first_roll": "193-195",
+        "first_item": "Cloud",
+        "table_banner": "Table P: Weird Stuff"
+      },
+      {
+        "page": 21,
+        "type": "Chains",
+        "first_roll": "200-202",
+        "first_item": "Daisy",
+        "table_banner": "Table P: Weird Stuff"
+      },
+      {
+        "page": 21,
+        "type": "Chariots",
+        "first_roll": "207-208",
+        "first_item": "of Flames",
+        "table_banner": "Table P: Weird Stuff"
+      },
+      {
+        "page": 21,
+        "type": "Chess Game",
+        "first_roll": "223-224",
+        "first_item": "Fextree",
+        "table_banner": "Table P: Weird Stuff"
+      },
+      {
+        "page": 21,
+        "type": "Coins",
+        "first_roll": "234-236",
+        "first_item": "of Almor",
+        "table_banner": "Table P: Weird Stuff"
+      },
+      {
+        "page": 21,
+        "type": "Crystal Balls",
+        "first_roll": "273-274",
+        "first_item": "I",
+        "table_banner": "Table P: Weird Stuff"
+      },
+      {
+        "page": 21,
+        "type": "Crystal Warriors",
+        "first_roll": "293-295",
+        "first_item": "Diamond",
+        "table_banner": "Table P: Weird Stuff"
+      },
+      {
+        "page": 21,
+        "type": "Cubes",
+        "first_roll": "305-306",
+        "first_item": "of Abilities",
+        "table_banner": "Table P: Weird Stuff"
+      },
+      {
+        "page": 21,
+        "type": "Decks of Cards",
+        "first_roll": "346-347",
+        "first_item": "of Chance",
+        "table_banner": "Table P: Weird Stuff"
+      },
+      {
+        "page": 21,
+        "type": "Devices",
+        "first_roll": "377-379",
+        "first_item": "Passage",
+        "table_banner": "Table P: Weird Stuff"
+      },
+      {
+        "page": 21,
+        "type": "Dice",
+        "first_roll": "382-383",
+        "first_item": "of Certain Wagering",
+        "table_banner": "Table P: Weird Stuff"
+      },
+      {
+        "page": 22,
+        "type": "Disks",
+        "first_roll": "386-388",
+        "first_item": "of the Azure Sea",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Figureheads",
+        "first_roll": "409-410",
+        "first_item": "of Blessing",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Figurines",
+        "first_roll": "425-426",
+        "first_item": "Alabaster Griffon",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Fire",
+        "first_roll": "453-454",
+        "first_item": "Cold",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Fountains",
+        "first_roll": "466-467",
+        "first_item": "Lasko's Magical",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Alternate World Gates",
+        "first_roll": "468-469",
+        "first_item": "Blackjack",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Globes",
+        "first_roll": "491-492",
+        "first_item": "of Battleshroud Gas",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Spelljamming Helms",
+        "first_roll": "523-524",
+        "first_item": "Bardic",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Horseshoes",
+        "first_roll": "563-565",
+        "first_item": "of Fleetness",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Huts",
+        "first_roll": "582-583",
+        "first_item": "Baba Yaga's",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Idols",
+        "first_roll": "586-587",
+        "first_item": "Carnelian",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Kites",
+        "first_roll": "598-599",
+        "first_item": "of Lightning",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Locators",
+        "first_roll": "610-611",
+        "first_item": "Lithocentric Pendulum",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Masts",
+        "first_roll": "625-626",
+        "first_item": "Half",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Mice",
+        "first_roll": "632-633",
+        "first_item": "Amazing",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Mobiles",
+        "first_roll": "643-644",
+        "first_item": "Diamond and Silver",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Nests",
+        "first_roll": "650-651",
+        "first_item": "of Eyes",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Oars",
+        "first_roll": "661-662",
+        "first_item": "Ether",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Oracles",
+        "first_roll": "666-667",
+        "first_item": "Blue of Greyhawk",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Orbs",
+        "first_roll": "682-683",
+        "first_item": "of Alignment",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Pedestals",
+        "first_roll": "729-730",
+        "first_item": "Diamond of Blyphian",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Plank",
+        "first_roll": "734-735",
+        "first_item": "Plumalitter",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Pools",
+        "first_roll": "738-740",
+        "first_item": "Dimensional",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Rudders",
+        "first_roll": "756-758",
+        "first_item": "of Guidance",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Saddles",
+        "first_roll": "772-774",
+        "first_item": "of Flying",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Sails",
+        "first_roll": "786-787",
+        "first_item": "Black of Schnai",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Ships",
+        "first_roll": "797-799",
+        "first_item": "Earth and Sea",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Skulls",
+        "first_roll": "815-817",
+        "first_item": "Ebon",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Sledges",
+        "first_roll": "827-828",
+        "first_item": "Joukahainen's Golden",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Sounder",
+        "first_roll": "834-835",
+        "first_item": "Spelljammer Detector",
+        "table_banner": ""
+      },
+      {
+        "page": 22,
+        "type": "Spheres",
+        "first_roll": "836-837",
+        "first_item": "of Annihilation",
+        "table_banner": ""
+      },
+      {
+        "page": 23,
+        "type": "Spheres",
+        "first_roll": "843-844",
+        "first_item": "Gax's of Annihilation",
+        "table_banner": ""
+      },
+      {
+        "page": 23,
+        "type": "Statues",
+        "first_roll": "863-864",
+        "first_item": "Boli",
+        "table_banner": ""
+      },
+      {
+        "page": 23,
+        "type": "Transportation",
+        "first_roll": "895-896",
+        "first_item": "Chemcheaux Teleport Pad",
+        "table_banner": ""
+      },
+      {
+        "page": 23,
+        "type": "Trees",
+        "first_roll": "903-904",
+        "first_item": "Great",
+        "table_banner": ""
+      },
+      {
+        "page": 23,
+        "type": "Turrets",
+        "first_roll": "915-917",
+        "first_item": "Light",
+        "table_banner": ""
+      },
+      {
+        "page": 23,
+        "type": "Wells",
+        "first_roll": "929-930",
+        "first_item": "of Dreams",
+        "table_banner": ""
+      },
+      {
+        "page": 23,
+        "type": "Wheels",
+        "first_roll": "936-937",
+        "first_item": "of Burning",
+        "table_banner": ""
+      },
+      {
+        "page": 23,
+        "type": "Wings",
+        "first_roll": "968-969",
+        "first_item": "Dragon",
+        "table_banner": ""
+      },
+      {
+        "page": 23,
+        "type": "Wo-ha Ui-jung",
+        "first_roll": "974-976",
+        "first_item": "Standing Monkey",
+        "table_banner": ""
+      },
+      {
+        "page": 23,
+        "type": "Blashphor's Baby Care Products",
+        "first_roll": "225-244",
+        "first_item": "Magical Diapers",
+        "table_banner": "Table Q: Humorous Items"
+      },
+      {
+        "page": 24,
+        "type": "Armor",
+        "first_roll": "261-266",
+        "first_item": "Red Dragon",
+        "table_banner": ""
+      },
+      {
+        "page": 24,
+        "type": "Barding",
+        "first_roll": "535-540",
+        "first_item": "of Deceptive Travel",
+        "table_banner": ""
+      },
+      {
+        "page": 24,
+        "type": "Bonnets",
+        "first_roll": "576-581",
+        "first_item": "Horn",
+        "table_banner": ""
+      },
+      {
+        "page": 24,
+        "type": "Caparisons",
+        "first_roll": "588-593",
+        "first_item": "Armored",
+        "table_banner": ""
+      },
+      {
+        "page": 24,
+        "type": "Shield",
+        "first_roll": "625-630",
+        "first_item": "Abbathor's",
+        "table_banner": ""
+      },
+      {
+        "page": 24,
+        "type": "Arrows",
+        "first_roll": "04",
+        "first_item": "Abaris's",
+        "table_banner": "Table S: Weapons"
+      },
+      {
+        "page": 25,
+        "type": "Arrows",
+        "first_roll": "30",
+        "first_item": "of Dispelling",
+        "table_banner": ""
+      },
+      {
+        "page": 25,
+        "type": "Axes",
+        "first_roll": "107",
+        "first_item": "Agni's Red",
+        "table_banner": ""
+      },
+      {
+        "page": 25,
+        "type": "Ballistae",
+        "first_roll": "148",
+        "first_item": "Heavy",
+        "table_banner": ""
+      },
+      {
+        "page": 25,
+        "type": "Battering Rams",
+        "first_roll": "151",
+        "first_item": "Bigby's Demanding",
+        "table_banner": ""
+      },
+      {
+        "page": 25,
+        "type": "Blowguns",
+        "first_roll": "153",
+        "first_item": "of Accuracy",
+        "table_banner": ""
+      },
+      {
+        "page": 25,
+        "type": "Bows",
+        "first_roll": "157",
+        "first_item": "Aasimon",
+        "table_banner": ""
+      },
+      {
+        "page": 25,
+        "type": "Catapults",
+        "first_roll": "218",
+        "first_item": "Light",
+        "table_banner": ""
+      },
+      {
+        "page": 25,
+        "type": "Clubs",
+        "first_roll": "221",
+        "first_item": "Aogir's",
+        "table_banner": ""
+      },
+      {
+        "page": 25,
+        "type": "Daggers",
+        "first_roll": "229-230",
+        "first_item": "Abbathor's",
+        "table_banner": ""
+      },
+      {
+        "page": 26,
+        "type": "Daggers",
+        "first_roll": "269",
+        "first_item": "of Impaling",
+        "table_banner": ""
+      },
+      {
+        "page": 26,
+        "type": "Darts",
+        "first_roll": "309",
+        "first_item": "of Biting",
+        "table_banner": ""
+      },
+      {
+        "page": 26,
+        "type": "Explosive Devices",
+        "first_roll": "340",
+        "first_item": "Dimensional Mine",
+        "table_banner": ""
+      },
+      {
+        "page": 26,
+        "type": "Flail Weapons",
+        "first_roll": "346",
+        "first_item": "Bael's Morning Star",
+        "table_banner": ""
+      },
+      {
+        "page": 26,
+        "type": "Hammers",
+        "first_roll": "358",
+        "first_item": "Aegis-Fang",
+        "table_banner": ""
+      },
+      {
+        "page": 26,
+        "type": "Harpoon",
+        "first_roll": "387",
+        "first_item": "Magical",
+        "table_banner": ""
+      },
+      {
+        "page": 26,
+        "type": "Helmseekers",
+        "first_roll": "388-389",
+        "first_item": "Accelerator",
+        "table_banner": ""
+      },
+      {
+        "page": 26,
+        "type": "Javelins",
+        "first_roll": "396",
+        "first_item": "Cursed",
+        "table_banner": ""
+      },
+      {
+        "page": 26,
+        "type": "Jettisons",
+        "first_roll": "403",
+        "first_item": "Light Magical",
+        "table_banner": ""
+      },
+      {
+        "page": 26,
+        "type": "Lances",
+        "first_roll": "410",
+        "first_item": "Anhur's",
+        "table_banner": ""
+      },
+      {
+        "page": 26,
+        "type": "Maces",
+        "first_roll": "426",
+        "first_item": "Astral Deva",
+        "table_banner": ""
+      },
+      {
+        "page": 26,
+        "type": "Mattocks",
+        "first_roll": "463",
+        "first_item": "Dumathoin's",
+        "table_banner": ""
+      },
+      {
+        "page": 26,
+        "type": "Nets",
+        "first_roll": "465",
+        "first_item": "Ashley's of Entrapment",
+        "table_banner": ""
+      },
+      {
+        "page": 26,
+        "type": "Paddleboard",
+        "first_roll": "487",
+        "first_item": "Magical",
+        "table_banner": ""
+      },
+      {
+        "page": 26,
+        "type": "Pellets",
+        "first_roll": "489",
+        "first_item": "Flash",
+        "table_banner": ""
+      },
+      {
+        "page": 26,
+        "type": "Polearms",
+        "first_roll": "491",
+        "first_item": "Baphomet's Bardiche",
+        "table_banner": ""
+      },
+      {
+        "page": 27,
+        "type": "Polearms",
+        "first_roll": "498",
+        "first_item": "Fork of Travel",
+        "table_banner": ""
+      },
+      {
+        "page": 27,
+        "type": "Quivers",
+        "first_roll": "523",
+        "first_item": "of Arrow Storing",
+        "table_banner": ""
+      },
+      {
+        "page": 27,
+        "type": "Shot",
+        "first_roll": "532",
+        "first_item": "Elmarin Cannon Call (Dust)",
+        "table_banner": ""
+      },
+      {
+        "page": 27,
+        "type": "Sickles",
+        "first_roll": "540",
+        "first_item": "Ahto's",
+        "table_banner": ""
+      },
+      {
+        "page": 27,
+        "type": "Slings",
+        "first_roll": "549",
+        "first_item": "Blacksling",
+        "table_banner": ""
+      },
+      {
+        "page": 27,
+        "type": "Spears",
+        "first_roll": "555",
+        "first_item": "of Accuracy",
+        "table_banner": ""
+      },
+      {
+        "page": 27,
+        "type": "Spelljamming Rams",
+        "first_roll": "582-583",
+        "first_item": "Blunt",
+        "table_banner": ""
+      },
+      {
+        "page": 27,
+        "type": "Swords",
+        "first_roll": "586",
+        "first_item": "Aastnom",
+        "table_banner": ""
+      },
+      {
+        "page": 28,
+        "type": "Swords",
+        "first_roll": "732",
+        "first_item": "Flaming",
+        "table_banner": ""
+      },
+      {
+        "page": 29,
+        "type": "Swords",
+        "first_roll": "976",
+        "first_item": "Wyrmcleaver",
+        "table_banner": ""
+      },
+      {
+        "page": 29,
+        "type": "Throwing Stars",
+        "first_roll": "985",
+        "first_item": "of Ojy-do",
+        "table_banner": ""
+      },
+      {
+        "page": 29,
+        "type": "Whips",
+        "first_roll": "987",
+        "first_item": "of Amatar",
+        "table_banner": ""
+      },
+      {
+        "page": 29,
+        "type": "Crowns",
+        "first_roll": "130-135",
+        "first_item": "of Chaotic Evil",
+        "table_banner": "Table T: Artifacts"
+      },
+      {
+        "page": 29,
+        "type": "Orbs",
+        "first_roll": "477-482",
+        "first_item": "of Chaotic Evil",
+        "table_banner": "Table T: Artifacts"
+      },
+      {
+        "page": 29,
+        "type": "Regalia of Might II",
+        "first_roll": "670-676",
+        "first_item": "Regalia of Might",
+        "table_banner": "Table T: Artifacts"
+      },
+      {
+        "page": 29,
+        "type": "Sceptors",
+        "first_roll": "771-776",
+        "first_item": "of Chaotic Evil",
+        "table_banner": "Table T: Artifacts"
+      },
+      {
+        "page": 29,
+        "type": "Triad of Betrayal",
+        "first_roll": "953-958",
+        "first_item": "Circlet of Betrayal",
+        "table_banner": "Table T: Artifacts"
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Extract"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "page 1",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "a1a3b415a794f481f",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942376978,
+      "queuedAt": 1782942376959,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "High confidence: this page is the appendix intro plus the T…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 1** (pass pages:\"1\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 columns.…",
+      "lastProgressAt": 1782942390393,
+      "tokens": 23906,
+      "toolCalls": 2,
+      "durationMs": 13415,
+      "resultPreview": "{\"page\":1,\"headers\":[{\"type\":\"Oils\",\"first_roll\":\"63-64\",\"first_item\":\"Absinthe\",\"table_banner\":\"Table A: Magical Liquids\"}],\"confidence\":\"High confidence: this page is the appendix intro plus the Table 1 master d100 category table and the start of Table A: Magical Liquids; the only bold item-TYPE sub-header is \\\"Oils\\\" (first item 63-64 Absinthe). Table 1's rows are category names, not item types…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "page 2",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "a749b287bac5e4baf",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942376978,
+      "queuedAt": 1782942376959,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Fairly confident: six clear bold TYPE sub-headers (Oils, Oi…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 2** (pass pages:\"2\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 columns.…",
+      "lastProgressAt": 1782942393742,
+      "tokens": 23906,
+      "toolCalls": 2,
+      "durationMs": 16764,
+      "resultPreview": "{\"page\":2,\"headers\":[{\"type\":\"Oils\",\"first_roll\":\"236-237\",\"first_item\":\"Jezebel\",\"table_banner\":\"Table A: Magical Liquids\"},{\"type\":\"Ointments\",\"first_roll\":\"367-368\",\"first_item\":\"of Blessing\",\"table_banner\":\"Table A: Magical Liquids\"},{\"type\":\"Perfumes\",\"first_roll\":\"413-414\",\"first_item\":\"Aroma of Dreams\",\"table_banner\":\"Table A: Magical Liquids\"},{\"type\":\"Philters\",\"first_roll\":\"424-425\",\"fir…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "page 3",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "a7fd28282dbb1b431",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942376979,
+      "queuedAt": 1782942376959,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "High confidence — all seven sub-headers read cleanly; \"Sea …",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 3** (pass pages:\"3\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 columns.…",
+      "lastProgressAt": 1782942391804,
+      "tokens": 23906,
+      "toolCalls": 2,
+      "durationMs": 14825,
+      "resultPreview": "{\"page\":3,\"headers\":[{\"type\":\"Potions\",\"first_roll\":\"654-655\",\"first_item\":\"of Forgetfulness II\",\"table_banner\":\"\"},{\"type\":\"Salves\",\"first_roll\":\"983-984\",\"first_item\":\"of Far Seeing\",\"table_banner\":\"\"},{\"type\":\"Sea Dew\",\"first_roll\":\"989\",\"first_item\":\"Sea Dew\",\"table_banner\":\"\"},{\"type\":\"Water\",\"first_roll\":\"994-995\",\"first_item\":\"Blessed\",\"table_banner\":\"\"},{\"type\":\"Papers\",\"first_roll\":\"11-20…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "page 4",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "ae4a78cb54b824397",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942376979,
+      "queuedAt": 1782942376959,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Fairly confident: two bold sub-headers found — \"Scrolls\" (c…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 4** (pass pages:\"4\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 columns.…",
+      "lastProgressAt": 1782942392400,
+      "tokens": 23906,
+      "toolCalls": 2,
+      "durationMs": 15421,
+      "resultPreview": "{\"page\":4,\"headers\":[{\"type\":\"Scrolls\",\"first_roll\":\"331-340\",\"first_item\":\"Mondasso's Automated Spell\",\"table_banner\":\"\"},{\"type\":\"Enchanted Enhancements*\",\"first_roll\":\"04-07\",\"first_item\":\"of Leadership\",\"table_banner\":\"Table C: Rings\"}],\"confidence\":\"Fairly confident: two bold sub-headers found — \\\"Scrolls\\\" (continuing from a prior page, no banner visible) and \\\"Enchanted Enhancements*\\\" whic…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "page 5",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "ab05b11be98623f53",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942376979,
+      "queuedAt": 1782942376960,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Fairly confident: the two \"Table X\" banners (D: Rods, E: St…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 5** (pass pages:\"5\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 columns.…",
+      "lastProgressAt": 1782942394604,
+      "tokens": 23906,
+      "toolCalls": 2,
+      "durationMs": 17625,
+      "resultPreview": "{\"page\":5,\"headers\":[{\"type\":\"Enchanted Enhancements*\",\"first_roll\":\"01-15\",\"first_item\":\"Enchanted Enhancements*\",\"table_banner\":\"Table D: Rods\"},{\"type\":\"Moto Moto Rods\",\"first_roll\":\"16-30\",\"first_item\":\"of Beguiling\",\"table_banner\":\"Table D: Rods\"},{\"type\":\"Rods\",\"first_roll\":\"76-90\",\"first_item\":\"of Absorption\",\"table_banner\":\"Table D: Rods\"},{\"type\":\"Enchanted Enhancements*\",\"first_roll\":\"01…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "page 6",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "ad4fe34f599b89b2f",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942376980,
+      "queuedAt": 1782942376960,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "High confidence: two bold sub-headers are visible — \"Staves…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 6** (pass pages:\"6\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 columns.…",
+      "lastProgressAt": 1782942387199,
+      "tokens": 23906,
+      "toolCalls": 2,
+      "durationMs": 10219,
+      "resultPreview": "{\"page\":6,\"headers\":[{\"type\":\"Staves\",\"first_roll\":\"123-129\",\"first_item\":\"of Battle II\",\"table_banner\":\"\"},{\"type\":\"Wands\",\"first_roll\":\"01-08\",\"first_item\":\"Enchanted Enhancements*\",\"table_banner\":\"Table F: Wands\"}],\"confidence\":\"High confidence: two bold sub-headers are visible — \\\"Staves\\\" (continuing from a prior page, first item 123-129 of Battle II) and the \\\"Wands\\\" section under the \\\"Tab…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "page 7",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "a2383776f86f6fbd3",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942387201,
+      "queuedAt": 1782942376960,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "High confidence: six sub-headers found (Wands continuation,…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 7** (pass pages:\"7\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 columns.…",
+      "lastProgressAt": 1782942397650,
+      "tokens": 23893,
+      "toolCalls": 2,
+      "durationMs": 10449,
+      "resultPreview": "{\"page\":7,\"headers\":[{\"type\":\"Wands\",\"first_roll\":\"914-922\",\"first_item\":\"of Whips\",\"table_banner\":\"\"},{\"type\":\"Books\",\"first_roll\":\"04-07\",\"first_item\":\"of Binding Souls\",\"table_banner\":\"Table G: Books\"},{\"type\":\"Librams\",\"first_roll\":\"51-54\",\"first_item\":\"Analect of Magic\",\"table_banner\":\"Table G: Books\"},{\"type\":\"Manuals\",\"first_roll\":\"197-200\",\"first_item\":\"Grim Grimoire\",\"table_banner\":\"Table…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "page 8",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "a286b3414865ceaaf",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942390394,
+      "queuedAt": 1782942376960,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "High confidence on all nine sub-headers and their first row…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 8** (pass pages:\"8\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 columns.…",
+      "lastProgressAt": 1782942403895,
+      "tokens": 23906,
+      "toolCalls": 2,
+      "durationMs": 13501,
+      "resultPreview": "{\"page\":8,\"headers\":[{\"type\":\"Spellbooks\",\"first_roll\":\"681-684\",\"first_item\":\"Planes of Antimatter\",\"table_banner\":\"\"},{\"type\":\"Tomes\",\"first_roll\":\"907-910\",\"first_item\":\"of Bodily Health\",\"table_banner\":\"\"},{\"type\":\"Amulets\",\"first_roll\":\"01\",\"first_item\":\"of the Abyss\",\"table_banner\":\"Table H: Gems and Jewelry\"},{\"type\":\"Ankhs\",\"first_roll\":\"157-158\",\"first_item\":\"of Life\",\"table_banner\":\"Tabl…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 9,
+      "label": "page 9",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "ace01a588020915d8",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942391804,
+      "queuedAt": 1782942376960,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "High confidence on the 16 sub-headers and their first rolls…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 9** (pass pages:\"9\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 columns.…",
+      "lastProgressAt": 1782942409227,
+      "tokens": 23906,
+      "toolCalls": 2,
+      "durationMs": 17423,
+      "resultPreview": "{\"page\":9,\"headers\":[{\"type\":\"Charms\",\"first_roll\":\"234-235\",\"first_item\":\"Luck\",\"table_banner\":\"\"},{\"type\":\"Crowns\",\"first_roll\":\"257-258\",\"first_item\":\"Black of Aerdy\",\"table_banner\":\"\"},{\"type\":\"Crystals\",\"first_roll\":\"306-307\",\"first_item\":\"Abelaat\",\"table_banner\":\"\"},{\"type\":\"Earrings\",\"first_roll\":\"318-319\",\"first_item\":\"of Alignment Detection\",\"table_banner\":\"\"},{\"type\":\"Eyes\",\"first_roll\":…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 10,
+      "label": "page 10",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "a7727b39e7a4e3c8e",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942392401,
+      "queuedAt": 1782942376960,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "High confidence: all 15 bold TYPE sub-headers across the th…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 10** (pass pages:\"10\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 column…",
+      "lastProgressAt": 1782942407248,
+      "tokens": 23906,
+      "toolCalls": 2,
+      "durationMs": 14846,
+      "resultPreview": "{\"page\":10,\"headers\":[{\"type\":\"Medallions\",\"first_roll\":\"653-654\",\"first_item\":\"Holy of Almor\",\"table_banner\":\"\"},{\"type\":\"Monocles\",\"first_roll\":\"687\",\"first_item\":\"Fire-Eye\",\"table_banner\":\"\"},{\"type\":\"Necklaces\",\"first_roll\":\"688-689\",\"first_item\":\"of Adaptation\",\"table_banner\":\"\"},{\"type\":\"Pearls\",\"first_roll\":\"749-750\",\"first_item\":\"Black\",\"table_banner\":\"\"},{\"type\":\"Pendants\",\"first_roll\":\"7…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 11,
+      "label": "page 11",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "ad0fb8c746b218e50",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942393743,
+      "queuedAt": 1782942376960,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "High confidence; all 18 bold TYPE sub-headers were identifi…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 11** (pass pages:\"11\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 column…",
+      "lastProgressAt": 1782942414662,
+      "tokens": 23906,
+      "toolCalls": 2,
+      "durationMs": 20919,
+      "resultPreview": "{\"page\":11,\"headers\":[{\"type\":\"Cloaks\",\"first_roll\":\"195-200\",\"first_item\":\"Bronze Dragon\",\"table_banner\":\"\"},{\"type\":\"Cloth\",\"first_roll\":\"536-542\",\"first_item\":\"of Cleanliness\",\"table_banner\":\"\"},{\"type\":\"Coats\",\"first_roll\":\"579-584\",\"first_item\":\"Fare's of Protection\",\"table_banner\":\"\"},{\"type\":\"Dresses\",\"first_roll\":\"603-609\",\"first_item\":\"of Amazement\",\"table_banner\":\"\"},{\"type\":\"Furs\",\"firs…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 12,
+      "label": "page 12",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "a2cb690baf01d947d",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942394605,
+      "queuedAt": 1782942376960,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "High confidence — I read all three columns top-to-bottom an…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 12** (pass pages:\"12\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 column…",
+      "lastProgressAt": 1782942413028,
+      "tokens": 23893,
+      "toolCalls": 2,
+      "durationMs": 18423,
+      "resultPreview": "{\"page\":12,\"headers\":[{\"type\":\"Claws\",\"first_roll\":\"453-458\",\"first_item\":\"Twisted\",\"table_banner\":\"\"},{\"type\":\"Collars\",\"first_roll\":\"465-470\",\"first_item\":\"of Change\",\"table_banner\":\"\"},{\"type\":\"Gauntlets\",\"first_roll\":\"512-517\",\"first_item\":\"Claw of the Bear\",\"table_banner\":\"\"},{\"type\":\"Gloves\",\"first_roll\":\"671-676\",\"first_item\":\"Black Hand\",\"table_banner\":\"\"},{\"type\":\"Hands\",\"first_roll\":\"812…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 13,
+      "label": "page 13",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "afd3e76709b866693",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942397650,
+      "queuedAt": 1782942376960,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "High confidence on the sub-headers and rolls; the one judgm…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 13** (pass pages:\"13\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 column…",
+      "lastProgressAt": 1782942422027,
+      "tokens": 23906,
+      "toolCalls": 2,
+      "durationMs": 24377,
+      "resultPreview": "{\"page\":13,\"headers\":[{\"type\":\"Masks\",\"first_roll\":\"674-679\",\"first_item\":\"Air\",\"table_banner\":\"\"},{\"type\":\"Sashes\",\"first_roll\":\"948-952\",\"first_item\":\"of Fire Resistance\",\"table_banner\":\"\"},{\"type\":\"Turbans\",\"first_roll\":\"977-981\",\"first_item\":\"Feather\",\"table_banner\":\"\"},{\"type\":\"Bags\",\"first_roll\":\"04-07\",\"first_item\":\"Backpack of Holding\",\"table_banner\":\"Table L: Bags, Barrels, Bottles, and B…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 14,
+      "label": "page 14",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "a8e3c8dcb5e8ed331",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942403896,
+      "queuedAt": 1782942376960,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Very confident: page 14 is a full-page color illustration (…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 14** (pass pages:\"14\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 column…",
+      "lastProgressAt": 1782942411080,
+      "tokens": 23893,
+      "toolCalls": 2,
+      "durationMs": 7184,
+      "resultPreview": "{\"page\":14,\"headers\":[],\"confidence\":\"Very confident: page 14 is a full-page color illustration (battle scene, page number 1580) with no table content or TYPE sub-headers.\"}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 15,
+      "label": "page 15",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "a9949781a1105fe38",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942407250,
+      "queuedAt": 1782942376960,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "High confidence on the sub-headers and roll ranges; two iso…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 15** (pass pages:\"15\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 column…",
+      "lastProgressAt": 1782942431212,
+      "tokens": 23906,
+      "toolCalls": 2,
+      "durationMs": 23961,
+      "resultPreview": "{\"page\":15,\"headers\":[{\"type\":\"Cauldrons\",\"first_roll\":\"566-569\",\"first_item\":\"of Healing\",\"table_banner\":\"\"},{\"type\":\"Censers\",\"first_roll\":\"602-605\",\"first_item\":\"of Conduct\",\"table_banner\":\"\"},{\"type\":\"Chalices\",\"first_roll\":\"621-624\",\"first_item\":\"of Colors\",\"table_banner\":\"\"},{\"type\":\"Chests\",\"first_roll\":\"669-672\",\"first_item\":\"of Drawers\",\"table_banner\":\"\"},{\"type\":\"Coffins\",\"first_roll\":\"6…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 16,
+      "label": "page 16",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "a42c042fc797f564e",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942409229,
+      "queuedAt": 1782942376960,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Fairly confident on the ten category headers and their roll…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 16** (pass pages:\"16\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 column…",
+      "lastProgressAt": 1782942427861,
+      "tokens": 23906,
+      "toolCalls": 2,
+      "durationMs": 18632,
+      "resultPreview": "{\"page\":16,\"headers\":[{\"type\":\"Dust\",\"first_roll\":\"202-203\",\"first_item\":\"of Blending\",\"table_banner\":\"\"},{\"type\":\"Eggs\",\"first_roll\":\"266-267\",\"first_item\":\"Antimagic\",\"table_banner\":\"\"},{\"type\":\"Feathers\",\"first_roll\":\"410-412\",\"first_item\":\"Feathertoken\",\"table_banner\":\"\"},{\"type\":\"Fingers\",\"first_roll\":\"422-423\",\"first_item\":\"of Commanding\",\"table_banner\":\"\"},{\"type\":\"Incense\",\"first_roll\":\"43…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 17,
+      "label": "page 17",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "a01298ebd2df0a886",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942411081,
+      "queuedAt": 1782942376960,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "High confidence on all sub-headers and roll ranges; the onl…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 17** (pass pages:\"17\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 column…",
+      "lastProgressAt": 1782942433918,
+      "tokens": 23893,
+      "toolCalls": 2,
+      "durationMs": 22837,
+      "resultPreview": "{\"page\":17,\"headers\":[{\"type\":\"Powders\",\"first_roll\":\"706-707\",\"first_item\":\"Jamaica\",\"table_banner\":\"\"},{\"type\":\"Rocks\",\"first_roll\":\"825-826\",\"first_item\":\"Rakasta Tea\",\"table_banner\":\"\"},{\"type\":\"Roses\",\"first_roll\":\"834-835\",\"first_item\":\"of Eternal Slumber\",\"table_banner\":\"\"},{\"type\":\"Seeds\",\"first_roll\":\"848-849\",\"first_item\":\"Dragon Lily\",\"table_banner\":\"\"},{\"type\":\"Smoke\",\"first_roll\":\"875…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 18,
+      "label": "page 18",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "a4150fe8063ee5747",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942413028,
+      "queuedAt": 1782942376960,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "High confidence: all three columns read top-to-bottom, left…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 18** (pass pages:\"18\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 column…",
+      "lastProgressAt": 1782942438360,
+      "tokens": 23893,
+      "toolCalls": 2,
+      "durationMs": 25331,
+      "resultPreview": "{\"page\":18,\"headers\":[{\"type\":\"Buttons\",\"first_roll\":\"146-147\",\"first_item\":\"of Rosy Vision\",\"table_banner\":\"\"},{\"type\":\"Candle Snuffers\",\"first_roll\":\"148-149\",\"first_item\":\"of Death\",\"table_banner\":\"\"},{\"type\":\"Carpets\",\"first_roll\":\"158-159\",\"first_item\":\"Accursed\",\"table_banner\":\"\"},{\"type\":\"Chairs\",\"first_roll\":\"181-182\",\"first_item\":\"of Amnesia\",\"table_banner\":\"\"},{\"type\":\"Cords\",\"first_roll…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 19,
+      "label": "page 19",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "a804b08f185ba96ee",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942414663,
+      "queuedAt": 1782942376960,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "High confidence: all sub-headers read in column order; a co…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 19** (pass pages:\"19\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 column…",
+      "lastProgressAt": 1782942440010,
+      "tokens": 23893,
+      "toolCalls": 2,
+      "durationMs": 25347,
+      "resultPreview": "{\"page\":19,\"headers\":[{\"type\":\"Mirrors\",\"first_roll\":\"536-537\",\"first_item\":\"of Fear\",\"table_banner\":\"\"},{\"type\":\"Mortars and Pestles\",\"first_roll\":\"601-602\",\"first_item\":\"Everproducing Rice\",\"table_banner\":\"\"},{\"type\":\"Music Box\",\"first_roll\":\"605-606\",\"first_item\":\"\",\"table_banner\":\"\"},{\"type\":\"Muzzles\",\"first_roll\":\"607-608\",\"first_item\":\"of Lycanthrope Control\",\"table_banner\":\"\"},{\"type\":\"Nail…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 20,
+      "label": "page 20",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "aac0701f77a7a5493",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942422028,
+      "queuedAt": 1782942376960,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "High confidence — 12 sub-headers captured across all three …",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 20** (pass pages:\"20\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 column…",
+      "lastProgressAt": 1782942436778,
+      "tokens": 23906,
+      "toolCalls": 2,
+      "durationMs": 14750,
+      "resultPreview": "{\"page\":20,\"headers\":[{\"type\":\"Tents\",\"first_roll\":\"920-921\",\"first_item\":\"Polychromatic\",\"table_banner\":\"\"},{\"type\":\"Threads\",\"first_roll\":\"932-933\",\"first_item\":\"of Aging\",\"table_banner\":\"\"},{\"type\":\"Thrones\",\"first_roll\":\"937-938\",\"first_item\":\"of Death\",\"table_banner\":\"\"},{\"type\":\"Torches\",\"first_roll\":\"955-956\",\"first_item\":\"of Continual Fire\",\"table_banner\":\"\"},{\"type\":\"Tool Sets\",\"first_rol…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 21,
+      "label": "page 21",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "ab0b75062c9b944a9",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942427861,
+      "queuedAt": 1782942376960,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "High confidence on the 23 sub-headers and their first rolls…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 21** (pass pages:\"21\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 column…",
+      "lastProgressAt": 1782942471546,
+      "tokens": 25432,
+      "toolCalls": 3,
+      "durationMs": 43685,
+      "resultPreview": "{\"page\":21,\"headers\":[{\"type\":\"Wind Instruments\",\"first_roll\":\"833-837\",\"first_item\":\"Kantele\",\"table_banner\":\"\"},{\"type\":\"Beacons\",\"first_roll\":\"91-93\",\"first_item\":\"Arcane\",\"table_banner\":\"\"},{\"type\":\"Bison Skull Totems\",\"first_roll\":\"96-97\",\"first_item\":\"Bison Skull Totem\",\"table_banner\":\"\"},{\"type\":\"Boats\",\"first_roll\":\"100-102\",\"first_item\":\"Airboat\",\"table_banner\":\"\"},{\"type\":\"Anchors\",\"firs…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 22,
+      "label": "page 22",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "a4a2d49442ba2d230",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942431213,
+      "queuedAt": 1782942376960,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "High — all three columns were legible; I captured every bol…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 22** (pass pages:\"22\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 column…",
+      "lastProgressAt": 1782942452106,
+      "tokens": 23906,
+      "toolCalls": 2,
+      "durationMs": 20893,
+      "resultPreview": "{\"page\":22,\"headers\":[{\"type\":\"Disks\",\"first_roll\":\"386-388\",\"first_item\":\"of the Azure Sea\",\"table_banner\":\"\"},{\"type\":\"Figureheads\",\"first_roll\":\"409-410\",\"first_item\":\"of Blessing\",\"table_banner\":\"\"},{\"type\":\"Figurines\",\"first_roll\":\"425-426\",\"first_item\":\"Alabaster Griffon\",\"table_banner\":\"\"},{\"type\":\"Fire\",\"first_roll\":\"453-454\",\"first_item\":\"Cold\",\"table_banner\":\"\"},{\"type\":\"Fountains\",\"firs…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 23,
+      "label": "page 23",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "a6a01d663a8d9aa42",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942433919,
+      "queuedAt": 1782942376960,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "High confidence on the item TYPE sub-headers and their firs…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 23** (pass pages:\"23\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 column…",
+      "lastProgressAt": 1782942451176,
+      "tokens": 23906,
+      "toolCalls": 2,
+      "durationMs": 17257,
+      "resultPreview": "{\"page\":23,\"headers\":[{\"type\":\"Spheres\",\"first_roll\":\"843-844\",\"first_item\":\"Gax's of Annihilation\",\"table_banner\":\"\"},{\"type\":\"Statues\",\"first_roll\":\"863-864\",\"first_item\":\"Boli\",\"table_banner\":\"\"},{\"type\":\"Transportation\",\"first_roll\":\"895-896\",\"first_item\":\"Chemcheaux Teleport Pad\",\"table_banner\":\"\"},{\"type\":\"Trees\",\"first_roll\":\"903-904\",\"first_item\":\"Great\",\"table_banner\":\"\"},{\"type\":\"Turrets…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 24,
+      "label": "page 24",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "ad8cf7eb89297294e",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942436779,
+      "queuedAt": 1782942376960,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Moderately high; the five armor-group sub-headers (Armor, B…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 24** (pass pages:\"24\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 column…",
+      "lastProgressAt": 1782942450034,
+      "tokens": 23942,
+      "toolCalls": 2,
+      "durationMs": 13255,
+      "resultPreview": "{\"page\":24,\"headers\":[{\"type\":\"Armor\",\"first_roll\":\"261-266\",\"first_item\":\"Red Dragon\",\"table_banner\":\"\"},{\"type\":\"Barding\",\"first_roll\":\"535-540\",\"first_item\":\"of Deceptive Travel\",\"table_banner\":\"\"},{\"type\":\"Bonnets\",\"first_roll\":\"576-581\",\"first_item\":\"Horn\",\"table_banner\":\"\"},{\"type\":\"Caparisons\",\"first_roll\":\"588-593\",\"first_item\":\"Armored\",\"table_banner\":\"\"},{\"type\":\"Shield\",\"first_roll\":\"62…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 25,
+      "label": "page 25",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "aee317af37f257507",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942438361,
+      "queuedAt": 1782942376960,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Fairly confident on the nine weapon-category headers and th…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 25** (pass pages:\"25\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 column…",
+      "lastProgressAt": 1782942456102,
+      "tokens": 23893,
+      "toolCalls": 2,
+      "durationMs": 17741,
+      "resultPreview": "{\"page\":25,\"headers\":[{\"type\":\"Arrows\",\"first_roll\":\"30\",\"first_item\":\"of Dispelling\",\"table_banner\":\"\"},{\"type\":\"Axes\",\"first_roll\":\"107\",\"first_item\":\"Agni's Red\",\"table_banner\":\"\"},{\"type\":\"Ballistae\",\"first_roll\":\"148\",\"first_item\":\"Heavy\",\"table_banner\":\"\"},{\"type\":\"Battering Rams\",\"first_roll\":\"151\",\"first_item\":\"Bigby's Demanding\",\"table_banner\":\"\"},{\"type\":\"Blowguns\",\"first_roll\":\"153\",\"fi…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 26,
+      "label": "page 26",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "a9347b49438c9f8fc",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942440011,
+      "queuedAt": 1782942376960,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "High confidence — all 16 bold TYPE sub-headers across the t…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 26** (pass pages:\"26\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 column…",
+      "lastProgressAt": 1782942457915,
+      "tokens": 23906,
+      "toolCalls": 2,
+      "durationMs": 17904,
+      "resultPreview": "{\"page\":26,\"headers\":[{\"type\":\"Daggers\",\"first_roll\":\"269\",\"first_item\":\"of Impaling\",\"table_banner\":\"\"},{\"type\":\"Darts\",\"first_roll\":\"309\",\"first_item\":\"of Biting\",\"table_banner\":\"\"},{\"type\":\"Explosive Devices\",\"first_roll\":\"340\",\"first_item\":\"Dimensional Mine\",\"table_banner\":\"\"},{\"type\":\"Flail Weapons\",\"first_roll\":\"346\",\"first_item\":\"Bael's Morning Star\",\"table_banner\":\"\"},{\"type\":\"Hammers\",\"fi…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 27,
+      "label": "page 27",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "ac569e590f5a86eec",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942450036,
+      "queuedAt": 1782942376960,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "High confidence: eight bold TYPE sub-headers are clearly vi…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 27** (pass pages:\"27\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 column…",
+      "lastProgressAt": 1782942464308,
+      "tokens": 23929,
+      "toolCalls": 2,
+      "durationMs": 14272,
+      "resultPreview": "{\"page\":27,\"headers\":[{\"type\":\"Polearms\",\"first_roll\":\"498\",\"first_item\":\"Fork of Travel\",\"table_banner\":\"\"},{\"type\":\"Quivers\",\"first_roll\":\"523\",\"first_item\":\"of Arrow Storing\",\"table_banner\":\"\"},{\"type\":\"Shot\",\"first_roll\":\"532\",\"first_item\":\"Elmarin Cannon Call (Dust)\",\"table_banner\":\"\"},{\"type\":\"Sickles\",\"first_roll\":\"540\",\"first_item\":\"Ahto's\",\"table_banner\":\"\"},{\"type\":\"Slings\",\"first_roll\":…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 28,
+      "label": "page 28",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "a1e1e0b8ca8748917",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942451178,
+      "queuedAt": 1782942376960,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "High confidence — only one bold TYPE sub-header (\"Swords\") …",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 28** (pass pages:\"28\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 column…",
+      "lastProgressAt": 1782942463441,
+      "tokens": 23942,
+      "toolCalls": 2,
+      "durationMs": 12263,
+      "resultPreview": "{\"page\":28,\"headers\":[{\"type\":\"Swords\",\"first_roll\":\"732\",\"first_item\":\"Flaming\",\"table_banner\":\"\"}],\"confidence\":\"High confidence — only one bold TYPE sub-header (\\\"Swords\\\") is present on the page, at the top of the left column, with its first item being roll 732 \\\"Flaming\\\"; no Table banner is visible.\"}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 29,
+      "label": "page 29",
+      "phaseIndex": 1,
+      "phaseTitle": "Extract",
+      "agentId": "a5777ba17ccc2c3da",
+      "agentType": "general-purpose",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782942452107,
+      "queuedAt": 1782942376960,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Fairly confident on the three weapon sub-headers (Swords, T…",
+      "promptPreview": "You are extracting the TYPE sub-headers from ONE page of a scanned AD&D 2e \"Encyclopedia Magica\" random-determination table (the appendix of magic-item roll tables).\n\nUse the Read tool to read **page 29** (pass pages:\"29\") of this PDF:\n/Users/zach/Documents/Encyclopedia Magicka/reference/source_pdfs/Encyclopedia Magica Volume 4 (T-Z) 1250 - 01 (p320-348).pdf\n\nThe page is laid out in up to 3 column…",
+      "lastProgressAt": 1782942468556,
+      "tokens": 23893,
+      "toolCalls": 2,
+      "durationMs": 16449,
+      "resultPreview": "{\"page\":29,\"headers\":[{\"type\":\"Swords\",\"first_roll\":\"976\",\"first_item\":\"Wyrmcleaver\",\"table_banner\":\"\"},{\"type\":\"Throwing Stars\",\"first_roll\":\"985\",\"first_item\":\"of Ojy-do\",\"table_banner\":\"\"},{\"type\":\"Whips\",\"first_roll\":\"987\",\"first_item\":\"of Amatar\",\"table_banner\":\"\"},{\"type\":\"Crowns\",\"first_roll\":\"130-135\",\"first_item\":\"of Chaotic Evil\",\"table_banner\":\"Table T: Artifacts\"},{\"type\":\"Orbs\",\"first…"
+    }
+  ],
+  "totalTokens": 694791,
+  "totalToolCalls": 59
+}
