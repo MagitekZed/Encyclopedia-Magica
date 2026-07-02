@@ -342,8 +342,10 @@ visible celestial map of *how the item came to be*. Interruptible; instant-draw 
 - **Hover** a node → it lifts, brightens its links, traces the path back to the root, and shows a tooltip with full
   detail (full bonus string, page status, roll range).
 - **Copy/Export** serializes to indented ASCII (`└`/`↳`) matching the spec's example — the tree copies/exports cleanly.
-- **Hoard (K items):** each item is its own **small collapsed constellation** under a grouped parent so a 30-item
-  panel doesn't explode; expand any one to see its cascade.
+- **Hoard (K items):** rendered as the **Hoard Manifest** — an "illuminated ledger" (see §13 Observatory Refit):
+  one glanceable row per item (resolved name via `RollStep.summary`, category, roll provenance, combine badge,
+  page refs) with the full trace lazily mounted on expand + Expand/Collapse-all. Supersedes the earlier
+  "small collapsed constellation" treatment.
 
 ---
 
@@ -402,13 +404,14 @@ to `localStorage`. Tuned to a **pentatonic** scale so rapid rolls never clash; o
 7. **`backdrop-filter` fallback** + DPR cap + `visibilitychange` pause + fps auto-throttle + "Reduce effects" toggle.
 8. **Grimoire** persistence (localStorage, `try/catch` → in-memory fallback), pin/label, hoard grouping.
 9. **Copy / Export** result & hoard to `.txt` / `.md` / `.json` (headline + indented trace + seed → replayable file).
+   Hoard copy/export **leads with the manifest block** (`EM.hoardBlock`) before the full trace — Copy ≡ Export.
 
 **NICE-TO-HAVE (delight, add after core is solid):**
 10. **Command palette (Ctrl+K / ⌘K)** — glassy astral search to jump to any table, roll it, or run any action by name.
 11. **Full keyboard set** + `?` cheatsheet overlay: `R`/`Space` roll (scoped off text fields, no-op on Library),
     `Ctrl+R` reroll, `Ctrl+Z` previous, `1–4` tabs, `Ctrl+F` search, `Ctrl+H` grimoire, `Esc` clear.
-12. **Treasure Hoard as a star-chart** — mini-constellations laid across a zoom/pan night-sky grid; export the whole
-    chart as grouped stat blocks.
+12. ~~**Treasure Hoard as a star-chart**~~ — superseded by the shipped **Hoard Manifest** (§13); the ledger, not a
+    zoom/pan chart, is the hoard's canonical display.
 13. **Copy-as-image** — render the result card/constellation to canvas (`toDataURL`) → paste the sigil into Discord/notes.
 14. **"Focus the eyepiece"** — on a fresh roll the starfield darkens and the nebula pulls toward the card ~600 ms
     (telescope racking focus), then relaxes.
@@ -473,3 +476,75 @@ inscribe it."; master-gap / cap / data-gap → calm banners (§7), **never** red
 - Spec of record: `app/ROLLER_DESIGN.md` (§c algorithms, `RollStep`/`RollResult` shape, edge cases) and `app/BUILD_HANDOFF.md` (locked decisions, data facts).
 
 **Chosen direction:** Astral Observatory (both data-density judges ranked it #1 at 96/90; light-on-dark is the right substrate for the dense table + deep trace). **Grafted:** Arcane Runeworks' directional ignition-cascade + node-kind color discipline into the trace tree (§8); The Living Grimoire's already-embedded fonts (§3), category-glyph illumination (§7) and calm gap-banner framing (§7); universal seed-sigil/permalink/command-palette/Rapid-toggle/copy-as-image grafts (§11).
+---
+
+## 13. The Observatory Refit (shipped 2026-07) — elevation system, instruments, manifest
+
+Full spec + adversarial-review dispositions: **`web/POLISH_DESIGN.md`**. The durable laws live here.
+
+### 13.1 Surface elevation scale (the tier table)
+
+Every text-bearing surface sits on a named tier; the fill alphas below are the **legibility floors** —
+never lower them without re-running the contrast math.
+
+| Tier | Name | Fill | Blur | Members |
+|---|---|---|---|---|
+| E0 | Cosmos | — | — | `#sky` (z-2), `.aurora` + `.vignette` (z-1) |
+| E1 | Chrome | `--surf-chrome-a/b` gradient; rail scrim `--surf-veil`→transparent | header 14px (9px ≤640); rail: none | `.header`, `.tabrail`, `.btn-icon`, seedbox pill |
+| E2 | Glass | `--glass-fill-a/b` .82/.90 | 14px (9px ≤640) | `.panel`/`.glass`, `.grimoire` (flat .94, **blur OFF** as the ≤1023 drawer), `.dialog` |
+| E2w | Well | `--surf-well-a/b` .55/.35 **over E2** | inherits | `.manifest`, `.mani-detail` |
+| E3 | Slab | `--surf-slab` .93 / head .96; lens rail .85/.78 | **none — ever** (virtualized scroller) | `.lib-table`, `.lib-head`, `.lib-lenses`, search box, count chip |
+| E4 | Vault | scrim rgba(5,6,14,.6) | 4px | `.overlay` under dialogs |
+| E5 | Float | `--surf-float-a/b` .97/.98 | none | `.tip` (z:80), toast (z:70) |
+
+**Tier rule:** anyone raising `aurora-boost` above `.28` or blob saturation must re-run the tier contrast
+math, treating the **teal blob core** (b2, parked under the grimoire/result zone) as the binding background
+for gold and mist. Floors: `--star-white ≥ 12:1`, `--mist ≥ 5.9:1`, `--gold ≥ 9.5:1` on every tier, checked
+**during the 750 ms aurora-boost transient**. Escape hatch order if E2 reads flat: boost `.28 → .26` first;
+never lower glass fills below `.82`.
+
+**Ink hygiene (global law):** `--mist-faint` **and** `--gold-deep` are **decorative-only** — borders, the ⬡
+hex glyph, inset accents, ignited states that pair with `--gold` text. Nothing informational may use them.
+`--mist-bright #C7D3F2` is the single "bright ink" (idle tabs, seedbox, idle lenses).
+
+### 13.2 The living cosmos (§4 amendments)
+
+- `#sky` sizing: `width:100%; height:100%; height:100lvh` — a canvas is a replaced element; `inset:0` alone
+  never stretches it. `resize()` measures the **CSS rect**, never `canvas.clientWidth` (feedback loop).
+  `lvh` keeps layout stable across mobile URL-bar transitions (fallback engines rebuild via the debounce).
+- Area-proportional density `STAR_DENSITY_PX2 = 2400` (floor 140 / cap 950 / throttle halves), PAD=24
+  parallax overscan, elliptical **eyepiece gain** (~50% brightness behind content, full at the rim), halos
+  on r≥1.6 cores, twinkle ceiling .85, wash .45, rim-seeded area-scaled constellations.
+- Aperture-frame vignette: top bloom behind the header/tab band + soft floor + gentle rim — never a
+  center-darkening veil.
+
+### 13.3 Header instruments & tooltips
+
+- Three semantic groups: roll+seed pill · Session preferences (`#sound #ritual #reduce`) · Tools
+  (`#cmdk #diag #more #grim`), separated by `.hdr-sep` engravings (hidden ≤900).
+- **Two toggle idioms — do not mix:** buttons with a **stable visible label** (`#sound #reduce #lock #grim`)
+  are `aria-pressed` toggles with stable accessible names. `#ritual` is a **mode-swap button**: its visible
+  label IS the state ("ritual"/"rapid"), so it carries **no aria-pressed**; the setter swaps `textContent`
+  AND `aria-label` ("Casting: ritual"/"Casting: rapid") so the visible word stays in the accessible name
+  (WCAG 2.5.3) and voice control can "click ritual".
+- Controller setters own the full state fan-out (class, ARIA, glyph/text, `data-tip*` copy, `UI.refreshTip()`).
+  `C.syncGrimAria()` keeps `#grim[aria-expanded]` truthful at boot, on toggle, and across the 1023px resize.
+- **Tooltips (`ui/tooltip.js`)**: singleton `[data-tip]` chip on the E5 tier — 120 ms cold / 300 ms warm /
+  instant on `:focus-visible`; INPUT triggers hover-only; Escape (capture, **no stopPropagation** — the modal
+  chain must keep working), resize + capture-scroll dismissal; touch gets a 1100 ms post-action confirmation
+  on `[data-tip-live]` controls only. `aria-hidden`/`aria-describedby` flip with visibility.
+  **A11y tradeoff (documented, do not "fix"):** the tip is `pointer-events:none`, a strict WCAG 1.4.13
+  "hoverable" miss — all tip content is redundant with accessible names/`aria-pressed`/the `#more` menu, and
+  the hoverable alternative creates a click dead-zone over the tab rail.
+- `title=` attributes are banned on interactive chrome — `data-tip` replaces them (never mirror both).
+
+### 13.4 Hoard Manifest (supersedes §8's hoard clause and bell 12)
+
+`engine.rollHoard` stamps each child with `summary` = its exact headline (additive `RollStep` field; legacy
+persisted hoards are healed by `UI.ensureHoardSummaries`). `EM.hoardItems/hoardManifestLines/hoardBlock`
+(format.js, engine-free) derive the ledger; **Copy and Export lead with the same `EM.hoardBlock`**. The
+renderer (`UI.renderHoardManifest`) returns the same `{el, order, stagger}` contract as `renderTrace` so the
+cascade-arpeggio audio works unchanged. Expand/Collapse-all label is **recomputed from the DOM** ("Collapse
+all traces" iff every row is expanded — any mixed state reads "Expand all traces"). The manifest
+`.count-badge` is **not** aria-hidden (it is the accessible flag carrier); cap-flagged rows add an sr-only
+"reroll cap reached".
