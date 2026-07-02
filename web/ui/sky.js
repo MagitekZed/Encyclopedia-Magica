@@ -155,10 +155,12 @@
       var oy = parallaxEnabled ? pointerCurrent.y * cfg.parallax : 0;
 
       // Base pre-rendered starfield, translated for parallax (globalAlpha low so
-      // the per-star twinkle overlay carries the brightness variation).
+      // the per-star twinkle overlay carries the brightness variation). 5-arg
+      // drawImage with explicit CSS-unit size: the offscreen is W*dpr device px,
+      // so the 3-arg form rendered it at 2x under the dpr transform on retina.
       if (layer.off) {
         ctx.globalAlpha = 0.55;
-        ctx.drawImage(layer.off, ox, oy);
+        ctx.drawImage(layer.off, ox, oy, W, H);
         ctx.globalAlpha = 1;
       }
 
@@ -216,7 +218,7 @@
       var layer = layers[li];
       if (layer.off) {
         ctx.globalAlpha = 0.55;
-        ctx.drawImage(layer.off, 0, 0);
+        ctx.drawImage(layer.off, 0, 0, W, H);
         ctx.globalAlpha = 1;
       }
       if (li === 0) drawConstellations(0, 0, 0);
@@ -279,12 +281,20 @@
     }
   }
 
-  /* ---- Sizing / resize (re-layout, re-prerender, debounced) ---- */
+  /* ---- Sizing / resize (re-layout, re-prerender, debounced) ----
+     Measures the CSS rect — NEVER canvas.clientWidth/clientHeight, which echo the
+     canvas's OWN width/height attributes when CSS sizing is missing and created a
+     geometric-doubling feedback loop (600x300 -> 1200x600 -> 2400x1200 per resize).
+     With #sky's height:100lvh the rect is stable across mobile URL-bar transitions,
+     so the equal-dims guard short-circuits and no rebuild/re-scatter occurs. */
   function resize() {
     if (!canvas) return;
-    dpr = Math.min(MAX_DPR, window.devicePixelRatio || 1);
-    W = canvas.clientWidth || window.innerWidth || 0;
-    H = canvas.clientHeight || window.innerHeight || 0;
+    var d = Math.min(MAX_DPR, window.devicePixelRatio || 1);
+    var r = canvas.getBoundingClientRect();
+    var w = Math.round(r.width) || window.innerWidth || 0;
+    var h = Math.round(r.height) || window.innerHeight || 0;
+    if (w === W && h === H && d === dpr) return;   // no-op guard
+    dpr = d; W = w; H = h;
     canvas.width = Math.max(1, Math.round(W * dpr));
     canvas.height = Math.max(1, Math.round(H * dpr));
     buildLayout();
