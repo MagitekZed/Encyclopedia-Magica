@@ -72,15 +72,12 @@ def populate_trace(tree: ttk.Treeview, root: RollStep) -> None:
                                open=True, tags=["assembly"])
         for it in hoard_items(root):
             m = it["node"]
-            page = ", ".join(it["pages"]) if it["pages"] else \
-                ("not in index" if it["unindexed"] else "—")
             cat = it["cat"] or m.label                 # gap fallback
-            tags = ["not_in_index"] if (it["unindexed"] and not it["pages"]) else []
-            if it["gap"]:
-                tags.append("gap")
-            # row = the item TYPE + its page; expand reveals the specific item.
+            # row = the item TYPE + its master roll only; the page shows once,
+            # inline with the named item when expanded (no duplicate page here).
             row = tree.insert(hoard_id, "end", text=f"{it['n']:02d}. {cat}",
-                              values=(where_text(m), page, ""), open=False, tags=tags)
+                              values=(where_text(m), "", ""), open=False,
+                              tags=["gap"] if it["gap"] else [])
             for c in m.children:
                 insert(c, row)
         return
