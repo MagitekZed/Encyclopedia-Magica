@@ -16,9 +16,10 @@
   "use strict";
   var S = (window.EMSky = window.EMSky || {});
 
-  /* ---- Tunables (from DESIGN.md §4) ---- */
-  var STAR_COUNT = 900;                 // total stars across all layers
-  var CONSTELLATIONS = 6;               // pre-seeded on the deepest layer
+  /* ---- Tunables (from DESIGN.md §4 / POLISH_DESIGN.md §3.1) ---- */
+  var STAR_DENSITY_PX2 = 2400;          // ~1 star per 2400 css px² (area-proportional)
+  var PAD = 24;                         // parallax overscan: scatter/prerender beyond the viewport
+  var CONSTELLATIONS = 6;               // max; area-scaled down on small viewports
   var SEED = 0x5A17;                    // fixed layout seed => stable across resizes
   var MAX_DPR = 2;                      // cap devicePixelRatio
   // Depth layers: [depth 0..1 for twinkle/drift scaling, parallax strength px].
@@ -43,7 +44,8 @@
   var pointerCurrent = { x: 0, y: 0 };
   var pointerDirty = false;
   var parallaxEnabled = true;
-  var currentStarCount = STAR_COUNT;
+  var currentStarCount = 0;           // computed per-layout from viewport area
+  var throttleFactor = 1;             // 2 after the fps guardrail trips (halves density)
   var throttled = false;              // guard so we only halve once
   var resizeTimer = 0;
   var smoothedDelta = 16.7;           // ms, exponential moving average
@@ -66,25 +68,43 @@
     return COL_WHITE;                // mostly cool white
   }
 
-  /* ---- Build layout: stars per layer + constellations on the deepest layer ---- */
+  /* ---- Eyepiece gain: elliptical brightness field — calm (~50%) behind the
+     content zone, full brightness at the dome's rim. Pure (no rand()) so the
+     layout stays seed-stable. x/y are padded-field coords. ---- */
+  function fieldGain(x, y) {
+    var nx = (x - PAD - W / 2) / (W / 2), ny = (y - PAD - H / 2) / (H / 2);
+    var d = Math.sqrt(nx * nx * 0.85 + ny * ny * 0.55); if (d > 1) d = 1;
+    var t = (d - 0.25) / 0.75; if (t < 0) t = 0; t = t * t * (3 - 2 * t);
+    return 0.5 + 0.5 * t;
+  }
+
+  /* ---- Build layout: stars per layer + constellations on the deepest layer.
+     Stars scatter over the PAD-expanded field so ±16px parallax never exposes
+     unpainted strips; density is area-proportional with a 140 floor / 950 cap. ---- */
   function buildLayout() {
     layers = [];
     constellations = [];
     if (W <= 0 || H <= 0) return;
     var rand = mulberry32(SEED);
+    currentStarCount = Math.max(throttled ? 50 : 140,
+      Math.min(950, Math.round((W * H) / (STAR_DENSITY_PX2 * throttleFactor))));
+    var FW = W + 2 * PAD, FH = H + 2 * PAD;
 
     for (var li = 0; li < LAYERS.length; li++) {
       var cfg = LAYERS[li];
       var count = Math.round(currentStarCount * cfg.frac);
       var stars = [];
       for (var i = 0; i < count; i++) {
+        var sx = rand() * FW, sy = rand() * FH;
+        var g = fieldGain(sx, sy);
+        var sr = cfg.sizeMin + rand() * (cfg.sizeMax - cfg.sizeMin);
+        // Near layer: no fat dot under a headline in the calm content zone.
+        if (li === 2 && g < 0.7) sr = Math.min(sr, 1.6);
         stars.push({
-          x: rand() * W,
-          y: rand() * H,
-          r: cfg.sizeMin + rand() * (cfg.sizeMax - cfg.sizeMin),
+          x: sx, y: sy, r: sr, gain: g,
           color: pickColor(rand),
-          base: 0.35 + rand() * 0.4,        // base alpha
-          amp: 0.12 + rand() * 0.25,        // twinkle amplitude
+          base: 0.28 + rand() * 0.34,       // base alpha (.28–.62)
+          amp: 0.10 + rand() * 0.20,        // twinkle amplitude (.10–.30)
           freq: 0.2 + rand() * 0.4,         // 0.2–0.6 Hz twinkle
           phase: rand() * Math.PI * 2       // per-star phase offset
         });
@@ -93,9 +113,13 @@
       prerenderLayer(li);
     }
 
-    // Constellations live on the deepest layer (index 0). Nodes + faint lines.
-    for (var c = 0; c < CONSTELLATIONS; c++) {
-      var cx = rand() * W, cy = rand() * H;
+    // Constellations: rim-seeded (they belong at the dome's edge, not under the
+    // content), area-scaled, on the deepest layer. Nodes + faint lines.
+    var conCount = Math.max(3, Math.round(CONSTELLATIONS * Math.min(1, (W * H) / (1600 * 900))));
+    for (var c = 0; c < conCount; c++) {
+      var ang = rand() * Math.PI * 2, radf = 0.55 + rand() * 0.4;
+      var cx = PAD + W / 2 + Math.cos(ang) * radf * (W / 2 - 60);
+      var cy = PAD + H / 2 + Math.sin(ang) * radf * (H / 2 - 60);
       var spread = 60 + rand() * 120;
       var n = 4 + Math.floor(rand() * 4); // 4–7 nodes
       var nodes = [];
@@ -113,7 +137,7 @@
         nodes: nodes,
         edges: edges,
         color: rand() < 0.5 ? COL_GOLD : COL_BLUE,
-        lineAlpha: 0.06 + rand() * 0.04,      // 6–10%
+        lineAlpha: (0.06 + rand() * 0.04) * fieldGain(cx, cy), // 6–10% × rim gain
         dx: (rand() - 0.5) * 0.004,           // very slow drift px/ms
         dy: (rand() - 0.5) * 0.004,
         ox: 0, oy: 0                          // accumulated drift offset
@@ -121,21 +145,29 @@
     }
   }
 
-  /* ---- Pre-render a layer's stars once into an offscreen canvas ---- */
+  /* ---- Pre-render a layer's stars once into a PAD-expanded offscreen canvas.
+     Cores are stamped at gain alpha; big stars (r ≥ 1.6) get a soft halo. ---- */
   function prerenderLayer(li) {
     var layer = layers[li];
+    var FW = W + 2 * PAD, FH = H + 2 * PAD;
     var off = document.createElement("canvas");
-    off.width = Math.max(1, Math.round(W * dpr));
-    off.height = Math.max(1, Math.round(H * dpr));
+    off.width = Math.max(1, Math.round(FW * dpr));
+    off.height = Math.max(1, Math.round(FH * dpr));
     var octx = off.getContext("2d");
     if (!octx) { layer.off = null; return; }
     octx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    octx.clearRect(0, 0, W, H);
+    octx.clearRect(0, 0, FW, FH);
     for (var i = 0; i < layer.stars.length; i++) {
       var s = layer.stars[i];
+      if (s.r >= 1.6) {                          // halo under the core (~4.5% after wash)
+        octx.beginPath();
+        octx.arc(s.x, s.y, s.r * 2.6, 0, Math.PI * 2);
+        octx.fillStyle = "rgba(" + s.color + "," + (0.10 * s.gain) + ")";
+        octx.fill();
+      }
       octx.beginPath();
       octx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
-      octx.fillStyle = "rgba(" + s.color + ",1)";
+      octx.fillStyle = "rgba(" + s.color + "," + s.gain + ")";
       octx.fill();
     }
     layer.off = off;
@@ -156,11 +188,12 @@
 
       // Base pre-rendered starfield, translated for parallax (globalAlpha low so
       // the per-star twinkle overlay carries the brightness variation). 5-arg
-      // drawImage with explicit CSS-unit size: the offscreen is W*dpr device px,
-      // so the 3-arg form rendered it at 2x under the dpr transform on retina.
+      // drawImage with explicit CSS-unit size: the offscreen is device px, so
+      // the 3-arg form rendered it at 2x under the dpr transform on retina.
+      // The offscreen is PAD-expanded, so blit shifted -PAD at padded size.
       if (layer.off) {
-        ctx.globalAlpha = 0.55;
-        ctx.drawImage(layer.off, ox, oy, W, H);
+        ctx.globalAlpha = 0.45;
+        ctx.drawImage(layer.off, ox - PAD, oy - PAD, W + 2 * PAD, H + 2 * PAD);
         ctx.globalAlpha = 1;
       }
 
@@ -172,12 +205,13 @@
       for (var i = 0; i < stars.length; i++) {
         var s = stars[i];
         var tw = s.base + s.amp * Math.sin(t * s.freq * Math.PI * 2 + s.phase);
-        if (tw <= 0) continue;
-        if (tw > 1) tw = 1;
+        if (tw > 0.85) tw = 0.85;   // twinkle ceiling
+        tw *= s.gain;               // eyepiece gain shapes brightness
+        if (tw < 0.04) continue;
         ctx.globalAlpha = tw;
         ctx.fillStyle = "rgba(" + s.color + ",1)";
         ctx.beginPath();
-        ctx.arc(s.x + ox, s.y + oy, s.r, 0, Math.PI * 2);
+        ctx.arc(s.x - PAD + ox, s.y - PAD + oy, s.r, 0, Math.PI * 2);
         ctx.fill();
       }
       ctx.globalAlpha = 1;
@@ -187,7 +221,7 @@
   function drawConstellations(now, ox, oy) {
     for (var c = 0; c < constellations.length; c++) {
       var con = constellations[c];
-      var dx = con.ox + ox, dy = con.oy + oy;
+      var dx = con.ox + ox - PAD, dy = con.oy + oy - PAD;  // padded-field -> canvas coords
       // Lines
       ctx.strokeStyle = "rgba(" + con.color + "," + con.lineAlpha + ")";
       ctx.lineWidth = 1;
@@ -217,19 +251,19 @@
     for (var li = 0; li < layers.length; li++) {
       var layer = layers[li];
       if (layer.off) {
-        ctx.globalAlpha = 0.55;
-        ctx.drawImage(layer.off, 0, 0, W, H);
+        ctx.globalAlpha = 0.45;
+        ctx.drawImage(layer.off, -PAD, -PAD, W + 2 * PAD, H + 2 * PAD);
         ctx.globalAlpha = 1;
       }
       if (li === 0) drawConstellations(0, 0, 0);
-      // Stars at base alpha, no twinkle, no parallax.
+      // Stars at gain-shaped base alpha, no twinkle, no parallax.
       var stars = layer.stars;
       for (var i = 0; i < stars.length; i++) {
         var s = stars[i];
-        ctx.globalAlpha = Math.min(1, s.base);
+        ctx.globalAlpha = Math.min(1, s.base) * s.gain;
         ctx.fillStyle = "rgba(" + s.color + ",1)";
         ctx.beginPath();
-        ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+        ctx.arc(s.x - PAD, s.y - PAD, s.r, 0, Math.PI * 2);
         ctx.fill();
       }
     }
@@ -273,7 +307,7 @@
       else if (now - slowSince > 1000) { // sustained ~1s
         throttled = true;
         parallaxEnabled = false;
-        currentStarCount = Math.max(50, Math.round(STAR_COUNT / 2));
+        throttleFactor = 2;            // halves the area-proportional density
         buildLayout(); // re-layout with halved star count
       }
     } else {

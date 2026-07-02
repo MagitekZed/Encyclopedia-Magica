@@ -57,21 +57,24 @@ button,input,select { font-family:inherit; color:inherit; }
   z-index:-2; pointer-events:none; display:block; }
 .aurora { position:fixed; inset:0; z-index:-1; pointer-events:none; overflow:hidden; }
 .aurora .blob {
-  position:absolute; border-radius:50%; filter:blur(80px); mix-blend-mode:screen; opacity:.14;
+  position:absolute; border-radius:50%; filter:blur(80px); mix-blend-mode:screen; opacity:.12;
   transition:opacity .6s ease, filter .6s ease;
 }
-.aurora .b1 { width:60vw; height:60vw; left:-10vw; top:-15vw;
+.aurora .b1 { width:60vw; height:60vw; left:-18vw; top:-22vw;
   background:radial-gradient(circle,var(--nebula-violet),var(--nebula-magenta) 40%,transparent 70%);
   animation:drift1 54s ease-in-out infinite; }
-.aurora .b2 { width:55vw; height:55vw; right:-12vw; top:20vh;
+.aurora .b2 { width:55vw; height:55vw; right:-16vw; top:16vh;
   background:radial-gradient(circle,var(--aurora-teal),transparent 68%);
   animation:drift2 66s ease-in-out infinite; }
-.aurora .b3 { width:48vw; height:48vw; left:25vw; bottom:-18vw;
+.aurora .b3 { width:48vw; height:48vw; left:30vw; bottom:-24vw;
   background:radial-gradient(circle,var(--astral-blue),var(--nebula-violet) 45%,transparent 72%);
   animation:drift3 48s ease-in-out infinite; }
-.vignette { position:fixed; inset:0; z-index:-1; pointer-events:none;
-  background:radial-gradient(120% 90% at 50% 40%,transparent 40%,var(--void) 100%),
-             radial-gradient(80% 50% at 50% 0%,rgba(10,13,28,.6),transparent 60%); }
+/* Aperture-frame vignette: blooms behind the header/tab band + a soft floor,
+   plus a gentle rim darkening — frames the eyepiece instead of muddying it. */
+.vignette { position:fixed; inset:0; z-index:-1; pointer-events:none; background:
+  radial-gradient(100% 36% at 50% 0%,   rgba(8,10,22,.72), transparent 70%),
+  radial-gradient(100% 30% at 50% 100%, rgba(5,6,14,.5),  transparent 70%),
+  radial-gradient(140% 120% at 50% 45%, transparent 58%,  rgba(5,6,14,.5) 100%); }
 body.aurora-boost .aurora .blob { opacity:.28; filter:blur(64px); }
 @keyframes drift1 { 0%,100%{transform:translate(0,0) scale(1)} 50%{transform:translate(6vw,4vh) scale(1.12)} }
 @keyframes drift2 { 0%,100%{transform:translate(0,0) scale(1.05)} 50%{transform:translate(-5vw,6vh) scale(.95)} }
@@ -473,7 +476,7 @@ select.select:focus-visible { outline:none; border-color:var(--astral-blue); box
 /* reduced motion */
 .reduce-motion *,.reduce-motion *::before,.reduce-motion *::after {
   animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.06ms !important; }
-.reduce-motion .aurora .blob { animation:none; }
+.reduce-motion .aurora .blob { animation:none; opacity:.10; }
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after { animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.06ms !important; }
 }
