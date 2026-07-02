@@ -56,12 +56,6 @@
     const container = el("div", { class: "trace", role: "tree", "aria-label": "Roll explanation" });
     const order = [];
     container.append(buildNode(root, order));
-    if (opts.collapseChildren) {   // hoard: collapse each item's subtree so a big panel doesn't explode
-      container.querySelectorAll(".trace > .trace-node-wrap > .trace-children > .trace-node-wrap > .trace-node").forEach((r) => {
-        const c = r.querySelector(".caret");
-        if (c && c.textContent) { r.classList.add("collapsed"); r.setAttribute("aria-expanded", "false"); }
-      });
-    }
     if (opts.animate) {
       const stagger = order.length > 18 ? 45 : 120;
       order.forEach((n, i) => {
@@ -69,6 +63,131 @@
       });
     }
     return { el: container, order: order, stagger: order.length > 18 ? 45 : 120 };
+  };
+
+  // ---- hoard manifest ------------------------------------------------------
+  // The illuminated ledger: one glanceable row per hoard item (resolved name,
+  // category, provenance, page refs), full trace lazily mounted on expand.
+  let maniSeq = 0;   // unique ids — result panel and grimoire popup can coexist
+
+  // Legacy persisted hoards predate root.summary — backfill from the engine
+  // (headline() is pure over the tree); the fix persists on the next save().
+  UI.ensureHoardSummaries = function (root, engine) {
+    for (const m of root.children || []) {
+      if (!m.summary) {
+        try { m.summary = engine ? engine.headline(m) : m.label; }
+        catch (e) { m.summary = m.label; }
+      }
+    }
+  };
+
+  UI.renderHoardManifest = function (root, opts) {
+    opts = opts || {};
+    if (opts.engine) UI.ensureHoardSummaries(root, opts.engine);
+    const items = window.EM.hoardItems(root);
+    const seq = ++maniSeq;
+    const wrap = el("div", { class: "manifest" });
+
+    // summary bar (toolbar OUTSIDE the list for ARIA correctness)
+    const combined = window.EM.countKinds(root, new Set(["reroll", "enhancement"]));
+    const enchanted = window.EM.countKinds(root, new Set(["enhancement"]));
+    let sumText = items.length + " item" + (items.length === 1 ? "" : "s");
+    if (combined) sumText += " · " + combined + " combined";
+    if (enchanted) sumText += " · " + enchanted + " enchanted";
+    const sum = el("div", { class: "mani-sum" }, [el("span", { class: "hex", "aria-hidden": "true", text: "⬡ " }), sumText]);
+    const allBtn = el("button", { class: "btn btn-ghost mani-all", type: "button", text: "Expand all traces" });
+    const bar = el("div", { class: "mani-bar" }, [sum, allBtn]);
+    const list = el("div", { class: "mani-list", role: "list", "aria-label": root.label });
+    wrap.append(bar, list);
+
+    const heads = [];
+    function syncAll() {   // stateless: recomputed from the DOM, can never desync
+      const hs = list.querySelectorAll(".mani-head");
+      let all = hs.length > 0;
+      hs.forEach((h) => { if (h.getAttribute("aria-expanded") !== "true") all = false; });
+      allBtn.textContent = all ? "Collapse all traces" : "Expand all traces";
+    }
+    function toggle(head, detail, m, open) {
+      const want = open != null ? open : head.getAttribute("aria-expanded") !== "true";
+      if (want && !detail.dataset.built) {
+        detail.append(UI.renderTrace(m, {}).el);
+        detail.dataset.built = "1";
+      }
+      head.setAttribute("aria-expanded", String(want));
+      head.classList.toggle("open", want);
+      detail.hidden = !want;
+      syncAll();
+    }
+
+    items.forEach(function (it, i) {
+      const hid = "mani-h-" + seq + "-" + i, did = "mani-d-" + seq + "-" + i;
+      const head = el("button", { class: "mani-head", type: "button", id: hid,
+        "aria-expanded": "false", "aria-controls": did });
+      head.append(el("span", { class: "caret", "aria-hidden": "true", text: "▾" }));
+      head.append(el("span", { class: "idx mono", text: String(it.n).padStart(2, "0") }));
+      const main = el("span", { class: "m-main" });
+      main.append(el("span", { class: "m-name", text: it.name }));
+      if (it.marks) main.append(el("span", { class: "count-badge", text: " · " + it.marks }));  // NOT aria-hidden: the accessible flag carrier
+      if (it.flags.cap) main.append(el("span", { class: "sr-only", text: " · reroll cap reached" }));
+      head.append(main);
+      const meta = el("span", { class: "m-meta" });
+      if (it.cat) meta.append(el("span", { class: "m-cat", text: it.cat }));
+      const inner = (it.node.children || [])[0];
+      let prov = window.EM.whereText(it.node);
+      if (inner && inner.die) prov += " · " + tidText(inner) + " " + window.EM.whereText(inner).replace(/^d\d+ → /, "→ ");
+      if (prov) meta.append(el("span", { class: "m-roll mono", text: prov }));
+      const fl = el("span", { class: "m-flags", "aria-hidden": "true" });   // decorative: badge + sr-only carry the info
+      if (it.flags.reroll) fl.append(el("span", { "data-kind": "reroll", text: "⟳" }));
+      if (it.flags.enh) fl.append(el("span", { "data-kind": "enhancement", text: "✦" }));
+      if (it.flags.cap) fl.append(el("span", { "data-kind": "cap", text: "⊘" }));
+      if (fl.childNodes.length) meta.append(fl);
+      head.append(meta);
+      const pg = el("span", { class: "m-pg mono" });
+      if (it.pages.length) {
+        pg.append(document.createTextNode(it.pages[0]));
+        if (it.pages.length > 1) pg.append(el("span", { class: "more", text: " +" + (it.pages.length - 1) }));
+      } else if (it.unindexed) {
+        pg.className += " unindexed"; pg.textContent = "not in index";
+      } else {
+        pg.textContent = "—"; pg.append(el("span", { class: "sr-only", text: " no page reference" }));
+      }
+      head.append(pg);
+
+      const detail = el("div", { class: "mani-detail", id: did, role: "group", "aria-labelledby": hid });
+      detail.hidden = true;
+      head.addEventListener("click", () => toggle(head, detail, it.node));
+      const item = el("div", { class: "mani-item" + (it.gap ? " gap" : ""), role: "listitem" }, [head, detail]);
+      list.append(item);
+      heads.push({ head: head, detail: detail, node: it.node });
+    });
+
+    allBtn.addEventListener("click", () => {
+      const expand = allBtn.textContent === "Expand all traces";
+      heads.forEach((h) => toggle(h.head, h.detail, h.node, expand));
+    });
+
+    // roving arrows through the ledger rows
+    list.addEventListener("keydown", (e) => {
+      if (!e.target.classList || !e.target.classList.contains("mani-head")) return;
+      const hs = Array.from(list.querySelectorAll(".mani-head"));
+      const i = hs.indexOf(e.target);
+      let j = null;
+      if (e.key === "ArrowDown") j = Math.min(hs.length - 1, i + 1);
+      else if (e.key === "ArrowUp") j = Math.max(0, i - 1);
+      else if (e.key === "Home") j = 0;
+      else if (e.key === "End") j = hs.length - 1;
+      else return;
+      e.preventDefault(); hs[j].focus();
+    });
+
+    const order = heads.map((h) => h.head);
+    const stagger = order.length > 18 ? 45 : 120;   // same contract as renderTrace
+    if (opts.animate) {
+      order.forEach((n, i) => {
+        if (i < 40) { n.classList.add("ignite"); n.style.animationDelay = (i * stagger) + "ms"; }
+      });
+    }
+    return { el: wrap, order: order, stagger: stagger };
   };
 
   function firstRolled(step) {
@@ -142,7 +261,9 @@
       bannerSlot.innerHTML = "";
       if (res.root.kind === "gap") bannerSlot.append(makeBanner(res));
       divider.classList.remove("hidden");
-      const t = UI.renderTrace(res.root, { animate: ctrl.animate(), collapseChildren: res.root.table === "hoard" });
+      const t = res.root.table === "hoard"
+        ? UI.renderHoardManifest(res.root, { animate: ctrl.animate(), engine: ctrl.engine })
+        : UI.renderTrace(res.root, { animate: ctrl.animate() });
       traceMount.innerHTML = ""; traceMount.append(t.el);
       seedline.innerHTML = "";
       seedline.append(UI.sigil(seed, 18));

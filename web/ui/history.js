@@ -68,11 +68,23 @@
       const live = entries.filter((e) => !e.pinned).reverse();
       pinned.concat(live).forEach(addRow);
     }
+    function isHoard(e) {
+      return !!(e.root && e.root.table === "hoard" && e.root.children && e.root.children.length);
+    }
     function addRow(e) {
       const row = el("div", { class: "grim-entry" + (e.pinned ? " pinned" : "") });
       row.append(el("span", { class: "sig" }, [UI.sigil(e.seed, 20)]));
       const head = el("div", { class: "g-head", text: (e.pinned ? "📌 " : "") + (e.label || e.headline) });
-      row.append(head, el("span", { class: "g-meta", text: "#" + e.n }));
+      if (isHoard(e)) {                     // hoard: preview the first item names
+        UI.ensureHoardSummaries(e.root, ctrl.engine);
+        const names = window.EM.hoardItems(e.root).map((it) => it.name);
+        const extra = e.root.children.length - 3;   // NOT names.slice length — "+9 more" for k=12
+        const sub = names.slice(0, 3).join(" · ") + (extra > 0 ? " · +" + extra + " more" : "");
+        const col = el("div", { class: "g-col" }, [head, el("div", { class: "g-sub", text: sub })]);
+        row.append(col, el("span", { class: "g-meta", text: "#" + e.n }));
+      } else {
+        row.append(head, el("span", { class: "g-meta", text: "#" + e.n }));
+      }
       row.addEventListener("click", () => { selected = e.id; highlight(row); openPopup(e); });
       list.append(row);
     }
@@ -87,7 +99,8 @@
       if (e.label) dlg.append(el("div", { text: e.headline, style: "color:var(--mist);font-style:italic;margin:-6px 0 8px" }));
       const meta = e.kind + " · seed " + (e.seed == null ? "—" : e.seed) + " · #" + e.n;
       dlg.append(el("div", { class: "mono", text: meta, style: "color:var(--mist);margin-bottom:10px" }));
-      dlg.append(UI.renderTrace(e.root, {}).el);
+      dlg.append(isHoard(e) ? UI.renderHoardManifest(e.root, { engine: ctrl.engine }).el
+                            : UI.renderTrace(e.root, {}).el);
       const bar = el("div", { style: "display:flex;gap:8px;margin-top:14px;flex-wrap:wrap" });
       const cp = el("button", { class: "btn btn-ghost", text: "Copy" });
       cp.addEventListener("click", () => ctrl.copyText(window.EM.resultToText(e.headline, e.root, e.seed), "Copied."));
@@ -122,7 +135,11 @@
       const md = fmt === "md";
       const blocks = entries.map((e) => {
         const head = (e.pinned ? "📌 " : "") + (e.label ? e.label + " — " : "") + e.headline;
-        const body = window.EM.traceLines(e.root).join("\n");
+        let body = window.EM.traceLines(e.root).join("\n");
+        if (isHoard(e)) {                   // hoard: lead with the manifest (same block as Copy)
+          UI.ensureHoardSummaries(e.root, ctrl.engine);
+          body = window.EM.hoardBlock(e.root).join("\n") + body;
+        }
         const seed = e.seed == null ? "" : "\nseed " + e.seed;
         return md ? ("### " + head + "\n\n```\n" + body + seed + "\n```") : (head + "\n" + body + seed);
       });

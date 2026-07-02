@@ -41,8 +41,50 @@
     return out;
   };
 
+  /* ---- hoard manifest derivation (engine-free: reads m.summary || m.label) --
+     One subtree walk per item; shared by the manifest renderer, Copy and Export
+     so all three surfaces serialize a hoard identically. */
+  EM.hoardItems = function (root) {
+    return (root.children || []).map(function (m, i) {
+      const s = m.summary || m.label || "";
+      const dot = s.indexOf("  ·  ");
+      const name = dot >= 0 ? s.slice(0, dot) : s;
+      const marks = dot >= 0 ? s.slice(dot).replace(/^[\s·]+/, "").trim() : "";
+      const pages = [], flags = { reroll: false, enh: false, cap: false };
+      let unindexed = false;
+      (function walk(st) {
+        const pg = EM.pageText(st);
+        if (pg && pg !== "not in index" && pages.indexOf(pg) < 0) pages.push(pg);
+        if (pg === "not in index") unindexed = true;
+        if (st.kind === "reroll") flags.reroll = true;
+        if (st.kind === "enhancement") flags.enh = true;
+        if (st.kind === "cap") flags.cap = true;
+        for (const c of st.children || []) walk(c);
+      })(m);
+      return { n: i + 1, name: name, marks: marks, cat: m.kind === "gap" ? "" : m.label,
+               pages: pages, unindexed: unindexed, flags: flags, gap: m.kind === "gap", node: m };
+    });
+  };
+
+  EM.hoardManifestLines = function (root) {
+    return EM.hoardItems(root).map(function (it) {
+      const bits = [String(it.n).padStart(2, "0") + ". " + it.name];
+      if (it.cat) bits.push(it.cat);
+      bits.push(it.pages.length ? it.pages.join(", ") : (it.unindexed ? "not in index" : "no page ref"));
+      let line = bits.join(" — ");
+      if (it.marks) line += "  ·  " + it.marks;
+      return line;
+    });
+  };
+
+  // One shared block builder so Copy and Export lead with the same manifest.
+  EM.hoardBlock = function (root) {
+    return EM.hoardManifestLines(root).concat(["", "— full trace —", ""]);
+  };
+
   EM.resultToText = function (headline, root, seed) {
     const lines = [headline, ""];
+    if (root.table === "hoard") lines.push.apply(lines, EM.hoardBlock(root));
     lines.push.apply(lines, EM.traceLines(root));
     if (seed !== null && seed !== undefined) { lines.push("", "seed " + seed); }
     return lines.join("\n");

@@ -150,7 +150,11 @@
     rollHoard(k) {
       if (!Number.isInteger(k) || k < 1) throw new Error("hoard size must be an integer >= 1");
       const children = [];
-      for (let i = 0; i < k; i++) children.push(this.rollRandomItem().root);
+      for (let i = 0; i < k; i++) {
+        const it = this.rollRandomItem();
+        it.root.summary = it.headline;   // exact display name (handles assembled "+2 Chain Mail")
+        children.push(it.root);
+      }
       const root = step("hoard", 0, 0, `Treasure Hoard — ${k} items`, null, "n/a",
         { kind: "assembly", children: children });
       return { kind: "hoard", headline: this.headline(root), root: root, seed: this.roller.seed };
