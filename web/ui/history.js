@@ -138,7 +138,9 @@
         let body = window.EM.traceLines(e.root).join("\n");
         if (isHoard(e)) {                   // hoard: lead with the manifest (same block as Copy)
           UI.ensureHoardSummaries(e.root, ctrl.engine);
-          body = window.EM.hoardBlock(e.root).join("\n") + body;
+          // + "\n" keeps the block byte-identical to Copy's spread-into-lines path
+          // (join collapses the block's trailing "" element to a single newline)
+          body = window.EM.hoardBlock(e.root).join("\n") + "\n" + body;
         }
         const seed = e.seed == null ? "" : "\nseed " + e.seed;
         return md ? ("### " + head + "\n\n```\n" + body + seed + "\n```") : (head + "\n" + body + seed);

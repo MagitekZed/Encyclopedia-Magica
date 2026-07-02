@@ -107,7 +107,9 @@ body.aurora-boost .aurora .blob { opacity:.28; filter:blur(64px); }
   transition:grid-template-columns var(--dur-base) var(--ease-out-expo); }
 .tabrail { grid-area:tabs; }
 .app.no-grim { grid-template-columns:1fr 0; }
-.app.no-grim .grimoire { transform:translateX(110%); opacity:0; pointer-events:none; }
+/* visibility rides the transition (discrete: flips at the end), so the drawer
+   still slides out but its buttons leave the tab order once hidden */
+.app.no-grim .grimoire { transform:translateX(110%); opacity:0; pointer-events:none; visibility:hidden; }
 
 /* glass primitive */
 .glass { background:linear-gradient(150deg,var(--glass-fill-a),var(--glass-fill-b));
@@ -350,9 +352,10 @@ select.select:focus-visible { outline:none; border-color:var(--astral-blue); box
 .m-main { min-width:0; }
 .m-main .m-name { font-family:var(--f-prose); font-size:16px; color:var(--star-white); overflow-wrap:break-word; }
 .m-main .count-badge { font-family:var(--f-mono); font-size:11px; color:var(--magenta-lite); }
-.m-meta { display:flex; align-items:center; gap:8px; margin-top:1px; grid-column:3; }
-.m-cat { font-family:var(--f-display); font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--gold); white-space:nowrap; }
-.m-roll { font-size:11px; color:var(--mist); white-space:nowrap; }
+.m-meta { display:flex; align-items:center; gap:8px; margin-top:1px; grid-column:3; min-width:0; }
+.m-cat { font-family:var(--f-display); font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--gold);
+  white-space:nowrap; min-width:0; overflow:hidden; text-overflow:ellipsis; }   /* long master names ellipsize, never overprint the page column */
+.m-roll { font-size:11px; color:var(--mist); white-space:nowrap; flex:none; }
 .m-flags span { filter:drop-shadow(0 0 5px currentColor); font-size:11px; }
 .m-flags [data-kind="reroll"] { color:var(--kind-reroll); }
 .m-flags [data-kind="enhancement"] { color:var(--kind-enhancement); }
@@ -374,7 +377,7 @@ select.select:focus-visible { outline:none; border-color:var(--astral-blue); box
 /* ============================ GRIMOIRE ============================ */
 .grimoire { grid-area:grim; display:flex; flex-direction:column; border-left:1px solid var(--glass-stroke);
   background:linear-gradient(180deg,rgba(10,13,28,.88),rgba(7,9,20,.80)); -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px);
-  transition:transform var(--dur-base) var(--ease-out-expo),opacity var(--dur-base); min-height:0; }
+  transition:transform var(--dur-base) var(--ease-out-expo),opacity var(--dur-base),visibility var(--dur-base); min-height:0; }
 .grimoire h2 { font-family:var(--f-display); letter-spacing:.14em; text-transform:uppercase; font-size:13px;
   color:var(--gold); margin:0; padding:16px 16px 8px; display:flex; align-items:center; gap:8px; }
 .grim-list { flex:1; overflow:auto; padding:4px 8px; }
@@ -526,7 +529,7 @@ select.select:focus-visible { outline:none; border-color:var(--astral-blue); box
     /* overlay drawer: flat .94 fill, blur OFF — behind a 94%-opaque fill the blur was
        ~6% visible but cost a full-height compositor pass over the animating canvas */
     background:rgba(8,10,22,.94); -webkit-backdrop-filter:none; backdrop-filter:none; }
-  .app:not(.show-grim) .grimoire { transform:translateX(110%); opacity:0; pointer-events:none; }
+  .app:not(.show-grim) .grimoire { transform:translateX(110%); opacity:0; pointer-events:none; visibility:hidden; }
   .app.show-grim .grim-scrim { display:block; position:fixed; inset:0; z-index:55;
     background:rgba(5,6,14,.55); -webkit-backdrop-filter:blur(3px); backdrop-filter:blur(3px); animation:fade var(--dur-fast); }
   .grim-close { display:inline-flex; align-items:center; justify-content:center; }
@@ -549,7 +552,7 @@ select.select:focus-visible { outline:none; border-color:var(--astral-blue); box
 }
 
 @media (max-width:640px){
-  input,select,.spinner input,.seedbox input { font-size:16px; }   /* prevents iOS focus-zoom */
+  input,select,.spinner input,.seedbox input,.lib-search input { font-size:16px; }   /* prevents iOS focus-zoom (lib-search needs the explicit 0,1,1 selector to win) */
   .btn { min-height:44px; }
   .btn-icon:not(.wide),.lock,.header .btn-icon:not(.wide),.header .lock { width:44px; height:44px; }
   .btn-icon.wide { height:44px; }

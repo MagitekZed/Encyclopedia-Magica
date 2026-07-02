@@ -86,8 +86,11 @@
     constellations = [];
     if (W <= 0 || H <= 0) return;
     var rand = mulberry32(SEED);
+    // Cap FIRST, then apply the throttle divisor — otherwise on viewports big
+    // enough to hit the 950 cap the fps guardrail would be a no-op (the screens
+    // most likely to trip it are exactly the ones the cap binds on).
     currentStarCount = Math.max(throttled ? 50 : 140,
-      Math.min(950, Math.round((W * H) / (STAR_DENSITY_PX2 * throttleFactor))));
+      Math.round(Math.min(950, (W * H) / STAR_DENSITY_PX2) / throttleFactor));
     var FW = W + 2 * PAD, FH = H + 2 * PAD;
 
     for (var li = 0; li < LAYERS.length; li++) {

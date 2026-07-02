@@ -69,6 +69,11 @@
 
   function reallyShow(el) {
     build();
+    // Re-anchor cleanup: a handoff that skips hide() (focus tip -> hover tip,
+    // rapid touch confirmations) must not leave a stale aria-describedby behind.
+    if (trigger && trigger !== el) {
+      try { trigger.removeAttribute("aria-describedby"); } catch (e) {}
+    }
     trigger = el;
     render();
     tip.classList.add("show");
@@ -123,6 +128,7 @@
       if (!el) return;
       const to = e.relatedTarget;
       if (to && el.contains(to)) return;                // still inside the trigger
+      if (trigger && el !== trigger) return;            // a non-owning trigger must not dismiss a focus-owned tip
       hide();
     });
 
