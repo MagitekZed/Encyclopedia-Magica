@@ -22,21 +22,39 @@
 <div class="app">
   <header class="header" role="banner">
     <div class="wordmark"><span class="dropcap">✦</span><span class="wm-text">Encyclopedia&nbsp;Magica</span></div>
-    <button class="btn btn-primary" id="hdrRandom"><span class="reticle">✦</span><span class="hdr-label"> Random Item</span></button>
+    <button class="btn btn-primary" id="hdrRandom" aria-keyshortcuts="R"
+      data-tip="Roll a random item" data-tip-sub="Any table, any fate — one press." data-tip-kbd="R"><span class="reticle">✦</span><span class="hdr-label"> Random Item</span></button>
     <span class="spacer"></span>
     <div class="seedbox">
       <span class="seed-label">seed</span>
-      <input id="seed" type="text" inputmode="numeric" placeholder="—" aria-label="Seed" autocomplete="off">
-      <button id="lock" class="lock" title="Lock seed (reproducible)" aria-label="Lock seed">🔒</button>
-      <span id="count" class="count">#0</span>
+      <input id="seed" type="text" inputmode="numeric" placeholder="—" aria-label="Seed" autocomplete="off"
+        data-tip="Seed" data-tip-sub="The number that shaped this roll — type one and lock it to revisit.">
+      <button id="lock" class="lock" aria-label="Lock seed" aria-pressed="false" data-tip-live
+        data-tip="Seed · unlocked" data-tip-sub="Each roll draws a fresh seed — press to replay the one above.">🔒</button>
+      <span id="count" class="count" data-tip="Roll counter"
+        data-tip-sub="Rolls made this session — echoed in each result's seed line.">#0</span>
     </div>
-    <button class="btn-icon wide" id="cmdk" title="Command palette (Ctrl/⌘+K)">⌘K</button>
-    <button class="btn-icon" id="sound" title="Sound (off)" aria-label="Toggle sound">♪</button>
-    <button class="btn-icon" id="ritual" title="Ritual / Rapid (animation speed)" aria-label="Toggle animation speed">⚡</button>
-    <button class="btn-icon wide" id="reduce" title="Reduce effects" aria-label="Reduce effects">effects</button>
-    <button class="btn-icon" id="diag" title="Diagnostics / self-test" aria-label="Diagnostics">⚙</button>
-    <button class="btn-icon" id="more" title="More options" aria-label="More options">⋯</button>
-    <button class="btn-icon" id="grim" title="Grimoire (Ctrl+H)" aria-label="Toggle grimoire">☰</button>
+    <span class="hdr-sep" aria-hidden="true"></span>
+    <div class="hdr-group" role="group" aria-label="Session preferences">
+      <button class="btn-icon" id="sound" aria-label="Sound" aria-pressed="false" data-tip-live
+        data-tip="Sound · off" data-tip-sub="Dice clicks and chimes are silenced — press to wake them.">♪</button>
+      <button class="btn-icon wide" id="ritual" aria-label="Casting: ritual" data-tip-live
+        data-tip="Casting · ritual" data-tip-sub="Full dice-cast ceremony on every roll — press for instant results.">ritual</button>
+      <button class="btn-icon wide" id="reduce" aria-label="Reduce effects" aria-pressed="false" data-tip-live
+        data-tip="Effects · full" data-tip-sub="Starfield motion and glow at full strength — press to calm.">effects</button>
+    </div>
+    <span class="hdr-sep" aria-hidden="true"></span>
+    <div class="hdr-group" role="group" aria-label="Tools">
+      <button class="btn-icon wide" id="cmdk" aria-keyshortcuts="Control+K Meta+K"
+        data-tip="Command palette" data-tip-sub="Search every action, table, and artifact power." data-tip-kbd="Mod K">⌘K</button>
+      <button class="btn-icon" id="diag" aria-label="Diagnostics"
+        data-tip="Diagnostics" data-tip-sub="Run the self-test and review data warnings.">⚙</button>
+      <button class="btn-icon" id="more" aria-label="More options"
+        data-tip="More options" data-tip-sub="The full menu — everything the small screen hides.">⋯</button>
+      <button class="btn-icon" id="grim" aria-label="Grimoire" aria-controls="grimoire" aria-expanded="false"
+        aria-keyshortcuts="Control+H Meta+H" data-tip-live
+        data-tip="Grimoire · open" data-tip-sub="Your roll history — pin the finds worth keeping." data-tip-kbd="Mod H">☰</button>
+    </div>
   </header>
 
   <nav class="tabrail" role="tablist" aria-label="Roller sections">
@@ -70,6 +88,7 @@
 <script src="ui/sky.js"></script>
 <script src="ui/audio.js"></script>
 <script src="ui/widgets.js"></script>
+<script src="ui/tooltip.js"></script>
 <script src="ui/result.js"></script>
 <script src="ui/history.js"></script>
 <script src="ui/library.js"></script>

@@ -18,6 +18,14 @@
     const bf = window.CSS && CSS.supports && (CSS.supports("backdrop-filter", "blur(1px)") || CSS.supports("-webkit-backdrop-filter", "blur(1px)"));
     if (!bf) document.documentElement.classList.add("no-backdrop");
 
+    // tooltips + header instrument glyphs (emoji in markup are pre-boot fallback)
+    if (window.EMUI.initTooltips) window.EMUI.initTooltips();
+    const G = window.EMUI.glyph;
+    byId("diag").textContent = ""; byId("diag").append(G("gear", 18));
+    byId("more").textContent = ""; byId("more").append(G("dots", 18, 3.2));
+    byId("grim").textContent = ""; byId("grim").append(G("book", 18));
+    byId("cmdk").textContent = /Mac|iPhone|iPad/.test(navigator.platform || "") ? "⌘K" : "Ctrl K";
+
     // tabs / library / grimoire
     C.tabs.random = window.EMUI.buildRandom(byId("panelRandom"), C);
     C.tabs.single = window.EMUI.buildSingle(byId("panelSingle"), C, ds);
@@ -33,7 +41,7 @@
     // header wiring
     byId("hdrRandom").addEventListener("click", function () { C.selectTab("random"); C.tabs.random.rollDefault(); });
     C.dom.tabs.forEach(function (t) { t.addEventListener("click", function () { C.selectTab(t.dataset.tab); }); });
-    C.dom.lock.addEventListener("click", function () { C.dom.lock.classList.toggle("on"); if (window.EMAudio) window.EMAudio.play("uiTick"); });
+    C.dom.lock.addEventListener("click", function () { C.setLock(!C.dom.lock.classList.contains("on")); if (window.EMAudio) window.EMAudio.play("uiTick"); });
     byId("cmdk").addEventListener("click", function () { C.openPalette(); });
     C.dom.sound.addEventListener("click", function () { C.setMuted(window.EMAudio ? !window.EMAudio.isMuted() : true); });
     C.dom.ritual.addEventListener("click", function () { C.setRapid(!C.rapid); });
@@ -47,14 +55,16 @@
     // initial states
     if (window.matchMedia && matchMedia("(prefers-reduced-motion:reduce)").matches) C.setReduce(true);
     C.setMuted(window.EMAudio ? window.EMAudio.isMuted() : true);
+    C.setLock(false);
     const m = /[#&]s=(\d+)/.exec(location.hash || "");
-    if (m) { C.dom.seed.value = m[1]; C.dom.lock.classList.add("on"); }
+    if (m) { C.dom.seed.value = m[1]; C.setLock(true); }
 
     C.bindKeys();
     C.bindTabKeys();
     C.selectTab("random");                 // initialise aria-selected + roving tabindex
+    C.syncGrimAria();                      // #grim aria-expanded truth at boot (drawer boots closed <1024)
     requestAnimationFrame(function () { C.moveArc(); });
-    window.addEventListener("resize", function () { C.moveArc(); });
+    window.addEventListener("resize", function () { C.moveArc(); C.syncGrimAria(); });
     document.addEventListener("pointerdown", function once() {
       if (window.EMAudio) window.EMAudio.unlock();
       document.removeEventListener("pointerdown", once);

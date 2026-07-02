@@ -159,7 +159,7 @@
         s.append(el("option", { value: "", text: "🎲 Random" }));
         nums.forEach((num) => s.append(el("option", { value: num, text: num })));
         if (i < prev.length) s.value = prev[i];
-        const rnd = el("button", { class: "rnd", type: "button", title: "Randomize this slot", "aria-label": "Randomize power " + (i + 1), text: "🎲" });
+        const rnd = el("button", { class: "rnd", type: "button", "data-tip": "Randomize this slot", "aria-label": "Randomize power " + (i + 1), text: "🎲" });
         rnd.addEventListener("click", () => { s.value = ""; });
         const slot = el("div", { class: "slot" }, [el("span", { class: "n", text: "Power " + (i + 1) }), s, rnd]);
         slots.append(slot); slotSelects.push(s);

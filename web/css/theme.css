@@ -126,23 +126,33 @@ body.aurora-boost .aurora .blob { opacity:.28; filter:blur(64px); }
 .wordmark .dropcap { font-family:var(--f-flourish); color:var(--gold); font-size:24px;
   text-shadow:0 0 18px rgba(233,196,106,.6); }
 .header .spacer { flex:1; }
-.seedbox { display:flex; align-items:center; gap:6px; color:var(--mist); font-size:12px;
-  font-family:var(--f-display); letter-spacing:.1em; text-transform:uppercase; }
+.seedbox { display:flex; align-items:center; gap:6px; color:var(--mist-bright); font-size:12px;
+  font-family:var(--f-display); letter-spacing:.1em; text-transform:uppercase;
+  background:rgba(5,6,14,.35); border:1px solid rgba(42,53,102,.55); border-radius:11px;
+  padding:3px 6px 3px 10px; }
 .seedbox input { width:92px; background:rgba(5,6,14,.6); border:1px solid var(--glass-stroke);
   border-radius:8px; padding:5px 8px; color:var(--star-white); font-family:var(--f-mono); font-size:12px; letter-spacing:0; }
 .seedbox input:focus-visible { outline:none; border-color:var(--astral-blue); box-shadow:0 0 0 3px rgba(76,166,255,.25); }
 .lock { width:34px; height:34px; border-radius:8px; border:1px solid var(--glass-stroke);
-  background:rgba(5,6,14,.5); cursor:pointer; color:var(--mist); transition:all var(--dur-fast); }
-.lock.on { color:var(--gold); border-color:var(--gold-deep); box-shadow:0 0 12px rgba(233,196,106,.4); }
+  background:rgba(5,6,14,.5); cursor:pointer; color:var(--mist); transition:all var(--dur-fast);
+  display:grid; place-items:center; }
 .count { font-family:var(--f-mono); color:var(--mist); }
+/* header groups + engraved separators */
+.hdr-group { display:flex; align-items:center; gap:6px; }
+.hdr-sep { width:1px; height:22px; flex:none;
+  background:linear-gradient(180deg,transparent,var(--glass-stroke) 30%,var(--glass-stroke) 70%,transparent); }
 
 /* icon buttons */
 .btn-icon { width:36px; height:36px; border-radius:9px; border:1px solid var(--glass-stroke);
   background:rgba(5,6,14,.55); color:var(--mist); cursor:pointer; font-size:14px; display:grid; place-items:center;
   transition:all var(--dur-fast) var(--ease-out-expo); }
 .btn-icon:hover { color:var(--astral-blue); border-color:var(--astral-blue); box-shadow:0 0 14px rgba(76,166,255,.3); transform:translateY(-1px); }
-.btn-icon.active { color:var(--gold); border-color:var(--gold-deep); }
+/* pressed treatment: luminance cue (WCAG 1.4.1), redundant with glyph/text form-swap */
+.btn-icon.active,.lock.on { color:var(--gold); border-color:var(--gold-deep);
+  background:linear-gradient(180deg,rgba(233,196,106,.12),rgba(233,196,106,.03));
+  box-shadow:inset 0 1px 0 rgba(251,231,168,.18),0 0 12px rgba(233,196,106,.22); }
 .btn-icon.wide { width:auto; padding:0 10px; font-family:var(--f-mono); font-size:11px; letter-spacing:.05em; }
+.btn-icon svg,.lock svg { display:block; }
 
 /* ---- buttons ---- */
 .btn { border:1px solid var(--glass-stroke); background:linear-gradient(150deg,var(--glass-fill-a),var(--glass-fill-b));
@@ -165,13 +175,26 @@ button,input,select,[tabindex] { }
 .btn:focus-visible,.btn-icon:focus-visible { outline:2px solid var(--astral-blue); outline-offset:3px;
   box-shadow:0 0 0 5px rgba(76,166,255,.18); }
 
-/* ---- tab rail ---- */
-.tabrail { display:flex; align-items:center; gap:6px; padding:10px 18px 0; position:relative; }
-.tab { position:relative; background:transparent; border:1px solid transparent; border-radius:12px 12px 0 0;
-  padding:10px 18px; color:var(--mist); cursor:pointer; font-family:var(--f-display); letter-spacing:.08em;
-  font-size:14px; text-transform:uppercase; transition:color var(--dur-base); }
-.tab:hover { color:var(--star-white); }
-.tab.active { color:var(--gold); text-shadow:0 0 16px rgba(233,196,106,.35); }
+/* ---- tab rail: engraved plaques on an astrolabe rail (DESIGN.md §"glass chips").
+   The engraved baseline hairline is a BACKGROUND layer, not a ::after pseudo —
+   at ≤900px the rail scrolls horizontally and an abspos pseudo would detach. ---- */
+.tabrail { display:flex; align-items:flex-end; gap:8px; padding:12px 18px 0; position:relative;
+  background:
+    linear-gradient(90deg,var(--glass-stroke) 0%,var(--glass-stroke) 55%,transparent)
+      left 18px bottom 0 / calc(100% - 36px) 1px no-repeat,   /* engraved baseline */
+    linear-gradient(180deg,var(--surf-veil),rgba(5,6,14,0) 85%); /* rail scrim */
+}
+.tab { position:relative; border-radius:12px 12px 0 0; padding:11px 20px 12px; color:var(--mist-bright); cursor:pointer;
+  font-family:var(--f-display); font-weight:600; letter-spacing:.08em; font-size:14px; text-transform:uppercase;
+  text-shadow:0 1px 3px rgba(5,6,14,.9);
+  background:linear-gradient(180deg,rgba(10,13,28,.38),rgba(10,13,28,.62));
+  border:1px solid rgba(42,53,102,.45); border-bottom:0;
+  transition:color var(--dur-base),background var(--dur-base),border-color var(--dur-base); }
+.tab:hover { color:var(--star-white); border-color:var(--glass-stroke);
+  background:linear-gradient(180deg,rgba(17,22,52,.5),rgba(10,13,28,.7)); }
+.tab.active { color:var(--gold); text-shadow:0 1px 3px rgba(5,6,14,.9),0 0 16px rgba(233,196,106,.3);
+  border-color:rgba(138,106,46,.7);
+  background:linear-gradient(180deg,rgba(233,196,106,.09),rgba(10,13,28,.66)); }
 .tab-arc { position:absolute; bottom:0; height:2px; background:linear-gradient(90deg,transparent,var(--gold),transparent);
   border-radius:2px; box-shadow:0 0 10px var(--gold); transition:left var(--dur-base) var(--ease-spring),width var(--dur-base) var(--ease-spring); }
 
@@ -404,6 +427,28 @@ select.select:focus-visible { outline:none; border-color:var(--astral-blue); box
 .toast.show { opacity:1; transform:translateX(-50%) translateY(0); }
 .toast.ok { border-color:var(--lime-ok); color:var(--lime-ok); }
 
+/* ---- tooltip (E5 float tier — blur-free, z above toast) ---- */
+.tip { position:fixed; z-index:80; max-width:260px; pointer-events:none;
+  background:linear-gradient(160deg,var(--surf-float-a),var(--surf-float-b));
+  border:1px solid var(--glass-stroke); border-radius:10px; padding:7px 10px 8px;
+  box-shadow:0 10px 30px rgba(0,0,0,.6),inset 0 1px 0 var(--edge-hair),0 0 0 1px rgba(233,196,106,.05);
+  opacity:0; transform:translateY(-3px);
+  transition:opacity var(--dur-fast) var(--ease-out-expo),transform var(--dur-fast) var(--ease-out-expo); }
+.tip.show { opacity:1; transform:none; }
+.tip::before { content:""; position:absolute; top:-4px; left:calc(var(--tip-cx,50%) - 4px);
+  width:8px; height:8px; transform:rotate(45deg); background:var(--surf-float-a);
+  border-top:1px solid var(--glass-stroke); border-left:1px solid var(--glass-stroke); }
+.tip.above::before { top:auto; bottom:-4px; background:var(--surf-float-b);
+  border-top:0; border-left:0; border-bottom:1px solid var(--glass-stroke); border-right:1px solid var(--glass-stroke); }
+.tip-head { display:flex; align-items:center; gap:8px; }
+.tip-name { font-family:var(--f-display); font-size:11px; letter-spacing:.12em; text-transform:uppercase;
+  color:var(--star-white); white-space:nowrap; }
+.tip.lit .tip-name { color:var(--gold); }
+.tip-kbd { margin-left:auto; font-family:var(--f-mono); font-size:10px; color:var(--mist);
+  border:1px solid var(--glass-stroke); border-radius:5px; padding:1px 5px; background:rgba(5,6,14,.6); }
+.tip-sub { font-family:var(--f-prose); font-style:italic; font-size:12.5px; line-height:1.35;
+  color:var(--mist); margin-top:2px; }
+
 /* choose-slots */
 .slots { display:grid; grid-template-columns:repeat(auto-fill,minmax(180px,1fr)); gap:8px; margin-top:10px; }
 .slot { display:flex; align-items:center; gap:6px; }
@@ -439,8 +484,12 @@ select.select:focus-visible { outline:none; border-color:var(--astral-blue); box
   .header { gap:8px; padding-left:max(10px,env(safe-area-inset-left)); padding-right:max(10px,env(safe-area-inset-right)); }
   .wm-text { display:none; }
   #cmdk,#reduce { display:none; }
+  .hdr-sep { display:none; }
+  .seedbox { padding:2px 4px 2px 8px; }
   .seedbox input { width:70px; }
-  .header .btn-icon,.header .lock { width:40px; height:40px; }
+  /* :not(.wide) split is load-bearing — a fixed width clips the ritual text chip */
+  .header .btn-icon:not(.wide),.header .lock { width:40px; height:40px; }
+  .header .btn-icon.wide { height:40px; }
   .header .btn-primary .hdr-label { display:none; }
   .tabrail { overflow-x:auto; scrollbar-width:none; }
   .tabrail::-webkit-scrollbar { display:none; }
@@ -450,7 +499,8 @@ select.select:focus-visible { outline:none; border-color:var(--astral-blue); box
 @media (max-width:640px){
   input,select,.spinner input,.seedbox input { font-size:16px; }   /* prevents iOS focus-zoom */
   .btn { min-height:44px; }
-  .btn-icon,.lock,.header .btn-icon,.header .lock { width:44px; height:44px; }
+  .btn-icon:not(.wide),.lock,.header .btn-icon:not(.wide),.header .lock { width:44px; height:44px; }
+  .btn-icon.wide { height:44px; }
   .spinner .step { min-height:44px; width:40px; }
   .lens { padding:12px; min-height:44px; }
   .grim-entry { min-height:44px; }
@@ -485,6 +535,12 @@ select.select:focus-visible { outline:none; border-color:var(--astral-blue); box
 @media (max-width:560px){
   #hdrRandom,#ritual,#diag,.seedbox .seed-label,#count { display:none; }
   #more { display:grid; }
+  /* 320px header fit: buttons NEVER shrink (overflow becomes visible, not a
+     silent squeeze below 44px); the seedbox pill is the designated shrinker. */
+  .header { gap:6px; }
+  .header .btn-icon,.header .lock,.hdr-group { flex:none; }
+  .seedbox { flex:0 1 auto; min-width:0; padding:2px 4px 2px 6px; }
+  .seedbox input { width:48px; min-width:0; }
 }
 
 /* reduced motion */

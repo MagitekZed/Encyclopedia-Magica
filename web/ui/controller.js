@@ -90,9 +90,9 @@
       }
       item("🎲  Roll Random Item", () => { C.selectTab("random"); C.tabs.random.rollDefault(); });
       item("⌘  Command palette", () => C.openPalette());
-      item(C.rapid ? "🐢  Animation → Ritual (full)" : "⚡  Animation → Rapid (fast)", () => C.setRapid(!C.rapid));
-      item(C.reduceMotion ? "✨  Effects → on" : "✧  Reduce effects", () => C.setReduce(!C.reduceMotion));
-      item((window.EMAudio && !window.EMAudio.isMuted()) ? "♫  Sound → off" : "♪  Sound → on",
+      item(C.rapid ? "Casting → Ritual (full ceremony)" : "Casting → Rapid (instant)", () => C.setRapid(!C.rapid));
+      item(C.reduceMotion ? "Effects → full" : "Effects → reduced", () => C.setReduce(!C.reduceMotion));
+      item((window.EMAudio && !window.EMAudio.isMuted()) ? "Sound → off" : "Sound → on",
         () => C.setMuted(window.EMAudio ? !window.EMAudio.isMuted() : true));
       item("⚙  Diagnostics / self-test", () => C.diagnostics());
       dlg.append(wrap);
@@ -147,20 +147,66 @@
     };
 
     // ---- toggles ----
-    C.setRapid = function (b) { C.rapid = b; if (C.dom.ritual) C.dom.ritual.classList.toggle("active", b); };
+    // Each setter owns the full state fan-out: class, ARIA, glyph/text, tip copy.
+    // #ritual is a MODE-SWAP button (visible label IS the state; no aria-pressed —
+    // WCAG 2.5.3: the visible word is contained in the accessible name).
+    C.setRapid = function (b) {
+      C.rapid = b;
+      const r = C.dom.ritual; if (!r) return;
+      r.classList.toggle("active", b);
+      r.textContent = b ? "rapid" : "ritual";
+      r.setAttribute("aria-label", b ? "Casting: rapid" : "Casting: ritual");
+      r.dataset.tip = b ? "Casting · rapid" : "Casting · ritual";
+      r.dataset.tipSub = b ? "No ceremony — press to restore the full ritual."
+                           : "Full dice-cast ceremony on every roll — press for instant results.";
+      if (UI.refreshTip) UI.refreshTip();
+    };
     C.setReduce = function (b) {
       C.reduceMotion = b; document.body.classList.toggle("reduce-motion", b);
       if (C.sky) C.sky.setReducedMotion(b);
-      if (C.dom.reduce) C.dom.reduce.classList.toggle("active", b);
+      const r = C.dom.reduce; if (!r) return;
+      r.classList.toggle("active", b);
+      r.setAttribute("aria-pressed", String(b));
+      r.dataset.tip = b ? "Effects · reduced" : "Effects · full";
+      r.dataset.tipSub = b ? "Motion and glow dimmed for calm (and older GPUs)."
+                           : "Starfield motion and glow at full strength — press to calm.";
+      if (UI.refreshTip) UI.refreshTip();
     };
     C.setMuted = function (b) {
       if (window.EMAudio) { window.EMAudio.setMuted(b); if (!b) window.EMAudio.unlock(); }
-      if (C.dom.sound) { C.dom.sound.classList.toggle("active", !b); C.dom.sound.textContent = b ? "♪" : "♫"; }
+      const s = C.dom.sound; if (!s) return;
+      s.classList.toggle("active", !b);
+      s.setAttribute("aria-pressed", String(!b));
+      s.textContent = ""; s.append(UI.glyph(b ? "noteMuted" : "note", 18));
+      s.dataset.tip = b ? "Sound · off" : "Sound · on";
+      s.dataset.tipSub = b ? "Dice clicks and chimes are silenced — press to wake them."
+                           : "Dice clicks and chimes — press to silence.";
+      if (UI.refreshTip) UI.refreshTip();
+    };
+    C.setLock = function (b) {
+      const l = C.dom.lock; if (!l) return;
+      l.classList.toggle("on", b);
+      l.setAttribute("aria-pressed", String(b));
+      l.textContent = ""; l.append(UI.glyph(b ? "lockClosed" : "lockOpen", 16));
+      l.dataset.tip = b ? "Seed · locked" : "Seed · unlocked";
+      l.dataset.tipSub = b ? "Every roll replays the seed above — press to release."
+                           : "Each roll draws a fresh seed — press to replay the one above.";
+      if (UI.refreshTip) UI.refreshTip();
+    };
+    C.syncGrimAria = function () {
+      const g = document.getElementById("grim"); if (!g) return;
+      const open = window.matchMedia("(max-width:1023px)").matches
+        ? C.dom.app.classList.contains("show-grim")
+        : !C.dom.app.classList.contains("no-grim");
+      g.setAttribute("aria-expanded", String(open));
+      g.dataset.tip = open ? "Grimoire · open" : "Grimoire · hidden";
+      if (UI.refreshTip) UI.refreshTip();
     };
     C.toggleGrimoire = function () {
       const app = C.dom.app;
       if (window.matchMedia("(max-width:1023px)").matches) app.classList.toggle("show-grim");
       else app.classList.toggle("no-grim");
+      C.syncGrimAria();
       moveArc();
     };
 

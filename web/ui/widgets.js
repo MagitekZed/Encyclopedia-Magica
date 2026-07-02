@@ -107,12 +107,19 @@
     shield: "M16 4l10 4v7c0 7-5 11-10 13-5-2-10-6-10-13V8z",
     radiant: "M16 4v6M16 22v6M4 16h6M22 16h6M8 8l4 4M24 8l-4 4M8 24l4-4M24 24l-4-4",
     star: "M16 4l3 9h9l-7 6 3 9-8-6-8 6 3-9-7-6h9z",
+    /* header instrument glyphs (house 32x32 / stroke-1.4 / currentColor language) */
+    lockOpen: "M11 15v-4a5 5 0 0 1 9.6-1.9M8 15h16v12H8zM16 20.5v3.5",
+    lockClosed: "M11 15v-4a5 5 0 0 1 10 0v4M8 15h16v12H8zM16 20.5v3.5",
+    note: "M12 24V7l11-2.5V21M12 24a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM23 21a3 3 0 1 1-6 0 3 3 0 0 1 6 0z",
+    noteMuted: "M12 24V7l11-2.5V21M12 24a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM23 21a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM5 5l22 22",
+    gear: "M16 11.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9zM16 3.5v4.2M16 24.3v4.2M3.5 16h4.2M24.3 16h4.2M7.2 7.2l3 3M21.8 21.8l3 3M24.8 7.2l-3 3M10.2 21.8l-3 3",
+    dots: "M8.5 16h.01M16 16h.01M23.5 16h.01",
   };
-  UI.glyph = function (name, size) {
+  UI.glyph = function (name, size, strokeWidth) {
     size = size || 26;
     const d = GLYPHS[name] || GLYPHS.star;
     const s = svgEl("svg", { viewBox: "0 0 32 32", width: size, height: size, class: "catglyph-svg" });
-    s.append(svgEl("path", { d: d, fill: "none", stroke: "currentColor", "stroke-width": 1.4,
+    s.append(svgEl("path", { d: d, fill: "none", stroke: "currentColor", "stroke-width": strokeWidth || 1.4,
       "stroke-linejoin": "round", "stroke-linecap": "round" }));
     return s;
   };
