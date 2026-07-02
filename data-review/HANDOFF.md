@@ -142,6 +142,11 @@ name, reroll, page (int | list[int] | null), page_status}`. `index_full.json` en
 
 ## 4. Phase 2 — App polish (after the data review)
 
+> **UPDATE (2026-07-01): the "Observatory Refit" UI overhaul SHIPPED** (commits 9d1e232..eb91b8f) —
+> sky-canvas sizing bug fixed, starfield retuned, elevation-tier surface system, header tooltips/glyphs,
+> engraved tab plaques, hoard **illuminated-ledger manifest**, library slab. Spec: `web/POLISH_DESIGN.md`;
+> durable laws: `web/DESIGN.md §13`. Open follow-up: port hoard summary/manifest to `desktop/` (or document divergence).
+
 The app already passed an adversarial review (26/27 findings fixed) + a full mobile pass, and is live.
 Candidate polish ideas to consider (get the user's direction):
 - Surface the new **`subcategory`** in the UI (Library column/filter; result trace) now that items are typed.
