@@ -49,8 +49,9 @@ def make_trace_tree(parent) -> ttk.Treeview:
 
 def populate_trace(tree: ttk.Treeview, root: RollStep) -> None:
     """Clear ``tree`` and render ``root``.  Ordinary rolls render fully expanded;
-    a hoard renders as a glanceable manifest — one row per item (resolved name,
-    category, page) with its dice cascade collapsed one level down."""
+    a hoard renders as a manifest — each row is the item *category* (e.g. "Scrolls")
+    with its page, and expanding reveals the specific item + full dice cascade.  So
+    the collapsed view reads as a clean list of loot *types*, no name repeated."""
     tree.delete(*tree.get_children())
 
     def insert(step: RollStep, parent_id: str, open_: bool = True) -> str:
@@ -73,15 +74,28 @@ def populate_trace(tree: ttk.Treeview, root: RollStep) -> None:
             m = it["node"]
             page = ", ".join(it["pages"]) if it["pages"] else \
                 ("not in index" if it["unindexed"] else "—")
+            cat = it["cat"] or m.label                 # gap fallback
             tags = ["not_in_index"] if (it["unindexed"] and not it["pages"]) else []
             if it["gap"]:
                 tags.append("gap")
-            row = tree.insert(hoard_id, "end",
-                              text=f"{it['n']:02d}. {it['name']}",
-                              values=(where_text(m), page, it["cat"]),
-                              open=False, tags=tags)     # collapsed: glanceable, expand for the cascade
+            # row = the item TYPE + its page; expand reveals the specific item.
+            row = tree.insert(hoard_id, "end", text=f"{it['n']:02d}. {cat}",
+                              values=(where_text(m), page, ""), open=False, tags=tags)
             for c in m.children:
                 insert(c, row)
         return
 
     insert(root, "")
+
+
+def set_open_all(tree: ttk.Treeview, open_: bool) -> None:
+    """Expand or collapse every node.  On collapse, top-level containers stay open
+    so a hoard's type list (and a normal result's first level) remains visible."""
+    def walk(node):
+        for c in tree.get_children(node):
+            tree.item(c, open=open_)
+            walk(c)
+    walk("")
+    if not open_:
+        for top in tree.get_children(""):
+            tree.item(top, open=True)

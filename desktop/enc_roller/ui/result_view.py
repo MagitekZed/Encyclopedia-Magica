@@ -12,7 +12,7 @@ import tkinter as tk
 from tkinter import ttk
 
 from .format import result_to_text
-from .widgets import make_trace_tree, populate_trace
+from .widgets import make_trace_tree, populate_trace, set_open_all
 
 
 class ResultView(ttk.Frame):
@@ -26,6 +26,13 @@ class ResultView(ttk.Frame):
                                   font=("Helvetica", 15, "bold"),
                                   anchor="w", justify="left", wraplength=560)
         self.headline.pack(fill="x", pady=(0, 6))
+
+        toolbar = ttk.Frame(self)
+        toolbar.pack(fill="x", pady=(0, 2))
+        ttk.Button(toolbar, text="Expand all", width=11,
+                   command=lambda: set_open_all(self.tree, True)).pack(side="left", padx=(0, 2))
+        ttk.Button(toolbar, text="Collapse all", width=12,
+                   command=lambda: set_open_all(self.tree, False)).pack(side="left")
 
         tree_wrap = ttk.Frame(self)
         tree_wrap.pack(fill="both", expand=True)

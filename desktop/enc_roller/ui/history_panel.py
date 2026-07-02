@@ -15,7 +15,7 @@ from tkinter import filedialog, ttk
 
 from .format import (ensure_hoard_summaries, hoard_block, result_to_text,
                      step_from_dict, step_to_dict, trace_lines)
-from .widgets import make_trace_tree, populate_trace
+from .widgets import make_trace_tree, populate_trace, set_open_all
 
 LIVE_CAP = 200
 
@@ -131,6 +131,12 @@ class HistoryPanel(ttk.Frame):
                   wraplength=600, anchor="w", justify="left").pack(fill="x", padx=8, pady=6)
         meta = f"{e['kind']} · {e['ts']}" + (f" · seed {e['seed']}" if e.get("seed") is not None else "")
         ttk.Label(top, text=meta, foreground="#666").pack(anchor="w", padx=8)
+        bar = ttk.Frame(top)
+        bar.pack(fill="x", padx=8)
+        ttk.Button(bar, text="Expand all", width=11,
+                   command=lambda: set_open_all(tree, True)).pack(side="left", padx=(0, 2))
+        ttk.Button(bar, text="Collapse all", width=12,
+                   command=lambda: set_open_all(tree, False)).pack(side="left")
         wrap = ttk.Frame(top)
         wrap.pack(fill="both", expand=True, padx=8, pady=6)
         tree = make_trace_tree(wrap)
