@@ -24,6 +24,7 @@ class RollStep:
     children: list["RollStep"] = field(default_factory=list)
     kind: str = "roll"         # roll | assembly | cap | gap | reroll | enhancement
     note: str | None = None    # human-readable annotation
+    summary: str | None = None # resolved display name (set on hoard item roots)
 
     def walk(self) -> Iterator["RollStep"]:
         """Depth-first iterator over this node and all descendants."""

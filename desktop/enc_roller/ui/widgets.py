@@ -6,7 +6,7 @@ import tkinter as tk
 from tkinter import ttk
 
 from ..engine.results import RollStep
-from .format import page_text, where_text
+from .format import hoard_items, page_text, where_text
 
 # Tag -> foreground colour for special trace rows.
 KIND_COLORS = {
@@ -39,7 +39,7 @@ def make_trace_tree(parent) -> ttk.Treeview:
     tree.heading("note", text="Notes")
     tree.column("#0", width=340, minwidth=180, stretch=True)
     tree.column("where", width=120, minwidth=90, stretch=False, anchor="w")
-    tree.column("page", width=90, minwidth=60, stretch=False, anchor="w")
+    tree.column("page", width=110, minwidth=70, stretch=False, anchor="w")
     tree.column("note", width=200, minwidth=100, stretch=True, anchor="w")
     for kind, color in KIND_COLORS.items():
         tree.tag_configure(kind, foreground=color)
@@ -48,10 +48,12 @@ def make_trace_tree(parent) -> ttk.Treeview:
 
 
 def populate_trace(tree: ttk.Treeview, root: RollStep) -> None:
-    """Clear ``tree`` and render the full ``root`` trace, all nodes expanded."""
+    """Clear ``tree`` and render ``root``.  Ordinary rolls render fully expanded;
+    a hoard renders as a glanceable manifest — one row per item (resolved name,
+    category, page) with its dice cascade collapsed one level down."""
     tree.delete(*tree.get_children())
 
-    def insert(step: RollStep, parent_id: str) -> None:
+    def insert(step: RollStep, parent_id: str, open_: bool = True) -> str:
         tags = []
         if step.kind in KIND_COLORS:
             tags.append(step.kind)
@@ -59,8 +61,27 @@ def populate_trace(tree: ttk.Treeview, root: RollStep) -> None:
             tags.append("not_in_index")
         node = tree.insert(parent_id, "end", text=step.label,
                            values=(where_text(step), page_text(step), step.note or ""),
-                           open=True, tags=tags)
+                           open=open_, tags=tags)
         for c in step.children:
             insert(c, node)
+        return node
+
+    if root.table == "hoard":
+        hoard_id = tree.insert("", "end", text=root.label, values=("", "", ""),
+                               open=True, tags=["assembly"])
+        for it in hoard_items(root):
+            m = it["node"]
+            page = ", ".join(it["pages"]) if it["pages"] else \
+                ("not in index" if it["unindexed"] else "—")
+            tags = ["not_in_index"] if (it["unindexed"] and not it["pages"]) else []
+            if it["gap"]:
+                tags.append("gap")
+            row = tree.insert(hoard_id, "end",
+                              text=f"{it['n']:02d}. {it['name']}",
+                              values=(where_text(m), page, it["cat"]),
+                              open=False, tags=tags)     # collapsed: glanceable, expand for the cascade
+            for c in m.children:
+                insert(c, row)
+        return
 
     insert(root, "")

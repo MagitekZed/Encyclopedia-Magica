@@ -169,7 +169,11 @@ class RollEngine:
     def roll_hoard(self, k: int) -> RollResult:
         if not isinstance(k, int) or k < 1:
             raise ValueError("hoard size must be an integer >= 1")
-        children = [self.roll_random_item().root for _ in range(k)]
+        children = []
+        for _ in range(k):
+            res = self.roll_random_item()
+            res.root.summary = res.headline   # exact display name (handles assembled "+2 Chain Mail")
+            children.append(res.root)
         root = RollStep("hoard", 0, 0, f"Treasure Hoard — {k} items", None, "n/a",
                         kind="assembly", children=children)
         return RollResult("hoard", self._headline(root), root, self.roller.seed)
@@ -262,6 +266,11 @@ class RollEngine:
     # ===================================================================== #
     # Headline derivation (from the tree)
     # ===================================================================== #
+    def headline(self, root: RollStep) -> str:
+        """Public alias — the resolved display name for a (sub)tree. Pure over the
+        tree (no dataset/roller state), so it also heals legacy hoard summaries."""
+        return self._headline(root)
+
     def _headline(self, root: RollStep) -> str:
         base = self._primary_name(root)
         if root.table in ("artifact", "hoard"):

@@ -326,7 +326,12 @@ Additive field; determinism unaffected. Legacy persisted roots healed at render:
 **Stage 6 — Docs, build, full regression.**
 - `web/DESIGN.md` — §2: elevation table + tier rule (§1.2, incl. split E3 floors and the teal-blob binding-case note); §4 clause 4: aperture frame + density/gain/halo values + the `lvh` sizing rationale; §8 :345-346: Hoard Manifest spec (replaces "small collapsed constellation"); RollStep description: optional `summary` field; must-have 9 (:404): hoard copy/export leads with manifest; header/tab sections: plaques (re-aligned with :183), tooltip component, `--mist-bright`, group semantics, **the two toggle idioms (§2.12)**; a11y notes: documented 1.4.13 pointer-events:none tradeoff (do not "fix" into the dead-zone variant); ink-hygiene law names **both** `--mist-faint` and `--gold-deep` as decorative-only.
 - `python3 web/build.py` → confirm `tooltip.js` inlined, **zero leftover-external-ref warnings** (the :43-44 check is the gate for a malformed script tag); open `dist/magica_roller.html` via `file://` and smoke the full flow.
-- Follow-up ticket (not this change): port `rollHoard` summary + manifest lines to `desktop/enc_roller` for JS↔Python parity, or document divergence in both file headers.
+- ~~Follow-up ticket: port `rollHoard` summary + manifest lines to `desktop/enc_roller`.~~ **DONE (2026-07-01):**
+  desktop now at functional parity — `RollStep.summary` capture in `roll_hoard`, `hoard_items/hoard_manifest_lines/
+  hoard_block/ensure_hoard_summaries` in `ui/format.py`, glanceable Treeview manifest (resolved names + pages at
+  top level, cascade collapsed one level down) in `ui/widgets.py`, manifest-led Copy/Export + legacy healing in
+  `ui/history_panel.py`. 7 new tests in `tests/test_hoard.py` (53 total green). Bells/whistles (tooltips, theme,
+  starfield, animations) intentionally NOT ported — desktop is Tkinter.
 
 ---
 

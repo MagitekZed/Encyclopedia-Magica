@@ -13,7 +13,8 @@ import json
 import tkinter as tk
 from tkinter import filedialog, ttk
 
-from .format import result_to_text, step_from_dict, step_to_dict, trace_lines
+from .format import (ensure_hoard_summaries, hoard_block, result_to_text,
+                     step_from_dict, step_to_dict, trace_lines)
 from .widgets import make_trace_tree, populate_trace
 
 LIVE_CAP = 200
@@ -138,6 +139,8 @@ class HistoryPanel(ttk.Frame):
         tree.configure(yscrollcommand=vsb.set)
         vsb.pack(side="right", fill="y")
         root = step_from_dict(e["root"])
+        if root.table == "hoard":
+            ensure_hoard_summaries(root, self.app.engine)   # heal pre-summary hoards
         populate_trace(tree, root)
 
         def copy():
@@ -165,7 +168,11 @@ class HistoryPanel(ttk.Frame):
                 for e in self.entries:
                     root = step_from_dict(e["root"])
                     head = ("📌 " if e["pinned"] else "") + e["headline"]
-                    body = "\n".join(trace_lines(root))
+                    if root.table == "hoard":                # lead with the manifest (same block as Copy)
+                        ensure_hoard_summaries(root, self.app.engine)
+                        body = "\n".join(hoard_block(root) + trace_lines(root))
+                    else:
+                        body = "\n".join(trace_lines(root))
                     seed = f"\nseed {e['seed']}" if e.get("seed") is not None else ""
                     blocks.append(f"{head}\n{body}{seed}\n({e['ts']})")
                 with open(fname, "w", encoding="utf-8") as fh:
