@@ -101,7 +101,7 @@ body.aurora-boost .aurora .blob { opacity:.28; filter:blur(64px); }
 @keyframes apertureIn { from{transform:scale(.6);opacity:.4} to{transform:scale(1);opacity:1} }
 
 /* ---- app shell ---- */
-.app { display:grid; height:100vh;
+.app { display:grid; height:100vh; height:100dvh;   /* dvh tracks the mobile URL bar so the footer stays reachable */
   grid-template-columns:1fr var(--sidebar); grid-template-rows:56px auto 1fr;
   grid-template-areas:"header header" "tabs grim" "main grim";
   transition:grid-template-columns var(--dur-base) var(--ease-out-expo); }
@@ -604,12 +604,22 @@ select.select:focus-visible { outline:none; border-color:var(--astral-blue); box
 @media (max-width:560px){
   #hdrRandom,#ritual,#diag,.seedbox .seed-label,#count { display:none; }
   #more { display:grid; }
+  /* shrink the tab plaques so all four fit without horizontal scrolling */
+  .tabrail { gap:4px; padding:8px 8px 0; }
+  .tab { padding:9px 9px 10px; font-size:11px; letter-spacing:.02em; }
   /* 320px header fit: buttons NEVER shrink (overflow becomes visible, not a
      silent squeeze below 44px); the seedbox pill is the designated shrinker. */
   .header { gap:6px; }
   .header .btn-icon,.header .lock,.hdr-group { flex:none; }
   .seedbox { flex:0 1 auto; min-width:0; padding:2px 4px 2px 6px; }
   .seedbox input { width:48px; min-width:0; }
+}
+
+@media (max-width:360px){
+  /* tighter still — all four tabs on one row down to the 320px floor.
+     After the ≤560 block so it wins the equal-specificity .tab cascade. */
+  .tabrail { gap:3px; padding:8px 6px 0; }
+  .tab { padding:9px 6px 10px; font-size:10.5px; letter-spacing:.01em; }
 }
 
 /* reduced motion */
